@@ -38,11 +38,12 @@
 
 ```bash
 npm install
+npm run cf-typegen
 npm run db:migrate:local
 npm run dev
 ```
 
-`.dev.vars` 的 `LOCAL_DEMO=true` 只供本機視覺測試。這個檔案已被 Git 忽略。
+先將 `.dev.vars.example` 複製為 `.dev.vars` 再填入本機值；其中 `LOCAL_DEMO=true` 只供本機視覺測試。這個檔案已被 Git 忽略。CI 只使用範例中的空值產生型別，不會接觸正式 secrets。
 
 ## 正式部署前設定
 

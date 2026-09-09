@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - name: 建立無秘密的型別設定
+        run: cp .dev.vars.example .dev.vars
       - run: npm ci
       - run: npm run check
       - run: npm run release:check
