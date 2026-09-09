@@ -3,6 +3,7 @@ import type { SessionUser } from "./types";
 
 const SESSION_COOKIE = "rep_session";
 const OAUTH_STATE_COOKIE = "rep_oauth_state";
+const SESSION_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
 const textEncoder = new TextEncoder();
 
 type SessionPayload = SessionUser & { exp: number };
@@ -128,10 +129,10 @@ export async function getSession(request: Request, env: Env): Promise<SessionUse
 
 async function createSessionCookie(request: Request, env: Env, user: SessionUser): Promise<string> {
   const token = await signObject(
-    { ...user, exp: Math.floor(Date.now() / 1000) + 60 * 60 * 24 },
+    { ...user, exp: Math.floor(Date.now() / 1000) + SESSION_MAX_AGE_SECONDS },
     env.SESSION_SECRET,
   );
-  return cookie(SESSION_COOKIE, token, request.url, { maxAge: 60 * 60 * 24 });
+  return cookie(SESSION_COOKIE, token, request.url, { maxAge: SESSION_MAX_AGE_SECONDS });
 }
 
 async function upsertUser(env: Env, user: DiscordUser): Promise<void> {

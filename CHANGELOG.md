@@ -2,6 +2,17 @@
 
 所有值得記錄的變更都會整理在此。版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，提交訊息遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hant/v1.0.0/)。
 
+## [1.0.1] - 2026-09-10
+
+### 修正
+
+- Discord 登入 Cookie 有效期由 24 小時延長為 30 天，部署新版不會主動清除登入狀態。
+- 保留 `HttpOnly`、正式環境 `Secure` 與 `SameSite=Lax`，避免前端程式讀取 session Cookie。
+
+### 維護
+
+- 建立公開 GitHub repository、Semantic Versioning、Conventional Commits、CI、中文 GitHub Release 與 Discord release-notes 自動通知流程。
+
 ## [1.0.0] - 2026-09-10
 
 ### 新增
@@ -27,4 +38,5 @@
 - 限制上傳格式與大小，照片只能經登入後的 Worker API 存取。
 - Discord 訊息停用 mentions，所有 credentials 僅使用 Cloudflare 或 GitHub Secrets。
 
+[1.0.1]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.0.1
 [1.0.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.0.0

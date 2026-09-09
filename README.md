@@ -78,6 +78,7 @@ npm run dev
 
 - 網站依「是否仍為指定 Discord 伺服器成員」決定登入資格；不讀取私人好友名單。
 - Discord 成員使用雲端同步、好友動態及頻道通知；訪客只有本機個人日曆與「我的紀錄」。
+- Discord 登入 Cookie 有效期為 30 天；部署新版本不會清除登入。清除網站資料、手動登出或更換 `SESSION_SECRET` 仍會使 session 失效。
 - Webhook secret、Discord Client Secret 與 Session Secret 只放 Cloudflare secrets。
 - Discord 訊息停用所有 mentions，避免輸入內容觸發 `@everyone` 或角色通知。
 - 上傳僅接受 JPEG、PNG、WebP，單檔上限 5 MB。
