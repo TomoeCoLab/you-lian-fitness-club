@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local development only.
+LOCAL_DEMO=true
+SESSION_SECRET=replace-with-a-long-random-local-value
+DISCORD_CLIENT_ID=
+DISCORD_CLIENT_SECRET=
+DISCORD_WEBHOOK_URL=

@@ -1,0 +1,39 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*.*.*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DISCORD_RELEASE_WEBHOOK_URL: ${{ secrets.DISCORD_RELEASE_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run release:check
+      - name: 擷取中文版本重點
+        run: node scripts/extract-release-notes.mjs "$GITHUB_REF_NAME"
+      - name: 建立 GitHub Release
+        run: gh release create "$GITHUB_REF_NAME" --title "YOU LIAN $GITHUB_REF_NAME" --notes-file .release-notes.md --verify-tag
+      - name: 通知 Discord release-notes
+        if: ${{ env.DISCORD_RELEASE_WEBHOOK_URL != '' }}
+        env:
+          RELEASE_VERSION: ${{ github.ref_name }}
+          REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
+        run: node scripts/notify-discord-release.mjs
+      - name: 確認 Discord webhook 已設定
+        if: ${{ env.DISCORD_RELEASE_WEBHOOK_URL == '' }}
+        run: |
+          echo "Repository secret DISCORD_RELEASE_WEBHOOK_URL 尚未設定。" >&2
+          exit 1

@@ -1,0 +1,41 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "you-lian-rep-club",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-04",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "DISCORD_CLIENT_ID": "1545369011611770890",
+    "DISCORD_GUILD_ID": "1545351675471073342",
+    "DISCORD_CHANNEL_ID": "1545352171950837770",
+    "R2_STORAGE_LIMIT_BYTES": "8589934592",
+    "R2_CLASS_A_MONTHLY_LIMIT": "10000",
+    "R2_CLASS_B_MONTHLY_LIMIT": "50000"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "you-lian-rep-club",
+      "database_id": "0c40699e-0b7c-4930-bf35-dc1aaff527fb",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "PHOTOS",
+      "bucket_name": "you-lian-rep-club-photos"
+    }
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    }
+  }
+}
