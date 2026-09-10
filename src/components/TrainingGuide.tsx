@@ -19,6 +19,7 @@ import { builtInWorkoutTemplates } from "../data/workoutTemplates";
 import { progressSuggestion } from "../lib/progress";
 import type { BodyPart, Checkin, Equipment, ExerciseSetEntry, GuideExercise, WorkoutDraft, WorkoutItem, WorkoutTemplate, WorkoutTemplateItem } from "../types";
 import { EquipmentIcon } from "./EquipmentIcon";
+import { ExerciseDiagram } from "./ExerciseDiagram";
 import { RestTimer } from "./RestTimer";
 import { TrainingLibraryDialog } from "./TrainingLibraryDialog";
 
@@ -311,6 +312,8 @@ export function TrainingGuide({ workout, templates, history, dataLoading, onWork
           <div><h2>{selected.name}</h2><p>{selected.bodyParts.join(" · ")} / {selected.equipment} / {selected.difficulty}</p></div>
           <span>{activeItem ? `${completedCount(activeItem)} / ${activeItem.entries.length} 組完成` : "尚未加入訓練"}</span>
         </header>
+
+        <ExerciseDiagram exercise={selected} />
 
         <section className="exercise-video" aria-label={`${selected.name} 示範影片`}>
           <div className="exercise-video__frame">

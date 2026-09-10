@@ -2,6 +2,18 @@
 
 所有值得記錄的變更都會整理在此。版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，提交訊息遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hant/v1.0.0/)。
 
+## [1.1.0] - 2026-09-10
+
+### 新增
+
+- 新增坐姿大腿內收、坐姿大腿外展與啞鈴過頭三頭肌伸展，共 57 個訓練動作與 23 種器材分類。
+- 所有動作詳情新增響應式假人分解圖，以起始／完成姿勢、器材圖示與三項中文重點輔助理解。
+
+### 修正
+
+- 羅馬椅背伸改用實際示範羅馬椅的中文影片，並改以國立中興大學體育室資料交叉核對。
+- 新增影片先核對 YouTube 標題、發布頻道、內容說明與實際畫面，再加入訓練資料庫。
+
 ## [1.0.1] - 2026-09-10
 
 ### 修正
@@ -39,4 +51,5 @@
 - Discord 訊息停用 mentions，所有 credentials 僅使用 Cloudflare 或 GitHub Secrets。
 
 [1.0.1]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.0.1
+[1.1.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.1.0
 [1.0.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.0.0

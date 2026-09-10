@@ -5,6 +5,7 @@ export const equipmentOptions: Array<"全部" | Equipment> = [
   "全部", "徒手", "啞鈴", "槓鈴", "壺鈴", "彈力帶", "史密斯機", "滑輪機",
   "胸推機", "蝴蝶機", "高位下拉機", "坐姿划船機", "肩推機", "腿推機", "腿屈伸機", "腿彎舉機",
   "輔助引體機", "臀推機", "哈克深蹲機", "小腿訓練機", "羅馬椅",
+  "大腿內收機", "大腿外展機",
   "瑜珈墊",
 ];
 
@@ -311,12 +312,39 @@ export const exercises: GuideExercise[] = [
     video: youtube("H14HliH4Mfs", "下肢器械使用參考", "May Fit"), sourceUrl: mayoStrength, sourceLabel: "Mayo Clinic 肌力訓練原則",
   },
   {
+    id: "machine-hip-adduction", name: "坐姿大腿內收", bodyParts: ["腿"], equipment: "大腿內收機", difficulty: "入門", tracking: "reps",
+    summary: "坐姿將雙腿向中線靠攏，集中訓練大腿內側肌群。",
+    instructions: ["調整座椅與擋墊，讓膝蓋約對齊器械轉軸，擋墊貼在大腿內側。", "背部與骨盆貼穩靠墊，雙腳踩妥踏板後平順合攏雙腿。", "在終點短暫停留，再控制雙腿回到舒適的張開幅度。"],
+    cues: ["膝蓋對齊器械轉軸", "骨盆與背部不離開靠墊", "回程慢、不讓配重碰撞"],
+    recommendation: { sets: 3, reps: 12, durationSeconds: null, restSeconds: 60, load: "先以可完整控制 12–15 次的輕重量熟悉活動範圍" },
+    video: youtube("3iGBw2muBrc", "大腿內收／外展訓練機教學", "提爾健身"),
+    sourceUrl: "https://www.womenshealthmag.com/tw/fitness/work-outs/g43382298/inner-outer-thigh/", sourceLabel: "Women's Health Taiwan",
+  },
+  {
+    id: "machine-hip-abduction", name: "坐姿大腿外展", bodyParts: ["腿"], equipment: "大腿外展機", difficulty: "入門", tracking: "reps",
+    summary: "坐姿將雙腿向外打開，訓練臀中肌與髖外展控制。",
+    instructions: ["調整座椅與擋墊，讓膝蓋約對齊器械轉軸，擋墊貼在大腿外側。", "背部與骨盆貼穩靠墊，雙腳踩妥踏板後將雙腿向外打開。", "到可控制的終點後停一下，再緩慢回到起始位置。"],
+    cues: ["膝蓋與腳尖方向一致", "不要後仰或甩動骨盆", "回程保持張力、不讓配重碰撞"],
+    recommendation: { sets: 3, reps: 12, durationSeconds: null, restSeconds: 60, load: "先以可完整控制 12–15 次的輕重量熟悉活動範圍" },
+    video: youtube("3iGBw2muBrc", "大腿內收／外展訓練機教學", "提爾健身"),
+    sourceUrl: "https://www.womenshealthmag.com/tw/fitness/work-outs/g43382298/inner-outer-thigh/", sourceLabel: "Women's Health Taiwan",
+  },
+  {
+    id: "dumbbell-overhead-triceps-extension", name: "啞鈴過頭三頭肌伸展", bodyParts: ["手臂"], equipment: "啞鈴", difficulty: "入門", tracking: "reps",
+    summary: "將啞鈴置於頭後，以伸直手肘訓練肱三頭肌，特別是長頭。",
+    instructions: ["雙手托住一顆啞鈴並舉過頭，雙腳站穩、腹部收緊。", "上臂留在耳朵兩側，彎曲手肘讓啞鈴緩慢降到頭後。", "吐氣伸直手肘回到起點，手肘保留微彎、不甩動重量。"],
+    cues: ["上臂保持固定、不向外張", "肋骨收好、腰部不過度拱起", "先用輕重量確認頭後空間"],
+    recommendation: { sets: 3, reps: 12, durationSeconds: null, restSeconds: 60, load: "選擇可控制下放、完成 10–12 次且保留約 2 次餘力的重量" },
+    video: youtube("qgLsiBn5jJo", "啞鈴過頭三頭肌伸展教學", "楷教練"),
+    sourceUrl: "https://www.mr-sport.com.tw/weighttraining/triceps-training-you-never-try.html", sourceLabel: "MR.SPORT 專業健身",
+  },
+  {
     id: "back-extension", name: "羅馬椅背伸", bodyParts: ["背", "腿", "核心"], equipment: "羅馬椅", difficulty: "入門", tracking: "reps",
     summary: "固定下肢後以髖部控制軀幹，訓練後鏈穩定。",
     instructions: ["調整大腿墊，使髖關節能自由折疊。", "收緊腹部，從髖部控制軀幹下降。", "臀部出力回到身體成一直線的位置。"],
     cues: ["不要過度後仰", "背部保持自然", "先用徒手小範圍"],
     recommendation: { sets: 3, reps: 12, durationSeconds: null, restSeconds: 60, load: "徒手熟悉路徑；能穩定控制後再抱輕槓片" },
-    video: youtube("mCkHvemP79U", "髖折疊與後鏈動作參考", scu), sourceUrl: mayoStrength, sourceLabel: "Mayo Clinic 肌力訓練原則",
+    video: youtube("VdIKtiivPyk", "羅馬椅背伸完整教學", "賴宇恩"), sourceUrl: "https://htbs.nchu.edu.tw/about/%E8%A8%93%E7%B7%B4%E6%96%B9%E5%BC%8F/%E6%A9%9F%E6%A2%B0%E5%BC%8F%E8%A8%AD%E5%82%99", sourceLabel: "國立中興大學體育室",
   },
   {
     id: "reverse-pec-deck", name: "反向蝴蝶機", bodyParts: ["背", "肩"], equipment: "蝴蝶機", difficulty: "入門", tracking: "reps",

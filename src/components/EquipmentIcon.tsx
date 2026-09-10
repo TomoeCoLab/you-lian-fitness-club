@@ -39,6 +39,8 @@ export function EquipmentIcon({ equipment, size = 42 }: EquipmentIconProps) {
   if (equipment === "臀推機") return frame(<><path d="M8 55h48M13 42h24l10 13M16 22v20m0-12h17" /><circle cx="40" cy="28" r="4" /><path d="m37 31-9 11m3-8 14 8M25 38l9 10" /><path d="M26 34h22" /></>);
   if (equipment === "哈克深蹲機") return frame(<><path d="M10 55h44M16 50 42 12m-19 38 26-38M38 14h12v10" /><circle cx="34" cy="25" r="4" /><path d="m32 29-6 10 8 9m-8-9 12 3 6-9" /></>);
   if (equipment === "小腿訓練機") return frame(<><path d="M9 55h46M14 14v41m0-34h22l8 12" /><circle cx="27" cy="29" r="4" /><path d="m27 33 1 11m0-6 10 5m-10 1-7 9m7-9 12 8" /><path d="M38 52h12" /></>);
+  if (equipment === "大腿內收機") return frame(<><path d="M9 55h46M14 13v42m0-34h30M22 43h20v12" /><circle cx="32" cy="18" r="4" /><path d="M32 22v17m0-10-9 8m9-8 9 8M27 39l5 8 5-8" /><path d="M24 35h4m8 0h4" /></>);
+  if (equipment === "大腿外展機") return frame(<><path d="M9 55h46M14 13v42m0-34h30M22 43h20v12" /><circle cx="32" cy="18" r="4" /><path d="M32 22v17m0-10-9 8m9-8 9 8M27 39l-8 8m18-8 8 8" /><path d="M20 35h6m12 0h6" /></>);
   if (equipment === "羅馬椅") return frame(<><path d="M8 55h48M15 18l12 30m-4-20h23m-9 0 9 27M27 48l-8 7" /><circle cx="30" cy="17" r="4" /><path d="m33 19 13 9m-19-8-8 8" /></>);
   if (equipment === "瑜珈墊") return frame(<><path d="M12 20h34c7 0 10 5 10 11s-4 11-11 11H12V20Z" /><ellipse cx="45" cy="31" rx="7" ry="11" /><path d="M12 42v5m0-27v-5m-4 0h8m-8 32h8" /></>);
   return frame(<><path d="M10 55V10h44v45M18 48h28" /><circle cx="32" cy="21" r="4" /><path d="M32 25v18m0-12-9 6m9-6 9 6" /></>);
