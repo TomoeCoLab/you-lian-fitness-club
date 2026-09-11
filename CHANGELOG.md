@@ -2,6 +2,20 @@
 
 所有值得記錄的變更都會整理在此。版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，提交訊息遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hant/v1.0.0/)。
 
+## [1.2.0] - 2026-09-11
+
+### 新增
+
+- 為全部 57 個訓練動作加入繁體中文真人分解圖，涵蓋徒手、自由重量、固定器械與瑜珈伸展。
+- 新增男女兩位一致角色的動作示範；本次新增項目平均採用男性與女性角色。
+- 每張圖解整合動作階段、方向、姿勢重點、建議次數或時間，以及呼吸提醒。
+
+### 改善
+
+- 健身指引統一使用真人圖解，取代原有的簡易假人示意圖。
+- 圖解支援響應式縮放與另開完整大圖，改善桌機及手機閱讀體驗。
+- 建立後續新增動作的圖解規範：沿用核准角色、繁體中文、生物力學檢查及無標語版面。
+
 ## [1.1.0] - 2026-09-10
 
 ### 新增
@@ -51,5 +65,6 @@
 - Discord 訊息停用 mentions，所有 credentials 僅使用 Cloudflare 或 GitHub Secrets。
 
 [1.0.1]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.0.1
+[1.2.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.2.0
 [1.1.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.1.0
 [1.0.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.0.0
