@@ -5,6 +5,8 @@ type RestTimerProps = {
   seconds: number;
   timerKey: string;
   deadline: number;
+  pausedRemaining?: number;
+  onStateChange?: (state: { deadline: number; pausedRemaining?: number }) => void;
   onClose: () => void;
 };
 
@@ -13,17 +15,17 @@ function formatTime(seconds: number): string {
   return `${String(Math.floor(safe / 60)).padStart(2, "0")}:${String(safe % 60).padStart(2, "0")}`;
 }
 
-export function RestTimer({ seconds, timerKey, deadline: savedDeadline, onClose }: RestTimerProps) {
+export function RestTimer({ seconds, timerKey, deadline: savedDeadline, pausedRemaining, onStateChange, onClose }: RestTimerProps) {
   const initialDeadline = useMemo(() => savedDeadline || Date.now() + seconds * 1000, [savedDeadline, seconds, timerKey]);
   const [deadline, setDeadline] = useState(initialDeadline);
-  const [remaining, setRemaining] = useState(() => Math.max(0, Math.ceil((initialDeadline - Date.now()) / 1000)));
-  const [running, setRunning] = useState(() => initialDeadline > Date.now());
+  const [remaining, setRemaining] = useState(() => pausedRemaining ?? Math.max(0, Math.ceil((initialDeadline - Date.now()) / 1000)));
+  const [running, setRunning] = useState(() => pausedRemaining === undefined && initialDeadline > Date.now());
 
   useEffect(() => {
     setDeadline(initialDeadline);
-    setRemaining(Math.max(0, Math.ceil((initialDeadline - Date.now()) / 1000)));
-    setRunning(initialDeadline > Date.now());
-  }, [initialDeadline, timerKey]);
+    setRemaining(pausedRemaining ?? Math.max(0, Math.ceil((initialDeadline - Date.now()) / 1000)));
+    setRunning(pausedRemaining === undefined && initialDeadline > Date.now());
+  }, [initialDeadline, timerKey, pausedRemaining]);
 
   useEffect(() => {
     if (!running) return;
@@ -42,18 +44,24 @@ export function RestTimer({ seconds, timerKey, deadline: savedDeadline, onClose 
 
   const toggle = () => {
     if (running) {
-      setRemaining(Math.max(0, Math.ceil((deadline - Date.now()) / 1000)));
+      const paused = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+      setRemaining(paused);
       setRunning(false);
+      onStateChange?.({ deadline, pausedRemaining: paused });
     } else if (remaining > 0) {
-      setDeadline(Date.now() + remaining * 1000);
+      const resumedDeadline = Date.now() + remaining * 1000;
+      setDeadline(resumedDeadline);
       setRunning(true);
+      onStateChange?.({ deadline: resumedDeadline });
     }
   };
 
   const reset = () => {
+    const resetDeadline = Date.now() + seconds * 1000;
     setRemaining(seconds);
-    setDeadline(Date.now() + seconds * 1000);
+    setDeadline(resetDeadline);
     setRunning(true);
+    onStateChange?.({ deadline: resetDeadline });
   };
 
   return (

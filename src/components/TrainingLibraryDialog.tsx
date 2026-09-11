@@ -82,7 +82,7 @@ export function TrainingLibraryDialog({ templates, history, workout, onApply, on
                 <small>{template.items.length} 動作 · {template.items.reduce((sum, item) => sum + item.sets, 0)} 組</small>
                 {!template.builtIn ? <button className="template-delete" disabled={busyId !== null} onClick={() => void remove(template.id)} aria-label={`刪除 ${template.name}`}><Trash2 size={16} /></button> : null}
                 {previewId === template.id
-                  ? <button className="template-apply" onClick={() => { onApply(template); onClose(); }}>開始訓練<ChevronRight size={17} /></button>
+                  ? <button className="template-apply" onClick={() => { onApply(template); onClose(); }}>加入今日課表<ChevronRight size={17} /></button>
                   : <button className="template-apply" onClick={() => setPreviewId(template.id)}>查看課表<ChevronRight size={17} /></button>}
               </footer>
             </article>)}

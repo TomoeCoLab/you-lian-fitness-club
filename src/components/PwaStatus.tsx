@@ -20,6 +20,14 @@ export function PwaStatus() {
     window.addEventListener("online", onOnline);
     window.addEventListener("offline", onOffline);
     window.addEventListener("beforeinstallprompt", onInstall);
+    // First installation may claim this page without requiring a reload.
+    // Only replacing an existing controller is an application update.
+    let hadController = "serviceWorker" in navigator && !!navigator.serviceWorker.controller;
+    let refreshing = false;
+    const onControllerChange = () => {
+      if (hadController && !refreshing) { refreshing = true; window.location.reload(); }
+      hadController = !!navigator.serviceWorker.controller;
+    };
     if ("serviceWorker" in navigator) {
       void navigator.serviceWorker.register("/sw.js").then((registration) => {
         if (registration.waiting) setUpdateWorker(registration.waiting);
@@ -30,15 +38,13 @@ export function PwaStatus() {
           });
         });
       });
-      let refreshing = false;
-      navigator.serviceWorker.addEventListener("controllerchange", () => {
-        if (!refreshing) { refreshing = true; window.location.reload(); }
-      });
+      navigator.serviceWorker.addEventListener("controllerchange", onControllerChange);
     }
     return () => {
       window.removeEventListener("online", onOnline);
       window.removeEventListener("offline", onOffline);
       window.removeEventListener("beforeinstallprompt", onInstall);
+      if ("serviceWorker" in navigator) navigator.serviceWorker.removeEventListener("controllerchange", onControllerChange);
     };
   }, []);
 
