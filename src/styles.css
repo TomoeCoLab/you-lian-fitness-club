@@ -502,6 +502,14 @@ body.activity-detail-open { overflow: hidden; }
 .exercise-diagram__cues span { min-height: 48px; padding: 10px 12px; display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 700; }
 .exercise-diagram__cues span + span { border-left: 1px solid var(--line); }
 .exercise-diagram__cues b { width: 20px; height: 20px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 50%; background: var(--active); color: var(--ink); font-size: 10px; }
+.exercise-infographic { margin-bottom: 18px; overflow: hidden; border: 1px solid var(--ink); background: #eef1f7; }
+.exercise-infographic__heading { min-height: 54px; padding: 10px 14px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--ink); background: #f7f6f2; }
+.exercise-infographic__heading > div { display: flex; flex-direction: column; gap: 2px; }
+.exercise-infographic__heading strong { font-size: 15px; }
+.exercise-infographic__heading span { color: var(--muted); font-size: 10px; }
+.exercise-infographic__heading > a { flex: 0 0 auto; color: var(--ink); font-size: 11px; font-weight: 900; text-decoration: underline; text-underline-offset: 3px; }
+.exercise-infographic__image-link { display: block; background: #eef1f7; cursor: zoom-in; }
+.exercise-infographic img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; }
 .exercise-video { border: 1px solid var(--ink); background: var(--ink); color: var(--white); }
 .exercise-video__frame { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #111; }
 .exercise-video__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
