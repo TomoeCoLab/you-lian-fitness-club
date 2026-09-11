@@ -72,3 +72,12 @@ export type WorkoutTemplateRecord = {
   createdAt: string;
   updatedAt: string;
 };
+
+export type CustomExerciseRecord = {
+  id: string;
+  name: string;
+  bodyPart: "胸" | "背" | "腿" | "肩" | "手臂" | "核心";
+  tracking: "reps" | "time";
+  restSeconds: number;
+  createdAt: string;
+};

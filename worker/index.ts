@@ -4,6 +4,7 @@ import { sendCheckinWebhook } from "./discord";
 import { assertSameOrigin, json } from "./http";
 import { reservePhotoRead, reservePhotoUpload } from "./r2-quota";
 import { createTemplate, deleteTemplate, listTemplates, parseTemplateInput } from "./templates";
+import { createCustomExercise, listCustomExercises, parseCustomExercise } from "./custom-exercises";
 
 async function handleApi(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
   const url = new URL(request.url);
@@ -53,6 +54,17 @@ async function handleApi(request: Request, env: Env, ctx: ExecutionContext): Pro
 
   if (request.method === "GET" && url.pathname === "/api/templates") {
     return json({ templates: await listTemplates(env, user.id) });
+  }
+
+  if (request.method === "GET" && url.pathname === "/api/custom-exercises") {
+    return json({ exercises: await listCustomExercises(env, user.id) });
+  }
+
+  if (request.method === "POST" && url.pathname === "/api/custom-exercises") {
+    if (!assertSameOrigin(request)) return json({ error: "Invalid origin" }, 403);
+    const input = parseCustomExercise(await request.json().catch(() => null));
+    if (!input) return json({ error: "Invalid custom exercise" }, 400);
+    return json({ exercise: await createCustomExercise(env, user.id, input) }, 201);
   }
 
   if (request.method === "POST" && url.pathname === "/api/templates") {

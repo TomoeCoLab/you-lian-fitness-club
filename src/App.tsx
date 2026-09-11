@@ -2,7 +2,7 @@ import { CalendarDays, Check, ChevronDown, Dumbbell, LogOut, NotebookTabs, Users
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ApiError, api } from "./lib/api";
 import { dateFromKey, dateKey, monthKey, shiftMonth, todayKey } from "./lib/date";
-import type { AppConfig, Checkin, CheckinDraft, ReactionKind, User, WorkoutTemplate, WorkoutTemplateItem } from "./types";
+import type { AppConfig, Checkin, CheckinDraft, CustomExercise, ReactionKind, User, WorkoutTemplate, WorkoutTemplateItem } from "./types";
 import { ActivityRail } from "./components/ActivityRail";
 import { Avatar } from "./components/Avatar";
 import { Brand } from "./components/Brand";
@@ -23,6 +23,7 @@ import {
 } from "./lib/guestStore";
 import { createGuestTemplate, deleteGuestTemplate, loadGuestTemplates } from "./lib/templateStore";
 import { clearWorkout, loadWorkout, saveWorkout } from "./lib/workoutStore";
+import { loadCustomExercises, saveCustomExercise } from "./lib/customExerciseStore";
 import type { WorkoutDraft } from "./types";
 
 type View = "calendar" | "activity" | "guide";
@@ -54,6 +55,7 @@ function App() {
   const [staleWorkoutOpen, setStaleWorkoutOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
   const [templates, setTemplates] = useState<WorkoutTemplate[]>([]);
+  const [customExercises, setCustomExercises] = useState<CustomExercise[]>([]);
   const [progressHistory, setProgressHistory] = useState<Checkin[]>([]);
   const [guideDataLoading, setGuideDataLoading] = useState(false);
   const profileRef = useRef<HTMLDivElement>(null);
@@ -143,10 +145,12 @@ function App() {
     try {
       if (session.kind === "guest") {
         setTemplates(loadGuestTemplates());
+        setCustomExercises(loadCustomExercises());
         setProgressHistory(await loadGuestHistory());
       } else {
-        const [templateResult, progressResult] = await Promise.all([api.templates(), api.progress()]);
+        const [templateResult, progressResult, customResult] = await Promise.all([api.templates(), api.progress(), api.customExercises()]);
         setTemplates(templateResult.templates);
+        setCustomExercises(customResult.exercises);
         setProgressHistory(progressResult.checkins);
       }
     } catch {
@@ -201,6 +205,16 @@ function App() {
       if (!response.ok) throw new Error("Template delete failed");
     }
     setTemplates((current) => current.filter((template) => template.id !== id));
+  };
+
+  const createCustomExercise = async (input: Omit<CustomExercise, "id" | "createdAt">): Promise<CustomExercise> => {
+    if (!session) throw new Error("Not signed in");
+    const exercise = session.kind === "guest"
+      ? { ...input, id: `custom-${crypto.randomUUID()}`, createdAt: new Date().toISOString() }
+      : (await api.createCustomExercise(input)).exercise;
+    if (session.kind === "guest") saveCustomExercise(exercise);
+    setCustomExercises((current) => [exercise, ...current]);
+    return exercise;
   };
 
   const completedWorkoutSets = useMemo(
@@ -327,6 +341,13 @@ function App() {
     setDrawerOpen(true);
   };
 
+  const openDetailedWorkout = () => {
+    closeDrawer();
+    navigate("guide");
+    setToast(workout.items.length ? "已回到今日訓練，可繼續完成組數。" : "請選擇課表、既有動作或建立自訂動作。");
+    window.setTimeout(() => setToast(null), 3800);
+  };
+
   const finishPreviousWorkout = () => {
     setStaleWorkoutOpen(false);
     prepareWorkoutCheckout(workout.workoutDate, true);
@@ -409,7 +430,7 @@ function App() {
           </div>
         </main>
       ) : view === "activity" ? <main><FriendFeed month={month} checkins={checkins} localOnly={localOnly} onReact={updateReaction} onPreviousMonth={() => changeMonth(-1)} onNextMonth={() => changeMonth(1)} onToday={showCurrentActivityMonth} /></main> : (
-        <TrainingGuide workout={workout} templates={templates} history={progressHistory} dataLoading={guideDataLoading} onWorkoutChange={updateWorkout} onCheckout={checkoutWorkout} onSaveTemplate={saveTemplate} onDeleteTemplate={removeTemplate} />
+        <TrainingGuide workout={workout} templates={templates} history={progressHistory} dataLoading={guideDataLoading} customExercises={customExercises} onCreateCustomExercise={createCustomExercise} onWorkoutChange={updateWorkout} onCheckout={checkoutWorkout} onSaveTemplate={saveTemplate} onDeleteTemplate={removeTemplate} />
       )}
 
       <footer className="site-footer"><span className="discord-symbol" aria-hidden="true">●●</span><span>{localOnly ? "訪客模式 · 資料只保存在這個瀏覽器" : "只顯示「今天有練」伺服器成員的動態"}</span></footer>
@@ -418,7 +439,7 @@ function App() {
         <button className={view === "activity" ? "mobile-nav__button mobile-nav__button--active" : "mobile-nav__button"} onClick={() => navigate("activity")} aria-current={view === "activity" ? "page" : undefined}>{localOnly ? <NotebookTabs size={20} /> : <Users size={20} />}<span>{localOnly ? "我的紀錄" : "好友動態"}</span></button>
         <button className={view === "guide" ? "mobile-nav__button mobile-nav__button--active" : "mobile-nav__button"} onClick={() => navigate("guide")} aria-current={view === "guide" ? "page" : undefined}><Dumbbell size={20} /><span>健身指引</span></button>
       </nav>
-      {drawerOpen ? <CheckinDrawer date={selectedDate} prefill={drawerPrefill} onClose={closeDrawer} onSave={save} localOnly={localOnly} /> : null}
+      {drawerOpen ? <CheckinDrawer date={selectedDate} prefill={drawerPrefill} onClose={closeDrawer} onSave={save} localOnly={localOnly} onDetailedRequested={openDetailedWorkout} /> : null}
       {staleWorkoutOpen ? <StaleWorkoutDialog date={workout.workoutDate} completedSets={completedWorkoutSets} onFinishPrevious={finishPreviousWorkout} onStartToday={startTodayWorkout} onClose={() => setStaleWorkoutOpen(false)} /> : null}
       {toast ? <div className="toast" role="status"><Check size={18} strokeWidth={3} />{toast}</div> : null}
     </div>

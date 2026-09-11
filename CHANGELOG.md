@@ -2,6 +2,25 @@
 
 所有值得記錄的變更都會整理在此。版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，提交訊息遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hant/v1.0.0/)。
 
+## [1.3.0] - 2026-09-11
+
+### 新增
+
+- 新增手機專用「今日訓練」模式，集中顯示目前動作、當前組、快速加減次數、休息倒數、下一個動作與固定結束列。
+- 課表改為先查看完整摘要，再開始訓練，避免誤加入動作且讓總組數與內容一目了然。
+- 新增自訂動作，可選主要部位與次數／時間紀錄；Discord 會員同步至帳號，訪客保存在本機。
+
+### 改善
+
+- 「完整訓練」統一改走健身指引的逐組紀錄，不再維護另一套組數、重量與次數輸入方式。
+- 結束訓練後以唯讀摘要確認每一組的實際重量、次數或時間，再補上時長、心得與照片完成打卡。
+- 今日訓練可在重新載入頁面後繼續，手機底部控制列直接回到尚未完成的組數。
+- 好友動態與個人歷史沿用逐組明細，能查看每一組的實際完成內容。
+
+### 修正
+
+- 統一跨日未完成訓練的完成條件；沒有任何已完成組數時，不再允許送出前次完整打卡。
+
 ## [1.2.0] - 2026-09-11
 
 ### 新增
@@ -65,6 +84,7 @@
 - Discord 訊息停用 mentions，所有 credentials 僅使用 Cloudflare 或 GitHub Secrets。
 
 [1.0.1]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.0.1
+[1.3.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.3.0
 [1.2.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.2.0
 [1.1.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.1.0
 [1.0.0]: https://github.com/TomoeCoLab/you-lian-fitness-club/releases/tag/v1.0.0

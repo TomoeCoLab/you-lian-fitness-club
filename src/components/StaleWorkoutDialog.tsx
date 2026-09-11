@@ -43,8 +43,8 @@ export function StaleWorkoutDialog({ date, completedSets, onFinishPrevious, onSt
         </header>
         <p>{formatSelectedDate(date)}留下了 {completedSets} 個已完成組數。請先決定它要記在哪一天，YOU LIAN 不會自動把舊訓練算進今天。</p>
         <div className="stale-workout-actions">
-          <button className="stale-workout-primary" onClick={onFinishPrevious}>
-            <span><strong>完成前次打卡</strong><small>時長計算到最後一次紀錄</small></span><ArrowRight size={20} />
+          <button className="stale-workout-primary" disabled={completedSets === 0} onClick={onFinishPrevious}>
+            <span><strong>完成前次打卡</strong><small>{completedSets === 0 ? "至少需有一組已完成紀錄" : "時長計算到最後一次紀錄"}</small></span><ArrowRight size={20} />
           </button>
           <button className="stale-workout-secondary" onClick={onStartToday}>
             <Trash2 size={18} /><span><strong>清空並開始今天</strong><small>前次未送出的組數會移除</small></span>

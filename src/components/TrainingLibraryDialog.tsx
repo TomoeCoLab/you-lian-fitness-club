@@ -19,6 +19,7 @@ export function TrainingLibraryDialog({ templates, history, workout, onApply, on
   const [tab, setTab] = useState<"templates" | "progress">("templates");
   const [name, setName] = useState("");
   const [busyId, setBusyId] = useState<string | null>(null);
+  const [previewId, setPreviewId] = useState<string | null>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
   const overview = useMemo(() => progressOverview(history), [history]);
@@ -74,12 +75,15 @@ export function TrainingLibraryDialog({ templates, history, workout, onApply, on
             <div><input value={name} maxLength={40} onChange={(event) => setName(event.target.value)} placeholder="例如：週一推力日" aria-label="課表名稱" /><button disabled={!name.trim() || workout.items.length === 0 || busyId !== null} onClick={() => void save()}><Plus size={17} />儲存</button></div>
           </section>
           <div className="template-grid">
-            {templates.map((template) => <article className="template-card" key={template.id}>
+            {templates.map((template) => <article className={`template-card${previewId === template.id ? " template-card--preview" : ""}`} key={template.id}>
               <div><span>{template.builtIn ? "YOU LIAN 建議" : "自訂課表"}</span><h3>{template.name}</h3><p>{template.items.map((item) => item.exerciseName).join(" · ")}</p></div>
+              {previewId === template.id ? <ol className="template-preview-list">{template.items.map((item) => <li key={item.exerciseId}><strong>{item.exerciseName}</strong><span>{item.sets} 組 · {item.tracking === "time" ? `${item.durationSeconds ?? 30} 秒` : `${item.reps ?? 10} 次`}</span></li>)}</ol> : null}
               <footer>
                 <small>{template.items.length} 動作 · {template.items.reduce((sum, item) => sum + item.sets, 0)} 組</small>
                 {!template.builtIn ? <button className="template-delete" disabled={busyId !== null} onClick={() => void remove(template.id)} aria-label={`刪除 ${template.name}`}><Trash2 size={16} /></button> : null}
-                <button className="template-apply" onClick={() => { onApply(template); onClose(); }}>加入今天<ChevronRight size={17} /></button>
+                {previewId === template.id
+                  ? <button className="template-apply" onClick={() => { onApply(template); onClose(); }}>開始訓練<ChevronRight size={17} /></button>
+                  : <button className="template-apply" onClick={() => setPreviewId(template.id)}>查看課表<ChevronRight size={17} /></button>}
               </footer>
             </article>)}
           </div>

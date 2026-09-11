@@ -94,6 +94,16 @@ export type WorkoutItem = {
   tracking: "reps" | "time";
   restSeconds: number;
   entries: ExerciseSetEntry[];
+  custom?: boolean;
+};
+
+export type CustomExercise = {
+  id: string;
+  name: string;
+  bodyPart: BodyPart;
+  tracking: "reps" | "time";
+  restSeconds: number;
+  createdAt: string;
 };
 
 export type WorkoutDraft = {

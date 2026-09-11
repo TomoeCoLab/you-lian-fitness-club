@@ -12,6 +12,7 @@ type CheckinDrawerProps = {
   onClose: () => void;
   onSave: (draft: CheckinDraft, photo: File | null) => Promise<void>;
   localOnly?: boolean;
+  onDetailedRequested?: () => void;
 };
 
 const options: Array<{ mode: CheckinMode; index: number; title: string; description: string }> = [
@@ -38,7 +39,7 @@ function inRange(value: number, min: number, max: number): boolean {
   return Number.isFinite(value) && value >= min && value <= max;
 }
 
-export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = false }: CheckinDrawerProps) {
+export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = false, onDetailedRequested }: CheckinDrawerProps) {
   const initial = useRef(readDraft(date, prefill)).current;
   const [mode, setMode] = useState<CheckinMode>(initial.mode);
   const [workoutType, setWorkoutType] = useState(initial.workoutType ?? "");
@@ -150,7 +151,13 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
 
           <div className="mode-list" role="radiogroup" aria-label="打卡深度">
             {options.map((option) => (
-              <button type="button" className={`mode-row${mode === option.mode ? " mode-row--selected" : ""}`} key={option.mode} onClick={() => setMode(option.mode)} role="radio" aria-checked={mode === option.mode}>
+              <button type="button" className={`mode-row${mode === option.mode ? " mode-row--selected" : ""}`} key={option.mode} onClick={() => {
+                if (option.mode === "detailed" && !prefill && onDetailedRequested) {
+                  onDetailedRequested();
+                  return;
+                }
+                setMode(option.mode);
+              }} role="radio" aria-checked={mode === option.mode}>
                 <span className="mode-row__index">{option.index}</span><strong>{option.title}</strong><span>{option.description}</span>{mode === option.mode ? <Check size={20} strokeWidth={2.6} /> : <ChevronRight size={20} />}
               </button>
             ))}
@@ -170,15 +177,12 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
                   {exercises.map((exercise, index) => (
                     <fieldset className="exercise-entry-card" key={`exercise-${index}`}>
                       <legend>動作 {index + 1}</legend>
-                      <label className="exercise-entry-card__name"><span>動作名稱</span><input value={exercise.name} onChange={(event) => updateExercise(index, "name", event.target.value)} placeholder="深蹲" maxLength={50} /></label>
-                      <label><span>組數</span><input type="number" inputMode="numeric" min="1" max="100" value={exercise.sets} onChange={(event) => updateExercise(index, "sets", event.target.value)} /></label>
-                      <label><span>重量 kg</span><input type="number" inputMode="decimal" min="0" max="1000" step="0.5" value={exercise.weight} onChange={(event) => updateExercise(index, "weight", event.target.value)} /></label>
-                      <label><span>次數</span><input type="number" inputMode="numeric" min="1" max="1000" value={exercise.reps} onChange={(event) => updateExercise(index, "reps", event.target.value)} /></label>
-                      <button type="button" className="exercise-entry-card__remove" onClick={() => setExercises((current) => current.filter((_, exerciseIndex) => exerciseIndex !== index))} aria-label={`移除第 ${index + 1} 個動作`}><Trash2 size={17} /><span>移除</span></button>
+                      <label className="exercise-entry-card__name"><span>動作名稱</span><input value={exercise.name} readOnly /></label>
+                      <label><span>完成組數</span><input value={exercise.sets} readOnly /></label>
                       {exercise.entries?.length ? <p className="exercise-row__entries">逐組紀錄：{exercise.entries.map((entry, entryIndex) => entry.durationSeconds ? `第 ${entryIndex + 1} 組 ${entry.durationSeconds} 秒` : `第 ${entryIndex + 1} 組 ${entry.weight ?? 0} kg × ${entry.reps ?? 0} 次`).join(" · ")}</p> : null}
                     </fieldset>
                   ))}
-                  <button type="button" className="add-exercise" onClick={() => setExercises((current) => [...current, { ...emptyExercise }])}><Plus size={18} />新增動作</button>
+                  {!prefill ? <button type="button" className="add-exercise" onClick={onDetailedRequested}><Plus size={18} />前往訓練模式新增動作</button> : null}
                 </div>
               ) : null}
 

@@ -1,4 +1,4 @@
-import type { AppConfig, Checkin, CheckinDraft, ReactionKind, ReactionSummary, User, WorkoutTemplate, WorkoutTemplateItem } from "../types";
+import type { AppConfig, Checkin, CheckinDraft, CustomExercise, ReactionKind, ReactionSummary, User, WorkoutTemplate, WorkoutTemplateItem } from "../types";
 
 export class ApiError extends Error {
   constructor(
@@ -29,6 +29,8 @@ export const api = {
     requestJson<{ checkins: Checkin[] }>(`/api/calendar?month=${encodeURIComponent(month)}`),
   progress: () => requestJson<{ checkins: Checkin[] }>("/api/progress"),
   templates: () => requestJson<{ templates: WorkoutTemplate[] }>("/api/templates"),
+  customExercises: () => requestJson<{ exercises: CustomExercise[] }>("/api/custom-exercises"),
+  createCustomExercise: (input: Omit<CustomExercise, "id" | "createdAt">) => requestJson<{ exercise: CustomExercise }>("/api/custom-exercises", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(input) }),
   createTemplate: (name: string, items: WorkoutTemplateItem[]) =>
     requestJson<{ template: WorkoutTemplate }>("/api/templates", {
       method: "POST",
