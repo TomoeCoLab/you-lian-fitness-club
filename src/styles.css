@@ -12,6 +12,12 @@
   --muted: #707072;
   --success: #159447;
   --active: #d7ff38;
+  /* Shared spacing for the compact training controls. */
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
 }
 
 * { box-sizing: border-box; }
@@ -1085,7 +1091,9 @@ body.training-mode-open .site-header, body.training-mode-open .site-footer, body
 
 .pwa-status { position: fixed; right: 20px; bottom: 20px; z-index: 1800; max-width: min(440px, calc(100vw - 24px)); min-height: 48px; padding: 8px 10px 8px 14px; border: 1px solid var(--ink); background: var(--white); box-shadow: 0 12px 34px rgba(0,0,0,.2); display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 750; }
 .pwa-status > span { flex: 1; }
-.pwa-status > button { min-height: 32px; padding: 0 11px; border: 0; background: var(--ink); color: var(--white); font-size: 10px; font-weight: 850; cursor: pointer; }
+.pwa-status > button { min-width: 44px; min-height: 44px; padding: 0 11px; border: 0; background: var(--ink); color: var(--white); font-size: 12px; font-weight: 850; cursor: pointer; flex-shrink: 0; }
+.pwa-status > svg { flex-shrink: 0; }
+body:has(.mobile-basket-bar) .pwa-status { bottom: calc(150px + env(safe-area-inset-bottom)); }
 .pwa-status > .pwa-status__close { width: 32px; padding: 0; background: var(--cloud); color: var(--ink); }
 .pwa-status--offline { background: var(--ink); color: var(--white); }
 
@@ -1111,6 +1119,29 @@ body.training-mode-open .site-header, body.training-mode-open .site-footer, body
   .exercise-browser__heading > button i { animation: none; }
 }
 /* Mobile training: compact library, explicit plan, contextual instruction sheets. */
+.set-editor { border-top: 1px solid var(--line); margin: var(--space-20) 0; }
+.set-editor__heading, .set-editor__row { display: grid; grid-template-columns: 36px minmax(0,1fr) minmax(0,1fr) 64px; gap: var(--space-10); align-items: center; padding: var(--space-12) 0; }
+.set-editor__heading { color: var(--muted); font-size: 12px; text-align: center; }
+.set-editor__row { border-bottom: 1px solid var(--line-soft); text-align: center; }
+.set-editor__row input { width: 100%; min-width: 0; height: 48px; background: white; border: 1px solid var(--line); font-size: 20px; text-align: center; border-radius: 0; }
+.set-editor__row button { min-height: 48px; border: 1px solid var(--ink); color: var(--ink); background: white; cursor: pointer; }
+.set-editor__row.is-complete button { background: var(--ink); color: white; font-size: 22px; }
+.set-editor__row button:disabled { opacity: .4; }
+.set-editor__row small { grid-column: 1 / -1; color: #a52222; font-size: 12px; text-align: left; }
+.set-editor > p { color: var(--muted); font-size: 12px; }
+.plan-exercise header h3 { margin-right: auto; }
+.plan-drag-handle { touch-action: none; user-select: none; -webkit-touch-callout: none; cursor: grab !important; padding: 8px; }
+.plan-exercise.is-dragging { opacity: .5; }
+.plan-exercise.is-drop-target { border-top: 3px solid var(--ink); }
+.exercise-infographic__heading button { border: 0; background: transparent; font: inherit; cursor: zoom-in; text-decoration: underline; }
+button.exercise-infographic__image-link { width: 100%; padding: 0; border: 0; cursor: zoom-in; background: transparent; }
+dialog.diagram-viewer { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; inset: 0; margin: 0; border-radius: 0; overflow: hidden; }
+.diagram-viewer .training-sheet__surface { height: 100%; display: flex; flex-direction: column; }
+.diagram-viewer__tools { display: flex; align-items: center; justify-content: center; gap: 18px; padding: 8px; }
+.diagram-viewer__tools button { min-width: 44px; background: white; border: 1px solid var(--line); }
+.diagram-viewer__stage { flex: 1; min-height: 0; overflow: hidden; touch-action: none; user-select: none; cursor: grab; display: flex; align-items: center; justify-content: center; background: #eee; }
+.diagram-viewer__stage img { width: 100%; height: 100%; object-fit: contain; pointer-events: none; will-change: transform; }
+.diagram-viewer__hint { padding: 8px 16px max(12px, env(safe-area-inset-bottom)); margin: 0; text-align: center; font-size: 12px; color: var(--muted); }
 .training-sheet { position: fixed; inset: 0; margin: auto; padding: 0; border: 0; width: min(720px, calc(100% - 40px)); max-width: 100%; max-height: 90dvh; background: var(--white); color: var(--ink); overflow: auto; overscroll-behavior: contain; }
 .training-sheet::backdrop { background: rgb(0 0 0 / .42); }
 .training-sheet__surface { min-width: 0; }

@@ -20,7 +20,7 @@ export function TrainingSheet({ title, onClose, children, className = "" }: { ti
     };
   }, []);
   return <dialog ref={ref} className={`training-sheet ${className}`} aria-labelledby={titleId}
-    onCancel={(event) => { event.preventDefault(); close.current(); }}
+    onCancel={(event) => { event.preventDefault(); event.stopPropagation(); close.current(); }}
     onClick={(event) => { if (event.target === event.currentTarget) close.current(); }}>
     <div className="training-sheet__surface">
       <header className="training-sheet__header"><h2 id={titleId}>{title}</h2><button type="button" onClick={onClose} aria-label={`關閉${title}`}><X size={22} /></button></header>

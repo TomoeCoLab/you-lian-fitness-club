@@ -21,6 +21,7 @@ import { progressSuggestion } from "../lib/progress";
 import type { BodyPart, Checkin, CustomExercise, Equipment, ExerciseSetEntry, GuideExercise, WorkoutDraft, WorkoutItem, WorkoutTemplate, WorkoutTemplateItem } from "../types";
 import { EquipmentIcon } from "./EquipmentIcon";
 import { ExerciseDiagram } from "./ExerciseDiagram";
+import { WorkoutSetEditor } from "./WorkoutSetEditor";
 import { RestTimer } from "./RestTimer";
 import { TrainingLibraryDialog } from "./TrainingLibraryDialog";
 import { TrainingSheet } from "./TrainingSheet";
@@ -162,25 +163,27 @@ export function TrainingGuide({ workout, templates, history, dataLoading, custom
   const currentItem = workout.items.find((item) => item.exerciseId === trainingId) ?? workout.items.find((item) => item.entries.some((entry) => !entry.completed)) ?? workout.items[0] ?? null;
   const currentEntry = currentItem?.entries.find((entry) => !entry.completed) ?? currentItem?.entries.at(-1) ?? null;
   const currentItemIndex = currentItem ? workout.items.findIndex((item) => item.exerciseId === currentItem.exerciseId) : -1;
-  const currentValue = currentItem?.tracking === "time" ? currentEntry?.durationSeconds : currentEntry?.reps;
-  const currentEntryValid = currentValue != null && Number.isInteger(currentValue) && currentValue > 0;
   const updateTimerState = (state: { deadline: number; pausedRemaining?: number }) => setTimer(previous => previous ? { ...previous, pausedRemaining: undefined, ...state } : null);
 
   const updateItems = (items: WorkoutItem[]) => {
     onWorkoutChange({ ...workout, items, updatedAt: new Date().toISOString() });
   };
 
-  const updateCurrentEntry = (patch: Partial<ExerciseSetEntry>) => {
-    if (!currentItem || !currentEntry || staleWorkout) return;
-    updateItems(workout.items.map((item) => item.exerciseId === currentItem.exerciseId
-      ? { ...item, entries: item.entries.map((entry) => entry.id === currentEntry.id ? { ...entry, ...patch } : entry) }
-      : item));
+  const updateTrainingEntry = (id: string, patch: Partial<ExerciseSetEntry>) => {
+    if (!currentItem || staleWorkout) return;
+    updateItems(workout.items.map(item => item.exerciseId === currentItem.exerciseId
+      ? { ...item, entries: item.entries.map(entry => {
+        if (entry.id !== id) return entry;
+        const next = { ...entry, ...patch };
+        const value = item.tracking === "time" ? next.durationSeconds : next.reps;
+        if (value == null || !Number.isInteger(value) || value <= 0 || next.weight != null && (!Number.isFinite(next.weight) || next.weight < 0)) next.completed = false;
+        return next;
+      }) } : item));
   };
-
-  const completeCurrentEntry = () => {
-    if (!currentItem || !currentEntry || currentEntry.completed || staleWorkout || !currentEntryValid) return;
-    updateCurrentEntry({ completed: true });
-    setTimer({ seconds: currentItem.restSeconds, key: `${currentEntry.id}-${Date.now()}`, deadline: Date.now() + currentItem.restSeconds * 1000 });
+  const completeTrainingEntry = (entry: ExerciseSetEntry) => {
+    if (!currentItem || staleWorkout) return;
+    updateTrainingEntry(entry.id, { completed: !entry.completed });
+    if (!entry.completed) setTimer({ seconds: currentItem.restSeconds, key: `${entry.id}-${Date.now()}`, deadline: Date.now() + currentItem.restSeconds * 1000 });
   };
 
   const createCustomExercise = async () => {
@@ -320,16 +323,7 @@ export function TrainingGuide({ workout, templates, history, dataLoading, custom
       <section className="active-workout-main">
         <div className="active-workout-title"><div><span>目前動作</span><h1>{currentItem.exerciseName}</h1><p>{currentItem.custom ? "自訂動作" : `${currentItem.bodyPart} · ${currentItem.tracking === "time" ? "計時" : "次數"}`}</p></div><strong>動作 {currentItemIndex + 1} / {workout.items.length}</strong></div>
         <div className="active-context-actions"><button onClick={() => setBasketOpen(true)}>查看完整課表 · {workout.items.length} 動作</button>{exercises.some(exercise => exercise.id === currentItem.exerciseId) ? <button onClick={() => setGuideId(currentItem.exerciseId)}><BookOpen size={17} />查看指引</button> : <span>自訂動作：尚無官方指引</span>}</div>
-        <div className="active-set-summary" aria-label="目前動作所有組數">{currentItem.entries.map((entry, index) => <div key={entry.id} className={entry.id === currentEntry.id ? "is-current" : ""}><span>第 {index + 1} 組</span><span>{entry.weight == null ? "自重" : `${entry.weight} kg`} × {currentItem.tracking === "time" ? `${entry.durationSeconds ?? "—"} 秒` : `${entry.reps ?? "—"} 次`}</span><span>{entry.completed ? "已完成" : entry.id === currentEntry.id ? "進行中" : "待完成"}</span></div>)}</div>
-        <article className="active-set-card">
-          <header><h2>第 {Math.max(1, currentItem.entries.indexOf(currentEntry) + 1)} 組</h2><span>共 {currentItem.entries.length} 組</span></header>
-          <fieldset className="active-set-fields" disabled={staleWorkout || currentEntry.completed}>
-            <label><span>重量 KG</span><input type="number" inputMode="decimal" min="0" step="0.5" placeholder="徒手" value={currentEntry.weight ?? ""} onChange={(event) => updateCurrentEntry({ weight: numberOrNull(event.target.value) })} /></label>
-            <label><span>{currentItem.tracking === "time" ? "時間 秒" : "次數"}</span><span className="stepper"><button onClick={() => updateCurrentEntry(currentItem.tracking === "time" ? { durationSeconds: Math.max(0, (currentEntry.durationSeconds ?? 0) - 5) } : { reps: Math.max(0, (currentEntry.reps ?? 0) - 1) })}>−</button><input type="number" inputMode="numeric" value={currentItem.tracking === "time" ? currentEntry.durationSeconds ?? "" : currentEntry.reps ?? ""} onChange={(event) => updateCurrentEntry(currentItem.tracking === "time" ? { durationSeconds: numberOrNull(event.target.value) } : { reps: numberOrNull(event.target.value) })} /><button onClick={() => updateCurrentEntry(currentItem.tracking === "time" ? { durationSeconds: (currentEntry.durationSeconds ?? 0) + 5 } : { reps: (currentEntry.reps ?? 0) + 1 })}>＋</button></span></label>
-          </fieldset>
-          {!currentEntryValid ? <p role="status">請填入大於 0 的整數次數或秒數。</p> : null}
-          <button className="active-complete" disabled={currentEntry.completed || staleWorkout || !currentEntryValid} onClick={completeCurrentEntry}>{currentEntry.completed ? "這組已完成" : "完成這組"}<ChevronRight size={22} /></button>
-        </article>
+        <WorkoutSetEditor item={currentItem} disabled={staleWorkout} onChange={updateTrainingEntry} onComplete={completeTrainingEntry} />
         {timer ? <RestTimer seconds={timer.seconds} timerKey={timer.key} deadline={timer.deadline} pausedRemaining={timer.pausedRemaining} onStateChange={updateTimerState} onClose={() => setTimer(null)} /> : <div className="active-rest-placeholder"><span>休息倒數</span><strong>{Math.floor(currentItem.restSeconds / 60).toString().padStart(2, "0")}:{(currentItem.restSeconds % 60).toString().padStart(2, "0")}</strong><small>完成一組後自動開始</small></div>}
         <button className="add-set-button" disabled={staleWorkout} onClick={() => updateItems(workout.items.map(item => item.exerciseId === currentItem.exerciseId ? { ...item, entries: [...item.entries, { ...item.entries.at(-1)!, id: crypto.randomUUID(), completed: false }] } : item))}><Plus size={18} />新增一組</button>
         <section className="active-next"><span>下一個動作</span>{nextItem ? <button onClick={() => openTraining(nextItem.exerciseId)}><strong>{nextItem.exerciseName}</strong><small>{nextItem.entries.length} 組 · {nextItem.tracking === "time" ? `${nextItem.entries[0]?.durationSeconds ?? 30} 秒` : `${nextItem.entries[0]?.reps ?? 10} 次`}</small><ChevronRight size={20} /></button> : <p>可從完整課表切換其他動作，或結束並打卡。</p>}</section>
