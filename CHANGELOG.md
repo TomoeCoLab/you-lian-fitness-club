@@ -2,6 +2,13 @@
 
 所有值得記錄的變更都會整理在此。版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，提交訊息遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hant/v1.0.0/)。
 
+## [1.5.1] - 2026-09-11
+
+### 修正
+
+- 修正離線快取太晚複製網路回應的問題，避免已瀏覽的程式與樣式檔未寫入快取、離線重載時出現白屏。
+- 維持版本資訊不快取與手動更新機制，不清除登入狀態或未送出的訓練草稿。
+
 ## [1.5.0] - 2026-09-11
 
 ### 新增
