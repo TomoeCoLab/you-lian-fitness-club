@@ -2,6 +2,18 @@
 
 所有值得記錄的變更都會整理在此。版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，提交訊息遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hant/v1.0.0/)。
 
+## [1.6.0] - 2026-09-12
+
+### 新增
+
+- 新增獨立 Android／Brave Discord App 登入測試頁（`/api/auth/app-test`），準備授權後可手動嘗試 App 跳轉，並提供網頁授權備援。
+- 提供瀏覽器登入狀態檢查與可複製的操作摘要；摘要不含帳號、Cookie、授權碼或完整授權網址。
+
+### 安全與限制
+
+- 測試使用獨立的短效授權 Cookie、同源請求檢查及既有簽章驗證，不替換正式登入按鈕，不清除登入與訓練草稿。
+- 本功能仍屬實驗：尚未確認 Android Brave 實機能透過 Discord App 完成授權並返回原瀏覽器；打開 App 或已有登入狀態不代表本次測試成功。iOS 不在本次驗證範圍。
+
 ## [1.5.1] - 2026-09-11
 
 ### 修正

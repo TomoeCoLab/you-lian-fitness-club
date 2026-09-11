@@ -1,4 +1,5 @@
 import { beginLogin, completeLogin, getSession, logout } from "./auth";
+import { appLoginTestPage } from "./app-login-test";
 import { deleteCheckin, getPhoto, listMonth, listUserHistory, parseCheckinInput, parseReaction, saveCheckin, setReaction } from "./checkins";
 import { sendCheckinWebhook } from "./discord";
 import { assertSameOrigin, json } from "./http";
@@ -8,6 +9,8 @@ import { createCustomExercise, listCustomExercises, parseCustomExercise } from "
 
 async function handleApi(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
   const url = new URL(request.url);
+  if (request.method === "GET" && url.pathname === "/api/auth/app-test") return appLoginTestPage();
+  if (request.method === "POST" && url.pathname === "/api/auth/app-test/prepare") return beginLogin(request, env, true);
 
   if (request.method === "GET" && url.pathname === "/api/config") {
     return json({

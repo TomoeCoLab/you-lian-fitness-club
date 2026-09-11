@@ -1,13 +1,14 @@
-import { cookie, parseCookies, redirect } from "./http";
+import { cookie, json, parseCookies, redirect } from "./http";
 import type { SessionUser } from "./types";
 
 const SESSION_COOKIE = "rep_session";
 const OAUTH_STATE_COOKIE = "rep_oauth_state";
+const APP_TEST_COOKIE = "rep_oauth_app_test";
 const SESSION_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
 const textEncoder = new TextEncoder();
 
 type SessionPayload = SessionUser & { exp: number };
-type OAuthState = { nonce: string; exp: number };
+type OAuthState = { nonce: string; exp: number; appTest?: boolean };
 
 type DiscordUser = {
   id: string;
@@ -150,7 +151,9 @@ async function upsertUser(env: Env, user: DiscordUser): Promise<void> {
     .run();
 }
 
-export async function beginLogin(request: Request, env: Env): Promise<Response> {
+export async function beginLogin(request: Request, env: Env, appTest = false): Promise<Response> {
+  if (appTest && request.headers.get("Origin") !== new URL(request.url).origin) return json({ error: "Invalid origin" }, 403);
+  if (appTest && env.LOCAL_DEMO === "true") return json({ error: "本地示範模式不能驗證 Discord 授權，請使用 HTTPS 測試網址。" }, 409);
   if (env.LOCAL_DEMO === "true") {
     await seedDemoData(env);
     const demoUser: SessionUser = {
@@ -164,13 +167,15 @@ export async function beginLogin(request: Request, env: Env): Promise<Response> 
   }
 
   if (!env.DISCORD_CLIENT_ID || !env.DISCORD_CLIENT_SECRET || !env.SESSION_SECRET) {
+    if (appTest) return json({ error: "Discord 登入尚未設定完成。" }, 503);
     return redirect("/?auth_error=discord_not_configured");
   }
 
   const nonceBytes = new Uint8Array(24);
   crypto.getRandomValues(nonceBytes);
   const nonce = bytesToBase64Url(nonceBytes);
-  const state = await signObject({ nonce, exp: Math.floor(Date.now() / 1000) + 600 }, env.SESSION_SECRET);
+  const expiresAt = Math.floor(Date.now() / 1000) + 600;
+  const state = await signObject({ nonce, exp: expiresAt, ...(appTest ? { appTest: true } : {}) }, env.SESSION_SECRET);
   const callbackUrl = `${new URL(request.url).origin}/api/auth/callback`;
   const authorize = new URL("https://discord.com/oauth2/authorize");
   authorize.search = new URLSearchParams({
@@ -182,27 +187,36 @@ export async function beginLogin(request: Request, env: Env): Promise<Response> 
     prompt: "consent",
   }).toString();
 
-  return redirect(authorize.toString(), {
-    "Set-Cookie": cookie(OAUTH_STATE_COOKIE, nonce, request.url, {
+  const headers = {
+    "Cache-Control": "no-store",
+    "Set-Cookie": cookie(appTest ? APP_TEST_COOKIE : OAUTH_STATE_COOKIE, nonce, request.url, {
       maxAge: 600,
       path: "/api/auth/callback",
     }),
-  });
+  };
+  if (appTest) return json({
+    authorizeUrl: authorize.toString(),
+    intentUrl: `intent://${authorize.host}${authorize.pathname}${authorize.search}#Intent;scheme=https;package=com.discord;S.browser_fallback_url=${encodeURIComponent(authorize.toString())};end`,
+    expiresAt,
+  }, 200, headers);
+  return redirect(authorize.toString(), headers);
 }
 
 export async function completeLogin(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
   const code = url.searchParams.get("code");
   const stateToken = url.searchParams.get("state");
-  const stateCookie = parseCookies(request).get(OAUTH_STATE_COOKIE);
-  if (!code || !stateToken || !stateCookie || !env.SESSION_SECRET) {
+  if (!stateToken || !env.SESSION_SECRET) {
     return redirect("/?auth_error=invalid_oauth_state");
   }
 
   const state = await verifyObject(stateToken, env.SESSION_SECRET);
+  const stateCookieName = isOAuthState(state) && state.appTest === true ? APP_TEST_COOKIE : OAUTH_STATE_COOKIE;
+  const stateCookie = parseCookies(request).get(stateCookieName);
   if (!isOAuthState(state) || state.exp <= Math.floor(Date.now() / 1000) || state.nonce !== stateCookie) {
     return redirect("/?auth_error=invalid_oauth_state");
   }
+  if (!code) return redirect("/?auth_error=invalid_oauth_state");
 
   const callbackUrl = `${url.origin}/api/auth/callback`;
   const tokenResponse = await fetch("https://discord.com/api/v10/oauth2/token", {
@@ -250,7 +264,7 @@ export async function completeLogin(request: Request, env: Env): Promise<Respons
   headers.append("Set-Cookie", await createSessionCookie(request, env, sessionUser));
   headers.append(
     "Set-Cookie",
-    cookie(OAUTH_STATE_COOKIE, "", request.url, { maxAge: 0, path: "/api/auth/callback" }),
+    cookie(stateCookieName, "", request.url, { maxAge: 0, path: "/api/auth/callback" }),
   );
   return new Response(null, { status: 302, headers });
 }
