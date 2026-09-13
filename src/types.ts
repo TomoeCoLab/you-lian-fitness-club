@@ -62,7 +62,8 @@ export type GuideVideo = {
   watchUrl: string;
   title: string;
   channel: string;
-  language: "中文" | "英文";
+  language: "中文" | "英文" | "其他語言";
+  note?: string;
 };
 
 export type GuideExercise = {
@@ -114,6 +115,7 @@ export type WorkoutDraft = {
 };
 
 export type WorkoutTemplateItem = {
+  note?: string;
   exerciseId: string;
   exerciseName: string;
   bodyPart: BodyPart;
@@ -130,6 +132,13 @@ export type WorkoutTemplate = {
   name: string;
   items: WorkoutTemplateItem[];
   builtIn?: boolean;
+  kind?: "main" | "warmup" | "cooldown";
+  category?: "居家肌力" | "核心活動" | "舒緩伸展" | "健身房";
+  description?: string;
+  equipmentNote?: string;
+  durationLabel?: string;
+  guidance?: string[];
+  companionIds?: string[];
   createdAt: string;
   updatedAt: string;
 };

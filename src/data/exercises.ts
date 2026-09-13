@@ -1,4 +1,5 @@
 import type { BodyPart, Equipment, GuideExercise, GuideVideo } from "../types";
+import { homeExercises } from "./homeExercises";
 
 export const bodyParts: Array<"全部" | BodyPart> = ["全部", "胸", "背", "腿", "肩", "手臂", "核心"];
 export const equipmentOptions: Array<"全部" | Equipment> = [
@@ -30,6 +31,7 @@ function youtube(id: string, title: string, channel: string, start = 0): GuideVi
 }
 
 export const exercises: GuideExercise[] = [
+  ...homeExercises,
   {
     id: "bodyweight-squat", name: "徒手深蹲", bodyParts: ["腿", "核心"], equipment: "徒手", difficulty: "入門", tracking: "reps",
     summary: "用髖、膝與踝協同下蹲，建立下肢與軀幹控制。",

@@ -16,7 +16,7 @@ import {
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { formatSelectedDate, todayKey } from "../lib/date";
 import { bodyParts, equipmentOptions, exercises } from "../data/exercises";
-import { builtInWorkoutTemplates } from "../data/workoutTemplates";
+import { builtInWorkoutTemplates, preparationRoutines } from "../data/workoutTemplates";
 import { progressSuggestion } from "../lib/progress";
 import type { BodyPart, Checkin, CustomExercise, Equipment, ExerciseSetEntry, GuideExercise, WorkoutDraft, WorkoutItem, WorkoutTemplate, WorkoutTemplateItem } from "../types";
 import { EquipmentIcon } from "./EquipmentIcon";
@@ -159,7 +159,7 @@ export function TrainingGuide({ workout, templates, history, dataLoading, custom
   const completedSets = workout.items.reduce((total, item) => total + completedCount(item), 0);
   const staleWorkout = workout.items.length > 0 && workout.workoutDate !== todayKey();
   const suggestion = useMemo(() => selected ? progressSuggestion(selected, history) : null, [history, selected]);
-  const allTemplates = useMemo(() => [...builtInWorkoutTemplates, ...templates], [templates]);
+  const allTemplates = useMemo(() => [...builtInWorkoutTemplates, ...preparationRoutines, ...templates], [templates]);
   const currentItem = workout.items.find((item) => item.exerciseId === trainingId) ?? workout.items.find((item) => item.entries.some((entry) => !entry.completed)) ?? workout.items[0] ?? null;
   const currentEntry = currentItem?.entries.find((entry) => !entry.completed) ?? currentItem?.entries.at(-1) ?? null;
   const currentItemIndex = currentItem ? workout.items.findIndex((item) => item.exerciseId === currentItem.exerciseId) : -1;
@@ -414,14 +414,15 @@ export function TrainingGuide({ workout, templates, history, dataLoading, custom
           </div>
           <div className="exercise-video__credit">
             <span><strong>{selected.video.language}示範</strong>{selected.video.title} · {selected.video.channel}</span>
-            <a href={selected.video.watchUrl} target="_blank" rel="noreferrer">在 YouTube 開啟<ExternalLink size={14} /></a>
+            <a href={selected.video.watchUrl} target="_blank" rel="noreferrer">開啟原始影片<ExternalLink size={14} /></a>
           </div>
+          {selected.video.note ? <p className="sheet-meta">{selected.video.note}</p> : null}
         </section>
 
         <div className="exercise-copy-grid">
           <section><h3>教學</h3><ol>{selected.instructions.map((instruction) => <li key={instruction}>{instruction}</li>)}</ol></section>
           <section><h3>動作重點</h3><ul>{selected.cues.map((cue) => <li key={cue}><Check size={16} />{cue}</li>)}</ul></section>
-          <section className="recommendation"><h3>建議訓練</h3><p><strong>{selected.recommendation.sets} 組</strong> × <strong>{selected.tracking === "time" ? `${selected.recommendation.durationSeconds} 秒` : `${selected.recommendation.reps} 次`}</strong></p><p>組間休息 {selected.recommendation.restSeconds} 秒</p><small>{selected.recommendation.load}</small></section>
+          <section className="recommendation"><h3>單獨練習參考</h3><p><strong>{selected.recommendation.sets} 組</strong> × <strong>{selected.tracking === "time" ? `${selected.recommendation.durationSeconds} 秒` : `${selected.recommendation.reps} 次`}</strong></p><p>組間休息 {selected.recommendation.restSeconds} 秒</p><small>{selected.recommendation.load}</small><p>課表會依用途安排不同份量；本次以「今日課表」的組數、次數與時間為準，可按身體狀態減量。</p></section>
           {suggestion ? <section className="progress-suggestion"><h3>依你的紀錄</h3><strong>{suggestion.title}</strong><p>{suggestion.detail}</p><small>{suggestion.meta}</small></section> : null}
         </div>
 

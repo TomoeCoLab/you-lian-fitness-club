@@ -1004,6 +1004,24 @@ body.basket-open { overflow: hidden; }
 .template-preview-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .template-preview-list li { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--line-soft); font-size: 12px; }
 .template-preview-list span { color: var(--muted); }
+.template-filters { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0 12px; }
+.template-filters label { display: grid; gap: 6px; flex: 1 1 150px; font-size: 12px; font-weight: 700; }
+.template-filters select { width: 100%; min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); background: var(--white); color: var(--ink); font: inherit; }
+.template-library-note, .template-result-count { color: var(--muted); font-size: 12px; line-height: 1.7; }
+.template-card .template-duration { margin-top: 8px; color: var(--ink); }
+.template-preview-list li > div { min-width: 0; }
+.template-preview-list li > span { flex-shrink: 0; white-space: nowrap; }
+.template-preview-list li p { margin: 5px 0; font-size: 12px; }
+.template-guidance { margin: 0; padding-left: 20px; font-size: 13px; line-height: 1.8; }
+.template-guidance li + li { margin-top: 6px; }
+.template-companions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 12px; }
+.template-companions button { min-height: 44px; padding: 8px 12px; background: var(--white); color: var(--ink); border: 1px solid var(--line); cursor: pointer; }
+.template-card footer button { min-height: 44px; }
+@media (max-width: 480px) {
+  .template-preview-list li { flex-wrap: wrap; gap: 6px; padding: 12px 0; }
+  .template-preview-list li > div { flex: 1 1 100%; }
+  .template-card h3 { font-size: 20px; line-height: 1.5; }
+}
 
 .custom-exercise-button { width: calc(100% - 24px); min-height: 42px; margin: 0 12px 12px; border: 1px dashed var(--ink); background: var(--white); display: flex; align-items: center; justify-content: center; gap: 7px; font-weight: 850; cursor: pointer; }
 .custom-exercise-list { margin: 14px 12px; border-top: 1px solid var(--ink); }
