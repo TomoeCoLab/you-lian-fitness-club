@@ -2,6 +2,13 @@
 
 所有值得記錄的變更都會整理在此。版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，提交訊息遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hant/v1.0.0/)。
 
+## [1.7.1] - 2026-09-13
+
+### 修正
+
+- 更換屈膝側棒式的示範影片，修正原來源可在 YouTube 觀看、但限制頁內嵌入的問題。
+- 新來源已核對屈膝、前臂支撐與抬髖動作，並實際測試頁內播放；課表與既有紀錄不變。
+
 ## [1.7.0] - 2026-09-13
 
 ### 課表與動作

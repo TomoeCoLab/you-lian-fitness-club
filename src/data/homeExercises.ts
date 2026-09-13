@@ -78,7 +78,7 @@ export const homeExercises: GuideExercise[] = [
     summary: "以前臂與屈膝支撐，練習側腹穩定；比雙腿伸直的側棒式容易。",
     instructions: ["側躺，雙膝彎曲疊放，手肘放在肩膀正下方。", "以前臂和下側膝部支撐，把髖部抬離墊面。", "肩膀、髖部、膝蓋連成自然直線，維持呼吸。", "慢慢放下，休息後下一組換側。"],
     cues: ["不塌腰、不轉向地面，也不把肩膀擠向耳朵。", "肩或膝壓痛時停止，可改做仰躺腳跟滑動。"], recommendation: hold(10, "共 2 組，每側 10 秒；第一組左側、第二組右側。"),
-    video: yt("aUjL5fMaPy8", "屈膝側棒式示範", "Physio Room Co"), sourceUrl: "https://prophysiotherapy.in/exercises/side-plank-modified-from-knees", sourceLabel: "物理治療師審閱：屈膝側棒式",
+    video: yt("a59BIeTP7DY", "屈膝側棒式示範", "Keep It Moving Physical Therapy & Wellness"), sourceUrl: "https://prophysiotherapy.in/exercises/side-plank-modified-from-knees", sourceLabel: "物理治療師審閱：屈膝側棒式",
   },
   {
     id: "shoulder-roll", name: "肩膀緩慢繞動", bodyParts: ["肩", "背"], equipment: "徒手", difficulty: "入門", tracking: "reps",
