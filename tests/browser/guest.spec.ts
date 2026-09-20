@@ -3,6 +3,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { exercises } from "../../src/data/exercises";
 import deltaRelease from "../../content/releases/v1.9.0.json" with { type: "json" };
+import { builtInWorkoutTemplates, preparationRoutines } from "../../src/data/curatedTemplates";
 
 const repairedVideoIds = ["dumbbell-squat","dumbbell-curl","band-row","cable-triceps-pushdown","dumbbell-lateral-raise","assisted-pull-up","machine-hip-thrust","hack-squat","reverse-pec-deck","dumbbell-lunge","mountain-climber","standing-calf-raise","reverse-lunge","machine-hip-adduction","wall-sit","superman","kneeling-hip-flexor-stretch","cobra-pose","downward-dog","seated-forward-fold"];
 
@@ -22,6 +23,78 @@ async function apply(page: Page, type: string) {
   await page.getByRole("dialog", { name: "課表與進度", exact: true }).getByRole("button", { name: "加入今日課表", exact: true }).click();
   await expect(page.getByRole("dialog", { name: "今日課表", exact: true })).toBeVisible();
 }
+
+for (const width of [390, 1366]) {
+  test(`v1.10 program library previews all doses and joins phases at ${width}`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    const errors: string[] = []; page.on("pageerror", error => errors.push(error.message));
+    await guest(page);
+    await page.getByRole("button", { name: "課表與進度" }).click();
+    const library = page.getByRole("dialog", { name: "課表與進度", exact: true });
+    await expect(library.locator(".template-card")).toHaveCount(15);
+    for (const kind of ["main", "warmup", "cooldown"]) {
+      await page.getByLabel("課表類型").selectOption(kind);
+      const templates = [...builtInWorkoutTemplates, ...preparationRoutines].filter(t => t.kind === kind);
+      await expect(library.locator(".template-card")).toHaveCount(templates.length);
+      for (const template of templates) {
+        const card = page.locator(`#template-${template.id}`);
+        await card.getByRole("button", { name: "查看課表", exact: true }).click();
+        await expect(card.locator(".template-preview-list li")).toHaveCount(template.items.length);
+        for (const [index, item] of template.items.entries()) {
+          await expect(card.locator(".template-rest").nth(index)).toHaveText(`休息 ${item.restSeconds} 秒 · 可延長`);
+        }
+      }
+    }
+    await page.getByLabel("課表類型").selectOption("main");
+    await page.getByLabel("使用情境").selectOption("核心活動");
+    await expect(library.locator(".template-card")).toHaveCount(2);
+    const core = page.locator("#template-builtin-core-control");
+    await core.getByRole("button", { name: "查看課表", exact: true }).click();
+    await expect(core.getByText(/每組每側 4 次/)).toHaveCount(2);
+    await core.screenshot({ path: join(tmpdir(), `you-lian-v110-core-${width}.png`) });
+    await core.getByRole("button", { name: "加入今日課表", exact: true }).click();
+    await expect(page.locator(".plan-exercise")).toHaveCount(4);
+    await page.getByRole("button", { name: "關閉今日課表", exact: true }).click();
+    for (const [kind, id] of [["warmup","warmup-mat"],["cooldown","cooldown-mat"]]) {
+      await page.getByRole("button", { name: "課表與進度" }).click();
+      await page.getByLabel("課表類型").selectOption(kind);
+      const card = page.locator(`#template-${id}`);
+      await card.getByRole("button", { name: "查看課表", exact: true }).click();
+      await card.getByRole("button", { name: "加入今日課表", exact: true }).click();
+      await page.getByRole("button", { name: "關閉今日課表", exact: true }).click();
+    }
+    const items = await page.evaluate(() => JSON.parse(localStorage.getItem("you-lian:active-workout:v1:guest")!).items);
+    expect(items.map((i: any) => i.phase)).toEqual(["warmup","warmup","warmup","main","main","main","main","cooldown","cooldown"]);
+    expect(items.filter((i: any) => i.exerciseId === "heel-slide").map((i: any) => i.entries[0].reps)).toEqual([6,10]);
+    expect(items.find((i: any) => i.exerciseId === "dead-bug").entries[0].reps).toBe(4);
+    await page.reload();
+    await page.getByRole("button", { name: /^今日課表 ·/ }).click();
+    await expect(page.locator(".plan-exercise")).toHaveCount(9);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+    expect(errors).toEqual([]);
+  });
+}
+
+test("old program favorites merge without rewriting storage and custom programs survive", async ({ page }) => {
+  await guest(page);
+  const custom = { ...builtInWorkoutTemplates[0], id: "guest-custom-old", name: "我的舊課表", builtIn: false };
+  const old = { favorites: ["warmup-pull", "warmup-push"], recent: ["warmup-pull"], week: ["builtin-push", "", "", "", "", "", ""] };
+  await page.evaluate(({custom,old}) => {
+    localStorage.setItem("you-lian:program-preferences:v1:guest", JSON.stringify(old));
+    localStorage.setItem("you-lian:guest-templates:v1", JSON.stringify([custom]));
+  }, { custom, old });
+  await page.reload();
+  await page.getByRole("button", { name: "課表與進度" }).click();
+  await page.getByLabel("課表類型").selectOption("warmup");
+  await page.getByRole("button", { name: "只看收藏", exact: true }).click();
+  await expect(page.locator(".template-card")).toHaveCount(1);
+  await expect(page.locator(".template-card h3")).toHaveText("上肢肌力｜熱身");
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem("you-lian:program-preferences:v1:guest")!))).toEqual(old);
+  await page.getByRole("button", { name: "顯示全部課表", exact: true }).click();
+  await page.getByLabel("課表類型").selectOption("custom");
+  await expect(page.locator(".template-card h3")).toHaveText("我的舊課表");
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem("you-lian:guest-templates:v1")!))).toEqual([custom]);
+});
 
 test("equipment without entered load is not called bodyweight in the plan or editor", async ({page}) => {
   await page.setViewportSize({width:390,height:844}); await guest(page);

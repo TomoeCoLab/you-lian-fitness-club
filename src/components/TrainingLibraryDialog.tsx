@@ -4,6 +4,7 @@ import { createPortal } from "react-dom";
 import { lockAppForModal, trapTabKey } from "../lib/modal";
 import { progressOverview } from "../lib/progress";
 import { templateItemPresent } from "../lib/workoutPlan";
+import { canonicalTemplateId } from "../data/curatedTemplates";
 import type { Checkin, WorkoutDraft, WorkoutTemplate } from "../types";
 
 type Props = {
@@ -20,7 +21,11 @@ type Props = {
 export function TrainingLibraryDialog({ storageScope, templates, history, overview: savedOverview, workout, onApply, onDelete, onClose }: Props) {
   const preferenceKey = `you-lian:program-preferences:v1:${storageScope}`;
   const [preferences, setPreferences] = useState<{ favorites: string[]; recent: string[]; week: string[] }>(() => {
-    try { const data = JSON.parse(localStorage.getItem(preferenceKey) ?? "null"); return { favorites: Array.isArray(data?.favorites) ? data.favorites : [], recent: Array.isArray(data?.recent) ? data.recent : [], week: Array.isArray(data?.week) && data.week.length === 7 ? data.week : Array(7).fill("") }; }
+    try {
+      const data = JSON.parse(localStorage.getItem(preferenceKey) ?? "null");
+      const ids = (values: unknown): string[] => Array.isArray(values) ? [...new Set(values.filter((id): id is string => typeof id === "string").map(canonicalTemplateId))] : [];
+      return { favorites: ids(data?.favorites), recent: ids(data?.recent), week: Array.isArray(data?.week) && data.week.length === 7 ? data.week.map((id: unknown) => typeof id === "string" ? canonicalTemplateId(id) : "") : Array(7).fill("") };
+    }
     catch { return { favorites: [], recent: [], week: Array(7).fill("") }; }
   });
   const [error, setError] = useState("");
@@ -85,7 +90,7 @@ export function TrainingLibraryDialog({ storageScope, templates, history, overvi
 
         {tab === "templates" ? <div className="training-library__body">
           {error ? <p role="alert">{error}</p> : null}
-          <details className="weekly-plan"><summary>一週安排（可留白，不需每天練）</summary><p>以下只安排課表，不會自動打卡或加入今日訓練。肌力練習可先安排每週兩天，中間保留恢復日；舒緩依舒適度選擇，不取代一般日常活動。</p><p>入門範例：週一「日常活力」、週四「徒手全身」，其他日依體力散步或做短時間活動；久坐時穿插起身活動。熱身是主訓練前的準備，收尾和伸展不等於有氧活動，也不需要每天重複練同一部位。</p><p><a href="https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/" target="_blank" rel="noreferrer">一般活動建議：NHS</a> · 此安排僅保存在本機</p><div>{["週一", "週二", "週三", "週四", "週五", "週六", "週日"].map((day, index) => <label key={day}>{day}<select aria-label={`${day}課表`} value={preferences.week[index]} onChange={event => updatePreferences({ ...preferences, week: preferences.week.map((id, i) => i === index ? event.target.value : id) })}><option value="">休息／自行活動</option>{templates.filter(item => (item.kind ?? "main") === "main").map(item => <option key={item.id} value={item.id}>{item.name}</option>)}</select></label>)}</div></details>
+          <details className="weekly-plan"><summary>一週安排（可留白，不需每天練）</summary><p>以下只安排課表，不會自動打卡或加入今日訓練。肌力練習可先安排每週兩天，中間保留恢復日；舒緩依舒適度選擇，不取代一般日常活動。</p><p>居家起步：每週兩個不連續的日子做「日常活力」，其餘日依體力室內走動，墊上活動可選做。短時間伸展不能代替日常有氧活動。</p><p>健身房兩天：全身 A／B；三天：本週 A／B／A、下週 B／A／B，中間留恢復日；四天：上肢 A、下肢 A、休息、上肢 B、下肢 B。這些是擇一的安排，不是全部相加。</p><p>核心課表與全身課表同日，先移除原核心段落，再加入想練的核心課表；不會自動替換。替代動作也請先移除原項目，再到動作庫加入替代，不沿用不同器械的重量。</p><p><a href="https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/" target="_blank" rel="noreferrer">一般活動建議：NHS</a> · <a href="https://acsm.org/resistance-training-guidelines-update-2026/" target="_blank" rel="noreferrer">肌力安排參考：ACSM</a> · 此安排僅保存在本機</p><div>{["週一", "週二", "週三", "週四", "週五", "週六", "週日"].map((day, index) => <label key={day}>{day}<select aria-label={`${day}課表`} value={preferences.week[index]} onChange={event => updatePreferences({ ...preferences, week: preferences.week.map((id, i) => i === index ? event.target.value : id) })}><option value="">休息／自行活動</option>{templates.filter(item => (item.kind ?? "main") === "main").map(item => <option key={item.id} value={item.id}>{item.name}</option>)}</select></label>)}</div></details>
           {preferences.recent.length ? <div className="recent-programs"><span>最近使用</span>{preferences.recent.map(id => { const item = templates.find(template => template.id === id); return item ? <button key={id} onClick={() => { setOnlyFavorites(false); setCategory("全部"); setCollection(item.builtIn ? item.kind ?? "main" : "custom"); setPreviewId(id); }}>{item.name}</button> : null; })}</div> : null}
           <button className="favorite-filter" aria-pressed={onlyFavorites} onClick={() => setOnlyFavorites(value => !value)}>{onlyFavorites ? "顯示全部課表" : "只看收藏"}</button>
           <div className="template-filters">
@@ -96,7 +101,7 @@ export function TrainingLibraryDialog({ storageScope, templates, history, overvi
               {["全部", "居家肌力", "核心活動", "舒緩伸展", "健身房"].map(value => <option key={value}>{value}</option>)}
             </select></label> : null}
           </div>
-          <p className="template-library-note">{collection === "custom" ? "你的自訂課表保持原樣，不受內建課表更新影響。" : "以下是一般活動建議，不是治療處方。初次從少量開始，不舒服就停止；可先查看順序與替代方式。"}</p>
+          <p className="template-library-note">{collection === "custom" ? "你的自訂課表保持原樣，不受內建課表更新影響。" : "以下為一般起始建議，不是治療處方。預估時間包含休息與轉換；初次從少量開始，不舒服就停止。課表份量優先於單一動作圖解的通用建議。"}</p>
           <p className="template-result-count" role="status">{visibleTemplates.length} 張{collection === "main" ? "主課表" : collection === "warmup" ? "熱身流程" : collection === "cooldown" ? "收尾流程" : "自訂課表"}</p>
           <div className="template-grid">
             {visibleTemplates.length === 0 ? <p className="template-library-note">目前沒有這類課表。可先加入動作，再儲存自己的課表。</p> : null}
@@ -104,7 +109,7 @@ export function TrainingLibraryDialog({ storageScope, templates, history, overvi
               <div><span>{template.builtIn ? template.category ?? "YOU LIAN 建議" : "自訂課表"}</span><h3>{template.name}</h3><p>{template.description ?? template.items.map((item) => item.exerciseName).join(" · ")}</p>{template.durationLabel ? <p className="template-duration">{template.durationLabel}</p> : null}</div>
               {previewId === template.id ? <>
                 {template.equipmentNote ? <p className="template-equipment">準備：{template.equipmentNote}</p> : null}
-                <ol className="template-preview-list">{template.items.map((item, index) => <li key={`${item.exerciseId}-${index}`}><div><strong>{index + 1}. {item.exerciseName}</strong>{item.note ? <p>{item.note}</p> : null}</div><span>{item.entries ? `${item.entries.length} 組 · 逐組設定` : `${item.sets} 組 × ${item.tracking === "time" ? `${item.durationSeconds ?? 30} 秒` : `${item.reps ?? 10} 次`}`}</span></li>)}</ol>
+                <ol className="template-preview-list">{template.items.map((item, index) => <li key={`${item.exerciseId}-${index}`}><div><strong>{index + 1}. {item.exerciseName}</strong>{item.note ? <p>{item.note}</p> : null}</div><span>{item.entries ? `${item.entries.length} 組 · 逐組設定` : `${item.sets} 組 × ${item.tracking === "time" ? `${item.durationSeconds ?? 30} 秒` : `${item.reps ?? 10} 次`}`}<small className="template-rest">休息 {item.restSeconds} 秒 · 可延長</small></span></li>)}</ol>
                 {template.guidance ? <ul className="template-guidance">{template.guidance.map(note => <li key={note}>{note}</li>)}</ul> : null}
                 <p className="template-library-note">熱身會排在主訓練前，收尾排在最後；同一動作在不同階段分開記錄。同階段已加入的動作會保留原設定。</p>
                 {template.companionIds ? <div className="template-companions"><span>可搭配</span>{template.companionIds.map(id => {
