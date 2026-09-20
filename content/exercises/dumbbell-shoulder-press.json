@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "dumbbell-shoulder-press",
     "name": "坐姿啞鈴肩推",
@@ -30,11 +30,12 @@
       "load": "從能穩定控制的輕重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
-      "watchUrl": "https://www.youtube.com/watch?v=ePxgPKcI1fU",
-      "title": "坐姿啞鈴肩上推舉",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/k6tzKisR3NY",
+      "watchUrl": "https://www.youtube.com/shorts/k6tzKisR3NY",
+      "title": "坐姿啞鈴肩推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.puregym.com/exercises/arms-and-shoulders/shoulder-press/seated-shoulder-press/",
     "sourceLabel": "PureGym：坐姿啞鈴肩推"
@@ -63,55 +64,69 @@
       "scope": "movement-specific",
       "checkedAt": "2026-09-20",
       "supports": [
-        "靠背坐姿與雙脚踩穩",
+        "靠背坐姿與雙腳踩穩",
         "啞鈴在肩耳間起始",
         "雙臂向上推再控制放下"
       ],
       "note": "僅核對頁面 How To Do A Seated Dumbbell Shoulder Press；同頁內嵌說明是槓鈴版，不採作啞鈴示範。使用輕重量，不以踢腿慣性或疼痛中增加幅度作本站要求。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/k6tzKisR3NY",
+      "label": "DeltaBolic：坐姿啞鈴肩推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "近直立靠背、雙啞鈴肩側向上推；原圖同支撐。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "dcd0b255c4bab96cbb67e809794dcfc8735e1334a3e0e910c46961cdbe9efd40",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "32599b475037c183debaf3057c5feeb0f7cbe0bc1a8c07c210d6770f91c543f0",
       "findings": [
         "僅核對頁面 How To Do A Seated Dumbbell Shoulder Press；同頁內嵌說明是槓鈴版，不採作啞鈴示範。使用輕重量，不以踢腿慣性或疼痛中增加幅度作本站要求。",
-        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。",
+        "近直立靠背、雙啞鈴肩側向上推；原圖同支撐。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "dcd0b255c4bab96cbb67e809794dcfc8735e1334a3e0e910c46961cdbe9efd40",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "32599b475037c183debaf3057c5feeb0f7cbe0bc1a8c07c210d6770f91c543f0",
       "reviewedImageSha256": "d21b1b698a361cd23bc9f4f42b8ad3ed3ee65c3e0c325cc65552cf9e4d8e1076",
       "findings": [
         "有靠背坐姿雙啞鈴肩推、回肩側，非站姿或胸推；8–12 次 3 組包含本站 10 次 3 組。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "本次重新開啟原圖檢視：近直立靠背、雙啞鈴肩側向上推；原圖同支撐。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/k6tzKisR3NY",
       "check": {
-        "videoId": "ePxgPKcI1fU",
+        "videoId": "k6tzKisR3NY",
         "seconds": [
-          8,
-          19,
-          28,
-          35
+          1.7402,
+          4.3505,
+          6.9608
         ],
-        "observation": "重新核對有靠背坐姿、雙啞鈴肩側起始、向上推及控制放回。"
+        "observation": "近直立靠背、雙啞鈴肩側向上推；原圖同支撐。"
       },
       "findings": [
-        "重新核對有靠背坐姿、雙啞鈴肩側起始、向上推及控制放回。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "近直立靠背、雙啞鈴肩側向上推；原圖同支撐。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "dcd0b255c4bab96cbb67e809794dcfc8735e1334a3e0e910c46961cdbe9efd40",
+      "auditBaselineContentHash": "32599b475037c183debaf3057c5feeb0f7cbe0bc1a8c07c210d6770f91c543f0",
       "history": [
         {
           "video": {
@@ -140,6 +155,37 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "8b0f14f98d1b6aa2f538189adbac5f8a737c7a725bf6ede9061ccd8d5e92f0a7"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+            "watchUrl": "https://www.youtube.com/watch?v=ePxgPKcI1fU",
+            "title": "坐姿啞鈴肩上推舉",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+            "check": {
+              "videoId": "ePxgPKcI1fU",
+              "seconds": [
+                8,
+                19,
+                28,
+                35
+              ],
+              "observation": "重新核對有靠背坐姿、雙啞鈴肩側起始、向上推及控制放回。"
+            },
+            "findings": [
+              "重新核對有靠背坐姿、雙啞鈴肩側起始、向上推及控制放回。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "dcd0b255c4bab96cbb67e809794dcfc8735e1334a3e0e910c46961cdbe9efd40"
           }
         }
       ]

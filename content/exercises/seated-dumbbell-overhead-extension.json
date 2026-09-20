@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "seated-dumbbell-overhead-extension",
+    "name": "坐姿啞鈴過頭三頭肌伸展",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐穩靠背椅，雙手共持一顆啞鈴，以頭後屈肘與伸肘練習三頭肌。",
+    "instructions": [
+      "選不妨礙頭後空間的穩固靠背椅，雙腳踩地，雙手托穩一顆輕啞鈴舉到頭頂。",
+      "上臂維持舒服的舉高位置，手肘不強夾耳朵；腹部穩定，不拱腰。",
+      "緩慢彎曲手肘，把啞鈴降到頭後的舒服深度，避免碰撞頭頸。",
+      "保持上臂穩定，伸肘推回頭頂；結束小心將啞鈴收回，需要時請人協助。"
+    ],
+    "cues": [
+      "雙手共持一顆，不是每手各一顆",
+      "上臂穩定，屈伸發生在手肘",
+      "不強夾手肘或追求過深幅度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/b_r_LW4HEcM",
+      "watchUrl": "https://www.youtube.com/shorts/b_r_LW4HEcM",
+      "title": "坐姿啞鈴過頭三頭肌伸展短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/b_r_LW4HEcM",
+    "sourceLabel": "DeltaBolic：坐姿啞鈴過頭三頭肌伸展示範"
+  },
+  "definition": {
+    "variation": "坐姿有靠背、雙手持一顆啞鈴的過頭伸展；與現有站姿版本分開。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/b_r_LW4HEcM",
+      "label": "DeltaBolic：坐姿啞鈴過頭三頭肌伸展",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "坐姿靠背",
+        "單顆啞鈴雙手",
+        "頭後屈肘伸肘"
+      ],
+      "note": "2.120 秒上臂位置對照、5.301 秒雙手托單顆啞鈴與肘位、8.481 秒靠背坐姿伸肘；不同於站姿。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "a5a64be70df74d35a5f407c55383199aeeeb89d96a309ce5f2a3dbaf7f7408fb",
+      "findings": [
+        "2.120 秒上臂位置對照、5.301 秒雙手托單顆啞鈴與肘位、8.481 秒靠背坐姿伸肘；不同於站姿。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "a5a64be70df74d35a5f407c55383199aeeeb89d96a309ce5f2a3dbaf7f7408fb",
+      "reviewedImageSha256": "ba73c8c279e73be7bd8da5840f6af0da7f86b343fb5a40382724fc30b5926e27",
+      "findings": [
+        "已檢視三格：雙手共持單顆啞鈴，坐姿靠背與雙腳支撐穩定，頭後屈肘再伸肘，上臂沒有變成肩推。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/b_r_LW4HEcM",
+      "check": {
+        "videoId": "b_r_LW4HEcM",
+        "seconds": [
+          2.1202,
+          5.3005,
+          8.4808
+        ],
+        "observation": "2.120 秒上臂位置對照、5.301 秒雙手托單顆啞鈴與肘位、8.481 秒靠背坐姿伸肘；不同於站姿。"
+      },
+      "findings": [
+        "2.120 秒上臂位置對照、5.301 秒雙手托單顆啞鈴與肘位、8.481 秒靠背坐姿伸肘；不同於站姿。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "a5a64be70df74d35a5f407c55383199aeeeb89d96a309ce5f2a3dbaf7f7408fb",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-seated-dumbbell-overhead-extension-zh-tw.png",
+    "sha256": "ba73c8c279e73be7bd8da5840f6af0da7f86b343fb5a40382724fc30b5926e27",
+    "generatedFromContentHash": "a5a64be70df74d35a5f407c55383199aeeeb89d96a309ce5f2a3dbaf7f7408fb",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定嚴格正側面，面向左；頭後在右側，椅背不得遮住手肘與啞鈴。",
+      "frames": [
+        {
+          "title": "坐穩舉高",
+          "pose": "Woman seated with back supported and both feet floor, holding ONE vertical dumbbell overhead with BOTH palms cupping upper end. Upper arms elevated, elbows naturally extended, no back arch. Strict side profile facing LEFT.",
+          "caption": "雙腳踩穩，雙手共持一顆啞鈴。"
+        },
+        {
+          "title": "頭後屈肘",
+          "pose": "Keep both upper arms upright. Bend elbows about90degrees so FOREARMS descend BEHIND HEAD to screen RIGHT, hands lower near upper neck holding single dumbbell. Elbows remain high above crown; head neutral facing left.",
+          "caption": "上臂穩定，啞鈴慢慢降到頭後。"
+        },
+        {
+          "title": "伸肘回程",
+          "pose": "Extend both elbows to return single dumbbell overhead, keep seated back support, wrists stable and head unchanged.",
+          "caption": "平順伸肘，不拱腰甩動重量。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 坐姿啞鈴過頭三頭肌伸展; subtitle 坐穩靠背椅，雙手共持一顆啞鈴，以頭後屈肘與伸肘練習三頭肌。; camera 固定嚴格正側面，面向左；頭後在右側，椅背不得遮住手肘與啞鈴。; render each step title and caption verbatim and depict pose: [{\"title\":\"坐穩舉高\",\"pose\":\"Woman seated with back supported and both feet floor, holding ONE vertical dumbbell overhead with BOTH palms cupping upper end. Upper arms elevated, elbows naturally extended, no back arch. Strict side profile facing LEFT.\",\"caption\":\"雙腳踩穩，雙手共持一顆啞鈴。\"},{\"title\":\"頭後屈肘\",\"pose\":\"Keep both upper arms upright. Bend elbows about90degrees so FOREARMS descend BEHIND HEAD to screen RIGHT, hands lower near upper neck holding single dumbbell. Elbows remain high above crown; head neutral facing left.\",\"caption\":\"上臂穩定，啞鈴慢慢降到頭後。\"},{\"title\":\"伸肘回程\",\"pose\":\"Extend both elbows to return single dumbbell overhead, keep seated back support, wrists stable and head unchanged.\",\"caption\":\"平順伸肘，不拱腰甩動重量。\"}]; bottom three columns 動作重點 [\"雙手共持一顆，不是每手各一顆\",\"上臂穩定，屈伸發生在手肘\",\"不強夾手肘或追求過深幅度\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

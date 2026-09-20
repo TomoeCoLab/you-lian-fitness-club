@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "high-to-low-cable-fly",
+    "name": "高到低滑輪飛鳥",
+    "bodyParts": [
+      "胸"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "由高位滑輪向前下方合攏手臂，以可控制弧線練習胸部出力。",
+    "instructions": [
+      "兩側滑輪固定在高於肩的位置，輕重量各持一個握把，前後腳站穩，軀幹微向前傾。",
+      "手臂向兩側打開到肩部舒服範圍，手肘微彎；肩部放鬆，不向後硬拉。",
+      "維持手肘彎度，沿前下方弧線把握把帶到下胸至上腹前方；不用雙手交叉或碰撞。",
+      "控制回到起始開展位置，軀幹不前後搖晃；結束慢慢讓配重落穩再放下握把。"
+    ],
+    "cues": [
+      "滑輪在高位，雙手往前下方合攏",
+      "軀幹角度穩定，不用身體甩動",
+      "肩部不適就停止"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/I-Ue34qLxc4",
+      "watchUrl": "https://www.youtube.com/shorts/I-Ue34qLxc4",
+      "title": "高到低滑輪飛鳥短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/I-Ue34qLxc4",
+    "sourceLabel": "DeltaBolic：高到低滑輪飛鳥示範"
+  },
+  "definition": {
+    "variation": "雙高位滑輪、站姿前後腳、輕微前傾的高到低飛鳥；不同於肩高水平飛鳥。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/I-Ue34qLxc4",
+      "label": "DeltaBolic：高到低滑輪飛鳥",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "高位滑輪與站姿",
+        "前下方合攏路徑",
+        "肩部穩定"
+      ],
+      "note": "2.308、5.771 秒含肩部位置對照，9.233 秒可見前後腳站姿、高位雙滑輪向前下方合攏。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "538ef53097630f12acc3f0c295eb859b109aefd4485b8605280d070b59410b93",
+      "findings": [
+        "2.308、5.771 秒含肩部位置對照，9.233 秒可見前後腳站姿、高位雙滑輪向前下方合攏。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "538ef53097630f12acc3f0c295eb859b109aefd4485b8605280d070b59410b93",
+      "reviewedImageSha256": "9cf767b312a271f45f368a236fa55167f47fff38d1efce1da865d7450369dc4d",
+      "findings": [
+        "高位雙滑輪連到握把，前後腳站姿、前下方合攏及受控打開可見；沒有把高低路徑畫成肩高平推，份量與文字一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/I-Ue34qLxc4",
+      "check": {
+        "videoId": "I-Ue34qLxc4",
+        "seconds": [
+          2.3082,
+          5.7705,
+          9.2328
+        ],
+        "observation": "2.308、5.771 秒含肩部位置對照，9.233 秒可見前後腳站姿、高位雙滑輪向前下方合攏。"
+      },
+      "findings": [
+        "2.308、5.771 秒含肩部位置對照，9.233 秒可見前後腳站姿、高位雙滑輪向前下方合攏。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "538ef53097630f12acc3f0c295eb859b109aefd4485b8605280d070b59410b93",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-high-to-low-cable-fly-zh-tw.png",
+    "sha256": "9cf767b312a271f45f368a236fa55167f47fff38d1efce1da865d7450369dc4d",
+    "generatedFromContentHash": "4db50b46f4eec253b66881c736ee4a09013618c37001c72231507149e61e8fad",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定前方略偏側，頭到腳及兩側高位滑輪、完整纜線可見。",
+      "frames": [
+        {
+          "title": "站穩打開",
+          "pose": "Woman in split stance between two cable towers. Pulleys clearly ABOVE shoulder height; each hand holds one handle. Slight stable forward torso lean, arms out to sides not behind torso, elbows slightly flexed, gaze forward along neck.",
+          "caption": "高位滑輪，前後腳站穩。"
+        },
+        {
+          "title": "前下合攏",
+          "pose": "Same setup. Both handles arc forward and DOWN to lower chest/upper abdomen in front of torso, nearly meeting without crossing. Cables diagonal from high outer pulleys to low inner hands. Elbow bend stays soft unchanged.",
+          "caption": "手肘微彎，往前下方合攏。"
+        },
+        {
+          "title": "控制回程",
+          "pose": "Arms reopen to comfortable starting span, controlled by chest, body angle and feet unchanged, no excessive shoulder extension or shrugged neck.",
+          "caption": "慢慢打開，不用身體甩動。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 高到低滑輪飛鳥; subtitle 由高位滑輪向前下方合攏手臂，以可控制弧線練習胸部出力。; camera 固定前方略偏側，頭到腳及兩側高位滑輪、完整纜線可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"站穩打開\",\"pose\":\"Woman in split stance between two cable towers. Pulleys clearly ABOVE shoulder height; each hand holds one handle. Slight stable forward torso lean, arms out to sides not behind torso, elbows slightly flexed, gaze forward along neck.\",\"caption\":\"高位滑輪，前後腳站穩。\"},{\"title\":\"前下合攏\",\"pose\":\"Same setup. Both handles arc forward and DOWN to lower chest/upper abdomen in front of torso, nearly meeting without crossing. Cables diagonal from high outer pulleys to low inner hands. Elbow bend stays soft unchanged.\",\"caption\":\"手肘微彎，往前下方合攏。\"},{\"title\":\"控制回程\",\"pose\":\"Arms reopen to comfortable starting span, controlled by chest, body angle and feet unchanged, no excessive shoulder extension or shrugged neck.\",\"caption\":\"慢慢打開，不用身體甩動。\"}]; bottom three columns 動作重點 [\"滑輪在高位，雙手往前下方合攏\",\"軀幹角度穩定，不用身體甩動\",\"肩部不適就停止\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

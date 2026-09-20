@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "lying-ez-bar-triceps-extension",
+    "name": "仰躺曲槓三頭肌伸展",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "曲槓",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "仰躺平板椅，用曲槓控制屈肘與伸肘，練習三頭肌。",
+    "instructions": [
+      "仰躺平板椅，頭、肩、臀部貼穩，雙腳踩地；以輕重量完整握住曲槓的斜握段。",
+      "曲槓在額頭上方偏後的安全位置，上臂略朝頭側但保持穩定，手腕自然。",
+      "慢慢屈肘，讓曲槓降到頭後附近的舒服位置，絕不撞額頭；上臂不大幅前後擺。",
+      "伸肘回到起點，不強迫肘關節過伸；結束安全收回或請人接槓。"
+    ],
+    "cues": [
+      "曲槓路徑保留頭部空間",
+      "不要把重量甩向額頭",
+      "先用輕重量，必要時請人保護"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/K3mFeNz4e3w",
+      "watchUrl": "https://www.youtube.com/shorts/K3mFeNz4e3w",
+      "title": "仰躺曲槓三頭肌伸展短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/K3mFeNz4e3w",
+    "sourceLabel": "DeltaBolic：仰躺曲槓三頭肌伸展示範"
+  },
+  "definition": {
+    "variation": "平板椅仰躺、雙手持 EZ 曲槓的三頭肌伸展，不是直桿胸推。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/K3mFeNz4e3w",
+      "label": "DeltaBolic：仰躺曲槓三頭肌伸展",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "仰躺曲槓",
+        "上臂穩定屈肘",
+        "雙腳與椅面支撐"
+      ],
+      "note": "1.780 秒錯誤肘位對照、4.451 秒肘關節角度、7.121 秒仰躺曲槓伸肘；採頭後安全範圍，不教砸向額頭。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "3e18480b46dfab08da3bce982f3464daba1aec77e69a6d66784e17de18088a76",
+      "findings": [
+        "1.780 秒錯誤肘位對照、4.451 秒肘關節角度、7.121 秒仰躺曲槓伸肘；採頭後安全範圍，不教砸向額頭。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "3e18480b46dfab08da3bce982f3464daba1aec77e69a6d66784e17de18088a76",
+      "reviewedImageSha256": "82d7be38c4268aed5e879af2debe4ff9e652afd25ebd5fa7ee50aa751ff9c11d",
+      "findings": [
+        "已檢視曲槓、仰躺頭背臀支撐、雙腳踩地與屈伸肘分鏡；槓與額頭保留空間，沒有甩向額頭。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/K3mFeNz4e3w",
+      "check": {
+        "videoId": "K3mFeNz4e3w",
+        "seconds": [
+          1.7802,
+          4.4505,
+          7.1208
+        ],
+        "observation": "1.780 秒錯誤肘位對照、4.451 秒肘關節角度、7.121 秒仰躺曲槓伸肘；採頭後安全範圍，不教砸向額頭。"
+      },
+      "findings": [
+        "1.780 秒錯誤肘位對照、4.451 秒肘關節角度、7.121 秒仰躺曲槓伸肘；採頭後安全範圍，不教砸向額頭。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "3e18480b46dfab08da3bce982f3464daba1aec77e69a6d66784e17de18088a76",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-lying-ez-bar-triceps-extension-zh-tw.png",
+    "sha256": "82d7be38c4268aed5e879af2debe4ff9e652afd25ebd5fa7ee50aa751ff9c11d",
+    "generatedFromContentHash": "b65881fd003d90a3b063cbae6eb0ad6a13255e57a357b2169de68c3df4993521",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側面略偏前，頭在左腳在右，曲槓彎曲形狀與頭部距離可見。",
+      "frames": [
+        {
+          "title": "仰躺持槓",
+          "pose": "Woman supine flat bench head LEFT feet RIGHT. Head shoulders butt supported, feet floor. Both hands hold lightweight EZ CURL BAR on angled grip segments above forehead slightly toward head end, elbows naturally extended, upper arms tilted a little toward head.",
+          "caption": "頭肩臀貼穩，曲槓握穩。"
+        },
+        {
+          "title": "控制屈肘",
+          "pose": "Keep upper arms nearly unchanged, bend elbows so forearms and EZ bar move toward space just BEHIND head screen LEFT, with clear gap from forehead. No bar contact head, neutral wrists.",
+          "caption": "緩慢彎肘，頭部前後保留空間。"
+        },
+        {
+          "title": "平順伸肘",
+          "pose": "Extend elbows to starting EZ bar position without large shoulder movement, same stable body, no forced hyperextension.",
+          "caption": "平順回程，不甩動或硬鎖肘。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 仰躺曲槓三頭肌伸展; subtitle 仰躺平板椅，用曲槓控制屈肘與伸肘，練習三頭肌。; camera 固定側面略偏前，頭在左腳在右，曲槓彎曲形狀與頭部距離可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"仰躺持槓\",\"pose\":\"Woman supine flat bench head LEFT feet RIGHT. Head shoulders butt supported, feet floor. Both hands hold lightweight EZ CURL BAR on angled grip segments above forehead slightly toward head end, elbows naturally extended, upper arms tilted a little toward head.\",\"caption\":\"頭肩臀貼穩，曲槓握穩。\"},{\"title\":\"控制屈肘\",\"pose\":\"Keep upper arms nearly unchanged, bend elbows so forearms and EZ bar move toward space just BEHIND head screen LEFT, with clear gap from forehead. No bar contact head, neutral wrists.\",\"caption\":\"緩慢彎肘，頭部前後保留空間。\"},{\"title\":\"平順伸肘\",\"pose\":\"Extend elbows to starting EZ bar position without large shoulder movement, same stable body, no forced hyperextension.\",\"caption\":\"平順回程，不甩動或硬鎖肘。\"}]; bottom three columns 動作重點 [\"曲槓路徑保留頭部空間\",\"不要把重量甩向額頭\",\"先用輕重量，必要時請人保護\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-fly",
+    "name": "平板啞鈴飛鳥",
+    "bodyParts": [
+      "胸",
+      "肩"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "保持手肘微彎，以弧線開合手臂訓練胸部，不用推舉重量做飛鳥。",
+    "instructions": [
+      "拿兩顆輕啞鈴仰躺平板椅，頭、肩、臀部有支撐，雙腳踩地；需要時請人協助遞啞鈴。",
+      "把啞鈴放在胸部上方，掌心相對、手肘微彎，手腕保持穩定。",
+      "沿弧線慢慢向兩側打開，到上臂接近身體水平或更淺的舒服範圍；不要追求深拉伸。",
+      "維持手肘彎度，沿相同弧線合回胸部上方，不碰撞啞鈴；結束穩定收回再坐起。"
+    ],
+    "cues": [
+      "使用比胸推更輕的重量",
+      "手肘微彎，不變成大幅屈伸的胸推",
+      "不讓手臂過度掉到椅面下方"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rk8YayRoTRQ",
+      "watchUrl": "https://www.youtube.com/shorts/rk8YayRoTRQ",
+      "title": "平板啞鈴飛鳥短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/21/lying-chest-fly/",
+    "sourceLabel": "ACE：平板啞鈴飛鳥"
+  },
+  "definition": {
+    "variation": "仰躺平板椅、兩顆啞鈴、掌心相對的飛鳥。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/rk8YayRoTRQ",
+      "label": "DeltaBolic：平板啞鈴飛鳥",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "平板啞鈴飛鳥",
+        "微彎手肘與胸前合回",
+        "控制肩部活動範圍"
+      ],
+      "note": "2.180 秒肩膀過度打開的錯誤對照，5.451 秒手臂與啞鈴對齊，8.721 秒平板飛鳥合回；文字另對照 ACE 全部四步。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/21/lying-chest-fly/",
+      "label": "ACE：平板啞鈴飛鳥",
+      "supports": [
+        "頭肩臀與雙腳支撐",
+        "微彎手肘與掌心相對",
+        "弧線下放與合回"
+      ],
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "note": "文字步驟另以此來源交叉核對；不將一般起始份量當作來源處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "eabb5988be884c4d8b4d57ca34bdbbce4d0a597392f5b045d8fc9953a3e6e754",
+      "findings": [
+        "2.180 秒肩膀過度打開的錯誤對照，5.451 秒手臂與啞鈴對齊，8.721 秒平板飛鳥合回；文字另對照 ACE 全部四步。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "eabb5988be884c4d8b4d57ca34bdbbce4d0a597392f5b045d8fc9953a3e6e754",
+      "reviewedImageSha256": "b02252ac9576c19315dd431e18a31d3712238cf29518fdc51474286d67a42192",
+      "findings": [
+        "三格為雙啞鈴胸前、兩側弧線打開及合回，平板椅、雙腳、頭肩臀支撐與微彎手肘可見；2 組 10 次、輕重量及不深拉文字一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/rk8YayRoTRQ",
+      "check": {
+        "videoId": "rk8YayRoTRQ",
+        "seconds": [
+          2.1802,
+          5.4505,
+          8.7208
+        ],
+        "observation": "2.180 秒肩膀過度打開的錯誤對照，5.451 秒手臂與啞鈴對齊，8.721 秒平板飛鳥合回；文字另對照 ACE 全部四步。"
+      },
+      "findings": [
+        "2.180 秒肩膀過度打開的錯誤對照，5.451 秒手臂與啞鈴對齊，8.721 秒平板飛鳥合回；文字另對照 ACE 全部四步。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "eabb5988be884c4d8b4d57ca34bdbbce4d0a597392f5b045d8fc9953a3e6e754",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-fly-zh-tw.png",
+    "sha256": "b02252ac9576c19315dd431e18a31d3712238cf29518fdc51474286d67a42192",
+    "generatedFromContentHash": "eabb5988be884c4d8b4d57ca34bdbbce4d0a597392f5b045d8fc9953a3e6e754",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定斜上方全身視角，能看清兩側手臂開合、平板椅及踩地雙腳。",
+      "frames": [
+        {
+          "title": "胸前準備",
+          "pose": "Woman supine on flat bench, head shoulders butt supported, feet on floor. Two light dumbbells held over chest palms facing each other, elbows slightly bent. Eyes aligned head upward.",
+          "caption": "掌心相對，手肘保持微彎。"
+        },
+        {
+          "title": "弧線打開",
+          "pose": "Same camera. Arms open out to sides in wide arc with elbows gently bent at unchanged angle. Upper arms no lower than torso level. Dumbbells separated widely, wrists neutral, shoulders supported.",
+          "caption": "慢慢向兩側打開，不追求深拉伸。"
+        },
+        {
+          "title": "合回胸前",
+          "pose": "Dumbbells return in wide arc over chest, same elbow bend and neutral wrists. Do not collide weights, torso and feet stay supported.",
+          "caption": "沿弧線合回，不碰撞啞鈴。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 平板啞鈴飛鳥; subtitle 保持手肘微彎，以弧線開合手臂訓練胸部，不用推舉重量做飛鳥。; camera 固定斜上方全身視角，能看清兩側手臂開合、平板椅及踩地雙腳。; render each step title and caption verbatim and depict pose: [{\"title\":\"胸前準備\",\"pose\":\"Woman supine on flat bench, head shoulders butt supported, feet on floor. Two light dumbbells held over chest palms facing each other, elbows slightly bent. Eyes aligned head upward.\",\"caption\":\"掌心相對，手肘保持微彎。\"},{\"title\":\"弧線打開\",\"pose\":\"Same camera. Arms open out to sides in wide arc with elbows gently bent at unchanged angle. Upper arms no lower than torso level. Dumbbells separated widely, wrists neutral, shoulders supported.\",\"caption\":\"慢慢向兩側打開，不追求深拉伸。\"},{\"title\":\"合回胸前\",\"pose\":\"Dumbbells return in wide arc over chest, same elbow bend and neutral wrists. Do not collide weights, torso and feet stay supported.\",\"caption\":\"沿弧線合回，不碰撞啞鈴。\"}]; bottom three columns 動作重點 [\"使用比胸推更輕的重量\",\"手肘微彎，不變成大幅屈伸的胸推\",\"不讓手臂過度掉到椅面下方\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

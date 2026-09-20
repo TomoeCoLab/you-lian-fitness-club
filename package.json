@@ -1,7 +1,7 @@
 {
   "name": "you-lian-rep-club",
   "private": true,
-  "version": "1.8.1",
+  "version": "1.9.0",
   "type": "module",
   "scripts": {
     "test": "npm run content:check && node --experimental-strip-types --import ./tests/resolve-ts.mjs --test tests/*.test.ts tests/*.test.mjs",

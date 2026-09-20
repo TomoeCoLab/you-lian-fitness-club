@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "chest-supported-machine-row",
+    "name": "胸靠器械划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "胸靠划船機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "胸墊提供支撐，使用中立握把練習坐姿背部划船。",
+    "instructions": [
+      "依機台指示調整座椅與胸墊，讓胸部能貼墊、雙腳踏穩，握把位在胸部至上腹前方。",
+      "選輕重量，雙手掌心相對握住中立握把；手臂向前伸長但不被配重拉離胸墊。",
+      "手肘朝後拉，握把靠近身體兩側，肩膀不聳起、胸部不離墊。",
+      "慢慢伸肘回到起點，配重不撞擊；完成後穩定放回再離開機台。"
+    ],
+    "cues": [
+      "胸墊支撐全程保留",
+      "先確認本機台座椅與握把設定",
+      "不抬胸或後仰甩重量"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/p88Y69wWQz0?start=7&end=12",
+      "watchUrl": "https://www.youtube.com/shorts/p88Y69wWQz0",
+      "title": "胸靠器械划船短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "示範截取中立握把區段；座椅、胸墊與握把調節仍依現場機台說明。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/p88Y69wWQz0",
+    "sourceLabel": "DeltaBolic：胸靠器械划船示範"
+  },
+  "definition": {
+    "variation": "坐姿胸靠、配重式划船機的中立握法；非無胸靠低位滑輪划船。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/p88Y69wWQz0",
+      "label": "DeltaBolic：胸靠器械划船",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "胸靠坐姿",
+        "中立握把片段",
+        "雙腳穩定與肘後拉"
+      ],
+      "note": "5、6 秒正握上方握把；7 秒切入中立握把特寫，8.831、10、11 秒為中立握划船；12 秒開始反握特寫。本項採 7–12 秒，排除兩端其他握法。胸墊、腳踏與配重式連桿機構可見。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "de8f152906edaa58e23cedbee105eca93d65c881d99577b5ab83b245861f1ff3",
+      "findings": [
+        "5、6 秒正握上方握把；7 秒切入中立握把特寫，8.831、10、11 秒為中立握划船；12 秒開始反握特寫。本項採 7–12 秒，排除兩端其他握法。胸墊、腳踏與配重式連桿機構可見。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "de8f152906edaa58e23cedbee105eca93d65c881d99577b5ab83b245861f1ff3",
+      "reviewedImageSha256": "caa5d8fb3529d48e2508a00362d0068ed6a367cf9422fe8a40e4f5d8fea8acc4",
+      "findings": [
+        "已檢視原圖：胸靠墊、雙腳踏板支撐，中立握把拉向身側再控制回程；手臂與連桿位置合理，圖文份量一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。",
+        "補齊播放器區間參數後，逐項確認分鏡與圖像未變；保留實際產圖時的內容雜湊。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/p88Y69wWQz0?start=7&end=12",
+      "check": {
+        "videoId": "p88Y69wWQz0",
+        "seconds": [
+          3.5322,
+          5,
+          6,
+          7,
+          8.8305,
+          10,
+          11,
+          12,
+          14.1288
+        ],
+        "observation": "5、6 秒正握上方握把；7 秒切入中立握把特寫，8.831、10、11 秒為中立握划船；12 秒開始反握特寫。本項採 7–12 秒，排除兩端其他握法。胸墊、腳踏與配重式連桿機構可見。",
+        "start": 7,
+        "end": 12
+      },
+      "findings": [
+        "5、6 秒正握上方握把；7 秒切入中立握把特寫，8.831、10、11 秒為中立握划船；12 秒開始反握特寫。本項採 7–12 秒，排除兩端其他握法。胸墊、腳踏與配重式連桿機構可見。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "de8f152906edaa58e23cedbee105eca93d65c881d99577b5ab83b245861f1ff3",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-chest-supported-machine-row-zh-tw.png",
+    "sha256": "caa5d8fb3529d48e2508a00362d0068ed6a367cf9422fe8a40e4f5d8fea8acc4",
+    "generatedFromContentHash": "1b128b42e08110e958a6993ac4ac1cadce1789bb1372c0dab168c06c1681acd1",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側前方，胸靠墊、坐墊、腳踏、握把連桿與配重架可見；不畫品牌精細調節件。",
+      "frames": [
+        {
+          "title": "胸靠坐穩",
+          "pose": "Woman seated facing selectorized rowing machine with chest pressed into padded support, feet stable on footrests. Two vertical handles in front of chest give neutral palms-facing grip. Arms comfortably extended. Side threequarter camera shows pad contact and lever arms.",
+          "caption": "胸部貼墊，雙腳踏穩。"
+        },
+        {
+          "title": "手肘後拉",
+          "pose": "Bend elbows back alongside torso pulling vertical handles toward ribs, chest remains on pad; lever arms pivot coherently toward seated user, head neutral gaze forward, no shrug.",
+          "caption": "中立握把拉近兩側，不抬胸。"
+        },
+        {
+          "title": "緩慢放回",
+          "pose": "Extend elbows to starting reach, chest never lifts from pad, weight stack controlled without impact, feet stay supported.",
+          "caption": "慢慢伸肘放回，配重不撞擊。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 胸靠器械划船; subtitle 胸墊提供支撐，使用中立握把練習坐姿背部划船。; camera 固定侧前方，胸靠墊、坐墊、腳踏、握把連桿與配重架可見；不畫品牌精細調節件。; render each step title and caption verbatim and depict pose: [{\"title\":\"胸靠坐穩\",\"pose\":\"Woman seated facing selectorized rowing machine with chest pressed into padded support, feet stable on footrests. Two vertical handles in front of chest give neutral palms-facing grip. Arms comfortably extended. Side threequarter camera shows pad contact and lever arms.\",\"caption\":\"胸部貼墊，雙腳踏穩。\"},{\"title\":\"手肘後拉\",\"pose\":\"Bend elbows back alongside torso pulling vertical handles toward ribs, chest remains on pad; lever arms pivot coherently toward seated user, head neutral gaze forward, no shrug.\",\"caption\":\"中立握把拉近兩側，不抬胸。\"},{\"title\":\"緩慢放回\",\"pose\":\"Extend elbows to starting reach, chest never lifts from pad, weight stack controlled without impact, feet stay supported.\",\"caption\":\"慢慢伸肘放回，配重不撞擊。\"}]; bottom three columns 動作重點 [\"胸墊支撐全程保留\",\"先確認本機台座椅與握把設定\",\"不抬胸或後仰甩重量\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

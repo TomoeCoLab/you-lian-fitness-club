@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-standing-calf-raise",
+    "name": "雙腳啞鈴提踵",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "雙腳前掌站在穩固低踏板，持輕啞鈴控制腳跟上提與下降。",
+    "instructions": [
+      "使用固定、止滑的低踏板，不疊啞鈴或鬆動槓片；先徒手確認平衡，再雙手持輕啞鈴垂身側。",
+      "雙腳前掌踩穩、腳尖朝自然前方，腳跟可小幅超出踏板；膝蓋自然伸長、不鎖死。",
+      "腳跟慢慢向上提，重心平均落在前掌，不向小腳趾側翻，也不彈跳。",
+      "控制腳跟下降到舒適範圍，不追求很深拉伸；需要扶穩時改用本站扶椅雙腳提踵。"
+    ],
+    "cues": [
+      "踏板穩固，不疊鬆動重物",
+      "腳跟上下，不向外翻",
+      "失去平衡就改扶穩徒手"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wdOkFomQNp8",
+      "watchUrl": "https://www.youtube.com/shorts/wdOkFomQNp8",
+      "title": "雙腳啞鈴提踵短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/wdOkFomQNp8",
+    "sourceLabel": "DeltaBolic：雙腳啞鈴提踵示範"
+  },
+  "definition": {
+    "variation": "雙手各持啞鈴、雙腳同步的站姿提踵，使用穩固止滑的低踏板；平衡不足改扶牆徒手版本。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/wdOkFomQNp8",
+      "label": "DeltaBolic：雙腳啞鈴提踵",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "前掌踏板",
+        "腳跟升降",
+        "啞鈴負重"
+      ],
+      "note": "4.032 秒雙腳前掌踏板、10.081 秒腳尖方向錯誤對照、16.129 秒持啞鈴雙腳提踵；全身補以標準直立支撐圖解，不臆測影片重量。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "54623bc96a4debbeec7b7885deb62647f3c3dabdb7602bcfcb4fb61385aa4b0a",
+      "findings": [
+        "4.032 秒雙腳前掌踏板、10.081 秒腳尖方向錯誤對照、16.129 秒持啞鈴雙腳提踵；全身補以標準直立支撐圖解，不臆測影片重量。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "54623bc96a4debbeec7b7885deb62647f3c3dabdb7602bcfcb4fb61385aa4b0a",
+      "reviewedImageSha256": "915b91d5a7b5b8d74ca95f7d4c729f3d639308c79b630f8ba79ac3694967d227",
+      "findings": [
+        "已檢視雙前掌在單一穩固踏板、雙啞鈴垂身側，腳跟上提与回程、膝蓋自然伸長，沒有單腳或彈跳。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/wdOkFomQNp8",
+      "check": {
+        "videoId": "wdOkFomQNp8",
+        "seconds": [
+          4.0322,
+          10.0805,
+          16.1288
+        ],
+        "observation": "4.032 秒雙腳前掌踏板、10.081 秒腳尖方向錯誤對照、16.129 秒持啞鈴雙腳提踵；全身補以標準直立支撐圖解，不臆測影片重量。"
+      },
+      "findings": [
+        "4.032 秒雙腳前掌踏板、10.081 秒腳尖方向錯誤對照、16.129 秒持啞鈴雙腳提踵；全身補以標準直立支撐圖解，不臆測影片重量。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "54623bc96a4debbeec7b7885deb62647f3c3dabdb7602bcfcb4fb61385aa4b0a",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-standing-calf-raise-zh-tw.png",
+    "sha256": "915b91d5a7b5b8d74ca95f7d4c729f3d639308c79b630f8ba79ac3694967d227",
+    "generatedFromContentHash": "54623bc96a4debbeec7b7885deb62647f3c3dabdb7602bcfcb4fb61385aa4b0a",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略偏後，全身與前掌踏板、腳跟空間可見。",
+      "frames": [
+        {
+          "title": "踏板站穩",
+          "pose": "Woman stands upright holding light dumbbells at sides, BOTH forefeet on a single fixed nonslip low step, heels slightly over edge, toes natural forward, knees soft.",
+          "caption": "前掌踩穩，踏板不滑動。"
+        },
+        {
+          "title": "腳跟上提",
+          "pose": "Raise BOTH heels vertically by plantarflexing ankles, forefeet stay in contact step, torso upright and knees unchanged, no ankle rolling.",
+          "caption": "慢慢踮起，不向外翻。"
+        },
+        {
+          "title": "控制下降",
+          "pose": "Lower both heels toward comfortable starting level, not extreme drop, weights quiet at sides and body stable.",
+          "caption": "慢慢下降，不彈跳借力。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 雙腳啞鈴提踵; subtitle 雙腳前掌站在穩固低踏板，持輕啞鈴控制腳跟上提與下降。; camera 固定正側略偏後，全身與前掌踏板、腳跟空間可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"踏板站穩\",\"pose\":\"Woman stands upright holding light dumbbells at sides, BOTH forefeet on a single fixed nonslip low step, heels slightly over edge, toes natural forward, knees soft.\",\"caption\":\"前掌踩穩，踏板不滑動。\"},{\"title\":\"腳跟上提\",\"pose\":\"Raise BOTH heels vertically by plantarflexing ankles, forefeet stay in contact step, torso upright and knees unchanged, no ankle rolling.\",\"caption\":\"慢慢踮起，不向外翻。\"},{\"title\":\"控制下降\",\"pose\":\"Lower both heels toward comfortable starting level, not extreme drop, weights quiet at sides and body stable.\",\"caption\":\"慢慢下降，不彈跳借力。\"}]; bottom three columns 動作重點 [\"踏板穩固，不疊鬆動重物\",\"腳跟上下，不向外翻\",\"失去平衡就改扶穩徒手\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting must be clear: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

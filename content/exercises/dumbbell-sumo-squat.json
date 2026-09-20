@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-sumo-squat",
+    "name": "啞鈴相撲深蹲",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "寬站距持單顆啞鈴，在可控制範圍內練習深蹲。",
+    "instructions": [
+      "雙腳比肩略寬，腳尖自然朝外，不強迫很大的外開角度；雙手穩握同一顆啞鈴上端。",
+      "啞鈴垂於兩腿間，胸口自然、腹部穩定，屈髖屈膝下蹲。",
+      "膝蓋沿腳尖方向移動，腳跟保持踩地，下降到可穩定控制的位置。",
+      "以雙腳推地站回，不把啞鈴甩起；若握力或站距不舒服就減重、縮小幅度。"
+    ],
+    "cues": [
+      "一顆啞鈴，雙手握穩",
+      "膝蓋與腳尖同方向",
+      "不用刻意追求最大站距"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/bRCjBCtBGIo",
+      "watchUrl": "https://www.youtube.com/shorts/bRCjBCtBGIo",
+      "title": "啞鈴相撲深蹲短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/bRCjBCtBGIo",
+    "sourceLabel": "DeltaBolic：啞鈴相撲深蹲示範"
+  },
+  "definition": {
+    "variation": "雙手托住同一顆啞鈴上端、啞鈴垂於兩腿間的寬站距深蹲。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/bRCjBCtBGIo",
+      "label": "DeltaBolic：啞鈴相撲深蹲",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "寬站距外轉",
+        "單顆啞鈴垂在腿間",
+        "下蹲膝方向"
+      ],
+      "note": "2.680 秒腳尖角度、6.701 秒側面中立背、10.721 秒正面雙手單顆啞鈴與膝方向。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "e3c488494f99db220614a3eba8be30dc71d32ad4e0c416d816899c49dc036ea8",
+      "findings": [
+        "2.680 秒腳尖角度、6.701 秒側面中立背、10.721 秒正面雙手單顆啞鈴與膝方向。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "e3c488494f99db220614a3eba8be30dc71d32ad4e0c416d816899c49dc036ea8",
+      "reviewedImageSha256": "ca742be8d185c0d7a5aea4bcbaca75c9a857b4fecd00e8e8e3247482c3e5a50c",
+      "findings": [
+        "已檢視寬站距與外轉腳尖、雙手共持一顆垂直啞鈴於腿間，膝蓋朝脚尖方向下蹲並回站姿。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/bRCjBCtBGIo",
+      "check": {
+        "videoId": "bRCjBCtBGIo",
+        "seconds": [
+          2.6802,
+          6.7005,
+          10.7208
+        ],
+        "observation": "2.680 秒腳尖角度、6.701 秒側面中立背、10.721 秒正面雙手單顆啞鈴與膝方向。"
+      },
+      "findings": [
+        "2.680 秒腳尖角度、6.701 秒側面中立背、10.721 秒正面雙手單顆啞鈴與膝方向。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "e3c488494f99db220614a3eba8be30dc71d32ad4e0c416d816899c49dc036ea8",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-sumo-squat-zh-tw.png",
+    "sha256": "ca742be8d185c0d7a5aea4bcbaca75c9a857b4fecd00e8e8e3247482c3e5a50c",
+    "generatedFromContentHash": "e3c488494f99db220614a3eba8be30dc71d32ad4e0c416d816899c49dc036ea8",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定前側三分之四，雙腳與同一顆垂直啞鈴完整。",
+      "frames": [
+        {
+          "title": "寬站持鈴",
+          "pose": "Woman stands moderately wider than shoulders toes turned out comfortably, both hands cup upper head of ONE vertical dumbbell hanging between thighs, arms long.",
+          "caption": "寬站穩，雙手握同一顆。"
+        },
+        {
+          "title": "穩定下蹲",
+          "pose": "Bend hips/knees with knees tracking outward toward toes, feet fully grounded and neutral back, single dumbbell hangs centrally between legs not raised to chest.",
+          "caption": "膝蓋順腳尖，腳跟不抬。"
+        },
+        {
+          "title": "推地站回",
+          "pose": "Extend hips/knees smoothly, same vertical dumbbell secure between thighs, no backward lean.",
+          "caption": "控制站回，不甩動啞鈴。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 啞鈴相撲深蹲; subtitle 寬站距持單顆啞鈴，在可控制範圍內練習深蹲。; camera 固定前側三分之四，雙腳與同一顆垂直啞鈴完整。; render each step title and caption verbatim and depict pose: [{\"title\":\"寬站持鈴\",\"pose\":\"Woman stands moderately wider than shoulders toes turned out comfortably, both hands cup upper head of ONE vertical dumbbell hanging between thighs, arms long.\",\"caption\":\"寬站穩，雙手握同一顆。\"},{\"title\":\"穩定下蹲\",\"pose\":\"Bend hips/knees with knees tracking outward toward toes, feet fully grounded and neutral back, single dumbbell hangs centrally between legs not raised to chest.\",\"caption\":\"膝蓋順腳尖，腳跟不抬。\"},{\"title\":\"推地站回\",\"pose\":\"Extend hips/knees smoothly, same vertical dumbbell secure between thighs, no backward lean.\",\"caption\":\"控制站回，不甩動啞鈴。\"}]; bottom three columns 動作重點 [\"一顆啞鈴，雙手握穩\",\"膝蓋與腳尖同方向\",\"不用刻意追求最大站距\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting must be clear: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

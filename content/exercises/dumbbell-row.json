@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "dumbbell-row",
     "name": "單臂啞鈴划船",
@@ -31,11 +31,12 @@
       "load": "選擇不需扭轉身體也能完成的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
-      "watchUrl": "https://www.youtube.com/watch?v=r1loX83MWaw",
-      "title": "啞鈴划船完整教學",
-      "channel": "女力健身 Nuli App",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/yHqqGd0tXcw",
+      "watchUrl": "https://www.youtube.com/shorts/yHqqGd0tXcw",
+      "title": "單臂啞鈴划船姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/126/single-arm-row/",
     "sourceLabel": "ACE：長椅支撐單臂啞鈴划船"
@@ -69,52 +70,65 @@
         "不旋轉軀幹並控制放下"
       ],
       "note": "已核對三階段；動作時頭頸隨軀幹，不採轉頭看鏡子檢查姿勢的建議。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/yHqqGd0tXcw",
+      "label": "DeltaBolic：單臂啞鈴划船",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "8375fc2ac564b021d376a4d4307fcc598a73f73fc3d89c03c8d198978ca73169",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "0038df90ec6823f0a24fc6340939f93bfb91b2628778b8245674dca0683d7100",
       "findings": [
         "已核對三階段；動作時頭頸隨軀幹，不採轉頭看鏡子檢查姿勢的建議。",
         "預設組數及次數為本站一般起始參考，非來源個人化處方。",
-        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。",
+        "一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "8375fc2ac564b021d376a4d4307fcc598a73f73fc3d89c03c8d198978ca73169",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "0038df90ec6823f0a24fc6340939f93bfb91b2628778b8245674dca0683d7100",
       "reviewedImageSha256": "59554dcdda896471b967d575b42f14670100ecde83c6e9ed867f89f3f28d3f7d",
       "findings": [
         "同側手膝支撐、另一手划向髖部，頸部自然、回程不扭腰；每側 10–12 次 3 組包含本站每側 10 次。",
         "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
-        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。",
+        "本次重新開啟原圖檢視：一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/yHqqGd0tXcw",
       "check": {
-        "videoId": "r1loX83MWaw",
+        "videoId": "yHqqGd0tXcw",
         "seconds": [
-          95,
-          110,
-          115,
-          120
+          1.7122,
+          4.2805,
+          6.8488
         ],
-        "observation": "重新核對同側手膝扶長椅、另一手單啞鈴划船；110 秒示範肘沿身側拉向髖、115 秒回程。頻道目前名稱為女力健身 Nuli App。"
+        "observation": "一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。"
       },
       "findings": [
-        "重新核對同側手膝扶長椅、另一手單啞鈴划船；110 秒示範肘沿身側拉向髖、115 秒回程。頻道目前名稱為女力健身 Nuli App。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "8375fc2ac564b021d376a4d4307fcc598a73f73fc3d89c03c8d198978ca73169",
+      "auditBaselineContentHash": "0038df90ec6823f0a24fc6340939f93bfb91b2628778b8245674dca0683d7100",
       "history": [
         {
           "video": {
@@ -142,6 +156,37 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "610a38766b85b773d2dc960d6a506cb1ca964c8fa99b2bc05239dc671145ff26"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+            "watchUrl": "https://www.youtube.com/watch?v=r1loX83MWaw",
+            "title": "啞鈴划船完整教學",
+            "channel": "女力健身 Nuli App",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+            "check": {
+              "videoId": "r1loX83MWaw",
+              "seconds": [
+                95,
+                110,
+                115,
+                120
+              ],
+              "observation": "重新核對同側手膝扶長椅、另一手單啞鈴划船；110 秒示範肘沿身側拉向髖、115 秒回程。頻道目前名稱為女力健身 Nuli App。"
+            },
+            "findings": [
+              "重新核對同側手膝扶長椅、另一手單啞鈴划船；110 秒示範肘沿身側拉向髖、115 秒回程。頻道目前名稱為女力健身 Nuli App。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "8375fc2ac564b021d376a4d4307fcc598a73f73fc3d89c03c8d198978ca73169"
           }
         }
       ]

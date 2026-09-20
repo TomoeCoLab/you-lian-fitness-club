@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "chest-supported-dumbbell-row",
+    "name": "胸靠啞鈴划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "胸部靠在上斜椅上，用兩顆啞鈴划船，減少軀幹晃動。",
+    "instructions": [
+      "將上斜椅固定在約 30–45 度，胸腹靠穩椅背，雙腳踩地；頭頸在椅面上緣外自然延伸。",
+      "雙手各持一顆輕啞鈴，掌心相對，手臂自然垂下；不要讓啞鈴撞椅腳。",
+      "手肘往後帶，將啞鈴拉近身體兩側，胸部仍留在椅墊，不抬胸甩重。",
+      "慢慢伸肘放回，肩部保持控制；結束把啞鈴放穩後再離開椅面。"
+    ],
+    "cues": [
+      "胸部保持支撐，不用腰甩動",
+      "頭頸順著脊椎，不抬頭看鏡子",
+      "回程讓肩胛自然移動，不猛然聳肩"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/2ByilQ4NaAs",
+      "watchUrl": "https://www.youtube.com/shorts/2ByilQ4NaAs",
+      "title": "胸靠啞鈴划船短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/2ByilQ4NaAs",
+    "sourceLabel": "DeltaBolic：胸靠啞鈴划船示範"
+  },
+  "definition": {
+    "variation": "面向约 30–45 度上斜椅、胸部貼墊、兩顆啞鈴掌心相對的划船。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/2ByilQ4NaAs",
+      "label": "DeltaBolic：胸靠啞鈴划船",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "胸靠上斜椅",
+        "雙啞鈴與腳部支撐",
+        "肘後拉"
+      ],
+      "note": "3.580 秒上斜椅與雙啞鈴、8.951 秒肩部位置、14.321 秒胸靠下的雙肘後拉；採中立握法，不另開每個握法版本。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "f0357762967c234c435329c3613099cdb26450400273c361fa2a1de3629e4f48",
+      "findings": [
+        "3.580 秒上斜椅與雙啞鈴、8.951 秒肩部位置、14.321 秒胸靠下的雙肘後拉；採中立握法，不另開每個握法版本。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "f0357762967c234c435329c3613099cdb26450400273c361fa2a1de3629e4f48",
+      "reviewedImageSha256": "9f2a49d0876f9d5cf4568f66adbf99e770929f81dead928cfa6cdc9d113ea0e0",
+      "findings": [
+        "胸部貼上斜墊、雙脚踩地、雙顆啞鈴中立握、肘向後拉及放回可見；文字、2 組 10 次與自然視線一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/2ByilQ4NaAs",
+      "check": {
+        "videoId": "2ByilQ4NaAs",
+        "seconds": [
+          3.5802,
+          8.9505,
+          14.3208
+        ],
+        "observation": "3.580 秒上斜椅與雙啞鈴、8.951 秒肩部位置、14.321 秒胸靠下的雙肘後拉；採中立握法，不另開每個握法版本。"
+      },
+      "findings": [
+        "3.580 秒上斜椅與雙啞鈴、8.951 秒肩部位置、14.321 秒胸靠下的雙肘後拉；採中立握法，不另開每個握法版本。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "f0357762967c234c435329c3613099cdb26450400273c361fa2a1de3629e4f48",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-chest-supported-dumbbell-row-zh-tw.png",
+    "sha256": "9f2a49d0876f9d5cf4568f66adbf99e770929f81dead928cfa6cdc9d113ea0e0",
+    "generatedFromContentHash": "f0357762967c234c435329c3613099cdb26450400273c361fa2a1de3629e4f48",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側後方三分之四視角，胸墊接觸、頭頸、雙腳、兩顆啞鈴可見。",
+      "frames": [
+        {
+          "title": "胸靠準備",
+          "pose": "Woman prone facing into35degree incline bench with chest supported on backrest and feet planted wide enough for stability. Head beyond top edge aligned spine looking downforward. Two dumbbells hang below shoulders palms inward.",
+          "caption": "胸靠上斜椅，雙腳踩穩。"
+        },
+        {
+          "title": "向後划船",
+          "pose": "Elbows bend backward alongside torso, dumbbells rise near waist/rib sides, chest never leaves pad, neutral head and neck unchanged.",
+          "caption": "手肘向後帶，不抬胸甩重。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "Elbows extend returning dumbbells to hanging position, chest still supported and feet stable, shoulders move naturally without shrug.",
+          "caption": "慢慢放回，保持胸部支撐。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 胸靠啞鈴划船; subtitle 胸部靠在上斜椅上，用兩顆啞鈴划船，減少軀幹晃動。; camera 固定側後方三分之四視角，胸墊接觸、頭頸、雙腳、兩顆啞鈴可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"胸靠準備\",\"pose\":\"Woman prone facing into35degree incline bench with chest supported on backrest and feet planted wide enough for stability. Head beyond top edge aligned spine looking downforward. Two dumbbells hang below shoulders palms inward.\",\"caption\":\"胸靠上斜椅，雙腳踩穩。\"},{\"title\":\"向後划船\",\"pose\":\"Elbows bend backward alongside torso, dumbbells rise near waist/rib sides, chest never leaves pad, neutral head and neck unchanged.\",\"caption\":\"手肘向後帶，不抬胸甩重。\"},{\"title\":\"控制放回\",\"pose\":\"Elbows extend returning dumbbells to hanging position, chest still supported and feet stable, shoulders move naturally without shrug.\",\"caption\":\"慢慢放回，保持胸部支撐。\"}]; bottom three columns 動作重點 [\"胸部保持支撐，不用腰甩動\",\"頭頸順著脊椎，不抬頭看鏡子\",\"回程讓肩胛自然移動，不猛然聳肩\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

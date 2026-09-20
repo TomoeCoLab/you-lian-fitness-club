@@ -6,6 +6,7 @@ import { TrainingSheet } from "./TrainingSheet";
 import { useState } from "react";
 import { itemKey, phaseLabels } from "../lib/workoutPlan";
 import { SaveWorkoutTemplate } from "./SaveWorkoutTemplate";
+import { weightLabel } from "../lib/weightLabel";
 
 export function WorkoutPlanSheet({ workout, stale, onClose, onStart, onGuide, onChange, onBrowse, onCheckout, onSave }: {
   onSave: (name: string) => Promise<void>;
@@ -31,7 +32,7 @@ export function WorkoutPlanSheet({ workout, stale, onClose, onStart, onGuide, on
       {workout.items.length === 0 ? <p className="sheet-empty">還沒有動作，從動作庫或課表加入即可開始。</p> : workout.items.map((item, index) => <section className={`plan-exercise${drag?.from === index ? " is-dragging" : ""}${drag?.to === index ? " is-drop-target" : ""}`} key={itemKey(item)}>
         <header><button className="plan-drag-handle" disabled={stale} aria-label={`拖曳排序${item.exerciseName}`} {...handleProps(index)}><GripVertical size={20} /></button><h3>{index + 1}. {item.exerciseName}</h3>{exercises.some(exercise => exercise.id === item.exerciseId) ? <button onClick={() => onGuide(item.exerciseId)} aria-label={`查看${item.exerciseName}指引`}><BookOpen size={17} />指引</button> : <small>自訂動作</small>}</header>
         <p className="training-context-note">{phaseLabels[item.phase ?? "main"]}{item.note ? ` · ${item.note}` : ""}</p>
-        <ul>{item.entries.map((entry, i) => <li key={entry.id}><span>第 {i + 1} 組</span><span>{item.tracking === "time" ? `${entry.durationSeconds ?? "—"} 秒` : `${entry.weight == null ? "自重" : `${entry.weight} kg`} × ${entry.reps ?? "—"} 次`}</span><span>{entry.completed ? "已完成" : "待完成"}</span></li>)}</ul>
+        <ul>{item.entries.map((entry, i) => <li key={entry.id}><span>第 {i + 1} 組</span><span>{item.tracking === "time" ? `${entry.durationSeconds ?? "—"} 秒` : `${weightLabel(entry.weight, exercises.find(exercise => exercise.id === item.exerciseId)?.equipment)} × ${entry.reps ?? "—"} 次`}</span><span>{entry.completed ? "已完成" : "待完成"}</span></li>)}</ul>
         <div className="plan-exercise__actions"><button disabled={stale} onClick={() => onStart(itemKey(item))}>前往此動作</button><button disabled={stale} aria-label={`移除${item.exerciseName}`} onClick={() => { setRemoved(workout); onChange({ ...workout, items: workout.items.filter(other => itemKey(other) !== itemKey(item)), updatedAt: new Date().toISOString() }); }}><Trash2 size={17} /></button></div>
       </section>)}
       <button className="plan-add" disabled={stale} onClick={onBrowse}><Plus size={18} />新增動作</button>

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "supine-crunch",
+    "name": "仰躺捲腹",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "從屈膝仰躺小幅捲起上背，練習腹部出力，不做整個身體坐起。",
+    "instructions": [
+      "仰躺墊上、屈膝雙腳踩地，指尖輕放頭側，手肘自然向外，頭頸保持自然。",
+      "吐氣，腹部出力把肩胛骨附近小幅帶離墊面，下背與骨盆保持穩定。",
+      "不把下巴硬壓向胸口、不用手拉脖子，也不追求坐起。",
+      "吸氣慢慢放回上背與頭部；若脖子痠痛或腰部不舒服，縮小幅度或停止。"
+    ],
+    "cues": [
+      "捲上背，不是坐起來",
+      "手指輕放，不拉脖子",
+      "慢慢回程，持續呼吸"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "徒手即可，不用抱槓片；先以不拉扯脖子的幅度練習。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=0&end=3",
+      "watchUrl": "https://www.youtube.com/shorts/acj52MXBaeo",
+      "title": "仰躺捲腹短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/acj52MXBaeo",
+    "sourceLabel": "DeltaBolic：仰躺捲腹示範"
+  },
+  "definition": {
+    "variation": "屈膝、雙腳踩地的短幅捲腹，指尖輕放頭側，不用雙手拉頭。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/acj52MXBaeo",
+      "label": "DeltaBolic：仰躺捲腹",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "屈膝腳踩地",
+        "小幅上背捲起",
+        "與後段抬腿區分"
+      ],
+      "note": "0.5、2 秒為屈膝捲腹，3 秒已切入抬腿；限定 0–3 秒，不採後段其他動作。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "23bfb27b0ff1c1a81c48762ebe5cb090c0ecfab96b8409d18d3a7dc2b3ddd472",
+      "findings": [
+        "0.5、2 秒為屈膝捲腹，3 秒已切入抬腿；限定 0–3 秒，不採後段其他動作。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "23bfb27b0ff1c1a81c48762ebe5cb090c0ecfab96b8409d18d3a7dc2b3ddd472",
+      "reviewedImageSha256": "efb7988704bef9789d71377cf3b7a988fa076c004e33b221f6b14790883cc5e7",
+      "findings": [
+        "檢視上背小幅捲起、雙腳踩地、骨盆留墊，非完整仰臥起坐；已移除攝影指令文字。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=0&end=3",
+      "check": {
+        "videoId": "acj52MXBaeo",
+        "seconds": [
+          0.5,
+          2,
+          3
+        ],
+        "observation": "0.5、2 秒為屈膝捲腹，3 秒已切入抬腿；限定 0–3 秒，不採後段其他動作。",
+        "start": 0,
+        "end": 3
+      },
+      "findings": [
+        "0.5、2 秒為屈膝捲腹，3 秒已切入抬腿；限定 0–3 秒，不採後段其他動作。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "23bfb27b0ff1c1a81c48762ebe5cb090c0ecfab96b8409d18d3a7dc2b3ddd472",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-supine-crunch-zh-tw.png",
+    "sha256": "efb7988704bef9789d71377cf3b7a988fa076c004e33b221f6b14790883cc5e7",
+    "generatedFromContentHash": "23bfb27b0ff1c1a81c48762ebe5cb090c0ecfab96b8409d18d3a7dc2b3ddd472",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面全身，頭頸、肩胛離墊與雙腳踩地可見。",
+      "frames": [
+        {
+          "title": "屈膝仰躺",
+          "pose": "Woman lies supine on yoga mat, knees bent feet flat floor, fingertips lightly beside temples, elbows relaxed wide, head on mat neck neutral.",
+          "caption": "雙腳踩地，手指輕放頭側。"
+        },
+        {
+          "title": "小幅捲起",
+          "pose": "Curl upper spine so shoulder blades just lift off mat, lower back and pelvis remain stable, fingertips do not pull head, gaze follows natural neck toward knees.",
+          "caption": "腹部出力，不用手拉頭。"
+        },
+        {
+          "title": "慢慢放回",
+          "pose": "Lower shoulder blades and head back to mat with control, knees and feet unmoved.",
+          "caption": "緩慢放回，不追求坐起。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-supine-crunch-rejected-1-zh-tw.png",
+        "sha256": "a3ebf96352ee260672223b2abe734e14dfbd4a3ba7b79137b00da2065715118f",
+        "status": "rejected",
+        "reason": "圖上誤印內部鏡位描述；運動姿勢可用，但須移除內部提示字。",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Edit the supplied exercise infographic ONLY by deleting the subtitle line describing camera angle (固定...視角/側面/全身...). Keep the main exercise title, purpose subtitle, all poses, steps, safety cues and dosage exactly unchanged. Leave clean background where this internal camera instruction was. Do not add any slogans."
+    }
+  }
+}

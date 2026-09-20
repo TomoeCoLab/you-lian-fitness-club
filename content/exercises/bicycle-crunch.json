@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "bicycle-crunch",
+    "name": "自行車捲腹",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "屈膝交替伸腿，搭配上背小幅旋轉，練習腹部協調。",
+    "instructions": [
+      "仰躺、雙腿抬起屈膝，指尖輕放頭側，肩胛骨小幅離墊，脖子保持自然。",
+      "將一側膝蓋朝軀幹收近，另一腿慢慢伸出；讓對側肩膀朝收近的膝蓋小幅轉動。",
+      "慢慢回中間並換側，不用手拉頭或手肘硬碰膝蓋。",
+      "腰背保持舒適穩定；做不到時提高伸出腿的角度或減少幅度，脖子不適就停止。"
+    ],
+    "cues": [
+      "肩膀轉動，不拉脖子",
+      "慢慢交替，不用趕速度",
+      "左右各一下算一次"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "徒手即可；放慢速度、縮小伸腿幅度，不以碰到膝蓋為目標。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=7&end=10",
+      "watchUrl": "https://www.youtube.com/shorts/acj52MXBaeo",
+      "title": "自行車捲腹短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/acj52MXBaeo",
+    "sourceLabel": "DeltaBolic：自行車捲腹示範"
+  },
+  "definition": {
+    "variation": "仰躺交替自行車捲腹，以肩膀轉向對側膝，不用手肘硬撞膝蓋。",
+    "counting": "左右各做一次合計 1 次；每組 8 次即左右各 8 下，兩側不重複加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/acj52MXBaeo",
+      "label": "DeltaBolic：自行車捲腹",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "交替伸腿",
+        "對側上背旋轉",
+        "雙側計數"
+      ],
+      "note": "7、8、9 秒為自行車捲腹左右交替，6 秒仍是前段抬腿結尾；採 7–10 秒。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "b0f1641f727de8fe215432a7cf0c5fe8862eeeebbb7206816e2a750384e5094a",
+      "findings": [
+        "7、8、9 秒為自行車捲腹左右交替，6 秒仍是前段抬腿結尾；採 7–10 秒。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "b0f1641f727de8fe215432a7cf0c5fe8862eeeebbb7206816e2a750384e5094a",
+      "reviewedImageSha256": "fc132752d2447245b1f9845e887f98afb107423df542244fe4dc909323db9325",
+      "findings": [
+        "逐格檢視左右彎膝與伸腿已確實交替、对側肩轉向彎膝側，手未強拉頭，左右各一下的文字一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=7&end=10",
+      "check": {
+        "videoId": "acj52MXBaeo",
+        "seconds": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "observation": "7、8、9 秒為自行車捲腹左右交替，6 秒仍是前段抬腿結尾；採 7–10 秒。",
+        "start": 7,
+        "end": 10
+      },
+      "findings": [
+        "7、8、9 秒為自行車捲腹左右交替，6 秒仍是前段抬腿結尾；採 7–10 秒。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "b0f1641f727de8fe215432a7cf0c5fe8862eeeebbb7206816e2a750384e5094a",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-bicycle-crunch-zh-tw.png",
+    "sha256": "fc132752d2447245b1f9845e887f98afb107423df542244fe4dc909323db9325",
+    "generatedFromContentHash": "b0f1641f727de8fe215432a7cf0c5fe8862eeeebbb7206816e2a750384e5094a",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定偏高正面視角，頭在畫面上、雙腳在畫面下，左右腿交替清楚。",
+      "frames": [
+        {
+          "title": "屈膝準備",
+          "pose": "Fixed overhead/oblique FRONT view identical all panels, head at top feet bottom, woman's RIGHT LEG on screen LEFT, LEFT LEG on screen RIGHT. Both knees bent over hips, fingertips lightly temples, shoulder blades raised. Clearly alternate BENT and STRAIGHT legs between frames2/3; no camera rotation, no hand pulling neck. Whole body visible.",
+          "caption": "手指輕放，雙膝抬起。"
+        },
+        {
+          "title": "先做一側",
+          "pose": "Fixed overhead/oblique FRONT view identical all panels, head at top feet bottom, woman's RIGHT LEG on screen LEFT, LEFT LEG on screen RIGHT. SCREEN LEFT knee bent toward chest, SCREEN RIGHT leg extended away straight. SCREEN RIGHT shoulder curls toward SCREEN LEFT knee. Clearly alternate BENT and STRAIGHT legs between frames2/3; no camera rotation, no hand pulling neck. Whole body visible.",
+          "caption": "對側肩膀轉向收近的膝蓋。"
+        },
+        {
+          "title": "交替換側",
+          "pose": "Fixed overhead/oblique FRONT view identical all panels, head at top feet bottom, woman's RIGHT LEG on screen LEFT, LEFT LEG on screen RIGHT. SCREEN RIGHT knee bent toward chest, SCREEN LEFT leg extended away straight. SCREEN LEFT shoulder curls toward SCREEN RIGHT knee. Clearly alternate BENT and STRAIGHT legs between frames2/3; no camera rotation, no hand pulling neck. Whole body visible.",
+          "caption": "慢慢換側，左右各一下算一次。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-bicycle-crunch-rejected-1-zh-tw.png",
+        "sha256": "f11f9ba389144c66d6afd62e78d18cb21d89aef76e8a926ac42beae63ddc48c2",
+        "status": "rejected",
+        "reason": "第2與第3格未清楚換側，兩格看似同側膝收近；需左右對側肩膝配對。",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 自行車捲腹; subtitle 屈膝交替伸腿，搭配上背小幅旋轉，練習腹部協調。; camera 固定偏高正面視角，頭在畫面上、雙腳在畫面下，左右腿交替清楚。; render each step title and caption verbatim and depict pose: [{\"title\":\"屈膝準備\",\"pose\":\"Fixed overhead/oblique FRONT view identical all panels, head at top feet bottom, woman's RIGHT LEG on screen LEFT, LEFT LEG on screen RIGHT. Both knees bent over hips, fingertips lightly temples, shoulder blades raised. Clearly alternate BENT and STRAIGHT legs between frames2/3; no camera rotation, no hand pulling neck. Whole body visible.\",\"caption\":\"手指輕放，雙膝抬起。\"},{\"title\":\"先做一側\",\"pose\":\"Fixed overhead/oblique FRONT view identical all panels, head at top feet bottom, woman's RIGHT LEG on screen LEFT, LEFT LEG on screen RIGHT. SCREEN LEFT knee bent toward chest, SCREEN RIGHT leg extended away straight. SCREEN RIGHT shoulder curls toward SCREEN LEFT knee. Clearly alternate BENT and STRAIGHT legs between frames2/3; no camera rotation, no hand pulling neck. Whole body visible.\",\"caption\":\"對側肩膀轉向收近的膝蓋。\"},{\"title\":\"交替換側\",\"pose\":\"Fixed overhead/oblique FRONT view identical all panels, head at top feet bottom, woman's RIGHT LEG on screen LEFT, LEFT LEG on screen RIGHT. SCREEN RIGHT knee bent toward chest, SCREEN LEFT leg extended away straight. SCREEN LEFT shoulder curls toward SCREEN RIGHT knee. Clearly alternate BENT and STRAIGHT legs between frames2/3; no camera rotation, no hand pulling neck. Whole body visible.\",\"caption\":\"慢慢換側，左右各一下算一次。\"}]; bottom three columns 動作重點 [\"肩膀轉動，不拉脖子\",\"慢慢交替，不用趕速度\",\"左右各一下算一次\"]; 建議次數 起始參考：2 組 × 8 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. CRITICAL: Camera and pose English directions are internal only. Never print camera instructions in infographic. Only prescribed Traditional Chinese captions, no slogans."
+    }
+  }
+}

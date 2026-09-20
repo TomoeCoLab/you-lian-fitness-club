@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "chest-supported-reverse-fly",
+    "name": "胸靠啞鈴反向飛鳥",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "胸部貼靠上斜椅，控制雙啞鈴向側面開合，練習肩後側與上背。",
+    "instructions": [
+      "上斜椅約 30–45 度固定好，胸部靠墊、雙腳踩穩；頭頸自然延伸，不把臉壓住。",
+      "雙手各持輕啞鈴垂在肩下，掌心相對、手肘微彎。",
+      "保持手肘彎度，將雙臂向兩側抬起至肩部舒服的高度，胸部不離椅墊。",
+      "控制下放回到肩下，不聳肩、不抬胸；先放穩啞鈴再離開椅面。"
+    ],
+    "cues": [
+      "胸靠支撐全程保留",
+      "微彎手肘，雙臂向外打開",
+      "不要把動作變成屈肘划船"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/sIQNCJ6Xwsk",
+      "watchUrl": "https://www.youtube.com/shorts/sIQNCJ6Xwsk",
+      "title": "胸靠啞鈴反向飛鳥短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/sIQNCJ6Xwsk",
+    "sourceLabel": "DeltaBolic：胸靠啞鈴反向飛鳥示範"
+  },
+  "definition": {
+    "variation": "面向約 30–45 度上斜椅的雙啞鈴反向飛鳥，不是胸靠划船。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/sIQNCJ6Xwsk",
+      "label": "DeltaBolic：胸靠啞鈴反向飛鳥",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "上斜椅角度",
+        "微彎手肘",
+        "胸靠反向飛鳥"
+      ],
+      "note": "3.108 秒椅背約 44 度、7.771 秒手肘微彎、12.433 秒胸靠向兩側打開。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "c2722992bcb8380f98bd4e428965c0312d5fa3da779f96e9b2f16a2746774a90",
+      "findings": [
+        "3.108 秒椅背約 44 度、7.771 秒手肘微彎、12.433 秒胸靠向兩側打開。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "c2722992bcb8380f98bd4e428965c0312d5fa3da779f96e9b2f16a2746774a90",
+      "reviewedImageSha256": "ffb7d9fe3e6f28ab6f76809e59ed1a26a1bc43323c5de1180444e7e525d470ed",
+      "findings": [
+        "已檢視原圖：胸腹貼斜椅、雙腳支撐，双手向兩側展開再控制放回，不畫成屈肘划船。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/sIQNCJ6Xwsk",
+      "check": {
+        "videoId": "sIQNCJ6Xwsk",
+        "seconds": [
+          3.1082,
+          7.7705,
+          12.4328
+        ],
+        "observation": "3.108 秒椅背約 44 度、7.771 秒手肘微彎、12.433 秒胸靠向兩側打開。"
+      },
+      "findings": [
+        "3.108 秒椅背約 44 度、7.771 秒手肘微彎、12.433 秒胸靠向兩側打開。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "c2722992bcb8380f98bd4e428965c0312d5fa3da779f96e9b2f16a2746774a90",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-chest-supported-reverse-fly-zh-tw.png",
+    "sha256": "ffb7d9fe3e6f28ab6f76809e59ed1a26a1bc43323c5de1180444e7e525d470ed",
+    "generatedFromContentHash": "c2722992bcb8380f98bd4e428965c0312d5fa3da779f96e9b2f16a2746774a90",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定後側略高，胸墊、頭頸、雙臂與踩地雙腳可見。",
+      "frames": [
+        {
+          "title": "胸靠準備",
+          "pose": "Woman chest against40degree incline bench, feet floor, head beyond top edge aligned spine gaze down. Two light dumbbells hanging shoulderwidth below body, palms inward, elbows softly bent.",
+          "caption": "胸靠上斜椅，手臂自然垂下。"
+        },
+        {
+          "title": "向外打開",
+          "pose": "Raise both arms laterally with same soft elbow angle to comfortable torso height, chest remains supported, neck neutral. Do not pull elbows into waist.",
+          "caption": "手臂向兩側，不屈肘拉向腰。"
+        },
+        {
+          "title": "控制回程",
+          "pose": "Lower dumbbells in arcs back below shoulders, chest and feet remain supported, no body bounce.",
+          "caption": "慢慢放回，胸部不離開椅墊。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 胸靠啞鈴反向飛鳥; subtitle 胸部貼靠上斜椅，控制雙啞鈴向側面開合，練習肩後側與上背。; camera 固定後側略高，胸墊、頭頸、雙臂與踩地雙腳可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"胸靠準備\",\"pose\":\"Woman chest against40degree incline bench, feet floor, head beyond top edge aligned spine gaze down. Two light dumbbells hanging shoulderwidth below body, palms inward, elbows softly bent.\",\"caption\":\"胸靠上斜椅，手臂自然垂下。\"},{\"title\":\"向外打開\",\"pose\":\"Raise both arms laterally with same soft elbow angle to comfortable torso height, chest remains supported, neck neutral. Do not pull elbows into waist.\",\"caption\":\"手臂向兩側，不屈肘拉向腰。\"},{\"title\":\"控制回程\",\"pose\":\"Lower dumbbells in arcs back below shoulders, chest and feet remain supported, no body bounce.\",\"caption\":\"慢慢放回，胸部不離開椅墊。\"}]; bottom three columns 動作重點 [\"胸靠支撐全程保留\",\"微彎手肘，雙臂向外打開\",\"不要把動作變成屈肘划船\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "smith-bent-over-row",
+    "name": "史密斯俯身划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "史密斯機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "保持俯身位置，沿史密斯固定軌道進行槓鈴划船。",
+    "instructions": [
+      "先確認史密斯軌道方向、安全擋與掛鉤操作，以空槓找出不碰膝的站位；不熟悉時先請現場人員協助。",
+      "雙腳踩穩，正握略寬於肩，膝微彎、屈髖俯身，保持背部自然線條與腹部穩定。",
+      "手肘往後帶，沿軌道將槓拉向上腹附近；不抬身、不過度外張手肘。",
+      "控制伸肘回到起點；完成確認掛回固定再鬆手，姿勢失控時不要硬做。"
+    ],
+    "cues": [
+      "先以空槓確認軌跡與站位",
+      "背部自然，不靠站起來拉重量",
+      "機台不同，解鎖方式不可互套"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/kKONaLGAQW8",
+      "watchUrl": "https://www.youtube.com/shorts/kKONaLGAQW8",
+      "title": "史密斯俯身划船短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/kKONaLGAQW8",
+    "sourceLabel": "DeltaBolic：史密斯俯身划船示範"
+  },
+  "definition": {
+    "variation": "正握史密斯槓、站姿髖折俯身划船；非倒立划船或胸靠版本。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/kKONaLGAQW8",
+      "label": "DeltaBolic：史密斯俯身划船",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "正握",
+        "髖折俯身",
+        "固定軌道划船"
+      ],
+      "note": "2.580 秒正握、6.451 秒肘位錯誤對照、10.321 秒史密斯俯身划船起始；不同於自由槓。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "39ac6722f3092f9fcf8fe4e9c38fbc9e76efb4ba722ae130efcdfac53050887c",
+      "findings": [
+        "2.580 秒正握、6.451 秒肘位錯誤對照、10.321 秒史密斯俯身划船起始；不同於自由槓。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "39ac6722f3092f9fcf8fe4e9c38fbc9e76efb4ba722ae130efcdfac53050887c",
+      "reviewedImageSha256": "c94deebbaec65a6a6a90f698d6347e51ce831d0f41324597fd8ba08e426affc4",
+      "findings": [
+        "固定導軌、俯身站姿、正握槓及肘後拉清楚；槓不穿過膝部，起始回程與份量一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/kKONaLGAQW8",
+      "check": {
+        "videoId": "kKONaLGAQW8",
+        "seconds": [
+          2.5802,
+          6.4505,
+          10.3208
+        ],
+        "observation": "2.580 秒正握、6.451 秒肘位錯誤對照、10.321 秒史密斯俯身划船起始；不同於自由槓。"
+      },
+      "findings": [
+        "2.580 秒正握、6.451 秒肘位錯誤對照、10.321 秒史密斯俯身划船起始；不同於自由槓。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "39ac6722f3092f9fcf8fe4e9c38fbc9e76efb4ba722ae130efcdfac53050887c",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-smith-bent-over-row-zh-tw.png",
+    "sha256": "c94deebbaec65a6a6a90f698d6347e51ce831d0f41324597fd8ba08e426affc4",
+    "generatedFromContentHash": "39ac6722f3092f9fcf8fe4e9c38fbc9e76efb4ba722ae130efcdfac53050887c",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略偏前，全身及導軌可見，槓在膝前不穿過身體。",
+      "frames": [
+        {
+          "title": "俯身就位",
+          "pose": "Woman inside Smith station, feet planted, hips hinged and knees soft, natural spine with torso inclined30degrees above horizontal. Pronated bar grip wider than shoulders, arms hang down, bar on guide rails in front of knees, gaze down.",
+          "caption": "空槓先確認軌跡，屈髖俯身。"
+        },
+        {
+          "title": "沿軌拉起",
+          "pose": "Maintain torso and legs; bend elbows backward bringing bar up fixed rails toward upper abdomen. Bar never intersects legs; shoulders not shrugged, no standing up.",
+          "caption": "手肘往後，槓拉向上腹。"
+        },
+        {
+          "title": "控制回程",
+          "pose": "Extend elbows lowering Smith bar to starting height with unchanged torso angle. Head follows spine naturally; no momentum.",
+          "caption": "慢慢放回，結束確認掛穩。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 史密斯俯身划船; subtitle 保持俯身位置，沿史密斯固定軌道進行槓鈴划船。; camera 固定正側略偏前，全身及導軌可見，槓在膝前不穿過身體。; render each step title and caption verbatim and depict pose: [{\"title\":\"俯身就位\",\"pose\":\"Woman inside Smith station, feet planted, hips hinged and knees soft, natural spine with torso inclined30degrees above horizontal. Pronated bar grip wider than shoulders, arms hang down, bar on guide rails in front of knees, gaze down.\",\"caption\":\"空槓先確認軌跡，屈髖俯身。\"},{\"title\":\"沿軌拉起\",\"pose\":\"Maintain torso and legs; bend elbows backward bringing bar up fixed rails toward upper abdomen. Bar never intersects legs; shoulders not shrugged, no standing up.\",\"caption\":\"手肘往後，槓拉向上腹。\"},{\"title\":\"控制回程\",\"pose\":\"Extend elbows lowering Smith bar to starting height with unchanged torso angle. Head follows spine naturally; no momentum.\",\"caption\":\"慢慢放回，結束確認掛穩。\"}]; bottom three columns 動作重點 [\"先以空槓確認軌跡與站位\",\"背部自然，不靠站起來拉重量\",\"機台不同，解鎖方式不可互套\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

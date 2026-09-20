@@ -2,6 +2,7 @@ import { test, expect, type Page } from "@playwright/test";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { exercises } from "../../src/data/exercises";
+import deltaRelease from "../../content/releases/v1.9.0.json" with { type: "json" };
 
 const repairedVideoIds = ["dumbbell-squat","dumbbell-curl","band-row","cable-triceps-pushdown","dumbbell-lateral-raise","assisted-pull-up","machine-hip-thrust","hack-squat","reverse-pec-deck","dumbbell-lunge","mountain-climber","standing-calf-raise","reverse-lunge","machine-hip-adduction","wall-sit","superman","kneeling-hip-flexor-stretch","cobra-pose","downward-dog","seated-forward-fold"];
 
@@ -21,6 +22,33 @@ async function apply(page: Page, type: string) {
   await page.getByRole("dialog", { name: "課表與進度", exact: true }).getByRole("button", { name: "加入今日課表", exact: true }).click();
   await expect(page.getByRole("dialog", { name: "今日課表", exact: true })).toBeVisible();
 }
+
+test("equipment without entered load is not called bodyweight in the plan or editor", async ({page}) => {
+  await page.setViewportSize({width:390,height:844}); await guest(page);
+  await page.getByPlaceholder('搜尋動作、部位或器材').fill('地雷管划船');
+  await page.getByRole('button',{name:'查看地雷管划船指引',exact:true}).click();
+  await page.getByRole('dialog',{name:'地雷管划船',exact:true}).getByRole('button',{name:'加入今日課表',exact:true}).click();
+  await page.getByRole('button',{name:'返回動作庫',exact:true}).click();
+  await page.getByRole('button',{name:'今日課表 · 1',exact:true}).click();
+  const plan=page.getByRole('dialog',{name:'今日課表',exact:true});
+  await expect(plan.getByText('重量未填 × 10 次',{exact:true})).toHaveCount(1);
+  await plan.getByRole('button',{name:'開始訓練',exact:true}).click();
+  await expect(page.getByLabel('第 1 組重量')).toHaveAttribute('placeholder','重量未填');
+});
+
+test("v1.9.0 DeltaBolic mappings expose correct clip URLs without audit prose", async ({page}) => {
+  await page.setViewportSize({width:1366,height:900}); await guest(page);
+  for(const entry of [...deltaRelease.added,...deltaRelease.replaced]) {
+    const exercise=exercises.find(e=>e.id===entry.id)!;
+    await page.getByPlaceholder('搜尋動作、部位或器材').fill(exercise.name);
+    await page.getByRole('button',{name:`查看${exercise.name}指引`,exact:true}).click();
+    const detail=page.locator('.exercise-detail');
+    await detail.getByRole('button',{name:`播放 ${exercise.name} 示範影片`,exact:true}).click();
+    await expect(detail.locator('iframe')).toHaveAttribute('src',exercise.video.embedUrl+(exercise.video.embedUrl.includes('?')?'&':'?')+'autoplay=1');
+    await expect(detail.locator('.exercise-video__frame--portrait')).toBeVisible();
+    await expect(detail.getByText(/來源與檢查紀錄|計數方式|僅片段抽查/)).toHaveCount(0);
+  }
+});
 
 test("all 20 repaired videos are available without public audit panels", async ({page}) => {
   await page.setViewportSize({width:1366,height:900}); await guest(page);

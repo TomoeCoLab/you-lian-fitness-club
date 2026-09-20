@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "single-arm-cable-lateral-raise",
+    "name": "單臂滑輪側平舉",
+    "bodyParts": [
+      "肩"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以約髖高滑輪提供阻力，單手向側面抬起，練習肩部平穩出力。",
+    "instructions": [
+      "將滑輪固定在約髖部高度，側站機台旁，遠側手從身前跨身握把；確認纜線不摩擦或纏住身體，另一手輕扶穩固機架或扶髖。",
+      "站穩、腹部穩定，工作手在身前偏向機台一側，手腕自然、手肘微彎。",
+      "向身體側前方平順抬手，到約肩高或更低的舒服位置，不用身體側倒或聳肩。",
+      "慢慢回到起點，配重不撞擊；完成後換側，每組左右各做指定次數。"
+    ],
+    "cues": [
+      "滑輪約髖高，先確認纜線空間",
+      "不把拇指刻意轉向地板",
+      "不甩動身體追求高度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JlT2xB92lY8",
+      "watchUrl": "https://www.youtube.com/shorts/JlT2xB92lY8",
+      "title": "單臂滑輪側平舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/JlT2xB92lY8",
+    "sourceLabel": "DeltaBolic：單臂滑輪側平舉示範"
+  },
+  "definition": {
+    "variation": "站姿、約髖高滑輪、遠側手在身前跨身起始的單臂側平舉；不是高位反向飛鳥或落地滑輪版。",
+    "counting": "每側抬起並放回算 1 次；每組左右各 10 次，雙側皆完成算 1 組。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/JlT2xB92lY8",
+      "label": "DeltaBolic：單臂滑輪側平舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "髖高單臂側平舉",
+        "軀幹穩定",
+        "手腕與肩部位置"
+      ],
+      "note": "1 秒可見將滑輪由較低處向上調整的提示，8.741 秒站姿，13.985 秒中立手腕，16 秒正面顯示髖高纜線與單臂開展。3.496 秒為肩部錯誤對照、6 秒上臂提示；因此採髖高設定，不誤寫成地面低位。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "924ae1aeae1732dbf2874dd9bb8da1dcf9a4c384f95357c53ee04f8f5854622e",
+      "findings": [
+        "1 秒可見將滑輪由較低處向上調整的提示，8.741 秒站姿，13.985 秒中立手腕，16 秒正面顯示髖高纜線與單臂開展。3.496 秒為肩部錯誤對照、6 秒上臂提示；因此採髖高設定，不誤寫成地面低位。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "924ae1aeae1732dbf2874dd9bb8da1dcf9a4c384f95357c53ee04f8f5854622e",
+      "reviewedImageSha256": "eaaac333ee54b910d1f0f8b24f7c6b93a5bc5df095813c34e4972de3aca58bc0",
+      "findings": [
+        "正面逐格檢視髖高滑輪與連續身前纜線，工作手由腿側抬至肩高，軀幹無側倒。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/JlT2xB92lY8",
+      "check": {
+        "videoId": "JlT2xB92lY8",
+        "seconds": [
+          1,
+          3.4962,
+          6,
+          8.7405,
+          13.9848,
+          16
+        ],
+        "observation": "1 秒可見將滑輪由較低處向上調整的提示，8.741 秒站姿，13.985 秒中立手腕，16 秒正面顯示髖高纜線與單臂開展。3.496 秒為肩部錯誤對照、6 秒上臂提示；因此採髖高設定，不誤寫成地面低位。"
+      },
+      "findings": [
+        "1 秒可見將滑輪由較低處向上調整的提示，8.741 秒站姿，13.985 秒中立手腕，16 秒正面顯示髖高纜線與單臂開展。3.496 秒為肩部錯誤對照、6 秒上臂提示；因此採髖高設定，不誤寫成地面低位。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "924ae1aeae1732dbf2874dd9bb8da1dcf9a4c384f95357c53ee04f8f5854622e",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-single-arm-cable-lateral-raise-zh-tw.png",
+    "sha256": "eaaac333ee54b910d1f0f8b24f7c6b93a5bc5df095813c34e4972de3aca58bc0",
+    "generatedFromContentHash": "924ae1aeae1732dbf2874dd9bb8da1dcf9a4c384f95357c53ee04f8f5854622e",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正面全身，髖高滑輪在畫面左側，工作手在畫面右側；纜線跨過身前清楚可見。",
+      "frames": [
+        {
+          "title": "髖高準備",
+          "pose": "Fixed FRONT view all panels. Woman faces camera but gaze neutral. Tower SCREEN LEFT pulley HIP height. Her nonworking RIGHT hand SCREEN LEFT supports tower. Working LEFT arm SCREEN RIGHT down alongside thigh, elbow soft15degrees. Single cable goes from LEFT hipheight pulley ACROSS FRONT of pelvis to handle in SCREEN RIGHT hand; cable visibly in FRONT, never behind body. Fixed feet and upright torso.",
+          "caption": "滑輪約髖高，確認纜線不纏身。"
+        },
+        {
+          "title": "向側抬起",
+          "pose": "Fixed FRONT view all panels. Woman faces camera but gaze neutral. Tower SCREEN LEFT pulley HIP height. Her nonworking RIGHT hand SCREEN LEFT supports tower. Working LEFT arm SCREEN RIGHT raised laterally nearly shoulder height, elbow soft15degrees. Single cable goes from LEFT hipheight pulley ACROSS FRONT of pelvis to handle in SCREEN RIGHT hand; cable visibly in FRONT, never behind body. Fixed feet and upright torso.",
+          "caption": "抬至舒服高度，不聳肩或側倒。"
+        },
+        {
+          "title": "控制回程",
+          "pose": "Fixed FRONT view all panels. Woman faces camera but gaze neutral. Tower SCREEN LEFT pulley HIP height. Her nonworking RIGHT hand SCREEN LEFT supports tower. Working LEFT arm SCREEN RIGHT down alongside thigh, elbow soft15degrees. Single cable goes from LEFT hipheight pulley ACROSS FRONT of pelvis to handle in SCREEN RIGHT hand; cable visibly in FRONT, never behind body. Fixed feet and upright torso.",
+          "caption": "慢慢放回，每組左右各 10 次。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-single-arm-cable-lateral-raise-rejected-1-zh-tw.png",
+        "sha256": "16e996b82de638fce642c697b49a12d7f1e8eaee918dd03a15522cc16d139e6d",
+        "status": "rejected",
+        "reason": "中格纜線未連回滑輪而誤接腰部；需同一側跨身纜線連續至髖高滑輪。",
+        "reviewedAt": "2026-09-21"
+      },
+      {
+        "path": "content/image-history/v1.9.0/fitness-single-arm-cable-lateral-raise-rejected-2-zh-tw.png",
+        "sha256": "90d4f215853500447fd489cec3270b1c0b8d8c1617ca3213684cf129d68f967b",
+        "status": "rejected",
+        "reason": "背面機位使鋼索畫成經過身後，與身前起始版本不符。",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 單臂滑輪側平舉; subtitle 以約髖高滑輪提供阻力，單手向側面抬起，練習肩部平穩出力。; camera 固定正面全身，髖高滑輪在畫面左側，工作手在畫面右側；纜線跨過身前清楚可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"髖高準備\",\"pose\":\"Fixed FRONT view all panels. Woman faces camera but gaze neutral. Tower SCREEN LEFT pulley HIP height. Her nonworking RIGHT hand SCREEN LEFT supports tower. Working LEFT arm SCREEN RIGHT down alongside thigh, elbow soft15degrees. Single cable goes from LEFT hipheight pulley ACROSS FRONT of pelvis to handle in SCREEN RIGHT hand; cable visibly in FRONT, never behind body. Fixed feet and upright torso.\",\"caption\":\"滑輪約髖高，確認纜線不纏身。\"},{\"title\":\"向側抬起\",\"pose\":\"Fixed FRONT view all panels. Woman faces camera but gaze neutral. Tower SCREEN LEFT pulley HIP height. Her nonworking RIGHT hand SCREEN LEFT supports tower. Working LEFT arm SCREEN RIGHT raised laterally nearly shoulder height, elbow soft15degrees. Single cable goes from LEFT hipheight pulley ACROSS FRONT of pelvis to handle in SCREEN RIGHT hand; cable visibly in FRONT, never behind body. Fixed feet and upright torso.\",\"caption\":\"抬至舒服高度，不聳肩或側倒。\"},{\"title\":\"控制回程\",\"pose\":\"Fixed FRONT view all panels. Woman faces camera but gaze neutral. Tower SCREEN LEFT pulley HIP height. Her nonworking RIGHT hand SCREEN LEFT supports tower. Working LEFT arm SCREEN RIGHT down alongside thigh, elbow soft15degrees. Single cable goes from LEFT hipheight pulley ACROSS FRONT of pelvis to handle in SCREEN RIGHT hand; cable visibly in FRONT, never behind body. Fixed feet and upright torso.\",\"caption\":\"慢慢放回，每組左右各 10 次。\"}]; bottom three columns 動作重點 [\"滑輪約髖高，先確認纜線空間\",\"不把拇指刻意轉向地板\",\"不甩動身體追求高度\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. CRITICAL: Camera and pose English directions are internal only. Never print camera instructions in infographic. Only prescribed Traditional Chinese captions, no slogans."
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "seated-cable-chest-press",
+    "name": "坐姿滑輪胸推",
+    "bodyParts": [
+      "胸",
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐在靠背椅上，使用雙滑輪向前推，讓軀幹保持穩定。",
+    "instructions": [
+      "將穩固靠背椅置於雙滑輪之間，滑輪約胸部高度並位於身後；用輕重量確認纜線不磨擦手臂或椅面。",
+      "坐穩靠背，雙腳踩地，各握一個握把，握把在胸側、手腕在手肘前方。",
+      "向胸部前方平順推起，手肘逐漸伸直但不過伸；不把手臂改往頭頂推。",
+      "控制屈肘回到胸側，肩部舒服即可，不過度拉到身後；結束慢慢讓配重落穩。"
+    ],
+    "cues": [
+      "靠背與雙腳支撐穩定",
+      "本項向前推，不向頭頂推",
+      "用屈伸手肘完成，不當作飛鳥"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/FHeLHhTth8w?start=0&end=12",
+      "watchUrl": "https://www.youtube.com/shorts/FHeLHhTth8w",
+      "title": "坐姿滑輪胸推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "本項是向前胸推；影片後段向上推的變化不屬於本項。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/FHeLHhTth8w",
+    "sourceLabel": "DeltaBolic：坐姿滑輪胸推示範"
+  },
+  "definition": {
+    "variation": "接近直立靠背椅、雙側滑輪從身後拉住握把的水平胸推；非上斜推或滑輪飛鳥。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/FHeLHhTth8w",
+      "label": "DeltaBolic：坐姿滑輪胸推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "坐姿靠背與雙腳",
+        "胸側到前方推舉",
+        "與後段上推區別"
+      ],
+      "note": "3.948 秒靠背與胸側屈肘，9.871、10–13 秒向前胸推與前視角示範，15.793 秒已改向上推。本項設定 0–12 秒，排除後段上推；機台纜線從身後胸高接至雙手。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "947fff44aab340ce665a25db0ddc913f401fb54d966d2c9a23781f47edf18470",
+      "findings": [
+        "3.948 秒靠背與胸側屈肘，9.871、10–13 秒向前胸推與前視角示範，15.793 秒已改向上推。本項設定 0–12 秒，排除後段上推；機台纜線從身後胸高接至雙手。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "947fff44aab340ce665a25db0ddc913f401fb54d966d2c9a23781f47edf18470",
+      "reviewedImageSha256": "3480c80aad3386eaed6eb90f26adbcf0837b1187da94f5d2037f5c1b96f7a8f1",
+      "findings": [
+        "三格靠背坐姿、雙腳踏地、雙手屈伸肘向前推及回程清楚；並未畫成上推或飛鳥；中文 2 組 10 次一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。",
+        "補齊播放器區間參數後，逐項確認分鏡與圖像未變；保留實際產圖時的內容雜湊。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/FHeLHhTth8w?start=0&end=12",
+      "check": {
+        "videoId": "FHeLHhTth8w",
+        "seconds": [
+          3.9482,
+          9.8705,
+          10,
+          11,
+          12,
+          13,
+          15.7928
+        ],
+        "observation": "3.948 秒靠背與胸側屈肘，9.871、10–13 秒向前胸推與前視角示範，15.793 秒已改向上推。本項設定 0–12 秒，排除後段上推；機台纜線從身後胸高接至雙手。",
+        "start": 0,
+        "end": 12
+      },
+      "findings": [
+        "3.948 秒靠背與胸側屈肘，9.871、10–13 秒向前胸推與前視角示範，15.793 秒已改向上推。本項設定 0–12 秒，排除後段上推；機台纜線從身後胸高接至雙手。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "947fff44aab340ce665a25db0ddc913f401fb54d966d2c9a23781f47edf18470",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-seated-cable-chest-press-zh-tw.png",
+    "sha256": "3480c80aad3386eaed6eb90f26adbcf0837b1187da94f5d2037f5c1b96f7a8f1",
+    "generatedFromContentHash": "e44bc24bf9afb6d102567169a8af7b2980ddaf7ad0e5b0741c9cbfaf7db877ae",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定斜側面，全身、靠背、雙腳及身後兩側滑輪可見。",
+      "frames": [
+        {
+          "title": "胸側準備",
+          "pose": "Woman seated against nearly upright 80 degree bench between cable towers behind her. Both feet flat. Each hand holds cable handle at chest side, elbows bent about90degrees, wrists neutral. Cables run back to shoulder/chest height pulleys without touching bench.",
+          "caption": "背靠穩、腳踩地，握把放胸側。"
+        },
+        {
+          "title": "向前推起",
+          "pose": "Same view. Elbows extend pressing handles straight forward at chest height, NOT diagonally overhead. Back and head supported, wrists neutral, shoulders not shrugged.",
+          "caption": "平順向前推，不往頭頂推。"
+        },
+        {
+          "title": "緩慢回程",
+          "pose": "Elbows bend returning handles to chest sides, upper arms stop near torso plane without excess rear extension. Maintain feet and back contact.",
+          "caption": "回到胸側，不把手肘拉得太後。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 坐姿滑輪胸推; subtitle 坐在靠背椅上，使用雙滑輪向前推，讓軀幹保持穩定。; camera 固定斜側面，全身、靠背、雙腳及身後兩侧滑輪可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"胸側準備\",\"pose\":\"Woman seated against nearly upright 80 degree bench between cable towers behind her. Both feet flat. Each hand holds cable handle at chest side, elbows bent about90degrees, wrists neutral. Cables run back to shoulder/chest height pulleys without touching bench.\",\"caption\":\"背靠穩、腳踩地，握把放胸側。\"},{\"title\":\"向前推起\",\"pose\":\"Same view. Elbows extend pressing handles straight forward at chest height, NOT diagonally overhead. Back and head supported, wrists neutral, shoulders not shrugged.\",\"caption\":\"平順向前推，不往頭頂推。\"},{\"title\":\"緩慢回程\",\"pose\":\"Elbows bend returning handles to chest sides, upper arms stop near torso plane without excess rear extension. Maintain feet and back contact.\",\"caption\":\"回到胸側，不把手肘拉得太後。\"}]; bottom three columns 動作重點 [\"靠背與雙腳支撐穩定\",\"本項向前推，不向頭頂推\",\"用屈伸手肘完成，不當作飛鳥\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

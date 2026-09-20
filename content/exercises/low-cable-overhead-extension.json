@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "low-cable-overhead-extension",
+    "name": "低位滑輪過頭三頭肌伸展",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "背向低位滑輪，以繩索在頭後屈伸手肘，練習三頭肌。",
+    "instructions": [
+      "把繩索扣在低位滑輪，先選輕重量並確認身後纜線空間；雙手握繩轉身就位，不讓纜線纏身。",
+      "背向機台、前後腳站穩，上臂抬到頭側舒服位置，手肘彎曲、握繩的手在頭後。",
+      "保持軀幹與上臂穩定，伸肘把雙手推到頭頂前上方，不聳肩或拱腰。",
+      "慢慢屈肘回到頭後，控制配重；結束放回到低位並確認配重落穩。"
+    ],
+    "cues": [
+      "機台在身後，滑輪在低位",
+      "手肘不強夾耳側",
+      "頭後纜線與繩索保留空間"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/9Ark9S11uXw",
+      "watchUrl": "https://www.youtube.com/shorts/9Ark9S11uXw",
+      "title": "低位滑輪過頭三頭肌伸展短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/9Ark9S11uXw",
+    "sourceLabel": "DeltaBolic：低位滑輪過頭三頭肌伸展示範"
+  },
+  "definition": {
+    "variation": "站姿背向低位滑輪、雙手繩索過頭伸展；非高位直桿前傾版。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/9Ark9S11uXw",
+      "label": "DeltaBolic：低位滑輪過頭三頭肌伸展",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "低位繩索",
+        "背向站姿",
+        "頭後屈肘與上伸"
+      ],
+      "note": "2.072 秒低位繩索準備、5.181 秒背向頭後屈肘、8.289 秒伸肘終點；繩索版非高位直桿版。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "bf2547ae5836b06ccfb36be492e2c2f38023abd2b1edb82308ff75ae9ab36563",
+      "findings": [
+        "2.072 秒低位繩索準備、5.181 秒背向頭後屈肘、8.289 秒伸肘終點；繩索版非高位直桿版。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "bf2547ae5836b06ccfb36be492e2c2f38023abd2b1edb82308ff75ae9ab36563",
+      "reviewedImageSha256": "b9c0755765f4b4b13cfb7cef486da965d29c0431eba79e5cc6709117b1ebda71",
+      "findings": [
+        "已檢視低位滑輪、繩索連到手部，背向機台的前後腳站姿，頭後彎肘到上方伸肘與回程一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/9Ark9S11uXw",
+      "check": {
+        "videoId": "9Ark9S11uXw",
+        "seconds": [
+          2.0722,
+          5.1805,
+          8.2888
+        ],
+        "observation": "2.072 秒低位繩索準備、5.181 秒背向頭後屈肘、8.289 秒伸肘終點；繩索版非高位直桿版。"
+      },
+      "findings": [
+        "2.072 秒低位繩索準備、5.181 秒背向頭後屈肘、8.289 秒伸肘終點；繩索版非高位直桿版。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "bf2547ae5836b06ccfb36be492e2c2f38023abd2b1edb82308ff75ae9ab36563",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-low-cable-overhead-extension-zh-tw.png",
+    "sha256": "b9c0755765f4b4b13cfb7cef486da965d29c0431eba79e5cc6709117b1ebda71",
+    "generatedFromContentHash": "bf2547ae5836b06ccfb36be492e2c2f38023abd2b1edb82308ff75ae9ab36563",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定嚴格正側面，全身與身後低滑輪可見，面向左。",
+      "frames": [
+        {
+          "title": "頭後準備",
+          "pose": "Woman faces LEFT away from cable tower behind her on RIGHT. LOW pulley near floor, rope cable rises diagonally to both hands behind head. Split stance, upper arms raised beside head, elbows bent, torso upright neutral.",
+          "caption": "背向低滑輪，前後腳站穩。"
+        },
+        {
+          "title": "伸肘上推",
+          "pose": "Extend elbows to lift both rope ends above head slightly forward. Upper arms stay elevated, torso unchanged, cable from low rear pulley unobstructed, head neutral.",
+          "caption": "上臂保持穩定，雙手推向前上方。"
+        },
+        {
+          "title": "緩慢回程",
+          "pose": "Bend elbows returning rope ends behind head, elbows high and upper arms stable. No hip swing or lower-back arch.",
+          "caption": "慢慢回到頭後，不拱腰。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 低位滑輪過頭三頭肌伸展; subtitle 背向低位滑輪，以繩索在頭後屈伸手肘，練習三頭肌。; camera 固定嚴格正側面，全身與身後低滑輪可見，面向左。; render each step title and caption verbatim and depict pose: [{\"title\":\"頭後準備\",\"pose\":\"Woman faces LEFT away from cable tower behind her on RIGHT. LOW pulley near floor, rope cable rises diagonally to both hands behind head. Split stance, upper arms raised beside head, elbows bent, torso upright neutral.\",\"caption\":\"背向低滑輪，前後腳站穩。\"},{\"title\":\"伸肘上推\",\"pose\":\"Extend elbows to lift both rope ends above head slightly forward. Upper arms stay elevated, torso unchanged, cable from low rear pulley unobstructed, head neutral.\",\"caption\":\"上臂保持穩定，雙手推向前上方。\"},{\"title\":\"緩慢回程\",\"pose\":\"Bend elbows returning rope ends behind head, elbows high and upper arms stable. No hip swing or lower-back arch.\",\"caption\":\"慢慢回到頭後，不拱腰。\"}]; bottom three columns 動作重點 [\"機台在身後，滑輪在低位\",\"手肘不強夾耳側\",\"頭後纜線與繩索保留空間\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

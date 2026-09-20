@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "bayesian-cable-curl",
+    "name": "身後滑輪彎舉（貝氏彎舉）",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "讓工作上臂自然位於身後，以單側滑輪練習屈肘控制。",
+    "instructions": [
+      "將單把滑輪調到工作手自然伸長時附近的高度，背向機台、前後腳踩穩，先用很輕重量。",
+      "讓工作上臂自然向身後抬到肩部舒服的位置，保持軀幹穩定；不用追求影片人物的抬臂角度。",
+      "上臂保持原位，屈肘把握把向前帶近身側，手腕保持自然，不用肩膀向前甩動。",
+      "慢慢伸肘回到身後起點，再換側；肩前側有拉扯痛或無法固定上臂時停止。"
+    ],
+    "cues": [
+      "上臂只在身後舒服的位置",
+      "不扭身或用肩向前甩",
+      "肩前側疼痛即停止"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/w3sXATQzGvc",
+      "watchUrl": "https://www.youtube.com/shorts/w3sXATQzGvc",
+      "title": "身後滑輪彎舉（貝氏彎舉）短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/w3sXATQzGvc",
+    "sourceLabel": "DeltaBolic：身後滑輪彎舉（貝氏彎舉）示範"
+  },
+  "definition": {
+    "variation": "影片所示上臂向身後抬起的單側貝氏彎舉；滑輪在放下時手部附近高度，不是落地滑輪版本。",
+    "counting": "每側彎舉與放回算 1 次；每組左右各 10 次，雙側皆完成算 1 組。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/w3sXATQzGvc",
+      "label": "DeltaBolic：身後滑輪彎舉（貝氏彎舉）",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "身後抬臂版本",
+        "起始手部高度滑輪",
+        "上臂固定屈肘"
+      ],
+      "note": "4 秒綠色上臂位置、10 秒伸肘起點、11 秒屈肘動作；上臂在軀幹後方抬起，握把向身側前移。未把紅色錯誤或較低上臂變化當作同版本。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "66dc572126db47c05a388d541b18dd4dfcd426fe7857fcba71121f459ba72489",
+      "findings": [
+        "2.508 秒上臂位置錯誤對照、6.271 秒手腕對照、10.033 秒前後腳及身後單把滑輪起點；滑輪不直接套用落地低位。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "追加檢查 4、10、11 秒，鎖定上臂後抬版本並修正握把前移方向；不要求個人追求影片抬臂幅度。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "66dc572126db47c05a388d541b18dd4dfcd426fe7857fcba71121f459ba72489",
+      "reviewedImageSha256": "a8c18570a3f6f36de254b87430aaeb98015d1a321ffae7cc3ef5016f0fff4e7e",
+      "findings": [
+        "檢視腰以上側面圖：兩格工作上臂皆在軀幹後方，起始伸肘、終點屈肘帶至腰側，非反向折肘。圖像不是關節角度量測；實際練習須依文字固定上臂、不用肩前甩。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/w3sXATQzGvc",
+      "check": {
+        "videoId": "w3sXATQzGvc",
+        "seconds": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "observation": "4 秒綠色上臂位置、10 秒伸肘起點、11 秒屈肘動作；上臂在軀幹後方抬起，握把向身側前移。未把紅色錯誤或較低上臂變化当作同版本。"
+      },
+      "findings": [
+        "2.508 秒上臂位置錯誤對照、6.271 秒手腕對照、10.033 秒前後腳及身後單把滑輪起點；滑輪不直接套用落地低位。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "66dc572126db47c05a388d541b18dd4dfcd426fe7857fcba71121f459ba72489",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-bayesian-cable-curl-zh-tw.png",
+    "sha256": "a8c18570a3f6f36de254b87430aaeb98015d1a321ffae7cc3ef5016f0fff4e7e",
+    "generatedFromContentHash": "cd4031e06babff0a941c08ba205d95dc8ef7c6090a5a2bf4cf9fb440286e6b3e",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定工作側正側面腰以上近景，重點顯示上臂固定與屈肘。",
+      "frames": [
+        {
+          "title": "身後伸臂",
+          "pose": "STRICT SIDE PROFILE facing LEFT. Working shoulder x50,y35; working ELBOW x65,y50 behind body (RIGHT of shoulder) and stays EXACTLY there both frames. Working hand x78,y65 extends diagonally down/back to cable tower RIGHT, pelvis x50,y65. Nonwork arm hidden naturally on far side. Splitstance. Pulley on right at handheight. Upper arm diagonally downback. WAIST-UP close view only, crop legs.",
+          "caption": "上臂自然在身後，跨步站穩。"
+        },
+        {
+          "title": "固定彎舉",
+          "pose": "STRICT SIDE PROFILE facing LEFT, same camera stance. Working shoulder x50,y35; working ELBOW x65,y50 EXACT same as panel1 behind torso. Hand now x50,y60 at waist in FRONT/LEFT and BELOW elbow. Forearm from elbow slopes DOWNLEFT. Upperarm from shoulder slopes DOWNRIGHT UNCHANGED. Elbow bend about90deg. Cable from tower right pulley handheight to hand at waist. Nonwork arm hidden naturally. WAIST-UP close view only, crop legs.",
+          "caption": "上臂不前移，彎舉後慢慢放回；左右各 10 次。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-bayesian-cable-curl-rejected-1-zh-tw.png",
+        "sha256": "0ae8b321bfc9f6624db56b548c6d886aee511ead65a5e086b691b765b0678fba",
+        "status": "rejected",
+        "reason": "第二格上臂移到軀幹側面、滑輪過低；需全程上臂在身後並抬高滑輪。",
+        "reviewedAt": "2026-09-21"
+      },
+      {
+        "path": "content/image-history/v1.9.0/fitness-bayesian-cable-curl-rejected-2-zh-tw.png",
+        "sha256": "c7fb5b6ff225f4085c83ca5788534d81b121ec78c28f7e7882c77cf786aeba5b",
+        "status": "rejected",
+        "reason": "終點前臂方向顛倒，非影片中向身前腰側彎舉。",
+        "reviewedAt": "2026-09-21"
+      },
+      {
+        "path": "content/image-history/v1.9.0/fitness-bayesian-cable-curl-rejected-3-zh-tw.png",
+        "sha256": "b21614df426570352d499f79cc6b27684c2674a77c0964e4c3edae52a41dca3f",
+        "status": "rejected",
+        "reason": "第二格肘相較第一格前移，需固定上臂與肘位置，不可用肩向前甩。",
+        "reviewedAt": "2026-09-21"
+      },
+      {
+        "path": "content/image-history/v1.9.0/fitness-bayesian-cable-curl-rejected-4-zh-tw.png",
+        "sha256": "2460ce152ba9c5421f8725f4b3db57c95142fddec1e19c1d255f15de9d8ab14b",
+        "status": "rejected",
+        "reason": "編修後上臂角度仍不一致，非工作手消失；改清楚正側面兩格。",
+        "reviewedAt": "2026-09-21"
+      },
+      {
+        "path": "content/image-history/v1.9.0/fitness-bayesian-cable-curl-rejected-5-zh-tw.png",
+        "sha256": "83b9ac62964c2bd0d4d13901c0e083107f2279865e28c0360de007395a55e5a6",
+        "status": "rejected",
+        "reason": "側面第二格上臂仍前移，改只編修起始格上臂位置以對齊終點。",
+        "reviewedAt": "2026-09-21"
+      },
+      {
+        "path": "content/image-history/v1.9.0/fitness-bayesian-cable-curl-rejected-6-zh-tw.png",
+        "sha256": "a4c63fa48b11b559a464d2a55cba0d6d8f39d4b24118fe67626b750612cdbc54",
+        "status": "rejected",
+        "reason": "起始格改成完全垂臂仍與終點上臂位置不同；改腰以上近景強調固定肘。",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 身後滑輪彎舉（貝氏彎舉）; subtitle 讓工作上臂自然位於身後，以單側滑輪練習屈肘控制。; camera 固定工作側正側面腰以上近景，重點顯示上臂固定與屈肘。; render each step title and caption verbatim and depict pose: [{\"title\":\"身後伸臂\",\"pose\":\"STRICT SIDE PROFILE facing LEFT. Working shoulder x50,y35; working ELBOW x65,y50 behind body (RIGHT of shoulder) and stays EXACTLY there both frames. Working hand x78,y65 extends diagonally down/back to cable tower RIGHT, pelvis x50,y65. Nonwork arm hidden naturally on far side. Splitstance. Pulley on right at handheight. Upper arm diagonally downback. WAIST-UP close view only, crop legs.\",\"caption\":\"上臂自然在身後，跨步站穩。\"},{\"title\":\"固定彎舉\",\"pose\":\"STRICT SIDE PROFILE facing LEFT, same camera stance. Working shoulder x50,y35; working ELBOW x65,y50 EXACT same as panel1 behind torso. Hand now x50,y60 at waist in FRONT/LEFT and BELOW elbow. Forearm from elbow slopes DOWNLEFT. Upperarm from shoulder slopes DOWNRIGHT UNCHANGED. Elbow bend about90deg. Cable from tower right pulley handheight to hand at waist. Nonwork arm hidden naturally. WAIST-UP close view only, crop legs.\",\"caption\":\"上臂不前移，彎舉後慢慢放回；左右各 10 次。\"}]; bottom three columns 動作重點 [\"上臂只在身後舒服的位置\",\"不扭身或用肩向前甩\",\"肩前側疼痛即停止\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Show waist-up CLOSEUP profile for both panels. Both shoulders and elbows must match in exact position. Only forearm rotates at elbow. Draw upperarm only20degrees behind vertical, comfortable extension. Never print camera directions or English. TWO clear panels, no slogans."
+    }
+  }
+}

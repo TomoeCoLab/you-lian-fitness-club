@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 6,
+  "revision": 7,
   "exercise": {
     "id": "leg-extension",
     "name": "腿屈伸",
@@ -29,12 +29,12 @@
       "load": "以可停住頂端、不需借力的重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
-      "watchUrl": "https://www.youtube.com/watch?v=-jYITOdsRKk",
-      "title": "大腿前側訓練機",
-      "channel": "東吳大學體育室",
-      "language": "中文",
-      "note": "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/iQ92TuvBqRo",
+      "watchUrl": "https://www.youtube.com/shorts/iQ92TuvBqRo",
+      "title": "腿屈伸姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。 圖解與影片器械外觀可能不同，座位、墊位及解鎖依現場機台標示。"
     },
     "sourceUrl": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
     "sourceLabel": "Life Fitness：Circuit Series 原廠操作手冊"
@@ -66,52 +66,65 @@
         "膝對旋轉軸、腿朝上、平順伸膝與回程"
       ],
       "note": "已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/iQ92TuvBqRo",
+      "label": "DeltaBolic：腿屈伸",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "f6f82ad2eccebd8ae5fa674fdef358b05919050c77549d525527cb130f6dca9b",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "d8a83b28e28dea29429603cca501cd41db075e1b7806c9db92a20063b82cb0d2",
       "internalReviewedAt": "2026-09-20",
       "findings": [
         "已對照原廠手冊第 2 頁文字與圖示：膝對旋轉軸、腿朝上、平順伸膝與回程。",
         "同名器械可能不同構造；現場設定仍需依原廠圖示。",
-        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。",
+        "坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ]
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "f6f82ad2eccebd8ae5fa674fdef358b05919050c77549d525527cb130f6dca9b",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "d8a83b28e28dea29429603cca501cd41db075e1b7806c9db92a20063b82cb0d2",
       "reviewedImageSha256": "721147629fbef690d35d4614fd62accda831f897ea75e72a4f49570c89f52156",
       "findings": [
         "重新修正滾墊後，三格均在小腿前側近腳踝上方；槓桿連接與伸膝回程可辨，3 組 12 次相符。",
         "原廠圖為機構參考，成圖為示意；座位與轉軸設定需依現場機型，非專業動作認證。",
-        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。",
+        "本次重新開啟原圖檢視：坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/iQ92TuvBqRo",
       "check": {
-        "videoId": "-jYITOdsRKk",
+        "videoId": "iQ92TuvBqRo",
         "seconds": [
-          8,
-          35,
-          41,
-          45
+          2.1242,
+          5.3105,
+          8.4968
         ],
-        "observation": "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。"
+        "observation": "坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。"
       },
       "findings": [
-        "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "f6f82ad2eccebd8ae5fa674fdef358b05919050c77549d525527cb130f6dca9b",
+      "auditBaselineContentHash": "d8a83b28e28dea29429603cca501cd41db075e1b7806c9db92a20063b82cb0d2",
       "history": [
         {
           "video": {
@@ -140,6 +153,38 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "dc17f6e134f453d6af860bcfcda14eba98495f656c39b7ff36f480bf70607ab0"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
+            "watchUrl": "https://www.youtube.com/watch?v=-jYITOdsRKk",
+            "title": "大腿前側訓練機",
+            "channel": "東吳大學體育室",
+            "language": "中文",
+            "note": "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
+            "check": {
+              "videoId": "-jYITOdsRKk",
+              "seconds": [
+                8,
+                35,
+                41,
+                45
+              ],
+              "observation": "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。"
+            },
+            "findings": [
+              "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "f6f82ad2eccebd8ae5fa674fdef358b05919050c77549d525527cb130f6dca9b"
           }
         }
       ]

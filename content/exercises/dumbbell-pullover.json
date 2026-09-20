@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-pullover",
+    "name": "仰躺啞鈴上拉",
+    "bodyParts": [
+      "背",
+      "胸"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "仰躺長椅、雙手共持一顆啞鈴，以肩部舒適範圍控制頭後下放與拉回。",
+    "instructions": [
+      "沿平板椅仰躺，頭、肩、臀部貼墊、雙腳踩地；雙手托穩同一顆啞鈴，先放胸部上方。",
+      "手肘保持微彎，收住肋骨、腹部穩定；不要靠拱腰增加幅度。",
+      "控制將啞鈴沿弧線移向頭後，到肩部舒服的位置即停，不強迫降到椅面以下。",
+      "保持手肘彎度，沿弧線拉回胸部上方；結束小心收回啞鈴後再起身。"
+    ],
+    "cues": [
+      "雙手穩握同一顆啞鈴",
+      "不把動作變成大幅屈肘的三頭肌伸展",
+      "肋骨穩定，不追求過深拉伸"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Datv2L6t3-4",
+      "watchUrl": "https://www.youtube.com/shorts/Datv2L6t3-4",
+      "title": "仰躺啞鈴上拉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片同時呈現錯誤／正確對照；請對照下方綠色示範。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/Datv2L6t3-4",
+    "sourceLabel": "DeltaBolic：仰躺啞鈴上拉示範"
+  },
+  "definition": {
+    "variation": "頭、背、臀沿長椅支撐的單顆啞鈴上拉；不是肩膀橫靠椅面、臀部懸空版本。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/Datv2L6t3-4",
+      "label": "DeltaBolic：仰躺啞鈴上拉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "全長平板椅支撐",
+        "一顆啞鈴雙手",
+        "頭後弧線及回程"
+      ],
+      "note": "1.664、4.161、6.657 秒為上下對照；參照下方綠色正確示範的微彎手肘與受控肩部弧線，不採上方紅色錯誤。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "b0c3e084c250dc98f5b0759a62668cd5ed064e0f03d5b0ec761ee020d64d8613",
+      "findings": [
+        "1.664、4.161、6.657 秒為上下對照；參照下方綠色正確示範的微彎手肘與受控肩部弧線，不採上方紅色錯誤。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "b0c3e084c250dc98f5b0759a62668cd5ed064e0f03d5b0ec761ee020d64d8613",
+      "reviewedImageSha256": "ef2f16896312bd658b2fc467e71ffcac93fb551968cb0d4694bc040a63307e0b",
+      "findings": [
+        "已檢視重製圖：胸椎與骨盆保持穩定、頭背臀由長椅支撐，雙腳踩地；中格上臂往頭後，肘微彎而非屈肘伸展，回程回胸前。標題、三步驟與份量可辨識。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Datv2L6t3-4",
+      "check": {
+        "videoId": "Datv2L6t3-4",
+        "seconds": [
+          1.6642,
+          4.1605,
+          6.6568
+        ],
+        "observation": "1.664、4.161、6.657 秒為上下對照；參照下方綠色正確示範的微彎手肘與受控肩部弧線，不採上方紅色錯誤。"
+      },
+      "findings": [
+        "1.664、4.161、6.657 秒為上下對照；參照下方綠色正確示範的微彎手肘與受控肩部弧線，不採上方紅色錯誤。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "b0c3e084c250dc98f5b0759a62668cd5ed064e0f03d5b0ec761ee020d64d8613",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-pullover-zh-tw.png",
+    "sha256": "ef2f16896312bd658b2fc467e71ffcac93fb551968cb0d4694bc040a63307e0b",
+    "generatedFromContentHash": "dcba9c0a1a6e542bbbe60513fb93ac421ec4df28aa4903bfe9c758a6747e3da5",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定嚴格正側面，頭在左、腳在右，椅子完全水平，頭及背部沿椅墊支撐；雙手與啞鈴可見。",
+      "frames": [
+        {
+          "title": "胸上準備",
+          "pose": "Woman supine LENGTHWISE on flat horizontal bench, head LEFT feet RIGHT, whole head shoulders butt supported and feet floor. Both hands cup one dumbbell vertically above chest, elbows softly bent. Profile camera, face and eyes upward.",
+          "caption": "全身沿椅面支撐，雙手共持一顆啞鈴。"
+        },
+        {
+          "title": "頭後下放",
+          "pose": "Keep elbow bend slightly flexed while moving dumbbell in large SHOULDER arc behind head toward screen LEFT. Upper arms approach ears but stop comfortably, not below torso. Head rests on pad, ribs down, no lumbar arch.",
+          "caption": "沿弧線移向頭後，不拱腰追深度。"
+        },
+        {
+          "title": "拉回胸上",
+          "pose": "Shoulders bring the same single dumbbell back in arc above chest, elbows stay softly bent not curling, head back and feet remain supported.",
+          "caption": "保持手肘彎度，控制拉回。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-dumbbell-pullover-rejected-v1-zh-tw.png",
+        "status": "needs-revision",
+        "reason": "第二格手肘彎曲過大，像三頭肌伸展；需維持微彎，以肩關節做大弧線。",
+        "sha256": "c0c3bd5884638d06632bb1aa20b7b5c9b0d2f0ad9bd8a4fe76b1d18cfb3fe94d",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 仰躺啞鈴上拉; subtitle 仰躺長椅、雙手共持一顆啞鈴，以肩部舒適範圍控制頭後下放與拉回。; camera 固定嚴格正側面，頭在左、脚在右，椅子完全水平，頭及背部沿椅墊支撐；雙手與啞鈴可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"胸上準備\",\"pose\":\"Woman supine LENGTHWISE on flat horizontal bench, head LEFT feet RIGHT, whole head shoulders butt supported and feet floor. Both hands cup one dumbbell vertically above chest, elbows softly bent. Profile camera, face and eyes upward.\",\"caption\":\"全身沿椅面支撐，雙手共持一顆啞鈴。\"},{\"title\":\"頭後下放\",\"pose\":\"Keep elbow bend slightly flexed while moving dumbbell in large SHOULDER arc behind head toward screen LEFT. Upper arms approach ears but stop comfortably, not below torso. Head rests on pad, ribs down, no lumbar arch.\",\"caption\":\"沿弧線移向頭後，不拱腰追深度。\"},{\"title\":\"拉回胸上\",\"pose\":\"Shoulders bring the same single dumbbell back in arc above chest, elbows stay softly bent not curling, head back and feet remain supported.\",\"caption\":\"保持手肘彎度，控制拉回。\"}]; bottom three columns 動作重點 [\"雙手穩握同一顆啞鈴\",\"不把動作變成大幅屈肘的三頭肌伸展\",\"肋骨穩定，不追求過深拉伸\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact.\nCRITICAL: all three panels elbows remain nearly straight with ONLY 15-20degrees flexion. Middle panel upper arms extend BEYOND HEAD (screen LEFT) nearly parallel to bench. Elbows FAR LEFT OF FACE, hands and dumbbell even further left, making a long continuous arm lever. Do not leave upper arms vertical and fold forearms. Shoulder moves through arc, not elbow curl. Use wide panels or 2x2 layout to leave adequate space beyond head. Three poses, SAME long lever shape of upper arm+forearm throughout."
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "smith-bench-press",
+    "name": "史密斯平板胸推",
+    "bodyParts": [
+      "胸",
+      "手臂"
+    ],
+    "equipment": "史密斯機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "在平板椅上沿史密斯固定軌道推起槓，練習胸部推力與穩定支撐。",
+    "instructions": [
+      "依現場機台指示調整平板椅與安全擋，空槓確認下放位置在胸部上方；不熟悉解鎖、掛回方式時先請教練協助。",
+      "頭、肩與臀部貼穩椅面，雙腳踩實；雙手完整握住槓，手腕與前臂對齊，再依機台方式解鎖。",
+      "緩慢屈肘下放至胸部附近且肩部舒服的位置，不碰撞胸口、不讓手肘橫向張開成一直線。",
+      "平順推回起點，不聳肩或抬臀；結束依機台指示掛回，確認槓已固定再鬆手。"
+    ],
+    "cues": [
+      "安全擋與椅位先確認",
+      "前臂支撐槓，手腕不向後折",
+      "保持頭、肩、臀與雙腳支撐"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/XFYMLdlaq04",
+      "watchUrl": "https://www.youtube.com/shorts/XFYMLdlaq04",
+      "title": "史密斯平板胸推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/XFYMLdlaq04",
+    "sourceLabel": "DeltaBolic：史密斯平板胸推示範"
+  },
+  "definition": {
+    "variation": "平板椅、正握、雙腳踩地的史密斯胸推；非上斜或自由槓臥推。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/XFYMLdlaq04",
+      "label": "DeltaBolic：史密斯平板胸推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "平板椅與雙腳支撐",
+        "手腕前臂對齊",
+        "肩部穩定與推回"
+      ],
+      "note": "2.316、5.791 秒可見肩部與手腕姿勢重點，9.265 秒可見平板椅、雙腳踩地及固定軌道胸推；機台解鎖操作須依現場說明，不從影片推定。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "9509be162cfdcae1e2e1fe56642094ee6acfceaf0d7cc1990454076c2d9a04fe",
+      "findings": [
+        "2.316、5.791 秒可見肩部與手腕姿勢重點，9.265 秒可見平板椅、雙腳踩地及固定軌道胸推；機台解鎖操作須依現場說明，不從影片推定。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "9509be162cfdcae1e2e1fe56642094ee6acfceaf0d7cc1990454076c2d9a04fe",
+      "reviewedImageSha256": "47180ab7c17a9fe2749743003bf0a0deae018207b57f947ac8b7f94cae2c6a7b",
+      "findings": [
+        "重製正側面，頭肩臀與双腳支撐可見；起始伸肘、下放屈肘及回程清楚，槓在胸部附近而非臉部；2 組 10 次、繁中與無標語一致。器械為一般結構示意，現場軌道及掛鉤操作不能由圖推定。",
+        "視覺檢查非生物力學量測或專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/XFYMLdlaq04",
+      "check": {
+        "videoId": "XFYMLdlaq04",
+        "seconds": [
+          2.3162,
+          5.7905,
+          9.2648
+        ],
+        "observation": "2.316、5.791 秒可見肩部與手腕姿勢重點，9.265 秒可見平板椅、雙腳踩地及固定軌道胸推；機台解鎖操作須依現場說明，不從影片推定。"
+      },
+      "findings": [
+        "2.316、5.791 秒可見肩部與手腕姿勢重點，9.265 秒可見平板椅、雙腳踩地及固定軌道胸推；機台解鎖操作須依現場說明，不從影片推定。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "9509be162cfdcae1e2e1fe56642094ee6acfceaf0d7cc1990454076c2d9a04fe",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-smith-bench-press-zh-tw.png",
+    "sha256": "47180ab7c17a9fe2749743003bf0a0deae018207b57f947ac8b7f94cae2c6a7b",
+    "generatedFromContentHash": "cc54c77dc2b424b3e7e60141d24597c06e3f95a44727dc25d095c1114ef9ba6d",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定嚴格正側面：頭在畫面左側、腳在右側，身體水平躺平；槓與導軌在胸骨位置，不在頭頸上方。",
+      "frames": [
+        {
+          "title": "準備支撐",
+          "pose": "Adult reference woman supine on a FLAT horizontal bench inside Smith machine with vertical guides. Feet flat, head shoulders butt on bench, hands pronated closed grip slightly wider than shoulders; bar above chest, elbows naturally extended. Visible safety stops below bottom position. STRICT LATERAL PROFILE facing camera perpendicular to body's longitudinal axis, head on LEFT and feet on RIGHT. FLAT HORIZONTAL bench. Entire back of head rests on pad with face pointing straight UP, eyes to ceiling. Bar viewed almost end-on over MIDDLE OF CHEST/STERNUM to RIGHT of head, never over face, eyes or neck. Bench horizontal; visible vertical rail aligned mid-sternum.",
+          "caption": "平板椅與安全擋先確認，雙腳踩穩。"
+        },
+        {
+          "title": "控制下放",
+          "pose": "Same fixed side-three-quarter camera. Bar travels straight down guides to just above chest, elbows flexed below wrists and angled comfortably away from ribs, not flared 90 degrees. Head shoulders butt and feet unmoved; neutral neck eyes upward. STRICT LATERAL PROFILE facing camera perpendicular to body's longitudinal axis, head on LEFT and feet on RIGHT. FLAT HORIZONTAL bench. Entire back of head rests on pad with face pointing straight UP, eyes to ceiling. Bar viewed almost end-on over MIDDLE OF CHEST/STERNUM to RIGHT of head, never over face, eyes or neck. Bench horizontal; visible vertical rail aligned mid-sternum.",
+          "caption": "槓緩慢靠近胸部，手腕與前臂對齊。"
+        },
+        {
+          "title": "平順推回",
+          "pose": "Same supported posture, bar travels back up fixed rails above chest, elbows extended naturally not hyperextended, shoulders not shrugged, butt remains down. STRICT LATERAL PROFILE facing camera perpendicular to body's longitudinal axis, head on LEFT and feet on RIGHT. FLAT HORIZONTAL bench. Entire back of head rests on pad with face pointing straight UP, eyes to ceiling. Bar viewed almost end-on over MIDDLE OF CHEST/STERNUM to RIGHT of head, never over face, eyes or neck. Bench horizontal; visible vertical rail aligned mid-sternum.",
+          "caption": "不抬臀借力，推回後依機台指示掛回。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-smith-bench-press-rejected-v1-zh-tw.png",
+        "status": "needs-revision",
+        "reason": "斜側面遮蔽胸部落點，槓在頭頸上方的視覺誤導；頭部似有抬起，改嚴格正側面驗證。",
+        "sha256": "68b6bbd18cef998e620b6c6380431ed6903688f59d94d37ea2fd996a84f765f2",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create one finished 4:3 landscape photorealistic Traditional Chinese exercise instruction infographic following the fitness-movement-infographic specification. Input image is ONLY the approved adult female character identity and outfit reference; preserve her face, bob haircut, blue-gray sports top/leggings and white shoes. Not an edit of the turnaround layout. Light neutral background, muted slate blue typography, calm studio lighting, large readable Traditional Chinese text. NO motivational slogans, branding, decorative claims or English. Natural gaze follows head direction, never deliberately faces camera. Anatomically plausible exercise motion is higher priority than beauty. Three clear full-body panels across the middle; same fixed camera in all. Accurate real exercise equipment with coherent connections, not a cartoon mannequin. Body and contact points fully visible. Render only the following text and poses; no extra dosage. Title \"史密斯平板胸推\", subtitle \"在平板椅上沿史密斯固定軌道推起槓，練習胸部推力與穩定支撐。\". Camera: 固定斜側面，全身、平板椅、槓與兩側導軌及安全擋可見；不畫品牌或精細型號。. Panels: [{\"title\":\"準備支撐\",\"pose\":\"Adult reference woman supine on a FLAT horizontal bench inside Smith machine with vertical guides. Feet flat, head shoulders butt on bench, hands pronated closed grip slightly wider than shoulders; bar above chest, elbows naturally extended. Visible safety stops below bottom position.\",\"caption\":\"平板椅與安全擋先確認，雙腳踩穩。\"},{\"title\":\"控制下放\",\"pose\":\"Same fixed side-three-quarter camera. Bar travels straight down guides to just above chest, elbows flexed below wrists and angled comfortably away from ribs, not flared 90 degrees. Head shoulders butt and feet unmoved; neutral neck eyes upward.\",\"caption\":\"槓緩慢靠近胸部，手腕與前臂對齊。\"},{\"title\":\"平順推回\",\"pose\":\"Same supported posture, bar travels back up fixed rails above chest, elbows extended naturally not hyperextended, shoulders not shrugged, butt remains down.\",\"caption\":\"不抬臀借力，推回後依機台指示掛回。\"}]. Bottom three columns: 動作重點 with [\"安全擋與椅位先確認\",\"前臂支撐槓，手腕不向後折\",\"保持頭、肩、臀與雙腳支撐\"]; 建議次數 \"起始參考：2 組 × 10 次\" \"依本次課表調整\"; 呼吸提醒 \"下放時吸氣，推起時吐氣\" \"不憋氣\". No claim of professional certification. Source content hash f51c0a4d798cf5a7464dd34ac4732a8c0bbf91a316962808c1618f20cf9930d1 (metadata only, do not print hash).\nCRITICAL REVISED CAMERA superseding above: 固定嚴格正側面：頭在畫面左側、脚在右側，身體水平躺平；槓與導軌在胸骨位置，不在頭頸上方。\n[{\"title\":\"準備支撐\",\"pose\":\"Adult reference woman supine on a FLAT horizontal bench inside Smith machine with vertical guides. Feet flat, head shoulders butt on bench, hands pronated closed grip slightly wider than shoulders; bar above chest, elbows naturally extended. Visible safety stops below bottom position. STRICT LATERAL PROFILE facing camera perpendicular to body's longitudinal axis, head on LEFT and feet on RIGHT. FLAT HORIZONTAL bench. Entire back of head rests on pad with face pointing straight UP, eyes to ceiling. Bar viewed almost end-on over MIDDLE OF CHEST/STERNUM to RIGHT of head, never over face, eyes or neck. Bench horizontal; visible vertical rail aligned mid-sternum.\",\"caption\":\"平板椅與安全擋先確認，雙腳踩穩。\"},{\"title\":\"控制下放\",\"pose\":\"Same fixed side-three-quarter camera. Bar travels straight down guides to just above chest, elbows flexed below wrists and angled comfortably away from ribs, not flared 90 degrees. Head shoulders butt and feet unmoved; neutral neck eyes upward. STRICT LATERAL PROFILE facing camera perpendicular to body's longitudinal axis, head on LEFT and feet on RIGHT. FLAT HORIZONTAL bench. Entire back of head rests on pad with face pointing straight UP, eyes to ceiling. Bar viewed almost end-on over MIDDLE OF CHEST/STERNUM to RIGHT of head, never over face, eyes or neck. Bench horizontal; visible vertical rail aligned mid-sternum.\",\"caption\":\"槓緩慢靠近胸部，手腕與前臂對齊。\"},{\"title\":\"平順推回\",\"pose\":\"Same supported posture, bar travels back up fixed rails above chest, elbows extended naturally not hyperextended, shoulders not shrugged, butt remains down. STRICT LATERAL PROFILE facing camera perpendicular to body's longitudinal axis, head on LEFT and feet on RIGHT. FLAT HORIZONTAL bench. Entire back of head rests on pad with face pointing straight UP, eyes to ceiling. Bar viewed almost end-on over MIDDLE OF CHEST/STERNUM to RIGHT of head, never over face, eyes or neck. Bench horizontal; visible vertical rail aligned mid-sternum.\",\"caption\":\"不抬臀借力，推回後依機台指示掛回。\"}]. Do NOT show bar over face or neck; bar at MID STERNUM and head relaxed fully supported flat, not looking toward feet."
+    }
+  }
+}

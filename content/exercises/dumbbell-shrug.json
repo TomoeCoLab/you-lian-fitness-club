@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-shrug",
+    "name": "啞鈴聳肩",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "雙手持啞鈴，以肩胛上提與下降練習上背部控制，不轉肩繞圈。",
+    "instructions": [
+      "雙腳踩穩，雙手各持一顆啞鈴放在身體兩側，掌心相對，頭頸自然平視。",
+      "手肘保持自然伸長，肩膀往上提到可控制、無不適的位置，不把下巴往前伸。",
+      "短暫穩定後，慢慢讓肩膀下降回到自然位置；不突然讓重量把肩拉下。",
+      "全程不繞肩、不屈肘抬重；完整上提與下降算一次。"
+    ],
+    "cues": [
+      "上下移動，不做繞肩圈",
+      "頭頸自然，避免伸下巴",
+      "重量以可控制回程為準"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rFsSeClGnNA",
+      "watchUrl": "https://www.youtube.com/shorts/rFsSeClGnNA",
+      "title": "啞鈴聳肩短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/rFsSeClGnNA",
+    "sourceLabel": "DeltaBolic：啞鈴聳肩示範"
+  },
+  "definition": {
+    "variation": "站姿雙啞鈴、手臂自然垂下的聳肩，不屈肘划船或旋轉肩膀。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/rFsSeClGnNA",
+      "label": "DeltaBolic：啞鈴聳肩",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "站姿雙啞鈴",
+        "肩部上提與下降",
+        "不靠手肘彎舉"
+      ],
+      "note": "2.864 秒啞鈴與握法、7.161 秒側面錯誤對照、11.457 秒背面綠色正確示範肩胛上提；不是肩頸疼痛治療動作。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "cf80058aff4094127006bd83a4619ae9a3542cc00979e0e0a422988ebead9dbe",
+      "findings": [
+        "2.864 秒啞鈴與握法、7.161 秒側面錯誤對照、11.457 秒背面綠色正確示範肩胛上提；不是肩頸疼痛治療動作。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "cf80058aff4094127006bd83a4619ae9a3542cc00979e0e0a422988ebead9dbe",
+      "reviewedImageSha256": "c027adf880db3885d4557440a1c5db1f959ac8627709455097aa041695525dd2",
+      "findings": [
+        "已檢視原圖：背側三分之四視角可辨識肩部上提與下降，手臂自然伸長、頸部自然，沒有繞肩；標題、步驟與呼吸提示清楚。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/rFsSeClGnNA",
+      "check": {
+        "videoId": "rFsSeClGnNA",
+        "seconds": [
+          2.8642,
+          7.1605,
+          11.4568
+        ],
+        "observation": "2.864 秒啞鈴與握法、7.161 秒側面錯誤對照、11.457 秒背面綠色正確示範肩胛上提；不是肩頸疼痛治療動作。"
+      },
+      "findings": [
+        "2.864 秒啞鈴與握法、7.161 秒側面錯誤對照、11.457 秒背面綠色正確示範肩胛上提；不是肩頸疼痛治療動作。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "cf80058aff4094127006bd83a4619ae9a3542cc00979e0e0a422988ebead9dbe",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-shrug-zh-tw.png",
+    "sha256": "c027adf880db3885d4557440a1c5db1f959ac8627709455097aa041695525dd2",
+    "generatedFromContentHash": "5119ca8ee2438c9d7efd5a6f1d00d14aa52aef6793a4faeeaadc85b5817e7eb6",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定後側三分之四，全身、雙手與肩頸可見。",
+      "frames": [
+        {
+          "title": "自然站穩",
+          "pose": "Woman stands upright holding two dumbbells at sides with palms inward, elbows naturally extended, shoulders relaxed neutral, neck long head looking forward. Rear-threequarter view.",
+          "caption": "雙手垂在兩側，頭頸自然。"
+        },
+        {
+          "title": "肩部上提",
+          "pose": "Lift both shoulder girdles upward moderately while arms remain straight holding weights; elbows do not curl, neck neutral and no forward chin, torso still.",
+          "caption": "肩膀向上提，不屈肘或伸下巴。"
+        },
+        {
+          "title": "緩慢下降",
+          "pose": "Control shoulders back down to neutral height without rolling circles, weights at sides, same upright stance.",
+          "caption": "慢慢回到自然位置，不繞肩。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 啞鈴聳肩; subtitle 双手持啞鈴，以肩胛上提與下降練習上背部控制，不轉肩繞圈。; camera 固定後側三分之四，全身、雙手與肩頸可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"自然站穩\",\"pose\":\"Woman stands upright holding two dumbbells at sides with palms inward, elbows naturally extended, shoulders relaxed neutral, neck long head looking forward. Rear-threequarter view.\",\"caption\":\"雙手垂在兩側，頭頸自然。\"},{\"title\":\"肩部上提\",\"pose\":\"Lift both shoulder girdles upward moderately while arms remain straight holding weights; elbows do not curl, neck neutral and no forward chin, torso still.\",\"caption\":\"肩膀向上提，不屈肘或伸下巴。\"},{\"title\":\"緩慢下降\",\"pose\":\"Control shoulders back down to neutral height without rolling circles, weights at sides, same upright stance.\",\"caption\":\"慢慢回到自然位置，不繞肩。\"}]; bottom three columns 動作重點 [\"上下移動，不做繞肩圈\",\"頭頸自然，避免伸下巴\",\"重量以可控制回程為準\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

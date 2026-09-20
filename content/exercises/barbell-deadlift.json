@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
+  "revision": 6,
   "exercise": {
     "id": "barbell-deadlift",
     "name": "槓鈴硬舉",
@@ -31,11 +31,12 @@
       "load": "先練空槓或墊高版本；保留 2–3 次餘力"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
-      "watchUrl": "https://www.youtube.com/watch?v=mCkHvemP79U",
-      "title": "一般硬舉",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xNwpvDuZJ3k",
+      "watchUrl": "https://www.youtube.com/shorts/xNwpvDuZJ3k",
+      "title": "槓鈴硬舉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/barbell-deadlift",
     "sourceLabel": "NASM：槓鈴地板硬舉"
@@ -69,50 +70,63 @@
         "控制髖折與屈膝放回地面"
       ],
       "note": "已核對地板起始版，與站姿起始的羅馬尼亞硬舉分開；不採來源固定握距或強迫小腿垂直作每人體型標準。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/xNwpvDuZJ3k",
+      "label": "DeltaBolic：槓鈴硬舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "e03f272fc600c03b97b1646d157364d80649833786d8648b50b38571936eac46",
       "findings": [
         "已核對地板起始版，與站姿起始的羅馬尼亞硬舉分開；不採來源固定握距或強迫小腿垂直作每人體型標準。",
-        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。",
+        "槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "e03f272fc600c03b97b1646d157364d80649833786d8648b50b38571936eac46",
       "reviewedImageSha256": "0c9d5a78ac138421434b359b4dd61a24e08aedfae377c65ab024971c48efd838",
       "findings": [
         "重新檢視四格：槓片落地起始與回程，槓貼近腿、髖膝協調站起、頸部隨軀幹自然延伸；3 組 6 次與文字一致。",
-        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。"
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。",
+        "本次重新開啟原圖檢視：槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xNwpvDuZJ3k",
       "check": {
-        "videoId": "mCkHvemP79U",
+        "videoId": "xNwpvDuZJ3k",
         "seconds": [
-          5,
-          10,
-          15,
-          19
+          2.1282,
+          5.3205,
+          8.5128
         ],
-        "observation": "重新核對一般硬舉由站姿放回地面、再站起的槓鈴路徑；不同於膝微彎髖折的羅馬尼亞硬舉。"
+        "observation": "槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。"
       },
       "findings": [
-        "重新核對一般硬舉由站姿放回地面、再站起的槓鈴路徑；不同於膝微彎髖折的羅馬尼亞硬舉。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b",
+      "auditBaselineContentHash": "e03f272fc600c03b97b1646d157364d80649833786d8648b50b38571936eac46",
       "history": [
         {
           "video": {
@@ -141,6 +155,37 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "cec608bbc72934565616446c6e4c65d944bb2563d89c850f50458a6834556286"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
+            "watchUrl": "https://www.youtube.com/watch?v=mCkHvemP79U",
+            "title": "一般硬舉",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
+            "check": {
+              "videoId": "mCkHvemP79U",
+              "seconds": [
+                5,
+                10,
+                15,
+                19
+              ],
+              "observation": "重新核對一般硬舉由站姿放回地面、再站起的槓鈴路徑；不同於膝微彎髖折的羅馬尼亞硬舉。"
+            },
+            "findings": [
+              "重新核對一般硬舉由站姿放回地面、再站起的槓鈴路徑；不同於膝微彎髖折的羅馬尼亞硬舉。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b"
           }
         }
       ]

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "straight-arm-pulldown",
+    "name": "滑輪直臂下拉",
+    "bodyParts": [
+      "背"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "保持手肘小幅彎曲，以肩部帶動直桿下拉，練習背部控制。",
+    "instructions": [
+      "高位滑輪裝好直桿，雙手完整正握約肩寬，向後退到纜線有空間；膝微彎、軀幹稍前傾。",
+      "手臂向前上方伸長至肩部舒服範圍，手肘維持小幅彎曲，腹部穩定。",
+      "保持手肘角度，把直桿沿弧線拉向大腿前方；不要彎肘拉成划船，也不要拱腰下壓。",
+      "慢慢讓手臂回到前上方，肩膀不聳起；結束控制配重落穩。"
+    ],
+    "cues": [
+      "手肘微彎，但不反覆大幅屈伸",
+      "肋骨不要向前翻",
+      "直桿只到大腿前方，不硬拉身後"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hAMcfubonDc",
+      "watchUrl": "https://www.youtube.com/shorts/hAMcfubonDc",
+      "title": "滑輪直臂下拉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/hAMcfubonDc",
+    "sourceLabel": "DeltaBolic：滑輪直臂下拉示範"
+  },
+  "definition": {
+    "variation": "站姿面向高位滑輪、雙手持直桿的直臂下拉；不是屈肘高位下拉。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/hAMcfubonDc",
+      "label": "DeltaBolic：滑輪直臂下拉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "高位直桿",
+        "伸臂至前上方",
+        "拉向大腿且軀幹穩定"
+      ],
+      "note": "1.920 秒握法對照、4.801 秒手臂前上伸長、7.681 秒直桿拉至大腿前；雙腳站穩。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "b1fa9b2800bab150e1e2f70a3f02f7541540ce76e3509d5ba6727450183cc6b3",
+      "findings": [
+        "1.920 秒握法對照、4.801 秒手臂前上伸長、7.681 秒直桿拉至大腿前；雙腳站穩。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "b1fa9b2800bab150e1e2f70a3f02f7541540ce76e3509d5ba6727450183cc6b3",
+      "reviewedImageSha256": "a356a86e8dd955d7a2b429b1dec4a3cc540f898ab7921b66708bd9faa0b404b5",
+      "findings": [
+        "高位滑輪、直桿、站姿與軟膝支撐一致；手臂前上、拉向大腿及回程可辨，沒有把動作畫成屈肘高位下拉。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/hAMcfubonDc",
+      "check": {
+        "videoId": "hAMcfubonDc",
+        "seconds": [
+          1.9202,
+          4.8005,
+          7.6808
+        ],
+        "observation": "1.920 秒握法對照、4.801 秒手臂前上伸長、7.681 秒直桿拉至大腿前；雙腳站穩。"
+      },
+      "findings": [
+        "1.920 秒握法對照、4.801 秒手臂前上伸長、7.681 秒直桿拉至大腿前；雙腳站穩。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "b1fa9b2800bab150e1e2f70a3f02f7541540ce76e3509d5ba6727450183cc6b3",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-straight-arm-pulldown-zh-tw.png",
+    "sha256": "a356a86e8dd955d7a2b429b1dec4a3cc540f898ab7921b66708bd9faa0b404b5",
+    "generatedFromContentHash": "b1fa9b2800bab150e1e2f70a3f02f7541540ce76e3509d5ba6727450183cc6b3",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面略偏前，全身、直桿及高位滑輪纜線可見。",
+      "frames": [
+        {
+          "title": "前上準備",
+          "pose": "Woman faces cable tower with high pulley and straight bar, slight hip hinge and soft knees. Both hands pronated shoulderwidth hold bar with arms extended forward/upward at comfortable shoulder height to eye level. Elbows slightly bent, neutral neck gaze along head.",
+          "caption": "雙手正握，手肘保持微彎。"
+        },
+        {
+          "title": "弧線下拉",
+          "pose": "Same fixed posture, sweep nearly straight arms down at shoulders to bar in front of thighs, keep slight elbow bend constant, no back arch or shrug.",
+          "caption": "直桿拉到大腿前，不拱腰。"
+        },
+        {
+          "title": "控制回程",
+          "pose": "Return bar forward/up along arc while torso angle stays fixed and arms lengthen, cable taut from high pulley, no large elbow bending.",
+          "caption": "慢慢回到前上方，軀幹不晃動。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 滑輪直臂下拉; subtitle 保持手肘小幅彎曲，以肩部帶動直桿下拉，練習背部控制。; camera 固定正側面略偏前，全身、直桿及高位滑輪纜線可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"前上準備\",\"pose\":\"Woman faces cable tower with high pulley and straight bar, slight hip hinge and soft knees. Both hands pronated shoulderwidth hold bar with arms extended forward/upward at comfortable shoulder height to eye level. Elbows slightly bent, neutral neck gaze along head.\",\"caption\":\"雙手正握，手肘保持微彎。\"},{\"title\":\"弧線下拉\",\"pose\":\"Same fixed posture, sweep nearly straight arms down at shoulders to bar in front of thighs, keep slight elbow bend constant, no back arch or shrug.\",\"caption\":\"直桿拉到大腿前，不拱腰。\"},{\"title\":\"控制回程\",\"pose\":\"Return bar forward/up along arc while torso angle stays fixed and arms lengthen, cable taut from high pulley, no large elbow bending.\",\"caption\":\"慢慢回到前上方，軀幹不晃動。\"}]; bottom three columns 動作重點 [\"手肘微彎，但不反覆大幅屈伸\",\"肋骨不要向前翻\",\"直桿只到大腿前方，不硬拉身後\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

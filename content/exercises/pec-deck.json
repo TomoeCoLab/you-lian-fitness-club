@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "pec-deck",
     "name": "蝴蝶機夾胸",
@@ -30,12 +30,12 @@
       "load": "選擇肩膀舒適且胸部能控制的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/eGjt4lk6g34",
-      "watchUrl": "https://www.youtube.com/watch?v=eGjt4lk6g34",
-      "title": "蝴蝶機夾胸動作示範",
-      "channel": "PureGym",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/a9vQ_hwIksU",
+      "watchUrl": "https://www.youtube.com/shorts/a9vQ_hwIksU",
+      "title": "蝴蝶機夾胸姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
       "language": "英文",
-      "note": "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。"
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/pec-fly-pin-loaded/",
     "sourceLabel": "Fitness Institute：握把式蝴蝶機夾胸"
@@ -68,53 +68,65 @@
         "雙臂合攏後控制打開"
       ],
       "note": "已讀 Life Fitness Pectoral Fly/Rear Deltoid 教學。此項限定握把版本，不能把肘墊機型設定混在同一步。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/a9vQ_hwIksU",
+      "label": "DeltaBolic：蝴蝶機夾胸",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "f5337b6b4aeaf5e7137697987ea6d12a5672bb53fbd2c515766f80635741ab89",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "3e4d04c943abf850de5289df25a7b970d8b7664f2ec0075fc7c47bd1c5609310",
       "findings": [
         "已讀 Life Fitness Pectoral Fly/Rear Deltoid 教學。此項限定握把版本，不能把肘墊機型設定混在同一步。",
         "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
-        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。",
+        "握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "f5337b6b4aeaf5e7137697987ea6d12a5672bb53fbd2c515766f80635741ab89",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "3e4d04c943abf850de5289df25a7b970d8b7664f2ec0075fc7c47bd1c5609310",
       "reviewedImageSha256": "42a2460ce528c4fa9a0f28c518a87bdba164b83d5352482f038adc67534211b7",
       "findings": [
         "已確認採手握把的坐姿飛鳥，不是以肘部壓墊版本；背貼靠、弧線合攏和回程，10–15 次 3 組包含本站 12 次。",
         "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
-        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。",
+        "本次重新開啟原圖檢視：握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eGjt4lk6g34",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/a9vQ_hwIksU",
       "check": {
-        "videoId": "eGjt4lk6g34",
+        "videoId": "a9vQ_hwIksU",
         "seconds": [
-          3,
-          6,
-          8,
-          9,
-          12
+          3.0722,
+          7.6805,
+          12.2888
         ],
-        "observation": "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。"
+        "observation": "握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。"
       },
       "findings": [
-        "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "f5337b6b4aeaf5e7137697987ea6d12a5672bb53fbd2c515766f80635741ab89",
+      "auditBaselineContentHash": "3e4d04c943abf850de5289df25a7b970d8b7664f2ec0075fc7c47bd1c5609310",
       "history": [
         {
           "video": {
@@ -143,6 +155,39 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "438cdf029f42fc2cf1d72957a7079f612810b885e1de2140dca63c6829c8c734"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/eGjt4lk6g34",
+            "watchUrl": "https://www.youtube.com/watch?v=eGjt4lk6g34",
+            "title": "蝴蝶機夾胸動作示範",
+            "channel": "PureGym",
+            "language": "英文",
+            "note": "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eGjt4lk6g34",
+            "check": {
+              "videoId": "eGjt4lk6g34",
+              "seconds": [
+                3,
+                6,
+                8,
+                9,
+                12
+              ],
+              "observation": "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。"
+            },
+            "findings": [
+              "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "f5337b6b4aeaf5e7137697987ea6d12a5672bb53fbd2c515766f80635741ab89"
           }
         }
       ]

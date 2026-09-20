@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-static-split-squat",
+    "name": "啞鈴原地分腿蹲",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "前後腳位置固定，控制下蹲與站起，練習單側腿部出力。",
+    "instructions": [
+      "雙手各持輕啞鈴，前後腳分開站，左右保持髖寬、不站成一直線；前腳踩穩、後腳以前腳掌支撐。",
+      "軀幹自然直立或微前傾，彎曲兩側膝蓋向下，前膝沿腳尖方向，不內夾。",
+      "下降到可控制、沒有不適的深度，後膝接近地面但不撞地。",
+      "以前腳穩定出力站回，雙腳不移位；完成一側後換腳。"
+    ],
+    "cues": [
+      "前腳踩穩，膝蓋順著腳尖",
+      "上下移動，不向前衝",
+      "平衡不足先徒手扶穩"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mJilHWIBWO8",
+      "watchUrl": "https://www.youtube.com/shorts/mJilHWIBWO8",
+      "title": "啞鈴原地分腿蹲短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/mJilHWIBWO8",
+    "sourceLabel": "DeltaBolic：啞鈴原地分腿蹲示範"
+  },
+  "definition": {
+    "variation": "雙手啞鈴原地分腿蹲，後腳腳跟抬起、前腳踩地，不是走動弓箭步。",
+    "counting": "每側下蹲並站回算 1 次；每組左右各 10 次，兩側完成算 1 組。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/mJilHWIBWO8",
+      "label": "DeltaBolic：啞鈴原地分腿蹲",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "前後腳固定",
+        "後腳掌支撐",
+        "原地下降與站回"
+      ],
+      "note": "1.896 秒前腳支撐、4.741 秒後腿對照、7.585 秒直立分腿蹲；雙啞鈴置身側。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "fdfe85d41e9edc22f53f9794dc8d08520e455340ff3eb50ed97c16b1194610d4",
+      "findings": [
+        "1.896 秒前腳支撐、4.741 秒後腿對照、7.585 秒直立分腿蹲；雙啞鈴置身側。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "fdfe85d41e9edc22f53f9794dc8d08520e455340ff3eb50ed97c16b1194610d4",
+      "reviewedImageSha256": "07889d52813845d65bcaca51323c8261b0c53fb303f414fcd4ad56827b0e7034",
+      "findings": [
+        "已檢視雙啞鈴、前腳踩地、後腳跟抬起，原地下蹲至後膝近地並站回；圖中文字每側10次清楚。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/mJilHWIBWO8",
+      "check": {
+        "videoId": "mJilHWIBWO8",
+        "seconds": [
+          1.8962,
+          4.7405,
+          7.5848
+        ],
+        "observation": "1.896 秒前腳支撐、4.741 秒後腿對照、7.585 秒直立分腿蹲；雙啞鈴置身側。"
+      },
+      "findings": [
+        "1.896 秒前腳支撐、4.741 秒後腿對照、7.585 秒直立分腿蹲；雙啞鈴置身側。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "fdfe85d41e9edc22f53f9794dc8d08520e455340ff3eb50ed97c16b1194610d4",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-static-split-squat-zh-tw.png",
+    "sha256": "07889d52813845d65bcaca51323c8261b0c53fb303f414fcd4ad56827b0e7034",
+    "generatedFromContentHash": "fdfe85d41e9edc22f53f9794dc8d08520e455340ff3eb50ed97c16b1194610d4",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側前三分之四，全身、兩腳接地與膝蓋可見。",
+      "frames": [
+        {
+          "title": "前後站穩",
+          "pose": "Adult woman holds two light dumbbells at sides in split stance, LEFT foot forward flat, RIGHT forefoot behind heel lifted, feet lateral hipwidth apart, upright torso.",
+          "caption": "前腳踩穩，後腳跟抬起。"
+        },
+        {
+          "title": "原地下蹲",
+          "pose": "Bend both knees lowering pelvis vertically, left front knee tracks toes, rear right knee hovers above floor, torso stable and dumbbells beside hips.",
+          "caption": "兩膝彎曲，後膝不撞地。"
+        },
+        {
+          "title": "站回換側",
+          "pose": "Extend knees and hips back to same split stance without moving feet, front heel stays grounded, no swinging weights.",
+          "caption": "控制站回，每組左右各 10 次。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 啞鈴原地分腿蹲; subtitle 前後腳位置固定，控制下蹲與站起，練習單側腿部出力。; camera 固定側前三分之四，全身、兩腳接地與膝蓋可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"前後站穩\",\"pose\":\"Adult woman holds two light dumbbells at sides in split stance, LEFT foot forward flat, RIGHT forefoot behind heel lifted, feet lateral hipwidth apart, upright torso.\",\"caption\":\"前腳踩穩，後腳跟抬起。\"},{\"title\":\"原地下蹲\",\"pose\":\"Bend both knees lowering pelvis vertically, left front knee tracks toes, rear right knee hovers above floor, torso stable and dumbbells beside hips.\",\"caption\":\"兩膝彎曲，後膝不撞地。\"},{\"title\":\"站回換側\",\"pose\":\"Extend knees and hips back to same split stance without moving feet, front heel stays grounded, no swinging weights.\",\"caption\":\"控制站回，每組左右各 10 次。\"}]; bottom three columns 動作重點 [\"前腳踩穩，膝蓋順著腳尖\",\"上下移動，不向前衝\",\"平衡不足先徒手扶穩\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting must be clear: 每側下蹲並站回算 1 次；每組左右各 10 次，兩側完成算 1 組。"
+    }
+  }
+}

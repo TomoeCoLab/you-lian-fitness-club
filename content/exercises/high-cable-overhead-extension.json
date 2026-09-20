@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "high-cable-overhead-extension",
+    "name": "高位滑輪過頭三頭肌伸展",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "背向高位滑輪、穩定前傾，將直桿由頭後向前伸出，練習伸肘控制。",
+    "instructions": [
+      "高位滑輪裝好直桿，輕重量完整握住，背向機台跨步站穩；确认頭後與纜線空間。",
+      "屈髖微前傾，腹部收緊，上臂朝前上方、手肘彎曲，直桿在頭後附近。",
+      "維持上臂與軀幹位置，伸肘將直桿推往前方，不靠身體前後晃動。",
+      "控制屈肘回到頭後的舒服位置，不碰頭；完成後慢慢回到可安全放回握把的位置。"
+    ],
+    "cues": [
+      "高滑輪與直桿，不和低位繩索混用",
+      "前傾來自髖部，不把腰折彎",
+      "不強迫手肘夾緊"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NTk0Igxqcsk",
+      "watchUrl": "https://www.youtube.com/shorts/NTk0Igxqcsk",
+      "title": "高位滑輪過頭三頭肌伸展短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/NTk0Igxqcsk",
+    "sourceLabel": "DeltaBolic：高位滑輪過頭三頭肌伸展示範"
+  },
+  "definition": {
+    "variation": "高位滑輪直桿、前後腳前傾過頭伸展；不是低位繩索直立版。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/NTk0Igxqcsk",
+      "label": "DeltaBolic：高位滑輪過頭三頭肌伸展",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "高位直桿",
+        "前後腳站穩",
+        "前傾頭後伸肘"
+      ],
+      "note": "2.380 秒直桿握法、5.951 秒前後腳、9.521 秒前傾頭後屈肘；動作沿頭部前上方向伸肘。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "bc51dbe97ab891c94e97a88150876f5b7984f705718ae57d600f5b3ff127d859",
+      "findings": [
+        "2.380 秒直桿握法、5.951 秒前後腳、9.521 秒前傾頭後屈肘；動作沿頭部前上方向伸肘。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "bc51dbe97ab891c94e97a88150876f5b7984f705718ae57d600f5b3ff127d859",
+      "reviewedImageSha256": "4f4aa4844084f99807a8fa41b6adb9fd20ca93f065ca026688d82c859b947a14",
+      "findings": [
+        "已檢視高位滑輪直桿、背向站姿髖部前傾，上臂相對穩定的前伸與屈肘回程，與低位繩索版本清楚區分。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/NTk0Igxqcsk",
+      "check": {
+        "videoId": "NTk0Igxqcsk",
+        "seconds": [
+          2.3802,
+          5.9505,
+          9.5208
+        ],
+        "observation": "2.380 秒直桿握法、5.951 秒前後腳、9.521 秒前傾頭後屈肘；動作沿頭部前上方向伸肘。"
+      },
+      "findings": [
+        "2.380 秒直桿握法、5.951 秒前後腳、9.521 秒前傾頭後屈肘；動作沿頭部前上方向伸肘。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "bc51dbe97ab891c94e97a88150876f5b7984f705718ae57d600f5b3ff127d859",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-high-cable-overhead-extension-zh-tw.png",
+    "sha256": "4f4aa4844084f99807a8fa41b6adb9fd20ca93f065ca026688d82c859b947a14",
+    "generatedFromContentHash": "bc51dbe97ab891c94e97a88150876f5b7984f705718ae57d600f5b3ff127d859",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定嚴格正側面，全身、頭後高滑輪、直桿可見，面向左。",
+      "frames": [
+        {
+          "title": "前傾準備",
+          "pose": "Woman in split stance facing LEFT away from high pulley behind at screen RIGHT. Hip hinge torso leaning forward, neutral spine. Upper arms point forward/up beside head, elbows bent, straight bar held behind head; cable runs upback to high pulley.",
+          "caption": "前後腳站穩，屈髖微前傾。"
+        },
+        {
+          "title": "向前伸肘",
+          "pose": "Keep torso and upper arms fixed while extending elbows so bar moves forward away from head toward LEFT, arms nearly aligned forward/up. Not shoulder swinging or push-up; feet fixed.",
+          "caption": "上臂穩定，直桿往前推。"
+        },
+        {
+          "title": "控制彎回",
+          "pose": "Flex elbows bringing bar back behind head without contacting neck; same hinge and split stance, cable taut behind.",
+          "caption": "緩慢屈肘回程，頭後保留空間。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 高位滑輪過頭三頭肌伸展; subtitle 背向高位滑輪、穩定前傾，將直桿由頭後向前伸出，練習伸肘控制。; camera 固定嚴格正側面，全身、頭後高滑輪、直桿可見，面向左。; render each step title and caption verbatim and depict pose: [{\"title\":\"前傾準備\",\"pose\":\"Woman in split stance facing LEFT away from high pulley behind at screen RIGHT. Hip hinge torso leaning forward, neutral spine. Upper arms point forward/up beside head, elbows bent, straight bar held behind head; cable runs upback to high pulley.\",\"caption\":\"前後腳站穩，屈髖微前傾。\"},{\"title\":\"向前伸肘\",\"pose\":\"Keep torso and upper arms fixed while extending elbows so bar moves forward away from head toward LEFT, arms nearly aligned forward/up. Not shoulder swinging or push-up; feet fixed.\",\"caption\":\"上臂穩定，直桿往前推。\"},{\"title\":\"控制彎回\",\"pose\":\"Flex elbows bringing bar back behind head without contacting neck; same hinge and split stance, cable taut behind.\",\"caption\":\"緩慢屈肘回程，頭後保留空間。\"}]; bottom three columns 動作重點 [\"高滑輪與直桿，不和低位繩索混用\",\"前傾來自髖部，不把腰折彎\",\"不強迫手肘夾緊\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

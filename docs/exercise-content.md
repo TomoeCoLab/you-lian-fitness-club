@@ -1,12 +1,12 @@
 # 動作內容總冊
 
-此檔由 content/exercises/*.json 生成，不在此直接修改。共 76 項（含歷史相容項目）。各項狀態分開判斷；沒有任何項目因影片能播放便獲得醫療或專業認證。
+此檔由 content/exercises/*.json 生成，不在此直接修改。共 129 項（含歷史相容項目）。各項狀態分開判斷；沒有任何項目因影片能播放便獲得醫療或專業認證。
 
 ## 目前核對進度（自動計算）
 
-- text：文字來源已核對 76 項。
-- image：已視覺檢查（非專業認證） 76 項。
-- video：僅片段抽查 76 項。
+- text：文字來源已核對 129 項。
+- image：已視覺檢查（非專業認證） 129 項。
+- video：僅片段抽查 129 項。
 
 ## 逐項索引
 
@@ -88,6 +88,59 @@
 | [低眼鏡蛇式](#cobra-pose) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [坐姿腿後側伸展](#seated-forward-fold) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [穿針引線式](#thread-the-needle) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [史密斯平板胸推](#smith-bench-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [史密斯上斜胸推](#smith-incline-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [上斜槓鈴臥推](#incline-barbell-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [平板啞鈴飛鳥](#dumbbell-fly) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [高到低滑輪飛鳥](#high-to-low-cable-fly) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [坐姿滑輪胸推](#seated-cable-chest-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [鑽石伏地挺身](#diamond-push-up) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [徒手引體向上](#pull-up) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [槓鈴俯身划船](#barbell-bent-over-row) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [地雷管划船](#landmine-row) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [滑輪直臂下拉](#straight-arm-pulldown) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [胸靠啞鈴划船](#chest-supported-dumbbell-row) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [胸靠器械划船](#chest-supported-machine-row) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [史密斯俯身划船](#smith-bent-over-row) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [仰躺啞鈴上拉](#dumbbell-pullover) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [站姿槓鈴肩推](#standing-barbell-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [史密斯坐姿肩推](#smith-seated-shoulder-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [阿諾肩推](#arnold-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [俯身啞鈴反向飛鳥](#bent-over-dumbbell-reverse-fly) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [胸靠啞鈴反向飛鳥](#chest-supported-reverse-fly) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [高位單臂滑輪反向飛鳥](#single-arm-cable-reverse-fly) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [單臂滑輪側平舉](#single-arm-cable-lateral-raise) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [站姿啞鈴前平舉](#dumbbell-front-raise) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [啞鈴聳肩](#dumbbell-shrug) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [坐姿啞鈴過頭三頭肌伸展](#seated-dumbbell-overhead-extension) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [低位滑輪過頭三頭肌伸展](#low-cable-overhead-extension) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [高位滑輪過頭三頭肌伸展](#high-cable-overhead-extension) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [仰躺曲槓三頭肌伸展](#lying-ez-bar-triceps-extension) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [單臂啞鈴三頭肌後踢](#single-arm-dumbbell-kickback) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [啞鈴集中彎舉](#dumbbell-concentration-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [槓鈴彎舉](#barbell-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [啞鈴槌式彎舉](#dumbbell-hammer-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [反握啞鈴彎舉](#reverse-dumbbell-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [上斜啞鈴彎舉](#incline-dumbbell-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [器械牧師椅彎舉](#machine-preacher-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [站姿滑輪彎舉](#standing-cable-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [身後滑輪彎舉（貝氏彎舉）](#bayesian-cable-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [坐姿啞鈴腕彎舉](#seated-dumbbell-wrist-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [坐姿啞鈴反向腕彎舉](#seated-reverse-wrist-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [啞鈴原地分腿蹲](#dumbbell-static-split-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [啞鈴保加利亞分腿蹲](#dumbbell-bulgarian-split-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [槓鈴背蹲](#barbell-back-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [槓鈴前蹲](#barbell-front-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [啞鈴羅馬尼亞硬舉](#dumbbell-romanian-deadlift) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [啞鈴相撲深蹲](#dumbbell-sumo-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [俯臥腿彎舉](#lying-leg-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [站姿滑輪臀後踢](#standing-cable-glute-kickback) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [雙腳啞鈴提踵](#dumbbell-standing-calf-raise) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [仰躺捲腹](#supine-crunch) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [仰躺抬腿](#supine-leg-raise) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [自行車捲腹](#bicycle-crunch) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [俄羅斯轉體](#russian-twist) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [跪姿滑輪捲腹](#kneeling-cable-crunch) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 
 <a id="march-in-place"></a>
 ## 原地踏步
@@ -1295,8 +1348,8 @@
 <a id="dumbbell-chest-press"></a>
 ## 啞鈴胸推
 
-- ID：`dumbbell-chest-press`；內容修訂：4
-- 內容 SHA-256：`2a931cd4af67254be8fc2f2cbf5ada59bfa75edda3b7d71d2f4bc62faba3b525`
+- ID：`dumbbell-chest-press`；內容修訂：5
+- 內容 SHA-256：`30e07f9e61266b787ba0a054d88427d624ee06c7887d79dea3a7767d6f43ff7a`
 - 唯一編輯來源：[JSON](../content/exercises/dumbbell-chest-press.json)
 - 指定版本：啞鈴胸推；本項起始設定：仰躺後讓前臂接近垂直地面。
 - 器材：啞鈴
@@ -1324,12 +1377,13 @@
 ### 證據與限制
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
-- [ACE：平板啞鈴胸推](https://www.acefitness.org/resources/everyone/exercise-library/19/chest-press/) — movement-specific；核對日期：2026-09-20；支持：仰躺長椅、頭肩臀支撐、雙脚踩地、中立手腕與控制推舉、不彈震、控制回程。已核對起始到收尾；本站不強求啞鈴碰胸，依肩膀可控幅度。需要時請保護者協助拿放重量。
+- [ACE：平板啞鈴胸推](https://www.acefitness.org/resources/everyone/exercise-library/19/chest-press/) — movement-specific；核對日期：2026-09-20；支持：仰躺長椅、頭肩臀支撐、雙腳踩地、中立手腕與控制推舉、不彈震、控制回程。已核對起始到收尾；本站不強求啞鈴碰胸，依肩膀可控幅度。需要時請保護者協助拿放重量。
+- [DeltaBolic：啞鈴胸推](https://www.youtube.com/shorts/mTaiQemkEpU) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。
 
-- text：文字來源已核對。已核對起始到收尾；本站不強求啞鈴碰胸，依肩膀可控幅度。需要時請保護者協助拿放重量。；預設組數及次數為本站一般起始參考，非來源個人化處方。
-- image：已視覺檢查（非專業認證）。平椅仰躺雙啞鈴推舉，前臂接近垂直，下降不過度；8–12 次 3 組包含本站 10 次 3 組。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：僅片段抽查。重新核對平板長椅、雙手各持一顆啞鈴，推起及下降胸側；非槓鈴或上斜版本。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[啞鈴仰臥推舉](https://www.youtube.com/watch?v=Am787GTLclY)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已核對起始到收尾；本站不強求啞鈴碰胸，依肩膀可控幅度。需要時請保護者協助拿放重量。；預設組數及次數為本站一般起始參考，非來源個人化處方。；平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。；本次逐項對照原文字及現有圖解，未改變既有課表份量。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。平椅仰躺雙啞鈴推舉，前臂接近垂直，下降不過度；8–12 次 3 組包含本站 10 次 3 組。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；本次重新開啟原圖檢視：平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。
+- video：僅片段抽查。平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[啞鈴胸推姿勢短片](https://www.youtube.com/shorts/mTaiQemkEpU)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-chest-press-zh-tw.png`；SHA-256：`9bf42ccd56634257dd4e91e1f93db61c2941a814c0b75cfd45fb2429ce56931f`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -1341,18 +1395,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/Am787GTLclY
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/Am787GTLclY
-- 實際檢查秒點：26、38、41、47
+- 嵌入網址：https://www.youtube-nocookie.com/embed/mTaiQemkEpU
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/mTaiQemkEpU
+- 實際檢查秒點：2.2002、5.5005、8.8008
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新核對平板長椅、雙手各持一顆啞鈴，推起及下降胸側；非槓鈴或上斜版本。
+- 可見內容：平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="dumbbell-row"></a>
 ## 單臂啞鈴划船
 
-- ID：`dumbbell-row`；內容修訂：4
-- 內容 SHA-256：`8375fc2ac564b021d376a4d4307fcc598a73f73fc3d89c03c8d198978ca73169`
+- ID：`dumbbell-row`；內容修訂：5
+- 內容 SHA-256：`0038df90ec6823f0a24fc6340939f93bfb91b2628778b8245674dca0683d7100`
 - 唯一編輯來源：[JSON](../content/exercises/dumbbell-row.json)
 - 指定版本：單臂啞鈴划船；本項起始設定：一手一膝支撐長椅，背部維持中立。
 - 器材：啞鈴
@@ -1381,11 +1435,12 @@
 
 - [Mayo Clinic 動作影片](https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/bent-over-row/vid-20084680) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [ACE：長椅支撐單臂啞鈴划船](https://www.acefitness.org/resources/everyone/exercise-library/126/single-arm-row/) — movement-specific；核對日期：2026-09-20；支持：同側手與膝在長椅支撐、對側持啞鈴、手肘沿身體後拉、不旋轉軀幹並控制放下。已核對三階段；動作時頭頸隨軀幹，不採轉頭看鏡子檢查姿勢的建議。
+- [DeltaBolic：單臂啞鈴划船](https://www.youtube.com/shorts/yHqqGd0tXcw) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。
 
-- text：文字來源已核對。已核對三階段；動作時頭頸隨軀幹，不採轉頭看鏡子檢查姿勢的建議。；預設組數及次數為本站一般起始參考，非來源個人化處方。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。
-- image：已視覺檢查（非專業認證）。同側手膝支撐、另一手划向髖部，頸部自然、回程不扭腰；每側 10–12 次 3 組包含本站每側 10 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。
-- video：僅片段抽查。重新核對同側手膝扶長椅、另一手單啞鈴划船；110 秒示範肘沿身側拉向髖、115 秒回程。頻道目前名稱為女力健身 Nuli App。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[啞鈴划船完整教學](https://www.youtube.com/watch?v=r1loX83MWaw)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已核對三階段；動作時頭頸隨軀幹，不採轉頭看鏡子檢查姿勢的建議。；預設組數及次數為本站一般起始參考，非來源個人化處方。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。；一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。同側手膝支撐、另一手划向髖部，頸部自然、回程不扭腰；每側 10–12 次 3 組包含本站每側 10 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。；本次重新開啟原圖檢視：一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。
+- video：僅片段抽查。一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[單臂啞鈴划船姿勢短片](https://www.youtube.com/shorts/yHqqGd0tXcw)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-row-zh-tw.png`；SHA-256：`59554dcdda896471b967d575b42f14670100ecde83c6e9ed867f89f3f28d3f7d`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -1397,18 +1452,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/r1loX83MWaw
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/r1loX83MWaw
-- 實際檢查秒點：95、110、115、120
+- 嵌入網址：https://www.youtube-nocookie.com/embed/yHqqGd0tXcw
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/yHqqGd0tXcw
+- 實際檢查秒點：1.7122、4.2805、6.8488
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新核對同側手膝扶長椅、另一手單啞鈴划船；110 秒示範肘沿身側拉向髖、115 秒回程。頻道目前名稱為女力健身 Nuli App。
+- 可見內容：一手一膝靠椅、肩線穩定、單啞鈴拉向髖部；原圖同支撐。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="dumbbell-shoulder-press"></a>
 ## 坐姿啞鈴肩推
 
-- ID：`dumbbell-shoulder-press`；內容修訂：4
-- 內容 SHA-256：`dcd0b255c4bab96cbb67e809794dcfc8735e1334a3e0e910c46961cdbe9efd40`
+- ID：`dumbbell-shoulder-press`；內容修訂：5
+- 內容 SHA-256：`32599b475037c183debaf3057c5feeb0f7cbe0bc1a8c07c210d6770f91c543f0`
 - 唯一編輯來源：[JSON](../content/exercises/dumbbell-shoulder-press.json)
 - 指定版本：坐姿啞鈴肩推；本項起始設定：靠背調至接近直立，啞鈴置於肩側。
 - 器材：啞鈴
@@ -1436,12 +1491,13 @@
 ### 證據與限制
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
-- [PureGym：坐姿啞鈴肩推](https://www.puregym.com/exercises/arms-and-shoulders/shoulder-press/seated-shoulder-press/) — movement-specific；核對日期：2026-09-20；支持：靠背坐姿與雙脚踩穩、啞鈴在肩耳間起始、雙臂向上推再控制放下。僅核對頁面 How To Do A Seated Dumbbell Shoulder Press；同頁內嵌說明是槓鈴版，不採作啞鈴示範。使用輕重量，不以踢腿慣性或疼痛中增加幅度作本站要求。
+- [PureGym：坐姿啞鈴肩推](https://www.puregym.com/exercises/arms-and-shoulders/shoulder-press/seated-shoulder-press/) — movement-specific；核對日期：2026-09-20；支持：靠背坐姿與雙腳踩穩、啞鈴在肩耳間起始、雙臂向上推再控制放下。僅核對頁面 How To Do A Seated Dumbbell Shoulder Press；同頁內嵌說明是槓鈴版，不採作啞鈴示範。使用輕重量，不以踢腿慣性或疼痛中增加幅度作本站要求。
+- [DeltaBolic：坐姿啞鈴肩推](https://www.youtube.com/shorts/k6tzKisR3NY) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。近直立靠背、雙啞鈴肩側向上推；原圖同支撐。
 
-- text：文字來源已核對。僅核對頁面 How To Do A Seated Dumbbell Shoulder Press；同頁內嵌說明是槓鈴版，不採作啞鈴示範。使用輕重量，不以踢腿慣性或疼痛中增加幅度作本站要求。；預設組數及次數為本站一般起始參考，非來源個人化處方。
-- image：已視覺檢查（非專業認證）。有靠背坐姿雙啞鈴肩推、回肩側，非站姿或胸推；8–12 次 3 組包含本站 10 次 3 組。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：僅片段抽查。重新核對有靠背坐姿、雙啞鈴肩側起始、向上推及控制放回。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[坐姿啞鈴肩上推舉](https://www.youtube.com/watch?v=ePxgPKcI1fU)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。僅核對頁面 How To Do A Seated Dumbbell Shoulder Press；同頁內嵌說明是槓鈴版，不採作啞鈴示範。使用輕重量，不以踢腿慣性或疼痛中增加幅度作本站要求。；預設組數及次數為本站一般起始參考，非來源個人化處方。；近直立靠背、雙啞鈴肩側向上推；原圖同支撐。；本次逐項對照原文字及現有圖解，未改變既有課表份量。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。有靠背坐姿雙啞鈴肩推、回肩側，非站姿或胸推；8–12 次 3 組包含本站 10 次 3 組。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；本次重新開啟原圖檢視：近直立靠背、雙啞鈴肩側向上推；原圖同支撐。
+- video：僅片段抽查。近直立靠背、雙啞鈴肩側向上推；原圖同支撐。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[坐姿啞鈴肩推姿勢短片](https://www.youtube.com/shorts/k6tzKisR3NY)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-shoulder-press-zh-tw.png`；SHA-256：`d21b1b698a361cd23bc9f4f42b8ad3ed3ee65c3e0c325cc65552cf9e4d8e1076`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -1453,18 +1509,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/ePxgPKcI1fU
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/ePxgPKcI1fU
-- 實際檢查秒點：8、19、28、35
+- 嵌入網址：https://www.youtube-nocookie.com/embed/k6tzKisR3NY
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/k6tzKisR3NY
+- 實際檢查秒點：1.7402、4.3505、6.9608
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新核對有靠背坐姿、雙啞鈴肩側起始、向上推及控制放回。
+- 可見內容：近直立靠背、雙啞鈴肩側向上推；原圖同支撐。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="dumbbell-curl"></a>
 ## 啞鈴彎舉
 
-- ID：`dumbbell-curl`；內容修訂：3
-- 內容 SHA-256：`77f0680cb6a20496f6f3a3bd19fed39d5f079929d3e8b4c5938785da367763bd`
+- ID：`dumbbell-curl`；內容修訂：4
+- 內容 SHA-256：`449a146c164004b4c35809aea44135e441d433d15f7c95ebf59975cbd3d76224`
 - 唯一編輯來源：[JSON](../content/exercises/dumbbell-curl.json)
 - 指定版本：啞鈴彎舉；本項起始設定：掌心朝上握住啞鈴，手肘貼近身體。
 - 器材：啞鈴
@@ -1493,11 +1549,12 @@
 
 - [NHS 肌力活動](https://www.nhs.uk/live-well/exercise/strength-exercises/) — movement-specific；核對日期：2026-09-20；支持：上臂在身旁的彎舉路徑。僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。
 - [Mayo Clinic 動作影片](https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
+- [DeltaBolic：啞鈴彎舉](https://www.youtube.com/shorts/clRekvAadDA) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。右側綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。
 
-- text：文字來源已核對。已對照原始來源：上臂在身旁的彎舉路徑。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
-- image：已視覺檢查（非專業認證）。站姿雙手同時彎肘，上臂近軀幹；10–12 次 × 3 組相容。頁面交替版本須另以每側計數。；已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
-- video：僅片段抽查。雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
-- 影片：[啞鈴彎舉動作教學](https://www.youtube.com/watch?v=2g4v5qv8ByM)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照原始來源：上臂在身旁的彎舉路徑。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。；右侧綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。；本次逐項對照原文字及現有圖解，未改變既有課表份量。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。站姿雙手同時彎肘，上臂近軀幹；10–12 次 × 3 組相容。頁面交替版本須另以每側計數。；已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。；本次重新開啟原圖檢視：右侧綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。
+- video：僅片段抽查。右侧綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[啞鈴彎舉姿勢短片](https://www.youtube.com/shorts/clRekvAadDA)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-curl-zh-tw.png`；SHA-256：`b2895a3b6d32869ab9984e7218b264d3e8352cfa0fb2fbce7f338e95e940712d`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -1509,11 +1566,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/2g4v5qv8ByM
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/2g4v5qv8ByM
-- 實際檢查秒點：10、31、35、38、43、49、65、95、125、155
+- 嵌入網址：https://www.youtube-nocookie.com/embed/clRekvAadDA
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/clRekvAadDA
+- 實際檢查秒點：1.3842、3.4605、5.5368
 - 播放區間：0 秒起，原片結尾
-- 可見內容：雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。
+- 可見內容：右侧綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="dumbbell-triceps-extension"></a>
@@ -1575,8 +1632,8 @@
 <a id="barbell-bench-press"></a>
 ## 槓鈴臥推
 
-- ID：`barbell-bench-press`；內容修訂：6
-- 內容 SHA-256：`9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899`
+- ID：`barbell-bench-press`；內容修訂：7
+- 內容 SHA-256：`d8834fbac6550634102e6f104beb7846c3a7386b56d017acd9aa427cb1c99484`
 - 唯一編輯來源：[JSON](../content/exercises/barbell-bench-press.json)
 - 指定版本：槓鈴臥推；本項起始設定：雙腳踩穩，眼睛位於槓鈴正下方。
 - 器材：槓鈴
@@ -1605,11 +1662,12 @@
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [NASM：槓鈴平板臥推](https://www.nasm.org/resource-center/exercise-library/barbell-bench-press) — movement-specific；核對日期：2026-09-20；支持：雙腳踩地、背部支撐、略寬握距、控制向胸前下放、保持軀幹穩定再推回。已核對 Setup–Return；不把最大重量、強制固定握距或接近力竭作新手要求。安全架／保護者依現場條件設定。
+- [DeltaBolic：槓鈴臥推](https://www.youtube.com/shorts/_FkbD0FhgVE) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。
 
-- text：文字來源已核對。已核對 Setup–Return；不把最大重量、強制固定握距或接近力竭作新手要求。安全架／保護者依現場條件設定。；預設組數及次數為本站一般起始參考，非來源個人化處方。
-- image：已視覺檢查（非專業認證）。三格正側面可辨槓位在胸前，不在頸部；雙手持槓、雙腳踩地、頭背臀有支撐，已補接合於立柱的安全支臂。實際擋桿高度仍須按本人胸高測試，非量測圖。；已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。
-- video：僅片段抽查。重新核對平板槓鈴臥推，有保護者協助；圖文所述安全擋桿設定需依場館條件，影片不提供個人重量處方。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[槓鈴仰臥推舉](https://www.youtube.com/watch?v=1Ppl7czpoUc)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已核對 Setup–Return；不把最大重量、強制固定握距或接近力竭作新手要求。安全架／保護者依現場條件設定。；預設組數及次數為本站一般起始參考，非來源個人化處方。；平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。三格正側面可辨槓位在胸前，不在頸部；雙手持槓、雙腳踩地、頭背臀有支撐，已補接合於立柱的安全支臂。實際擋桿高度仍須按本人胸高測試，非量測圖。；已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。；本次重新開啟原圖檢視：平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。
+- video：僅片段抽查。平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[槓鈴臥推姿勢短片](https://www.youtube.com/shorts/_FkbD0FhgVE)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-barbell-bench-press-v2-zh-tw.png`；SHA-256：`ed9de231a49c570a458955a7becfaf2e680c2719b0c7341a5e27a22026a57aa7`
 - 原圖生成所依文字版本：9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899，不得事後填成目前版本。
 
@@ -1626,18 +1684,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/1Ppl7czpoUc
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/1Ppl7czpoUc
-- 實際檢查秒點：6、12、18、23
+- 嵌入網址：https://www.youtube-nocookie.com/embed/_FkbD0FhgVE
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/_FkbD0FhgVE
+- 實際檢查秒點：3.2402、8.1005、12.9608
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新核對平板槓鈴臥推，有保護者協助；圖文所述安全擋桿設定需依場館條件，影片不提供個人重量處方。
+- 可見內容：平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="barbell-deadlift"></a>
 ## 槓鈴硬舉
 
-- ID：`barbell-deadlift`；內容修訂：5
-- 內容 SHA-256：`66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b`
+- ID：`barbell-deadlift`；內容修訂：6
+- 內容 SHA-256：`e03f272fc600c03b97b1646d157364d80649833786d8648b50b38571936eac46`
 - 唯一編輯來源：[JSON](../content/exercises/barbell-deadlift.json)
 - 指定版本：槓鈴硬舉；本項起始設定：槓鈴置於腳掌中段上方，髖部向後。
 - 器材：槓鈴
@@ -1666,11 +1724,12 @@
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [NASM：槓鈴地板硬舉](https://www.nasm.org/resource-center/exercise-library/barbell-deadlift) — movement-specific；核對日期：2026-09-20；支持：槓在腳掌中段上方、全腳掌出力、髖膝同步伸展、控制髖折與屈膝放回地面。已核對地板起始版，與站姿起始的羅馬尼亞硬舉分開；不採來源固定握距或強迫小腿垂直作每人體型標準。
+- [DeltaBolic：槓鈴硬舉](https://www.youtube.com/shorts/xNwpvDuZJ3k) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。
 
-- text：文字來源已核對。已核對地板起始版，與站姿起始的羅馬尼亞硬舉分開；不採來源固定握距或強迫小腿垂直作每人體型標準。；預設組數及次數為本站一般起始參考，非來源個人化處方。
-- image：已視覺檢查（非專業認證）。重新檢視四格：槓片落地起始與回程，槓貼近腿、髖膝協調站起、頸部隨軀幹自然延伸；3 組 6 次與文字一致。；圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。
-- video：僅片段抽查。重新核對一般硬舉由站姿放回地面、再站起的槓鈴路徑；不同於膝微彎髖折的羅馬尼亞硬舉。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[一般硬舉](https://www.youtube.com/watch?v=mCkHvemP79U)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已核對地板起始版，與站姿起始的羅馬尼亞硬舉分開；不採來源固定握距或強迫小腿垂直作每人體型標準。；預設組數及次數為本站一般起始參考，非來源個人化處方。；槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。重新檢視四格：槓片落地起始與回程，槓貼近腿、髖膝協調站起、頸部隨軀幹自然延伸；3 組 6 次與文字一致。；圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。；本次重新開啟原圖檢視：槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。
+- video：僅片段抽查。槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[槓鈴硬舉姿勢短片](https://www.youtube.com/shorts/xNwpvDuZJ3k)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-barbell-deadlift-v2-zh-tw.png`；SHA-256：`0c9d5a78ac138421434b359b4dd61a24e08aedfae377c65ab024971c48efd838`
 - 原圖生成所依文字版本：66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b，不得事後填成目前版本。
 
@@ -1689,11 +1748,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/mCkHvemP79U
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/mCkHvemP79U
-- 實際檢查秒點：5、10、15、19
+- 嵌入網址：https://www.youtube-nocookie.com/embed/xNwpvDuZJ3k
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/xNwpvDuZJ3k
+- 實際檢查秒點：2.1282、5.3205、8.5128
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新核對一般硬舉由站姿放回地面、再站起的槓鈴路徑；不同於膝微彎髖折的羅馬尼亞硬舉。
+- 可見內容：槓從地板起，髖膝協調，站直不後仰；原圖回地重設，不是RDL。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="kettlebell-deadlift"></a>
@@ -1817,8 +1876,8 @@
 <a id="smith-squat"></a>
 ## 史密斯深蹲
 
-- ID：`smith-squat`；內容修訂：4
-- 內容 SHA-256：`8b5725120543bbcccdc8d18fa69f36dda07f33f90061f8f04d19f61c241ec3cc`
+- ID：`smith-squat`；內容修訂：5
+- 內容 SHA-256：`aa7544e6afac2a56a8a352541501ed29f97732b6925a7b664676cb2927b696b6`
 - 唯一編輯來源：[JSON](../content/exercises/smith-squat.json)
 - 指定版本：史密斯深蹲；本項起始設定：調整安全限位，槓置於上背而非頸部。
 - 器材：史密斯機
@@ -1847,11 +1906,12 @@
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [Fitness Institute：史密斯深蹲](https://fitnessinstitute.com.au/back-squat-2/) — movement-specific；核對日期：2026-09-20；支持：上背承槓、導軌下蹲與起身。已讀動作正文；不採用來源『膝蓋不得超過腳尖』的絕對限制。腳位、解掛鉤方向、安全限位仍依現場機台，非跨型號通則。
+- [DeltaBolic：史密斯深蹲](https://www.youtube.com/shorts/NxCntzwABlY) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。
 
-- text：文字來源已核對。已讀動作正文；不採用來源『膝蓋不得超過腳尖』的絕對限制。腳位、解掛鉤方向、安全限位仍依現場機台，非跨型號通則。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。
-- image：已視覺檢查（非專業認證）。軌道內上背負槓、解鉤、蹲下與掛回順序可見；8–12 次 3 組包含本站 10 次 3 組。安全限位仍需現場依機型設定。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。
-- video：僅片段抽查。已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[下半身器械：史密斯機](https://www.youtube.com/watch?v=H14HliH4Mfs&t=64s)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀動作正文；不採用來源『膝蓋不得超過腳尖』的絕對限制。腳位、解掛鉤方向、安全限位仍依現場機台，非跨型號通則。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。；原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。軌道內上背負槓、解鉤、蹲下與掛回順序可見；8–12 次 3 組包含本站 10 次 3 組。安全限位仍需現場依機型設定。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。；本次重新開啟原圖檢視：原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。
+- video：僅片段抽查。原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[史密斯深蹲姿勢短片](https://www.youtube.com/shorts/NxCntzwABlY)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-smith-squat-zh-tw.png`；SHA-256：`3a5d5e25c0cb5de360e85b5d49344971ca3819c94f28d4b7b3dbdff9a4064c67`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -1863,11 +1923,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90
-- 實際檢查秒點：64、75、85、95
-- 播放區間：64 秒起，90 秒止
-- 可見內容：已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。
+- 嵌入網址：https://www.youtube-nocookie.com/embed/NxCntzwABlY?start=8&end=13
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/NxCntzwABlY?start=8&end=13
+- 實際檢查秒點：7、8、9、10、12、14、15、16、17
+- 播放區間：8 秒起，13 秒止
+- 可見內容：原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="cable-fly"></a>
@@ -1985,8 +2045,8 @@
 <a id="machine-chest-press"></a>
 ## 器械胸推
 
-- ID：`machine-chest-press`；內容修訂：7
-- 內容 SHA-256：`c36fc7c57cd058ea1c17c66aca859769fe400e45e35fd78a71d75a75a1e14326`
+- ID：`machine-chest-press`；內容修訂：8
+- 內容 SHA-256：`78a0c553523270cbb3e26a741b14fc7736a19f77896ff081c465989a5dbabdf1`
 - 唯一編輯來源：[JSON](../content/exercises/machine-chest-press.json)
 - 指定版本：器械胸推；本項起始設定：調整座椅，握把約在胸口中段。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。
 - 器材：胸推機
@@ -2016,11 +2076,12 @@
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [NASM 器械胸推](https://www.nasm.org/resource-center/exercise-library/chest-press-machine) — movement-specific；核對日期：2026-09-20；支持：座椅使握把在胸中段、背靠墊與雙腳支撐、控制推回。只核對通用動作；機械連桿與輔助踏板仍需另對照實際機型。
 - [Life Fitness Circuit Series 操作手冊 PDF 第 6 頁](https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf) — movement-specific；核對日期：2026-09-20；支持：背靠墊、雙腳支撐、肘略低於肩、前推及回程。已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。
+- [DeltaBolic：器械胸推](https://www.youtube.com/shorts/Qu7-ceCvq7w) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。
 
-- text：文字來源已核對。已對照原廠手冊第 6 頁文字與圖示：背靠墊、雙腳支撐、肘略低於肩、前推及回程。；同名器械可能不同構造；現場設定仍需依原廠圖示。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。
-- image：已視覺檢查（非專業認證）。三格機臂接合可見，握把由胸前推向前方並回程；沒有沿用配重碰撞提示，3 組 12 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。
-- video：僅片段抽查。重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[胸部推舉機](https://www.youtube.com/watch?v=nxklnskwKeo)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照原廠手冊第 6 頁文字與圖示：背靠墊、雙腳支撐、肘略低於肩、前推及回程。；同名器械可能不同構造；現場設定仍需依原廠圖示。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。；坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。三格機臂接合可見，握把由胸前推向前方並回程；沒有沿用配重碰撞提示，3 組 12 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。；本次重新開啟原圖檢視：坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。
+- video：僅片段抽查。坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[器械胸推姿勢短片](https://www.youtube.com/shorts/Qu7-ceCvq7w)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-machine-chest-press-v2-zh-tw.png`；SHA-256：`61ff24f0aac0791c3353f1ff981f9c3fbd0b42265e0ead32e8a8605ed04794a7`
 - 原圖生成所依文字版本：4a91fd19f71f751efebc00548703dfead498ab7e1f7f7c98612c5009a77fa877，不得事後填成目前版本。
 
@@ -2037,18 +2098,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/nxklnskwKeo
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/nxklnskwKeo
-- 實際檢查秒點：8、39、55、65
+- 嵌入網址：https://www.youtube-nocookie.com/embed/Qu7-ceCvq7w
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/Qu7-ceCvq7w
+- 實際檢查秒點：2.0882、5.2205、8.3528
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。
+- 可見內容：坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="pec-deck"></a>
 ## 蝴蝶機夾胸
 
-- ID：`pec-deck`；內容修訂：4
-- 內容 SHA-256：`f5337b6b4aeaf5e7137697987ea6d12a5672bb53fbd2c515766f80635741ab89`
+- ID：`pec-deck`；內容修訂：5
+- 內容 SHA-256：`3e4d04c943abf850de5289df25a7b970d8b7664f2ec0075fc7c47bd1c5609310`
 - 唯一編輯來源：[JSON](../content/exercises/pec-deck.json)
 - 指定版本：握把式蝴蝶機夾胸，背部貼靠，雙臂水平合攏；不採肘墊版本。
 - 器材：蝴蝶機
@@ -2077,11 +2138,12 @@
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [Fitness Institute：握把式蝴蝶機夾胸](https://fitnessinstitute.com.au/pec-fly-pin-loaded/) — movement-specific；核對日期：2026-09-20；支持：Life Fitness 握把式機台，座椅高度與胸口相對、雙臂合攏後控制打開。已讀 Life Fitness Pectoral Fly/Rear Deltoid 教學。此項限定握把版本，不能把肘墊機型設定混在同一步。
+- [DeltaBolic：蝴蝶機夾胸](https://www.youtube.com/shorts/a9vQ_hwIksU) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。
 
-- text：文字來源已核對。已讀 Life Fitness Pectoral Fly/Rear Deltoid 教學。此項限定握把版本，不能把肘墊機型設定混在同一步。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。
-- image：已視覺檢查（非專業認證）。已確認採手握把的坐姿飛鳥，不是以肘部壓墊版本；背貼靠、弧線合攏和回程，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。
-- video：僅片段抽查。已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[蝴蝶機夾胸動作示範](https://www.youtube.com/watch?v=eGjt4lk6g34)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀 Life Fitness Pectoral Fly/Rear Deltoid 教學。此項限定握把版本，不能把肘墊機型設定混在同一步。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。；握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。已確認採手握把的坐姿飛鳥，不是以肘部壓墊版本；背貼靠、弧線合攏和回程，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。；本次重新開啟原圖檢視：握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。
+- video：僅片段抽查。握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[蝴蝶機夾胸姿勢短片](https://www.youtube.com/shorts/a9vQ_hwIksU)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-pec-deck-zh-tw.png`；SHA-256：`42a2460ce528c4fa9a0f28c518a87bdba164b83d5352482f038adc67534211b7`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -2093,18 +2155,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/eGjt4lk6g34
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/eGjt4lk6g34
-- 實際檢查秒點：3、6、8、9、12
+- 嵌入網址：https://www.youtube-nocookie.com/embed/a9vQ_hwIksU
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/a9vQ_hwIksU
+- 實際檢查秒點：3.0722、7.6805、12.2888
 - 播放區間：0 秒起，原片結尾
-- 可見內容：已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。
+- 可見內容：握把式蝴蝶機、背靠墊、手臂向前合攏；原圖非肘墊式。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="lat-pulldown"></a>
 ## 高位下拉
 
-- ID：`lat-pulldown`；內容修訂：6
-- 內容 SHA-256：`44d7d83e8c073f7560b7500c5a0b044384df91cff7fd21821d34c4324e2296ab`
+- ID：`lat-pulldown`；內容修訂：7
+- 內容 SHA-256：`0ab285a51249191902f60d739aa095a83a39f288a500ad7732ab04dc3e7eaf3d`
 - 唯一編輯來源：[JSON](../content/exercises/lat-pulldown.json)
 - 指定版本：高位下拉；本項起始設定：固定腿墊，雙手略寬於肩握住橫桿。
 - 器材：高位下拉機
@@ -2133,11 +2195,12 @@
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [PureGym：胸前高位下拉](https://www.puregym.com/exercises/back/lat-exercises/lat-pulldown/) — movement-specific；核對日期：2026-09-20；支持：大腿固定墊、正握略寬於肩、胸前下拉、軀幹穩定、控制回程。已讀胸前版本；不採頁面另列的頸後下拉，也不把取槓時髖折角度當成全程大幅後仰要求。
+- [DeltaBolic：高位下拉](https://www.youtube.com/shorts/bNmvKpJSWKM) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。
 
-- text：文字來源已核對。已讀胸前版本；不採頁面另列的頸後下拉，也不把取槓時髖折角度當成全程大幅後仰要求。；份量是本站起始參考，不是來源的個人化處方。
-- image：已視覺檢查（非專業認證）。固定視角三格正握寬槓拉至胸前、非頸後；大腿固定與控制回程可見，3 組 10 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。
-- video：僅片段抽查。實際重新核對坐姿大腿固定、寬握槓向胸前下拉及回伸；50、56 秒可見下拉低點，非頸後下拉。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[垂直下拉（胸前）](https://www.youtube.com/watch?v=0KULvdo7T0c)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀胸前版本；不採頁面另列的頸後下拉，也不把取槓時髖折角度當成全程大幅後仰要求。；份量是本站起始參考，不是來源的個人化處方。；正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。固定視角三格正握寬槓拉至胸前、非頸後；大腿固定與控制回程可見，3 組 10 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。；本次重新開啟原圖檢視：正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。
+- video：僅片段抽查。正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[高位下拉姿勢短片](https://www.youtube.com/shorts/bNmvKpJSWKM)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-lat-pulldown-v2-zh-tw.png`；SHA-256：`b886198226ef4cab7785e4d5c3e7f5aac5f93a657a78e6ae95e8e905a6945502`
 - 原圖生成所依文字版本：44d7d83e8c073f7560b7500c5a0b044384df91cff7fd21821d34c4324e2296ab，不得事後填成目前版本。
 
@@ -2154,18 +2217,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/0KULvdo7T0c
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/0KULvdo7T0c
-- 實際檢查秒點：28、32、36、42、48、50、53、56
+- 嵌入網址：https://www.youtube-nocookie.com/embed/bNmvKpJSWKM
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/bNmvKpJSWKM
+- 實際檢查秒點：2.5202、6.3005、10.0808
 - 播放區間：0 秒起，原片結尾
-- 可見內容：實際重新核對坐姿大腿固定、寬握槓向胸前下拉及回伸；50、56 秒可見下拉低點，非頸後下拉。
+- 可見內容：正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="seated-row"></a>
 ## 坐姿划船
 
-- ID：`seated-row`；內容修訂：4
-- 內容 SHA-256：`f2ce74b34389df7b5f5db104ee5f6307dd8b707d44d67d254c13f30873eeac67`
+- ID：`seated-row`；內容修訂：5
+- 內容 SHA-256：`249a21734653107a3a5ee7def591963096f932fda4a8f030f3d250eb1cb4fad7`
 - 唯一編輯來源：[JSON](../content/exercises/seated-row.json)
 - 指定版本：坐姿划船；本項起始設定：採窄握滑輪坐姿划船：坐穩，雙腳踩踏板、膝微彎，握住前方把手；本版本不使用胸墊。
 - 器材：坐姿划船機
@@ -2194,11 +2257,12 @@
 
 - [NASM 動作資料庫](https://www.nasm.org/resource-center/exercise-library/seated-machine-row-close-grip) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [PureGym：坐姿滑輪划船文字教學](https://www.puregym.com/exercises/back/rows/seated-cable-row/) — movement-specific；核對日期：2026-09-20；支持：腳踩踏板、無胸墊坐姿、把手拉向腹部、上臂後移、控制放回。僅採已讀的坐姿滑輪文字步驟；該頁嵌入描述誤列上斜啞鈴划船，不採作影片佐證。
+- [DeltaBolic：坐姿划船](https://www.youtube.com/shorts/qD1WZ5pSuvk) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。窄握滑輪、雙腳踏板、無胸墊坐姿，拉向腹部；原圖同支撐。
 
-- text：文字來源已核對。僅採已讀的坐姿滑輪文字步驟；該頁嵌入描述誤列上斜啞鈴划船，不採作影片佐證。；份量是本站起始參考，不是來源的個人化處方。
-- image：已視覺檢查（非專業認證）。窄握滑輪、雙腳踩踏板、無胸墊，拉向腰部並回程；10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：僅片段抽查。重新核對坐姿腳踏支撐、窄握把纜繩划船，手臂前伸後拉向軀幹，非胸靠墊版本。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[坐姿窄握滑輪划船](https://www.youtube.com/watch?v=k0cTJCfxa0Y)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。僅採已讀的坐姿滑輪文字步驟；該頁嵌入描述誤列上斜啞鈴划船，不採作影片佐證。；份量是本站起始參考，不是來源的個人化處方。；窄握滑輪、雙腳踏板、無胸墊坐姿，拉向腹部；原圖同支撐。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。窄握滑輪、雙腳踩踏板、無胸墊，拉向腰部並回程；10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；本次重新開啟原圖檢視：窄握滑輪、雙腳踏板、無胸墊坐姿，拉向腹部；原圖同支撐。
+- video：僅片段抽查。窄握滑輪、雙腳踏板、無胸墊坐姿，拉向腹部；原圖同支撐。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[坐姿划船姿勢短片](https://www.youtube.com/shorts/qD1WZ5pSuvk)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-seated-row-zh-tw.png`；SHA-256：`3e52a4a139690cee79faf83a92033c8624ec82645163391886f05abd27bfdc70`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -2210,18 +2274,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/k0cTJCfxa0Y
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/k0cTJCfxa0Y
-- 實際檢查秒點：3、6、10、13
+- 嵌入網址：https://www.youtube-nocookie.com/embed/qD1WZ5pSuvk
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/qD1WZ5pSuvk
+- 實際檢查秒點：1.6642、4.1605、6.6568
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新核對坐姿腳踏支撐、窄握把纜繩划船，手臂前伸後拉向軀幹，非胸靠墊版本。
+- 可見內容：窄握滑輪、雙腳踏板、無胸墊坐姿，拉向腹部；原圖同支撐。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="machine-shoulder-press"></a>
 ## 器械肩推
 
-- ID：`machine-shoulder-press`；內容修訂：6
-- 內容 SHA-256：`cb4ca038a34c2e8d86714a32b023867b18df4eb3b04686cc0f7ac9db523052dc`
+- ID：`machine-shoulder-press`；內容修訂：7
+- 內容 SHA-256：`2eec235e1cdff12513ae6ddc48823d716178722899addb985d47abdb971a9e5f`
 - 唯一編輯來源：[JSON](../content/exercises/machine-shoulder-press.json)
 - 指定版本：器械肩推；本項起始設定：調整座椅，使握把約在肩膀高度。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。
 - 器材：肩推機
@@ -2251,11 +2315,12 @@
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [ACE：器械坐姿肩推](https://www.acefitness.org/resources/everyone/exercise-library/186/seated-shoulder-press/) — movement-specific；核對日期：2026-09-20；支持：座椅高度使握把肩高、背靠穩與手腕中立、控制推起與回程。已閱讀 Step 1–3；不採離開靠背的進階變式，不強制壓低肩胛限制自然上轉。
 - [Life Fitness Circuit Series 操作手冊 PDF 第 5 頁](https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf) — movement-specific；核對日期：2026-09-20；支持：背靠墊、腳踩地、活動臂推高及控制回程。已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。
+- [DeltaBolic：器械肩推](https://www.youtube.com/shorts/6v4nrRVySj0) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。靠背肩推機、肩旁握把向上推；原圖另一機型同版本。
 
-- text：文字來源已核對。已對照原廠手冊第 5 頁文字與圖示：背靠墊、腳踩地、活動臂推高及控制回程。；同名器械可能不同構造；現場設定仍需依原廠圖示。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。
-- image：已視覺檢查（非專業認證）。對照原廠 Circuit Series 肩推示意，機臂向上轉動、握把肩側起始、背部支撐與放回一致；3 組 10 次相符。圖為該機型方向示意，不取代現場設定。；已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。
-- video：僅片段抽查。已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[器械肩推動作示範](https://www.youtube.com/watch?v=TnhIyp4kmO8)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照原廠手冊第 5 頁文字與圖示：背靠墊、腳踩地、活動臂推高及控制回程。；同名器械可能不同構造；現場設定仍需依原廠圖示。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。；靠背肩推機、肩旁握把向上推；原圖另一機型同版本。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。對照原廠 Circuit Series 肩推示意，機臂向上轉動、握把肩側起始、背部支撐與放回一致；3 組 10 次相符。圖為該機型方向示意，不取代現場設定。；已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。；本次重新開啟原圖檢視：靠背肩推機、肩旁握把向上推；原圖另一機型同版本。
+- video：僅片段抽查。靠背肩推機、肩旁握把向上推；原圖另一機型同版本。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[器械肩推姿勢短片](https://www.youtube.com/shorts/6v4nrRVySj0)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-machine-shoulder-press-v2-zh-tw.png`；SHA-256：`08b94aaa1c5c44c9b29a7a5915f00bec03a663820c51c0996a3c6c884e64db6e`
 - 原圖生成所依文字版本：8ebc8bee64eb2b58b017eab049b42de7aa2c427dd974dfef7874c7be0cbc2c8f，不得事後填成目前版本。
 
@@ -2272,18 +2337,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/TnhIyp4kmO8
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/TnhIyp4kmO8
-- 實際檢查秒點：9、19、25、29、31、33、35、37、40
+- 嵌入網址：https://www.youtube-nocookie.com/embed/6v4nrRVySj0
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/6v4nrRVySj0
+- 實際檢查秒點：2.0202、5.0505、8.0808
 - 播放區間：0 秒起，原片結尾
-- 可見內容：已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。
+- 可見內容：靠背肩推機、肩旁握把向上推；原圖另一機型同版本。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="leg-press"></a>
 ## 腿推
 
-- ID：`leg-press`；內容修訂：4
-- 內容 SHA-256：`02a821f63e6c71007b84e6c6780d02ca6d80a9972db7b1c40a651e25a2787907`
+- ID：`leg-press`；內容修訂：5
+- 內容 SHA-256：`53e1fbb60a133339d1a82eb7df857e5abb4fe8b853db9ea081c672d967347875`
 - 唯一編輯來源：[JSON](../content/exercises/leg-press.json)
 - 指定版本：45 度滑車腿推，頭背及骨盆貼靠、雙腳約肩寬；非水平坐姿版本。
 - 器材：腿推機
@@ -2313,11 +2378,12 @@
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [PureGym：45 度腿推](https://www.puregym.com/exercises/legs/quad-exercises/leg-presses/45-degree-leg-press/) — movement-specific；核對日期：2026-09-20；支持：頭背貼靠、雙腳踩穩、確認安全扣、控制膝髖彎曲、伸腿但不硬鎖。已讀 45 度滑車版本，與目前圖解一致；不把深度角度或解鎖方式套用所有機台。
+- [DeltaBolic：腿推](https://www.youtube.com/shorts/EotSw18oR9w) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。
 
-- text：文字來源已核對。已讀 45 度滑車版本，與目前圖解一致；不把深度角度或解鎖方式套用所有機台。；份量是本站起始參考，不是來源的個人化處方。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。
-- image：已視覺檢查（非專業認證）。45 度滑車版而非水平腿推；全腳掌支撐、控制下放、推回與重新扣上安全把手相符，10–15 次 3 組包含本站 12 次。槓片圖示不是建議重量。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。
-- video：僅片段抽查。已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[腿推動作示範](https://www.youtube.com/watch?v=q4W4_VJbKW0)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀 45 度滑車版本，與目前圖解一致；不把深度角度或解鎖方式套用所有機台。；份量是本站起始參考，不是來源的個人化處方。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。；斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。45 度滑車版而非水平腿推；全腳掌支撐、控制下放、推回與重新扣上安全把手相符，10–15 次 3 組包含本站 12 次。槓片圖示不是建議重量。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。；本次重新開啟原圖檢視：斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。
+- video：僅片段抽查。斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[腿推姿勢短片](https://www.youtube.com/shorts/EotSw18oR9w)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-leg-press-zh-tw.png`；SHA-256：`ab34798929fc94b10e7b49a071c702454980fa138bf9db9bf1259d389470e144`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -2329,18 +2395,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/q4W4_VJbKW0
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/q4W4_VJbKW0
-- 實際檢查秒點：2、4、5、6、8
+- 嵌入網址：https://www.youtube-nocookie.com/embed/EotSw18oR9w
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/EotSw18oR9w
+- 實際檢查秒點：2.2562、5.6405、9.0248
 - 播放區間：0 秒起，原片結尾
-- 可見內容：已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。
+- 可見內容：斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="leg-extension"></a>
 ## 腿屈伸
 
-- ID：`leg-extension`；內容修訂：6
-- 內容 SHA-256：`f6f82ad2eccebd8ae5fa674fdef358b05919050c77549d525527cb130f6dca9b`
+- ID：`leg-extension`；內容修訂：7
+- 內容 SHA-256：`d8a83b28e28dea29429603cca501cd41db075e1b7806c9db92a20063b82cb0d2`
 - 唯一編輯來源：[JSON](../content/exercises/leg-extension.json)
 - 指定版本：腿屈伸；本項起始設定：膝關節對齊機器轉軸，腳墊落在腳踝上方。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。
 - 器材：腿屈伸機
@@ -2369,11 +2435,12 @@
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [Life Fitness Circuit Series 操作手冊 PDF 第 2 頁](https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf) — movement-specific；核對日期：2026-09-20；支持：膝對旋轉軸、腿朝上、平順伸膝與回程。已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。
+- [DeltaBolic：腿屈伸](https://www.youtube.com/shorts/iQ92TuvBqRo) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。
 
-- text：文字來源已核對。已對照原廠手冊第 2 頁文字與圖示：膝對旋轉軸、腿朝上、平順伸膝與回程。；同名器械可能不同構造；現場設定仍需依原廠圖示。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。
-- image：已視覺檢查（非專業認證）。重新修正滾墊後，三格均在小腿前側近腳踝上方；槓桿連接與伸膝回程可辨，3 組 12 次相符。；原廠圖為機構參考，成圖為示意；座位與轉軸設定需依現場機型，非專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。
-- video：僅片段抽查。重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[大腿前側訓練機](https://www.youtube.com/watch?v=-jYITOdsRKk)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照原廠手冊第 2 頁文字與圖示：膝對旋轉軸、腿朝上、平順伸膝與回程。；同名器械可能不同構造；現場設定仍需依原廠圖示。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。；坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。重新修正滾墊後，三格均在小腿前側近腳踝上方；槓桿連接與伸膝回程可辨，3 組 12 次相符。；原廠圖為機構參考，成圖為示意；座位與轉軸設定需依現場機型，非專業動作認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。；本次重新開啟原圖檢視：坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。
+- video：僅片段抽查。坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[腿屈伸姿勢短片](https://www.youtube.com/shorts/iQ92TuvBqRo)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-leg-extension-v2-zh-tw.png`；SHA-256：`721147629fbef690d35d4614fd62accda831f897ea75e72a4f49570c89f52156`
 - 原圖生成所依文字版本：221b82a3173af85f0f02e8475ca9cb4dff4cafaf8c3e9a411bba7b255d1eb9c7，不得事後填成目前版本。
 
@@ -2390,18 +2457,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/-jYITOdsRKk
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/-jYITOdsRKk
-- 實際檢查秒點：8、35、41、45
+- 嵌入網址：https://www.youtube-nocookie.com/embed/iQ92TuvBqRo
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/iQ92TuvBqRo
+- 實際檢查秒點：2.1242、5.3105、8.4968
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。
+- 可見內容：坐姿伸膝、膝對轉軸、小腿前側滾墊；與原圖不同機型但同動作。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="leg-curl"></a>
 ## 坐姿腿彎舉
 
-- ID：`leg-curl`；內容修訂：6
-- 內容 SHA-256：`e3c2cf544f674142803ff19b617001562f7bc33e6e6c570b0a1c1f5405631e0a`
+- ID：`leg-curl`；內容修訂：7
+- 內容 SHA-256：`79c211c8ecfb2ebfd3d08fa95a39948fefd084ab05b7c193a42b92e5b87966ab`
 - 唯一編輯來源：[JSON](../content/exercises/leg-curl.json)
 - 指定版本：坐姿腿彎舉；本項起始設定：膝關節對齊機器轉軸，固定大腿墊。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。
 - 器材：腿彎舉機
@@ -2432,11 +2499,12 @@
 - [Life Fitness Circuit Series 原廠手冊，第 10 頁](https://www.lifefitness.com.au/wp-content/uploads/2015/02/Circuit_Manual_11_081a_1_27.pdf) — movement-specific；核對日期：2026-09-20；支持：坐姿腿彎舉的膝軸設定、向下向後彎曲及受控回程。只核對 TCLC 機型文字，不可外推所有廠牌；原圖前側滾墊與腿彎舉方向矛盾，已停用，仍需對照對應機型原廠圖。
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [Life Fitness Circuit Series 操作手冊 PDF 第 3 頁](https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf) — movement-specific；核對日期：2026-09-20；支持：大腿固定、膝對旋轉軸、滾墊向下後屈膝、回程與退出。已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。
+- [DeltaBolic：坐姿腿彎舉](https://www.youtube.com/shorts/xdbEG3xGLI8) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。
 
-- text：文字來源已核對。已對照原廠手冊第 3 頁文字與圖示：大腿固定、膝對旋轉軸、滾墊向下後屈膝、回程與退出。；同名器械可能不同構造；現場設定仍需依原廠圖示。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。
-- image：已視覺檢查（非專業認證）。本次修正後活動滾墊位於小腿後側：伸膝時在腿下、屈膝時在腿後；大腿固定、下屈和回程清楚，3 組 12 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。
-- video：僅片段抽查。重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[大腿後側訓練機](https://www.youtube.com/watch?v=NDy4XDe1Uz4)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照原廠手冊第 3 頁文字與圖示：大腿固定、膝對旋轉軸、滾墊向下後屈膝、回程與退出。；同名器械可能不同構造；現場設定仍需依原廠圖示。；影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。；SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。本次修正後活動滾墊位於小腿後側：伸膝時在腿下、屈膝時在腿後；大腿固定、下屈和回程清楚，3 組 12 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。；影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。；本次重新開啟原圖檢視：SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。
+- video：僅片段抽查。SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[坐姿腿彎舉姿勢短片](https://www.youtube.com/shorts/xdbEG3xGLI8)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-leg-curl-v2-zh-tw.png`；SHA-256：`1341a5f1167ac5d72f58a6dfde687a206200a0afe7753ef938ddd8906a7cc46c`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -2453,18 +2521,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4
-- 實際檢查秒點：7、15、22、27
+- 嵌入網址：https://www.youtube-nocookie.com/embed/xdbEG3xGLI8
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/xdbEG3xGLI8
+- 實際檢查秒點：3.6042、9.0105、14.4168
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。
+- 可見內容：SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="push-up"></a>
 ## 伏地挺身
 
-- ID：`push-up`；內容修訂：3
-- 內容 SHA-256：`705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186`
+- ID：`push-up`；內容修訂：4
+- 內容 SHA-256：`13fafc1311665c86b60c0c02462a88c1a3f1d487737196861a897b3f8960795d`
 - 唯一編輯來源：[JSON](../content/exercises/push-up.json)
 - 指定版本：標準地面伏地挺身，以雙手與腳尖支撐；非跪姿或上斜版。
 - 器材：徒手
@@ -2492,11 +2560,12 @@
 ### 證據與限制
 
 - [NASM 伏地挺身](https://www.nasm.org/resource-center/exercise-library/push-up) — movement-specific；核對日期：2026-09-20；支持：身體成線及上臂與軀幹方向。僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。
+- [DeltaBolic：伏地挺身](https://www.youtube.com/shorts/GHJgsTIW_bQ) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。
 
-- text：文字來源已核對。已對照原始來源：身體成線及上臂與軀幹方向。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。
-- image：已視覺檢查（非專業認證）。已查看四格：雙手與腳尖支撐、胸與骨盆同步下放及推回；視線朝地面，無原圖錯誤肘角標記；3 組 × 8 次與文字一致。；人工檢視可見畫面及文字，不代表醫療或生物力學認證。
-- video：僅片段抽查。可見地板雙手、腳尖支撐，屈肘下放與推回高位；選用單一動作短片，避免把其他退階說明當成同一版本。
-- 影片：[地板伏地挺身](https://www.youtube.com/watch?v=WDIpL0pjun0)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照原始來源：身體成線及上臂與軀幹方向。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。；手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。已查看四格：雙手與腳尖支撐、胸與骨盆同步下放及推回；視線朝地面，無原圖錯誤肘角標記；3 組 × 8 次與文字一致。；人工檢視可見畫面及文字，不代表醫療或生物力學認證。；本次重新開啟原圖檢視：手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。
+- video：僅片段抽查。手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[伏地挺身姿勢短片](https://www.youtube.com/shorts/GHJgsTIW_bQ)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-push-up-v2-zh-tw.png`；SHA-256：`19b9f258e456465b3186771994ad8f08aa17faa2f326905ed6f8f73fcccf4a2a`
 - 原圖生成所依文字版本：705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186，不得事後填成目前版本。
 
@@ -2515,18 +2584,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/WDIpL0pjun0
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/WDIpL0pjun0
-- 實際檢查秒點：5、10
+- 嵌入網址：https://www.youtube-nocookie.com/embed/GHJgsTIW_bQ
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/GHJgsTIW_bQ
+- 實際檢查秒點：6.3642、15.9105、25.4568
 - 播放區間：0 秒起，原片結尾
-- 可見內容：可見地板雙手、腳尖支撐，屈肘下放與推回高位；選用單一動作短片，避免把其他退階說明當成同一版本。
+- 可見內容：手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="front-plank"></a>
 ## 前臂棒式
 
-- ID：`front-plank`；內容修訂：6
-- 內容 SHA-256：`f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827`
+- ID：`front-plank`；內容修訂：7
+- 內容 SHA-256：`db58d0c25e3418d6307358aff1222c0f0e1a2c43732971b0b8c5a600b2404acd`
 - 唯一編輯來源：[JSON](../content/exercises/front-plank.json)
 - 指定版本：前臂棒式；本項起始設定：手肘位於肩膀正下方，雙腿向後伸直。
 - 器材：徒手
@@ -2555,11 +2624,12 @@
 
 - [ACE Exercise Library](https://www.acefitness.org/resources/everyone/exercise-library/32/front-plank/) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [ACE：前臂棒式](https://www.acefitness.org/resources/everyone/exercise-library/32/front-plank/) — movement-specific；核對日期：2026-09-20；支持：手肘在肩下、前臂支撐、軀幹腿部成線、避免塌腰抬臀、維持呼吸、控制回地面、腰痛即停止。核對三階段與停止條件；30 秒 × 3 組是本站起始參考，可提早結束，不以時間取代姿勢。
+- [DeltaBolic：前臂棒式](https://www.youtube.com/shorts/xe2MXatLTUw) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。
 
-- text：文字來源已核對。核對三階段與停止條件；30 秒 × 3 組是本站起始參考，可提早結束，不以時間取代姿勢。；已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。
-- image：已視覺檢查（非專業認證）。四格：前臂肩下定位、前臂與腳尖支撐、靜止保持、膝回地結束；3 組 × 30 秒。；已人工檢視可見畫面及文字，非醫療或生物力學認證。
-- video：僅片段抽查。重新核對前臂、腳尖支撐的棒式；10 秒準備跪姿，20 秒可見伸腿保持與肩肘對齊，非直臂高棒式。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[前臂棒式](https://www.youtube.com/watch?v=QpOgJLqeo14)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。核對三階段與停止條件；30 秒 × 3 組是本站起始參考，可提早結束，不以時間取代姿勢。；已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。；前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。四格：前臂肩下定位、前臂與腳尖支撐、靜止保持、膝回地結束；3 組 × 30 秒。；已人工檢視可見畫面及文字，非醫療或生物力學認證。；本次重新開啟原圖檢視：前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。
+- video：僅片段抽查。前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[前臂棒式姿勢短片](https://www.youtube.com/shorts/xe2MXatLTUw)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-front-plank-v2-zh-tw.png`；SHA-256：`553a6f349498c5424fd7e81b65040b3342dc6deae9275f2f9ebfde9a43b4fa48`
 - 原圖生成所依文字版本：f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827，不得事後填成目前版本。
 
@@ -2578,18 +2648,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/QpOgJLqeo14
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/QpOgJLqeo14
-- 實際檢查秒點：10、20
+- 嵌入網址：https://www.youtube-nocookie.com/embed/xe2MXatLTUw
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/xe2MXatLTUw
+- 實際檢查秒點：1.8442、4.6105、7.3768
 - 播放區間：0 秒起，原片結尾
-- 可見內容：重新核對前臂、腳尖支撐的棒式；10 秒準備跪姿，20 秒可見伸腿保持與肩肘對齊，非直臂高棒式。
+- 可見內容：前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="incline-dumbbell-press"></a>
 ## 上斜啞鈴胸推
 
-- ID：`incline-dumbbell-press`；內容修訂：5
-- 內容 SHA-256：`58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75`
+- ID：`incline-dumbbell-press`；內容修訂：6
+- 內容 SHA-256：`818cc32035d12bb0dc4b8c7bd26cb4095758721c3eae57852849c0fe2404f7a3`
 - 唯一編輯來源：[JSON](../content/exercises/incline-dumbbell-press.json)
 - 指定版本：上斜啞鈴胸推；本項起始設定：椅背調至約 30–45 度，雙腳踩穩。
 - 器材：啞鈴
@@ -2617,12 +2687,13 @@
 ### 證據與限制
 
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
-- [NASM：雙手上斜啞鈴胸推](https://www.nasm.org/resource-center/exercise-library/two-arm-incline-dumbbell-chest-press) — movement-specific；核對日期：2026-09-20；支持：上斜靠背、雙脚踩地、兩顆啞鈴同步推起、控制回到胸側。來源示範 45 度並提醒過陡會增加肩部主導；本站約 30–45 度、只降到舒適深度，不強迫固定深度。
+- [NASM：雙手上斜啞鈴胸推](https://www.nasm.org/resource-center/exercise-library/two-arm-incline-dumbbell-chest-press) — movement-specific；核對日期：2026-09-20；支持：上斜靠背、雙腳踩地、兩顆啞鈴同步推起、控制回到胸側。來源示範 45 度並提醒過陡會增加肩部主導；本站約 30–45 度、只降到舒適深度，不強迫固定深度。
+- [DeltaBolic：上斜啞鈴胸推](https://www.youtube.com/shorts/8fXfwG4ftaQ) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。
 
-- text：文字來源已核對。來源示範 45 度並提醒過陡會增加肩部主導；本站約 30–45 度、只降到舒適深度，不強迫固定深度。；預設組數及次數為本站一般起始參考，非來源個人化處方。
-- image：已視覺檢查（非專業認證）。重新檢視三格：低上斜椅背、頭背均有支撐，雙啞鈴由胸側上推再回程；3 組 10 次一致。圖像不能量測精確椅背角度，以文字 30–45 度及現場刻度為準。；圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。
-- video：僅片段抽查。重新核對 10–30 秒上斜長椅雙啞鈴推胸；後半為擴胸，不納入示範區間。；已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。
-- 影片：[上斜啞鈴胸推片段](https://www.youtube.com/watch?v=8IdQTpwJD-A&t=10s)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。來源示範 45 度並提醒過陡會增加肩部主導；本站約 30–45 度、只降到舒適深度，不強迫固定深度。；預設組數及次數為本站一般起始參考，非來源個人化處方。；斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。；本次逐項對照原文字及現有圖解，未改變既有課表份量。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。重新檢視三格：低上斜椅背、頭背均有支撐，雙啞鈴由胸側上推再回程；3 組 10 次一致。圖像不能量測精確椅背角度，以文字 30–45 度及現場刻度為準。；圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。；本次重新開啟原圖檢視：斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。
+- video：僅片段抽查。斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[上斜啞鈴胸推姿勢短片](https://www.youtube.com/shorts/8fXfwG4ftaQ)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-incline-dumbbell-press-v2-zh-tw.png`；SHA-256：`88985409c7c991a8cb4bf7f4b2b86c5868b8e04ea07215bdbad72964ce4c52f4`
 - 原圖生成所依文字版本：58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75，不得事後填成目前版本。
 
@@ -2639,18 +2710,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30
-- 實際檢查秒點：12、18、24、29
-- 播放區間：10 秒起，30 秒止
-- 可見內容：重新核對 10–30 秒上斜長椅雙啞鈴推胸；後半為擴胸，不納入示範區間。
+- 嵌入網址：https://www.youtube-nocookie.com/embed/8fXfwG4ftaQ
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/8fXfwG4ftaQ
+- 實際檢查秒點：2.3522、5.8805、9.4088
+- 播放區間：0 秒起，原片結尾
+- 可見內容：斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="dumbbell-lateral-raise"></a>
 ## 啞鈴側平舉
 
-- ID：`dumbbell-lateral-raise`；內容修訂：4
-- 內容 SHA-256：`08fdc27cd7328833b451e8d17ada02d7ee6d7eb3a5027a4848ba44b3a0d7ad0b`
+- ID：`dumbbell-lateral-raise`；內容修訂：5
+- 內容 SHA-256：`b8671450477ee3b2247412df39df793d52cc092bb79a4fff9b8a79c1633d9f64`
 - 唯一編輯來源：[JSON](../content/exercises/dumbbell-lateral-raise.json)
 - 指定版本：啞鈴側平舉；本項起始設定：啞鈴放在身體兩側，手肘保持微彎。
 - 器材：啞鈴
@@ -2679,11 +2750,12 @@
 
 - [Mayo Clinic 肌力訓練原則](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [ACE：啞鈴側平舉](https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/) — movement-specific；核對日期：2026-09-20；支持：肘微彎、軀幹穩定、抬到肩高、緩慢回程與手腕中立。已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。
+- [DeltaBolic：啞鈴側平舉](https://www.youtube.com/shorts/Kl3LEzQ5Zqs) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。站姿微彎肘側平舉；原圖控制到肩高、不甩動。
 
-- text：文字來源已核對。已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
-- image：已視覺檢查（非專業認證）。微屈肘向斜前外側抬至肩高，再控制下放；非前平舉過頭，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
-- video：僅片段抽查。95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
-- 影片：[啞鈴側平舉教學](https://www.youtube.com/watch?v=vR5fCLCTNq4&t=95s)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。；站姿微彎肘側平舉；原圖控制到肩高、不甩動。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。微屈肘向斜前外側抬至肩高，再控制下放；非前平舉過頭，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。；本次重新開啟原圖檢視：站姿微彎肘側平舉；原圖控制到肩高、不甩動。
+- video：僅片段抽查。站姿微彎肘側平舉；原圖控制到肩高、不甩動。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[啞鈴側平舉姿勢短片](https://www.youtube.com/shorts/Kl3LEzQ5Zqs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-lateral-raise-zh-tw.png`；SHA-256：`0f772fe35d3a10e67b54e879892f641c9e7892314dd8817428dcadd9ec6e1320`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -2695,11 +2767,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183
-- 實際檢查秒點：95、108、128、150、170、182
-- 播放區間：95 秒起，183 秒止
-- 可見內容：95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。
+- 嵌入網址：https://www.youtube-nocookie.com/embed/Kl3LEzQ5Zqs
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/Kl3LEzQ5Zqs
+- 實際檢查秒點：1.5162、3.7905、6.0648
+- 播放區間：0 秒起，原片結尾
+- 可見內容：站姿微彎肘側平舉；原圖控制到肩高、不甩動。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="romanian-deadlift"></a>
@@ -2889,8 +2961,8 @@
 <a id="cable-face-pull"></a>
 ## 滑輪臉拉
 
-- ID：`cable-face-pull`；內容修訂：3
-- 內容 SHA-256：`24712598a4fab26c0a8a7b9dcf5c4326df285d68bcc187b7d7d9132e1a0e56aa`
+- ID：`cable-face-pull`；內容修訂：4
+- 內容 SHA-256：`7348f859bdb90fd0a29db31504891b7f482d766b4052682ae0ed630ab73891d6`
 - 唯一編輯來源：[JSON](../content/exercises/cable-face-pull.json)
 - 指定版本：滑輪臉拉；本項起始設定：滑輪調至臉部高度，雙手握住繩索。
 - 器材：滑輪機
@@ -2918,11 +2990,12 @@
 ### 證據與限制
 
 - [NASM 動作資料庫](https://www.nasm.org/resource-center/exercise-library/face-pull) — movement-specific；核對日期：2026-09-20；支持：繩索設定約眼高、向臉拉與受控回送、避免聳肩或借力。支持主要路徑；手肘高度與肩部活動範圍依可控制且舒適為準，不宣稱矯正姿勢或治療。
+- [DeltaBolic：滑輪臉拉](https://www.youtube.com/shorts/IeOqdw9WI90) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。
 
-- text：文字來源已核對。已核對原始來源支持：繩索設定約眼高、向臉拉與受控回送、避免聳肩或借力。支持主要路徑；手肘高度與肩部活動範圍依可控制且舒適為準，不宣稱矯正姿勢或治療。；本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。
-- image：已視覺檢查（非專業認證）。繩索拉到臉旁、肘向外後方、軀幹穩定可見，10–15 次 × 3 組包含預設；未見同一圖內動作矛盾。；已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。
-- video：僅片段抽查。可見站姿將高位繩索拉向面部並分開雙手，取代原本滑輪飛鳥影片。
-- 影片：[滑輪繩索臉拉](https://www.youtube.com/watch?v=eTCBSFlCJ_s)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已核對原始來源支持：繩索設定約眼高、向臉拉與受控回送、避免聳肩或借力。支持主要路徑；手肘高度與肩部活動範圍依可控制且舒適為準，不宣稱矯正姿勢或治療。；本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。；站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。繩索拉到臉旁、肘向外後方、軀幹穩定可見，10–15 次 × 3 組包含預設；未見同一圖內動作矛盾。；已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。；本次重新開啟原圖檢視：站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。
+- video：僅片段抽查。站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[滑輪臉拉姿勢短片](https://www.youtube.com/shorts/IeOqdw9WI90)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-cable-face-pull-zh-tw.png`；SHA-256：`beab92b1f589b71dc87d286e997ef1b7417afbd0774ffd626bf5d43abbcbc03f`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -2934,11 +3007,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s
-- 實際檢查秒點：7、16
+- 嵌入網址：https://www.youtube-nocookie.com/embed/IeOqdw9WI90
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/IeOqdw9WI90
+- 實際檢查秒點：2.0642、5.1605、8.2568
 - 播放區間：0 秒起，原片結尾
-- 可見內容：可見站姿將高位繩索拉向面部並分開雙手，取代原本滑輪飛鳥影片。
+- 可見內容：站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="assisted-pull-up"></a>
@@ -3008,8 +3081,8 @@
 <a id="machine-hip-thrust"></a>
 ## 臀推機臀推
 
-- ID：`machine-hip-thrust`；內容修訂：4
-- 內容 SHA-256：`34dbfd10a54abab02c88413ff799976180fa0959c2f9a2029781815348f104a5`
+- ID：`machine-hip-thrust`；內容修訂：5
+- 內容 SHA-256：`6fb6723b650dcdfb7c128d505a3f3fcadaa3a5b1fd05d67eaad908e21700eff3`
 - 唯一編輯來源：[JSON](../content/exercises/machine-hip-thrust.json)
 - 指定版本：臀推機臀推；本項起始設定：上背靠穩墊面，髖墊置於骨盆前側。
 - 器材：臀推機
@@ -3040,11 +3113,12 @@
 - [Mayo Clinic 肌力訓練原則](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [Hussle：臀推機動作教學](https://www.hussle.com/blog/how-to-use-a-hip-thrust-machine-for-optimal-gains/) — movement-specific；核對日期：2026-09-20；支持：上背靠墊、骨盆前側墊帶、腳掌推地、肩髖膝約成線、頸部隨軀幹與控制回程。已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。
 - [Hammer Strength：Glute Drive 原廠設備](https://www.lifefitness.com/en-us/catalog/strength-training/plate-loaded/hammer-strength-plate-loaded-glute-drive) — movement-specific；核對日期：2026-09-20；支持：上背支撐墊、腳踏平台、腰髖墊帶結構。原廠產品說明，不當成完整上下機手冊；圖解亦不宣稱精確復刻此型號。
+- [DeltaBolic：臀推機臀推](https://www.youtube.com/shorts/sxOrVuCvWq4) — movement-specific；核對日期：2026-09-21；支持：支撐與器材版本、動作路徑與正誤對照。臀推機、上背支撐、骨盆前墊、雙腳踏板，伸髖不拗腰；原圖同類，按機型卸載解扣。
 
-- text：文字來源已核對。已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
-- image：已視覺檢查（非專業認證）。可見上背靠墊、骨盆前方護墊、腳踩平台與伸髖回程；10–15 次 3 組包含本站 10 次。退出／卸载需配合旁邊文字，圖非機台操作手冊。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
-- video：僅片段抽查。Matrix臀推機坐入、上背支撐、骨盆前方墊臂、踏板位置；62秒伸髖、68秒下降、75及82秒說明呼吸。為臀推機而非槓鈴臀推；卸載鎖扣仍依機身說明。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
-- 影片：[臀推機器材教學](https://www.youtube.com/watch?v=YQiVUH3aXkU)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。；臀推機、上背支撐、骨盆前墊、雙腳踏板，伸髖不拗腰；原圖同類，按機型卸載解扣。；本次逐項對照原文字及現有圖解，未改變既有課表份量。
+- image：已視覺檢查（非專業認證）。可見上背靠墊、骨盆前方護墊、腳踩平台與伸髖回程；10–15 次 3 組包含本站 10 次。退出／卸载需配合旁邊文字，圖非機台操作手冊。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。；本次重新開啟原圖檢視：臀推機、上背支撐、骨盆前墊、雙腳踏板，伸髖不拗腰；原圖同類，按機型卸載解扣。
+- video：僅片段抽查。臀推機、上背支撐、骨盆前墊、雙腳踏板，伸髖不拗腰；原圖同類，按機型卸載解扣。；已實際播放並檢視所列秒點；未宣稱逐秒完整審片。
+- 影片：[臀推機臀推姿勢短片](https://www.youtube.com/shorts/sxOrVuCvWq4)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-machine-hip-thrust-zh-tw.png`；SHA-256：`b545e4dffc7ebcd121bf37cb4698cf569c5c50953bc24b1c3a62f3b371c17363`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -3056,11 +3130,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/YQiVUH3aXkU
-- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/YQiVUH3aXkU
-- 實際檢查秒點：5、15、25、35、45、55、62、68、75、82
+- 嵌入網址：https://www.youtube-nocookie.com/embed/sxOrVuCvWq4
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/sxOrVuCvWq4
+- 實際檢查秒點：2.3922、5.9805、9.5688
 - 播放區間：0 秒起，原片結尾
-- 可見內容：Matrix臀推機坐入、上背支撐、骨盆前方墊臂、踏板位置；62秒伸髖、68秒下降、75及82秒說明呼吸。為臀推機而非槓鈴臀推；卸載鎖扣仍依機身說明。
+- 可見內容：臀推機、上背支撐、骨盆前墊、雙腳踏板，伸髖不拗腰；原圖同類，按機型卸載解扣。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="hack-squat"></a>
@@ -4555,4 +4629,3238 @@
 - 實際檢查秒點：300、330、345
 - 播放區間：300 秒起，350 秒止
 - 可見內容：重新核對四足跪姿準備、單手穿過支撐手下方，肩側靠墊保持及換側；不必強壓肩膀觸地。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="smith-bench-press"></a>
+## 史密斯平板胸推
+
+- ID：`smith-bench-press`；內容修訂：1
+- 內容 SHA-256：`9509be162cfdcae1e2e1fe56642094ee6acfceaf0d7cc1990454076c2d9a04fe`
+- 唯一編輯來源：[JSON](../content/exercises/smith-bench-press.json)
+- 指定版本：平板椅、正握、雙腳踩地的史密斯胸推；非上斜或自由槓臥推。
+- 器材：史密斯機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 依現場機台指示調整平板椅與安全擋，空槓確認下放位置在胸部上方；不熟悉解鎖、掛回方式時先請教練協助。
+2. 頭、肩與臀部貼穩椅面，雙腳踩實；雙手完整握住槓，手腕與前臂對齊，再依機台方式解鎖。
+3. 緩慢屈肘下放至胸部附近且肩部舒服的位置，不碰撞胸口、不讓手肘橫向張開成一直線。
+4. 平順推回起點，不聳肩或抬臀；結束依機台指示掛回，確認槓已固定再鬆手。
+
+### 重點與停止條件
+
+- 安全擋與椅位先確認
+- 前臂支撐槓，手腕不向後折
+- 保持頭、肩、臀與雙腳支撐
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：史密斯平板胸推](https://www.youtube.com/shorts/XFYMLdlaq04) — movement-specific；核對日期：2026-09-21；支持：平板椅與雙腳支撐、手腕前臂對齊、肩部穩定與推回。2.316、5.791 秒可見肩部與手腕姿勢重點，9.265 秒可見平板椅、雙腳踩地及固定軌道胸推；機台解鎖操作須依現場說明，不從影片推定。
+
+- text：文字來源已核對。2.316、5.791 秒可見肩部與手腕姿勢重點，9.265 秒可見平板椅、雙腳踩地及固定軌道胸推；機台解鎖操作須依現場說明，不從影片推定。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。重製正側面，頭肩臀與双腳支撐可見；起始伸肘、下放屈肘及回程清楚，槓在胸部附近而非臉部；2 組 10 次、繁中與無標語一致。器械為一般結構示意，現場軌道及掛鉤操作不能由圖推定。；視覺檢查非生物力學量測或專業認證。
+- video：僅片段抽查。2.316、5.791 秒可見肩部與手腕姿勢重點，9.265 秒可見平板椅、雙腳踩地及固定軌道胸推；機台解鎖操作須依現場說明，不從影片推定。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[史密斯平板胸推短片示範](https://www.youtube.com/shorts/XFYMLdlaq04)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-smith-bench-press-zh-tw.png`；SHA-256：`47180ab7c17a9fe2749743003bf0a0deae018207b57f947ac8b7f94cae2c6a7b`
+- 原圖生成所依文字版本：cc54c77dc2b424b3e7e60141d24597c06e3f95a44727dc25d095c1114ef9ba6d，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定嚴格正側面：頭在畫面左側、腳在右側，身體水平躺平；槓與導軌在胸骨位置，不在頭頸上方。
+
+1. **準備支撐**：Adult reference woman supine on a FLAT horizontal bench inside Smith machine with vertical guides. Feet flat, head shoulders butt on bench, hands pronated closed grip slightly wider than shoulders; bar above chest, elbows naturally extended. Visible safety stops below bottom position. STRICT LATERAL PROFILE facing camera perpendicular to body's longitudinal axis, head on LEFT and feet on RIGHT. FLAT HORIZONTAL bench. Entire back of head rests on pad with face pointing straight UP, eyes to ceiling. Bar viewed almost end-on over MIDDLE OF CHEST/STERNUM to RIGHT of head, never over face, eyes or neck. Bench horizontal; visible vertical rail aligned mid-sternum.
+   - 圖中文字：平板椅與安全擋先確認，雙腳踩穩。
+2. **控制下放**：Same fixed side-three-quarter camera. Bar travels straight down guides to just above chest, elbows flexed below wrists and angled comfortably away from ribs, not flared 90 degrees. Head shoulders butt and feet unmoved; neutral neck eyes upward. STRICT LATERAL PROFILE facing camera perpendicular to body's longitudinal axis, head on LEFT and feet on RIGHT. FLAT HORIZONTAL bench. Entire back of head rests on pad with face pointing straight UP, eyes to ceiling. Bar viewed almost end-on over MIDDLE OF CHEST/STERNUM to RIGHT of head, never over face, eyes or neck. Bench horizontal; visible vertical rail aligned mid-sternum.
+   - 圖中文字：槓緩慢靠近胸部，手腕與前臂對齊。
+3. **平順推回**：Same supported posture, bar travels back up fixed rails above chest, elbows extended naturally not hyperextended, shoulders not shrugged, butt remains down. STRICT LATERAL PROFILE facing camera perpendicular to body's longitudinal axis, head on LEFT and feet on RIGHT. FLAT HORIZONTAL bench. Entire back of head rests on pad with face pointing straight UP, eyes to ceiling. Bar viewed almost end-on over MIDDLE OF CHEST/STERNUM to RIGHT of head, never over face, eyes or neck. Bench horizontal; visible vertical rail aligned mid-sternum.
+   - 圖中文字：不抬臀借力，推回後依機台指示掛回。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/XFYMLdlaq04
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/XFYMLdlaq04
+- 實際檢查秒點：2.3162、5.7905、9.2648
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.316、5.791 秒可見肩部與手腕姿勢重點，9.265 秒可見平板椅、雙腳踩地及固定軌道胸推；機台解鎖操作須依現場說明，不從影片推定。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="smith-incline-press"></a>
+## 史密斯上斜胸推
+
+- ID：`smith-incline-press`；內容修訂：1
+- 內容 SHA-256：`602a220543006ea069819b201d074fceb1d724d15bdd863ca73105adfe207d67`
+- 唯一編輯來源：[JSON](../content/exercises/smith-incline-press.json)
+- 指定版本：約 30–45 度上斜椅、正握史密斯胸推；不是直立肩推。
+- 器材：史密斯機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 將穩固上斜椅放在史密斯機內，椅背約 30–45 度；空槓確認軌跡落在上胸附近，安全擋及解鎖方式依現場機台確認。
+2. 背、頭與臀部貼穩椅面，雙腳踩地，完整正握槓；手腕在手肘上方。
+3. 屈肘控制下放至上胸附近、肩部舒服的位置，不彈胸、不抬肩追槓。
+4. 沿軌道推回起點，維持軀幹支撐；結束確認掛回固定後再起身。
+
+### 重點與停止條件
+
+- 上斜椅不是直立椅
+- 手腕與前臂對齊
+- 不要拱腰或抬臀追重量
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：史密斯上斜胸推](https://www.youtube.com/shorts/VXaBbUYMfIs) — movement-specific；核對日期：2026-09-21；支持：上斜椅支撐、手腕對齊、肩膀下沉與上斜推舉。2.604 秒手腕對齊、6.511 秒肩部位置、10.417 秒上斜椅胸推；未由短片推定某品牌解鎖結構。
+
+- text：文字來源已核對。2.604 秒手腕對齊、6.511 秒肩部位置、10.417 秒上斜椅胸推；未由短片推定某品牌解鎖結構。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。逐格對照上斜椅、雙腳與背部支撐、固定軌道胸推；下放停在上胸前方，沒有示範彈胸。三格份量與文字一致，使用自然視線。；視覺檢查非生物力學量測或專業認證。
+- video：僅片段抽查。2.604 秒手腕對齊、6.511 秒肩部位置、10.417 秒上斜椅胸推；未由短片推定某品牌解鎖結構。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[史密斯上斜胸推短片示範](https://www.youtube.com/shorts/VXaBbUYMfIs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-smith-incline-press-zh-tw.png`；SHA-256：`f462282637ae2226dc34ad0fa95f46abebf08621c335d84ed90d069b9fad32d2`
+- 原圖生成所依文字版本：82b80641e9e4fda71eb8cd194d3a5bd0a485a402f9a1e7fd5084d07845f9d9db，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定斜側面，完整上斜椅、雙腳、史密斯導軌與安全擋可見。
+
+1. **上斜支撐**：Reference woman reclines on 35 degree incline bench inside Smith machine, head back butt supported, both feet flat. Pronated closed grip on fixed rail bar above upper chest with elbows naturally extended, gaze follows head upward.
+   - 圖中文字：椅背約 30–45 度，背與雙腳穩定。
+2. **屈肘下放**：Same fixed camera and incline bench, lower Smith bar near upper chest along rails, forearms stacked under bar, shoulders not shrugged, elbows comfortably angled below wrists. No lumbar arch exaggeration.
+   - 圖中文字：控制降到上胸附近，不彈胸。
+3. **推回起點**：Extend elbows returning Smith bar above upper chest along fixed rails. All bench and floor contacts maintained, head naturally aligned, shoulders stable.
+   - 圖中文字：平順推回，結束先確認掛回固定。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/VXaBbUYMfIs
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/VXaBbUYMfIs
+- 實際檢查秒點：2.6042、6.5105、10.4168
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.604 秒手腕對齊、6.511 秒肩部位置、10.417 秒上斜椅胸推；未由短片推定某品牌解鎖結構。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="incline-barbell-press"></a>
+## 上斜槓鈴臥推
+
+- ID：`incline-barbell-press`；內容修訂：1
+- 內容 SHA-256：`f24642ee1ae2794a90de7dd10f4978fb6af3cf4c58b7975e0489884c58f85306`
+- 唯一編輯來源：[JSON](../content/exercises/incline-barbell-press.json)
+- 指定版本：約 30–45 度上斜椅的自由槓胸推，不是史密斯固定軌道。
+- 器材：槓鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 把上斜椅調到约 30–45 度並確認槓架、安全擋；先用空槓練習，需要時請人保護。
+2. 頭、肩、臀部貼椅，雙腳踩穩，雙手正握略寬於肩；移出槓至上胸上方。
+3. 保持手腕在手肘上方，控制屈肘把槓降到上胸附近；不撞胸、不強求碰胸。
+4. 將槓平順推回起點，不抬臀或過度拱腰；結束雙側穩定掛回，确认後才鬆手。
+
+### 重點與停止條件
+
+- 先設安全擋或請人保護
+- 槓鈴兩端保持穩定
+- 肩部舒服的範圍內下放
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 90 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：上斜槓鈴臥推](https://www.youtube.com/shorts/98HWfiRonkE) — movement-specific；核對日期：2026-09-21；支持：上斜自由槓版本、手腕與手肘對齊、上胸附近下放。2.484、6.211、9.937 秒可見上斜自由槓、手腕與手肘對齊及上胸附近下放；片中也含紅色錯誤提示，不照抄錯誤姿勢。
+- [NASM：上斜槓鈴臥推](https://www.nasm.org/resource-center/exercise-library/incline-barbell-bench-press) — movement-specific；核對日期：2026-09-21；支持：上斜椅與雙腳支撐、穩定肩胛與控制下放、避免過度拱腰。NASM 示範 45 度；本站允許 30–45 度舒適角度，不宣稱單一角度對每個人最佳。
+
+- text：文字來源已核對。2.484、6.211、9.937 秒可見上斜自由槓、手腕與手肘對齊及上胸附近下放；片中也含紅色錯誤提示，不照抄錯誤姿勢。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。逐格可見自由槓而非導軌、上斜椅與安全擋、頭肩臀及雙腳支撐、屈肘下放與推回；2 組 10 次一致，沒有標語。下放不強求觸胸。；視覺檢查非生物力學量測或專業認證。
+- video：僅片段抽查。2.484、6.211、9.937 秒可見上斜自由槓、手腕與手肘對齊及上胸附近下放；片中也含紅色錯誤提示，不照抄錯誤姿勢。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[上斜槓鈴臥推短片示範](https://www.youtube.com/shorts/98HWfiRonkE)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-incline-barbell-press-zh-tw.png`；SHA-256：`704b0a1535b3ea7a97bda0140511480ae168314031beba60becdb9bbfcb511b5`
+- 原圖生成所依文字版本：f24642ee1ae2794a90de7dd10f4978fb6af3cf4c58b7975e0489884c58f85306，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定斜側面，完整上斜椅、雙腳及兩側保護槓架可見；自由槓沒有導軌。
+
+1. **建立支撐**：Woman reclined on 40 degree bench in free barbell rack with safety arms. Feet floor, head shoulders butt supported. Bar held over upper chest, pronated closed grip slightly wider than shoulders, elbows extended. No Smith guide rails.
+   - 圖中文字：上斜椅與安全擋先確認，雙腳踩穩。
+2. **控制下放**：Same incline free barbell setup, elbows bend while lowering horizontal bar close to upper chest, wrists over elbows, shoulders stable. Back contacts bench and neck neutral.
+   - 圖中文字：槓靠近上胸，手腕與前臂對齊。
+3. **推回穩定**：Same free barbell pushed upward to starting position, both ends level, natural extended elbows, no lifting butt or excessive lumbar arch.
+   - 圖中文字：平順推回，結束確認掛回再鬆手。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/98HWfiRonkE
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/98HWfiRonkE
+- 實際檢查秒點：2.4842、6.2105、9.9368
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.484、6.211、9.937 秒可見上斜自由槓、手腕與手肘對齊及上胸附近下放；片中也含紅色錯誤提示，不照抄錯誤姿勢。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-fly"></a>
+## 平板啞鈴飛鳥
+
+- ID：`dumbbell-fly`；內容修訂：1
+- 內容 SHA-256：`eabb5988be884c4d8b4d57ca34bdbbce4d0a597392f5b045d8fc9953a3e6e754`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-fly.json)
+- 指定版本：仰躺平板椅、兩顆啞鈴、掌心相對的飛鳥。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 拿兩顆輕啞鈴仰躺平板椅，頭、肩、臀部有支撐，雙腳踩地；需要時請人協助遞啞鈴。
+2. 把啞鈴放在胸部上方，掌心相對、手肘微彎，手腕保持穩定。
+3. 沿弧線慢慢向兩側打開，到上臂接近身體水平或更淺的舒服範圍；不要追求深拉伸。
+4. 維持手肘彎度，沿相同弧線合回胸部上方，不碰撞啞鈴；結束穩定收回再坐起。
+
+### 重點與停止條件
+
+- 使用比胸推更輕的重量
+- 手肘微彎，不變成大幅屈伸的胸推
+- 不讓手臂過度掉到椅面下方
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：平板啞鈴飛鳥](https://www.youtube.com/shorts/rk8YayRoTRQ) — movement-specific；核對日期：2026-09-21；支持：平板啞鈴飛鳥、微彎手肘與胸前合回、控制肩部活動範圍。2.180 秒肩膀過度打開的錯誤對照，5.451 秒手臂與啞鈴對齊，8.721 秒平板飛鳥合回；文字另對照 ACE 全部四步。
+- [ACE：平板啞鈴飛鳥](https://www.acefitness.org/resources/everyone/exercise-library/21/lying-chest-fly/) — movement-specific；核對日期：2026-09-21；支持：頭肩臀與雙腳支撐、微彎手肘與掌心相對、弧線下放與合回。文字步驟另以此來源交叉核對；不將一般起始份量當作來源處方。
+
+- text：文字來源已核對。2.180 秒肩膀過度打開的錯誤對照，5.451 秒手臂與啞鈴對齊，8.721 秒平板飛鳥合回；文字另對照 ACE 全部四步。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。三格為雙啞鈴胸前、兩側弧線打開及合回，平板椅、雙腳、頭肩臀支撐與微彎手肘可見；2 組 10 次、輕重量及不深拉文字一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.180 秒肩膀過度打開的錯誤對照，5.451 秒手臂與啞鈴對齊，8.721 秒平板飛鳥合回；文字另對照 ACE 全部四步。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[平板啞鈴飛鳥短片示範](https://www.youtube.com/shorts/rk8YayRoTRQ)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-fly-zh-tw.png`；SHA-256：`b02252ac9576c19315dd431e18a31d3712238cf29518fdc51474286d67a42192`
+- 原圖生成所依文字版本：eabb5988be884c4d8b4d57ca34bdbbce4d0a597392f5b045d8fc9953a3e6e754，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定斜上方全身視角，能看清兩側手臂開合、平板椅及踩地雙腳。
+
+1. **胸前準備**：Woman supine on flat bench, head shoulders butt supported, feet on floor. Two light dumbbells held over chest palms facing each other, elbows slightly bent. Eyes aligned head upward.
+   - 圖中文字：掌心相對，手肘保持微彎。
+2. **弧線打開**：Same camera. Arms open out to sides in wide arc with elbows gently bent at unchanged angle. Upper arms no lower than torso level. Dumbbells separated widely, wrists neutral, shoulders supported.
+   - 圖中文字：慢慢向兩側打開，不追求深拉伸。
+3. **合回胸前**：Dumbbells return in wide arc over chest, same elbow bend and neutral wrists. Do not collide weights, torso and feet stay supported.
+   - 圖中文字：沿弧線合回，不碰撞啞鈴。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/rk8YayRoTRQ
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/rk8YayRoTRQ
+- 實際檢查秒點：2.1802、5.4505、8.7208
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.180 秒肩膀過度打開的錯誤對照，5.451 秒手臂與啞鈴對齊，8.721 秒平板飛鳥合回；文字另對照 ACE 全部四步。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="high-to-low-cable-fly"></a>
+## 高到低滑輪飛鳥
+
+- ID：`high-to-low-cable-fly`；內容修訂：1
+- 內容 SHA-256：`538ef53097630f12acc3f0c295eb859b109aefd4485b8605280d070b59410b93`
+- 唯一編輯來源：[JSON](../content/exercises/high-to-low-cable-fly.json)
+- 指定版本：雙高位滑輪、站姿前後腳、輕微前傾的高到低飛鳥；不同於肩高水平飛鳥。
+- 器材：滑輪機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 兩側滑輪固定在高於肩的位置，輕重量各持一個握把，前後腳站穩，軀幹微向前傾。
+2. 手臂向兩側打開到肩部舒服範圍，手肘微彎；肩部放鬆，不向後硬拉。
+3. 維持手肘彎度，沿前下方弧線把握把帶到下胸至上腹前方；不用雙手交叉或碰撞。
+4. 控制回到起始開展位置，軀幹不前後搖晃；結束慢慢讓配重落穩再放下握把。
+
+### 重點與停止條件
+
+- 滑輪在高位，雙手往前下方合攏
+- 軀幹角度穩定，不用身體甩動
+- 肩部不適就停止
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：高到低滑輪飛鳥](https://www.youtube.com/shorts/I-Ue34qLxc4) — movement-specific；核對日期：2026-09-21；支持：高位滑輪與站姿、前下方合攏路徑、肩部穩定。2.308、5.771 秒含肩部位置對照，9.233 秒可見前後腳站姿、高位雙滑輪向前下方合攏。
+
+- text：文字來源已核對。2.308、5.771 秒含肩部位置對照，9.233 秒可見前後腳站姿、高位雙滑輪向前下方合攏。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。高位雙滑輪連到握把，前後腳站姿、前下方合攏及受控打開可見；沒有把高低路徑畫成肩高平推，份量與文字一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.308、5.771 秒含肩部位置對照，9.233 秒可見前後腳站姿、高位雙滑輪向前下方合攏。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[高到低滑輪飛鳥短片示範](https://www.youtube.com/shorts/I-Ue34qLxc4)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-high-to-low-cable-fly-zh-tw.png`；SHA-256：`9cf767b312a271f45f368a236fa55167f47fff38d1efce1da865d7450369dc4d`
+- 原圖生成所依文字版本：4db50b46f4eec253b66881c736ee4a09013618c37001c72231507149e61e8fad，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定前方略偏側，頭到腳及兩側高位滑輪、完整纜線可見。
+
+1. **站穩打開**：Woman in split stance between two cable towers. Pulleys clearly ABOVE shoulder height; each hand holds one handle. Slight stable forward torso lean, arms out to sides not behind torso, elbows slightly flexed, gaze forward along neck.
+   - 圖中文字：高位滑輪，前後腳站穩。
+2. **前下合攏**：Same setup. Both handles arc forward and DOWN to lower chest/upper abdomen in front of torso, nearly meeting without crossing. Cables diagonal from high outer pulleys to low inner hands. Elbow bend stays soft unchanged.
+   - 圖中文字：手肘微彎，往前下方合攏。
+3. **控制回程**：Arms reopen to comfortable starting span, controlled by chest, body angle and feet unchanged, no excessive shoulder extension or shrugged neck.
+   - 圖中文字：慢慢打開，不用身體甩動。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/I-Ue34qLxc4
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/I-Ue34qLxc4
+- 實際檢查秒點：2.3082、5.7705、9.2328
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.308、5.771 秒含肩部位置對照，9.233 秒可見前後腳站姿、高位雙滑輪向前下方合攏。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="seated-cable-chest-press"></a>
+## 坐姿滑輪胸推
+
+- ID：`seated-cable-chest-press`；內容修訂：1
+- 內容 SHA-256：`947fff44aab340ce665a25db0ddc913f401fb54d966d2c9a23781f47edf18470`
+- 唯一編輯來源：[JSON](../content/exercises/seated-cable-chest-press.json)
+- 指定版本：接近直立靠背椅、雙側滑輪從身後拉住握把的水平胸推；非上斜推或滑輪飛鳥。
+- 器材：滑輪機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 將穩固靠背椅置於雙滑輪之間，滑輪約胸部高度並位於身後；用輕重量確認纜線不磨擦手臂或椅面。
+2. 坐穩靠背，雙腳踩地，各握一個握把，握把在胸側、手腕在手肘前方。
+3. 向胸部前方平順推起，手肘逐漸伸直但不過伸；不把手臂改往頭頂推。
+4. 控制屈肘回到胸側，肩部舒服即可，不過度拉到身後；結束慢慢讓配重落穩。
+
+### 重點與停止條件
+
+- 靠背與雙腳支撐穩定
+- 本項向前推，不向頭頂推
+- 用屈伸手肘完成，不當作飛鳥
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：坐姿滑輪胸推](https://www.youtube.com/shorts/FHeLHhTth8w) — movement-specific；核對日期：2026-09-21；支持：坐姿靠背與雙腳、胸側到前方推舉、與後段上推區別。3.948 秒靠背與胸側屈肘，9.871、10–13 秒向前胸推與前視角示範，15.793 秒已改向上推。本項設定 0–12 秒，排除後段上推；機台纜線從身後胸高接至雙手。
+
+- text：文字來源已核對。3.948 秒靠背與胸側屈肘，9.871、10–13 秒向前胸推與前視角示範，15.793 秒已改向上推。本項設定 0–12 秒，排除後段上推；機台纜線從身後胸高接至雙手。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。三格靠背坐姿、雙腳踏地、雙手屈伸肘向前推及回程清楚；並未畫成上推或飛鳥；中文 2 組 10 次一致。；視覺檢查不等於生物力學量測或專業動作認證。；補齊播放器區間參數後，逐項確認分鏡與圖像未變；保留實際產圖時的內容雜湊。
+- video：僅片段抽查。3.948 秒靠背與胸側屈肘，9.871、10–13 秒向前胸推與前視角示範，15.793 秒已改向上推。本項設定 0–12 秒，排除後段上推；機台纜線從身後胸高接至雙手。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[坐姿滑輪胸推短片示範](https://www.youtube.com/shorts/FHeLHhTth8w)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-seated-cable-chest-press-zh-tw.png`；SHA-256：`3480c80aad3386eaed6eb90f26adbcf0837b1187da94f5d2037f5c1b96f7a8f1`
+- 原圖生成所依文字版本：e44bc24bf9afb6d102567169a8af7b2980ddaf7ad0e5b0741c9cbfaf7db877ae，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定斜側面，全身、靠背、雙腳及身後兩側滑輪可見。
+
+1. **胸側準備**：Woman seated against nearly upright 80 degree bench between cable towers behind her. Both feet flat. Each hand holds cable handle at chest side, elbows bent about90degrees, wrists neutral. Cables run back to shoulder/chest height pulleys without touching bench.
+   - 圖中文字：背靠穩、腳踩地，握把放胸側。
+2. **向前推起**：Same view. Elbows extend pressing handles straight forward at chest height, NOT diagonally overhead. Back and head supported, wrists neutral, shoulders not shrugged.
+   - 圖中文字：平順向前推，不往頭頂推。
+3. **緩慢回程**：Elbows bend returning handles to chest sides, upper arms stop near torso plane without excess rear extension. Maintain feet and back contact.
+   - 圖中文字：回到胸側，不把手肘拉得太後。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/FHeLHhTth8w?start=0&end=12
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/FHeLHhTth8w?start=0&end=12
+- 實際檢查秒點：3.9482、9.8705、10、11、12、13、15.7928
+- 播放區間：0 秒起，12 秒止
+- 可見內容：3.948 秒靠背與胸側屈肘，9.871、10–13 秒向前胸推與前視角示範，15.793 秒已改向上推。本項設定 0–12 秒，排除後段上推；機台纜線從身後胸高接至雙手。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="diamond-push-up"></a>
+## 鑽石伏地挺身
+
+- ID：`diamond-push-up`；內容修訂：1
+- 內容 SHA-256：`ee7f9e7439cd8dfecc3a13a26d7dec55aef1a1a78cfddf89a39f23d2679ef93c`
+- 唯一編輯來源：[JSON](../content/exercises/diamond-push-up.json)
+- 指定版本：腳尖支撐、雙手位於胸部下方附近的窄手位伏地挺身，非跪姿版本。
+- 器材：徒手
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 在止滑地面以手掌與腳尖支撐，雙手置於胸部下方附近，拇指與食指可形成菱形；手腕不舒服就改較寬手位或換動作。
+2. 收緊腹部，頭、軀幹與雙腿維持一線，視線朝地面前方，不抬頭看鏡頭。
+3. 屈肘慢慢下放，手肘朝後外側自然彎曲，不硬夾身體；胸部靠近手掌但不塌腰。
+4. 推地回到起點，肩與臀同步上升；完整下放與推回算一次。
+
+### 重點與停止條件
+
+- 窄手位不是把手放到臉前
+- 不塌腰、不抬臀先走
+- 手腕或肩肘不適即停止
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 6 次；組間休息 60 秒。先以徒手完成 4–6 次穩定動作；做不到時可選上斜伏地挺身，不勉強窄手位。
+
+### 證據與限制
+
+- [DeltaBolic：鑽石伏地挺身](https://www.youtube.com/shorts/PPTj-MW2tcs) — movement-specific；核對日期：2026-09-21；支持：手掌胸部高度、窄手位與手肘約45度、腳尖支撐全身直線。2.204 秒側面下放、5.511 秒俯視手肘向後外側、8.817 秒手位與胸部對齊；屬進階徒手動作，不加入家人入門課表。
+
+- text：文字來源已核對。2.204 秒側面下放、5.511 秒俯視手肘向後外側、8.817 秒手位與胸部對齊；屬進階徒手動作，不加入家人入門課表。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已對照窄手位近景、腳尖支撐、下放手肘向後外側與回程，頭頸自然朝地面；2 組 6 次正確、無標語。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.204 秒側面下放、5.511 秒俯視手肘向後外側、8.817 秒手位與胸部對齊；屬進階徒手動作，不加入家人入門課表。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[鑽石伏地挺身短片示範](https://www.youtube.com/shorts/PPTj-MW2tcs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-diamond-push-up-zh-tw.png`；SHA-256：`8cc3dcbc6fb93ad92c04309bf7dd8d745aa74a6499a7fc030353d18bace382b2`
+- 原圖生成所依文字版本：4fd68fc19995323e25665319a6e89739586e4fdb81145e3b94c1d818309cdb7a，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定斜側面略高，全身含兩手與雙腳可見，另以小型手位近景呈菱形；視線朝地板。
+
+1. **窄手支撐**：Adult woman in high plank on toes and hands. Hands close together directly under lower chest, thumbs and index fingers near a diamond; elbows extended naturally. Neutral head eyes to floor, body straight from head to heels. Both hands visible with optional small hand-position inset.
+   - 圖中文字：雙手靠近胸下，保持身體一直線。
+2. **控制下放**：Same camera and foot/hand position. Flex elbows backward-outward about45degrees, lower chest toward hands; body stays straight no lumbar sag, neck follows torso gaze to floor. Hands remain close under chest.
+   - 圖中文字：手肘自然向後外側，胸部慢慢下降。
+3. **推回起點**：Push against floor returning to straight-arm plank, shoulders and hips rise together, no head lift and no hips leading.
+   - 圖中文字：肩與臀同步推起，不塌腰。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/PPTj-MW2tcs
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/PPTj-MW2tcs
+- 實際檢查秒點：2.2042、5.5105、8.8168
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.204 秒側面下放、5.511 秒俯視手肘向後外側、8.817 秒手位與胸部對齊；屬進階徒手動作，不加入家人入門課表。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="pull-up"></a>
+## 徒手引體向上
+
+- ID：`pull-up`；內容修訂：1
+- 內容 SHA-256：`748ed8fd331c06b962648199b8918ef4a297f93ce85a25c2670ed59fd40fc2ba`
+- 唯一編輯來源：[JSON](../content/exercises/pull-up.json)
+- 指定版本：正握、略寬於肩、無機械輔助的引體向上；非反握或擺盪式。
+- 器材：單槓
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 確認單槓穩固，從安全踏台完整正握單槓，雙手略寬於肩；不跳抓不穩定的門框。
+2. 離開踏台後穩定軀幹，手臂伸長、肩部保有控制，雙腿不前後甩。
+3. 將手肘向下帶，拉身體靠近槓；以可控制高度為準，不伸脖子硬湊下巴過槓。
+4. 慢慢下放到手臂伸長的起點，肩部不猛然鬆掉；完成後踩回踏台再放手。
+
+### 重點與停止條件
+
+- 不踢腿或擺盪借力
+- 不伸脖子湊高度
+- 回程保持控制
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 5 次；組間休息 90 秒。先以徒手完成可控制的 3–5 次；做不到時改選輔助引體向上，不甩動硬拉。
+
+### 證據與限制
+
+- [DeltaBolic：徒手引體向上](https://www.youtube.com/shorts/eDP_OOhMTZ4) — movement-specific；核對日期：2026-09-21；支持：正握單槓、握距與肩胛控制、無輔助上拉。3.260 秒正握、8.151 秒握距與手臂伸長、13.041 秒上拉終點；無輔助踏板。
+
+- text：文字來源已核對。3.260 秒正握、8.151 秒握距與手臂伸長、13.041 秒上拉終點；無輔助踏板。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。後側三格中正握固定單槓、手臂伸長、屈肘上拉及控制回程清楚；腳未踩輔助墊，頭頸未向後仰，2 組 5 次一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。3.260 秒正握、8.151 秒握距與手臂伸長、13.041 秒上拉終點；無輔助踏板。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[徒手引體向上短片示範](https://www.youtube.com/shorts/eDP_OOhMTZ4)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-pull-up-zh-tw.png`；SHA-256：`6eebc5b9e4c9aba6b0a1713a595942cc4f8d361b465257d1e7826e0d585a2f58`
+- 原圖生成所依文字版本：748ed8fd331c06b962648199b8918ef4a297f93ce85a25c2670ed59fd40fc2ba，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定後側三分之四視角，全身及固定單槓可見，頭頸與軀幹對齊。
+
+1. **穩定懸垂**：Woman hangs from fixed pull-up bar with overhand closed grip slightly wider than shoulders; arms extended with active shoulder control, feet clear floor, knees softly bent. Camera rear-three-quarter, no assistance pad, no swinging.
+   - 圖中文字：正握單槓，身體不擺盪。
+2. **屈肘上拉**：Same rear angle, bend elbows downward toward ribs to raise torso near bar, chin approaches bar without craning neck, legs remain quiet, back and shoulders controlled.
+   - 圖中文字：手肘向下帶，不伸脖子硬湊高度。
+3. **緩慢下放**：Lower controlled to starting extended arms, same body alignment and grip; no sudden relaxed drop or swinging. Stable platform visible nearby for safe exit but not supporting knees.
+   - 圖中文字：慢慢回到起點，結束踩穩再放手。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/eDP_OOhMTZ4
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/eDP_OOhMTZ4
+- 實際檢查秒點：3.2602、8.1505、13.0408
+- 播放區間：0 秒起，原片結尾
+- 可見內容：3.260 秒正握、8.151 秒握距與手臂伸長、13.041 秒上拉終點；無輔助踏板。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="barbell-bent-over-row"></a>
+## 槓鈴俯身划船
+
+- ID：`barbell-bent-over-row`；內容修訂：1
+- 內容 SHA-256：`a7ea9fca9b1f3743cc898ca28f86138125de61e61a949eee71309d88e8ede4e3`
+- 唯一編輯來源：[JSON](../content/exercises/barbell-bent-over-row.json)
+- 指定版本：雙腳站穩、正握自由槓的俯身划船，沒有胸墊支撐。
+- 器材：槓鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙腳約髖寬，正握槓鈴略寬於肩；先把槓提起，再屈髖向後坐、膝微彎，讓背部保持自然線條。
+2. 維持可控制的俯身角度，手臂自然垂下，槓在膝下至小腿前方，視線沿軀幹朝地面。
+3. 手肘向後帶，把槓拉向下胸至上腹附近，不聳肩、不站起借力。
+4. 慢慢伸肘放回懸垂位置；結束保持控制把槓放回支架或以髖折方式落地。
+
+### 重點與停止條件
+
+- 俯身角度不隨每次大幅改變
+- 腹部穩定，不圓背追深度
+- 手腕自然，不用手腕捲槓
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：槓鈴俯身划船](https://www.youtube.com/shorts/phVtqawIgbk) — movement-specific；核對日期：2026-09-21；支持：俯身髖折、正握槓、手肘後拉與控制回程。2.468 秒髖折角度示範、6.171 秒手肘與手腕錯誤對照、9.873 秒正握划船起點。
+
+- text：文字來源已核對。2.468 秒髖折角度示範、6.171 秒手肘與手腕錯誤對照、9.873 秒正握划船起點。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；分鏡改用正向短句「軀幹保持穩定」，避免圖像漏字造成相反意思。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。逐格檢視：髖折俯身、軀幹固定、槓靠近腿向下腹拉；軀幹穩定文字已修正。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.468 秒髖折角度示範、6.171 秒手肘與手腕錯誤對照、9.873 秒正握划船起點。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[槓鈴俯身划船短片示範](https://www.youtube.com/shorts/phVtqawIgbk)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-barbell-bent-over-row-zh-tw.png`；SHA-256：`c435354bfbd3db332403e2d4fa0d6a134b5ba84f327d22021122556b856ce11f`
+- 原圖生成所依文字版本：ce433534a135be80acb74689befebb16ec5ce0fbca8689abbd4404d68cf730f8，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定側前方全身，槓鈴兩端與頭到腳可見。
+
+1. **俯身準備**：Woman stands hipwidth feet, knees soft, hips hinged back, torso about30degrees above horizontal, natural neutral spine and neck eyes floor. Pronated grip free barbell, arms hanging down below shoulders.
+   - 圖中文字：屈髖俯身，腹部穩定。
+2. **手肘向後**：Same torso angle, draw elbows backward pulling bar toward upper abdomen, wrists neutral, not standing upright, head still aligned with back.
+   - 圖中文字：槓拉向上腹，軀幹保持穩定。
+3. **控制放回**：Extend elbows lowering bar below shoulders with hips knees torso unmoved. Complete stable return, no round back.
+   - 圖中文字：慢慢伸肘回程，不甩動重量。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/phVtqawIgbk
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/phVtqawIgbk
+- 實際檢查秒點：2.4682、6.1705、9.8728
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.468 秒髖折角度示範、6.171 秒手肘與手腕錯誤對照、9.873 秒正握划船起點。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="landmine-row"></a>
+## 地雷管划船
+
+- ID：`landmine-row`；內容修訂：1
+- 內容 SHA-256：`dd6709183de452c75b76d84518e0705be9c7c130e8b7907b5f0ae9c148cbaeb3`
+- 唯一編輯來源：[JSON](../content/exercises/landmine-row.json)
+- 指定版本：一端固定於地雷管底座、雙腳跨槓、V 型窄握把的站姿俯身划船；不是胸靠 T 槓機。
+- 器材：地雷管
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 確認槓的一端固定在合格地雷管底座，配重端與窄握把牢固；不把槓隨意頂在牆角。
+2. 雙腳跨在槓兩側，屈髖、膝微彎，雙手握住配重片後方的 V 型握把；背部保持自然線條。
+3. 維持俯身角度，手肘往後拉，讓握把靠近腹部；配重不撞胸，肩膀不聳起。
+4. 沿槓的弧線慢慢伸肘放回，結束將配重穩定落地再鬆手。
+
+### 重點與停止條件
+
+- 先確認底座與握把固定
+- 不把胸靠器械當作同一種設定
+- 不站直甩起重量
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：地雷管划船](https://www.youtube.com/shorts/Sr2q7i-i8X0) — movement-specific；核對日期：2026-09-21；支持：跨槓站姿、固定端與窄握把、手肘貼近軀幹後拉。2.928 秒跨槓髖折與膝位，7.321 秒窄握把拉向腹部，11.713 秒放回；無胸靠墊。
+
+- text：文字來源已核對。2.928 秒跨槓髖折與膝位，7.321 秒窄握把拉向腹部，11.713 秒放回；無胸靠墊。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。固定端底座、跨槓雙脚、雙手窄握把与配重端弧線清楚；俯身、屈肘後拉與放回相符，並非胸靠器械。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.928 秒跨槓髖折與膝位，7.321 秒窄握把拉向腹部，11.713 秒放回；無胸靠墊。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[地雷管划船短片示範](https://www.youtube.com/shorts/Sr2q7i-i8X0)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-landmine-row-zh-tw.png`；SHA-256：`fd46deaf146cce8a94b8107c26a975425153a6d02ebe0379a7dbc037f51fa685`
+- 原圖生成所依文字版本：dd6709183de452c75b76d84518e0705be9c7c130e8b7907b5f0ae9c148cbaeb3，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，全身、跨槓、V 握把及遠端固定座可見。
+
+1. **跨槓俯身**：Woman straddles a barbell whose rear end is secured in a real landmine pivot behind her. Plates at front end. V handle attached under bar just behind plates held with both hands neutral grip. Hip hinge neutral spine bent knees, arms extended.
+   - 圖中文字：固定底座，跨槓站穩再俯身。
+2. **拉向腹部**：Same landmine arrangement, elbows draw back bringing V handle toward abdomen, plate end lifts in arc but never hits chest. Torso held steady, head neutral gaze downforward.
+   - 圖中文字：手肘向後拉，軀幹維持穩定。
+3. **緩慢回程**：Extend elbows and lower loaded end along pivot arc to start, torso and feet same, no back rounding.
+   - 圖中文字：沿弧線放回，不甩起重量。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/Sr2q7i-i8X0
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/Sr2q7i-i8X0
+- 實際檢查秒點：2.9282、7.3205、11.7128
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.928 秒跨槓髖折與膝位，7.321 秒窄握把拉向腹部，11.713 秒放回；無胸靠墊。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="straight-arm-pulldown"></a>
+## 滑輪直臂下拉
+
+- ID：`straight-arm-pulldown`；內容修訂：1
+- 內容 SHA-256：`b1fa9b2800bab150e1e2f70a3f02f7541540ce76e3509d5ba6727450183cc6b3`
+- 唯一編輯來源：[JSON](../content/exercises/straight-arm-pulldown.json)
+- 指定版本：站姿面向高位滑輪、雙手持直桿的直臂下拉；不是屈肘高位下拉。
+- 器材：滑輪機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 高位滑輪裝好直桿，雙手完整正握約肩寬，向後退到纜線有空間；膝微彎、軀幹稍前傾。
+2. 手臂向前上方伸長至肩部舒服範圍，手肘維持小幅彎曲，腹部穩定。
+3. 保持手肘角度，把直桿沿弧線拉向大腿前方；不要彎肘拉成划船，也不要拱腰下壓。
+4. 慢慢讓手臂回到前上方，肩膀不聳起；結束控制配重落穩。
+
+### 重點與停止條件
+
+- 手肘微彎，但不反覆大幅屈伸
+- 肋骨不要向前翻
+- 直桿只到大腿前方，不硬拉身後
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：滑輪直臂下拉](https://www.youtube.com/shorts/hAMcfubonDc) — movement-specific；核對日期：2026-09-21；支持：高位直桿、伸臂至前上方、拉向大腿且軀幹穩定。1.920 秒握法對照、4.801 秒手臂前上伸長、7.681 秒直桿拉至大腿前；雙腳站穩。
+
+- text：文字來源已核對。1.920 秒握法對照、4.801 秒手臂前上伸長、7.681 秒直桿拉至大腿前；雙腳站穩。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。高位滑輪、直桿、站姿與軟膝支撐一致；手臂前上、拉向大腿及回程可辨，沒有把動作畫成屈肘高位下拉。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。1.920 秒握法對照、4.801 秒手臂前上伸長、7.681 秒直桿拉至大腿前；雙腳站穩。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[滑輪直臂下拉短片示範](https://www.youtube.com/shorts/hAMcfubonDc)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-straight-arm-pulldown-zh-tw.png`；SHA-256：`a356a86e8dd955d7a2b429b1dec4a3cc540f898ab7921b66708bd9faa0b404b5`
+- 原圖生成所依文字版本：b1fa9b2800bab150e1e2f70a3f02f7541540ce76e3509d5ba6727450183cc6b3，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側面略偏前，全身、直桿及高位滑輪纜線可見。
+
+1. **前上準備**：Woman faces cable tower with high pulley and straight bar, slight hip hinge and soft knees. Both hands pronated shoulderwidth hold bar with arms extended forward/upward at comfortable shoulder height to eye level. Elbows slightly bent, neutral neck gaze along head.
+   - 圖中文字：雙手正握，手肘保持微彎。
+2. **弧線下拉**：Same fixed posture, sweep nearly straight arms down at shoulders to bar in front of thighs, keep slight elbow bend constant, no back arch or shrug.
+   - 圖中文字：直桿拉到大腿前，不拱腰。
+3. **控制回程**：Return bar forward/up along arc while torso angle stays fixed and arms lengthen, cable taut from high pulley, no large elbow bending.
+   - 圖中文字：慢慢回到前上方，軀幹不晃動。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/hAMcfubonDc
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/hAMcfubonDc
+- 實際檢查秒點：1.9202、4.8005、7.6808
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1.920 秒握法對照、4.801 秒手臂前上伸長、7.681 秒直桿拉至大腿前；雙腳站穩。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="chest-supported-dumbbell-row"></a>
+## 胸靠啞鈴划船
+
+- ID：`chest-supported-dumbbell-row`；內容修訂：1
+- 內容 SHA-256：`f0357762967c234c435329c3613099cdb26450400273c361fa2a1de3629e4f48`
+- 唯一編輯來源：[JSON](../content/exercises/chest-supported-dumbbell-row.json)
+- 指定版本：面向约 30–45 度上斜椅、胸部貼墊、兩顆啞鈴掌心相對的划船。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 將上斜椅固定在約 30–45 度，胸腹靠穩椅背，雙腳踩地；頭頸在椅面上緣外自然延伸。
+2. 雙手各持一顆輕啞鈴，掌心相對，手臂自然垂下；不要讓啞鈴撞椅腳。
+3. 手肘往後帶，將啞鈴拉近身體兩側，胸部仍留在椅墊，不抬胸甩重。
+4. 慢慢伸肘放回，肩部保持控制；結束把啞鈴放穩後再離開椅面。
+
+### 重點與停止條件
+
+- 胸部保持支撐，不用腰甩動
+- 頭頸順著脊椎，不抬頭看鏡子
+- 回程讓肩胛自然移動，不猛然聳肩
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：胸靠啞鈴划船](https://www.youtube.com/shorts/2ByilQ4NaAs) — movement-specific；核對日期：2026-09-21；支持：胸靠上斜椅、雙啞鈴與腳部支撐、肘後拉。3.580 秒上斜椅與雙啞鈴、8.951 秒肩部位置、14.321 秒胸靠下的雙肘後拉；採中立握法，不另開每個握法版本。
+
+- text：文字來源已核對。3.580 秒上斜椅與雙啞鈴、8.951 秒肩部位置、14.321 秒胸靠下的雙肘後拉；採中立握法，不另開每個握法版本。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。胸部貼上斜墊、雙脚踩地、雙顆啞鈴中立握、肘向後拉及放回可見；文字、2 組 10 次與自然視線一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。3.580 秒上斜椅與雙啞鈴、8.951 秒肩部位置、14.321 秒胸靠下的雙肘後拉；採中立握法，不另開每個握法版本。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[胸靠啞鈴划船短片示範](https://www.youtube.com/shorts/2ByilQ4NaAs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-chest-supported-dumbbell-row-zh-tw.png`；SHA-256：`9f2a49d0876f9d5cf4568f66adbf99e770929f81dead928cfa6cdc9d113ea0e0`
+- 原圖生成所依文字版本：f0357762967c234c435329c3613099cdb26450400273c361fa2a1de3629e4f48，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定側後方三分之四視角，胸墊接觸、頭頸、雙腳、兩顆啞鈴可見。
+
+1. **胸靠準備**：Woman prone facing into35degree incline bench with chest supported on backrest and feet planted wide enough for stability. Head beyond top edge aligned spine looking downforward. Two dumbbells hang below shoulders palms inward.
+   - 圖中文字：胸靠上斜椅，雙腳踩穩。
+2. **向後划船**：Elbows bend backward alongside torso, dumbbells rise near waist/rib sides, chest never leaves pad, neutral head and neck unchanged.
+   - 圖中文字：手肘向後帶，不抬胸甩重。
+3. **控制放回**：Elbows extend returning dumbbells to hanging position, chest still supported and feet stable, shoulders move naturally without shrug.
+   - 圖中文字：慢慢放回，保持胸部支撐。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/2ByilQ4NaAs
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/2ByilQ4NaAs
+- 實際檢查秒點：3.5802、8.9505、14.3208
+- 播放區間：0 秒起，原片結尾
+- 可見內容：3.580 秒上斜椅與雙啞鈴、8.951 秒肩部位置、14.321 秒胸靠下的雙肘後拉；採中立握法，不另開每個握法版本。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="chest-supported-machine-row"></a>
+## 胸靠器械划船
+
+- ID：`chest-supported-machine-row`；內容修訂：1
+- 內容 SHA-256：`de8f152906edaa58e23cedbee105eca93d65c881d99577b5ab83b245861f1ff3`
+- 唯一編輯來源：[JSON](../content/exercises/chest-supported-machine-row.json)
+- 指定版本：坐姿胸靠、配重式划船機的中立握法；非無胸靠低位滑輪划船。
+- 器材：胸靠划船機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 依機台指示調整座椅與胸墊，讓胸部能貼墊、雙腳踏穩，握把位在胸部至上腹前方。
+2. 選輕重量，雙手掌心相對握住中立握把；手臂向前伸長但不被配重拉離胸墊。
+3. 手肘朝後拉，握把靠近身體兩側，肩膀不聳起、胸部不離墊。
+4. 慢慢伸肘回到起點，配重不撞擊；完成後穩定放回再離開機台。
+
+### 重點與停止條件
+
+- 胸墊支撐全程保留
+- 先確認本機台座椅與握把設定
+- 不抬胸或後仰甩重量
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：胸靠器械划船](https://www.youtube.com/shorts/p88Y69wWQz0) — movement-specific；核對日期：2026-09-21；支持：胸靠坐姿、中立握把片段、雙腳穩定與肘後拉。5、6 秒正握上方握把；7 秒切入中立握把特寫，8.831、10、11 秒為中立握划船；12 秒開始反握特寫。本項採 7–12 秒，排除兩端其他握法。胸墊、腳踏與配重式連桿機構可見。
+
+- text：文字來源已核對。5、6 秒正握上方握把；7 秒切入中立握把特寫，8.831、10、11 秒為中立握划船；12 秒開始反握特寫。本項採 7–12 秒，排除兩端其他握法。胸墊、腳踏與配重式連桿機構可見。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已檢視原圖：胸靠墊、雙腳踏板支撐，中立握把拉向身側再控制回程；手臂與連桿位置合理，圖文份量一致。；視覺檢查不等於生物力學量測或專業動作認證。；補齊播放器區間參數後，逐項確認分鏡與圖像未變；保留實際產圖時的內容雜湊。
+- video：僅片段抽查。5、6 秒正握上方握把；7 秒切入中立握把特寫，8.831、10、11 秒為中立握划船；12 秒開始反握特寫。本項採 7–12 秒，排除兩端其他握法。胸墊、腳踏與配重式連桿機構可見。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[胸靠器械划船短片示範](https://www.youtube.com/shorts/p88Y69wWQz0)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-chest-supported-machine-row-zh-tw.png`；SHA-256：`caa5d8fb3529d48e2508a00362d0068ed6a367cf9422fe8a40e4f5d8fea8acc4`
+- 原圖生成所依文字版本：1b128b42e08110e958a6993ac4ac1cadce1789bb1372c0dab168c06c1681acd1，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定側前方，胸靠墊、坐墊、腳踏、握把連桿與配重架可見；不畫品牌精細調節件。
+
+1. **胸靠坐穩**：Woman seated facing selectorized rowing machine with chest pressed into padded support, feet stable on footrests. Two vertical handles in front of chest give neutral palms-facing grip. Arms comfortably extended. Side threequarter camera shows pad contact and lever arms.
+   - 圖中文字：胸部貼墊，雙腳踏穩。
+2. **手肘後拉**：Bend elbows back alongside torso pulling vertical handles toward ribs, chest remains on pad; lever arms pivot coherently toward seated user, head neutral gaze forward, no shrug.
+   - 圖中文字：中立握把拉近兩側，不抬胸。
+3. **緩慢放回**：Extend elbows to starting reach, chest never lifts from pad, weight stack controlled without impact, feet stay supported.
+   - 圖中文字：慢慢伸肘放回，配重不撞擊。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/p88Y69wWQz0?start=7&end=12
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/p88Y69wWQz0?start=7&end=12
+- 實際檢查秒點：3.5322、5、6、7、8.8305、10、11、12、14.1288
+- 播放區間：7 秒起，12 秒止
+- 可見內容：5、6 秒正握上方握把；7 秒切入中立握把特寫，8.831、10、11 秒為中立握划船；12 秒開始反握特寫。本項採 7–12 秒，排除兩端其他握法。胸墊、腳踏與配重式連桿機構可見。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="smith-bent-over-row"></a>
+## 史密斯俯身划船
+
+- ID：`smith-bent-over-row`；內容修訂：1
+- 內容 SHA-256：`39ac6722f3092f9fcf8fe4e9c38fbc9e76efb4ba722ae130efcdfac53050887c`
+- 唯一編輯來源：[JSON](../content/exercises/smith-bent-over-row.json)
+- 指定版本：正握史密斯槓、站姿髖折俯身划船；非倒立划船或胸靠版本。
+- 器材：史密斯機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 先確認史密斯軌道方向、安全擋與掛鉤操作，以空槓找出不碰膝的站位；不熟悉時先請現場人員協助。
+2. 雙腳踩穩，正握略寬於肩，膝微彎、屈髖俯身，保持背部自然線條與腹部穩定。
+3. 手肘往後帶，沿軌道將槓拉向上腹附近；不抬身、不過度外張手肘。
+4. 控制伸肘回到起點；完成確認掛回固定再鬆手，姿勢失控時不要硬做。
+
+### 重點與停止條件
+
+- 先以空槓確認軌跡與站位
+- 背部自然，不靠站起來拉重量
+- 機台不同，解鎖方式不可互套
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：史密斯俯身划船](https://www.youtube.com/shorts/kKONaLGAQW8) — movement-specific；核對日期：2026-09-21；支持：正握、髖折俯身、固定軌道划船。2.580 秒正握、6.451 秒肘位錯誤對照、10.321 秒史密斯俯身划船起始；不同於自由槓。
+
+- text：文字來源已核對。2.580 秒正握、6.451 秒肘位錯誤對照、10.321 秒史密斯俯身划船起始；不同於自由槓。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。固定導軌、俯身站姿、正握槓及肘後拉清楚；槓不穿過膝部，起始回程與份量一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.580 秒正握、6.451 秒肘位錯誤對照、10.321 秒史密斯俯身划船起始；不同於自由槓。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[史密斯俯身划船短片示範](https://www.youtube.com/shorts/kKONaLGAQW8)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-smith-bent-over-row-zh-tw.png`；SHA-256：`c94deebbaec65a6a6a90f698d6347e51ce831d0f41324597fd8ba08e426affc4`
+- 原圖生成所依文字版本：39ac6722f3092f9fcf8fe4e9c38fbc9e76efb4ba722ae130efcdfac53050887c，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，全身及導軌可見，槓在膝前不穿過身體。
+
+1. **俯身就位**：Woman inside Smith station, feet planted, hips hinged and knees soft, natural spine with torso inclined30degrees above horizontal. Pronated bar grip wider than shoulders, arms hang down, bar on guide rails in front of knees, gaze down.
+   - 圖中文字：空槓先確認軌跡，屈髖俯身。
+2. **沿軌拉起**：Maintain torso and legs; bend elbows backward bringing bar up fixed rails toward upper abdomen. Bar never intersects legs; shoulders not shrugged, no standing up.
+   - 圖中文字：手肘往後，槓拉向上腹。
+3. **控制回程**：Extend elbows lowering Smith bar to starting height with unchanged torso angle. Head follows spine naturally; no momentum.
+   - 圖中文字：慢慢放回，結束確認掛穩。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/kKONaLGAQW8
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/kKONaLGAQW8
+- 實際檢查秒點：2.5802、6.4505、10.3208
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.580 秒正握、6.451 秒肘位錯誤對照、10.321 秒史密斯俯身划船起始；不同於自由槓。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-pullover"></a>
+## 仰躺啞鈴上拉
+
+- ID：`dumbbell-pullover`；內容修訂：1
+- 內容 SHA-256：`b0c3e084c250dc98f5b0759a62668cd5ed064e0f03d5b0ec761ee020d64d8613`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-pullover.json)
+- 指定版本：頭、背、臀沿長椅支撐的單顆啞鈴上拉；不是肩膀橫靠椅面、臀部懸空版本。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 沿平板椅仰躺，頭、肩、臀部貼墊、雙腳踩地；雙手托穩同一顆啞鈴，先放胸部上方。
+2. 手肘保持微彎，收住肋骨、腹部穩定；不要靠拱腰增加幅度。
+3. 控制將啞鈴沿弧線移向頭後，到肩部舒服的位置即停，不強迫降到椅面以下。
+4. 保持手肘彎度，沿弧線拉回胸部上方；結束小心收回啞鈴後再起身。
+
+### 重點與停止條件
+
+- 雙手穩握同一顆啞鈴
+- 不把動作變成大幅屈肘的三頭肌伸展
+- 肋骨穩定，不追求過深拉伸
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：仰躺啞鈴上拉](https://www.youtube.com/shorts/Datv2L6t3-4) — movement-specific；核對日期：2026-09-21；支持：全長平板椅支撐、一顆啞鈴雙手、頭後弧線及回程。1.664、4.161、6.657 秒為上下對照；參照下方綠色正確示範的微彎手肘與受控肩部弧線，不採上方紅色錯誤。
+
+- text：文字來源已核對。1.664、4.161、6.657 秒為上下對照；參照下方綠色正確示範的微彎手肘與受控肩部弧線，不採上方紅色錯誤。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已檢視重製圖：胸椎與骨盆保持穩定、頭背臀由長椅支撐，雙腳踩地；中格上臂往頭後，肘微彎而非屈肘伸展，回程回胸前。標題、三步驟與份量可辨識。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。1.664、4.161、6.657 秒為上下對照；參照下方綠色正確示範的微彎手肘與受控肩部弧線，不採上方紅色錯誤。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[仰躺啞鈴上拉短片示範](https://www.youtube.com/shorts/Datv2L6t3-4)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-pullover-zh-tw.png`；SHA-256：`ef2f16896312bd658b2fc467e71ffcac93fb551968cb0d4694bc040a63307e0b`
+- 原圖生成所依文字版本：dcba9c0a1a6e542bbbe60513fb93ac421ec4df28aa4903bfe9c758a6747e3da5，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定嚴格正側面，頭在左、腳在右，椅子完全水平，頭及背部沿椅墊支撐；雙手與啞鈴可見。
+
+1. **胸上準備**：Woman supine LENGTHWISE on flat horizontal bench, head LEFT feet RIGHT, whole head shoulders butt supported and feet floor. Both hands cup one dumbbell vertically above chest, elbows softly bent. Profile camera, face and eyes upward.
+   - 圖中文字：全身沿椅面支撐，雙手共持一顆啞鈴。
+2. **頭後下放**：Keep elbow bend slightly flexed while moving dumbbell in large SHOULDER arc behind head toward screen LEFT. Upper arms approach ears but stop comfortably, not below torso. Head rests on pad, ribs down, no lumbar arch.
+   - 圖中文字：沿弧線移向頭後，不拱腰追深度。
+3. **拉回胸上**：Shoulders bring the same single dumbbell back in arc above chest, elbows stay softly bent not curling, head back and feet remain supported.
+   - 圖中文字：保持手肘彎度，控制拉回。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/Datv2L6t3-4
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/Datv2L6t3-4
+- 實際檢查秒點：1.6642、4.1605、6.6568
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1.664、4.161、6.657 秒為上下對照；參照下方綠色正確示範的微彎手肘與受控肩部弧線，不採上方紅色錯誤。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="standing-barbell-press"></a>
+## 站姿槓鈴肩推
+
+- ID：`standing-barbell-press`；內容修訂：1
+- 內容 SHA-256：`fcea435c456c7463f41c43d36f5381030788a6d24f1569f77467f2249ab03c76`
+- 唯一編輯來源：[JSON](../content/exercises/standing-barbell-press.json)
+- 指定版本：站姿正握自由槓肩推；不蹬腿、不做頸後推舉。
+- 器材：槓鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 從合適高度的槓架取槓，完整正握略寬於肩，槓在肩前，手肘略在槓前下方；先以空槓熟悉路徑。
+2. 雙腳約髖寬踩穩，腹部與臀部維持張力，肋骨不向前翻；視線平視。
+3. 下巴稍讓出路徑，把槓貼近身體上推，過額頭後讓頭回到自然位置；不往後仰躲槓。
+4. 控制把槓降回肩前，膝蓋不蹬動；結束穩定掛回槓架。
+
+### 重點與停止條件
+
+- 不蹬腿變成借力推舉
+- 不拱腰或推到頸後
+- 槓通過頭部時保留安全空間
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 90 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：站姿槓鈴肩推](https://www.youtube.com/shorts/zoN5EH50Dro) — movement-specific；核對日期：2026-09-21；支持：站姿自由槓、肩前到頭頂、軀幹與手肘位置。2.008 秒上推終點、5.021 秒正面肩前起點、8.033 秒側面與軀幹錯誤對照；採不蹬腿版本。
+
+- text：文字來源已核對。2.008 秒上推終點、5.021 秒正面肩前起點、8.033 秒側面與軀幹錯誤對照；採不蹬腿版本。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視原圖：站姿肩前起槓、向頭頂推起、控制回肩前；雙腳固定、無蹬腿或頸後推，圖文一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.008 秒上推終點、5.021 秒正面肩前起點、8.033 秒側面與軀幹錯誤對照；採不蹬腿版本。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[站姿槓鈴肩推短片示範](https://www.youtube.com/shorts/zoN5EH50Dro)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-standing-barbell-press-zh-tw.png`；SHA-256：`9098cc94a519408cfaa2c055fbde655c08f4bb8b9d73a2a363cc9477b8b3906c`
+- 原圖生成所依文字版本：fcea435c456c7463f41c43d36f5381030788a6d24f1569f77467f2249ab03c76，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，全身及自由槓兩端可見。
+
+1. **肩前就位**：Woman stands hipwidth feet, free barbell at upper chest/front shoulders with closed overhand grip just wider than shoulders, elbows slightly in front, forearms nearly vertical. Neutral upright torso eyes forward.
+   - 圖中文字：雙腳踩穩，槓放肩前。
+2. **平順上推**：Press free bar overhead without knee drive, head moves only enough to clear bar then returns neutral under it. Arms naturally extended, ribs stacked over pelvis, no lumbar arch.
+   - 圖中文字：槓靠近身體上推，不蹬腿或拱腰。
+3. **回到肩前**：Control lowering bar down in front of face to front shoulders, maintain upright body and stable feet, no behind-neck path.
+   - 圖中文字：慢慢回到肩前，結束穩定掛回。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/zoN5EH50Dro
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/zoN5EH50Dro
+- 實際檢查秒點：2.0082、5.0205、8.0328
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.008 秒上推終點、5.021 秒正面肩前起點、8.033 秒側面與軀幹錯誤對照；採不蹬腿版本。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="smith-seated-shoulder-press"></a>
+## 史密斯坐姿肩推
+
+- ID：`smith-seated-shoulder-press`；內容修訂：1
+- 內容 SHA-256：`292e7118c1340693f253fa4b5989559834e5978ed4e0516c1168e4b40857df6d`
+- 唯一編輯來源：[JSON](../content/exercises/smith-seated-shoulder-press.json)
+- 指定版本：接近直立靠背椅的史密斯肩前推舉；非頸後推或上斜胸推。
+- 器材：史密斯機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 把靠背椅置於史密斯機中，椅背接近直立；空槓確認槓在臉部前方的安全路徑，先設安全擋。
+2. 坐穩、雙腳踩地，頭背與臀部有支撐；雙手正握，手腕與前臂對齊。
+3. 由下巴至肩前的舒服起點向上推，沿機台軌道伸肘，不聳肩硬擠或拱腰。
+4. 控制降回肩前，不降到頸後；結束確認掛回固定後才鬆手。
+
+### 重點與停止條件
+
+- 槓在身體前方，不推頸後
+- 靠背與雙腳支撐不離開
+- 機台解鎖方式依現場說明
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：史密斯坐姿肩推](https://www.youtube.com/shorts/E7ngsffMPR0) — movement-specific；核對日期：2026-09-21；支持：坐姿靠背、肩前推舉、握法與前臂對齊。2.536 秒握法錯誤對照、6.341 秒手肘外張錯誤、10.145 秒坐姿靠背肩前推舉；與上斜胸推分開。
+
+- text：文字來源已核對。2.536 秒握法錯誤對照、6.341 秒手肘外張錯誤、10.145 秒坐姿靠背肩前推舉；與上斜胸推分開。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視原圖：近直立靠背與雙腳支撐，槓在肩前沿固定導軌推起與回程，未畫成頸後推舉。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.536 秒握法錯誤對照、6.341 秒手肘外張錯誤、10.145 秒坐姿靠背肩前推舉；與上斜胸推分開。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[史密斯坐姿肩推短片示範](https://www.youtube.com/shorts/E7ngsffMPR0)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-smith-seated-shoulder-press-zh-tw.png`；SHA-256：`fcd0608295d35e3402d2ffab4ddc9ac9e7f82ba04b786f272c076828378cdfbb`
+- 原圖生成所依文字版本：292e7118c1340693f253fa4b5989559834e5978ed4e0516c1168e4b40857df6d，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定斜側面，全身、靠背、雙腳與導軌可見，槓在臉前而非頸後。
+
+1. **靠背準備**：Woman seated on80degree upright bench inside Smith frame, feet flat, back head butt supported. Bar at chin/front shoulder height, overhand closed grip wider than shoulders, forearms vertical under bar, bar in front of face.
+   - 圖中文字：背靠穩、腳踩地，槓在肩前。
+2. **沿軌推起**：Same posture and guide rails, elbows extend to push bar above head slightly in front, no back arch, no butt lift, gaze neutral along head.
+   - 圖中文字：沿軌向上推，不拱腰借力。
+3. **控制降回**：Lower bar to comfortable chin/front shoulder level without going behind neck. Forearms support bar, head back and feet unchanged.
+   - 圖中文字：回到肩前，掛回固定後再鬆手。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/E7ngsffMPR0
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/E7ngsffMPR0
+- 實際檢查秒點：2.5362、6.3405、10.1448
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.536 秒握法錯誤對照、6.341 秒手肘外張錯誤、10.145 秒坐姿靠背肩前推舉；與上斜胸推分開。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="arnold-press"></a>
+## 阿諾肩推
+
+- ID：`arnold-press`；內容修訂：1
+- 內容 SHA-256：`7a91372656a4281bad6bea7eafd93a16ba2829c1a1b146f188d5a8828a5f55a7`
+- 唯一編輯來源：[JSON](../content/exercises/arnold-press.json)
+- 指定版本：坐姿靠背、雙啞鈴由掌心朝自己旋轉至朝前的阿諾肩推。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 坐穩接近直立的靠背椅，雙腳踩地，雙手持輕啞鈴放在肩前，掌心朝自己，手肘在前方。
+2. 肩部不聳起，平順向兩側打開手肘並旋轉手臂，讓掌心逐漸朝前。
+3. 在肩部舒服範圍推向頭頂，軀幹不後仰、手腕不刻意扭折。
+4. 緩慢下放並反向旋轉，回到肩前掌心朝自己的起點；肩部卡住或疼痛就停止。
+
+### 重點與停止條件
+
+- 旋轉來自整個手臂，不硬扭手腕
+- 先用比一般肩推更輕的重量
+- 不追求過大肩部旋轉範圍
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：阿諾肩推](https://www.youtube.com/shorts/AjB-UXErljM) — movement-specific；核對日期：2026-09-21；支持：坐姿靠背、起點掌心向內、向外旋轉並上推。3.236、8.091 秒肩前掌心朝自己起點，12.945 秒旋轉後上推；固定靠背與雙腳。
+
+- text：文字來源已核對。3.236、8.091 秒肩前掌心朝自己起點，12.945 秒旋轉後上推；固定靠背與雙脚。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已檢視四格：掌心向內、逐漸向外轉、頭頂推起、反向回程；椅背與腳部穩定，未用軀幹扭轉代替手臂轉向。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。3.236、8.091 秒肩前掌心朝自己起點，12.945 秒旋轉後上推；固定靠背與雙脚。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[阿諾肩推短片示範](https://www.youtube.com/shorts/AjB-UXErljM)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-arnold-press-zh-tw.png`；SHA-256：`60b7fc517667501fc19a8847dda0900f9b284ccceba012cc9f48e0c6295be406`
+- 原圖生成所依文字版本：a8bc8cef0daf5d6a99320766a36a6359120d7ce9825d08f0b18b6b7b17f10ca6，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定前側三分之四，全身可見，四格分出起點、旋轉、推起與回程。
+
+1. **肩前準備**：Woman seated against upright bench feet floor, two dumbbells in front of shoulders, PALMS FACING HER FACE, elbows bent and forward, wrists straight.
+   - 圖中文字：掌心朝自己，手肘放前方。
+2. **平順旋轉**：Same posture. Elbows open toward sides as whole upper arms rotate gently and palms turn forward, dumbbells near shoulder level; no wrist twisting or lumbar arch.
+   - 圖中文字：打開手肘，手掌逐漸朝前。
+3. **向上推起**：Press two dumbbells overhead, palms forward, elbows naturally extended, supported back and stable feet, neck neutral.
+   - 圖中文字：在舒服範圍上推，不後仰。
+4. **反向回程**：Lower dumbbells and rotate whole arms smoothly back to front of shoulders with palms toward face and elbows forward, same as first panel.
+   - 圖中文字：慢慢下放，旋轉回到肩前。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/AjB-UXErljM
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/AjB-UXErljM
+- 實際檢查秒點：3.2362、8.0905、12.9448
+- 播放區間：0 秒起，原片結尾
+- 可見內容：3.236、8.091 秒肩前掌心朝自己起點，12.945 秒旋轉後上推；固定靠背與雙脚。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="bent-over-dumbbell-reverse-fly"></a>
+## 俯身啞鈴反向飛鳥
+
+- ID：`bent-over-dumbbell-reverse-fly`；內容修訂：1
+- 內容 SHA-256：`e015a976f06cfd7207568796fce0e7b9b1a5f9d2d74b59e2e207a0be39b95afb`
+- 唯一編輯來源：[JSON](../content/exercises/bent-over-dumbbell-reverse-fly.json)
+- 指定版本：雙腳站地、無胸靠、雙啞鈴的俯身反向飛鳥；不是屈肘划船。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙腳約髖寬、膝微彎，屈髖俯身，背部自然、腹部穩定，雙手各持輕啞鈴。
+2. 手臂垂在肩部下方，掌心相對，手肘小幅彎曲；頭頸沿脊椎，視線朝地面。
+3. 維持手肘彎度，向兩側打開手臂，抬到與軀幹大致同高或更低的舒服位置，不聳肩。
+4. 沿原路慢慢放回，不抬身借力、不讓啞鈴互撞。
+
+### 重點與停止條件
+
+- 用輕重量，不甩動
+- 手肘保持微彎，不拉成划船
+- 俯身角度與頭頸保持穩定
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：俯身啞鈴反向飛鳥](https://www.youtube.com/shorts/LsT-bR_zxLo) — movement-specific；核對日期：2026-09-21；支持：俯身站姿、微彎手肘反向飛鳥、肩部與握法對照。2.128 秒握法、5.321 秒肩部錯誤對照、8.513 秒俯身起始，為無支撐雙啞鈴反向飛鳥。
+
+- text：文字來源已核對。2.128 秒握法、5.321 秒肩部錯誤對照、8.513 秒俯身起始，為無支撐雙啞鈴反向飛鳥。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已檢視原圖：髖折俯身穩定，上臂向兩側張開，肘保留小彎而非划船；回程與起點一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.128 秒握法、5.321 秒肩部錯誤對照、8.513 秒俯身起始，為無支撐雙啞鈴反向飛鳥。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[俯身啞鈴反向飛鳥短片示範](https://www.youtube.com/shorts/LsT-bR_zxLo)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-bent-over-dumbbell-reverse-fly-zh-tw.png`；SHA-256：`64ec40133dbd94ae12f6fccc0de99f64b555253768b67c30e59b3cf97a73ec17`
+- 原圖生成所依文字版本：323fc92c05a98544e4ee6f8fad0caa670ca96f22955b2da3e0274ede26bd59c0，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定後側略高，全身、兩手與雙腳可見。
+
+1. **俯身準備**：Woman hip-hinged forward with soft knees feet stable, spine neutral near horizontal, head follows spine looking down. Two light dumbbells hang beneath shoulders palms inward elbows softly bent.
+   - 圖中文字：屈髖俯身，頭頸自然。
+2. **兩側打開**：Keep torso still and elbows slightly bent; raise arms laterally in wide arcs to torso height, not pulling elbows toward waist. Wrists neutral, no shrug.
+   - 圖中文字：手臂向兩側打開，不拉成划船。
+3. **緩慢放回**：Lower arms back below shoulders in arcs at same elbow angle, torso still, no bouncing weights.
+   - 圖中文字：沿原路放回，不抬身甩重。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/LsT-bR_zxLo
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/LsT-bR_zxLo
+- 實際檢查秒點：2.1282、5.3205、8.5128
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.128 秒握法、5.321 秒肩部錯誤對照、8.513 秒俯身起始，為無支撐雙啞鈴反向飛鳥。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="chest-supported-reverse-fly"></a>
+## 胸靠啞鈴反向飛鳥
+
+- ID：`chest-supported-reverse-fly`；內容修訂：1
+- 內容 SHA-256：`c2722992bcb8380f98bd4e428965c0312d5fa3da779f96e9b2f16a2746774a90`
+- 唯一編輯來源：[JSON](../content/exercises/chest-supported-reverse-fly.json)
+- 指定版本：面向約 30–45 度上斜椅的雙啞鈴反向飛鳥，不是胸靠划船。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 上斜椅約 30–45 度固定好，胸部靠墊、雙腳踩穩；頭頸自然延伸，不把臉壓住。
+2. 雙手各持輕啞鈴垂在肩下，掌心相對、手肘微彎。
+3. 保持手肘彎度，將雙臂向兩側抬起至肩部舒服的高度，胸部不離椅墊。
+4. 控制下放回到肩下，不聳肩、不抬胸；先放穩啞鈴再離開椅面。
+
+### 重點與停止條件
+
+- 胸靠支撐全程保留
+- 微彎手肘，雙臂向外打開
+- 不要把動作變成屈肘划船
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：胸靠啞鈴反向飛鳥](https://www.youtube.com/shorts/sIQNCJ6Xwsk) — movement-specific；核對日期：2026-09-21；支持：上斜椅角度、微彎手肘、胸靠反向飛鳥。3.108 秒椅背約 44 度、7.771 秒手肘微彎、12.433 秒胸靠向兩側打開。
+
+- text：文字來源已核對。3.108 秒椅背約 44 度、7.771 秒手肘微彎、12.433 秒胸靠向兩側打開。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視原圖：胸腹貼斜椅、雙腳支撐，双手向兩側展開再控制放回，不畫成屈肘划船。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。3.108 秒椅背約 44 度、7.771 秒手肘微彎、12.433 秒胸靠向兩側打開。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[胸靠啞鈴反向飛鳥短片示範](https://www.youtube.com/shorts/sIQNCJ6Xwsk)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-chest-supported-reverse-fly-zh-tw.png`；SHA-256：`ffb7d9fe3e6f28ab6f76809e59ed1a26a1bc43323c5de1180444e7e525d470ed`
+- 原圖生成所依文字版本：c2722992bcb8380f98bd4e428965c0312d5fa3da779f96e9b2f16a2746774a90，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定後側略高，胸墊、頭頸、雙臂與踩地雙腳可見。
+
+1. **胸靠準備**：Woman chest against40degree incline bench, feet floor, head beyond top edge aligned spine gaze down. Two light dumbbells hanging shoulderwidth below body, palms inward, elbows softly bent.
+   - 圖中文字：胸靠上斜椅，手臂自然垂下。
+2. **向外打開**：Raise both arms laterally with same soft elbow angle to comfortable torso height, chest remains supported, neck neutral. Do not pull elbows into waist.
+   - 圖中文字：手臂向兩側，不屈肘拉向腰。
+3. **控制回程**：Lower dumbbells in arcs back below shoulders, chest and feet remain supported, no body bounce.
+   - 圖中文字：慢慢放回，胸部不離開椅墊。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/sIQNCJ6Xwsk
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/sIQNCJ6Xwsk
+- 實際檢查秒點：3.1082、7.7705、12.4328
+- 播放區間：0 秒起，原片結尾
+- 可見內容：3.108 秒椅背約 44 度、7.771 秒手肘微彎、12.433 秒胸靠向兩側打開。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="single-arm-cable-reverse-fly"></a>
+## 高位單臂滑輪反向飛鳥
+
+- ID：`single-arm-cable-reverse-fly`；內容修訂：1
+- 內容 SHA-256：`2be13c1c5ba829fe1241bd4881dafbcb7e088b11338dd4c7f2019ca898a7283d`
+- 唯一編輯來源：[JSON](../content/exercises/single-arm-cable-reverse-fly.json)
+- 指定版本：高位滑輪、遠側手跨身握把，向外下方展開的單臂反向飛鳥；不是肩高水平滑輪或屈肘划船。
+- 器材：滑輪機
+- 計數：每側完成開展與回程算 1 次；每组左右各 10 次，左右皆完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 將單手握把扣在較高滑輪，站在機台側前方；先以很輕阻力確認路徑，依原廠握把使用，不抓裸露鋼索。
+2. 遠側手跨過身前上方握住握把，另一手可扶固定架，工作肘只保留自然小彎、肩膀不聳起。
+3. 保持肘角度，將工作手往外側、略往下打開到舒適位置，軀幹不跟著轉，手不必拉到身後很遠。
+4. 慢慢控制手臂回到前上方，完成一側後換側；肩部不適就停止。
+
+### 重點與停止條件
+
+- 高位滑輪，手臂往外下方展開
+- 手肘微彎，不拉成划船
+- 軀幹不旋轉借力
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：單臂滑輪反向飛鳥](https://www.youtube.com/shorts/FeERX9UwspY) — movement-specific；核對日期：2026-09-21；支持：高位滑輪、遠側手跨身、向外下方開臂。0 秒紅色較低滑輪為錯誤對照，1 秒綠色高滑輪；3 秒跨身前上起點，7 秒向外下方展開，並非肩高水平拉。
+
+- text：文字來源已核對。2.196 秒滑輪設定、5.491 秒肩高跨身手臂、8.785 秒單臂向外開展；非双側反向飛鳥。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；追加逐秒檢視後改為高位斜向版本；前稿誤判肩高水平滑輪已修正。
+- image：已視覺檢查（非專業認證）。逐格檢視高位滑輪、遠側工作手由前上方向外下方打開、近側手扶塔，微彎肘與軀幹穩定一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.196 秒滑輪設定、5.491 秒肩高跨身手臂、8.785 秒單臂向外開展；非双側反向飛鳥。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[高位單臂滑輪反向飛鳥短片示範](https://www.youtube.com/shorts/FeERX9UwspY)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-single-arm-cable-reverse-fly-zh-tw.png`；SHA-256：`7e1a35b2a400c1c2805ce89bd9aefa2d20cd2ee5504fc3284769d79b425259f8`
+- 原圖生成所依文字版本：2be13c1c5ba829fe1241bd4881dafbcb7e088b11338dd4c7f2019ca898a7283d，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正面三分之四，滑輪塔在畫面右側高於頭部，工作手在人物另一側，完整纜線可見。
+
+1. **跨身準備**：Match biomechanics of supplied video pose reference, adult woman from identity image only. FRONT THREE-QUARTER view: woman center, tall cable tower SCREEN RIGHT, pulley ABOVE HEAD. Her LEFT hand (screen RIGHT) holds fixed tower for support. WORKING RIGHT ARM is on SCREEN LEFT. Working RIGHT arm reaches diagonally UP ACROSS her front toward HIGH SCREEN RIGHT pulley, elbow nearly straight15degree soft bend, hand near/above face height but away from head. Cable short taut to pulley. Torso stays front-facing, feet stable, right elbow angle unchanged; do not swap working arms. Use safe D handle not bare wire. Fixed camera all panels.
+   - 圖中文字：遠側手跨身，握把在前上方。
+2. **向外打開**：Match biomechanics of supplied video pose reference, adult woman from identity image only. FRONT THREE-QUARTER view: woman center, tall cable tower SCREEN RIGHT, pulley ABOVE HEAD. Her LEFT hand (screen RIGHT) holds fixed tower for support. WORKING RIGHT ARM is on SCREEN LEFT. Working right arm opens to screen LEFT and slightly DOWN, hand at lower-chest/upper-waist height away from torso, elbow nearly straight15degree soft bend. Cable is long diagonal from HIGH SCREEN RIGHT pulley to LOW SCREEN LEFT handle. Torso stays front-facing, feet stable, right elbow angle unchanged; do not swap working arms. Use safe D handle not bare wire. Fixed camera all panels.
+   - 圖中文字：向外下方打開，軀幹不轉。
+3. **放回換側**：Match biomechanics of supplied video pose reference, adult woman from identity image only. FRONT THREE-QUARTER view: woman center, tall cable tower SCREEN RIGHT, pulley ABOVE HEAD. Her LEFT hand (screen RIGHT) holds fixed tower for support. WORKING RIGHT ARM is on SCREEN LEFT. Working RIGHT arm reaches diagonally UP ACROSS her front toward HIGH SCREEN RIGHT pulley, elbow nearly straight15degree soft bend, hand near/above face height but away from head. Cable short taut to pulley. Torso stays front-facing, feet stable, right elbow angle unchanged; do not swap working arms. Use safe D handle not bare wire. Fixed camera all panels.
+   - 圖中文字：慢慢回前上方，每側各 10 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/FeERX9UwspY
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/FeERX9UwspY
+- 實際檢查秒點：0、1、2、3、4、5、6、7
+- 播放區間：0 秒起，原片結尾
+- 可見內容：0 秒紅色較低滑輪為錯誤對照，1 秒綠色高滑輪；3 秒跨身前上起點，7 秒向外下方展開，並非肩高水平拉。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="single-arm-cable-lateral-raise"></a>
+## 單臂滑輪側平舉
+
+- ID：`single-arm-cable-lateral-raise`；內容修訂：1
+- 內容 SHA-256：`924ae1aeae1732dbf2874dd9bb8da1dcf9a4c384f95357c53ee04f8f5854622e`
+- 唯一編輯來源：[JSON](../content/exercises/single-arm-cable-lateral-raise.json)
+- 指定版本：站姿、約髖高滑輪、遠側手在身前跨身起始的單臂側平舉；不是高位反向飛鳥或落地滑輪版。
+- 器材：滑輪機
+- 計數：每側抬起並放回算 1 次；每組左右各 10 次，雙側皆完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 將滑輪固定在約髖部高度，側站機台旁，遠側手從身前跨身握把；確認纜線不摩擦或纏住身體，另一手輕扶穩固機架或扶髖。
+2. 站穩、腹部穩定，工作手在身前偏向機台一側，手腕自然、手肘微彎。
+3. 向身體側前方平順抬手，到約肩高或更低的舒服位置，不用身體側倒或聳肩。
+4. 慢慢回到起點，配重不撞擊；完成後換側，每組左右各做指定次數。
+
+### 重點與停止條件
+
+- 滑輪約髖高，先確認纜線空間
+- 不把拇指刻意轉向地板
+- 不甩動身體追求高度
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：單臂滑輪側平舉](https://www.youtube.com/shorts/JlT2xB92lY8) — movement-specific；核對日期：2026-09-21；支持：髖高單臂側平舉、軀幹穩定、手腕與肩部位置。1 秒可見將滑輪由較低處向上調整的提示，8.741 秒站姿，13.985 秒中立手腕，16 秒正面顯示髖高纜線與單臂開展。3.496 秒為肩部錯誤對照、6 秒上臂提示；因此採髖高設定，不誤寫成地面低位。
+
+- text：文字來源已核對。1 秒可見將滑輪由較低處向上調整的提示，8.741 秒站姿，13.985 秒中立手腕，16 秒正面顯示髖高纜線與單臂開展。3.496 秒為肩部錯誤對照、6 秒上臂提示；因此採髖高設定，不誤寫成地面低位。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。正面逐格檢視髖高滑輪與連續身前纜線，工作手由腿側抬至肩高，軀幹無側倒。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。1 秒可見將滑輪由較低處向上調整的提示，8.741 秒站姿，13.985 秒中立手腕，16 秒正面顯示髖高纜線與單臂開展。3.496 秒為肩部錯誤對照、6 秒上臂提示；因此採髖高設定，不誤寫成地面低位。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[單臂滑輪側平舉短片示範](https://www.youtube.com/shorts/JlT2xB92lY8)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-single-arm-cable-lateral-raise-zh-tw.png`；SHA-256：`eaaac333ee54b910d1f0f8b24f7c6b93a5bc5df095813c34e4972de3aca58bc0`
+- 原圖生成所依文字版本：924ae1aeae1732dbf2874dd9bb8da1dcf9a4c384f95357c53ee04f8f5854622e，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正面全身，髖高滑輪在畫面左側，工作手在畫面右側；纜線跨過身前清楚可見。
+
+1. **髖高準備**：Fixed FRONT view all panels. Woman faces camera but gaze neutral. Tower SCREEN LEFT pulley HIP height. Her nonworking RIGHT hand SCREEN LEFT supports tower. Working LEFT arm SCREEN RIGHT down alongside thigh, elbow soft15degrees. Single cable goes from LEFT hipheight pulley ACROSS FRONT of pelvis to handle in SCREEN RIGHT hand; cable visibly in FRONT, never behind body. Fixed feet and upright torso.
+   - 圖中文字：滑輪約髖高，確認纜線不纏身。
+2. **向側抬起**：Fixed FRONT view all panels. Woman faces camera but gaze neutral. Tower SCREEN LEFT pulley HIP height. Her nonworking RIGHT hand SCREEN LEFT supports tower. Working LEFT arm SCREEN RIGHT raised laterally nearly shoulder height, elbow soft15degrees. Single cable goes from LEFT hipheight pulley ACROSS FRONT of pelvis to handle in SCREEN RIGHT hand; cable visibly in FRONT, never behind body. Fixed feet and upright torso.
+   - 圖中文字：抬至舒服高度，不聳肩或側倒。
+3. **控制回程**：Fixed FRONT view all panels. Woman faces camera but gaze neutral. Tower SCREEN LEFT pulley HIP height. Her nonworking RIGHT hand SCREEN LEFT supports tower. Working LEFT arm SCREEN RIGHT down alongside thigh, elbow soft15degrees. Single cable goes from LEFT hipheight pulley ACROSS FRONT of pelvis to handle in SCREEN RIGHT hand; cable visibly in FRONT, never behind body. Fixed feet and upright torso.
+   - 圖中文字：慢慢放回，每組左右各 10 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/JlT2xB92lY8
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/JlT2xB92lY8
+- 實際檢查秒點：1、3.4962、6、8.7405、13.9848、16
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1 秒可見將滑輪由較低處向上調整的提示，8.741 秒站姿，13.985 秒中立手腕，16 秒正面顯示髖高纜線與單臂開展。3.496 秒為肩部錯誤對照、6 秒上臂提示；因此採髖高設定，不誤寫成地面低位。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-front-raise"></a>
+## 站姿啞鈴前平舉
+
+- ID：`dumbbell-front-raise`；內容修訂：1
+- 內容 SHA-256：`1c8959313a704b924542ee9cbd86a6202895518a881211622bd2ba25ea3bceba`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-front-raise.json)
+- 指定版本：站姿雙啞鈴同步前平舉，掌心向下或略相對；不是原提案四分割影片中的坐姿版本。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙腳約髖寬站穩，各持一顆輕啞鈴放在大腿前方，手肘微彎，腹部穩定。
+2. 保持手腕自然，將雙臂向前抬起，到大約肩高或更低的舒服位置即可。
+3. 軀幹保持穩定，肩膀不要往耳朵擠，不靠後仰或甩動把重量拉高。
+4. 控制啞鈴沿原路回到大腿前，兩顆啞鈴不互撞；完整抬起與放回算一次。
+
+### 重點與停止條件
+
+- 選能穩定控制的輕重量
+- 不刻意翻腕，肩頸放鬆
+- 不後仰追求更高幅度
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：站姿啞鈴前平舉](https://www.youtube.com/shorts/eJ_HNftboic) — movement-specific；核對日期：2026-09-21；支持：站姿前平舉、綠色正確示範肩位、前抬及回程。1.116、2.791、4.465 秒可見上下錯誤／正確對照，採下方綠色站姿版本。相較熱門 #26 四分割合集更清楚，因此同步改為站姿名稱與分鏡。
+
+- text：文字來源已核對。1.116、2.791、4.465 秒可見上下錯誤／正確對照，採下方綠色站姿版本。相較熱門 #26 四分割合集更清楚，因此同步改為站姿名稱與分鏡。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視原圖：站姿雙啞鈴由大腿前抬至肩高再放回，軀幹未後仰，上臂前舉方向和文字一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。1.116、2.791、4.465 秒可見上下錯誤／正確對照，採下方綠色站姿版本。相較熱門 #26 四分割合集更清楚，因此同步改為站姿名稱與分鏡。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[站姿啞鈴前平舉短片示範](https://www.youtube.com/shorts/eJ_HNftboic)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-front-raise-zh-tw.png`；SHA-256：`903f2043acf8b9fb3722170398723eaf7b431bd7bf13ad60b62eb605c9519893`
+- 原圖生成所依文字版本：1c8959313a704b924542ee9cbd86a6202895518a881211622bd2ba25ea3bceba，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，全身及兩顆啞鈴可見。
+
+1. **站穩準備**：Woman stands upright hipwidth feet, two light dumbbells in front of thighs palms toward thighs, elbows softly bent, neck neutral looking forward.
+   - 圖中文字：雙腳踩穩，啞鈴放大腿前。
+2. **向前抬起**：Raise both arms forward to shoulder height with slight elbow bend, palms down, wrists neutral. Shoulders not shrugged, torso not leaning back, no knee bounce.
+   - 圖中文字：平順抬到肩高或更低的舒服位置。
+3. **緩慢放回**：Lower both dumbbells to front of thighs with controlled motion, same posture and neutral shoulders.
+   - 圖中文字：慢慢放回，不甩動或後仰。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/eJ_HNftboic
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/eJ_HNftboic
+- 實際檢查秒點：1.1162、2.7905、4.4648
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1.116、2.791、4.465 秒可見上下錯誤／正確對照，採下方綠色站姿版本。相較熱門 #26 四分割合集更清楚，因此同步改為站姿名稱與分鏡。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-shrug"></a>
+## 啞鈴聳肩
+
+- ID：`dumbbell-shrug`；內容修訂：1
+- 內容 SHA-256：`cf80058aff4094127006bd83a4619ae9a3542cc00979e0e0a422988ebead9dbe`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-shrug.json)
+- 指定版本：站姿雙啞鈴、手臂自然垂下的聳肩，不屈肘划船或旋轉肩膀。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙腳踩穩，雙手各持一顆啞鈴放在身體兩側，掌心相對，頭頸自然平視。
+2. 手肘保持自然伸長，肩膀往上提到可控制、無不適的位置，不把下巴往前伸。
+3. 短暫穩定後，慢慢讓肩膀下降回到自然位置；不突然讓重量把肩拉下。
+4. 全程不繞肩、不屈肘抬重；完整上提與下降算一次。
+
+### 重點與停止條件
+
+- 上下移動，不做繞肩圈
+- 頭頸自然，避免伸下巴
+- 重量以可控制回程為準
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：啞鈴聳肩](https://www.youtube.com/shorts/rFsSeClGnNA) — movement-specific；核對日期：2026-09-21；支持：站姿雙啞鈴、肩部上提與下降、不靠手肘彎舉。2.864 秒啞鈴與握法、7.161 秒側面錯誤對照、11.457 秒背面綠色正確示範肩胛上提；不是肩頸疼痛治療動作。
+
+- text：文字來源已核對。2.864 秒啞鈴與握法、7.161 秒側面錯誤對照、11.457 秒背面綠色正確示範肩胛上提；不是肩頸疼痛治療動作。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已檢視原圖：背側三分之四視角可辨識肩部上提與下降，手臂自然伸長、頸部自然，沒有繞肩；標題、步驟與呼吸提示清楚。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.864 秒啞鈴與握法、7.161 秒側面錯誤對照、11.457 秒背面綠色正確示範肩胛上提；不是肩頸疼痛治療動作。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[啞鈴聳肩短片示範](https://www.youtube.com/shorts/rFsSeClGnNA)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-shrug-zh-tw.png`；SHA-256：`c027adf880db3885d4557440a1c5db1f959ac8627709455097aa041695525dd2`
+- 原圖生成所依文字版本：5119ca8ee2438c9d7efd5a6f1d00d14aa52aef6793a4faeeaadc85b5817e7eb6，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定後側三分之四，全身、雙手與肩頸可見。
+
+1. **自然站穩**：Woman stands upright holding two dumbbells at sides with palms inward, elbows naturally extended, shoulders relaxed neutral, neck long head looking forward. Rear-threequarter view.
+   - 圖中文字：雙手垂在兩側，頭頸自然。
+2. **肩部上提**：Lift both shoulder girdles upward moderately while arms remain straight holding weights; elbows do not curl, neck neutral and no forward chin, torso still.
+   - 圖中文字：肩膀向上提，不屈肘或伸下巴。
+3. **緩慢下降**：Control shoulders back down to neutral height without rolling circles, weights at sides, same upright stance.
+   - 圖中文字：慢慢回到自然位置，不繞肩。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/rFsSeClGnNA
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/rFsSeClGnNA
+- 實際檢查秒點：2.8642、7.1605、11.4568
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.864 秒啞鈴與握法、7.161 秒側面錯誤對照、11.457 秒背面綠色正確示範肩胛上提；不是肩頸疼痛治療動作。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="seated-dumbbell-overhead-extension"></a>
+## 坐姿啞鈴過頭三頭肌伸展
+
+- ID：`seated-dumbbell-overhead-extension`；內容修訂：1
+- 內容 SHA-256：`a5a64be70df74d35a5f407c55383199aeeeb89d96a309ce5f2a3dbaf7f7408fb`
+- 唯一編輯來源：[JSON](../content/exercises/seated-dumbbell-overhead-extension.json)
+- 指定版本：坐姿有靠背、雙手持一顆啞鈴的過頭伸展；與現有站姿版本分開。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 選不妨礙頭後空間的穩固靠背椅，雙腳踩地，雙手托穩一顆輕啞鈴舉到頭頂。
+2. 上臂維持舒服的舉高位置，手肘不強夾耳朵；腹部穩定，不拱腰。
+3. 緩慢彎曲手肘，把啞鈴降到頭後的舒服深度，避免碰撞頭頸。
+4. 保持上臂穩定，伸肘推回頭頂；結束小心將啞鈴收回，需要時請人協助。
+
+### 重點與停止條件
+
+- 雙手共持一顆，不是每手各一顆
+- 上臂穩定，屈伸發生在手肘
+- 不強夾手肘或追求過深幅度
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：坐姿啞鈴過頭三頭肌伸展](https://www.youtube.com/shorts/b_r_LW4HEcM) — movement-specific；核對日期：2026-09-21；支持：坐姿靠背、單顆啞鈴雙手、頭後屈肘伸肘。2.120 秒上臂位置對照、5.301 秒雙手托單顆啞鈴與肘位、8.481 秒靠背坐姿伸肘；不同於站姿。
+
+- text：文字來源已核對。2.120 秒上臂位置對照、5.301 秒雙手托單顆啞鈴與肘位、8.481 秒靠背坐姿伸肘；不同於站姿。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視三格：雙手共持單顆啞鈴，坐姿靠背與雙腳支撐穩定，頭後屈肘再伸肘，上臂沒有變成肩推。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.120 秒上臂位置對照、5.301 秒雙手托單顆啞鈴與肘位、8.481 秒靠背坐姿伸肘；不同於站姿。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[坐姿啞鈴過頭三頭肌伸展短片示範](https://www.youtube.com/shorts/b_r_LW4HEcM)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-seated-dumbbell-overhead-extension-zh-tw.png`；SHA-256：`ba73c8c279e73be7bd8da5840f6af0da7f86b343fb5a40382724fc30b5926e27`
+- 原圖生成所依文字版本：a5a64be70df74d35a5f407c55383199aeeeb89d96a309ce5f2a3dbaf7f7408fb，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定嚴格正側面，面向左；頭後在右側，椅背不得遮住手肘與啞鈴。
+
+1. **坐穩舉高**：Woman seated with back supported and both feet floor, holding ONE vertical dumbbell overhead with BOTH palms cupping upper end. Upper arms elevated, elbows naturally extended, no back arch. Strict side profile facing LEFT.
+   - 圖中文字：雙腳踩穩，雙手共持一顆啞鈴。
+2. **頭後屈肘**：Keep both upper arms upright. Bend elbows about90degrees so FOREARMS descend BEHIND HEAD to screen RIGHT, hands lower near upper neck holding single dumbbell. Elbows remain high above crown; head neutral facing left.
+   - 圖中文字：上臂穩定，啞鈴慢慢降到頭後。
+3. **伸肘回程**：Extend both elbows to return single dumbbell overhead, keep seated back support, wrists stable and head unchanged.
+   - 圖中文字：平順伸肘，不拱腰甩動重量。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/b_r_LW4HEcM
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/b_r_LW4HEcM
+- 實際檢查秒點：2.1202、5.3005、8.4808
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.120 秒上臂位置對照、5.301 秒雙手托單顆啞鈴與肘位、8.481 秒靠背坐姿伸肘；不同於站姿。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="low-cable-overhead-extension"></a>
+## 低位滑輪過頭三頭肌伸展
+
+- ID：`low-cable-overhead-extension`；內容修訂：1
+- 內容 SHA-256：`bf2547ae5836b06ccfb36be492e2c2f38023abd2b1edb82308ff75ae9ab36563`
+- 唯一編輯來源：[JSON](../content/exercises/low-cable-overhead-extension.json)
+- 指定版本：站姿背向低位滑輪、雙手繩索過頭伸展；非高位直桿前傾版。
+- 器材：滑輪機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 把繩索扣在低位滑輪，先選輕重量並確認身後纜線空間；雙手握繩轉身就位，不讓纜線纏身。
+2. 背向機台、前後腳站穩，上臂抬到頭側舒服位置，手肘彎曲、握繩的手在頭後。
+3. 保持軀幹與上臂穩定，伸肘把雙手推到頭頂前上方，不聳肩或拱腰。
+4. 慢慢屈肘回到頭後，控制配重；結束放回到低位並確認配重落穩。
+
+### 重點與停止條件
+
+- 機台在身後，滑輪在低位
+- 手肘不強夾耳側
+- 頭後纜線與繩索保留空間
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：低位滑輪過頭三頭肌伸展](https://www.youtube.com/shorts/9Ark9S11uXw) — movement-specific；核對日期：2026-09-21；支持：低位繩索、背向站姿、頭後屈肘與上伸。2.072 秒低位繩索準備、5.181 秒背向頭後屈肘、8.289 秒伸肘終點；繩索版非高位直桿版。
+
+- text：文字來源已核對。2.072 秒低位繩索準備、5.181 秒背向頭後屈肘、8.289 秒伸肘終點；繩索版非高位直桿版。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視低位滑輪、繩索連到手部，背向機台的前後腳站姿，頭後彎肘到上方伸肘與回程一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.072 秒低位繩索準備、5.181 秒背向頭後屈肘、8.289 秒伸肘終點；繩索版非高位直桿版。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[低位滑輪過頭三頭肌伸展短片示範](https://www.youtube.com/shorts/9Ark9S11uXw)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-low-cable-overhead-extension-zh-tw.png`；SHA-256：`b9c0755765f4b4b13cfb7cef486da965d29c0431eba79e5cc6709117b1ebda71`
+- 原圖生成所依文字版本：bf2547ae5836b06ccfb36be492e2c2f38023abd2b1edb82308ff75ae9ab36563，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定嚴格正側面，全身與身後低滑輪可見，面向左。
+
+1. **頭後準備**：Woman faces LEFT away from cable tower behind her on RIGHT. LOW pulley near floor, rope cable rises diagonally to both hands behind head. Split stance, upper arms raised beside head, elbows bent, torso upright neutral.
+   - 圖中文字：背向低滑輪，前後腳站穩。
+2. **伸肘上推**：Extend elbows to lift both rope ends above head slightly forward. Upper arms stay elevated, torso unchanged, cable from low rear pulley unobstructed, head neutral.
+   - 圖中文字：上臂保持穩定，雙手推向前上方。
+3. **緩慢回程**：Bend elbows returning rope ends behind head, elbows high and upper arms stable. No hip swing or lower-back arch.
+   - 圖中文字：慢慢回到頭後，不拱腰。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/9Ark9S11uXw
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/9Ark9S11uXw
+- 實際檢查秒點：2.0722、5.1805、8.2888
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.072 秒低位繩索準備、5.181 秒背向頭後屈肘、8.289 秒伸肘終點；繩索版非高位直桿版。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="high-cable-overhead-extension"></a>
+## 高位滑輪過頭三頭肌伸展
+
+- ID：`high-cable-overhead-extension`；內容修訂：1
+- 內容 SHA-256：`bc51dbe97ab891c94e97a88150876f5b7984f705718ae57d600f5b3ff127d859`
+- 唯一編輯來源：[JSON](../content/exercises/high-cable-overhead-extension.json)
+- 指定版本：高位滑輪直桿、前後腳前傾過頭伸展；不是低位繩索直立版。
+- 器材：滑輪機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 高位滑輪裝好直桿，輕重量完整握住，背向機台跨步站穩；确认頭後與纜線空間。
+2. 屈髖微前傾，腹部收緊，上臂朝前上方、手肘彎曲，直桿在頭後附近。
+3. 維持上臂與軀幹位置，伸肘將直桿推往前方，不靠身體前後晃動。
+4. 控制屈肘回到頭後的舒服位置，不碰頭；完成後慢慢回到可安全放回握把的位置。
+
+### 重點與停止條件
+
+- 高滑輪與直桿，不和低位繩索混用
+- 前傾來自髖部，不把腰折彎
+- 不強迫手肘夾緊
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：高位滑輪過頭三頭肌伸展](https://www.youtube.com/shorts/NTk0Igxqcsk) — movement-specific；核對日期：2026-09-21；支持：高位直桿、前後腳站穩、前傾頭後伸肘。2.380 秒直桿握法、5.951 秒前後腳、9.521 秒前傾頭後屈肘；動作沿頭部前上方向伸肘。
+
+- text：文字來源已核對。2.380 秒直桿握法、5.951 秒前後腳、9.521 秒前傾頭後屈肘；動作沿頭部前上方向伸肘。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視高位滑輪直桿、背向站姿髖部前傾，上臂相對穩定的前伸與屈肘回程，與低位繩索版本清楚區分。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.380 秒直桿握法、5.951 秒前後腳、9.521 秒前傾頭後屈肘；動作沿頭部前上方向伸肘。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[高位滑輪過頭三頭肌伸展短片示範](https://www.youtube.com/shorts/NTk0Igxqcsk)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-high-cable-overhead-extension-zh-tw.png`；SHA-256：`4f4aa4844084f99807a8fa41b6adb9fd20ca93f065ca026688d82c859b947a14`
+- 原圖生成所依文字版本：bc51dbe97ab891c94e97a88150876f5b7984f705718ae57d600f5b3ff127d859，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定嚴格正側面，全身、頭後高滑輪、直桿可見，面向左。
+
+1. **前傾準備**：Woman in split stance facing LEFT away from high pulley behind at screen RIGHT. Hip hinge torso leaning forward, neutral spine. Upper arms point forward/up beside head, elbows bent, straight bar held behind head; cable runs upback to high pulley.
+   - 圖中文字：前後腳站穩，屈髖微前傾。
+2. **向前伸肘**：Keep torso and upper arms fixed while extending elbows so bar moves forward away from head toward LEFT, arms nearly aligned forward/up. Not shoulder swinging or push-up; feet fixed.
+   - 圖中文字：上臂穩定，直桿往前推。
+3. **控制彎回**：Flex elbows bringing bar back behind head without contacting neck; same hinge and split stance, cable taut behind.
+   - 圖中文字：緩慢屈肘回程，頭後保留空間。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/NTk0Igxqcsk
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/NTk0Igxqcsk
+- 實際檢查秒點：2.3802、5.9505、9.5208
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.380 秒直桿握法、5.951 秒前後腳、9.521 秒前傾頭後屈肘；動作沿頭部前上方向伸肘。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="lying-ez-bar-triceps-extension"></a>
+## 仰躺曲槓三頭肌伸展
+
+- ID：`lying-ez-bar-triceps-extension`；內容修訂：1
+- 內容 SHA-256：`3e18480b46dfab08da3bce982f3464daba1aec77e69a6d66784e17de18088a76`
+- 唯一編輯來源：[JSON](../content/exercises/lying-ez-bar-triceps-extension.json)
+- 指定版本：平板椅仰躺、雙手持 EZ 曲槓的三頭肌伸展，不是直桿胸推。
+- 器材：曲槓
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 仰躺平板椅，頭、肩、臀部貼穩，雙腳踩地；以輕重量完整握住曲槓的斜握段。
+2. 曲槓在額頭上方偏後的安全位置，上臂略朝頭側但保持穩定，手腕自然。
+3. 慢慢屈肘，讓曲槓降到頭後附近的舒服位置，絕不撞額頭；上臂不大幅前後擺。
+4. 伸肘回到起點，不強迫肘關節過伸；結束安全收回或請人接槓。
+
+### 重點與停止條件
+
+- 曲槓路徑保留頭部空間
+- 不要把重量甩向額頭
+- 先用輕重量，必要時請人保護
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：仰躺曲槓三頭肌伸展](https://www.youtube.com/shorts/K3mFeNz4e3w) — movement-specific；核對日期：2026-09-21；支持：仰躺曲槓、上臂穩定屈肘、雙腳與椅面支撐。1.780 秒錯誤肘位對照、4.451 秒肘關節角度、7.121 秒仰躺曲槓伸肘；採頭後安全範圍，不教砸向額頭。
+
+- text：文字來源已核對。1.780 秒錯誤肘位對照、4.451 秒肘關節角度、7.121 秒仰躺曲槓伸肘；採頭後安全範圍，不教砸向額頭。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已檢視曲槓、仰躺頭背臀支撐、雙腳踩地與屈伸肘分鏡；槓與額頭保留空間，沒有甩向額頭。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。1.780 秒錯誤肘位對照、4.451 秒肘關節角度、7.121 秒仰躺曲槓伸肘；採頭後安全範圍，不教砸向額頭。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[仰躺曲槓三頭肌伸展短片示範](https://www.youtube.com/shorts/K3mFeNz4e3w)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-lying-ez-bar-triceps-extension-zh-tw.png`；SHA-256：`82d7be38c4268aed5e879af2debe4ff9e652afd25ebd5fa7ee50aa751ff9c11d`
+- 原圖生成所依文字版本：b65881fd003d90a3b063cbae6eb0ad6a13255e57a357b2169de68c3df4993521，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定側面略偏前，頭在左腳在右，曲槓彎曲形狀與頭部距離可見。
+
+1. **仰躺持槓**：Woman supine flat bench head LEFT feet RIGHT. Head shoulders butt supported, feet floor. Both hands hold lightweight EZ CURL BAR on angled grip segments above forehead slightly toward head end, elbows naturally extended, upper arms tilted a little toward head.
+   - 圖中文字：頭肩臀貼穩，曲槓握穩。
+2. **控制屈肘**：Keep upper arms nearly unchanged, bend elbows so forearms and EZ bar move toward space just BEHIND head screen LEFT, with clear gap from forehead. No bar contact head, neutral wrists.
+   - 圖中文字：緩慢彎肘，頭部前後保留空間。
+3. **平順伸肘**：Extend elbows to starting EZ bar position without large shoulder movement, same stable body, no forced hyperextension.
+   - 圖中文字：平順回程，不甩動或硬鎖肘。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/K3mFeNz4e3w
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/K3mFeNz4e3w
+- 實際檢查秒點：1.7802、4.4505、7.1208
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1.780 秒錯誤肘位對照、4.451 秒肘關節角度、7.121 秒仰躺曲槓伸肘；採頭後安全範圍，不教砸向額頭。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="single-arm-dumbbell-kickback"></a>
+## 單臂啞鈴三頭肌後踢
+
+- ID：`single-arm-dumbbell-kickback`；內容修訂：1
+- 內容 SHA-256：`33b4a0491858f9e62a4ab392ad4e6d6b4169bf1a12b42c8ea02e536e982344f8`
+- 唯一編輯來源：[JSON](../content/exercises/single-arm-dumbbell-kickback.json)
+- 指定版本：雙腳踩地、非工作前臂支撐椅面的單臂後踢；不是單膝跪椅的划船。
+- 器材：啞鈴
+- 計數：每側完整伸肘與彎回算 1 次；每組左右各 10 次，兩側皆完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙腳踩穩、屈髖俯身，非工作手或前臂靠在穩固長椅上，背部自然。
+2. 工作手持輕啞鈴，上臂貼近軀幹并朝後，手肘彎約直角，前臂自然垂下。
+3. 保持上臂位置，伸直手肘把啞鈴向身後帶，不抬肩、甩手或扭腰。
+4. 慢慢彎肘回到起點；完成後換側，每組左右各做指定次數。
+
+### 重點與停止條件
+
+- 上臂穩定，前臂繞手肘移動
+- 雙腳仍在地上
+- 不把後踢做成肩部大幅擺動
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：單臂啞鈴三頭肌後踢](https://www.youtube.com/shorts/WhBxKbe1-NU) — movement-specific；核對日期：2026-09-21；支持：非工作前臂支撑、雙腳站地、單臂伸肘後踢。2.016 秒上臂位置對照、5.041 秒伸肘後踢、8.065 秒非工作前臂支撐椅面與雙腳站地。
+
+- text：文字來源已核對。2.016 秒上臂位置對照、5.041 秒伸肘後踢、8.065 秒非工作前臂支撐椅面與雙腳站地。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已檢視非工作前臂靠椅、雙腳踩地，工作上臂在身側後方保持位置，屈肘到伸肘再回程，左右份量清楚。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.016 秒上臂位置對照、5.041 秒伸肘後踢、8.065 秒非工作前臂支撐椅面與雙腳站地。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[單臂啞鈴三頭肌後踢短片示範](https://www.youtube.com/shorts/WhBxKbe1-NU)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-single-arm-dumbbell-kickback-zh-tw.png`；SHA-256：`2b403084b103e7c45ea64dde00167e83c2c58268f904118f856133339d70c79d`
+- 原圖生成所依文字版本：ff572ffa33e190c182d2d663af2a7f6fa941220dbd2901354568175eead62d17，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，工作右手在近側、左前臂支撐椅面，全身可見。
+
+1. **支撐準備**：Woman hip-hinged with BOTH feet on floor. LEFT forearm rests on stable bench. RIGHT upper arm aligned close to torso pointing backward, right elbow bent90degrees with dumbbell hanging below elbow. Neutral head gaze down.
+   - 圖中文字：非工作前臂扶穩，雙腳踩地。
+2. **向後伸肘**：RIGHT upper arm stays next to torso while right elbow extends, sending dumbbell backward toward hip past it slightly. Left forearm and both feet unchanged; no shoulder swing.
+   - 圖中文字：保持上臂位置，只伸直手肘。
+3. **彎回換側**：Flex right elbow back to90degrees, dumbbell under elbow, same torso support and gaze. Caption describes alternate side, no extra limb.
+   - 圖中文字：慢慢彎回，每組左右各 10 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/WhBxKbe1-NU
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/WhBxKbe1-NU
+- 實際檢查秒點：2.0162、5.0405、8.0648
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.016 秒上臂位置對照、5.041 秒伸肘後踢、8.065 秒非工作前臂支撐椅面與雙腳站地。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-concentration-curl"></a>
+## 啞鈴集中彎舉
+
+- ID：`dumbbell-concentration-curl`；內容修訂：1
+- 內容 SHA-256：`7d964013aba98d5ebb88557037bee719fd6cbf92031f594b610d0991b0fd6703`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-concentration-curl.json)
+- 指定版本：坐姿、單顆啞鈴、工作上臂靠同側大腿內側的集中彎舉。
+- 器材：啞鈴
+- 計數：每側彎舉並放回算 1 次；每組左右各 10 次，兩側皆完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 坐在穩固長椅前緣，雙腳張開踩地，軀幹微前傾；工作上臂靠同側大腿內側，不把肘尖硬壓膝蓋骨。
+2. 單手持輕啞鈴，掌心向前上方，手臂向地面伸長但不強迫肘過伸，另一手扶大腿。
+3. 保持上臂支撐，屈肘把啞鈴帶近肩前，不聳肩、扭身或折手腕。
+4. 慢慢放回起點；完成後換側，每組左右各做指定次數。
+
+### 重點與停止條件
+
+- 上臂靠大腿，不硬壓膝蓋
+- 手腕維持自然
+- 不抬肩或扭身甩動
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：啞鈴集中彎舉](https://www.youtube.com/shorts/EjUnEEfTSEY) — movement-specific；核對日期：2026-09-21；支持：坐姿大腿支撐、單手彎舉、控制放回。2.184 秒上臂支撐錯誤對照、5.461 秒掌心與回程、8.737 秒正確坐姿前傾集中彎舉。
+
+- text：文字來源已核對。2.184 秒上臂支撐錯誤對照、5.461 秒掌心與回程、8.737 秒正確坐姿前傾集中彎舉。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視坐姿雙腳支撐、上臂靠大腿內側，單顆啞鈴屈肘再放回，未畫成站姿彎舉。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.184 秒上臂支撐錯誤對照、5.461 秒掌心與回程、8.737 秒正確坐姿前傾集中彎舉。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[啞鈴集中彎舉短片示範](https://www.youtube.com/shorts/EjUnEEfTSEY)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-concentration-curl-zh-tw.png`；SHA-256：`edb9df02f11badf1adb9820aa0388f27a7684fa4534668db17a804c4412077ac`
+- 原圖生成所依文字版本：7d964013aba98d5ebb88557037bee719fd6cbf92031f594b610d0991b0fd6703，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定前側三分之四，雙腳、坐墊、右上臂與右大腿內側接觸點可見。
+
+1. **坐穩支撐**：Woman seated near front of bench feet wide flat, torso slight forward. RIGHT upper arm rests inside RIGHT thigh above knee, not elbow tip on kneecap. Right hand single dumbbell palm forward/up, elbow extended naturally downward. Left hand on left thigh.
+   - 圖中文字：上臂靠大腿內側，雙腳踩穩。
+2. **屈肘彎舉**：Curl single dumbbell toward right shoulder while right upper arm stays against inner thigh and wrist straight, torso still and neutral neck looking downforward.
+   - 圖中文字：上臂固定，手腕保持自然。
+3. **控制放回**：Lower dumbbell through elbow extension toward start without elbow hyperextension, maintain seated support, no shoulder shrug.
+   - 圖中文字：慢慢放回，每組左右各 10 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/EjUnEEfTSEY
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/EjUnEEfTSEY
+- 實際檢查秒點：2.1842、5.4605、8.7368
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.184 秒上臂支撐錯誤對照、5.461 秒掌心與回程、8.737 秒正確坐姿前傾集中彎舉。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="barbell-curl"></a>
+## 槓鈴彎舉
+
+- ID：`barbell-curl`；內容修訂：1
+- 內容 SHA-256：`5cb1b61d95cbbbcfc834c6e6eac1b3683c73b2e7761a37086bf9c1a5f4c52e7e`
+- 唯一編輯來源：[JSON](../content/exercises/barbell-curl.json)
+- 指定版本：站姿反握直槓彎舉，不是曲槓、正握或滑輪版本。
+- 器材：槓鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙腳約髖寬站穩，雙手反握直槓約肩寬，拇指環握，槓在大腿前，膝蓋自然微彎。
+2. 腹部穩定，上臂靠近身體，手腕不向後折。
+3. 屈肘把槓帶向肩前的舒服高度，上臂不大幅往前抬，不往後仰甩槓。
+4. 控制伸肘回到大腿前，不強迫肘過伸；完成後穩定放回槓架。
+
+### 重點與停止條件
+
+- 反握直槓，手腕舒服為前提
+- 不借腰後仰
+- 控制下放，不讓槓砸落
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：槓鈴彎舉](https://www.youtube.com/shorts/54x2WF1_Suc) — movement-specific；核對日期：2026-09-21；支持：反握直槓、肘位穩定、彎舉與回程。1.756 秒正面握距、4.391 秒肘前移錯誤、7.025 秒綠色上臂穩定彎舉；直槓而非 EZ 曲槓。
+
+- text：文字來源已核對。1.756 秒正面握距、4.391 秒肘前移錯誤、7.025 秒綠色上臂穩定彎舉；直槓而非 EZ 曲槓。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已檢視站姿雙手反握槓鈴，上臂近身、屈肘抬槓與控制下降，軀幹無後仰。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。1.756 秒正面握距、4.391 秒肘前移錯誤、7.025 秒綠色上臂穩定彎舉；直槓而非 EZ 曲槓。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[槓鈴彎舉短片示範](https://www.youtube.com/shorts/54x2WF1_Suc)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-barbell-curl-zh-tw.png`；SHA-256：`180b5afc1e406bc70e27d8e6b0b4925396009edaea1067f6dca6a197e966f622`
+- 原圖生成所依文字版本：f018f5f158606dea28483b765715c957178aa84dfc8be20adc5add916b19030d，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定側前方，全身及槓兩端可見，能看出掌心向上。
+
+1. **站穩持槓**：Woman stands hipwidth, holds straight barbell at thighs with underhand supinated closed shoulderwidth grip, elbows naturally extended near torso, neutral wrists and upright neck.
+   - 圖中文字：反握直槓，站穩不後仰。
+2. **穩定彎舉**：Flex elbows lifting bar toward front shoulders, upper arms stay near ribs with minimal movement, torso and knees do not swing, wrists straight.
+   - 圖中文字：上臂穩定，槓平順抬起。
+3. **緩慢下放**：Extend elbows returning bar near thighs with controlled descent, no excessive elbow hyperextension or body swing.
+   - 圖中文字：慢慢下放，不讓重量砸落。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/54x2WF1_Suc
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/54x2WF1_Suc
+- 實際檢查秒點：1.7562、4.3905、7.0248
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1.756 秒正面握距、4.391 秒肘前移錯誤、7.025 秒綠色上臂穩定彎舉；直槓而非 EZ 曲槓。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-hammer-curl"></a>
+## 啞鈴槌式彎舉
+
+- ID：`dumbbell-hammer-curl`；內容修訂：1
+- 內容 SHA-256：`7cc491c93e99a9b5a855b6b26b648cf5ffae0fd020a17c4a8cc843e8284fa1eb`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-hammer-curl.json)
+- 指定版本：站姿雙啞鈴、掌心相對的同步槌式彎舉。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙腳踩穩，各持一顆啞鈴垂在身側，掌心相對、拇指朝前，上臂靠近身體。
+2. 維持中立握法，屈肘把啞鈴抬向肩前，不在途中翻掌。
+3. 上臂與軀幹保持穩定，不後仰或聳肩借力。
+4. 慢慢伸肘回到身側，手腕不折，完整抬起與放回算一次。
+
+### 重點與停止條件
+
+- 掌心相對，像握槌子
+- 不邊抬邊翻掌
+- 控制回程，不甩動
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：啞鈴槌式彎舉](https://www.youtube.com/shorts/_aoad2yuP5w) — movement-specific；核對日期：2026-09-21；支持：中立握法、站姿彎舉、排除正反握區段。4 秒中立握近景，5、6.171、7 秒中立握彎舉，8 秒握法特寫；9 秒切入反握，截取 4–9 秒。
+
+- text：文字來源已核對。4 秒中立握近景，5、6.171、7 秒中立握彎舉，8 秒握法特寫；9 秒切入反握，截取 4–9 秒。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視中立握法與拇指朝上的彎舉，前後三格未翻掌，雙手與軀幹穩定。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。4 秒中立握近景，5、6.171、7 秒中立握彎舉，8 秒握法特寫；9 秒切入反握，截取 4–9 秒。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[啞鈴槌式彎舉短片示範](https://www.youtube.com/shorts/_aoad2yuP5w)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-hammer-curl-zh-tw.png`；SHA-256：`1d95c3c8d14aece719a9020d2dffe97df73276bbd53a274af6c7b733eef86aae`
+- 原圖生成所依文字版本：7cc491c93e99a9b5a855b6b26b648cf5ffae0fd020a17c4a8cc843e8284fa1eb，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定前側三分之四，全身、兩顆啞鈴與掌心方向清楚。
+
+1. **中立握穩**：Woman stands feet hipwidth holding two dumbbells beside thighs with PALMS FACING INWARD. Elbows naturally extended near ribs, neutral neck gaze forward.
+   - 圖中文字：掌心相對，雙腳踩穩。
+2. **向上彎舉**：Flex both elbows lifting dumbbells with thumbs upward and palms still facing inward. Upper arms remain near ribs, dumbbell shafts near vertical at top, no torso lean.
+   - 圖中文字：維持中立握法，不翻掌。
+3. **控制放回**：Slowly extend elbows returning dumbbells to sides, palms remain inward throughout, wrists straight.
+   - 圖中文字：慢慢放回，上臂與軀幹穩定。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=4&end=9
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=4&end=9
+- 實際檢查秒點：4、5、6.1705、7、8、9
+- 播放區間：4 秒起，9 秒止
+- 可見內容：4 秒中立握近景，5、6.171、7 秒中立握彎舉，8 秒握法特寫；9 秒切入反握，截取 4–9 秒。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="reverse-dumbbell-curl"></a>
+## 反握啞鈴彎舉
+
+- ID：`reverse-dumbbell-curl`；內容修訂：1
+- 內容 SHA-256：`4dbe09664559099e32a38b346c22e065657045c6da1a8fcb7031bbeb674e12ab`
+- 唯一編輯來源：[JSON](../content/exercises/reverse-dumbbell-curl.json)
+- 指定版本：站姿雙啞鈴反向彎舉：起點掌心朝後，抬起後掌心向下；不是腕彎舉。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙腳踩穩，各持輕啞鈴在大腿前，掌心朝後、手背朝前，上臂靠近軀幹。
+2. 保持手腕直，屈肘把啞鈴抬向前上方，抬起後掌心仍朝下。
+3. 不靠翻掌、後仰或上臂前甩完成；重量通常要比一般彎舉更輕。
+4. 控制伸肘回到大腿前，避免手腕被重量向下折；完整回程算一次。
+
+### 重點與停止條件
+
+- 手掌方向固定，不變成槌式
+- 手腕保持中立
+- 比一般彎舉更輕也沒關係
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：反握啞鈴彎舉](https://www.youtube.com/shorts/_aoad2yuP5w) — movement-specific；核對日期：2026-09-21；支持：反握近景、屈肘時掌心朝下、與槌式區分。已檢視 9 秒正握近景、10 秒低位與 11 秒上抬：掌心保持朝下、肘在身側，採 9–12 秒反握區段。
+
+- text：文字來源已核對。已檢視 9 秒正握近景、10 秒低位與 11 秒上抬：掌心保持朝下、肘在身侧，採 9–12 秒反握區段。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。已檢視起點手背朝前、中格掌心朝下，雙啞鈴屈肘不是腕彎舉，回程保持正握。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。已檢視 9 秒正握近景、10 秒低位與 11 秒上抬：掌心保持朝下、肘在身侧，採 9–12 秒反握區段。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[反握啞鈴彎舉短片示範](https://www.youtube.com/shorts/_aoad2yuP5w)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-reverse-dumbbell-curl-zh-tw.png`；SHA-256：`cbd420e660a9f1a9c487272b882d75c15f7f6fad6932faea3b24c7d9cb306a8d`
+- 原圖生成所依文字版本：e4ad677668fcfa054392dbf7a47fe6b9fb16ed9e3dae5bcf476b25a46fb737de，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定前側三分之四，前臂與手背清楚，全身可見。
+
+1. **正握準備**：Woman holds two dumbbells in front of thighs with pronated grip: PALMS FACE BACK and knuckles face front, elbows extended naturally at sides, upright body.
+   - 圖中文字：手背朝前，啞鈴放大腿前。
+2. **反向彎舉**：Flex both elbows raising weights in front, PALMS FACE DOWN at top, wrists straight, upper arms stable near ribs. No wrist curl or supination.
+   - 圖中文字：屈肘抬起，掌心保持朝下。
+3. **緩慢放回**：Extend elbows lowering dumbbells to starting pronated position, no wrist collapse or torso movement.
+   - 圖中文字：控制放回，手腕不折。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=9&end=12
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=9&end=12
+- 實際檢查秒點：9、10、11
+- 播放區間：9 秒起，12 秒止
+- 可見內容：已檢視 9 秒正握近景、10 秒低位與 11 秒上抬：掌心保持朝下、肘在身侧，採 9–12 秒反握區段。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="incline-dumbbell-curl"></a>
+## 上斜啞鈴彎舉
+
+- ID：`incline-dumbbell-curl`；內容修訂：1
+- 內容 SHA-256：`29d6c482ac30c1e6f02c0de70c4385078755fb6d106a4def556d07faadf2da0f`
+- 唯一編輯來源：[JSON](../content/exercises/incline-dumbbell-curl.json)
+- 指定版本：本項採影片接近直立、約 80–85 度的靠背設定，不用低角度深拉肩版本。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 靠背椅調到約 80–85 度並鎖穩，坐穩、雙腳踩地；雙手各持輕啞鈴自然垂於身側。
+2. 背部靠穩、肩部放鬆，掌心向前，上臂自然垂下，不強迫往身後拉。
+3. 維持上臂位置，屈肘把啞鈴抬向肩前，不聳肩或抬肘追高度。
+4. 慢慢伸肘回到自然下垂位置，肩部不舒服即停止；不讓重量拉扯肩前側。
+
+### 重點與停止條件
+
+- 本項靠背接近直立
+- 上臂自然下垂，不強拉身後
+- 頭背靠穩，不前後晃
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：上斜啞鈴彎舉](https://www.youtube.com/shorts/uCUaRFlA9vE) — movement-specific；核對日期：2026-09-21；支持：近直立上斜椅、雙啞鈴上臂穩定、肩部位置。2.488 秒椅背標示 85 度，6.221 秒肩部對照，9.953 秒坐姿屈肘與上臂位置；不誤用 45 度圖解。
+
+- text：文字來源已核對。2.488 秒椅背標示 85 度，6.221 秒肩部對照，9.953 秒坐姿屈肘與上臂位置；不誤用 45 度圖解。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。逐格檢視：陡角度斜椅背靠、上臂後垂、屈肘提起及控制放下；已移除攝影指令文字。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.488 秒椅背標示 85 度，6.221 秒肩部對照，9.953 秒坐姿屈肘與上臂位置；不誤用 45 度圖解。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[上斜啞鈴彎舉短片示範](https://www.youtube.com/shorts/uCUaRFlA9vE)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-incline-dumbbell-curl-zh-tw.png`；SHA-256：`19e2e9e1bf870b37682b8cfd02570e9d2bdebd21bcd54fcf572acdef033f12d8`
+- 原圖生成所依文字版本：29d6c482ac30c1e6f02c0de70c4385078755fb6d106a4def556d07faadf2da0f，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，全身、80–85 度椅背及雙手可見。
+
+1. **靠背準備**：Woman seated on an85degree nearly upright bench, head back and butt supported, feet floor. Arms hang naturally beside torso, palms forward holding dumbbells; shoulders comfortable no forced rear pull.
+   - 圖中文字：靠背接近直立，雙手自然垂下。
+2. **穩定彎舉**：Flex both elbows lifting dumbbells toward shoulders, upper arms remain hanging near sides, no elbow forward swing. Bench nearly upright unchanged.
+   - 圖中文字：上臂穩定，不聳肩抬肘。
+3. **控制下放**：Extend elbows slowly to natural hanging position, neutral wrists and supported torso, no excessive shoulder stretch.
+   - 圖中文字：慢慢放回，不拉扯肩前側。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/uCUaRFlA9vE
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/uCUaRFlA9vE
+- 實際檢查秒點：2.4882、6.2205、9.9528
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.488 秒椅背標示 85 度，6.221 秒肩部對照，9.953 秒坐姿屈肘與上臂位置；不誤用 45 度圖解。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="machine-preacher-curl"></a>
+## 器械牧師椅彎舉
+
+- ID：`machine-preacher-curl`；內容修訂：1
+- 內容 SHA-256：`20c98c1302a2ce1f92086785b1de192d0c57272e730a9e726418a29091ae9edc`
+- 唯一編輯來源：[JSON](../content/exercises/machine-preacher-curl.json)
+- 指定版本：手臂墊支撐、雙手反握握把的配重式牧師椅彎舉；非自由曲槓。
+- 器材：牧師椅彎舉機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 依機台圖示調整座位與手臂墊，使上臂背側能完整支撐、手肘與轉軸位置合適；機型不同不可照抄其他機器的設定。
+2. 雙腳踩穩，雙手反握握把，手腕自然，上臂留在墊上，不讓手肘被拉到過伸。
+3. 平順屈肘把握把帶向肩前，避免抬肩或抬起上臂離墊。
+4. 控制放回到舒服的伸肘範圍，配重不撞擊；結束放穩再鬆手。
+
+### 重點與停止條件
+
+- 上臂留在手臂墊上
+- 不突然落到底或鎖死手肘
+- 先用輕重量確認機台設定
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：器械牧師椅彎舉](https://www.youtube.com/shorts/S4dDLfp3e8w) — movement-specific；核對日期：2026-09-21；支持：手臂墊與反握、屈肘拉近、肘位錯誤對照。已檢視 1 秒握把反握、4 秒前視上臂墊支撐與雙腳踩地、6 秒側視可確認臀部坐在座墊；為坐姿器械牧師椅彎舉。
+
+- text：文字來源已核對。已檢視 1 秒握把反握、4 秒前視上臂墊支撐與雙腳踩地、6 秒側視可確認臀部坐在座墊；為坐姿器械牧師椅彎舉。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視座墊與雙腳支撐、上臂放在斜墊，反握握把彎向肩前及控制回程；圖為器械示意非品牌設定。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。已檢視 1 秒握把反握、4 秒前視上臂墊支撐與雙腳踩地、6 秒側視可確認臀部坐在座墊；為坐姿器械牧師椅彎舉。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[器械牧師椅彎舉短片示範](https://www.youtube.com/shorts/S4dDLfp3e8w)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-machine-preacher-curl-zh-tw.png`；SHA-256：`4ceeb40e7a288edc6d4678973bb56c4ae5aacf00477d6b3dddccbe920b0c3acb`
+- 原圖生成所依文字版本：20c98c1302a2ce1f92086785b1de192d0c57272e730a9e726418a29091ae9edc，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定側前方，座墊、手臂墊、握把轉軸及雙腳可見。
+
+1. **坐穩支撐**：Woman seated at purpose-built selectorized preacher curl machine, feet flat, backs of both upper arms fully supported on angled pad; elbows aligned with machine pivot per design. Supinated grip curved handles, elbows comfortably extended not locked.
+   - 圖中文字：依機台調整，讓上臂貼穩手臂墊。
+2. **屈肘拉近**：Curl both handles toward shoulders by flexing elbows, upper arms remain flat on pad, wrists neutral and torso stable, linked lever rotates coherently.
+   - 圖中文字：平順彎肘，上臂不離墊。
+3. **緩慢回程**：Lower handles under control to starting comfortable elbow extension, not hyperextended, weight stack does not slam.
+   - 圖中文字：慢慢放回，不鎖死手肘。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/S4dDLfp3e8w
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/S4dDLfp3e8w
+- 實際檢查秒點：1、4、6
+- 播放區間：0 秒起，原片結尾
+- 可見內容：已檢視 1 秒握把反握、4 秒前視上臂墊支撐與雙腳踩地、6 秒側視可確認臀部坐在座墊；為坐姿器械牧師椅彎舉。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="standing-cable-curl"></a>
+## 站姿滑輪彎舉
+
+- ID：`standing-cable-curl`；內容修訂：1
+- 內容 SHA-256：`7add3d0e64fb728b7806ed97b656c3caa56275bcd05fcd104b59c6af97f12e9c`
+- 唯一編輯來源：[JSON](../content/exercises/standing-cable-curl.json)
+- 指定版本：面向低位滑輪、雙手反握直桿的站姿彎舉，不是繩索槌式。
+- 器材：滑輪機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 把直桿扣在低位滑輪，面向機台、雙腳踩穩，雙手反握約肩寬，手臂在大腿前伸長。
+2. 腹部穩定，手肘靠近身側、手腕自然，先確認纜線不碰腳。
+3. 屈肘將直桿帶向肩前，不聳肩、不把手肘大幅抬到前面。
+4. 控制伸肘回到起點，保持纜線張力但不撞配重；結束慢慢放回。
+
+### 重點與停止條件
+
+- 反握直桿，手腕不要向後折
+- 上臂固定，不用身體後仰
+- 低位纜線保持暢通
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：站姿滑輪彎舉](https://www.youtube.com/shorts/CrbTqNOlFgE) — movement-specific；核對日期：2026-09-21；支持：雙手直桿、上臂肘位、肩膀穩定。1.812 秒肘位正面對照、4.531 秒肩部位置、7.249 秒反握直桿彎舉；低位纜線。
+
+- text：文字來源已核對。1.812 秒肘位正面對照、4.531 秒肩部位置、7.249 秒反握直桿彎舉；低位纜線。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視低位滑輪纜線連到直桿中心，站姿反握屈肘，上臂穩定，未畫成槌式繩索彎舉。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。1.812 秒肘位正面對照、4.531 秒肩部位置、7.249 秒反握直桿彎舉；低位纜線。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[站姿滑輪彎舉短片示範](https://www.youtube.com/shorts/CrbTqNOlFgE)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-standing-cable-curl-zh-tw.png`；SHA-256：`f4f65c4ba6ecc870e5a01c5ab1a29efc00162b783ef89a5085252df762f4bb1c`
+- 原圖生成所依文字版本：7add3d0e64fb728b7806ed97b656c3caa56275bcd05fcd104b59c6af97f12e9c，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，全身與低滑輪、直桿可見。
+
+1. **面向機台**：Woman faces cable tower with pulley at floor, holds straight bar underhand at thighs, elbows near ribs and extended naturally, feet stable cable clear shoes.
+   - 圖中文字：反握直桿，雙腳踩穩。
+2. **屈肘彎舉**：Flex elbows drawing bar toward shoulders, upper arms near torso, wrists straight, cable from low pulley taut, no torso backward lean.
+   - 圖中文字：上臂穩定，平順抬起。
+3. **控制放回**：Extend elbows slowly returning bar to thigh-front height, torso unchanged and shoulders relaxed.
+   - 圖中文字：慢慢放回，配重不撞擊。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/CrbTqNOlFgE
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/CrbTqNOlFgE
+- 實際檢查秒點：1.8122、4.5305、7.2488
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1.812 秒肘位正面對照、4.531 秒肩部位置、7.249 秒反握直桿彎舉；低位纜線。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="bayesian-cable-curl"></a>
+## 身後滑輪彎舉（貝氏彎舉）
+
+- ID：`bayesian-cable-curl`；內容修訂：1
+- 內容 SHA-256：`66dc572126db47c05a388d541b18dd4dfcd426fe7857fcba71121f459ba72489`
+- 唯一編輯來源：[JSON](../content/exercises/bayesian-cable-curl.json)
+- 指定版本：影片所示上臂向身後抬起的單側貝氏彎舉；滑輪在放下時手部附近高度，不是落地滑輪版本。
+- 器材：滑輪機
+- 計數：每側彎舉與放回算 1 次；每組左右各 10 次，雙側皆完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 將單把滑輪調到工作手自然伸長時附近的高度，背向機台、前後腳踩穩，先用很輕重量。
+2. 讓工作上臂自然向身後抬到肩部舒服的位置，保持軀幹穩定；不用追求影片人物的抬臂角度。
+3. 上臂保持原位，屈肘把握把向前帶近身側，手腕保持自然，不用肩膀向前甩動。
+4. 慢慢伸肘回到身後起點，再換側；肩前側有拉扯痛或無法固定上臂時停止。
+
+### 重點與停止條件
+
+- 上臂只在身後舒服的位置
+- 不扭身或用肩向前甩
+- 肩前側疼痛即停止
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：身後滑輪彎舉（貝氏彎舉）](https://www.youtube.com/shorts/w3sXATQzGvc) — movement-specific；核對日期：2026-09-21；支持：身後抬臂版本、起始手部高度滑輪、上臂固定屈肘。4 秒綠色上臂位置、10 秒伸肘起點、11 秒屈肘動作；上臂在軀幹後方抬起，握把向身側前移。未把紅色錯誤或較低上臂變化當作同版本。
+
+- text：文字來源已核對。2.508 秒上臂位置錯誤對照、6.271 秒手腕對照、10.033 秒前後腳及身後單把滑輪起點；滑輪不直接套用落地低位。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。；追加檢查 4、10、11 秒，鎖定上臂後抬版本並修正握把前移方向；不要求個人追求影片抬臂幅度。；繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。
+- image：已視覺檢查（非專業認證）。檢視腰以上側面圖：兩格工作上臂皆在軀幹後方，起始伸肘、終點屈肘帶至腰側，非反向折肘。圖像不是關節角度量測；實際練習須依文字固定上臂、不用肩前甩。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.508 秒上臂位置錯誤對照、6.271 秒手腕對照、10.033 秒前後腳及身後單把滑輪起點；滑輪不直接套用落地低位。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[身後滑輪彎舉（貝氏彎舉）短片示範](https://www.youtube.com/shorts/w3sXATQzGvc)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-bayesian-cable-curl-zh-tw.png`；SHA-256：`a8c18570a3f6f36de254b87430aaeb98015d1a321ffae7cc3ef5016f0fff4e7e`
+- 原圖生成所依文字版本：cd4031e06babff0a941c08ba205d95dc8ef7c6090a5a2bf4cf9fb440286e6b3e，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定工作側正側面腰以上近景，重點顯示上臂固定與屈肘。
+
+1. **身後伸臂**：STRICT SIDE PROFILE facing LEFT. Working shoulder x50,y35; working ELBOW x65,y50 behind body (RIGHT of shoulder) and stays EXACTLY there both frames. Working hand x78,y65 extends diagonally down/back to cable tower RIGHT, pelvis x50,y65. Nonwork arm hidden naturally on far side. Splitstance. Pulley on right at handheight. Upper arm diagonally downback. WAIST-UP close view only, crop legs.
+   - 圖中文字：上臂自然在身後，跨步站穩。
+2. **固定彎舉**：STRICT SIDE PROFILE facing LEFT, same camera stance. Working shoulder x50,y35; working ELBOW x65,y50 EXACT same as panel1 behind torso. Hand now x50,y60 at waist in FRONT/LEFT and BELOW elbow. Forearm from elbow slopes DOWNLEFT. Upperarm from shoulder slopes DOWNRIGHT UNCHANGED. Elbow bend about90deg. Cable from tower right pulley handheight to hand at waist. Nonwork arm hidden naturally. WAIST-UP close view only, crop legs.
+   - 圖中文字：上臂不前移，彎舉後慢慢放回；左右各 10 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/w3sXATQzGvc
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/w3sXATQzGvc
+- 實際檢查秒點：0、1、3、4、5、7、8、9、10、11
+- 播放區間：0 秒起，原片結尾
+- 可見內容：4 秒綠色上臂位置、10 秒伸肘起點、11 秒屈肘動作；上臂在軀幹後方抬起，握把向身側前移。未把紅色錯誤或較低上臂變化当作同版本。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="seated-dumbbell-wrist-curl"></a>
+## 坐姿啞鈴腕彎舉
+
+- ID：`seated-dumbbell-wrist-curl`；內容修訂：1
+- 內容 SHA-256：`22f1656f03efbf7069a103020421ca5b91098c8647b1c25bb0c1f6abed062087`
+- 唯一編輯來源：[JSON](../content/exercises/seated-dumbbell-wrist-curl.json)
+- 指定版本：坐姿單手啞鈴腕彎舉，前臂有大腿支撐；不是雙手托一顆啞鈴的特殊握法。
+- 器材：啞鈴
+- 計數：每側手腕捲起並放回算 1 次；每組左右各 10 次，兩側皆完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 坐穩、雙腳踩地，工作前臂放在同側大腿上，手腕略超過膝前，掌心朝上，握住一顆很輕的啞鈴。
+2. 保持前臂與手肘不動，讓手腕在舒服的小幅度內緩慢下降，不鬆開手指讓啞鈴滾落。
+3. 以手腕將掌心朝自己方向捲起，不屈肘把整條前臂抬離大腿。
+4. 慢慢放回起點，完成後換側；手腕疼痛、麻木或刺痛就停止。
+
+### 重點與停止條件
+
+- 只動手腕，前臂留在大腿
+- 保持握緊，不讓啞鈴滑落
+- 小幅度、輕重量即可
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。使用很輕、可控制小幅度手腕活動的單顆啞鈴，不照抄影片的重啞鈴。
+
+### 證據與限制
+
+- [DeltaBolic：坐姿啞鈴腕彎舉](https://www.youtube.com/shorts/wSwo6mKHgZI) — movement-specific；核對日期：2026-09-21；支持：單手坐姿、前臂大腿支撐、掌心朝上腕屈。改用 #195：2、3、4 秒可見坐姿前臂靠大腿的掌心朝上腕彎舉，1、5 秒為其他角度近景，截取 2–5 秒。原 #8 的雙手托啞鈴版本未採用。
+
+- text：文字來源已核對。改用 #195：2、3、4 秒可見坐姿前臂靠大腿的掌心朝上腕彎舉，1、5 秒為其他角度近景，截取 2–5 秒。原 #8 的雙手托啞鈴版本未採用。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。逐格檢視：坐姿前傾、前臂完整靠大腿、掌心向上、手腕超出膝緣，只進行腕屈曲。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。改用 #195：2、3、4 秒可見坐姿前臂靠大腿的掌心朝上腕彎舉，1、5 秒為其他角度近景，截取 2–5 秒。原 #8 的雙手托啞鈴版本未採用。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[坐姿啞鈴腕彎舉短片示範](https://www.youtube.com/shorts/wSwo6mKHgZI)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-seated-dumbbell-wrist-curl-zh-tw.png`；SHA-256：`7103a41424443ba4f9b47a4baa9c70f9771f9c29974c0c4fcbce1af805088497`
+- 原圖生成所依文字版本：22f1656f03efbf7069a103020421ca5b91098c8647b1c25bb0c1f6abed062087，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：嚴格工作側正側面，人物髖折前傾約 40 度，整條前臂沿大腿放平，手腕超出膝前；手腕動作另有近景。
+
+1. **前臂支撐**：STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM UP supinated grip. Wrist at comfortable slightly lowered starting angle. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.
+   - 圖中文字：掌心朝上，前臂放大腿。
+2. **手腕捲起**：STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM UP supinated grip. Flex ONLY wrist a small amount so palm curls upward toward forearm. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.
+   - 圖中文字：只動手腕，不抬前臂。
+3. **慢慢放回**：STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM UP supinated grip. Wrist at comfortable slightly lowered starting angle. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.
+   - 圖中文字：輕放回程，每組左右各 10 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=2&end=5
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=2&end=5
+- 實際檢查秒點：1、2、3、3.3562、4、5
+- 播放區間：2 秒起，5 秒止
+- 可見內容：改用 #195：2、3、4 秒可見坐姿前臂靠大腿的掌心朝上腕彎舉，1、5 秒為其他角度近景，截取 2–5 秒。原 #8 的雙手托啞鈴版本未採用。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="seated-reverse-wrist-curl"></a>
+## 坐姿啞鈴反向腕彎舉
+
+- ID：`seated-reverse-wrist-curl`；內容修訂：1
+- 內容 SHA-256：`22f3b4d218d5ffb6f309e429034b36c83d2f9b23655db7baf07d85f845a34d4d`
+- 唯一編輯來源：[JSON](../content/exercises/seated-reverse-wrist-curl.json)
+- 指定版本：坐姿單手正握啞鈴、前臂放在大腿的反向腕彎舉；非反握整臂彎舉。
+- 器材：啞鈴
+- 計數：每側手背抬起並放回算 1 次；每組左右各 10 次，兩側皆完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 坐穩，工作前臂掌心朝下放在同側大腿，手腕略超過膝前，手握一顆很輕的啞鈴。
+2. 前臂與手肘保持支撐，手腕先在舒服範圍自然微垂，肩部放鬆。
+3. 以手背向上抬起啞鈴，幅度不必大，不抬整條手臂或用手肘彎舉。
+4. 控制慢慢放回，完成後換側；手腕疼痛、刺痛或麻木就停止。
+
+### 重點與停止條件
+
+- 掌心朝下，抬的是手背
+- 前臂全程留在大腿
+- 不要用甩動補幅度
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。使用很輕、能維持前臂支撐的單顆啞鈴；不要用一般彎舉重量做腕部動作。
+
+### 證據與限制
+
+- [DeltaBolic：坐姿啞鈴反向腕彎舉](https://www.youtube.com/shorts/wSwo6mKHgZI) — movement-specific；核對日期：2026-09-21；支持：坐姿單手、掌心朝下腕伸、前臂支撐。改用 #195 的 7、8、9 秒坐姿掌心朝下腕伸，6、10 秒為握法近景、11 秒切往另一動作；截取 7–10 秒，比原 #8 合集更聚焦。
+
+- text：文字來源已核對。改用 #195 的 7、8、9 秒坐姿掌心朝下腕伸，6、10 秒為握法近景、11 秒切往另一動作；截取 7–10 秒，比原 #8 合集更聚焦。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。逐格檢視：坐姿前傾、前臂完整靠大腿、掌心向下，手腕超出膝緣，以手背上抬而非屈肘。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。改用 #195 的 7、8、9 秒坐姿掌心朝下腕伸，6、10 秒為握法近景、11 秒切往另一動作；截取 7–10 秒，比原 #8 合集更聚焦。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[坐姿啞鈴反向腕彎舉短片示範](https://www.youtube.com/shorts/wSwo6mKHgZI)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-seated-reverse-wrist-curl-zh-tw.png`；SHA-256：`63b2597d46dd7885cce7926e85410373a52e015d8745539941ca84b9aadf37ba`
+- 原圖生成所依文字版本：22f3b4d218d5ffb6f309e429034b36c83d2f9b23655db7baf07d85f845a34d4d，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：嚴格工作側正側面，人物髖折前傾約 40 度，整條前臂沿大腿放平，手腕超出膝前；手腕動作另有近景。
+
+1. **掌心向下**：STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM DOWN pronated grip. Wrist at comfortable slightly lowered starting angle. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.
+   - 圖中文字：掌心朝下，前臂放穩。
+2. **手背抬起**：STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM DOWN pronated grip. Extend ONLY wrist a small amount so BACK of hand tilts upward. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.
+   - 圖中文字：小幅度抬手背，不抬手肘。
+3. **控制放回**：STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM DOWN pronated grip. Wrist at comfortable slightly lowered starting angle. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.
+   - 圖中文字：慢慢放回，每組左右各 10 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=7&end=10
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=7&end=10
+- 實際檢查秒點：6、7、8、8.3905、9、10、11
+- 播放區間：7 秒起，10 秒止
+- 可見內容：改用 #195 的 7、8、9 秒坐姿掌心朝下腕伸，6、10 秒為握法近景、11 秒切往另一動作；截取 7–10 秒，比原 #8 合集更聚焦。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-static-split-squat"></a>
+## 啞鈴原地分腿蹲
+
+- ID：`dumbbell-static-split-squat`；內容修訂：1
+- 內容 SHA-256：`fdfe85d41e9edc22f53f9794dc8d08520e455340ff3eb50ed97c16b1194610d4`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-static-split-squat.json)
+- 指定版本：雙手啞鈴原地分腿蹲，後腳腳跟抬起、前腳踩地，不是走動弓箭步。
+- 器材：啞鈴
+- 計數：每側下蹲並站回算 1 次；每組左右各 10 次，兩側完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙手各持輕啞鈴，前後腳分開站，左右保持髖寬、不站成一直線；前腳踩穩、後腳以前腳掌支撐。
+2. 軀幹自然直立或微前傾，彎曲兩側膝蓋向下，前膝沿腳尖方向，不內夾。
+3. 下降到可控制、沒有不適的深度，後膝接近地面但不撞地。
+4. 以前腳穩定出力站回，雙腳不移位；完成一側後換腳。
+
+### 重點與停止條件
+
+- 前腳踩穩，膝蓋順著腳尖
+- 上下移動，不向前衝
+- 平衡不足先徒手扶穩
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：啞鈴原地分腿蹲](https://www.youtube.com/shorts/mJilHWIBWO8) — movement-specific；核對日期：2026-09-21；支持：前後腳固定、後腳掌支撐、原地下降與站回。1.896 秒前腳支撐、4.741 秒後腿對照、7.585 秒直立分腿蹲；雙啞鈴置身側。
+
+- text：文字來源已核對。1.896 秒前腳支撐、4.741 秒後腿對照、7.585 秒直立分腿蹲；雙啞鈴置身側。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視雙啞鈴、前腳踩地、後腳跟抬起，原地下蹲至後膝近地並站回；圖中文字每側10次清楚。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。1.896 秒前腳支撐、4.741 秒後腿對照、7.585 秒直立分腿蹲；雙啞鈴置身側。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[啞鈴原地分腿蹲短片示範](https://www.youtube.com/shorts/mJilHWIBWO8)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-static-split-squat-zh-tw.png`；SHA-256：`07889d52813845d65bcaca51323c8261b0c53fb303f414fcd4ad56827b0e7034`
+- 原圖生成所依文字版本：fdfe85d41e9edc22f53f9794dc8d08520e455340ff3eb50ed97c16b1194610d4，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定側前三分之四，全身、兩腳接地與膝蓋可見。
+
+1. **前後站穩**：Adult woman holds two light dumbbells at sides in split stance, LEFT foot forward flat, RIGHT forefoot behind heel lifted, feet lateral hipwidth apart, upright torso.
+   - 圖中文字：前腳踩穩，後腳跟抬起。
+2. **原地下蹲**：Bend both knees lowering pelvis vertically, left front knee tracks toes, rear right knee hovers above floor, torso stable and dumbbells beside hips.
+   - 圖中文字：兩膝彎曲，後膝不撞地。
+3. **站回換側**：Extend knees and hips back to same split stance without moving feet, front heel stays grounded, no swinging weights.
+   - 圖中文字：控制站回，每組左右各 10 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/mJilHWIBWO8
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/mJilHWIBWO8
+- 實際檢查秒點：1.8962、4.7405、7.5848
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1.896 秒前腳支撐、4.741 秒後腿對照、7.585 秒直立分腿蹲；雙啞鈴置身側。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-bulgarian-split-squat"></a>
+## 啞鈴保加利亞分腿蹲
+
+- ID：`dumbbell-bulgarian-split-squat`；內容修訂：1
+- 內容 SHA-256：`5dbe10161e454e3c6d09d55461df0ac0cf44b1593be674d4ef573a7e5c5af4dc`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-bulgarian-split-squat.json)
+- 指定版本：後腳腳背放在穩固凳面、雙手持啞鈴的原地分腿蹲；需先具備徒手平衡。
+- 器材：啞鈴
+- 計數：每側下蹲站回算 1 次；每組左右各 8 次，兩側完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 先用徒手確認平衡，選穩固不滑動的矮凳；背對凳面，把後腳腳背輕放凳上，前腳踩穩。
+2. 前腳離凳適當距離、左右保留髖寬，雙手輕啞鈴垂身側，軀幹可自然微前傾。
+3. 以前腳彎膝下蹲，膝蓋沿腳尖方向，後腳只輔助平衡，不用它用力推凳。
+4. 下降到可控制深度後以前腳出力站回；慢慢放下啞鈴再換側，不跳躍換腳。
+
+### 重點與停止條件
+
+- 先徒手練穩再加重量
+- 凳面穩固，前腳全掌踩穩
+- 不強追深度或晃動
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 8 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：啞鈴保加利亞分腿蹲](https://www.youtube.com/shorts/or1frhkjBDc) — movement-specific；核對日期：2026-09-21；支持：後腳腳背支撐、前腳承重、軀幹可自然前傾。3.084 秒後腳腳背支撐、7.711 秒直立版本、12.337 秒自然前傾版本；本站採輕啞鈴自然微前傾。
+
+- text：文字來源已核對。3.084 秒後腳腳背支撐、7.711 秒直立版本、12.337 秒自然前傾版本；本站採輕啞鈴自然微前傾。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視後腳腳背在穩固凳面、前腳全掌支撐，兩啞鈴身側與前腳下蹲回程；每側8次一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。3.084 秒後腳腳背支撐、7.711 秒直立版本、12.337 秒自然前傾版本；本站採輕啞鈴自然微前傾。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[啞鈴保加利亞分腿蹲短片示範](https://www.youtube.com/shorts/or1frhkjBDc)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-bulgarian-split-squat-zh-tw.png`；SHA-256：`11558bb151988b985be8b2e58c9ad8af1d42a8cb103b2af4ff9392d1f03d7f2f`
+- 原圖生成所依文字版本：5dbe10161e454e3c6d09d55461df0ac0cf44b1593be674d4ef573a7e5c5af4dc，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，矮凳、後腳腳背與前腳全掌可見。
+
+1. **後腳放穩**：Woman holds two light dumbbells at sides, RIGHT foot top rests on a low sturdy bench behind, LEFT foot flat well forward; feet laterally apart, stable pelvis.
+   - 圖中文字：後腳輕放，前腳踩穩。
+2. **前腳下蹲**：Lower by flexing left front hip and knee, torso naturally slightly forward with neutral back; rear knee drops toward floor, rear instep remains on bench, front heel grounded.
+   - 圖中文字：前膝順腳尖，穩定下蹲。
+3. **站回換側**：Drive through front left foot to return tall split stance, rear foot remains light on bench, no jumping.
+   - 圖中文字：慢慢站回，每組左右各 8 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/or1frhkjBDc
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/or1frhkjBDc
+- 實際檢查秒點：3.0842、7.7105、12.3368
+- 播放區間：0 秒起，原片結尾
+- 可見內容：3.084 秒後腳腳背支撐、7.711 秒直立版本、12.337 秒自然前傾版本；本站採輕啞鈴自然微前傾。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="barbell-back-squat"></a>
+## 槓鈴背蹲
+
+- ID：`barbell-back-squat`；內容修訂：1
+- 內容 SHA-256：`7e215957691d61a50cb3eb287ecb3251be3c50351eb5668b37bea976b12670b8`
+- 唯一編輯來源：[JSON](../content/exercises/barbell-back-squat.json)
+- 指定版本：安全架內的槓鈴背蹲，槓放上背肌肉而非頸椎；不限定所有人同一蹲深。
+- 器材：槓鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 在深蹲架內設好低於預計最低槓位的安全桿；先用空槓練習，槓穩放上背肌肉、不可壓脖子。
+2. 雙手穩握，站起離架並小步退到安全桿內，雙腳約肩寬、腳尖自然微外轉。
+3. 腹部保持張力、持續呼吸，屈髖屈膝下蹲，膝蓋沿腳尖，腳掌全程踩穩。
+4. 在背部與腳部可控制的深度站起，不用腰猛拱；走回確認兩側掛鉤接住槓再鬆手。
+
+### 重點與停止條件
+
+- 用安全架，先練空槓
+- 槓放上背，不壓頸椎
+- 深度以穩定與舒適為準
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：槓鈴背蹲](https://www.youtube.com/shorts/dW3zj79xfrc) — movement-specific；核對日期：2026-09-21；支持：上背承槓、膝蓋腳尖方向、軀幹與下蹲。2.088 秒背部姿勢錯誤對照、5.221 秒上背承槓、8.353 秒正面膝部方向；本站加上安全架起落槓說明。
+
+- text：文字來源已核對。2.088 秒背部姿勢錯誤對照、5.221 秒上背承槓、8.353 秒正面膝部方向；本站加上安全架起落槓說明。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視上背承槓、固定架與安全桿、腳掌踩地，三格下蹲站回，沒有頸前或頸椎承槓。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.088 秒背部姿勢錯誤對照、5.221 秒上背承槓、8.353 秒正面膝部方向；本站加上安全架起落槓說明。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[槓鈴背蹲短片示範](https://www.youtube.com/shorts/dW3zj79xfrc)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-barbell-back-squat-zh-tw.png`；SHA-256：`9d06d188663d016c29c348f65f976002f0003fe0e55b9eccad00b835dbffdbc5`
+- 原圖生成所依文字版本：7e215957691d61a50cb3eb287ecb3251be3c50351eb5668b37bea976b12670b8，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定前側三分之四，全身，畫出安全架立柱與低位安全桿，不遮住腳。
+
+1. **安全架就位**：Woman inside squat rack with barbell across upper-back muscles NOT neck, hands wide grasp bar, feet shoulderwidth toes slightly out. Safety spotter rails just below intended squat bar height.
+   - 圖中文字：槓放上背，安全桿先設好。
+2. **穩定下蹲**：Flex hips and knees into controlled squat with bar over midfoot, knees track toes, heels down, neutral back. Depth roughly thighs near parallel only if stable; safety rails below bar.
+   - 圖中文字：腳掌踩穩，膝蓋順著腳尖。
+3. **平順站起**：Extend hips and knees together returning standing without lumbar hyperextension, bar stays upperback, rack and safety rails unchanged.
+   - 圖中文字：腿部出力，控制站回。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/dW3zj79xfrc
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/dW3zj79xfrc
+- 實際檢查秒點：2.0882、5.2205、8.3528
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.088 秒背部姿勢錯誤對照、5.221 秒上背承槓、8.353 秒正面膝部方向；本站加上安全架起落槓說明。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="barbell-front-squat"></a>
+## 槓鈴前蹲
+
+- ID：`barbell-front-squat`；內容修訂：1
+- 內容 SHA-256：`4c11aaecc0209bd4043e929560e2ae20271d03ea8848314847b05ac65aa43bd1`
+- 唯一編輯來源：[JSON](../content/exercises/barbell-front-squat.json)
+- 指定版本：舉重式前架握法的槓鈴前蹲，槓由前三角肌承重，不是手腕托起全部重量。
+- 器材：槓鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 在安全架內從空槓開始，安全桿放在預計最低槓位下方；槓放在前肩肌肉上，不壓喉嚨。
+2. 手指輕托槓、手肘抬向前方，保持能舒適支撐的前架位置；手腕痛或無法穩住槓時先停止。
+3. 雙腳約肩寬，腳掌踩穩，保持手肘高度並屈髖屈膝下蹲，膝蓋沿腳尖。
+4. 在穩定深度推地站起，不讓槓往前滾；確認回到兩側掛鉤後才鬆開。
+
+### 重點與停止條件
+
+- 前肩承重，不靠手腕硬撐
+- 手肘保持向前抬高
+- 握法不舒服先不加重量
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：槓鈴前蹲](https://www.youtube.com/shorts/_qv0m3tPd3s) — movement-specific；核對日期：2026-09-21；支持：前肩承槓近景、肘高與軀幹、膝蓋方向。2.944 秒前肩承槓、7.361 秒側視手肘與軀幹、11.777 秒正面蹲姿；採影片前架握法。
+
+- text：文字來源已核對。2.944 秒前肩承槓、7.361 秒側視手肘與軀幹、11.777 秒正面蹲姿；採影片前架握法。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。檢視前肩承槓、抬肘、腳掌落地與蹲起姿勢；已移除攝影指令文字。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.944 秒前肩承槓、7.361 秒側視手肘與軀幹、11.777 秒正面蹲姿；採影片前架握法。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[槓鈴前蹲短片示範](https://www.youtube.com/shorts/_qv0m3tPd3s)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-barbell-front-squat-zh-tw.png`；SHA-256：`597680dca996c3c536cb44c5f6f806ef7577b1e4ea23d9e7bea3f2d42c7dba34`
+- 原圖生成所依文字版本：4c11aaecc0209bd4043e929560e2ae20271d03ea8848314847b05ac65aa43bd1，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定前側三分之四，肩部槓位、手肘、雙腳與安全架清楚。
+
+1. **前肩承槓**：Woman inside squat rack, barbell rests on FRONT shoulders/deltoids not throat, fingers lightly under bar in clean rack grip with elbows pointing forward high. Feet shoulderwidth, safety rails set.
+   - 圖中文字：槓放前肩，手肘抬高。
+2. **保持下蹲**：Controlled front squat, elbows stay pointing forward, trunk upright relative to back squat, knees track toes heels on floor, bar stays on front deltoids.
+   - 圖中文字：手肘不掉，腳掌踩穩。
+3. **推地站回**：Rise by extending hips/knees together, front rack unchanged, no wrist strain or bar rolling.
+   - 圖中文字：平順站回，先穩再加重。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/_qv0m3tPd3s
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/_qv0m3tPd3s
+- 實際檢查秒點：2.9442、7.3605、11.7768
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.944 秒前肩承槓、7.361 秒側視手肘與軀幹、11.777 秒正面蹲姿；採影片前架握法。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-romanian-deadlift"></a>
+## 啞鈴羅馬尼亞硬舉
+
+- ID：`dumbbell-romanian-deadlift`；內容修訂：1
+- 內容 SHA-256：`f45115ba39fdc9db5afe5ad073e25f9bf1ee6e556d92460f845eb3b726587c75`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-romanian-deadlift.json)
+- 指定版本：雙手啞鈴站姿羅馬尼亞硬舉，從站姿下放，不要求啞鈴觸地。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 站穩、雙手各持啞鈴在大腿前，膝蓋保持小幅彎曲，頭頸延續背部方向。
+2. 臀部向後移動，軀幹隨髖折前傾，啞鈴貼近腿部慢慢下降，膝蓋不持續往前蹲。
+3. 下降到腿後側有拉伸、背部仍能穩定的範圍即可，啞鈴不一定到地面。
+4. 腳掌踩穩，將臀部帶回站姿；頂端站直即可，不向後拗腰。
+
+### 重點與停止條件
+
+- 想像臀部向後找牆
+- 啞鈴貼腿，不追求碰地
+- 背部穩定，不用腰甩起
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：啞鈴羅馬尼亞硬舉](https://www.youtube.com/shorts/hu3jRvTc_po) — movement-specific；核對日期：2026-09-21；支持：髖後移、膝微彎、啞鈴路徑。2.284 秒站姿背部對照、5.711 秒髖折箭頭、9.137 秒膝微彎與臀部後移。
+
+- text：文字來源已核對。2.284 秒站姿背部對照、5.711 秒髖折箭頭、9.137 秒膝微彎與臀部後移。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視膝微彎、臀後移、啞鈴近腿，回程站直不後仰，未把下放畫成深蹲。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.284 秒站姿背部對照、5.711 秒髖折箭頭、9.137 秒膝微彎與臀部後移。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[啞鈴羅馬尼亞硬舉短片示範](https://www.youtube.com/shorts/hu3jRvTc_po)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-romanian-deadlift-zh-tw.png`；SHA-256：`e8523638fa6823fca0f56b56f0386c93f96ef1b458e6c75b88b48a78dd3e5e94`
+- 原圖生成所依文字版本：f45115ba39fdc9db5afe5ad073e25f9bf1ee6e556d92460f845eb3b726587c75，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，全身與啞鈴貼腿路徑清楚。
+
+1. **站穩持鈴**：Woman stands feet hipwidth, holding two dumbbells at front thighs, knees softly bent, spine neutral.
+   - 圖中文字：雙腳踩穩，膝蓋微彎。
+2. **臀部後移**：Hinge at hips pushing butt backward with almost fixed soft knee angle, torso inclines with neutral back, dumbbells slide close to thighs to upper shins as mobility permits, neck follows torso.
+   - 圖中文字：臀部往後，啞鈴貼近腿。
+3. **站回直立**：Extend hips returning tall without leaning backward, dumbbells at thighs and feet fixed.
+   - 圖中文字：臀部帶回，不向後拗腰。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/hu3jRvTc_po
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/hu3jRvTc_po
+- 實際檢查秒點：2.2842、5.7105、9.1368
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.284 秒站姿背部對照、5.711 秒髖折箭頭、9.137 秒膝微彎與臀部後移。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-sumo-squat"></a>
+## 啞鈴相撲深蹲
+
+- ID：`dumbbell-sumo-squat`；內容修訂：1
+- 內容 SHA-256：`e3c488494f99db220614a3eba8be30dc71d32ad4e0c416d816899c49dc036ea8`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-sumo-squat.json)
+- 指定版本：雙手托住同一顆啞鈴上端、啞鈴垂於兩腿間的寬站距深蹲。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 雙腳比肩略寬，腳尖自然朝外，不強迫很大的外開角度；雙手穩握同一顆啞鈴上端。
+2. 啞鈴垂於兩腿間，胸口自然、腹部穩定，屈髖屈膝下蹲。
+3. 膝蓋沿腳尖方向移動，腳跟保持踩地，下降到可穩定控制的位置。
+4. 以雙腳推地站回，不把啞鈴甩起；若握力或站距不舒服就減重、縮小幅度。
+
+### 重點與停止條件
+
+- 一顆啞鈴，雙手握穩
+- 膝蓋與腳尖同方向
+- 不用刻意追求最大站距
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：啞鈴相撲深蹲](https://www.youtube.com/shorts/bRCjBCtBGIo) — movement-specific；核對日期：2026-09-21；支持：寬站距外轉、單顆啞鈴垂在腿間、下蹲膝方向。2.680 秒腳尖角度、6.701 秒側面中立背、10.721 秒正面雙手單顆啞鈴與膝方向。
+
+- text：文字來源已核對。2.680 秒腳尖角度、6.701 秒側面中立背、10.721 秒正面雙手單顆啞鈴與膝方向。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視寬站距與外轉腳尖、雙手共持一顆垂直啞鈴於腿間，膝蓋朝脚尖方向下蹲並回站姿。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。2.680 秒腳尖角度、6.701 秒側面中立背、10.721 秒正面雙手單顆啞鈴與膝方向。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[啞鈴相撲深蹲短片示範](https://www.youtube.com/shorts/bRCjBCtBGIo)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-sumo-squat-zh-tw.png`；SHA-256：`ca742be8d185c0d7a5aea4bcbaca75c9a857b4fecd00e8e8e3247482c3e5a50c`
+- 原圖生成所依文字版本：e3c488494f99db220614a3eba8be30dc71d32ad4e0c416d816899c49dc036ea8，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定前側三分之四，雙腳與同一顆垂直啞鈴完整。
+
+1. **寬站持鈴**：Woman stands moderately wider than shoulders toes turned out comfortably, both hands cup upper head of ONE vertical dumbbell hanging between thighs, arms long.
+   - 圖中文字：寬站穩，雙手握同一顆。
+2. **穩定下蹲**：Bend hips/knees with knees tracking outward toward toes, feet fully grounded and neutral back, single dumbbell hangs centrally between legs not raised to chest.
+   - 圖中文字：膝蓋順腳尖，腳跟不抬。
+3. **推地站回**：Extend hips/knees smoothly, same vertical dumbbell secure between thighs, no backward lean.
+   - 圖中文字：控制站回，不甩動啞鈴。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/bRCjBCtBGIo
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/bRCjBCtBGIo
+- 實際檢查秒點：2.6802、6.7005、10.7208
+- 播放區間：0 秒起，原片結尾
+- 可見內容：2.680 秒腳尖角度、6.701 秒側面中立背、10.721 秒正面雙手單顆啞鈴與膝方向。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="lying-leg-curl"></a>
+## 俯臥腿彎舉
+
+- ID：`lying-leg-curl`；內容修訂：1
+- 內容 SHA-256：`159196aaccc8d3fbe266c498a9ccacbe3a4018019f17d1a65787d38feb932d00`
+- 唯一編輯來源：[JSON](../content/exercises/lying-leg-curl.json)
+- 指定版本：俯臥雙腿彎舉、腳尖自然向前，不採外轉或內轉變化；滾墊位於腳踝上方的小腿後側。
+- 器材：腿彎舉機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 依機台標示調整滾墊與膝部轉軸位置，俯臥貼穩支撐墊，滾墊壓在腳踝上方的小腿後側、不是腳跟關節上。
+2. 握穩前方把手，腹部和骨盆貼穩墊面，雙腿自然伸長、膝蓋不鎖死，腳尖朝自然方向。
+3. 慢慢彎膝讓腳跟往臀部靠近，骨盆不要抬離墊面或拱腰追幅度。
+4. 控制伸膝放回，配重不撞擊；結束先放穩重量再離開。
+
+### 重點與停止條件
+
+- 骨盆全程貼穩
+- 滾墊放腳踝上方
+- 不要靠拱腰抬臀
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：俯臥腿彎舉](https://www.youtube.com/shorts/6eVuy_P5FR8) — movement-specific；核對日期：2026-09-21；支持：俯臥屈膝、自然腳尖段落、滾墊位置。0.5 秒腳底角度、2 秒自然方向俯臥雙腿、3 秒屈膝、4 秒轉入其他腳尖方向；截取 1–4 秒。完整軀幹支撐另核對 NASM。
+- [NASM：俯臥腿彎舉](https://www.nasm.org/resource-center/exercise-library/lying-leg-curl) — movement-specific；核對日期：2026-09-21；支持：腳踝上方滾墊、髖部貼墊、控制屈伸膝。採用器械設定、骨盆支撐與回程控制；不把來源訓練量作為本站個人處方。
+
+- text：文字來源已核對。0.5 秒腳底角度、2 秒自然方向俯臥雙腿、3 秒屈膝、4 秒轉入其他腳尖方向；截取 1–4 秒。完整軀幹支撐另核對 NASM。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視俯臥軀幹骨盆支撐，滾墊在小腿後側腳踝上方，屈膝腳跟升起而大腿留墊，回程不抬臀；機台為示意，設定依現場。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。0.5 秒腳底角度、2 秒自然方向俯臥雙腿、3 秒屈膝、4 秒轉入其他腳尖方向；截取 1–4 秒。完整軀幹支撐另核對 NASM。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[俯臥腿彎舉短片示範](https://www.youtube.com/shorts/6eVuy_P5FR8)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-lying-leg-curl-zh-tw.png`；SHA-256：`c24fa76b40765db209ce47a685a27f292f67808394e971a2f4848ad024ba8ec1`
+- 原圖生成所依文字版本：159196aaccc8d3fbe266c498a9ccacbe3a4018019f17d1a65787d38feb932d00，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，專用俯臥腿彎舉機、頭胸骨盆支撐、膝與滾墊可見。
+
+1. **俯臥就位**：Woman lies FACE DOWN on dedicated lying leg curl machine, torso and pelvis fully supported on pad, hands grip front handles, knees aligned machine hinge just beyond pad. Roller rests across BACK OF LOWER CALVES just above ankles, legs naturally extended. Face down neutral neck.
+   - 圖中文字：骨盆貼穩，滾墊在腳踝上方。
+2. **屈膝拉近**：Keeping hips on pad, flex both knees lifting heels toward butt, roller stays behind lower calves and lever pivots around knee hinge. Thighs and torso remain supported, not a hip extension.
+   - 圖中文字：慢慢彎膝，臀部不抬離。
+3. **控制放回**：Extend knees under control to starting position short of locking, roller mechanism follows same arc, toes neutral.
+   - 圖中文字：緩慢伸膝，配重不撞擊。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/6eVuy_P5FR8?start=1&end=4
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/6eVuy_P5FR8?start=1&end=4
+- 實際檢查秒點：0.5、2、3、4
+- 播放區間：1 秒起，4 秒止
+- 可見內容：0.5 秒腳底角度、2 秒自然方向俯臥雙腿、3 秒屈膝、4 秒轉入其他腳尖方向；截取 1–4 秒。完整軀幹支撐另核對 NASM。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="standing-cable-glute-kickback"></a>
+## 站姿滑輪臀後踢
+
+- ID：`standing-cable-glute-kickback`；內容修訂：1
+- 內容 SHA-256：`f63023f9fc6376ce3bd4541a90dfbf751fcb7e8d036b73c4871d7de4fd19abe0`
+- 唯一編輯來源：[JSON](../content/exercises/standing-cable-glute-kickback.json)
+- 指定版本：低滑輪踝帶、腿往正後方的臀後踢，不是 45 度外斜踢或側抬腿。
+- 器材：滑輪機
+- 計數：每側向後帶腿並放回算 1 次；每組左右各 10 次，兩側完成算 1 組。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 把合適踝帶扣在低位滑輪與工作腳踝，面向機台，雙手扶穩固定架，確認踝帶與扣環牢靠。
+2. 支撐腳微彎、髖部自然折起微前傾，腹部穩定，雙側骨盆朝向機台。
+3. 工作腿保持自然微彎，向正後方帶到臀部可出力的位置，不靠腰往後拗或身體轉開。
+4. 慢慢將腿帶回支撐腳附近，纜線不鬆甩；放穩後再換側。
+
+### 重點與停止條件
+
+- 往正後方，不往側邊踢
+- 骨盆朝前，不轉腰
+- 幅度小而穩也有效
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：站姿滑輪臀後踢](https://www.youtube.com/shorts/UbOcViik3hk) — movement-specific；核對日期：2026-09-21；支持：踝帶低滑輪、正後方腿路徑、扶架支撐。0 秒踝帶設定、2 與4 秒正後踢，5 秒轉入 45 度外斜方向，6 秒已為不同變化；截取 1–5 秒。
+
+- text：文字來源已核對。0 秒踝帶設定、2 與4 秒正後踢，5 秒轉入 45 度外斜方向，6 秒已為不同變化；截取 1–5 秒。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視固定架扶手、低滑輪踝帶連接，支撐脚固定、工作腿向正後方移動，不是外展版本，左右份量明確。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。0 秒踝帶設定、2 與4 秒正後踢，5 秒轉入 45 度外斜方向，6 秒已為不同變化；截取 1–5 秒。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[站姿滑輪臀後踢短片示範](https://www.youtube.com/shorts/UbOcViik3hk)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-standing-cable-glute-kickback-zh-tw.png`；SHA-256：`eec248bbdc45e313d3372ada11812ce039ed3af50f88a6ca738d59ee434e86c5`
+- 原圖生成所依文字版本：f63023f9fc6376ce3bd4541a90dfbf751fcb7e8d036b73c4871d7de4fd19abe0，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定工作側正側略偏後，全身、低滑輪與踝帶纜線可見。
+
+1. **扶架準備**：Woman faces cable tower at LEFT, hands hold stable uprights, torso slight hip hinge neutral back. LEFT leg supports with soft knee, RIGHT ankle cuff connected to low pulley in front. Right foot near floor beside left.
+   - 圖中文字：扶穩機架，腳踝扣好。
+2. **向後帶腿**：Extend RIGHT hip moving right leg straight backward to RIGHT with slight fixed knee bend, pelvis remains square no lumbar arch. Cable visibly connects low front pulley to right ankle cuff, left support foot stable.
+   - 圖中文字：往正後方帶腿，不拗腰。
+3. **控制換側**：Return right ankle near stance leg slowly, hands and left leg support unchanged, cable taut.
+   - 圖中文字：慢慢放回，每組左右各 10 次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/UbOcViik3hk?start=1&end=5
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/UbOcViik3hk?start=1&end=5
+- 實際檢查秒點：0、2、4、5、6
+- 播放區間：1 秒起，5 秒止
+- 可見內容：0 秒踝帶設定、2 與4 秒正後踢，5 秒轉入 45 度外斜方向，6 秒已為不同變化；截取 1–5 秒。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="dumbbell-standing-calf-raise"></a>
+## 雙腳啞鈴提踵
+
+- ID：`dumbbell-standing-calf-raise`；內容修訂：1
+- 內容 SHA-256：`54623bc96a4debbeec7b7885deb62647f3c3dabdb7602bcfcb4fb61385aa4b0a`
+- 唯一編輯來源：[JSON](../content/exercises/dumbbell-standing-calf-raise.json)
+- 指定版本：雙手各持啞鈴、雙腳同步的站姿提踵，使用穩固止滑的低踏板；平衡不足改扶牆徒手版本。
+- 器材：啞鈴
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 使用固定、止滑的低踏板，不疊啞鈴或鬆動槓片；先徒手確認平衡，再雙手持輕啞鈴垂身側。
+2. 雙腳前掌踩穩、腳尖朝自然前方，腳跟可小幅超出踏板；膝蓋自然伸長、不鎖死。
+3. 腳跟慢慢向上提，重心平均落在前掌，不向小腳趾側翻，也不彈跳。
+4. 控制腳跟下降到舒適範圍，不追求很深拉伸；需要扶穩時改用本站扶椅雙腳提踵。
+
+### 重點與停止條件
+
+- 踏板穩固，不疊鬆動重物
+- 腳跟上下，不向外翻
+- 失去平衡就改扶穩徒手
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：雙腳啞鈴提踵](https://www.youtube.com/shorts/wdOkFomQNp8) — movement-specific；核對日期：2026-09-21；支持：前掌踏板、腳跟升降、啞鈴負重。4.032 秒雙腳前掌踏板、10.081 秒腳尖方向錯誤對照、16.129 秒持啞鈴雙腳提踵；全身補以標準直立支撐圖解，不臆測影片重量。
+
+- text：文字來源已核對。4.032 秒雙腳前掌踏板、10.081 秒腳尖方向錯誤對照、16.129 秒持啞鈴雙腳提踵；全身補以標準直立支撐圖解，不臆測影片重量。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視雙前掌在單一穩固踏板、雙啞鈴垂身側，腳跟上提与回程、膝蓋自然伸長，沒有單腳或彈跳。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。4.032 秒雙腳前掌踏板、10.081 秒腳尖方向錯誤對照、16.129 秒持啞鈴雙腳提踵；全身補以標準直立支撐圖解，不臆測影片重量。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[雙腳啞鈴提踵短片示範](https://www.youtube.com/shorts/wdOkFomQNp8)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-standing-calf-raise-zh-tw.png`；SHA-256：`915b91d5a7b5b8d74ca95f7d4c729f3d639308c79b630f8ba79ac3694967d227`
+- 原圖生成所依文字版本：54623bc96a4debbeec7b7885deb62647f3c3dabdb7602bcfcb4fb61385aa4b0a，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏後，全身與前掌踏板、腳跟空間可見。
+
+1. **踏板站穩**：Woman stands upright holding light dumbbells at sides, BOTH forefeet on a single fixed nonslip low step, heels slightly over edge, toes natural forward, knees soft.
+   - 圖中文字：前掌踩穩，踏板不滑動。
+2. **腳跟上提**：Raise BOTH heels vertically by plantarflexing ankles, forefeet stay in contact step, torso upright and knees unchanged, no ankle rolling.
+   - 圖中文字：慢慢踮起，不向外翻。
+3. **控制下降**：Lower both heels toward comfortable starting level, not extreme drop, weights quiet at sides and body stable.
+   - 圖中文字：慢慢下降，不彈跳借力。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/wdOkFomQNp8
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/wdOkFomQNp8
+- 實際檢查秒點：4.0322、10.0805、16.1288
+- 播放區間：0 秒起，原片結尾
+- 可見內容：4.032 秒雙腳前掌踏板、10.081 秒腳尖方向錯誤對照、16.129 秒持啞鈴雙腳提踵；全身補以標準直立支撐圖解，不臆測影片重量。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="supine-crunch"></a>
+## 仰躺捲腹
+
+- ID：`supine-crunch`；內容修訂：1
+- 內容 SHA-256：`23bfb27b0ff1c1a81c48762ebe5cb090c0ecfab96b8409d18d3a7dc2b3ddd472`
+- 唯一編輯來源：[JSON](../content/exercises/supine-crunch.json)
+- 指定版本：屈膝、雙腳踩地的短幅捲腹，指尖輕放頭側，不用雙手拉頭。
+- 器材：瑜珈墊
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 仰躺墊上、屈膝雙腳踩地，指尖輕放頭側，手肘自然向外，頭頸保持自然。
+2. 吐氣，腹部出力把肩胛骨附近小幅帶離墊面，下背與骨盆保持穩定。
+3. 不把下巴硬壓向胸口、不用手拉脖子，也不追求坐起。
+4. 吸氣慢慢放回上背與頭部；若脖子痠痛或腰部不舒服，縮小幅度或停止。
+
+### 重點與停止條件
+
+- 捲上背，不是坐起來
+- 手指輕放，不拉脖子
+- 慢慢回程，持續呼吸
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。徒手即可，不用抱槓片；先以不拉扯脖子的幅度練習。
+
+### 證據與限制
+
+- [DeltaBolic：仰躺捲腹](https://www.youtube.com/shorts/acj52MXBaeo) — movement-specific；核對日期：2026-09-21；支持：屈膝腳踩地、小幅上背捲起、與後段抬腿區分。0.5、2 秒為屈膝捲腹，3 秒已切入抬腿；限定 0–3 秒，不採後段其他動作。
+
+- text：文字來源已核對。0.5、2 秒為屈膝捲腹，3 秒已切入抬腿；限定 0–3 秒，不採後段其他動作。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。檢視上背小幅捲起、雙腳踩地、骨盆留墊，非完整仰臥起坐；已移除攝影指令文字。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。0.5、2 秒為屈膝捲腹，3 秒已切入抬腿；限定 0–3 秒，不採後段其他動作。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[仰躺捲腹短片示範](https://www.youtube.com/shorts/acj52MXBaeo)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-supine-crunch-zh-tw.png`；SHA-256：`efb7988704bef9789d71377cf3b7a988fa076c004e33b221f6b14790883cc5e7`
+- 原圖生成所依文字版本：23bfb27b0ff1c1a81c48762ebe5cb090c0ecfab96b8409d18d3a7dc2b3ddd472，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側面全身，頭頸、肩胛離墊與雙腳踩地可見。
+
+1. **屈膝仰躺**：Woman lies supine on yoga mat, knees bent feet flat floor, fingertips lightly beside temples, elbows relaxed wide, head on mat neck neutral.
+   - 圖中文字：雙腳踩地，手指輕放頭側。
+2. **小幅捲起**：Curl upper spine so shoulder blades just lift off mat, lower back and pelvis remain stable, fingertips do not pull head, gaze follows natural neck toward knees.
+   - 圖中文字：腹部出力，不用手拉頭。
+3. **慢慢放回**：Lower shoulder blades and head back to mat with control, knees and feet unmoved.
+   - 圖中文字：緩慢放回，不追求坐起。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=0&end=3
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=0&end=3
+- 實際檢查秒點：0.5、2、3
+- 播放區間：0 秒起，3 秒止
+- 可見內容：0.5、2 秒為屈膝捲腹，3 秒已切入抬腿；限定 0–3 秒，不採後段其他動作。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="supine-leg-raise"></a>
+## 仰躺抬腿
+
+- ID：`supine-leg-raise`；內容修訂：1
+- 內容 SHA-256：`c26882f4c7ed8f2677cb6353c5956651108773129400deecc6919e7b88141d9b`
+- 唯一編輯來源：[JSON](../content/exercises/supine-leg-raise.json)
+- 指定版本：雙腿同步抬起、頭背靠墊的仰躺抬腿；不採懸垂版本，也不把下背離地拱起。
+- 器材：瑜珈墊
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 仰躺墊上，雙手放身側，頭與肩放鬆靠墊；雙腿伸長或保留自然微彎。
+2. 腹部保持張力，將兩腿一起抬向上方，骨盆不要突然捲起甩動。
+3. 慢慢下降到腰背仍舒適穩定的位置即可，不要求腳跟碰地。
+4. 若開始拱腰、憋氣或不舒服，提早回程、彎膝降低難度或停止。
+
+### 重點與停止條件
+
+- 下降幅度由腰背控制決定
+- 不用雙腿甩動借力
+- 先穩住，再加大幅度
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。徒手練習；腰部無法維持舒適穩定時先改屈膝或減少下降幅度。
+
+### 證據與限制
+
+- [DeltaBolic：仰躺抬腿](https://www.youtube.com/shorts/TkCoHrR6Y7Q) — movement-specific；核對日期：2026-09-21；支持：雙腿同步、頭背墊上支撐、抬腿短片區間。9 秒腿下降、10 秒雙腿抬高，8 與11 秒為其他動作；影片段落短，限定 9–11 秒輔助確認雙腿路徑。
+
+- text：文字來源已核對。9 秒腿下降、10 秒雙腿抬高，8 與11 秒為其他動作；影片段落短，限定 9–11 秒輔助確認雙腿路徑。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。檢視仰躺雙腿同步抬起與控制下降、頭背留墊；已移除攝影指令文字。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。9 秒腿下降、10 秒雙腿抬高，8 與11 秒為其他動作；影片段落短，限定 9–11 秒輔助確認雙腿路徑。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[仰躺抬腿短片示範](https://www.youtube.com/shorts/TkCoHrR6Y7Q)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-supine-leg-raise-zh-tw.png`；SHA-256：`add8e1c1fa8b0e9be14d354a4abd9a71474f727ce4e44ff209e53c7235c53434`
+- 原圖生成所依文字版本：c26882f4c7ed8f2677cb6353c5956651108773129400deecc6919e7b88141d9b，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側面，全身與腰背墊面關係清楚。
+
+1. **仰躺準備**：Woman supine on mat, head shoulders pelvis resting, hands palms down beside torso, legs together elevated moderately with soft knees, low back comfortable not arched.
+   - 圖中文字：頭背放鬆，腹部保持穩定。
+2. **雙腿抬高**：Raise both legs together toward vertical with soft knees, pelvis stays controlled on mat no hip throw, hands by sides.
+   - 圖中文字：雙腿同步，不甩動骨盆。
+3. **控制下降**：Lower legs only to about45degrees or a comfortable angle that preserves stable low back, heels still off mat, no arch, show not flat low extreme.
+   - 圖中文字：腰背穩定的範圍內慢慢放下。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=9&end=11
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=9&end=11
+- 實際檢查秒點：8、9、10、11
+- 播放區間：9 秒起，11 秒止
+- 可見內容：9 秒腿下降、10 秒雙腿抬高，8 與11 秒為其他動作；影片段落短，限定 9–11 秒輔助確認雙腿路徑。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="bicycle-crunch"></a>
+## 自行車捲腹
+
+- ID：`bicycle-crunch`；內容修訂：1
+- 內容 SHA-256：`b0f1641f727de8fe215432a7cf0c5fe8862eeeebbb7206816e2a750384e5094a`
+- 唯一編輯來源：[JSON](../content/exercises/bicycle-crunch.json)
+- 指定版本：仰躺交替自行車捲腹，以肩膀轉向對側膝，不用手肘硬撞膝蓋。
+- 器材：瑜珈墊
+- 計數：左右各做一次合計 1 次；每組 8 次即左右各 8 下，兩側不重複加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 仰躺、雙腿抬起屈膝，指尖輕放頭側，肩胛骨小幅離墊，脖子保持自然。
+2. 將一側膝蓋朝軀幹收近，另一腿慢慢伸出；讓對側肩膀朝收近的膝蓋小幅轉動。
+3. 慢慢回中間並換側，不用手拉頭或手肘硬碰膝蓋。
+4. 腰背保持舒適穩定；做不到時提高伸出腿的角度或減少幅度，脖子不適就停止。
+
+### 重點與停止條件
+
+- 肩膀轉動，不拉脖子
+- 慢慢交替，不用趕速度
+- 左右各一下算一次
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 8 次；組間休息 60 秒。徒手即可；放慢速度、縮小伸腿幅度，不以碰到膝蓋為目標。
+
+### 證據與限制
+
+- [DeltaBolic：自行車捲腹](https://www.youtube.com/shorts/acj52MXBaeo) — movement-specific；核對日期：2026-09-21；支持：交替伸腿、對側上背旋轉、雙側計數。7、8、9 秒為自行車捲腹左右交替，6 秒仍是前段抬腿結尾；採 7–10 秒。
+
+- text：文字來源已核對。7、8、9 秒為自行車捲腹左右交替，6 秒仍是前段抬腿結尾；採 7–10 秒。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。逐格檢視左右彎膝與伸腿已確實交替、对側肩轉向彎膝側，手未強拉頭，左右各一下的文字一致。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。7、8、9 秒為自行車捲腹左右交替，6 秒仍是前段抬腿結尾；採 7–10 秒。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[自行車捲腹短片示範](https://www.youtube.com/shorts/acj52MXBaeo)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-bicycle-crunch-zh-tw.png`；SHA-256：`fc132752d2447245b1f9845e887f98afb107423df542244fe4dc909323db9325`
+- 原圖生成所依文字版本：b0f1641f727de8fe215432a7cf0c5fe8862eeeebbb7206816e2a750384e5094a，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定偏高正面視角，頭在畫面上、雙腳在畫面下，左右腿交替清楚。
+
+1. **屈膝準備**：Fixed overhead/oblique FRONT view identical all panels, head at top feet bottom, woman's RIGHT LEG on screen LEFT, LEFT LEG on screen RIGHT. Both knees bent over hips, fingertips lightly temples, shoulder blades raised. Clearly alternate BENT and STRAIGHT legs between frames2/3; no camera rotation, no hand pulling neck. Whole body visible.
+   - 圖中文字：手指輕放，雙膝抬起。
+2. **先做一側**：Fixed overhead/oblique FRONT view identical all panels, head at top feet bottom, woman's RIGHT LEG on screen LEFT, LEFT LEG on screen RIGHT. SCREEN LEFT knee bent toward chest, SCREEN RIGHT leg extended away straight. SCREEN RIGHT shoulder curls toward SCREEN LEFT knee. Clearly alternate BENT and STRAIGHT legs between frames2/3; no camera rotation, no hand pulling neck. Whole body visible.
+   - 圖中文字：對側肩膀轉向收近的膝蓋。
+3. **交替換側**：Fixed overhead/oblique FRONT view identical all panels, head at top feet bottom, woman's RIGHT LEG on screen LEFT, LEFT LEG on screen RIGHT. SCREEN RIGHT knee bent toward chest, SCREEN LEFT leg extended away straight. SCREEN LEFT shoulder curls toward SCREEN RIGHT knee. Clearly alternate BENT and STRAIGHT legs between frames2/3; no camera rotation, no hand pulling neck. Whole body visible.
+   - 圖中文字：慢慢換側，左右各一下算一次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=7&end=10
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=7&end=10
+- 實際檢查秒點：6、7、8、9
+- 播放區間：7 秒起，10 秒止
+- 可見內容：7、8、9 秒為自行車捲腹左右交替，6 秒仍是前段抬腿結尾；採 7–10 秒。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="russian-twist"></a>
+## 俄羅斯轉體
+
+- ID：`russian-twist`；內容修訂：1
+- 內容 SHA-256：`d78c9c47d92b3c8e0826761cf9fd89d4c7bba52e06c58fd4fb52ea0986806d45`
+- 唯一編輯來源：[JSON](../content/exercises/russian-twist.json)
+- 指定版本：雙腳離地的徒手俄羅斯轉體，屈膝、軀幹自然後傾，幅度小而受控。
+- 器材：瑜珈墊
+- 計數：向左與向右各轉一次合計 1 次；每組 8 次即左右各 8 下。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 坐在瑜珈墊上、屈膝，背部保持自然延伸，軀幹微後傾；先能穩定坐好再輕抬雙腳。
+2. 雙手放胸前，骨盆穩定，讓胸口小幅轉向一側，不追求手碰地。
+3. 控制回到中間，再小幅轉向另一側，雙腿不跟著大幅甩動。
+4. 全程持續呼吸；腰背不舒服、容易圓背或晃動時停止，先選死蟲等較穩定的核心動作。
+
+### 重點與停止條件
+
+- 徒手小幅轉，不用重物甩動
+- 保持坐穩，不追求碰地
+- 腰背不適就換較穩定動作
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 8 次；組間休息 60 秒。徒手即可；此為雙腳離地進階版，無法穩定坐姿時不要加重量。
+
+### 證據與限制
+
+- [DeltaBolic：俄羅斯轉體](https://www.youtube.com/shorts/TkCoHrR6Y7Q) — movement-specific；核對日期：2026-09-21；支持：坐姿雙腳離地、徒手左右轉、後傾與屈膝。16、17.169、18 秒為雙腳離地俄羅斯轉體；15 秒前一動作，20 秒自行車捲腹，限定 16–19 秒。
+
+- text：文字來源已核對。16、17.169、18 秒為雙腳離地俄羅斯轉體；15 秒前一動作，20 秒自行車捲腹，限定 16–19 秒。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。檢視兩格已呈現相反方向胸口轉動、頭與手自然跟隨，雙腳離地、屈膝坐姿與左右計數一致。兩格呈相對側三分之四視角，不能由此量測角度；教學要求骨盆穩定。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。16、17.169、18 秒為雙腳離地俄羅斯轉體；15 秒前一動作，20 秒自行車捲腹，限定 16–19 秒。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[俄羅斯轉體短片示範](https://www.youtube.com/shorts/TkCoHrR6Y7Q)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-russian-twist-zh-tw.png`；SHA-256：`1c3b84472f34e2381624ca7005efcb7201e5c97058874a01fda8fd76750c716e`
+- 原圖生成所依文字版本：d78c9c47d92b3c8e0826761cf9fd89d4c7bba52e06c58fd4fb52ea0986806d45，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正面，兩格清楚左右轉體，視線自然跟隨胸口。
+
+1. **小幅轉左**：Fixed FRONT view, feet foreground, seated woman bent knees BOTH feet slightly hovering centered. Pelvis/knees front-facing. Turn CHEST, joined HANDS and HEAD ALL together toward SCREEN RIGHT (woman's LEFT). Hands just outside screenright ribcage, not on ground. Neutral longback slightlyreclined. Wholebody.
+   - 圖中文字：胸口小幅轉左，骨盆與雙腿穩定。
+2. **控制轉右**：Fixed FRONT same view feetforeground seatedwoman bentknees BOTHfeet slightlyhovering centered SAME positions as panel1. Pelvis/kneesfront. Turn CHEST, joined HANDS and HEAD ALL toward SCREEN LEFT (woman's RIGHT), opposite of panel1. Hands just outside screenLEFT ribcage. Neutral longback mildlyreclined. Wholebody.
+   - 圖中文字：經中間再轉右，左右各一下算一次。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=16&end=19
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=16&end=19
+- 實際檢查秒點：15、16、17.1688、18、20
+- 播放區間：16 秒起，19 秒止
+- 可見內容：16、17.169、18 秒為雙腳離地俄羅斯轉體；15 秒前一動作，20 秒自行車捲腹，限定 16–19 秒。
+- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
+
+<a id="kneeling-cable-crunch"></a>
+## 跪姿滑輪捲腹
+
+- ID：`kneeling-cable-crunch`；內容修訂：1
+- 內容 SHA-256：`ba9c7e7a2b1b9fc0e89251a4d1cc9901eaa66d2a6d52f7bbb5ed25f95a663012`
+- 唯一編輯來源：[JSON](../content/exercises/kneeling-cable-crunch.json)
+- 指定版本：面向高位滑輪的跪姿繩索捲腹；髖部相對穩定，不是單純屈髖拉繩。
+- 器材：滑輪機
+- 計數：完成主要動作與控制回程算 1 次，雙側同步不加倍。
+- 呼吸：出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。
+- 份量性質：本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。
+
+### 教學
+
+1. 在高滑輪扣好繩索，墊好膝下，面向機台跪穩；雙手握繩放頭側，重量先很輕。
+2. 手與上臂維持相對固定位置，髖部不要一直往前後推，腹部保持張力。
+3. 吐氣，以腹部讓胸廓小幅往骨盆捲近，上背自然彎曲，不用手臂向下拉。
+4. 慢慢回到起點，避免完全伸展拱腰或臀部坐到腳跟；膝、腰或頸不適就停止。
+
+### 重點與停止條件
+
+- 胸廓捲向骨盆，不是屁股往後坐
+- 雙手只是握住繩索
+- 慢慢回程，不拱腰
+- 出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。
+
+### 起始參考份量
+
+2 組 × 10 次；組間休息 60 秒。先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。
+
+### 證據與限制
+
+- [DeltaBolic：跪姿滑輪捲腹](https://www.youtube.com/shorts/K2m0jj6RfYg) — movement-specific；核對日期：2026-09-21；支持：髖部固定對照、捲腹與屈髖差異、高位繩索跪姿。1.168、2.921、4.673 秒上下分割：下半部綠勾髖相對固定、脊柱捲動；上半部紅叉為屈髖或伸展錯誤。以綠勾版本作示範。
+
+- text：文字來源已核對。1.168、2.921、4.673 秒上下分割：下半部綠勾髖相對固定、脊柱捲動；上半部紅叉為屈髖或伸展錯誤。以綠勾版本作示範。；已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。
+- image：已視覺檢查（非專業認證）。已檢視膝墊、面向高滑輪、繩索頭側握住，中格胸廓捲動而髖部未坐到腳跟；回程自然無過伸。；視覺檢查不等於生物力學量測或專業動作認證。
+- video：僅片段抽查。1.168、2.921、4.673 秒上下分割：下半部綠勾髖相對固定、脊柱捲動；上半部紅叉為屈髖或伸展錯誤。以綠勾版本作示範。；實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。
+- 影片：[跪姿滑輪捲腹短片示範](https://www.youtube.com/shorts/K2m0jj6RfYg)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- 原圖：`public/exercise-guides/skill-final/fitness-kneeling-cable-crunch-zh-tw.png`；SHA-256：`3f28ca7e7a49ad3e88eec2faa1da55ae2d4cb4a33829ee8eacfbe73471c1a46e`
+- 原圖生成所依文字版本：ba9c7e7a2b1b9fc0e89251a4d1cc9901eaa66d2a6d52f7bbb5ed25f95a663012，不得事後填成目前版本。
+
+### 後續產圖分鏡
+
+狀態：ready；鏡頭：固定正側略偏前，繩索高滑輪、頭側雙手、膝墊與骨盆位置完整。
+
+1. **跪穩握繩**：Woman kneels on padded mat facing cable tower, knees under hips, hands holding rope ends beside temples attached high pulley in front. Torso naturally tall with slight inclination, elbows bent fixed near head.
+   - 圖中文字：膝下墊穩，繩索握在頭側。
+2. **腹部捲動**：Flex upper spine drawing ribs toward pelvis, hands stay beside temples and arms do not pull independently. Hips stay above knees without sitting back, torso visibly rounds under controlled abdominal contraction.
+   - 圖中文字：胸廓捲向骨盆，髖部少移動。
+3. **緩慢回程**：Uncurl torso to starting neutral without hyperextending low back, hips same location above knees, rope taut and hands headside.
+   - 圖中文字：慢慢回程，不向後拗腰。
+
+### 影片核對紀錄
+
+- 嵌入網址：https://www.youtube-nocookie.com/embed/K2m0jj6RfYg
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/K2m0jj6RfYg
+- 實際檢查秒點：1.1682、2.9205、4.6728
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1.168、2.921、4.673 秒上下分割：下半部綠勾髖相對固定、脊柱捲動；上半部紅叉為屈髖或伸展錯誤。以綠勾版本作示範。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。

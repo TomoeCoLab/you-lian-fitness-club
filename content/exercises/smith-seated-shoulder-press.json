@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "smith-seated-shoulder-press",
+    "name": "史密斯坐姿肩推",
+    "bodyParts": [
+      "肩",
+      "手臂"
+    ],
+    "equipment": "史密斯機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐穩靠背椅，沿史密斯軌道由肩前向上推，保持背部與腳部支撐。",
+    "instructions": [
+      "把靠背椅置於史密斯機中，椅背接近直立；空槓確認槓在臉部前方的安全路徑，先設安全擋。",
+      "坐穩、雙腳踩地，頭背與臀部有支撐；雙手正握，手腕與前臂對齊。",
+      "由下巴至肩前的舒服起點向上推，沿機台軌道伸肘，不聳肩硬擠或拱腰。",
+      "控制降回肩前，不降到頸後；結束確認掛回固定後才鬆手。"
+    ],
+    "cues": [
+      "槓在身體前方，不推頸後",
+      "靠背與雙腳支撐不離開",
+      "機台解鎖方式依現場說明"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/E7ngsffMPR0",
+      "watchUrl": "https://www.youtube.com/shorts/E7ngsffMPR0",
+      "title": "史密斯坐姿肩推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/E7ngsffMPR0",
+    "sourceLabel": "DeltaBolic：史密斯坐姿肩推示範"
+  },
+  "definition": {
+    "variation": "接近直立靠背椅的史密斯肩前推舉；非頸後推或上斜胸推。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/E7ngsffMPR0",
+      "label": "DeltaBolic：史密斯坐姿肩推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "坐姿靠背",
+        "肩前推舉",
+        "握法與前臂對齊"
+      ],
+      "note": "2.536 秒握法錯誤對照、6.341 秒手肘外張錯誤、10.145 秒坐姿靠背肩前推舉；與上斜胸推分開。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "292e7118c1340693f253fa4b5989559834e5978ed4e0516c1168e4b40857df6d",
+      "findings": [
+        "2.536 秒握法錯誤對照、6.341 秒手肘外張錯誤、10.145 秒坐姿靠背肩前推舉；與上斜胸推分開。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "292e7118c1340693f253fa4b5989559834e5978ed4e0516c1168e4b40857df6d",
+      "reviewedImageSha256": "fcd0608295d35e3402d2ffab4ddc9ac9e7f82ba04b786f272c076828378cdfbb",
+      "findings": [
+        "已檢視原圖：近直立靠背與雙腳支撐，槓在肩前沿固定導軌推起與回程，未畫成頸後推舉。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/E7ngsffMPR0",
+      "check": {
+        "videoId": "E7ngsffMPR0",
+        "seconds": [
+          2.5362,
+          6.3405,
+          10.1448
+        ],
+        "observation": "2.536 秒握法錯誤對照、6.341 秒手肘外張錯誤、10.145 秒坐姿靠背肩前推舉；與上斜胸推分開。"
+      },
+      "findings": [
+        "2.536 秒握法錯誤對照、6.341 秒手肘外張錯誤、10.145 秒坐姿靠背肩前推舉；與上斜胸推分開。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "292e7118c1340693f253fa4b5989559834e5978ed4e0516c1168e4b40857df6d",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-smith-seated-shoulder-press-zh-tw.png",
+    "sha256": "fcd0608295d35e3402d2ffab4ddc9ac9e7f82ba04b786f272c076828378cdfbb",
+    "generatedFromContentHash": "292e7118c1340693f253fa4b5989559834e5978ed4e0516c1168e4b40857df6d",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定斜側面，全身、靠背、雙腳與導軌可見，槓在臉前而非頸後。",
+      "frames": [
+        {
+          "title": "靠背準備",
+          "pose": "Woman seated on80degree upright bench inside Smith frame, feet flat, back head butt supported. Bar at chin/front shoulder height, overhand closed grip wider than shoulders, forearms vertical under bar, bar in front of face.",
+          "caption": "背靠穩、腳踩地，槓在肩前。"
+        },
+        {
+          "title": "沿軌推起",
+          "pose": "Same posture and guide rails, elbows extend to push bar above head slightly in front, no back arch, no butt lift, gaze neutral along head.",
+          "caption": "沿軌向上推，不拱腰借力。"
+        },
+        {
+          "title": "控制降回",
+          "pose": "Lower bar to comfortable chin/front shoulder level without going behind neck. Forearms support bar, head back and feet unchanged.",
+          "caption": "回到肩前，掛回固定後再鬆手。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 史密斯坐姿肩推; subtitle 坐穩靠背椅，沿史密斯軌道由肩前向上推，保持背部與腳部支撐。; camera 固定斜側面，全身、靠背、雙腳與導軌可見，槓在臉前而非頸後。; render each step title and caption verbatim and depict pose: [{\"title\":\"靠背準備\",\"pose\":\"Woman seated on80degree upright bench inside Smith frame, feet flat, back head butt supported. Bar at chin/front shoulder height, overhand closed grip wider than shoulders, forearms vertical under bar, bar in front of face.\",\"caption\":\"背靠穩、腳踩地，槓在肩前。\"},{\"title\":\"沿軌推起\",\"pose\":\"Same posture and guide rails, elbows extend to push bar above head slightly in front, no back arch, no butt lift, gaze neutral along head.\",\"caption\":\"沿軌向上推，不拱腰借力。\"},{\"title\":\"控制降回\",\"pose\":\"Lower bar to comfortable chin/front shoulder level without going behind neck. Forearms support bar, head back and feet unchanged.\",\"caption\":\"回到肩前，掛回固定後再鬆手。\"}]; bottom three columns 動作重點 [\"槓在身體前方，不推頸後\",\"靠背與雙腳支撐不離開\",\"機台解鎖方式依現場說明\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

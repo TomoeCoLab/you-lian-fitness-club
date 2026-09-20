@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "dumbbell-chest-press",
     "name": "啞鈴胸推",
@@ -31,11 +31,12 @@
       "load": "選擇能保留約 2 次餘力的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
-      "watchUrl": "https://www.youtube.com/watch?v=Am787GTLclY",
-      "title": "啞鈴仰臥推舉",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mTaiQemkEpU",
+      "watchUrl": "https://www.youtube.com/shorts/mTaiQemkEpU",
+      "title": "啞鈴胸推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/19/chest-press/",
     "sourceLabel": "ACE：平板啞鈴胸推"
@@ -64,55 +65,69 @@
       "scope": "movement-specific",
       "checkedAt": "2026-09-20",
       "supports": [
-        "仰躺長椅、頭肩臀支撐、雙脚踩地",
+        "仰躺長椅、頭肩臀支撐、雙腳踩地",
         "中立手腕與控制推舉",
         "不彈震、控制回程"
       ],
       "note": "已核對起始到收尾；本站不強求啞鈴碰胸，依肩膀可控幅度。需要時請保護者協助拿放重量。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/mTaiQemkEpU",
+      "label": "DeltaBolic：啞鈴胸推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "2a931cd4af67254be8fc2f2cbf5ada59bfa75edda3b7d71d2f4bc62faba3b525",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "30e07f9e61266b787ba0a054d88427d624ee06c7887d79dea3a7767d6f43ff7a",
       "findings": [
         "已核對起始到收尾；本站不強求啞鈴碰胸，依肩膀可控幅度。需要時請保護者協助拿放重量。",
-        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。",
+        "平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "2a931cd4af67254be8fc2f2cbf5ada59bfa75edda3b7d71d2f4bc62faba3b525",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "30e07f9e61266b787ba0a054d88427d624ee06c7887d79dea3a7767d6f43ff7a",
       "reviewedImageSha256": "9bf42ccd56634257dd4e91e1f93db61c2941a814c0b75cfd45fb2429ce56931f",
       "findings": [
         "平椅仰躺雙啞鈴推舉，前臂接近垂直，下降不過度；8–12 次 3 組包含本站 10 次 3 組。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "本次重新開啟原圖檢視：平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/mTaiQemkEpU",
       "check": {
-        "videoId": "Am787GTLclY",
+        "videoId": "mTaiQemkEpU",
         "seconds": [
-          26,
-          38,
-          41,
-          47
+          2.2002,
+          5.5005,
+          8.8008
         ],
-        "observation": "重新核對平板長椅、雙手各持一顆啞鈴，推起及下降胸側；非槓鈴或上斜版本。"
+        "observation": "平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。"
       },
       "findings": [
-        "重新核對平板長椅、雙手各持一顆啞鈴，推起及下降胸側；非槓鈴或上斜版本。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "平板椅雙啞鈴胸側推起、肩肘正誤對照；原圖同支撐與路徑。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "2a931cd4af67254be8fc2f2cbf5ada59bfa75edda3b7d71d2f4bc62faba3b525",
+      "auditBaselineContentHash": "30e07f9e61266b787ba0a054d88427d624ee06c7887d79dea3a7767d6f43ff7a",
       "history": [
         {
           "video": {
@@ -142,6 +157,37 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "9218fc7d42dcd3b3e19c3ff763dfc70b8238b510bb063277e008efea3adb615d"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
+            "watchUrl": "https://www.youtube.com/watch?v=Am787GTLclY",
+            "title": "啞鈴仰臥推舉",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
+            "check": {
+              "videoId": "Am787GTLclY",
+              "seconds": [
+                26,
+                38,
+                41,
+                47
+              ],
+              "observation": "重新核對平板長椅、雙手各持一顆啞鈴，推起及下降胸側；非槓鈴或上斜版本。"
+            },
+            "findings": [
+              "重新核對平板長椅、雙手各持一顆啞鈴，推起及下降胸側；非槓鈴或上斜版本。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "2a931cd4af67254be8fc2f2cbf5ada59bfa75edda3b7d71d2f4bc62faba3b525"
           }
         }
       ]

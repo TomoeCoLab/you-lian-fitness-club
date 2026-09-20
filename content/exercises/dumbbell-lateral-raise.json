@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "dumbbell-lateral-raise",
     "name": "啞鈴側平舉",
@@ -29,11 +29,12 @@
       "load": "選擇能控制下放 2 秒的輕重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183",
-      "watchUrl": "https://www.youtube.com/watch?v=vR5fCLCTNq4&t=95s",
-      "title": "啞鈴側平舉教學",
-      "channel": "女力健身 Nuli App",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Kl3LEzQ5Zqs",
+      "watchUrl": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs",
+      "title": "啞鈴側平舉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/",
     "sourceLabel": "ACE：啞鈴側平舉"
@@ -66,56 +67,65 @@
         "抬到肩高、緩慢回程與手腕中立"
       ],
       "note": "已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs",
+      "label": "DeltaBolic：啞鈴側平舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "站姿微彎肘側平舉；原圖控制到肩高、不甩動。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "08fdc27cd7328833b451e8d17ada02d7ee6d7eb3a5027a4848ba44b3a0d7ad0b",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "b8671450477ee3b2247412df39df793d52cc092bb79a4fff9b8a79c1633d9f64",
       "findings": [
         "已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。",
         "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
-        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。",
+        "站姿微彎肘側平舉；原圖控制到肩高、不甩動。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "08fdc27cd7328833b451e8d17ada02d7ee6d7eb3a5027a4848ba44b3a0d7ad0b",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "b8671450477ee3b2247412df39df793d52cc092bb79a4fff9b8a79c1633d9f64",
       "reviewedImageSha256": "0f772fe35d3a10e67b54e879892f641c9e7892314dd8817428dcadd9ec6e1320",
       "findings": [
         "微屈肘向斜前外側抬至肩高，再控制下放；非前平舉過頭，10–15 次 3 組包含本站 12 次。",
         "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
-        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。",
+        "本次重新開啟原圖檢視：站姿微彎肘側平舉；原圖控制到肩高、不甩動。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": null,
-      "fullPlaybackReviewed": false,
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183",
-      "auditBaselineContentHash": "08fdc27cd7328833b451e8d17ada02d7ee6d7eb3a5027a4848ba44b3a0d7ad0b",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Kl3LEzQ5Zqs",
       "check": {
-        "videoId": "vR5fCLCTNq4",
+        "videoId": "Kl3LEzQ5Zqs",
         "seconds": [
-          95,
-          108,
-          128,
-          150,
-          170,
-          182
+          1.5162,
+          3.7905,
+          6.0648
         ],
-        "start": 95,
-        "end": 183,
-        "observation": "95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。"
+        "observation": "站姿微彎肘側平舉；原圖控制到肩高、不甩動。"
       },
       "findings": [
-        "95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。",
-        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+        "站姿微彎肘側平舉；原圖控制到肩高、不甩動。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "b8671450477ee3b2247412df39df793d52cc092bb79a4fff9b8a79c1633d9f64",
       "history": [
         {
           "video": {
@@ -135,6 +145,41 @@
             ],
             "fullPlaybackReviewed": false,
             "auditBaselineContentHash": "b900f0580ad0b4718fcfb4d2defad8148b5c10e12a6c31960397f6be0425fcd3"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183",
+            "watchUrl": "https://www.youtube.com/watch?v=vR5fCLCTNq4&t=95s",
+            "title": "啞鈴側平舉教學",
+            "channel": "女力健身 Nuli App",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedContentHash": null,
+            "fullPlaybackReviewed": false,
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183",
+            "auditBaselineContentHash": "08fdc27cd7328833b451e8d17ada02d7ee6d7eb3a5027a4848ba44b3a0d7ad0b",
+            "check": {
+              "videoId": "vR5fCLCTNq4",
+              "seconds": [
+                95,
+                108,
+                128,
+                150,
+                170,
+                182
+              ],
+              "start": 95,
+              "end": 183,
+              "observation": "95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。"
+            },
+            "findings": [
+              "95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。",
+              "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+            ]
           }
         }
       ]

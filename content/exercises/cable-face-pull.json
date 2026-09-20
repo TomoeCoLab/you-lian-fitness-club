@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "cable-face-pull",
     "name": "滑輪臉拉",
@@ -30,11 +30,12 @@
       "load": "使用可在終點停住一秒的輕重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s",
-      "watchUrl": "https://www.youtube.com/watch?v=eTCBSFlCJ_s",
-      "title": "滑輪繩索臉拉",
-      "channel": "NASM",
-      "language": "英文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/IeOqdw9WI90",
+      "watchUrl": "https://www.youtube.com/shorts/IeOqdw9WI90",
+      "title": "滑輪臉拉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/face-pull",
     "sourceLabel": "NASM 動作資料庫"
@@ -60,47 +61,93 @@
         "避免聳肩或借力"
       ],
       "note": "支持主要路徑；手肘高度與肩部活動範圍依可控制且舒適為準，不宣稱矯正姿勢或治療。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/IeOqdw9WI90",
+      "label": "DeltaBolic：滑輪臉拉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "24712598a4fab26c0a8a7b9dcf5c4326df285d68bcc187b7d7d9132e1a0e56aa",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "7348f859bdb90fd0a29db31504891b7f482d766b4052682ae0ed630ab73891d6",
       "findings": [
         "已核對原始來源支持：繩索設定約眼高、向臉拉與受控回送、避免聳肩或借力。支持主要路徑；手肘高度與肩部活動範圍依可控制且舒適為準，不宣稱矯正姿勢或治療。",
-        "本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。"
+        "本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。",
+        "站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "24712598a4fab26c0a8a7b9dcf5c4326df285d68bcc187b7d7d9132e1a0e56aa",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "7348f859bdb90fd0a29db31504891b7f482d766b4052682ae0ed630ab73891d6",
       "reviewedImageSha256": "beab92b1f589b71dc87d286e997ef1b7417afbd0774ffd626bf5d43abbcbc03f",
       "findings": [
         "繩索拉到臉旁、肘向外後方、軀幹穩定可見，10–15 次 × 3 組包含預設；未見同一圖內動作矛盾。",
-        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。",
+        "本次重新開啟原圖檢視：站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/IeOqdw9WI90",
       "check": {
-        "videoId": "eTCBSFlCJ_s",
+        "videoId": "IeOqdw9WI90",
         "seconds": [
-          7,
-          16
+          2.0642,
+          5.1605,
+          8.2568
         ],
-        "observation": "可見站姿將高位繩索拉向面部並分開雙手，取代原本滑輪飛鳥影片。"
+        "observation": "站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。"
       },
       "findings": [
-        "可見站姿將高位繩索拉向面部並分開雙手，取代原本滑輪飛鳥影片。"
+        "站姿繩索臉拉，肘向外後、繩索到頭兩側；原圖同版本。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "24712598a4fab26c0a8a7b9dcf5c4326df285d68bcc187b7d7d9132e1a0e56aa"
+      "auditBaselineContentHash": "7348f859bdb90fd0a29db31504891b7f482d766b4052682ae0ed630ab73891d6",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s",
+            "watchUrl": "https://www.youtube.com/watch?v=eTCBSFlCJ_s",
+            "title": "滑輪繩索臉拉",
+            "channel": "NASM",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s",
+            "check": {
+              "videoId": "eTCBSFlCJ_s",
+              "seconds": [
+                7,
+                16
+              ],
+              "observation": "可見站姿將高位繩索拉向面部並分開雙手，取代原本滑輪飛鳥影片。"
+            },
+            "findings": [
+              "可見站姿將高位繩索拉向面部並分開雙手，取代原本滑輪飛鳥影片。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "24712598a4fab26c0a8a7b9dcf5c4326df285d68bcc187b7d7d9132e1a0e56aa"
+          }
+        }
+      ]
     }
   },
   "illustration": {

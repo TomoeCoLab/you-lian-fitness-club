@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 7,
+  "revision": 8,
   "exercise": {
     "id": "machine-chest-press",
     "name": "器械胸推",
@@ -31,12 +31,12 @@
       "load": "從可穩定完成 12 次的輕重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
-      "watchUrl": "https://www.youtube.com/watch?v=nxklnskwKeo",
-      "title": "胸部推舉機",
-      "channel": "東吳大學體育室",
-      "language": "中文",
-      "note": "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Qu7-ceCvq7w",
+      "watchUrl": "https://www.youtube.com/shorts/Qu7-ceCvq7w",
+      "title": "器械胸推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。 圖解與影片器械外觀可能不同，座位、墊位及解鎖依現場機台標示。"
     },
     "sourceUrl": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
     "sourceLabel": "Life Fitness：Circuit Series 原廠操作手冊"
@@ -78,52 +78,65 @@
         "背靠墊、雙腳支撐、肘略低於肩、前推及回程"
       ],
       "note": "已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/Qu7-ceCvq7w",
+      "label": "DeltaBolic：器械胸推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "c36fc7c57cd058ea1c17c66aca859769fe400e45e35fd78a71d75a75a1e14326",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "78a0c553523270cbb3e26a741b14fc7736a19f77896ff081c465989a5dbabdf1",
       "internalReviewedAt": "2026-09-20",
       "findings": [
         "已對照原廠手冊第 6 頁文字與圖示：背靠墊、雙腳支撐、肘略低於肩、前推及回程。",
         "同名器械可能不同構造；現場設定仍需依原廠圖示。",
-        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。",
+        "坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ]
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "c36fc7c57cd058ea1c17c66aca859769fe400e45e35fd78a71d75a75a1e14326",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "78a0c553523270cbb3e26a741b14fc7736a19f77896ff081c465989a5dbabdf1",
       "reviewedImageSha256": "61ff24f0aac0791c3353f1ff981f9c3fbd0b42265e0ead32e8a8605ed04794a7",
       "findings": [
         "三格機臂接合可見，握把由胸前推向前方並回程；沒有沿用配重碰撞提示，3 組 12 次相符。",
         "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。",
-        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。",
+        "本次重新開啟原圖檢視：坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Qu7-ceCvq7w",
       "check": {
-        "videoId": "nxklnskwKeo",
+        "videoId": "Qu7-ceCvq7w",
         "seconds": [
-          8,
-          39,
-          55,
-          65
+          2.0882,
+          5.2205,
+          8.3528
         ],
-        "observation": "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。"
+        "observation": "坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。"
       },
       "findings": [
-        "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "坐姿靠背胸推機、握把胸前向前推；原圖Circuit示意與影片不同機型，不共用設定。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "c36fc7c57cd058ea1c17c66aca859769fe400e45e35fd78a71d75a75a1e14326",
+      "auditBaselineContentHash": "78a0c553523270cbb3e26a741b14fc7736a19f77896ff081c465989a5dbabdf1",
       "history": [
         {
           "video": {
@@ -152,6 +165,38 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "bf1a365c1da7abdba78ae61e63b6dce7b1ffc15e52f4aaf072670ee3c6138220"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
+            "watchUrl": "https://www.youtube.com/watch?v=nxklnskwKeo",
+            "title": "胸部推舉機",
+            "channel": "東吳大學體育室",
+            "language": "中文",
+            "note": "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
+            "check": {
+              "videoId": "nxklnskwKeo",
+              "seconds": [
+                8,
+                39,
+                55,
+                65
+              ],
+              "observation": "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。"
+            },
+            "findings": [
+              "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "c36fc7c57cd058ea1c17c66aca859769fe400e45e35fd78a71d75a75a1e14326"
           }
         }
       ]

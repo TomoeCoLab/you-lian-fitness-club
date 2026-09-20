@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "barbell-bent-over-row",
+    "name": "槓鈴俯身划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "保持髖折俯身，以手肘向後帶動槓鈴，訓練背部拉力。",
+    "instructions": [
+      "雙腳約髖寬，正握槓鈴略寬於肩；先把槓提起，再屈髖向後坐、膝微彎，讓背部保持自然線條。",
+      "維持可控制的俯身角度，手臂自然垂下，槓在膝下至小腿前方，視線沿軀幹朝地面。",
+      "手肘向後帶，把槓拉向下胸至上腹附近，不聳肩、不站起借力。",
+      "慢慢伸肘放回懸垂位置；結束保持控制把槓放回支架或以髖折方式落地。"
+    ],
+    "cues": [
+      "俯身角度不隨每次大幅改變",
+      "腹部穩定，不圓背追深度",
+      "手腕自然，不用手腕捲槓"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/phVtqawIgbk",
+      "watchUrl": "https://www.youtube.com/shorts/phVtqawIgbk",
+      "title": "槓鈴俯身划船短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/phVtqawIgbk",
+    "sourceLabel": "DeltaBolic：槓鈴俯身划船示範"
+  },
+  "definition": {
+    "variation": "雙腳站穩、正握自由槓的俯身划船，沒有胸墊支撐。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/phVtqawIgbk",
+      "label": "DeltaBolic：槓鈴俯身划船",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "俯身髖折",
+        "正握槓",
+        "手肘後拉與控制回程"
+      ],
+      "note": "2.468 秒髖折角度示範、6.171 秒手肘與手腕錯誤對照、9.873 秒正握划船起點。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "a7ea9fca9b1f3743cc898ca28f86138125de61e61a949eee71309d88e8ede4e3",
+      "findings": [
+        "2.468 秒髖折角度示範、6.171 秒手肘與手腕錯誤對照、9.873 秒正握划船起點。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "分鏡改用正向短句「軀幹保持穩定」，避免圖像漏字造成相反意思。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "a7ea9fca9b1f3743cc898ca28f86138125de61e61a949eee71309d88e8ede4e3",
+      "reviewedImageSha256": "c435354bfbd3db332403e2d4fa0d6a134b5ba84f327d22021122556b856ce11f",
+      "findings": [
+        "逐格檢視：髖折俯身、軀幹固定、槓靠近腿向下腹拉；軀幹穩定文字已修正。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/phVtqawIgbk",
+      "check": {
+        "videoId": "phVtqawIgbk",
+        "seconds": [
+          2.4682,
+          6.1705,
+          9.8728
+        ],
+        "observation": "2.468 秒髖折角度示範、6.171 秒手肘與手腕錯誤對照、9.873 秒正握划船起點。"
+      },
+      "findings": [
+        "2.468 秒髖折角度示範、6.171 秒手肘與手腕錯誤對照、9.873 秒正握划船起點。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "a7ea9fca9b1f3743cc898ca28f86138125de61e61a949eee71309d88e8ede4e3",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-barbell-bent-over-row-zh-tw.png",
+    "sha256": "c435354bfbd3db332403e2d4fa0d6a134b5ba84f327d22021122556b856ce11f",
+    "generatedFromContentHash": "ce433534a135be80acb74689befebb16ec5ce0fbca8689abbd4404d68cf730f8",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側前方全身，槓鈴兩端與頭到腳可見。",
+      "frames": [
+        {
+          "title": "俯身準備",
+          "pose": "Woman stands hipwidth feet, knees soft, hips hinged back, torso about30degrees above horizontal, natural neutral spine and neck eyes floor. Pronated grip free barbell, arms hanging down below shoulders.",
+          "caption": "屈髖俯身，腹部穩定。"
+        },
+        {
+          "title": "手肘向後",
+          "pose": "Same torso angle, draw elbows backward pulling bar toward upper abdomen, wrists neutral, not standing upright, head still aligned with back.",
+          "caption": "槓拉向上腹，軀幹保持穩定。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "Extend elbows lowering bar below shoulders with hips knees torso unmoved. Complete stable return, no round back.",
+          "caption": "慢慢伸肘回程，不甩動重量。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-barbell-bent-over-row-rejected-v1-zh-tw.png",
+        "status": "needs-revision",
+        "reason": "第二格字幕漏掉「不」，變成抬身借力，需重製文字。",
+        "sha256": "b0dcf94401a4d8a61fac9fcebc04ca8c03fc13c4a60f79d940998319a2ecbe12",
+        "reviewedAt": "2026-09-21"
+      },
+      {
+        "path": "content/image-history/v1.9.0/fitness-barbell-bent-over-row-rejected-2-zh-tw.png",
+        "sha256": "716ed696ffd46311e9b5a54c2545758e31c24ca73ceca9864ef0a80fbdf2590c",
+        "status": "rejected",
+        "reason": "第二版圖仍漏「不」字，產生「抬身借力」相反意思；改用正向短句後重製。",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 槓鈴俯身划船; subtitle 保持髖折俯身，以手肘向後帶動槓鈴，訓練背部拉力。; camera 固定側前方全身，槓鈴兩端與頭到脚可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"俯身準備\",\"pose\":\"Woman stands hipwidth feet, knees soft, hips hinged back, torso about30degrees above horizontal, natural neutral spine and neck eyes floor. Pronated grip free barbell, arms hanging down below shoulders.\",\"caption\":\"屈髖俯身，腹部穩定。\"},{\"title\":\"手肘向後\",\"pose\":\"Same torso angle, draw elbows backward pulling bar toward upper abdomen, wrists neutral, not standing upright, head still aligned with back.\",\"caption\":\"槓拉向上腹，軀幹保持穩定。\"},{\"title\":\"控制放回\",\"pose\":\"Extend elbows lowering bar below shoulders with hips knees torso unmoved. Complete stable return, no round back.\",\"caption\":\"慢慢伸肘回程，不甩動重量。\"}]; bottom three columns 動作重點 [\"俯身角度不隨每次大幅改變\",\"腹部穩定，不圓背追深度\",\"手腕自然，不用手腕捲槓\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

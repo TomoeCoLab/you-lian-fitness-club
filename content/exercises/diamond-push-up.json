@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "diamond-push-up",
+    "name": "鑽石伏地挺身",
+    "bodyParts": [
+      "胸",
+      "手臂",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以較窄手位練習伏地挺身，增加手臂伸肘需求；手腕不舒服時不勉強手指相碰。",
+    "instructions": [
+      "在止滑地面以手掌與腳尖支撐，雙手置於胸部下方附近，拇指與食指可形成菱形；手腕不舒服就改較寬手位或換動作。",
+      "收緊腹部，頭、軀幹與雙腿維持一線，視線朝地面前方，不抬頭看鏡頭。",
+      "屈肘慢慢下放，手肘朝後外側自然彎曲，不硬夾身體；胸部靠近手掌但不塌腰。",
+      "推地回到起點，肩與臀同步上升；完整下放與推回算一次。"
+    ],
+    "cues": [
+      "窄手位不是把手放到臉前",
+      "不塌腰、不抬臀先走",
+      "手腕或肩肘不適即停止"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 6,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先以徒手完成 4–6 次穩定動作；做不到時可選上斜伏地挺身，不勉強窄手位。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/PPTj-MW2tcs",
+      "watchUrl": "https://www.youtube.com/shorts/PPTj-MW2tcs",
+      "title": "鑽石伏地挺身短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/PPTj-MW2tcs",
+    "sourceLabel": "DeltaBolic：鑽石伏地挺身示範"
+  },
+  "definition": {
+    "variation": "腳尖支撐、雙手位於胸部下方附近的窄手位伏地挺身，非跪姿版本。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/PPTj-MW2tcs",
+      "label": "DeltaBolic：鑽石伏地挺身",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "手掌胸部高度",
+        "窄手位與手肘約45度",
+        "腳尖支撐全身直線"
+      ],
+      "note": "2.204 秒側面下放、5.511 秒俯視手肘向後外側、8.817 秒手位與胸部對齊；屬進階徒手動作，不加入家人入門課表。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "ee7f9e7439cd8dfecc3a13a26d7dec55aef1a1a78cfddf89a39f23d2679ef93c",
+      "findings": [
+        "2.204 秒側面下放、5.511 秒俯視手肘向後外側、8.817 秒手位與胸部對齊；屬進階徒手動作，不加入家人入門課表。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "ee7f9e7439cd8dfecc3a13a26d7dec55aef1a1a78cfddf89a39f23d2679ef93c",
+      "reviewedImageSha256": "8cc3dcbc6fb93ad92c04309bf7dd8d745aa74a6499a7fc030353d18bace382b2",
+      "findings": [
+        "已對照窄手位近景、腳尖支撐、下放手肘向後外側與回程，頭頸自然朝地面；2 組 6 次正確、無標語。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/PPTj-MW2tcs",
+      "check": {
+        "videoId": "PPTj-MW2tcs",
+        "seconds": [
+          2.2042,
+          5.5105,
+          8.8168
+        ],
+        "observation": "2.204 秒側面下放、5.511 秒俯視手肘向後外側、8.817 秒手位與胸部對齊；屬進階徒手動作，不加入家人入門課表。"
+      },
+      "findings": [
+        "2.204 秒側面下放、5.511 秒俯視手肘向後外側、8.817 秒手位與胸部對齊；屬進階徒手動作，不加入家人入門課表。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "ee7f9e7439cd8dfecc3a13a26d7dec55aef1a1a78cfddf89a39f23d2679ef93c",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-diamond-push-up-zh-tw.png",
+    "sha256": "8cc3dcbc6fb93ad92c04309bf7dd8d745aa74a6499a7fc030353d18bace382b2",
+    "generatedFromContentHash": "4fd68fc19995323e25665319a6e89739586e4fdb81145e3b94c1d818309cdb7a",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定斜側面略高，全身含兩手與雙腳可見，另以小型手位近景呈菱形；視線朝地板。",
+      "frames": [
+        {
+          "title": "窄手支撐",
+          "pose": "Adult woman in high plank on toes and hands. Hands close together directly under lower chest, thumbs and index fingers near a diamond; elbows extended naturally. Neutral head eyes to floor, body straight from head to heels. Both hands visible with optional small hand-position inset.",
+          "caption": "雙手靠近胸下，保持身體一直線。"
+        },
+        {
+          "title": "控制下放",
+          "pose": "Same camera and foot/hand position. Flex elbows backward-outward about45degrees, lower chest toward hands; body stays straight no lumbar sag, neck follows torso gaze to floor. Hands remain close under chest.",
+          "caption": "手肘自然向後外側，胸部慢慢下降。"
+        },
+        {
+          "title": "推回起點",
+          "pose": "Push against floor returning to straight-arm plank, shoulders and hips rise together, no head lift and no hips leading.",
+          "caption": "肩與臀同步推起，不塌腰。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 鑽石伏地挺身; subtitle 以較窄手位練習伏地挺身，增加手臂伸肘需求；手腕不舒服時不勉強手指相碰。; camera 固定斜側面略高，全身含兩手與雙腳可見，另以小型手位近景呈菱形；視線朝地板。; render each step title and caption verbatim and depict pose: [{\"title\":\"窄手支撐\",\"pose\":\"Adult woman in high plank on toes and hands. Hands close together directly under lower chest, thumbs and index fingers near a diamond; elbows extended naturally. Neutral head eyes to floor, body straight from head to heels. Both hands visible with optional small hand-position inset.\",\"caption\":\"雙手靠近胸下，保持身體一直線。\"},{\"title\":\"控制下放\",\"pose\":\"Same camera and foot/hand position. Flex elbows backward-outward about45degrees, lower chest toward hands; body stays straight no lumbar sag, neck follows torso gaze to floor. Hands remain close under chest.\",\"caption\":\"手肘自然向後外側，胸部慢慢下降。\"},{\"title\":\"推回起點\",\"pose\":\"Push against floor returning to straight-arm plank, shoulders and hips rise together, no head lift and no hips leading.\",\"caption\":\"肩與臀同步推起，不塌腰。\"}]; bottom three columns 動作重點 [\"窄手位不是把手放到臉前\",\"不塌腰、不抬臀先走\",\"手腕或肩肘不適即停止\"]; 建議次數 起始參考：2 組 × 6 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

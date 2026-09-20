@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 6,
+  "revision": 7,
   "exercise": {
     "id": "lat-pulldown",
     "name": "高位下拉",
@@ -30,11 +30,12 @@
       "load": "能完整控制回程且保留約 2 次餘力"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
-      "watchUrl": "https://www.youtube.com/watch?v=0KULvdo7T0c",
-      "title": "垂直下拉（胸前）",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/bNmvKpJSWKM",
+      "watchUrl": "https://www.youtube.com/shorts/bNmvKpJSWKM",
+      "title": "高位下拉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.puregym.com/exercises/back/lat-exercises/lat-pulldown/",
     "sourceLabel": "PureGym：胸前高位下拉"
@@ -67,54 +68,63 @@
         "胸前下拉、軀幹穩定、控制回程"
       ],
       "note": "已讀胸前版本；不採頁面另列的頸後下拉，也不把取槓時髖折角度當成全程大幅後仰要求。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/bNmvKpJSWKM",
+      "label": "DeltaBolic：高位下拉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "44d7d83e8c073f7560b7500c5a0b044384df91cff7fd21821d34c4324e2296ab",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "0ab285a51249191902f60d739aa095a83a39f288a500ad7732ab04dc3e7eaf3d",
       "findings": [
         "已讀胸前版本；不採頁面另列的頸後下拉，也不把取槓時髖折角度當成全程大幅後仰要求。",
-        "份量是本站起始參考，不是來源的個人化處方。"
+        "份量是本站起始參考，不是來源的個人化處方。",
+        "正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "44d7d83e8c073f7560b7500c5a0b044384df91cff7fd21821d34c4324e2296ab",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "0ab285a51249191902f60d739aa095a83a39f288a500ad7732ab04dc3e7eaf3d",
       "reviewedImageSha256": "b886198226ef4cab7785e4d5c3e7f5aac5f93a657a78e6ae95e8e905a6945502",
       "findings": [
         "固定視角三格正握寬槓拉至胸前、非頸後；大腿固定與控制回程可見，3 組 10 次相符。",
-        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。"
+        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。",
+        "本次重新開啟原圖檢視：正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/bNmvKpJSWKM",
       "check": {
-        "videoId": "0KULvdo7T0c",
+        "videoId": "bNmvKpJSWKM",
         "seconds": [
-          28,
-          32,
-          36,
-          42,
-          48,
-          50,
-          53,
-          56
+          2.5202,
+          6.3005,
+          10.0808
         ],
-        "observation": "實際重新核對坐姿大腿固定、寬握槓向胸前下拉及回伸；50、56 秒可見下拉低點，非頸後下拉。"
+        "observation": "正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。"
       },
       "findings": [
-        "實際重新核對坐姿大腿固定、寬握槓向胸前下拉及回伸；50、56 秒可見下拉低點，非頸後下拉。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "正握略寬肩、固定大腿、肘往下；原圖胸前下拉，非頸後。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "44d7d83e8c073f7560b7500c5a0b044384df91cff7fd21821d34c4324e2296ab",
+      "auditBaselineContentHash": "0ab285a51249191902f60d739aa095a83a39f288a500ad7732ab04dc3e7eaf3d",
       "history": [
         {
           "video": {
@@ -143,6 +153,41 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "95eaff4ad3aa6e242769de392870b9e11329cdaf6a1265fa1cea10f931d4f2e1"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
+            "watchUrl": "https://www.youtube.com/watch?v=0KULvdo7T0c",
+            "title": "垂直下拉（胸前）",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
+            "check": {
+              "videoId": "0KULvdo7T0c",
+              "seconds": [
+                28,
+                32,
+                36,
+                42,
+                48,
+                50,
+                53,
+                56
+              ],
+              "observation": "實際重新核對坐姿大腿固定、寬握槓向胸前下拉及回伸；50、56 秒可見下拉低點，非頸後下拉。"
+            },
+            "findings": [
+              "實際重新核對坐姿大腿固定、寬握槓向胸前下拉及回伸；50、56 秒可見下拉低點，非頸後下拉。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "44d7d83e8c073f7560b7500c5a0b044384df91cff7fd21821d34c4324e2296ab"
           }
         }
       ]

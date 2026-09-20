@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "machine-preacher-curl",
+    "name": "器械牧師椅彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "牧師椅彎舉機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以手臂墊支撐上臂，在器械引導下控制彎舉與放回。",
+    "instructions": [
+      "依機台圖示調整座位與手臂墊，使上臂背側能完整支撐、手肘與轉軸位置合適；機型不同不可照抄其他機器的設定。",
+      "雙腳踩穩，雙手反握握把，手腕自然，上臂留在墊上，不讓手肘被拉到過伸。",
+      "平順屈肘把握把帶向肩前，避免抬肩或抬起上臂離墊。",
+      "控制放回到舒服的伸肘範圍，配重不撞擊；結束放穩再鬆手。"
+    ],
+    "cues": [
+      "上臂留在手臂墊上",
+      "不突然落到底或鎖死手肘",
+      "先用輕重量確認機台設定"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/S4dDLfp3e8w",
+      "watchUrl": "https://www.youtube.com/shorts/S4dDLfp3e8w",
+      "title": "器械牧師椅彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/S4dDLfp3e8w",
+    "sourceLabel": "DeltaBolic：器械牧師椅彎舉示範"
+  },
+  "definition": {
+    "variation": "手臂墊支撐、雙手反握握把的配重式牧師椅彎舉；非自由曲槓。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/S4dDLfp3e8w",
+      "label": "DeltaBolic：器械牧師椅彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "手臂墊與反握",
+        "屈肘拉近",
+        "肘位錯誤對照"
+      ],
+      "note": "已檢視 1 秒握把反握、4 秒前視上臂墊支撐與雙腳踩地、6 秒側視可確認臀部坐在座墊；為坐姿器械牧師椅彎舉。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "20c98c1302a2ce1f92086785b1de192d0c57272e730a9e726418a29091ae9edc",
+      "findings": [
+        "已檢視 1 秒握把反握、4 秒前視上臂墊支撐與雙腳踩地、6 秒側視可確認臀部坐在座墊；為坐姿器械牧師椅彎舉。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "20c98c1302a2ce1f92086785b1de192d0c57272e730a9e726418a29091ae9edc",
+      "reviewedImageSha256": "4ceeb40e7a288edc6d4678973bb56c4ae5aacf00477d6b3dddccbe920b0c3acb",
+      "findings": [
+        "已檢視座墊與雙腳支撐、上臂放在斜墊，反握握把彎向肩前及控制回程；圖為器械示意非品牌設定。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/S4dDLfp3e8w",
+      "check": {
+        "videoId": "S4dDLfp3e8w",
+        "seconds": [
+          1,
+          4,
+          6
+        ],
+        "observation": "已檢視 1 秒握把反握、4 秒前視上臂墊支撐與雙腳踩地、6 秒側視可確認臀部坐在座墊；為坐姿器械牧師椅彎舉。"
+      },
+      "findings": [
+        "已檢視 1 秒握把反握、4 秒前視上臂墊支撐與雙腳踩地、6 秒側視可確認臀部坐在座墊；為坐姿器械牧師椅彎舉。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "20c98c1302a2ce1f92086785b1de192d0c57272e730a9e726418a29091ae9edc",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-machine-preacher-curl-zh-tw.png",
+    "sha256": "4ceeb40e7a288edc6d4678973bb56c4ae5aacf00477d6b3dddccbe920b0c3acb",
+    "generatedFromContentHash": "20c98c1302a2ce1f92086785b1de192d0c57272e730a9e726418a29091ae9edc",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側前方，座墊、手臂墊、握把轉軸及雙腳可見。",
+      "frames": [
+        {
+          "title": "坐穩支撐",
+          "pose": "Woman seated at purpose-built selectorized preacher curl machine, feet flat, backs of both upper arms fully supported on angled pad; elbows aligned with machine pivot per design. Supinated grip curved handles, elbows comfortably extended not locked.",
+          "caption": "依機台調整，讓上臂貼穩手臂墊。"
+        },
+        {
+          "title": "屈肘拉近",
+          "pose": "Curl both handles toward shoulders by flexing elbows, upper arms remain flat on pad, wrists neutral and torso stable, linked lever rotates coherently.",
+          "caption": "平順彎肘，上臂不離墊。"
+        },
+        {
+          "title": "緩慢回程",
+          "pose": "Lower handles under control to starting comfortable elbow extension, not hyperextended, weight stack does not slam.",
+          "caption": "慢慢放回，不鎖死手肘。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 器械牧師椅彎舉; subtitle 以手臂墊支撐上臂，在器械引導下控制彎舉與放回。; camera 固定側前方，座墊、手臂墊、握把轉軸及雙腳可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"坐穩支撐\",\"pose\":\"Woman seated at purpose-built selectorized preacher curl machine, feet flat, backs of both upper arms fully supported on angled pad; elbows aligned with machine pivot per design. Supinated grip curved handles, elbows comfortably extended not locked.\",\"caption\":\"依機台調整，讓上臂貼穩手臂墊。\"},{\"title\":\"屈肘拉近\",\"pose\":\"Curl both handles toward shoulders by flexing elbows, upper arms remain flat on pad, wrists neutral and torso stable, linked lever rotates coherently.\",\"caption\":\"平順彎肘，上臂不離墊。\"},{\"title\":\"緩慢回程\",\"pose\":\"Lower handles under control to starting comfortable elbow extension, not hyperextended, weight stack does not slam.\",\"caption\":\"慢慢放回，不鎖死手肘。\"}]; bottom three columns 動作重點 [\"上臂留在手臂墊上\",\"不突然落到底或鎖死手肘\",\"先用輕重量確認機台設定\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "dumbbell-curl",
     "name": "啞鈴彎舉",
@@ -29,11 +29,12 @@
       "load": "能保持手腕直立完成 10–12 次"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
-      "watchUrl": "https://www.youtube.com/watch?v=2g4v5qv8ByM",
-      "title": "啞鈴彎舉動作教學",
-      "channel": "卓叔增重",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/clRekvAadDA",
+      "watchUrl": "https://www.youtube.com/shorts/clRekvAadDA",
+      "title": "啞鈴彎舉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "看右側綠色勾選示範；左側紅叉是上臂晃動的錯誤對照。"
     },
     "sourceUrl": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
     "sourceLabel": "NHS 肌力活動"
@@ -65,57 +66,65 @@
       "checkedAt": null,
       "supports": [],
       "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/clRekvAadDA",
+      "label": "DeltaBolic：啞鈴彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "右側綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "77f0680cb6a20496f6f3a3bd19fed39d5f079929d3e8b4c5938785da367763bd",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "449a146c164004b4c35809aea44135e441d433d15f7c95ebf59975cbd3d76224",
       "findings": [
         "已對照原始來源：上臂在身旁的彎舉路徑。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。",
-        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。",
+        "右侧綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "77f0680cb6a20496f6f3a3bd19fed39d5f079929d3e8b4c5938785da367763bd",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "449a146c164004b4c35809aea44135e441d433d15f7c95ebf59975cbd3d76224",
       "reviewedImageSha256": "b2895a3b6d32869ab9984e7218b264d3e8352cfa0fb2fbce7f338e95e940712d",
       "findings": [
         "站姿雙手同時彎肘，上臂近軀幹；10–12 次 × 3 組相容。頁面交替版本須另以每側計數。",
         "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。",
-        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。",
+        "本次重新開啟原圖檢視：右侧綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": null,
-      "fullPlaybackReviewed": false,
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
-      "auditBaselineContentHash": "77f0680cb6a20496f6f3a3bd19fed39d5f079929d3e8b4c5938785da367763bd",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/clRekvAadDA",
       "check": {
-        "videoId": "2g4v5qv8ByM",
+        "videoId": "clRekvAadDA",
         "seconds": [
-          10,
-          31,
-          35,
-          38,
-          43,
-          49,
-          65,
-          95,
-          125,
-          155
+          1.3842,
+          3.4605,
+          5.5368
         ],
-        "observation": "雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。"
+        "observation": "右侧綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。"
       },
       "findings": [
-        "雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。",
-        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+        "右侧綠勾上臂穩定、左側紅叉抬肘；原圖雙啞鈴反握站姿彎舉。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "449a146c164004b4c35809aea44135e441d433d15f7c95ebf59975cbd3d76224",
       "history": [
         {
           "video": {
@@ -135,6 +144,43 @@
             ],
             "fullPlaybackReviewed": false,
             "auditBaselineContentHash": "9b1e5d1d109fd828a5505a9b3f3e1dc02409ecdb8d67bf8118340946dcadfda9"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
+            "watchUrl": "https://www.youtube.com/watch?v=2g4v5qv8ByM",
+            "title": "啞鈴彎舉動作教學",
+            "channel": "卓叔增重",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedContentHash": null,
+            "fullPlaybackReviewed": false,
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
+            "auditBaselineContentHash": "77f0680cb6a20496f6f3a3bd19fed39d5f079929d3e8b4c5938785da367763bd",
+            "check": {
+              "videoId": "2g4v5qv8ByM",
+              "seconds": [
+                10,
+                31,
+                35,
+                38,
+                43,
+                49,
+                65,
+                95,
+                125,
+                155
+              ],
+              "observation": "雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。"
+            },
+            "findings": [
+              "雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。",
+              "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+            ]
           }
         }
       ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 6,
+  "revision": 7,
   "exercise": {
     "id": "barbell-bench-press",
     "name": "槓鈴臥推",
@@ -31,11 +31,12 @@
       "load": "先以空槓熟悉路徑，再逐步加重"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
-      "watchUrl": "https://www.youtube.com/watch?v=1Ppl7czpoUc",
-      "title": "槓鈴仰臥推舉",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_FkbD0FhgVE",
+      "watchUrl": "https://www.youtube.com/shorts/_FkbD0FhgVE",
+      "title": "槓鈴臥推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/barbell-bench-press",
     "sourceLabel": "NASM：槓鈴平板臥推"
@@ -69,50 +70,63 @@
         "保持軀幹穩定再推回"
       ],
       "note": "已核對 Setup–Return；不把最大重量、強制固定握距或接近力竭作新手要求。安全架／保護者依現場條件設定。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/_FkbD0FhgVE",
+      "label": "DeltaBolic：槓鈴臥推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "d8834fbac6550634102e6f104beb7846c3a7386b56d017acd9aa427cb1c99484",
       "findings": [
         "已核對 Setup–Return；不把最大重量、強制固定握距或接近力竭作新手要求。安全架／保護者依現場條件設定。",
-        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。",
+        "平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "d8834fbac6550634102e6f104beb7846c3a7386b56d017acd9aa427cb1c99484",
       "reviewedImageSha256": "ed9de231a49c570a458955a7becfaf2e680c2719b0c7341a5e27a22026a57aa7",
       "findings": [
         "三格正側面可辨槓位在胸前，不在頸部；雙手持槓、雙腳踩地、頭背臀有支撐，已補接合於立柱的安全支臂。實際擋桿高度仍須按本人胸高測試，非量測圖。",
-        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。"
+        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。",
+        "本次重新開啟原圖檢視：平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/_FkbD0FhgVE",
       "check": {
-        "videoId": "1Ppl7czpoUc",
+        "videoId": "_FkbD0FhgVE",
         "seconds": [
-          6,
-          12,
-          18,
-          23
+          3.2402,
+          8.1005,
+          12.9608
         ],
-        "observation": "重新核對平板槓鈴臥推，有保護者協助；圖文所述安全擋桿設定需依場館條件，影片不提供個人重量處方。"
+        "observation": "平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。"
       },
       "findings": [
-        "重新核對平板槓鈴臥推，有保護者協助；圖文所述安全擋桿設定需依場館條件，影片不提供個人重量處方。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "平板椅臥推、上背支撐、胸前前臂接近垂直；原圖另保留安全架。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899",
+      "auditBaselineContentHash": "d8834fbac6550634102e6f104beb7846c3a7386b56d017acd9aa427cb1c99484",
       "history": [
         {
           "video": {
@@ -141,6 +155,37 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "0e1b58758246bc1ab9cef74a13172cd1f9df6ba9af08e5b71fd9b1fd680afa43"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
+            "watchUrl": "https://www.youtube.com/watch?v=1Ppl7czpoUc",
+            "title": "槓鈴仰臥推舉",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
+            "check": {
+              "videoId": "1Ppl7czpoUc",
+              "seconds": [
+                6,
+                12,
+                18,
+                23
+              ],
+              "observation": "重新核對平板槓鈴臥推，有保護者協助；圖文所述安全擋桿設定需依場館條件，影片不提供個人重量處方。"
+            },
+            "findings": [
+              "重新核對平板槓鈴臥推，有保護者協助；圖文所述安全擋桿設定需依場館條件，影片不提供個人重量處方。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899"
           }
         }
       ]

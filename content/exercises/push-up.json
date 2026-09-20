@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "push-up",
     "name": "伏地挺身",
@@ -32,11 +32,12 @@
       "load": "保留約 2 次餘力；需要時提高支撐面"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/WDIpL0pjun0",
-      "watchUrl": "https://www.youtube.com/watch?v=WDIpL0pjun0",
-      "title": "地板伏地挺身",
-      "channel": "NASM",
-      "language": "英文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/GHJgsTIW_bQ",
+      "watchUrl": "https://www.youtube.com/shorts/GHJgsTIW_bQ",
+      "title": "伏地挺身姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/push-up",
     "sourceLabel": "NASM 伏地挺身"
@@ -60,46 +61,92 @@
         "身體成線及上臂與軀幹方向"
       ],
       "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/GHJgsTIW_bQ",
+      "label": "DeltaBolic：伏地挺身",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "13fafc1311665c86b60c0c02462a88c1a3f1d487737196861a897b3f8960795d",
       "findings": [
-        "已對照原始來源：身體成線及上臂與軀幹方向。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+        "已對照原始來源：身體成線及上臂與軀幹方向。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。",
+        "手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "13fafc1311665c86b60c0c02462a88c1a3f1d487737196861a897b3f8960795d",
       "reviewedImageSha256": "19b9f258e456465b3186771994ad8f08aa17faa2f326905ed6f8f73fcccf4a2a",
       "findings": [
         "已查看四格：雙手與腳尖支撐、胸與骨盆同步下放及推回；視線朝地面，無原圖錯誤肘角標記；3 組 × 8 次與文字一致。",
-        "人工檢視可見畫面及文字，不代表醫療或生物力學認證。"
+        "人工檢視可見畫面及文字，不代表醫療或生物力學認證。",
+        "本次重新開啟原圖檢視：手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/WDIpL0pjun0",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/GHJgsTIW_bQ",
       "check": {
-        "videoId": "WDIpL0pjun0",
+        "videoId": "GHJgsTIW_bQ",
         "seconds": [
-          5,
-          10
+          6.3642,
+          15.9105,
+          25.4568
         ],
-        "observation": "可見地板雙手、腳尖支撐，屈肘下放與推回高位；選用單一動作短片，避免把其他退階說明當成同一版本。"
+        "observation": "手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。"
       },
       "findings": [
-        "可見地板雙手、腳尖支撐，屈肘下放與推回高位；選用單一動作短片，避免把其他退階說明當成同一版本。"
+        "手掌腳尖支撐、軀幹成線，上臂斜後，胸與骨盆同步；原圖一致。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186"
+      "auditBaselineContentHash": "13fafc1311665c86b60c0c02462a88c1a3f1d487737196861a897b3f8960795d",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/WDIpL0pjun0",
+            "watchUrl": "https://www.youtube.com/watch?v=WDIpL0pjun0",
+            "title": "地板伏地挺身",
+            "channel": "NASM",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/WDIpL0pjun0",
+            "check": {
+              "videoId": "WDIpL0pjun0",
+              "seconds": [
+                5,
+                10
+              ],
+              "observation": "可見地板雙手、腳尖支撐，屈肘下放與推回高位；選用單一動作短片，避免把其他退階說明當成同一版本。"
+            },
+            "findings": [
+              "可見地板雙手、腳尖支撐，屈肘下放與推回高位；選用單一動作短片，避免把其他退階說明當成同一版本。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186"
+          }
+        }
+      ]
     }
   },
   "illustration": {

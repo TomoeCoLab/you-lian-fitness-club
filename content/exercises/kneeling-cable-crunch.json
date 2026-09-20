@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "kneeling-cable-crunch",
+    "name": "跪姿滑輪捲腹",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "跪姿握住高位繩索，以腹部捲動軀幹，不把整個身體往後坐。",
+    "instructions": [
+      "在高滑輪扣好繩索，墊好膝下，面向機台跪穩；雙手握繩放頭側，重量先很輕。",
+      "手與上臂維持相對固定位置，髖部不要一直往前後推，腹部保持張力。",
+      "吐氣，以腹部讓胸廓小幅往骨盆捲近，上背自然彎曲，不用手臂向下拉。",
+      "慢慢回到起點，避免完全伸展拱腰或臀部坐到腳跟；膝、腰或頸不適就停止。"
+    ],
+    "cues": [
+      "胸廓捲向骨盆，不是屁股往後坐",
+      "雙手只是握住繩索",
+      "慢慢回程，不拱腰"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/K2m0jj6RfYg",
+      "watchUrl": "https://www.youtube.com/shorts/K2m0jj6RfYg",
+      "title": "跪姿滑輪捲腹短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "看下半部綠色勾選示範；上半部紅叉是錯誤對照。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/K2m0jj6RfYg",
+    "sourceLabel": "DeltaBolic：跪姿滑輪捲腹示範"
+  },
+  "definition": {
+    "variation": "面向高位滑輪的跪姿繩索捲腹；髖部相對穩定，不是單純屈髖拉繩。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/K2m0jj6RfYg",
+      "label": "DeltaBolic：跪姿滑輪捲腹",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "髖部固定對照",
+        "捲腹與屈髖差異",
+        "高位繩索跪姿"
+      ],
+      "note": "1.168、2.921、4.673 秒上下分割：下半部綠勾髖相對固定、脊柱捲動；上半部紅叉為屈髖或伸展錯誤。以綠勾版本作示範。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "ba9c7e7a2b1b9fc0e89251a4d1cc9901eaa66d2a6d52f7bbb5ed25f95a663012",
+      "findings": [
+        "1.168、2.921、4.673 秒上下分割：下半部綠勾髖相對固定、脊柱捲動；上半部紅叉為屈髖或伸展錯誤。以綠勾版本作示範。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "ba9c7e7a2b1b9fc0e89251a4d1cc9901eaa66d2a6d52f7bbb5ed25f95a663012",
+      "reviewedImageSha256": "3f28ca7e7a49ad3e88eec2faa1da55ae2d4cb4a33829ee8eacfbe73471c1a46e",
+      "findings": [
+        "已檢視膝墊、面向高滑輪、繩索頭側握住，中格胸廓捲動而髖部未坐到腳跟；回程自然無過伸。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/K2m0jj6RfYg",
+      "check": {
+        "videoId": "K2m0jj6RfYg",
+        "seconds": [
+          1.1682,
+          2.9205,
+          4.6728
+        ],
+        "observation": "1.168、2.921、4.673 秒上下分割：下半部綠勾髖相對固定、脊柱捲動；上半部紅叉為屈髖或伸展錯誤。以綠勾版本作示範。"
+      },
+      "findings": [
+        "1.168、2.921、4.673 秒上下分割：下半部綠勾髖相對固定、脊柱捲動；上半部紅叉為屈髖或伸展錯誤。以綠勾版本作示範。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "ba9c7e7a2b1b9fc0e89251a4d1cc9901eaa66d2a6d52f7bbb5ed25f95a663012",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-kneeling-cable-crunch-zh-tw.png",
+    "sha256": "3f28ca7e7a49ad3e88eec2faa1da55ae2d4cb4a33829ee8eacfbe73471c1a46e",
+    "generatedFromContentHash": "ba9c7e7a2b1b9fc0e89251a4d1cc9901eaa66d2a6d52f7bbb5ed25f95a663012",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略偏前，繩索高滑輪、頭側雙手、膝墊與骨盆位置完整。",
+      "frames": [
+        {
+          "title": "跪穩握繩",
+          "pose": "Woman kneels on padded mat facing cable tower, knees under hips, hands holding rope ends beside temples attached high pulley in front. Torso naturally tall with slight inclination, elbows bent fixed near head.",
+          "caption": "膝下墊穩，繩索握在頭側。"
+        },
+        {
+          "title": "腹部捲動",
+          "pose": "Flex upper spine drawing ribs toward pelvis, hands stay beside temples and arms do not pull independently. Hips stay above knees without sitting back, torso visibly rounds under controlled abdominal contraction.",
+          "caption": "胸廓捲向骨盆，髖部少移動。"
+        },
+        {
+          "title": "緩慢回程",
+          "pose": "Uncurl torso to starting neutral without hyperextending low back, hips same location above knees, rope taut and hands headside.",
+          "caption": "慢慢回程，不向後拗腰。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 跪姿滑輪捲腹; subtitle 跪姿握住高位繩索，以腹部捲動軀幹，不把整個身體往後坐。; camera 固定正側略偏前，繩索高滑輪、頭側雙手、膝墊與骨盆位置完整。; render each step title and caption verbatim and depict pose: [{\"title\":\"跪穩握繩\",\"pose\":\"Woman kneels on padded mat facing cable tower, knees under hips, hands holding rope ends beside temples attached high pulley in front. Torso naturally tall with slight inclination, elbows bent fixed near head.\",\"caption\":\"膝下墊穩，繩索握在頭側。\"},{\"title\":\"腹部捲動\",\"pose\":\"Flex upper spine drawing ribs toward pelvis, hands stay beside temples and arms do not pull independently. Hips stay above knees without sitting back, torso visibly rounds under controlled abdominal contraction.\",\"caption\":\"胸廓捲向骨盆，髖部少移動。\"},{\"title\":\"緩慢回程\",\"pose\":\"Uncurl torso to starting neutral without hyperextending low back, hips same location above knees, rope taut and hands headside.\",\"caption\":\"慢慢回程，不向後拗腰。\"}]; bottom three columns 動作重點 [\"胸廓捲向骨盆，不是屁股往後坐\",\"雙手只是握住繩索\",\"慢慢回程，不拱腰\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting must be clear: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

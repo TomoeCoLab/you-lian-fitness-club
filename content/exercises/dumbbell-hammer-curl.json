@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-hammer-curl",
+    "name": "啞鈴槌式彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "維持掌心相對，以中立握法彎舉雙啞鈴，練習手臂屈肘控制。",
+    "instructions": [
+      "雙腳踩穩，各持一顆啞鈴垂在身側，掌心相對、拇指朝前，上臂靠近身體。",
+      "維持中立握法，屈肘把啞鈴抬向肩前，不在途中翻掌。",
+      "上臂與軀幹保持穩定，不後仰或聳肩借力。",
+      "慢慢伸肘回到身側，手腕不折，完整抬起與放回算一次。"
+    ],
+    "cues": [
+      "掌心相對，像握槌子",
+      "不邊抬邊翻掌",
+      "控制回程，不甩動"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=4&end=9",
+      "watchUrl": "https://www.youtube.com/shorts/_aoad2yuP5w",
+      "title": "啞鈴槌式彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/_aoad2yuP5w",
+    "sourceLabel": "DeltaBolic：啞鈴槌式彎舉示範"
+  },
+  "definition": {
+    "variation": "站姿雙啞鈴、掌心相對的同步槌式彎舉。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/_aoad2yuP5w",
+      "label": "DeltaBolic：啞鈴槌式彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "中立握法",
+        "站姿彎舉",
+        "排除正反握區段"
+      ],
+      "note": "4 秒中立握近景，5、6.171、7 秒中立握彎舉，8 秒握法特寫；9 秒切入反握，截取 4–9 秒。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "7cc491c93e99a9b5a855b6b26b648cf5ffae0fd020a17c4a8cc843e8284fa1eb",
+      "findings": [
+        "4 秒中立握近景，5、6.171、7 秒中立握彎舉，8 秒握法特寫；9 秒切入反握，截取 4–9 秒。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "7cc491c93e99a9b5a855b6b26b648cf5ffae0fd020a17c4a8cc843e8284fa1eb",
+      "reviewedImageSha256": "1d95c3c8d14aece719a9020d2dffe97df73276bbd53a274af6c7b733eef86aae",
+      "findings": [
+        "已檢視中立握法與拇指朝上的彎舉，前後三格未翻掌，雙手與軀幹穩定。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=4&end=9",
+      "check": {
+        "videoId": "_aoad2yuP5w",
+        "seconds": [
+          4,
+          5,
+          6.1705,
+          7,
+          8,
+          9
+        ],
+        "observation": "4 秒中立握近景，5、6.171、7 秒中立握彎舉，8 秒握法特寫；9 秒切入反握，截取 4–9 秒。",
+        "start": 4,
+        "end": 9
+      },
+      "findings": [
+        "4 秒中立握近景，5、6.171、7 秒中立握彎舉，8 秒握法特寫；9 秒切入反握，截取 4–9 秒。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "7cc491c93e99a9b5a855b6b26b648cf5ffae0fd020a17c4a8cc843e8284fa1eb",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-hammer-curl-zh-tw.png",
+    "sha256": "1d95c3c8d14aece719a9020d2dffe97df73276bbd53a274af6c7b733eef86aae",
+    "generatedFromContentHash": "7cc491c93e99a9b5a855b6b26b648cf5ffae0fd020a17c4a8cc843e8284fa1eb",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定前側三分之四，全身、兩顆啞鈴與掌心方向清楚。",
+      "frames": [
+        {
+          "title": "中立握穩",
+          "pose": "Woman stands feet hipwidth holding two dumbbells beside thighs with PALMS FACING INWARD. Elbows naturally extended near ribs, neutral neck gaze forward.",
+          "caption": "掌心相對，雙腳踩穩。"
+        },
+        {
+          "title": "向上彎舉",
+          "pose": "Flex both elbows lifting dumbbells with thumbs upward and palms still facing inward. Upper arms remain near ribs, dumbbell shafts near vertical at top, no torso lean.",
+          "caption": "維持中立握法，不翻掌。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "Slowly extend elbows returning dumbbells to sides, palms remain inward throughout, wrists straight.",
+          "caption": "慢慢放回，上臂與軀幹穩定。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 啞鈴槌式彎舉; subtitle 維持掌心相對，以中立握法彎舉雙啞鈴，練習手臂屈肘控制。; camera 固定前側三分之四，全身、兩顆啞鈴與掌心方向清楚。; render each step title and caption verbatim and depict pose: [{\"title\":\"中立握穩\",\"pose\":\"Woman stands feet hipwidth holding two dumbbells beside thighs with PALMS FACING INWARD. Elbows naturally extended near ribs, neutral neck gaze forward.\",\"caption\":\"掌心相對，雙腳踩穩。\"},{\"title\":\"向上彎舉\",\"pose\":\"Flex both elbows lifting dumbbells with thumbs upward and palms still facing inward. Upper arms remain near ribs, dumbbell shafts near vertical at top, no torso lean.\",\"caption\":\"維持中立握法，不翻掌。\"},{\"title\":\"控制放回\",\"pose\":\"Slowly extend elbows returning dumbbells to sides, palms remain inward throughout, wrists straight.\",\"caption\":\"慢慢放回，上臂與軀幹穩定。\"}]; bottom three columns 動作重點 [\"掌心相對，像握槌子\",\"不邊抬邊翻掌\",\"控制回程，不甩動\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

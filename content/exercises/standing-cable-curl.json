@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "standing-cable-curl",
+    "name": "站姿滑輪彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "雙手持低位滑輪直桿，以穩定上臂控制彎舉。",
+    "instructions": [
+      "把直桿扣在低位滑輪，面向機台、雙腳踩穩，雙手反握約肩寬，手臂在大腿前伸長。",
+      "腹部穩定，手肘靠近身側、手腕自然，先確認纜線不碰腳。",
+      "屈肘將直桿帶向肩前，不聳肩、不把手肘大幅抬到前面。",
+      "控制伸肘回到起點，保持纜線張力但不撞配重；結束慢慢放回。"
+    ],
+    "cues": [
+      "反握直桿，手腕不要向後折",
+      "上臂固定，不用身體後仰",
+      "低位纜線保持暢通"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/CrbTqNOlFgE",
+      "watchUrl": "https://www.youtube.com/shorts/CrbTqNOlFgE",
+      "title": "站姿滑輪彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/CrbTqNOlFgE",
+    "sourceLabel": "DeltaBolic：站姿滑輪彎舉示範"
+  },
+  "definition": {
+    "variation": "面向低位滑輪、雙手反握直桿的站姿彎舉，不是繩索槌式。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/CrbTqNOlFgE",
+      "label": "DeltaBolic：站姿滑輪彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "雙手直桿",
+        "上臂肘位",
+        "肩膀穩定"
+      ],
+      "note": "1.812 秒肘位正面對照、4.531 秒肩部位置、7.249 秒反握直桿彎舉；低位纜線。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "7add3d0e64fb728b7806ed97b656c3caa56275bcd05fcd104b59c6af97f12e9c",
+      "findings": [
+        "1.812 秒肘位正面對照、4.531 秒肩部位置、7.249 秒反握直桿彎舉；低位纜線。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "7add3d0e64fb728b7806ed97b656c3caa56275bcd05fcd104b59c6af97f12e9c",
+      "reviewedImageSha256": "f4f65c4ba6ecc870e5a01c5ab1a29efc00162b783ef89a5085252df762f4bb1c",
+      "findings": [
+        "已檢視低位滑輪纜線連到直桿中心，站姿反握屈肘，上臂穩定，未畫成槌式繩索彎舉。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/CrbTqNOlFgE",
+      "check": {
+        "videoId": "CrbTqNOlFgE",
+        "seconds": [
+          1.8122,
+          4.5305,
+          7.2488
+        ],
+        "observation": "1.812 秒肘位正面對照、4.531 秒肩部位置、7.249 秒反握直桿彎舉；低位纜線。"
+      },
+      "findings": [
+        "1.812 秒肘位正面對照、4.531 秒肩部位置、7.249 秒反握直桿彎舉；低位纜線。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "7add3d0e64fb728b7806ed97b656c3caa56275bcd05fcd104b59c6af97f12e9c",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-standing-cable-curl-zh-tw.png",
+    "sha256": "f4f65c4ba6ecc870e5a01c5ab1a29efc00162b783ef89a5085252df762f4bb1c",
+    "generatedFromContentHash": "7add3d0e64fb728b7806ed97b656c3caa56275bcd05fcd104b59c6af97f12e9c",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略偏前，全身與低滑輪、直桿可見。",
+      "frames": [
+        {
+          "title": "面向機台",
+          "pose": "Woman faces cable tower with pulley at floor, holds straight bar underhand at thighs, elbows near ribs and extended naturally, feet stable cable clear shoes.",
+          "caption": "反握直桿，雙腳踩穩。"
+        },
+        {
+          "title": "屈肘彎舉",
+          "pose": "Flex elbows drawing bar toward shoulders, upper arms near torso, wrists straight, cable from low pulley taut, no torso backward lean.",
+          "caption": "上臂穩定，平順抬起。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "Extend elbows slowly returning bar to thigh-front height, torso unchanged and shoulders relaxed.",
+          "caption": "慢慢放回，配重不撞擊。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 站姿滑輪彎舉; subtitle 雙手持低位滑輪直桿，以穩定上臂控制彎舉。; camera 固定正側略偏前，全身與低滑輪、直桿可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"面向機台\",\"pose\":\"Woman faces cable tower with pulley at floor, holds straight bar underhand at thighs, elbows near ribs and extended naturally, feet stable cable clear shoes.\",\"caption\":\"反握直桿，雙腳踩穩。\"},{\"title\":\"屈肘彎舉\",\"pose\":\"Flex elbows drawing bar toward shoulders, upper arms near torso, wrists straight, cable from low pulley taut, no torso backward lean.\",\"caption\":\"上臂穩定，平順抬起。\"},{\"title\":\"控制放回\",\"pose\":\"Extend elbows slowly returning bar to thigh-front height, torso unchanged and shoulders relaxed.\",\"caption\":\"慢慢放回，配重不撞擊。\"}]; bottom three columns 動作重點 [\"反握直桿，手腕不要向後折\",\"上臂固定，不用身體後仰\",\"低位纜線保持暢通\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

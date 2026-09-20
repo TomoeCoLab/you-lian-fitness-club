@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "barbell-curl",
+    "name": "槓鈴彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "站姿雙手持直槓，以穩定上臂練習屈肘與下放。",
+    "instructions": [
+      "雙腳約髖寬站穩，雙手反握直槓約肩寬，拇指環握，槓在大腿前，膝蓋自然微彎。",
+      "腹部穩定，上臂靠近身體，手腕不向後折。",
+      "屈肘把槓帶向肩前的舒服高度，上臂不大幅往前抬，不往後仰甩槓。",
+      "控制伸肘回到大腿前，不強迫肘過伸；完成後穩定放回槓架。"
+    ],
+    "cues": [
+      "反握直槓，手腕舒服為前提",
+      "不借腰後仰",
+      "控制下放，不讓槓砸落"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/54x2WF1_Suc",
+      "watchUrl": "https://www.youtube.com/shorts/54x2WF1_Suc",
+      "title": "槓鈴彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/54x2WF1_Suc",
+    "sourceLabel": "DeltaBolic：槓鈴彎舉示範"
+  },
+  "definition": {
+    "variation": "站姿反握直槓彎舉，不是曲槓、正握或滑輪版本。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/54x2WF1_Suc",
+      "label": "DeltaBolic：槓鈴彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "反握直槓",
+        "肘位穩定",
+        "彎舉與回程"
+      ],
+      "note": "1.756 秒正面握距、4.391 秒肘前移錯誤、7.025 秒綠色上臂穩定彎舉；直槓而非 EZ 曲槓。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "5cb1b61d95cbbbcfc834c6e6eac1b3683c73b2e7761a37086bf9c1a5f4c52e7e",
+      "findings": [
+        "1.756 秒正面握距、4.391 秒肘前移錯誤、7.025 秒綠色上臂穩定彎舉；直槓而非 EZ 曲槓。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "5cb1b61d95cbbbcfc834c6e6eac1b3683c73b2e7761a37086bf9c1a5f4c52e7e",
+      "reviewedImageSha256": "180b5afc1e406bc70e27d8e6b0b4925396009edaea1067f6dca6a197e966f622",
+      "findings": [
+        "已檢視站姿雙手反握槓鈴，上臂近身、屈肘抬槓與控制下降，軀幹無後仰。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/54x2WF1_Suc",
+      "check": {
+        "videoId": "54x2WF1_Suc",
+        "seconds": [
+          1.7562,
+          4.3905,
+          7.0248
+        ],
+        "observation": "1.756 秒正面握距、4.391 秒肘前移錯誤、7.025 秒綠色上臂穩定彎舉；直槓而非 EZ 曲槓。"
+      },
+      "findings": [
+        "1.756 秒正面握距、4.391 秒肘前移錯誤、7.025 秒綠色上臂穩定彎舉；直槓而非 EZ 曲槓。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "5cb1b61d95cbbbcfc834c6e6eac1b3683c73b2e7761a37086bf9c1a5f4c52e7e",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-barbell-curl-zh-tw.png",
+    "sha256": "180b5afc1e406bc70e27d8e6b0b4925396009edaea1067f6dca6a197e966f622",
+    "generatedFromContentHash": "f018f5f158606dea28483b765715c957178aa84dfc8be20adc5add916b19030d",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側前方，全身及槓兩端可見，能看出掌心向上。",
+      "frames": [
+        {
+          "title": "站穩持槓",
+          "pose": "Woman stands hipwidth, holds straight barbell at thighs with underhand supinated closed shoulderwidth grip, elbows naturally extended near torso, neutral wrists and upright neck.",
+          "caption": "反握直槓，站穩不後仰。"
+        },
+        {
+          "title": "穩定彎舉",
+          "pose": "Flex elbows lifting bar toward front shoulders, upper arms stay near ribs with minimal movement, torso and knees do not swing, wrists straight.",
+          "caption": "上臂穩定，槓平順抬起。"
+        },
+        {
+          "title": "緩慢下放",
+          "pose": "Extend elbows returning bar near thighs with controlled descent, no excessive elbow hyperextension or body swing.",
+          "caption": "慢慢下放，不讓重量砸落。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 槓鈴彎舉; subtitle 站姿雙手持直槓，以穩定上臂練習屈肘與下放。; camera 固定側前方，全身及槓兩端可見，能看出掌心向上。; render each step title and caption verbatim and depict pose: [{\"title\":\"站穩持槓\",\"pose\":\"Woman stands hipwidth, holds straight barbell at thighs with underhand supinated closed shoulderwidth grip, elbows naturally extended near torso, neutral wrists and upright neck.\",\"caption\":\"反握直槓，站穩不後仰。\"},{\"title\":\"穩定彎舉\",\"pose\":\"Flex elbows lifting bar toward front shoulders, upper arms stay near ribs with minimal movement, torso and knees do not swing, wrists straight.\",\"caption\":\"上臂穩定，槓平順抬起。\"},{\"title\":\"緩慢下放\",\"pose\":\"Extend elbows returning bar near thighs with controlled descent, no excessive elbow hyperextension or body swing.\",\"caption\":\"慢慢下放，不讓重量砸落。\"}]; bottom three columns 動作重點 [\"反握直槓，手腕舒服為前提\",\"不借腰後仰\",\"控制下放，不讓槓砸落\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

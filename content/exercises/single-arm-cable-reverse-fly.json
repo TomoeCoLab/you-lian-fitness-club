@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "single-arm-cable-reverse-fly",
+    "name": "高位單臂滑輪反向飛鳥",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "從身體前上方往外側打開手臂，以高位滑輪練習肩後側控制。",
+    "instructions": [
+      "將單手握把扣在較高滑輪，站在機台側前方；先以很輕阻力確認路徑，依原廠握把使用，不抓裸露鋼索。",
+      "遠側手跨過身前上方握住握把，另一手可扶固定架，工作肘只保留自然小彎、肩膀不聳起。",
+      "保持肘角度，將工作手往外側、略往下打開到舒適位置，軀幹不跟著轉，手不必拉到身後很遠。",
+      "慢慢控制手臂回到前上方，完成一側後換側；肩部不適就停止。"
+    ],
+    "cues": [
+      "高位滑輪，手臂往外下方展開",
+      "手肘微彎，不拉成划船",
+      "軀幹不旋轉借力"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/FeERX9UwspY",
+      "watchUrl": "https://www.youtube.com/shorts/FeERX9UwspY",
+      "title": "高位單臂滑輪反向飛鳥短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "看高位滑輪與手臂向外下方的路徑；請使用機台核准的握把，不抓裸露鋼索。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/FeERX9UwspY",
+    "sourceLabel": "DeltaBolic：單臂滑輪反向飛鳥示範"
+  },
+  "definition": {
+    "variation": "高位滑輪、遠側手跨身握把，向外下方展開的單臂反向飛鳥；不是肩高水平滑輪或屈肘划船。",
+    "counting": "每側完成開展與回程算 1 次；每组左右各 10 次，左右皆完成算 1 組。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/FeERX9UwspY",
+      "label": "DeltaBolic：單臂滑輪反向飛鳥",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "高位滑輪",
+        "遠側手跨身",
+        "向外下方開臂"
+      ],
+      "note": "0 秒紅色較低滑輪為錯誤對照，1 秒綠色高滑輪；3 秒跨身前上起點，7 秒向外下方展開，並非肩高水平拉。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "2be13c1c5ba829fe1241bd4881dafbcb7e088b11338dd4c7f2019ca898a7283d",
+      "findings": [
+        "2.196 秒滑輪設定、5.491 秒肩高跨身手臂、8.785 秒單臂向外開展；非双側反向飛鳥。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "追加逐秒檢視後改為高位斜向版本；前稿誤判肩高水平滑輪已修正。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "2be13c1c5ba829fe1241bd4881dafbcb7e088b11338dd4c7f2019ca898a7283d",
+      "reviewedImageSha256": "7e1a35b2a400c1c2805ce89bd9aefa2d20cd2ee5504fc3284769d79b425259f8",
+      "findings": [
+        "逐格檢視高位滑輪、遠側工作手由前上方向外下方打開、近側手扶塔，微彎肘與軀幹穩定一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/FeERX9UwspY",
+      "check": {
+        "videoId": "FeERX9UwspY",
+        "seconds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "observation": "0 秒紅色較低滑輪為錯誤對照，1 秒綠色高滑輪；3 秒跨身前上起點，7 秒向外下方展開，並非肩高水平拉。"
+      },
+      "findings": [
+        "2.196 秒滑輪設定、5.491 秒肩高跨身手臂、8.785 秒單臂向外開展；非双側反向飛鳥。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "2be13c1c5ba829fe1241bd4881dafbcb7e088b11338dd4c7f2019ca898a7283d",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-single-arm-cable-reverse-fly-zh-tw.png",
+    "sha256": "7e1a35b2a400c1c2805ce89bd9aefa2d20cd2ee5504fc3284769d79b425259f8",
+    "generatedFromContentHash": "2be13c1c5ba829fe1241bd4881dafbcb7e088b11338dd4c7f2019ca898a7283d",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正面三分之四，滑輪塔在畫面右側高於頭部，工作手在人物另一側，完整纜線可見。",
+      "frames": [
+        {
+          "title": "跨身準備",
+          "pose": "Match biomechanics of supplied video pose reference, adult woman from identity image only. FRONT THREE-QUARTER view: woman center, tall cable tower SCREEN RIGHT, pulley ABOVE HEAD. Her LEFT hand (screen RIGHT) holds fixed tower for support. WORKING RIGHT ARM is on SCREEN LEFT. Working RIGHT arm reaches diagonally UP ACROSS her front toward HIGH SCREEN RIGHT pulley, elbow nearly straight15degree soft bend, hand near/above face height but away from head. Cable short taut to pulley. Torso stays front-facing, feet stable, right elbow angle unchanged; do not swap working arms. Use safe D handle not bare wire. Fixed camera all panels.",
+          "caption": "遠側手跨身，握把在前上方。"
+        },
+        {
+          "title": "向外打開",
+          "pose": "Match biomechanics of supplied video pose reference, adult woman from identity image only. FRONT THREE-QUARTER view: woman center, tall cable tower SCREEN RIGHT, pulley ABOVE HEAD. Her LEFT hand (screen RIGHT) holds fixed tower for support. WORKING RIGHT ARM is on SCREEN LEFT. Working right arm opens to screen LEFT and slightly DOWN, hand at lower-chest/upper-waist height away from torso, elbow nearly straight15degree soft bend. Cable is long diagonal from HIGH SCREEN RIGHT pulley to LOW SCREEN LEFT handle. Torso stays front-facing, feet stable, right elbow angle unchanged; do not swap working arms. Use safe D handle not bare wire. Fixed camera all panels.",
+          "caption": "向外下方打開，軀幹不轉。"
+        },
+        {
+          "title": "放回換側",
+          "pose": "Match biomechanics of supplied video pose reference, adult woman from identity image only. FRONT THREE-QUARTER view: woman center, tall cable tower SCREEN RIGHT, pulley ABOVE HEAD. Her LEFT hand (screen RIGHT) holds fixed tower for support. WORKING RIGHT ARM is on SCREEN LEFT. Working RIGHT arm reaches diagonally UP ACROSS her front toward HIGH SCREEN RIGHT pulley, elbow nearly straight15degree soft bend, hand near/above face height but away from head. Cable short taut to pulley. Torso stays front-facing, feet stable, right elbow angle unchanged; do not swap working arms. Use safe D handle not bare wire. Fixed camera all panels.",
+          "caption": "慢慢回前上方，每側各 10 次。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-single-arm-cable-reverse-fly-rejected-1-zh-tw.png",
+        "sha256": "e2ceac2fd4c739d8d9065c95acbb8e0b0bb68ad51fad8cb434f3f1628a0aeb38",
+        "status": "rejected",
+        "reason": "第一格屈肘過多而中格伸肘，誤成肘伸展；全程近伸直手肘才是肩水平外展。",
+        "reviewedAt": "2026-09-21"
+      },
+      {
+        "path": "content/image-history/v1.9.0/fitness-single-arm-cable-reverse-fly-rejected-2-zh-tw.png",
+        "sha256": "01c338d7b11da8db6395e62ac0022f36268854db2c8ed2237f405e396209237a",
+        "status": "rejected",
+        "reason": "示範高度與手臂側別不符高位斜向反向飛鳥。",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 高位單臂滑輪反向飛鳥; subtitle 從身體前上方往外側打開手臂，以高位滑輪練習肩後側控制。; camera 固定正面三分之四，滑輪塔在畫面右側高於頭部，工作手在人物另一側，完整纜線可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"跨身準備\",\"pose\":\"Match biomechanics of supplied video pose reference, adult woman from identity image only. FRONT THREE-QUARTER view: woman center, tall cable tower SCREEN RIGHT, pulley ABOVE HEAD. Her LEFT hand (screen RIGHT) holds fixed tower for support. WORKING RIGHT ARM is on SCREEN LEFT. Working RIGHT arm reaches diagonally UP ACROSS her front toward HIGH SCREEN RIGHT pulley, elbow nearly straight15degree soft bend, hand near/above face height but away from head. Cable short taut to pulley. Torso stays front-facing, feet stable, right elbow angle unchanged; do not swap working arms. Use safe D handle not bare wire. Fixed camera all panels.\",\"caption\":\"遠側手跨身，握把在前上方。\"},{\"title\":\"向外打開\",\"pose\":\"Match biomechanics of supplied video pose reference, adult woman from identity image only. FRONT THREE-QUARTER view: woman center, tall cable tower SCREEN RIGHT, pulley ABOVE HEAD. Her LEFT hand (screen RIGHT) holds fixed tower for support. WORKING RIGHT ARM is on SCREEN LEFT. Working right arm opens to screen LEFT and slightly DOWN, hand at lower-chest/upper-waist height away from torso, elbow nearly straight15degree soft bend. Cable is long diagonal from HIGH SCREEN RIGHT pulley to LOW SCREEN LEFT handle. Torso stays front-facing, feet stable, right elbow angle unchanged; do not swap working arms. Use safe D handle not bare wire. Fixed camera all panels.\",\"caption\":\"向外下方打開，軀幹不轉。\"},{\"title\":\"放回換側\",\"pose\":\"Match biomechanics of supplied video pose reference, adult woman from identity image only. FRONT THREE-QUARTER view: woman center, tall cable tower SCREEN RIGHT, pulley ABOVE HEAD. Her LEFT hand (screen RIGHT) holds fixed tower for support. WORKING RIGHT ARM is on SCREEN LEFT. Working RIGHT arm reaches diagonally UP ACROSS her front toward HIGH SCREEN RIGHT pulley, elbow nearly straight15degree soft bend, hand near/above face height but away from head. Cable short taut to pulley. Torso stays front-facing, feet stable, right elbow angle unchanged; do not swap working arms. Use safe D handle not bare wire. Fixed camera all panels.\",\"caption\":\"慢慢回前上方，每側各 10 次。\"}]; bottom three columns 動作重點 [\"高位滑輪，手臂往外下方展開\",\"手肘微彎，不拉成划船\",\"軀幹不旋轉借力\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. CRITICAL: Camera and pose English directions are internal only. Never print camera instructions in infographic. Only prescribed Traditional Chinese captions, no slogans."
+    }
+  }
+}

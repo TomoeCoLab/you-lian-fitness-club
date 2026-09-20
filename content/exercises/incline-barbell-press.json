@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "incline-barbell-press",
+    "name": "上斜槓鈴臥推",
+    "bodyParts": [
+      "胸",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "在上斜椅上控制自由槓下放與推回，訓練胸部推力。",
+    "instructions": [
+      "把上斜椅調到约 30–45 度並確認槓架、安全擋；先用空槓練習，需要時請人保護。",
+      "頭、肩、臀部貼椅，雙腳踩穩，雙手正握略寬於肩；移出槓至上胸上方。",
+      "保持手腕在手肘上方，控制屈肘把槓降到上胸附近；不撞胸、不強求碰胸。",
+      "將槓平順推回起點，不抬臀或過度拱腰；結束雙側穩定掛回，确认後才鬆手。"
+    ],
+    "cues": [
+      "先設安全擋或請人保護",
+      "槓鈴兩端保持穩定",
+      "肩部舒服的範圍內下放"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/98HWfiRonkE",
+      "watchUrl": "https://www.youtube.com/shorts/98HWfiRonkE",
+      "title": "上斜槓鈴臥推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/incline-barbell-bench-press",
+    "sourceLabel": "NASM：上斜槓鈴臥推"
+  },
+  "definition": {
+    "variation": "約 30–45 度上斜椅的自由槓胸推，不是史密斯固定軌道。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/98HWfiRonkE",
+      "label": "DeltaBolic：上斜槓鈴臥推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "上斜自由槓版本",
+        "手腕與手肘對齊",
+        "上胸附近下放"
+      ],
+      "note": "2.484、6.211、9.937 秒可見上斜自由槓、手腕與手肘對齊及上胸附近下放；片中也含紅色錯誤提示，不照抄錯誤姿勢。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/incline-barbell-bench-press",
+      "label": "NASM：上斜槓鈴臥推",
+      "supports": [
+        "上斜椅與雙腳支撐",
+        "穩定肩胛與控制下放",
+        "避免過度拱腰"
+      ],
+      "note": "NASM 示範 45 度；本站允許 30–45 度舒適角度，不宣稱單一角度對每個人最佳。",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "f24642ee1ae2794a90de7dd10f4978fb6af3cf4c58b7975e0489884c58f85306",
+      "findings": [
+        "2.484、6.211、9.937 秒可見上斜自由槓、手腕與手肘對齊及上胸附近下放；片中也含紅色錯誤提示，不照抄錯誤姿勢。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "f24642ee1ae2794a90de7dd10f4978fb6af3cf4c58b7975e0489884c58f85306",
+      "reviewedImageSha256": "704b0a1535b3ea7a97bda0140511480ae168314031beba60becdb9bbfcb511b5",
+      "findings": [
+        "逐格可見自由槓而非導軌、上斜椅與安全擋、頭肩臀及雙腳支撐、屈肘下放與推回；2 組 10 次一致，沒有標語。下放不強求觸胸。",
+        "視覺檢查非生物力學量測或專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/98HWfiRonkE",
+      "check": {
+        "videoId": "98HWfiRonkE",
+        "seconds": [
+          2.4842,
+          6.2105,
+          9.9368
+        ],
+        "observation": "2.484、6.211、9.937 秒可見上斜自由槓、手腕與手肘對齊及上胸附近下放；片中也含紅色錯誤提示，不照抄錯誤姿勢。"
+      },
+      "findings": [
+        "2.484、6.211、9.937 秒可見上斜自由槓、手腕與手肘對齊及上胸附近下放；片中也含紅色錯誤提示，不照抄錯誤姿勢。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "f24642ee1ae2794a90de7dd10f4978fb6af3cf4c58b7975e0489884c58f85306",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-incline-barbell-press-zh-tw.png",
+    "sha256": "704b0a1535b3ea7a97bda0140511480ae168314031beba60becdb9bbfcb511b5",
+    "generatedFromContentHash": "f24642ee1ae2794a90de7dd10f4978fb6af3cf4c58b7975e0489884c58f85306",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定斜側面，完整上斜椅、雙腳及兩側保護槓架可見；自由槓沒有導軌。",
+      "frames": [
+        {
+          "title": "建立支撐",
+          "pose": "Woman reclined on 40 degree bench in free barbell rack with safety arms. Feet floor, head shoulders butt supported. Bar held over upper chest, pronated closed grip slightly wider than shoulders, elbows extended. No Smith guide rails.",
+          "caption": "上斜椅與安全擋先確認，雙腳踩穩。"
+        },
+        {
+          "title": "控制下放",
+          "pose": "Same incline free barbell setup, elbows bend while lowering horizontal bar close to upper chest, wrists over elbows, shoulders stable. Back contacts bench and neck neutral.",
+          "caption": "槓靠近上胸，手腕與前臂對齊。"
+        },
+        {
+          "title": "推回穩定",
+          "pose": "Same free barbell pushed upward to starting position, both ends level, natural extended elbows, no lifting butt or excessive lumbar arch.",
+          "caption": "平順推回，結束確認掛回再鬆手。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 上斜槓鈴臥推; subtitle 在上斜椅上控制自由槓下放與推回，訓練胸部推力。; camera 固定斜側面，完整上斜椅、雙腳及兩側保護槓架可見；自由槓沒有導軌。; render each step title and caption verbatim and depict pose: [{\"title\":\"建立支撐\",\"pose\":\"Woman reclined on 40 degree bench in free barbell rack with safety arms. Feet floor, head shoulders butt supported. Bar held over upper chest, pronated closed grip slightly wider than shoulders, elbows extended. No Smith guide rails.\",\"caption\":\"上斜椅與安全擋先確認，雙腳踩穩。\"},{\"title\":\"控制下放\",\"pose\":\"Same incline free barbell setup, elbows bend while lowering horizontal bar close to upper chest, wrists over elbows, shoulders stable. Back contacts bench and neck neutral.\",\"caption\":\"槓靠近上胸，手腕與前臂對齊。\"},{\"title\":\"推回穩定\",\"pose\":\"Same free barbell pushed upward to starting position, both ends level, natural extended elbows, no lifting butt or excessive lumbar arch.\",\"caption\":\"平順推回，結束確認掛回再鬆手。\"}]; bottom three columns 動作重點 [\"先設安全擋或請人保護\",\"槓鈴兩端保持穩定\",\"肩部舒服的範圍內下放\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

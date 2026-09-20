@@ -833,11 +833,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "選擇能保留約 2 次餘力的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
-      "watchUrl": "https://www.youtube.com/watch?v=Am787GTLclY",
-      "title": "啞鈴仰臥推舉",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mTaiQemkEpU",
+      "watchUrl": "https://www.youtube.com/shorts/mTaiQemkEpU",
+      "title": "啞鈴胸推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/19/chest-press/",
     "sourceLabel": "ACE：平板啞鈴胸推"
@@ -872,11 +873,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "選擇不需扭轉身體也能完成的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
-      "watchUrl": "https://www.youtube.com/watch?v=r1loX83MWaw",
-      "title": "啞鈴划船完整教學",
-      "channel": "女力健身 Nuli App",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/yHqqGd0tXcw",
+      "watchUrl": "https://www.youtube.com/shorts/yHqqGd0tXcw",
+      "title": "單臂啞鈴划船姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/126/single-arm-row/",
     "sourceLabel": "ACE：長椅支撐單臂啞鈴划船"
@@ -910,11 +912,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "從能穩定控制的輕重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
-      "watchUrl": "https://www.youtube.com/watch?v=ePxgPKcI1fU",
-      "title": "坐姿啞鈴肩上推舉",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/k6tzKisR3NY",
+      "watchUrl": "https://www.youtube.com/shorts/k6tzKisR3NY",
+      "title": "坐姿啞鈴肩推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.puregym.com/exercises/arms-and-shoulders/shoulder-press/seated-shoulder-press/",
     "sourceLabel": "PureGym：坐姿啞鈴肩推"
@@ -947,11 +950,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "能保持手腕直立完成 10–12 次"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
-      "watchUrl": "https://www.youtube.com/watch?v=2g4v5qv8ByM",
-      "title": "啞鈴彎舉動作教學",
-      "channel": "卓叔增重",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/clRekvAadDA",
+      "watchUrl": "https://www.youtube.com/shorts/clRekvAadDA",
+      "title": "啞鈴彎舉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "看右側綠色勾選示範；左側紅叉是上臂晃動的錯誤對照。"
     },
     "sourceUrl": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
     "sourceLabel": "NHS 肌力活動"
@@ -1023,11 +1027,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "先以空槓熟悉路徑，再逐步加重"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
-      "watchUrl": "https://www.youtube.com/watch?v=1Ppl7czpoUc",
-      "title": "槓鈴仰臥推舉",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_FkbD0FhgVE",
+      "watchUrl": "https://www.youtube.com/shorts/_FkbD0FhgVE",
+      "title": "槓鈴臥推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/barbell-bench-press",
     "sourceLabel": "NASM：槓鈴平板臥推"
@@ -1062,11 +1067,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "先練空槓或墊高版本；保留 2–3 次餘力"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
-      "watchUrl": "https://www.youtube.com/watch?v=mCkHvemP79U",
-      "title": "一般硬舉",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xNwpvDuZJ3k",
+      "watchUrl": "https://www.youtube.com/shorts/xNwpvDuZJ3k",
+      "title": "槓鈴硬舉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/barbell-deadlift",
     "sourceLabel": "NASM：槓鈴地板硬舉"
@@ -1178,12 +1184,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "先用空機確認槓重與腳位"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs&t=64s",
-      "title": "下半身器械：史密斯機",
-      "channel": "May Fit",
-      "language": "中文",
-      "note": "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NxCntzwABlY?start=8&end=13",
+      "watchUrl": "https://www.youtube.com/shorts/NxCntzwABlY",
+      "title": "史密斯深蹲姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "播放平地肩寬版本的片段；其他站距變化不套用本項圖解。"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/back-squat-2/",
     "sourceLabel": "Fitness Institute：史密斯深蹲"
@@ -1293,12 +1299,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "從可穩定完成 12 次的輕重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
-      "watchUrl": "https://www.youtube.com/watch?v=nxklnskwKeo",
-      "title": "胸部推舉機",
-      "channel": "東吳大學體育室",
-      "language": "中文",
-      "note": "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Qu7-ceCvq7w",
+      "watchUrl": "https://www.youtube.com/shorts/Qu7-ceCvq7w",
+      "title": "器械胸推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。 圖解與影片器械外觀可能不同，座位、墊位及解鎖依現場機台標示。"
     },
     "sourceUrl": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
     "sourceLabel": "Life Fitness：Circuit Series 原廠操作手冊"
@@ -1332,12 +1338,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "選擇肩膀舒適且胸部能控制的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/eGjt4lk6g34",
-      "watchUrl": "https://www.youtube.com/watch?v=eGjt4lk6g34",
-      "title": "蝴蝶機夾胸動作示範",
-      "channel": "PureGym",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/a9vQ_hwIksU",
+      "watchUrl": "https://www.youtube.com/shorts/a9vQ_hwIksU",
+      "title": "蝴蝶機夾胸姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
       "language": "英文",
-      "note": "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。"
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/pec-fly-pin-loaded/",
     "sourceLabel": "Fitness Institute：握把式蝴蝶機夾胸"
@@ -1371,11 +1377,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "能完整控制回程且保留約 2 次餘力"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
-      "watchUrl": "https://www.youtube.com/watch?v=0KULvdo7T0c",
-      "title": "垂直下拉（胸前）",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/bNmvKpJSWKM",
+      "watchUrl": "https://www.youtube.com/shorts/bNmvKpJSWKM",
+      "title": "高位下拉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.puregym.com/exercises/back/lat-exercises/lat-pulldown/",
     "sourceLabel": "PureGym：胸前高位下拉"
@@ -1409,12 +1416,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "能保持坐姿不晃動的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/k0cTJCfxa0Y",
-      "watchUrl": "https://www.youtube.com/watch?v=k0cTJCfxa0Y",
-      "title": "坐姿窄握滑輪划船",
-      "channel": "NASM",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/qD1WZ5pSuvk",
+      "watchUrl": "https://www.youtube.com/shorts/qD1WZ5pSuvk",
+      "title": "坐姿划船姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
       "language": "英文",
-      "note": "影片是無胸部靠墊的窄握滑輪版本；有胸墊機型請貼靠支撐，不靠後仰拉重量。"
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.puregym.com/exercises/back/rows/seated-cable-row/",
     "sourceLabel": "PureGym：坐姿滑輪划船文字教學"
@@ -1448,12 +1455,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "先以可全程貼靠椅背的重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/TnhIyp4kmO8",
-      "watchUrl": "https://www.youtube.com/watch?v=TnhIyp4kmO8",
-      "title": "器械肩推動作示範",
-      "channel": "PureGym",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/6v4nrRVySj0",
+      "watchUrl": "https://www.youtube.com/shorts/6v4nrRVySj0",
+      "title": "器械肩推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
       "language": "英文",
-      "note": "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。"
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。 圖解與影片器械外觀可能不同，座位、墊位及解鎖依現場機台標示。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/186/seated-shoulder-press/",
     "sourceLabel": "ACE：器械坐姿肩推"
@@ -1487,12 +1494,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "空機或輕重量先確認活動範圍"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/q4W4_VJbKW0",
-      "watchUrl": "https://www.youtube.com/watch?v=q4W4_VJbKW0",
-      "title": "腿推動作示範",
-      "channel": "PureGym",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EotSw18oR9w",
+      "watchUrl": "https://www.youtube.com/shorts/EotSw18oR9w",
+      "title": "腿推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
       "language": "英文",
-      "note": "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。"
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.puregym.com/exercises/legs/quad-exercises/leg-presses/45-degree-leg-press/",
     "sourceLabel": "PureGym：45 度腿推"
@@ -1525,12 +1532,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "以可停住頂端、不需借力的重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
-      "watchUrl": "https://www.youtube.com/watch?v=-jYITOdsRKk",
-      "title": "大腿前側訓練機",
-      "channel": "東吳大學體育室",
-      "language": "中文",
-      "note": "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/iQ92TuvBqRo",
+      "watchUrl": "https://www.youtube.com/shorts/iQ92TuvBqRo",
+      "title": "腿屈伸姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。 圖解與影片器械外觀可能不同，座位、墊位及解鎖依現場機台標示。"
     },
     "sourceUrl": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
     "sourceLabel": "Life Fitness：Circuit Series 原廠操作手冊"
@@ -1564,12 +1571,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "選擇能完整控制回程的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
-      "watchUrl": "https://www.youtube.com/watch?v=NDy4XDe1Uz4",
-      "title": "大腿後側訓練機",
-      "channel": "東吳大學體育室",
-      "language": "中文",
-      "note": "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xdbEG3xGLI8",
+      "watchUrl": "https://www.youtube.com/shorts/xdbEG3xGLI8",
+      "title": "坐姿腿彎舉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。 圖解與影片器械外觀可能不同，座位、墊位及解鎖依現場機台標示。"
     },
     "sourceUrl": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
     "sourceLabel": "Life Fitness：Circuit Series 原廠操作手冊"
@@ -1605,11 +1612,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "保留約 2 次餘力；需要時提高支撐面"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/WDIpL0pjun0",
-      "watchUrl": "https://www.youtube.com/watch?v=WDIpL0pjun0",
-      "title": "地板伏地挺身",
-      "channel": "NASM",
-      "language": "英文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/GHJgsTIW_bQ",
+      "watchUrl": "https://www.youtube.com/shorts/GHJgsTIW_bQ",
+      "title": "伏地挺身姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/push-up",
     "sourceLabel": "NASM 伏地挺身"
@@ -1642,11 +1650,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "徒手計時；姿勢優先於撐得更久"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
-      "watchUrl": "https://www.youtube.com/watch?v=QpOgJLqeo14",
-      "title": "前臂棒式",
-      "channel": "Nuffield Health",
-      "language": "英文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xe2MXatLTUw",
+      "watchUrl": "https://www.youtube.com/shorts/xe2MXatLTUw",
+      "title": "前臂棒式姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/32/front-plank/",
     "sourceLabel": "ACE Exercise Library"
@@ -1681,12 +1690,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "先比平板胸推使用更輕的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
-      "watchUrl": "https://www.youtube.com/watch?v=8IdQTpwJD-A&t=10s",
-      "title": "上斜啞鈴胸推片段",
-      "channel": "東吳大學體育室",
-      "language": "中文",
-      "note": "已對照上斜靠背與屈肘推舉畫面；內嵌限定 00:10–00:30，原影片後段另有擴胸，不是本項動作。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8fXfwG4ftaQ",
+      "watchUrl": "https://www.youtube.com/shorts/8fXfwG4ftaQ",
+      "title": "上斜啞鈴胸推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/two-arm-incline-dumbbell-chest-press",
     "sourceLabel": "NASM：雙手上斜啞鈴胸推"
@@ -1719,11 +1728,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "選擇能控制下放 2 秒的輕重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183",
-      "watchUrl": "https://www.youtube.com/watch?v=vR5fCLCTNq4&t=95s",
-      "title": "啞鈴側平舉教學",
-      "channel": "女力健身 Nuli App",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Kl3LEzQ5Zqs",
+      "watchUrl": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs",
+      "title": "啞鈴側平舉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/",
     "sourceLabel": "ACE：啞鈴側平舉"
@@ -1875,11 +1885,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "使用可在終點停住一秒的輕重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s",
-      "watchUrl": "https://www.youtube.com/watch?v=eTCBSFlCJ_s",
-      "title": "滑輪繩索臉拉",
-      "channel": "NASM",
-      "language": "英文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/IeOqdw9WI90",
+      "watchUrl": "https://www.youtube.com/shorts/IeOqdw9WI90",
+      "title": "滑輪臉拉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/face-pull",
     "sourceLabel": "NASM 動作資料庫"
@@ -1954,11 +1965,12 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "空機確認墊帶位置，再逐步加重"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/YQiVUH3aXkU",
-      "watchUrl": "https://www.youtube.com/watch?v=YQiVUH3aXkU",
-      "title": "臀推機器材教學",
-      "channel": "United Fitness 聯合健身",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/sxOrVuCvWq4",
+      "watchUrl": "https://www.youtube.com/shorts/sxOrVuCvWq4",
+      "title": "臀推機臀推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。 圖解與影片器械外觀可能不同，座位、墊位及解鎖依現場機台標示。"
     },
     "sourceUrl": "https://www.hussle.com/blog/how-to-use-a-hip-thrust-machine-for-optimal-gains/",
     "sourceLabel": "Hussle：臀推機動作教學"
@@ -2923,5 +2935,2099 @@ export const exerciseCatalog: GuideExercise[] = [
     },
     "sourceUrl": "https://us.physitrack.com/home-exercise-video/%25e2%2580%259cthread-the-needle%25e2%2580%259d",
     "sourceLabel": "Physitrack 穿針引線式"
+  },
+  {
+    "id": "smith-bench-press",
+    "name": "史密斯平板胸推",
+    "bodyParts": [
+      "胸",
+      "手臂"
+    ],
+    "equipment": "史密斯機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "在平板椅上沿史密斯固定軌道推起槓，練習胸部推力與穩定支撐。",
+    "instructions": [
+      "依現場機台指示調整平板椅與安全擋，空槓確認下放位置在胸部上方；不熟悉解鎖、掛回方式時先請教練協助。",
+      "頭、肩與臀部貼穩椅面，雙腳踩實；雙手完整握住槓，手腕與前臂對齊，再依機台方式解鎖。",
+      "緩慢屈肘下放至胸部附近且肩部舒服的位置，不碰撞胸口、不讓手肘橫向張開成一直線。",
+      "平順推回起點，不聳肩或抬臀；結束依機台指示掛回，確認槓已固定再鬆手。"
+    ],
+    "cues": [
+      "安全擋與椅位先確認",
+      "前臂支撐槓，手腕不向後折",
+      "保持頭、肩、臀與雙腳支撐"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/XFYMLdlaq04",
+      "watchUrl": "https://www.youtube.com/shorts/XFYMLdlaq04",
+      "title": "史密斯平板胸推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/XFYMLdlaq04",
+    "sourceLabel": "DeltaBolic：史密斯平板胸推示範"
+  },
+  {
+    "id": "smith-incline-press",
+    "name": "史密斯上斜胸推",
+    "bodyParts": [
+      "胸",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "史密斯機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "使用上斜椅與史密斯軌道，練習上斜角度的胸部推舉。",
+    "instructions": [
+      "將穩固上斜椅放在史密斯機內，椅背約 30–45 度；空槓確認軌跡落在上胸附近，安全擋及解鎖方式依現場機台確認。",
+      "背、頭與臀部貼穩椅面，雙腳踩地，完整正握槓；手腕在手肘上方。",
+      "屈肘控制下放至上胸附近、肩部舒服的位置，不彈胸、不抬肩追槓。",
+      "沿軌道推回起點，維持軀幹支撐；結束確認掛回固定後再起身。"
+    ],
+    "cues": [
+      "上斜椅不是直立椅",
+      "手腕與前臂對齊",
+      "不要拱腰或抬臀追重量"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/VXaBbUYMfIs",
+      "watchUrl": "https://www.youtube.com/shorts/VXaBbUYMfIs",
+      "title": "史密斯上斜胸推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/VXaBbUYMfIs",
+    "sourceLabel": "DeltaBolic：史密斯上斜胸推示範"
+  },
+  {
+    "id": "incline-barbell-press",
+    "name": "上斜槓鈴臥推",
+    "bodyParts": [
+      "胸",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "在上斜椅上控制自由槓下放與推回，訓練胸部推力。",
+    "instructions": [
+      "把上斜椅調到约 30–45 度並確認槓架、安全擋；先用空槓練習，需要時請人保護。",
+      "頭、肩、臀部貼椅，雙腳踩穩，雙手正握略寬於肩；移出槓至上胸上方。",
+      "保持手腕在手肘上方，控制屈肘把槓降到上胸附近；不撞胸、不強求碰胸。",
+      "將槓平順推回起點，不抬臀或過度拱腰；結束雙側穩定掛回，确认後才鬆手。"
+    ],
+    "cues": [
+      "先設安全擋或請人保護",
+      "槓鈴兩端保持穩定",
+      "肩部舒服的範圍內下放"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/98HWfiRonkE",
+      "watchUrl": "https://www.youtube.com/shorts/98HWfiRonkE",
+      "title": "上斜槓鈴臥推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/incline-barbell-bench-press",
+    "sourceLabel": "NASM：上斜槓鈴臥推"
+  },
+  {
+    "id": "dumbbell-fly",
+    "name": "平板啞鈴飛鳥",
+    "bodyParts": [
+      "胸",
+      "肩"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "保持手肘微彎，以弧線開合手臂訓練胸部，不用推舉重量做飛鳥。",
+    "instructions": [
+      "拿兩顆輕啞鈴仰躺平板椅，頭、肩、臀部有支撐，雙腳踩地；需要時請人協助遞啞鈴。",
+      "把啞鈴放在胸部上方，掌心相對、手肘微彎，手腕保持穩定。",
+      "沿弧線慢慢向兩側打開，到上臂接近身體水平或更淺的舒服範圍；不要追求深拉伸。",
+      "維持手肘彎度，沿相同弧線合回胸部上方，不碰撞啞鈴；結束穩定收回再坐起。"
+    ],
+    "cues": [
+      "使用比胸推更輕的重量",
+      "手肘微彎，不變成大幅屈伸的胸推",
+      "不讓手臂過度掉到椅面下方"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rk8YayRoTRQ",
+      "watchUrl": "https://www.youtube.com/shorts/rk8YayRoTRQ",
+      "title": "平板啞鈴飛鳥短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/21/lying-chest-fly/",
+    "sourceLabel": "ACE：平板啞鈴飛鳥"
+  },
+  {
+    "id": "high-to-low-cable-fly",
+    "name": "高到低滑輪飛鳥",
+    "bodyParts": [
+      "胸"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "由高位滑輪向前下方合攏手臂，以可控制弧線練習胸部出力。",
+    "instructions": [
+      "兩側滑輪固定在高於肩的位置，輕重量各持一個握把，前後腳站穩，軀幹微向前傾。",
+      "手臂向兩側打開到肩部舒服範圍，手肘微彎；肩部放鬆，不向後硬拉。",
+      "維持手肘彎度，沿前下方弧線把握把帶到下胸至上腹前方；不用雙手交叉或碰撞。",
+      "控制回到起始開展位置，軀幹不前後搖晃；結束慢慢讓配重落穩再放下握把。"
+    ],
+    "cues": [
+      "滑輪在高位，雙手往前下方合攏",
+      "軀幹角度穩定，不用身體甩動",
+      "肩部不適就停止"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/I-Ue34qLxc4",
+      "watchUrl": "https://www.youtube.com/shorts/I-Ue34qLxc4",
+      "title": "高到低滑輪飛鳥短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/I-Ue34qLxc4",
+    "sourceLabel": "DeltaBolic：高到低滑輪飛鳥示範"
+  },
+  {
+    "id": "seated-cable-chest-press",
+    "name": "坐姿滑輪胸推",
+    "bodyParts": [
+      "胸",
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐在靠背椅上，使用雙滑輪向前推，讓軀幹保持穩定。",
+    "instructions": [
+      "將穩固靠背椅置於雙滑輪之間，滑輪約胸部高度並位於身後；用輕重量確認纜線不磨擦手臂或椅面。",
+      "坐穩靠背，雙腳踩地，各握一個握把，握把在胸側、手腕在手肘前方。",
+      "向胸部前方平順推起，手肘逐漸伸直但不過伸；不把手臂改往頭頂推。",
+      "控制屈肘回到胸側，肩部舒服即可，不過度拉到身後；結束慢慢讓配重落穩。"
+    ],
+    "cues": [
+      "靠背與雙腳支撐穩定",
+      "本項向前推，不向頭頂推",
+      "用屈伸手肘完成，不當作飛鳥"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/FHeLHhTth8w?start=0&end=12",
+      "watchUrl": "https://www.youtube.com/shorts/FHeLHhTth8w",
+      "title": "坐姿滑輪胸推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "本項是向前胸推；影片後段向上推的變化不屬於本項。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/FHeLHhTth8w",
+    "sourceLabel": "DeltaBolic：坐姿滑輪胸推示範"
+  },
+  {
+    "id": "diamond-push-up",
+    "name": "鑽石伏地挺身",
+    "bodyParts": [
+      "胸",
+      "手臂",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以較窄手位練習伏地挺身，增加手臂伸肘需求；手腕不舒服時不勉強手指相碰。",
+    "instructions": [
+      "在止滑地面以手掌與腳尖支撐，雙手置於胸部下方附近，拇指與食指可形成菱形；手腕不舒服就改較寬手位或換動作。",
+      "收緊腹部，頭、軀幹與雙腿維持一線，視線朝地面前方，不抬頭看鏡頭。",
+      "屈肘慢慢下放，手肘朝後外側自然彎曲，不硬夾身體；胸部靠近手掌但不塌腰。",
+      "推地回到起點，肩與臀同步上升；完整下放與推回算一次。"
+    ],
+    "cues": [
+      "窄手位不是把手放到臉前",
+      "不塌腰、不抬臀先走",
+      "手腕或肩肘不適即停止"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 6,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先以徒手完成 4–6 次穩定動作；做不到時可選上斜伏地挺身，不勉強窄手位。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/PPTj-MW2tcs",
+      "watchUrl": "https://www.youtube.com/shorts/PPTj-MW2tcs",
+      "title": "鑽石伏地挺身短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/PPTj-MW2tcs",
+    "sourceLabel": "DeltaBolic：鑽石伏地挺身示範"
+  },
+  {
+    "id": "pull-up",
+    "name": "徒手引體向上",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "單槓",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "使用固定單槓，以背部與手臂力量拉起身體，練習控制上拉與下放。",
+    "instructions": [
+      "確認單槓穩固，從安全踏台完整正握單槓，雙手略寬於肩；不跳抓不穩定的門框。",
+      "離開踏台後穩定軀幹，手臂伸長、肩部保有控制，雙腿不前後甩。",
+      "將手肘向下帶，拉身體靠近槓；以可控制高度為準，不伸脖子硬湊下巴過槓。",
+      "慢慢下放到手臂伸長的起點，肩部不猛然鬆掉；完成後踩回踏台再放手。"
+    ],
+    "cues": [
+      "不踢腿或擺盪借力",
+      "不伸脖子湊高度",
+      "回程保持控制"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "先以徒手完成可控制的 3–5 次；做不到時改選輔助引體向上，不甩動硬拉。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/eDP_OOhMTZ4",
+      "watchUrl": "https://www.youtube.com/shorts/eDP_OOhMTZ4",
+      "title": "徒手引體向上短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/eDP_OOhMTZ4",
+    "sourceLabel": "DeltaBolic：徒手引體向上示範"
+  },
+  {
+    "id": "barbell-bent-over-row",
+    "name": "槓鈴俯身划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "保持髖折俯身，以手肘向後帶動槓鈴，訓練背部拉力。",
+    "instructions": [
+      "雙腳約髖寬，正握槓鈴略寬於肩；先把槓提起，再屈髖向後坐、膝微彎，讓背部保持自然線條。",
+      "維持可控制的俯身角度，手臂自然垂下，槓在膝下至小腿前方，視線沿軀幹朝地面。",
+      "手肘向後帶，把槓拉向下胸至上腹附近，不聳肩、不站起借力。",
+      "慢慢伸肘放回懸垂位置；結束保持控制把槓放回支架或以髖折方式落地。"
+    ],
+    "cues": [
+      "俯身角度不隨每次大幅改變",
+      "腹部穩定，不圓背追深度",
+      "手腕自然，不用手腕捲槓"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/phVtqawIgbk",
+      "watchUrl": "https://www.youtube.com/shorts/phVtqawIgbk",
+      "title": "槓鈴俯身划船短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/phVtqawIgbk",
+    "sourceLabel": "DeltaBolic：槓鈴俯身划船示範"
+  },
+  {
+    "id": "landmine-row",
+    "name": "地雷管划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "地雷管",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "利用固定端槓鈴與窄握把，在髖折位置練習雙手划船。",
+    "instructions": [
+      "確認槓的一端固定在合格地雷管底座，配重端與窄握把牢固；不把槓隨意頂在牆角。",
+      "雙腳跨在槓兩側，屈髖、膝微彎，雙手握住配重片後方的 V 型握把；背部保持自然線條。",
+      "維持俯身角度，手肘往後拉，讓握把靠近腹部；配重不撞胸，肩膀不聳起。",
+      "沿槓的弧線慢慢伸肘放回，結束將配重穩定落地再鬆手。"
+    ],
+    "cues": [
+      "先確認底座與握把固定",
+      "不把胸靠器械當作同一種設定",
+      "不站直甩起重量"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Sr2q7i-i8X0",
+      "watchUrl": "https://www.youtube.com/shorts/Sr2q7i-i8X0",
+      "title": "地雷管划船短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/Sr2q7i-i8X0",
+    "sourceLabel": "DeltaBolic：地雷管划船示範"
+  },
+  {
+    "id": "straight-arm-pulldown",
+    "name": "滑輪直臂下拉",
+    "bodyParts": [
+      "背"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "保持手肘小幅彎曲，以肩部帶動直桿下拉，練習背部控制。",
+    "instructions": [
+      "高位滑輪裝好直桿，雙手完整正握約肩寬，向後退到纜線有空間；膝微彎、軀幹稍前傾。",
+      "手臂向前上方伸長至肩部舒服範圍，手肘維持小幅彎曲，腹部穩定。",
+      "保持手肘角度，把直桿沿弧線拉向大腿前方；不要彎肘拉成划船，也不要拱腰下壓。",
+      "慢慢讓手臂回到前上方，肩膀不聳起；結束控制配重落穩。"
+    ],
+    "cues": [
+      "手肘微彎，但不反覆大幅屈伸",
+      "肋骨不要向前翻",
+      "直桿只到大腿前方，不硬拉身後"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hAMcfubonDc",
+      "watchUrl": "https://www.youtube.com/shorts/hAMcfubonDc",
+      "title": "滑輪直臂下拉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/hAMcfubonDc",
+    "sourceLabel": "DeltaBolic：滑輪直臂下拉示範"
+  },
+  {
+    "id": "chest-supported-dumbbell-row",
+    "name": "胸靠啞鈴划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "胸部靠在上斜椅上，用兩顆啞鈴划船，減少軀幹晃動。",
+    "instructions": [
+      "將上斜椅固定在約 30–45 度，胸腹靠穩椅背，雙腳踩地；頭頸在椅面上緣外自然延伸。",
+      "雙手各持一顆輕啞鈴，掌心相對，手臂自然垂下；不要讓啞鈴撞椅腳。",
+      "手肘往後帶，將啞鈴拉近身體兩側，胸部仍留在椅墊，不抬胸甩重。",
+      "慢慢伸肘放回，肩部保持控制；結束把啞鈴放穩後再離開椅面。"
+    ],
+    "cues": [
+      "胸部保持支撐，不用腰甩動",
+      "頭頸順著脊椎，不抬頭看鏡子",
+      "回程讓肩胛自然移動，不猛然聳肩"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/2ByilQ4NaAs",
+      "watchUrl": "https://www.youtube.com/shorts/2ByilQ4NaAs",
+      "title": "胸靠啞鈴划船短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/2ByilQ4NaAs",
+    "sourceLabel": "DeltaBolic：胸靠啞鈴划船示範"
+  },
+  {
+    "id": "chest-supported-machine-row",
+    "name": "胸靠器械划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "胸靠划船機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "胸墊提供支撐，使用中立握把練習坐姿背部划船。",
+    "instructions": [
+      "依機台指示調整座椅與胸墊，讓胸部能貼墊、雙腳踏穩，握把位在胸部至上腹前方。",
+      "選輕重量，雙手掌心相對握住中立握把；手臂向前伸長但不被配重拉離胸墊。",
+      "手肘朝後拉，握把靠近身體兩側，肩膀不聳起、胸部不離墊。",
+      "慢慢伸肘回到起點，配重不撞擊；完成後穩定放回再離開機台。"
+    ],
+    "cues": [
+      "胸墊支撐全程保留",
+      "先確認本機台座椅與握把設定",
+      "不抬胸或後仰甩重量"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/p88Y69wWQz0?start=7&end=12",
+      "watchUrl": "https://www.youtube.com/shorts/p88Y69wWQz0",
+      "title": "胸靠器械划船短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "示範截取中立握把區段；座椅、胸墊與握把調節仍依現場機台說明。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/p88Y69wWQz0",
+    "sourceLabel": "DeltaBolic：胸靠器械划船示範"
+  },
+  {
+    "id": "smith-bent-over-row",
+    "name": "史密斯俯身划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "史密斯機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "保持俯身位置，沿史密斯固定軌道進行槓鈴划船。",
+    "instructions": [
+      "先確認史密斯軌道方向、安全擋與掛鉤操作，以空槓找出不碰膝的站位；不熟悉時先請現場人員協助。",
+      "雙腳踩穩，正握略寬於肩，膝微彎、屈髖俯身，保持背部自然線條與腹部穩定。",
+      "手肘往後帶，沿軌道將槓拉向上腹附近；不抬身、不過度外張手肘。",
+      "控制伸肘回到起點；完成確認掛回固定再鬆手，姿勢失控時不要硬做。"
+    ],
+    "cues": [
+      "先以空槓確認軌跡與站位",
+      "背部自然，不靠站起來拉重量",
+      "機台不同，解鎖方式不可互套"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/kKONaLGAQW8",
+      "watchUrl": "https://www.youtube.com/shorts/kKONaLGAQW8",
+      "title": "史密斯俯身划船短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/kKONaLGAQW8",
+    "sourceLabel": "DeltaBolic：史密斯俯身划船示範"
+  },
+  {
+    "id": "dumbbell-pullover",
+    "name": "仰躺啞鈴上拉",
+    "bodyParts": [
+      "背",
+      "胸"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "仰躺長椅、雙手共持一顆啞鈴，以肩部舒適範圍控制頭後下放與拉回。",
+    "instructions": [
+      "沿平板椅仰躺，頭、肩、臀部貼墊、雙腳踩地；雙手托穩同一顆啞鈴，先放胸部上方。",
+      "手肘保持微彎，收住肋骨、腹部穩定；不要靠拱腰增加幅度。",
+      "控制將啞鈴沿弧線移向頭後，到肩部舒服的位置即停，不強迫降到椅面以下。",
+      "保持手肘彎度，沿弧線拉回胸部上方；結束小心收回啞鈴後再起身。"
+    ],
+    "cues": [
+      "雙手穩握同一顆啞鈴",
+      "不把動作變成大幅屈肘的三頭肌伸展",
+      "肋骨穩定，不追求過深拉伸"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Datv2L6t3-4",
+      "watchUrl": "https://www.youtube.com/shorts/Datv2L6t3-4",
+      "title": "仰躺啞鈴上拉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片同時呈現錯誤／正確對照；請對照下方綠色示範。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/Datv2L6t3-4",
+    "sourceLabel": "DeltaBolic：仰躺啞鈴上拉示範"
+  },
+  {
+    "id": "standing-barbell-press",
+    "name": "站姿槓鈴肩推",
+    "bodyParts": [
+      "肩",
+      "手臂",
+      "核心"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "站穩後將槓鈴由肩前推到頭頂，以穩定軀幹練習上推力量。",
+    "instructions": [
+      "從合適高度的槓架取槓，完整正握略寬於肩，槓在肩前，手肘略在槓前下方；先以空槓熟悉路徑。",
+      "雙腳約髖寬踩穩，腹部與臀部維持張力，肋骨不向前翻；視線平視。",
+      "下巴稍讓出路徑，把槓貼近身體上推，過額頭後讓頭回到自然位置；不往後仰躲槓。",
+      "控制把槓降回肩前，膝蓋不蹬動；結束穩定掛回槓架。"
+    ],
+    "cues": [
+      "不蹬腿變成借力推舉",
+      "不拱腰或推到頸後",
+      "槓通過頭部時保留安全空間"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/zoN5EH50Dro",
+      "watchUrl": "https://www.youtube.com/shorts/zoN5EH50Dro",
+      "title": "站姿槓鈴肩推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/zoN5EH50Dro",
+    "sourceLabel": "DeltaBolic：站姿槓鈴肩推示範"
+  },
+  {
+    "id": "smith-seated-shoulder-press",
+    "name": "史密斯坐姿肩推",
+    "bodyParts": [
+      "肩",
+      "手臂"
+    ],
+    "equipment": "史密斯機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐穩靠背椅，沿史密斯軌道由肩前向上推，保持背部與腳部支撐。",
+    "instructions": [
+      "把靠背椅置於史密斯機中，椅背接近直立；空槓確認槓在臉部前方的安全路徑，先設安全擋。",
+      "坐穩、雙腳踩地，頭背與臀部有支撐；雙手正握，手腕與前臂對齊。",
+      "由下巴至肩前的舒服起點向上推，沿機台軌道伸肘，不聳肩硬擠或拱腰。",
+      "控制降回肩前，不降到頸後；結束確認掛回固定後才鬆手。"
+    ],
+    "cues": [
+      "槓在身體前方，不推頸後",
+      "靠背與雙腳支撐不離開",
+      "機台解鎖方式依現場說明"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/E7ngsffMPR0",
+      "watchUrl": "https://www.youtube.com/shorts/E7ngsffMPR0",
+      "title": "史密斯坐姿肩推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/E7ngsffMPR0",
+    "sourceLabel": "DeltaBolic：史密斯坐姿肩推示範"
+  },
+  {
+    "id": "arnold-press",
+    "name": "阿諾肩推",
+    "bodyParts": [
+      "肩",
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐姿持雙啞鈴，在舒適範圍旋轉手臂並上推，練習肩部控制。",
+    "instructions": [
+      "坐穩接近直立的靠背椅，雙腳踩地，雙手持輕啞鈴放在肩前，掌心朝自己，手肘在前方。",
+      "肩部不聳起，平順向兩側打開手肘並旋轉手臂，讓掌心逐漸朝前。",
+      "在肩部舒服範圍推向頭頂，軀幹不後仰、手腕不刻意扭折。",
+      "緩慢下放並反向旋轉，回到肩前掌心朝自己的起點；肩部卡住或疼痛就停止。"
+    ],
+    "cues": [
+      "旋轉來自整個手臂，不硬扭手腕",
+      "先用比一般肩推更輕的重量",
+      "不追求過大肩部旋轉範圍"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/AjB-UXErljM",
+      "watchUrl": "https://www.youtube.com/shorts/AjB-UXErljM",
+      "title": "阿諾肩推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/AjB-UXErljM",
+    "sourceLabel": "DeltaBolic：阿諾肩推示範"
+  },
+  {
+    "id": "bent-over-dumbbell-reverse-fly",
+    "name": "俯身啞鈴反向飛鳥",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "站姿髖折俯身，維持手肘微彎向兩側打開啞鈴，練習肩後側控制。",
+    "instructions": [
+      "雙腳約髖寬、膝微彎，屈髖俯身，背部自然、腹部穩定，雙手各持輕啞鈴。",
+      "手臂垂在肩部下方，掌心相對，手肘小幅彎曲；頭頸沿脊椎，視線朝地面。",
+      "維持手肘彎度，向兩側打開手臂，抬到與軀幹大致同高或更低的舒服位置，不聳肩。",
+      "沿原路慢慢放回，不抬身借力、不讓啞鈴互撞。"
+    ],
+    "cues": [
+      "用輕重量，不甩動",
+      "手肘保持微彎，不拉成划船",
+      "俯身角度與頭頸保持穩定"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/LsT-bR_zxLo",
+      "watchUrl": "https://www.youtube.com/shorts/LsT-bR_zxLo",
+      "title": "俯身啞鈴反向飛鳥短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/LsT-bR_zxLo",
+    "sourceLabel": "DeltaBolic：俯身啞鈴反向飛鳥示範"
+  },
+  {
+    "id": "chest-supported-reverse-fly",
+    "name": "胸靠啞鈴反向飛鳥",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "胸部貼靠上斜椅，控制雙啞鈴向側面開合，練習肩後側與上背。",
+    "instructions": [
+      "上斜椅約 30–45 度固定好，胸部靠墊、雙腳踩穩；頭頸自然延伸，不把臉壓住。",
+      "雙手各持輕啞鈴垂在肩下，掌心相對、手肘微彎。",
+      "保持手肘彎度，將雙臂向兩側抬起至肩部舒服的高度，胸部不離椅墊。",
+      "控制下放回到肩下，不聳肩、不抬胸；先放穩啞鈴再離開椅面。"
+    ],
+    "cues": [
+      "胸靠支撐全程保留",
+      "微彎手肘，雙臂向外打開",
+      "不要把動作變成屈肘划船"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/sIQNCJ6Xwsk",
+      "watchUrl": "https://www.youtube.com/shorts/sIQNCJ6Xwsk",
+      "title": "胸靠啞鈴反向飛鳥短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/sIQNCJ6Xwsk",
+    "sourceLabel": "DeltaBolic：胸靠啞鈴反向飛鳥示範"
+  },
+  {
+    "id": "single-arm-cable-reverse-fly",
+    "name": "高位單臂滑輪反向飛鳥",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "從身體前上方往外側打開手臂，以高位滑輪練習肩後側控制。",
+    "instructions": [
+      "將單手握把扣在較高滑輪，站在機台側前方；先以很輕阻力確認路徑，依原廠握把使用，不抓裸露鋼索。",
+      "遠側手跨過身前上方握住握把，另一手可扶固定架，工作肘只保留自然小彎、肩膀不聳起。",
+      "保持肘角度，將工作手往外側、略往下打開到舒適位置，軀幹不跟著轉，手不必拉到身後很遠。",
+      "慢慢控制手臂回到前上方，完成一側後換側；肩部不適就停止。"
+    ],
+    "cues": [
+      "高位滑輪，手臂往外下方展開",
+      "手肘微彎，不拉成划船",
+      "軀幹不旋轉借力"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/FeERX9UwspY",
+      "watchUrl": "https://www.youtube.com/shorts/FeERX9UwspY",
+      "title": "高位單臂滑輪反向飛鳥短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "看高位滑輪與手臂向外下方的路徑；請使用機台核准的握把，不抓裸露鋼索。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/FeERX9UwspY",
+    "sourceLabel": "DeltaBolic：單臂滑輪反向飛鳥示範"
+  },
+  {
+    "id": "single-arm-cable-lateral-raise",
+    "name": "單臂滑輪側平舉",
+    "bodyParts": [
+      "肩"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以約髖高滑輪提供阻力，單手向側面抬起，練習肩部平穩出力。",
+    "instructions": [
+      "將滑輪固定在約髖部高度，側站機台旁，遠側手從身前跨身握把；確認纜線不摩擦或纏住身體，另一手輕扶穩固機架或扶髖。",
+      "站穩、腹部穩定，工作手在身前偏向機台一側，手腕自然、手肘微彎。",
+      "向身體側前方平順抬手，到約肩高或更低的舒服位置，不用身體側倒或聳肩。",
+      "慢慢回到起點，配重不撞擊；完成後換側，每組左右各做指定次數。"
+    ],
+    "cues": [
+      "滑輪約髖高，先確認纜線空間",
+      "不把拇指刻意轉向地板",
+      "不甩動身體追求高度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JlT2xB92lY8",
+      "watchUrl": "https://www.youtube.com/shorts/JlT2xB92lY8",
+      "title": "單臂滑輪側平舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/JlT2xB92lY8",
+    "sourceLabel": "DeltaBolic：單臂滑輪側平舉示範"
+  },
+  {
+    "id": "dumbbell-front-raise",
+    "name": "站姿啞鈴前平舉",
+    "bodyParts": [
+      "肩"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "站穩後將兩顆輕啞鈴向前抬起，以肩部舒適高度練習控制。",
+    "instructions": [
+      "雙腳約髖寬站穩，各持一顆輕啞鈴放在大腿前方，手肘微彎，腹部穩定。",
+      "保持手腕自然，將雙臂向前抬起，到大約肩高或更低的舒服位置即可。",
+      "軀幹保持穩定，肩膀不要往耳朵擠，不靠後仰或甩動把重量拉高。",
+      "控制啞鈴沿原路回到大腿前，兩顆啞鈴不互撞；完整抬起與放回算一次。"
+    ],
+    "cues": [
+      "選能穩定控制的輕重量",
+      "不刻意翻腕，肩頸放鬆",
+      "不後仰追求更高幅度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/eJ_HNftboic",
+      "watchUrl": "https://www.youtube.com/shorts/eJ_HNftboic",
+      "title": "站姿啞鈴前平舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "請看下方綠色示範；上方紅色為錯誤對照。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/eJ_HNftboic",
+    "sourceLabel": "DeltaBolic：站姿啞鈴前平舉示範"
+  },
+  {
+    "id": "dumbbell-shrug",
+    "name": "啞鈴聳肩",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "雙手持啞鈴，以肩胛上提與下降練習上背部控制，不轉肩繞圈。",
+    "instructions": [
+      "雙腳踩穩，雙手各持一顆啞鈴放在身體兩側，掌心相對，頭頸自然平視。",
+      "手肘保持自然伸長，肩膀往上提到可控制、無不適的位置，不把下巴往前伸。",
+      "短暫穩定後，慢慢讓肩膀下降回到自然位置；不突然讓重量把肩拉下。",
+      "全程不繞肩、不屈肘抬重；完整上提與下降算一次。"
+    ],
+    "cues": [
+      "上下移動，不做繞肩圈",
+      "頭頸自然，避免伸下巴",
+      "重量以可控制回程為準"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rFsSeClGnNA",
+      "watchUrl": "https://www.youtube.com/shorts/rFsSeClGnNA",
+      "title": "啞鈴聳肩短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/rFsSeClGnNA",
+    "sourceLabel": "DeltaBolic：啞鈴聳肩示範"
+  },
+  {
+    "id": "seated-dumbbell-overhead-extension",
+    "name": "坐姿啞鈴過頭三頭肌伸展",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐穩靠背椅，雙手共持一顆啞鈴，以頭後屈肘與伸肘練習三頭肌。",
+    "instructions": [
+      "選不妨礙頭後空間的穩固靠背椅，雙腳踩地，雙手托穩一顆輕啞鈴舉到頭頂。",
+      "上臂維持舒服的舉高位置，手肘不強夾耳朵；腹部穩定，不拱腰。",
+      "緩慢彎曲手肘，把啞鈴降到頭後的舒服深度，避免碰撞頭頸。",
+      "保持上臂穩定，伸肘推回頭頂；結束小心將啞鈴收回，需要時請人協助。"
+    ],
+    "cues": [
+      "雙手共持一顆，不是每手各一顆",
+      "上臂穩定，屈伸發生在手肘",
+      "不強夾手肘或追求過深幅度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/b_r_LW4HEcM",
+      "watchUrl": "https://www.youtube.com/shorts/b_r_LW4HEcM",
+      "title": "坐姿啞鈴過頭三頭肌伸展短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/b_r_LW4HEcM",
+    "sourceLabel": "DeltaBolic：坐姿啞鈴過頭三頭肌伸展示範"
+  },
+  {
+    "id": "low-cable-overhead-extension",
+    "name": "低位滑輪過頭三頭肌伸展",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "背向低位滑輪，以繩索在頭後屈伸手肘，練習三頭肌。",
+    "instructions": [
+      "把繩索扣在低位滑輪，先選輕重量並確認身後纜線空間；雙手握繩轉身就位，不讓纜線纏身。",
+      "背向機台、前後腳站穩，上臂抬到頭側舒服位置，手肘彎曲、握繩的手在頭後。",
+      "保持軀幹與上臂穩定，伸肘把雙手推到頭頂前上方，不聳肩或拱腰。",
+      "慢慢屈肘回到頭後，控制配重；結束放回到低位並確認配重落穩。"
+    ],
+    "cues": [
+      "機台在身後，滑輪在低位",
+      "手肘不強夾耳側",
+      "頭後纜線與繩索保留空間"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/9Ark9S11uXw",
+      "watchUrl": "https://www.youtube.com/shorts/9Ark9S11uXw",
+      "title": "低位滑輪過頭三頭肌伸展短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/9Ark9S11uXw",
+    "sourceLabel": "DeltaBolic：低位滑輪過頭三頭肌伸展示範"
+  },
+  {
+    "id": "high-cable-overhead-extension",
+    "name": "高位滑輪過頭三頭肌伸展",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "背向高位滑輪、穩定前傾，將直桿由頭後向前伸出，練習伸肘控制。",
+    "instructions": [
+      "高位滑輪裝好直桿，輕重量完整握住，背向機台跨步站穩；确认頭後與纜線空間。",
+      "屈髖微前傾，腹部收緊，上臂朝前上方、手肘彎曲，直桿在頭後附近。",
+      "維持上臂與軀幹位置，伸肘將直桿推往前方，不靠身體前後晃動。",
+      "控制屈肘回到頭後的舒服位置，不碰頭；完成後慢慢回到可安全放回握把的位置。"
+    ],
+    "cues": [
+      "高滑輪與直桿，不和低位繩索混用",
+      "前傾來自髖部，不把腰折彎",
+      "不強迫手肘夾緊"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NTk0Igxqcsk",
+      "watchUrl": "https://www.youtube.com/shorts/NTk0Igxqcsk",
+      "title": "高位滑輪過頭三頭肌伸展短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/NTk0Igxqcsk",
+    "sourceLabel": "DeltaBolic：高位滑輪過頭三頭肌伸展示範"
+  },
+  {
+    "id": "lying-ez-bar-triceps-extension",
+    "name": "仰躺曲槓三頭肌伸展",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "曲槓",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "仰躺平板椅，用曲槓控制屈肘與伸肘，練習三頭肌。",
+    "instructions": [
+      "仰躺平板椅，頭、肩、臀部貼穩，雙腳踩地；以輕重量完整握住曲槓的斜握段。",
+      "曲槓在額頭上方偏後的安全位置，上臂略朝頭側但保持穩定，手腕自然。",
+      "慢慢屈肘，讓曲槓降到頭後附近的舒服位置，絕不撞額頭；上臂不大幅前後擺。",
+      "伸肘回到起點，不強迫肘關節過伸；結束安全收回或請人接槓。"
+    ],
+    "cues": [
+      "曲槓路徑保留頭部空間",
+      "不要把重量甩向額頭",
+      "先用輕重量，必要時請人保護"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/K3mFeNz4e3w",
+      "watchUrl": "https://www.youtube.com/shorts/K3mFeNz4e3w",
+      "title": "仰躺曲槓三頭肌伸展短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/K3mFeNz4e3w",
+    "sourceLabel": "DeltaBolic：仰躺曲槓三頭肌伸展示範"
+  },
+  {
+    "id": "single-arm-dumbbell-kickback",
+    "name": "單臂啞鈴三頭肌後踢",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以非工作手支撐長椅，穩定上臂後將啞鈴向後伸出，練習三頭肌。",
+    "instructions": [
+      "雙腳踩穩、屈髖俯身，非工作手或前臂靠在穩固長椅上，背部自然。",
+      "工作手持輕啞鈴，上臂貼近軀幹并朝後，手肘彎約直角，前臂自然垂下。",
+      "保持上臂位置，伸直手肘把啞鈴向身後帶，不抬肩、甩手或扭腰。",
+      "慢慢彎肘回到起點；完成後換側，每組左右各做指定次數。"
+    ],
+    "cues": [
+      "上臂穩定，前臂繞手肘移動",
+      "雙腳仍在地上",
+      "不把後踢做成肩部大幅擺動"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/WhBxKbe1-NU",
+      "watchUrl": "https://www.youtube.com/shorts/WhBxKbe1-NU",
+      "title": "單臂啞鈴三頭肌後踢短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/WhBxKbe1-NU",
+    "sourceLabel": "DeltaBolic：單臂啞鈴三頭肌後踢示範"
+  },
+  {
+    "id": "dumbbell-concentration-curl",
+    "name": "啞鈴集中彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐穩後用大腿內側支撐上臂，單手控制啞鈴彎舉。",
+    "instructions": [
+      "坐在穩固長椅前緣，雙腳張開踩地，軀幹微前傾；工作上臂靠同側大腿內側，不把肘尖硬壓膝蓋骨。",
+      "單手持輕啞鈴，掌心向前上方，手臂向地面伸長但不強迫肘過伸，另一手扶大腿。",
+      "保持上臂支撐，屈肘把啞鈴帶近肩前，不聳肩、扭身或折手腕。",
+      "慢慢放回起點；完成後換側，每組左右各做指定次數。"
+    ],
+    "cues": [
+      "上臂靠大腿，不硬壓膝蓋",
+      "手腕維持自然",
+      "不抬肩或扭身甩動"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EjUnEEfTSEY",
+      "watchUrl": "https://www.youtube.com/shorts/EjUnEEfTSEY",
+      "title": "啞鈴集中彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/EjUnEEfTSEY",
+    "sourceLabel": "DeltaBolic：啞鈴集中彎舉示範"
+  },
+  {
+    "id": "barbell-curl",
+    "name": "槓鈴彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "站姿雙手持直槓，以穩定上臂練習屈肘與下放。",
+    "instructions": [
+      "雙腳約髖寬站穩，雙手反握直槓約肩寬，拇指環握，槓在大腿前，膝蓋自然微彎。",
+      "腹部穩定，上臂靠近身體，手腕不向後折。",
+      "屈肘把槓帶向肩前的舒服高度，上臂不大幅往前抬，不往後仰甩槓。",
+      "控制伸肘回到大腿前，不強迫肘過伸；完成後穩定放回槓架。"
+    ],
+    "cues": [
+      "反握直槓，手腕舒服為前提",
+      "不借腰後仰",
+      "控制下放，不讓槓砸落"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/54x2WF1_Suc",
+      "watchUrl": "https://www.youtube.com/shorts/54x2WF1_Suc",
+      "title": "槓鈴彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/54x2WF1_Suc",
+    "sourceLabel": "DeltaBolic：槓鈴彎舉示範"
+  },
+  {
+    "id": "dumbbell-hammer-curl",
+    "name": "啞鈴槌式彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "維持掌心相對，以中立握法彎舉雙啞鈴，練習手臂屈肘控制。",
+    "instructions": [
+      "雙腳踩穩，各持一顆啞鈴垂在身側，掌心相對、拇指朝前，上臂靠近身體。",
+      "維持中立握法，屈肘把啞鈴抬向肩前，不在途中翻掌。",
+      "上臂與軀幹保持穩定，不後仰或聳肩借力。",
+      "慢慢伸肘回到身側，手腕不折，完整抬起與放回算一次。"
+    ],
+    "cues": [
+      "掌心相對，像握槌子",
+      "不邊抬邊翻掌",
+      "控制回程，不甩動"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=4&end=9",
+      "watchUrl": "https://www.youtube.com/shorts/_aoad2yuP5w",
+      "title": "啞鈴槌式彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/_aoad2yuP5w",
+    "sourceLabel": "DeltaBolic：啞鈴槌式彎舉示範"
+  },
+  {
+    "id": "reverse-dumbbell-curl",
+    "name": "反握啞鈴彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以掌心朝下的正握方向彎舉啞鈴，練習前臂與屈肘肌群。",
+    "instructions": [
+      "雙腳踩穩，各持輕啞鈴在大腿前，掌心朝後、手背朝前，上臂靠近軀幹。",
+      "保持手腕直，屈肘把啞鈴抬向前上方，抬起後掌心仍朝下。",
+      "不靠翻掌、後仰或上臂前甩完成；重量通常要比一般彎舉更輕。",
+      "控制伸肘回到大腿前，避免手腕被重量向下折；完整回程算一次。"
+    ],
+    "cues": [
+      "手掌方向固定，不變成槌式",
+      "手腕保持中立",
+      "比一般彎舉更輕也沒關係"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=9&end=12",
+      "watchUrl": "https://www.youtube.com/shorts/_aoad2yuP5w",
+      "title": "反握啞鈴彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/_aoad2yuP5w",
+    "sourceLabel": "DeltaBolic：反握啞鈴彎舉示範"
+  },
+  {
+    "id": "incline-dumbbell-curl",
+    "name": "上斜啞鈴彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐在稍微後傾的靠背椅上，讓上臂自然下垂，控制雙啞鈴彎舉。",
+    "instructions": [
+      "靠背椅調到約 80–85 度並鎖穩，坐穩、雙腳踩地；雙手各持輕啞鈴自然垂於身側。",
+      "背部靠穩、肩部放鬆，掌心向前，上臂自然垂下，不強迫往身後拉。",
+      "維持上臂位置，屈肘把啞鈴抬向肩前，不聳肩或抬肘追高度。",
+      "慢慢伸肘回到自然下垂位置，肩部不舒服即停止；不讓重量拉扯肩前側。"
+    ],
+    "cues": [
+      "本項靠背接近直立",
+      "上臂自然下垂，不強拉身後",
+      "頭背靠穩，不前後晃"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/uCUaRFlA9vE",
+      "watchUrl": "https://www.youtube.com/shorts/uCUaRFlA9vE",
+      "title": "上斜啞鈴彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/uCUaRFlA9vE",
+    "sourceLabel": "DeltaBolic：上斜啞鈴彎舉示範"
+  },
+  {
+    "id": "machine-preacher-curl",
+    "name": "器械牧師椅彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "牧師椅彎舉機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以手臂墊支撐上臂，在器械引導下控制彎舉與放回。",
+    "instructions": [
+      "依機台圖示調整座位與手臂墊，使上臂背側能完整支撐、手肘與轉軸位置合適；機型不同不可照抄其他機器的設定。",
+      "雙腳踩穩，雙手反握握把，手腕自然，上臂留在墊上，不讓手肘被拉到過伸。",
+      "平順屈肘把握把帶向肩前，避免抬肩或抬起上臂離墊。",
+      "控制放回到舒服的伸肘範圍，配重不撞擊；結束放穩再鬆手。"
+    ],
+    "cues": [
+      "上臂留在手臂墊上",
+      "不突然落到底或鎖死手肘",
+      "先用輕重量確認機台設定"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/S4dDLfp3e8w",
+      "watchUrl": "https://www.youtube.com/shorts/S4dDLfp3e8w",
+      "title": "器械牧師椅彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/S4dDLfp3e8w",
+    "sourceLabel": "DeltaBolic：器械牧師椅彎舉示範"
+  },
+  {
+    "id": "standing-cable-curl",
+    "name": "站姿滑輪彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "雙手持低位滑輪直桿，以穩定上臂控制彎舉。",
+    "instructions": [
+      "把直桿扣在低位滑輪，面向機台、雙腳踩穩，雙手反握約肩寬，手臂在大腿前伸長。",
+      "腹部穩定，手肘靠近身側、手腕自然，先確認纜線不碰腳。",
+      "屈肘將直桿帶向肩前，不聳肩、不把手肘大幅抬到前面。",
+      "控制伸肘回到起點，保持纜線張力但不撞配重；結束慢慢放回。"
+    ],
+    "cues": [
+      "反握直桿，手腕不要向後折",
+      "上臂固定，不用身體後仰",
+      "低位纜線保持暢通"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/CrbTqNOlFgE",
+      "watchUrl": "https://www.youtube.com/shorts/CrbTqNOlFgE",
+      "title": "站姿滑輪彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/CrbTqNOlFgE",
+    "sourceLabel": "DeltaBolic：站姿滑輪彎舉示範"
+  },
+  {
+    "id": "bayesian-cable-curl",
+    "name": "身後滑輪彎舉（貝氏彎舉）",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "讓工作上臂自然位於身後，以單側滑輪練習屈肘控制。",
+    "instructions": [
+      "將單把滑輪調到工作手自然伸長時附近的高度，背向機台、前後腳踩穩，先用很輕重量。",
+      "讓工作上臂自然向身後抬到肩部舒服的位置，保持軀幹穩定；不用追求影片人物的抬臂角度。",
+      "上臂保持原位，屈肘把握把向前帶近身側，手腕保持自然，不用肩膀向前甩動。",
+      "慢慢伸肘回到身後起點，再換側；肩前側有拉扯痛或無法固定上臂時停止。"
+    ],
+    "cues": [
+      "上臂只在身後舒服的位置",
+      "不扭身或用肩向前甩",
+      "肩前側疼痛即停止"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/w3sXATQzGvc",
+      "watchUrl": "https://www.youtube.com/shorts/w3sXATQzGvc",
+      "title": "身後滑輪彎舉（貝氏彎舉）短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/w3sXATQzGvc",
+    "sourceLabel": "DeltaBolic：身後滑輪彎舉（貝氏彎舉）示範"
+  },
+  {
+    "id": "seated-dumbbell-wrist-curl",
+    "name": "坐姿啞鈴腕彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "前臂放在大腿上、掌心朝上，以小幅度手腕屈曲練習前臂。",
+    "instructions": [
+      "坐穩、雙腳踩地，工作前臂放在同側大腿上，手腕略超過膝前，掌心朝上，握住一顆很輕的啞鈴。",
+      "保持前臂與手肘不動，讓手腕在舒服的小幅度內緩慢下降，不鬆開手指讓啞鈴滾落。",
+      "以手腕將掌心朝自己方向捲起，不屈肘把整條前臂抬離大腿。",
+      "慢慢放回起點，完成後換側；手腕疼痛、麻木或刺痛就停止。"
+    ],
+    "cues": [
+      "只動手腕，前臂留在大腿",
+      "保持握緊，不讓啞鈴滑落",
+      "小幅度、輕重量即可"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "使用很輕、可控制小幅度手腕活動的單顆啞鈴，不照抄影片的重啞鈴。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=2&end=5",
+      "watchUrl": "https://www.youtube.com/shorts/wSwo6mKHgZI",
+      "title": "坐姿啞鈴腕彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/wSwo6mKHgZI",
+    "sourceLabel": "DeltaBolic：坐姿啞鈴腕彎舉示範"
+  },
+  {
+    "id": "seated-reverse-wrist-curl",
+    "name": "坐姿啞鈴反向腕彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "掌心朝下、前臂有支撐，以手背小幅度抬起練習前臂伸肌。",
+    "instructions": [
+      "坐穩，工作前臂掌心朝下放在同側大腿，手腕略超過膝前，手握一顆很輕的啞鈴。",
+      "前臂與手肘保持支撐，手腕先在舒服範圍自然微垂，肩部放鬆。",
+      "以手背向上抬起啞鈴，幅度不必大，不抬整條手臂或用手肘彎舉。",
+      "控制慢慢放回，完成後換側；手腕疼痛、刺痛或麻木就停止。"
+    ],
+    "cues": [
+      "掌心朝下，抬的是手背",
+      "前臂全程留在大腿",
+      "不要用甩動補幅度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "使用很輕、能維持前臂支撐的單顆啞鈴；不要用一般彎舉重量做腕部動作。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=7&end=10",
+      "watchUrl": "https://www.youtube.com/shorts/wSwo6mKHgZI",
+      "title": "坐姿啞鈴反向腕彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/wSwo6mKHgZI",
+    "sourceLabel": "DeltaBolic：坐姿啞鈴反向腕彎舉示範"
+  },
+  {
+    "id": "dumbbell-static-split-squat",
+    "name": "啞鈴原地分腿蹲",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "前後腳位置固定，控制下蹲與站起，練習單側腿部出力。",
+    "instructions": [
+      "雙手各持輕啞鈴，前後腳分開站，左右保持髖寬、不站成一直線；前腳踩穩、後腳以前腳掌支撐。",
+      "軀幹自然直立或微前傾，彎曲兩側膝蓋向下，前膝沿腳尖方向，不內夾。",
+      "下降到可控制、沒有不適的深度，後膝接近地面但不撞地。",
+      "以前腳穩定出力站回，雙腳不移位；完成一側後換腳。"
+    ],
+    "cues": [
+      "前腳踩穩，膝蓋順著腳尖",
+      "上下移動，不向前衝",
+      "平衡不足先徒手扶穩"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mJilHWIBWO8",
+      "watchUrl": "https://www.youtube.com/shorts/mJilHWIBWO8",
+      "title": "啞鈴原地分腿蹲短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/mJilHWIBWO8",
+    "sourceLabel": "DeltaBolic：啞鈴原地分腿蹲示範"
+  },
+  {
+    "id": "dumbbell-bulgarian-split-squat",
+    "name": "啞鈴保加利亞分腿蹲",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "後腳放在穩固矮凳，以前腳支撐完成分腿蹲，增加單側控制挑戰。",
+    "instructions": [
+      "先用徒手確認平衡，選穩固不滑動的矮凳；背對凳面，把後腳腳背輕放凳上，前腳踩穩。",
+      "前腳離凳適當距離、左右保留髖寬，雙手輕啞鈴垂身側，軀幹可自然微前傾。",
+      "以前腳彎膝下蹲，膝蓋沿腳尖方向，後腳只輔助平衡，不用它用力推凳。",
+      "下降到可控制深度後以前腳出力站回；慢慢放下啞鈴再換側，不跳躍換腳。"
+    ],
+    "cues": [
+      "先徒手練穩再加重量",
+      "凳面穩固，前腳全掌踩穩",
+      "不強追深度或晃動"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/or1frhkjBDc",
+      "watchUrl": "https://www.youtube.com/shorts/or1frhkjBDc",
+      "title": "啞鈴保加利亞分腿蹲短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/or1frhkjBDc",
+    "sourceLabel": "DeltaBolic：啞鈴保加利亞分腿蹲示範"
+  },
+  {
+    "id": "barbell-back-squat",
+    "name": "槓鈴背蹲",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以背部承槓完成深蹲，在安全架內練習腿部與軀幹穩定。",
+    "instructions": [
+      "在深蹲架內設好低於預計最低槓位的安全桿；先用空槓練習，槓穩放上背肌肉、不可壓脖子。",
+      "雙手穩握，站起離架並小步退到安全桿內，雙腳約肩寬、腳尖自然微外轉。",
+      "腹部保持張力、持續呼吸，屈髖屈膝下蹲，膝蓋沿腳尖，腳掌全程踩穩。",
+      "在背部與腳部可控制的深度站起，不用腰猛拱；走回確認兩側掛鉤接住槓再鬆手。"
+    ],
+    "cues": [
+      "用安全架，先練空槓",
+      "槓放上背，不壓頸椎",
+      "深度以穩定與舒適為準"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/dW3zj79xfrc",
+      "watchUrl": "https://www.youtube.com/shorts/dW3zj79xfrc",
+      "title": "槓鈴背蹲短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/dW3zj79xfrc",
+    "sourceLabel": "DeltaBolic：槓鈴背蹲示範"
+  },
+  {
+    "id": "barbell-front-squat",
+    "name": "槓鈴前蹲",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以前肩承槓、手肘抬高完成深蹲，練習軀幹與腿部協調。",
+    "instructions": [
+      "在安全架內從空槓開始，安全桿放在預計最低槓位下方；槓放在前肩肌肉上，不壓喉嚨。",
+      "手指輕托槓、手肘抬向前方，保持能舒適支撐的前架位置；手腕痛或無法穩住槓時先停止。",
+      "雙腳約肩寬，腳掌踩穩，保持手肘高度並屈髖屈膝下蹲，膝蓋沿腳尖。",
+      "在穩定深度推地站起，不讓槓往前滾；確認回到兩側掛鉤後才鬆開。"
+    ],
+    "cues": [
+      "前肩承重，不靠手腕硬撐",
+      "手肘保持向前抬高",
+      "握法不舒服先不加重量"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_qv0m3tPd3s",
+      "watchUrl": "https://www.youtube.com/shorts/_qv0m3tPd3s",
+      "title": "槓鈴前蹲短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/_qv0m3tPd3s",
+    "sourceLabel": "DeltaBolic：槓鈴前蹲示範"
+  },
+  {
+    "id": "dumbbell-romanian-deadlift",
+    "name": "啞鈴羅馬尼亞硬舉",
+    "bodyParts": [
+      "腿",
+      "背"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "膝蓋微彎、臀部向後移，讓啞鈴貼近腿部完成髖折與站回。",
+    "instructions": [
+      "站穩、雙手各持啞鈴在大腿前，膝蓋保持小幅彎曲，頭頸延續背部方向。",
+      "臀部向後移動，軀幹隨髖折前傾，啞鈴貼近腿部慢慢下降，膝蓋不持續往前蹲。",
+      "下降到腿後側有拉伸、背部仍能穩定的範圍即可，啞鈴不一定到地面。",
+      "腳掌踩穩，將臀部帶回站姿；頂端站直即可，不向後拗腰。"
+    ],
+    "cues": [
+      "想像臀部向後找牆",
+      "啞鈴貼腿，不追求碰地",
+      "背部穩定，不用腰甩起"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hu3jRvTc_po",
+      "watchUrl": "https://www.youtube.com/shorts/hu3jRvTc_po",
+      "title": "啞鈴羅馬尼亞硬舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/hu3jRvTc_po",
+    "sourceLabel": "DeltaBolic：啞鈴羅馬尼亞硬舉示範"
+  },
+  {
+    "id": "dumbbell-sumo-squat",
+    "name": "啞鈴相撲深蹲",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "寬站距持單顆啞鈴，在可控制範圍內練習深蹲。",
+    "instructions": [
+      "雙腳比肩略寬，腳尖自然朝外，不強迫很大的外開角度；雙手穩握同一顆啞鈴上端。",
+      "啞鈴垂於兩腿間，胸口自然、腹部穩定，屈髖屈膝下蹲。",
+      "膝蓋沿腳尖方向移動，腳跟保持踩地，下降到可穩定控制的位置。",
+      "以雙腳推地站回，不把啞鈴甩起；若握力或站距不舒服就減重、縮小幅度。"
+    ],
+    "cues": [
+      "一顆啞鈴，雙手握穩",
+      "膝蓋與腳尖同方向",
+      "不用刻意追求最大站距"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/bRCjBCtBGIo",
+      "watchUrl": "https://www.youtube.com/shorts/bRCjBCtBGIo",
+      "title": "啞鈴相撲深蹲短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/bRCjBCtBGIo",
+    "sourceLabel": "DeltaBolic：啞鈴相撲深蹲示範"
+  },
+  {
+    "id": "lying-leg-curl",
+    "name": "俯臥腿彎舉",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "腿彎舉機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "俯臥在專用器械，以屈膝拉近腳跟練習腿後側。",
+    "instructions": [
+      "依機台標示調整滾墊與膝部轉軸位置，俯臥貼穩支撐墊，滾墊壓在腳踝上方的小腿後側、不是腳跟關節上。",
+      "握穩前方把手，腹部和骨盆貼穩墊面，雙腿自然伸長、膝蓋不鎖死，腳尖朝自然方向。",
+      "慢慢彎膝讓腳跟往臀部靠近，骨盆不要抬離墊面或拱腰追幅度。",
+      "控制伸膝放回，配重不撞擊；結束先放穩重量再離開。"
+    ],
+    "cues": [
+      "骨盆全程貼穩",
+      "滾墊放腳踝上方",
+      "不要靠拱腰抬臀"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/6eVuy_P5FR8?start=1&end=4",
+      "watchUrl": "https://www.youtube.com/shorts/6eVuy_P5FR8",
+      "title": "俯臥腿彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/lying-leg-curl",
+    "sourceLabel": "NASM：俯臥腿彎舉"
+  },
+  {
+    "id": "standing-cable-glute-kickback",
+    "name": "站姿滑輪臀後踢",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "扶穩機架，將腳踝繫帶向後帶動，練習臀部伸髖。",
+    "instructions": [
+      "把合適踝帶扣在低位滑輪與工作腳踝，面向機台，雙手扶穩固定架，確認踝帶與扣環牢靠。",
+      "支撐腳微彎、髖部自然折起微前傾，腹部穩定，雙側骨盆朝向機台。",
+      "工作腿保持自然微彎，向正後方帶到臀部可出力的位置，不靠腰往後拗或身體轉開。",
+      "慢慢將腿帶回支撐腳附近，纜線不鬆甩；放穩後再換側。"
+    ],
+    "cues": [
+      "往正後方，不往側邊踢",
+      "骨盆朝前，不轉腰",
+      "幅度小而穩也有效"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/UbOcViik3hk?start=1&end=5",
+      "watchUrl": "https://www.youtube.com/shorts/UbOcViik3hk",
+      "title": "站姿滑輪臀後踢短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/UbOcViik3hk",
+    "sourceLabel": "DeltaBolic：站姿滑輪臀後踢示範"
+  },
+  {
+    "id": "dumbbell-standing-calf-raise",
+    "name": "雙腳啞鈴提踵",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "雙腳前掌站在穩固低踏板，持輕啞鈴控制腳跟上提與下降。",
+    "instructions": [
+      "使用固定、止滑的低踏板，不疊啞鈴或鬆動槓片；先徒手確認平衡，再雙手持輕啞鈴垂身側。",
+      "雙腳前掌踩穩、腳尖朝自然前方，腳跟可小幅超出踏板；膝蓋自然伸長、不鎖死。",
+      "腳跟慢慢向上提，重心平均落在前掌，不向小腳趾側翻，也不彈跳。",
+      "控制腳跟下降到舒適範圍，不追求很深拉伸；需要扶穩時改用本站扶椅雙腳提踵。"
+    ],
+    "cues": [
+      "踏板穩固，不疊鬆動重物",
+      "腳跟上下，不向外翻",
+      "失去平衡就改扶穩徒手"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wdOkFomQNp8",
+      "watchUrl": "https://www.youtube.com/shorts/wdOkFomQNp8",
+      "title": "雙腳啞鈴提踵短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/wdOkFomQNp8",
+    "sourceLabel": "DeltaBolic：雙腳啞鈴提踵示範"
+  },
+  {
+    "id": "supine-crunch",
+    "name": "仰躺捲腹",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "從屈膝仰躺小幅捲起上背，練習腹部出力，不做整個身體坐起。",
+    "instructions": [
+      "仰躺墊上、屈膝雙腳踩地，指尖輕放頭側，手肘自然向外，頭頸保持自然。",
+      "吐氣，腹部出力把肩胛骨附近小幅帶離墊面，下背與骨盆保持穩定。",
+      "不把下巴硬壓向胸口、不用手拉脖子，也不追求坐起。",
+      "吸氣慢慢放回上背與頭部；若脖子痠痛或腰部不舒服，縮小幅度或停止。"
+    ],
+    "cues": [
+      "捲上背，不是坐起來",
+      "手指輕放，不拉脖子",
+      "慢慢回程，持續呼吸"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "徒手即可，不用抱槓片；先以不拉扯脖子的幅度練習。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=0&end=3",
+      "watchUrl": "https://www.youtube.com/shorts/acj52MXBaeo",
+      "title": "仰躺捲腹短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/acj52MXBaeo",
+    "sourceLabel": "DeltaBolic：仰躺捲腹示範"
+  },
+  {
+    "id": "supine-leg-raise",
+    "name": "仰躺抬腿",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "仰躺控制雙腿抬起與下降，練習腹部維持軀幹穩定。",
+    "instructions": [
+      "仰躺墊上，雙手放身側，頭與肩放鬆靠墊；雙腿伸長或保留自然微彎。",
+      "腹部保持張力，將兩腿一起抬向上方，骨盆不要突然捲起甩動。",
+      "慢慢下降到腰背仍舒適穩定的位置即可，不要求腳跟碰地。",
+      "若開始拱腰、憋氣或不舒服，提早回程、彎膝降低難度或停止。"
+    ],
+    "cues": [
+      "下降幅度由腰背控制決定",
+      "不用雙腿甩動借力",
+      "先穩住，再加大幅度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "徒手練習；腰部無法維持舒適穩定時先改屈膝或減少下降幅度。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=9&end=11",
+      "watchUrl": "https://www.youtube.com/shorts/TkCoHrR6Y7Q",
+      "title": "仰躺抬腿短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/TkCoHrR6Y7Q",
+    "sourceLabel": "DeltaBolic：仰躺抬腿示範"
+  },
+  {
+    "id": "bicycle-crunch",
+    "name": "自行車捲腹",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "屈膝交替伸腿，搭配上背小幅旋轉，練習腹部協調。",
+    "instructions": [
+      "仰躺、雙腿抬起屈膝，指尖輕放頭側，肩胛骨小幅離墊，脖子保持自然。",
+      "將一側膝蓋朝軀幹收近，另一腿慢慢伸出；讓對側肩膀朝收近的膝蓋小幅轉動。",
+      "慢慢回中間並換側，不用手拉頭或手肘硬碰膝蓋。",
+      "腰背保持舒適穩定；做不到時提高伸出腿的角度或減少幅度，脖子不適就停止。"
+    ],
+    "cues": [
+      "肩膀轉動，不拉脖子",
+      "慢慢交替，不用趕速度",
+      "左右各一下算一次"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "徒手即可；放慢速度、縮小伸腿幅度，不以碰到膝蓋為目標。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=7&end=10",
+      "watchUrl": "https://www.youtube.com/shorts/acj52MXBaeo",
+      "title": "自行車捲腹短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/acj52MXBaeo",
+    "sourceLabel": "DeltaBolic：自行車捲腹示範"
+  },
+  {
+    "id": "russian-twist",
+    "name": "俄羅斯轉體",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "在穩定的坐姿後傾位置，小幅左右轉動上身，練習核心控制。",
+    "instructions": [
+      "坐在瑜珈墊上、屈膝，背部保持自然延伸，軀幹微後傾；先能穩定坐好再輕抬雙腳。",
+      "雙手放胸前，骨盆穩定，讓胸口小幅轉向一側，不追求手碰地。",
+      "控制回到中間，再小幅轉向另一側，雙腿不跟著大幅甩動。",
+      "全程持續呼吸；腰背不舒服、容易圓背或晃動時停止，先選死蟲等較穩定的核心動作。"
+    ],
+    "cues": [
+      "徒手小幅轉，不用重物甩動",
+      "保持坐穩，不追求碰地",
+      "腰背不適就換較穩定動作"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "徒手即可；此為雙腳離地進階版，無法穩定坐姿時不要加重量。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=16&end=19",
+      "watchUrl": "https://www.youtube.com/shorts/TkCoHrR6Y7Q",
+      "title": "俄羅斯轉體短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/TkCoHrR6Y7Q",
+    "sourceLabel": "DeltaBolic：俄羅斯轉體示範"
+  },
+  {
+    "id": "kneeling-cable-crunch",
+    "name": "跪姿滑輪捲腹",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "跪姿握住高位繩索，以腹部捲動軀幹，不把整個身體往後坐。",
+    "instructions": [
+      "在高滑輪扣好繩索，墊好膝下，面向機台跪穩；雙手握繩放頭側，重量先很輕。",
+      "手與上臂維持相對固定位置，髖部不要一直往前後推，腹部保持張力。",
+      "吐氣，以腹部讓胸廓小幅往骨盆捲近，上背自然彎曲，不用手臂向下拉。",
+      "慢慢回到起點，避免完全伸展拱腰或臀部坐到腳跟；膝、腰或頸不適就停止。"
+    ],
+    "cues": [
+      "胸廓捲向骨盆，不是屁股往後坐",
+      "雙手只是握住繩索",
+      "慢慢回程，不拱腰"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/K2m0jj6RfYg",
+      "watchUrl": "https://www.youtube.com/shorts/K2m0jj6RfYg",
+      "title": "跪姿滑輪捲腹短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "看下半部綠色勾選示範；上半部紅叉是錯誤對照。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/K2m0jj6RfYg",
+    "sourceLabel": "DeltaBolic：跪姿滑輪捲腹示範"
   }
 ];

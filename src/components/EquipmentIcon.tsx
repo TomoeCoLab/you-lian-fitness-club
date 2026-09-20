@@ -23,6 +23,11 @@ export function EquipmentIcon({ equipment, size = 42 }: EquipmentIconProps) {
   if (equipment === "徒手") return frame(<><circle cx="32" cy="12" r="5" /><path d="M32 17v17m0-11-11 8m11-8 11 8M32 34 21 52m11-18 11 18" /><path d="M15 53h34" /></>);
   if (equipment === "啞鈴") return frame(<><path d="M16 32h32" /><path d="M12 24v16m6-19v22m28-22v22m6-19v16" /></>);
   if (equipment === "槓鈴") return frame(<><path d="M7 32h50" /><path d="M12 20v24m6-19v14m28-14v14m6-19v24" /></>);
+  if (equipment === "曲槓") return frame(<><path d="M7 32h12l6-5 14 10 6-5h12M12 21v22m40-22v22" /></>);
+  if (equipment === "地雷管") return frame(<><path d="M8 55h18M17 55l32-35M42 18l12 11M38 23l12 11" /><circle cx="17" cy="52" r="3" /></>);
+  if (equipment === "單槓") return frame(<><path d="M10 56V10h44v46M18 14h28" /><circle cx="32" cy="29" r="4" /><path d="M22 14v10l10 10 10-10V14M32 34v12l-5 9m5-9 5 9" /></>);
+  if (equipment === "胸靠划船機") return frame(<><path d="M8 55h48M14 15v40M24 30l9 8m-3-4-7 19M34 45h17" /><circle cx="39" cy="21" r="4" /><path d="m38 25-6 13 10 9m-7-18-14 5m21 13 7 7" /></>);
+  if (equipment === "牧師椅彎舉機") return frame(<><path d="M8 55h48M13 18v37M20 27l22 9M31 40h18v15" /><circle cx="42" cy="17" r="4" /><path d="m40 21-7 13-10-4m10 4-4-15M40 37l4 9 8 6" /></>);
   if (equipment === "壺鈴") return frame(<><path d="M24 23c0-8 16-8 16 0" /><path d="M21 27h22l5 25H16l5-25Z" /><path d="M27 27v-5h10v5" /></>);
   if (equipment === "彈力帶") return frame(<><path d="M18 12c-9 8-9 32 0 40M46 12c9 8 9 32 0 40" /><path d="m18 12 28 40M46 12 18 52" /><circle cx="18" cy="12" r="3" /><circle cx="46" cy="12" r="3" /></>);
   if (equipment === "史密斯機") return frame(<><path d="M12 55V8h40v47M17 49h30M21 20h22M25 16v8m14-8v8" /><path d="M18 28h28M22 25v6m20-6v6" /></>);

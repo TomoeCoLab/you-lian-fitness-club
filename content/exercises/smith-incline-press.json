@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "smith-incline-press",
+    "name": "史密斯上斜胸推",
+    "bodyParts": [
+      "胸",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "史密斯機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "使用上斜椅與史密斯軌道，練習上斜角度的胸部推舉。",
+    "instructions": [
+      "將穩固上斜椅放在史密斯機內，椅背約 30–45 度；空槓確認軌跡落在上胸附近，安全擋及解鎖方式依現場機台確認。",
+      "背、頭與臀部貼穩椅面，雙腳踩地，完整正握槓；手腕在手肘上方。",
+      "屈肘控制下放至上胸附近、肩部舒服的位置，不彈胸、不抬肩追槓。",
+      "沿軌道推回起點，維持軀幹支撐；結束確認掛回固定後再起身。"
+    ],
+    "cues": [
+      "上斜椅不是直立椅",
+      "手腕與前臂對齊",
+      "不要拱腰或抬臀追重量"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/VXaBbUYMfIs",
+      "watchUrl": "https://www.youtube.com/shorts/VXaBbUYMfIs",
+      "title": "史密斯上斜胸推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/VXaBbUYMfIs",
+    "sourceLabel": "DeltaBolic：史密斯上斜胸推示範"
+  },
+  "definition": {
+    "variation": "約 30–45 度上斜椅、正握史密斯胸推；不是直立肩推。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/VXaBbUYMfIs",
+      "label": "DeltaBolic：史密斯上斜胸推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "上斜椅支撐",
+        "手腕對齊",
+        "肩膀下沉與上斜推舉"
+      ],
+      "note": "2.604 秒手腕對齊、6.511 秒肩部位置、10.417 秒上斜椅胸推；未由短片推定某品牌解鎖結構。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "602a220543006ea069819b201d074fceb1d724d15bdd863ca73105adfe207d67",
+      "findings": [
+        "2.604 秒手腕對齊、6.511 秒肩部位置、10.417 秒上斜椅胸推；未由短片推定某品牌解鎖結構。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "602a220543006ea069819b201d074fceb1d724d15bdd863ca73105adfe207d67",
+      "reviewedImageSha256": "f462282637ae2226dc34ad0fa95f46abebf08621c335d84ed90d069b9fad32d2",
+      "findings": [
+        "逐格對照上斜椅、雙腳與背部支撐、固定軌道胸推；下放停在上胸前方，沒有示範彈胸。三格份量與文字一致，使用自然視線。",
+        "視覺檢查非生物力學量測或專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/VXaBbUYMfIs",
+      "check": {
+        "videoId": "VXaBbUYMfIs",
+        "seconds": [
+          2.6042,
+          6.5105,
+          10.4168
+        ],
+        "observation": "2.604 秒手腕對齊、6.511 秒肩部位置、10.417 秒上斜椅胸推；未由短片推定某品牌解鎖結構。"
+      },
+      "findings": [
+        "2.604 秒手腕對齊、6.511 秒肩部位置、10.417 秒上斜椅胸推；未由短片推定某品牌解鎖結構。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "602a220543006ea069819b201d074fceb1d724d15bdd863ca73105adfe207d67",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-smith-incline-press-zh-tw.png",
+    "sha256": "f462282637ae2226dc34ad0fa95f46abebf08621c335d84ed90d069b9fad32d2",
+    "generatedFromContentHash": "82b80641e9e4fda71eb8cd194d3a5bd0a485a402f9a1e7fd5084d07845f9d9db",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定斜側面，完整上斜椅、雙腳、史密斯導軌與安全擋可見。",
+      "frames": [
+        {
+          "title": "上斜支撐",
+          "pose": "Reference woman reclines on 35 degree incline bench inside Smith machine, head back butt supported, both feet flat. Pronated closed grip on fixed rail bar above upper chest with elbows naturally extended, gaze follows head upward.",
+          "caption": "椅背約 30–45 度，背與雙腳穩定。"
+        },
+        {
+          "title": "屈肘下放",
+          "pose": "Same fixed camera and incline bench, lower Smith bar near upper chest along rails, forearms stacked under bar, shoulders not shrugged, elbows comfortably angled below wrists. No lumbar arch exaggeration.",
+          "caption": "控制降到上胸附近，不彈胸。"
+        },
+        {
+          "title": "推回起點",
+          "pose": "Extend elbows returning Smith bar above upper chest along fixed rails. All bench and floor contacts maintained, head naturally aligned, shoulders stable.",
+          "caption": "平順推回，結束先確認掛回固定。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 史密斯上斜胸推; subtitle 使用上斜椅與史密斯軌道，練習上斜角度的胸部推舉。; camera 固定斜側面，完整上斜椅、雙腳、史密斯導軌與安全擋可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"上斜支撐\",\"pose\":\"Reference woman reclines on 35 degree incline bench inside Smith machine, head back butt supported, both feet flat. Pronated closed grip on fixed rail bar above upper chest with elbows naturally extended, gaze follows head upward.\",\"caption\":\"椅背約 30–45 度，背與雙腳穩定。\"},{\"title\":\"屈肘下放\",\"pose\":\"Same fixed camera and incline bench, lower Smith bar near upper chest along rails, forearms stacked under bar, shoulders not shrugged, elbows comfortably angled below wrists. No lumbar arch exaggeration.\",\"caption\":\"控制降到上胸附近，不彈胸。\"},{\"title\":\"推回起點\",\"pose\":\"Extend elbows returning Smith bar above upper chest along fixed rails. All bench and floor contacts maintained, head naturally aligned, shoulders stable.\",\"caption\":\"平順推回，結束先確認掛回固定。\"}]; bottom three columns 動作重點 [\"上斜椅不是直立椅\",\"手腕與前臂對齊\",\"不要拱腰或抬臀追重量\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

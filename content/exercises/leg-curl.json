@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 6,
+  "revision": 7,
   "exercise": {
     "id": "leg-curl",
     "name": "坐姿腿彎舉",
@@ -30,12 +30,12 @@
       "load": "選擇能完整控制回程的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
-      "watchUrl": "https://www.youtube.com/watch?v=NDy4XDe1Uz4",
-      "title": "大腿後側訓練機",
-      "channel": "東吳大學體育室",
-      "language": "中文",
-      "note": "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xdbEG3xGLI8",
+      "watchUrl": "https://www.youtube.com/shorts/xdbEG3xGLI8",
+      "title": "坐姿腿彎舉姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。 圖解與影片器械外觀可能不同，座位、墊位及解鎖依現場機台標示。"
     },
     "sourceUrl": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
     "sourceLabel": "Life Fitness：Circuit Series 原廠操作手冊"
@@ -78,52 +78,65 @@
         "大腿固定、膝對旋轉軸、滾墊向下後屈膝、回程與退出"
       ],
       "note": "已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/xdbEG3xGLI8",
+      "label": "DeltaBolic：坐姿腿彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "e3c2cf544f674142803ff19b617001562f7bc33e6e6c570b0a1c1f5405631e0a",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "79c211c8ecfb2ebfd3d08fa95a39948fefd084ab05b7c193a42b92e5b87966ab",
       "internalReviewedAt": "2026-09-20",
       "findings": [
         "已對照原廠手冊第 3 頁文字與圖示：大腿固定、膝對旋轉軸、滾墊向下後屈膝、回程與退出。",
         "同名器械可能不同構造；現場設定仍需依原廠圖示。",
-        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。",
+        "SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ]
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "e3c2cf544f674142803ff19b617001562f7bc33e6e6c570b0a1c1f5405631e0a",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "79c211c8ecfb2ebfd3d08fa95a39948fefd084ab05b7c193a42b92e5b87966ab",
       "reviewedImageSha256": "1341a5f1167ac5d72f58a6dfde687a206200a0afe7753ef938ddd8906a7cc46c",
       "findings": [
         "本次修正後活動滾墊位於小腿後側：伸膝時在腿下、屈膝時在腿後；大腿固定、下屈和回程清楚，3 組 12 次相符。",
         "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。",
-        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。",
+        "本次重新開啟原圖檢視：SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xdbEG3xGLI8",
       "check": {
-        "videoId": "NDy4XDe1Uz4",
+        "videoId": "xdbEG3xGLI8",
         "seconds": [
-          7,
-          15,
-          22,
-          27
+          3.6042,
+          9.0105,
+          14.4168
         ],
-        "observation": "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。"
+        "observation": "SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。"
       },
       "findings": [
-        "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "SPIRIT坐姿腿彎舉，大腿固定墊與小腿後滾墊，腳跟向下後；原圖另一機型同版本。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "e3c2cf544f674142803ff19b617001562f7bc33e6e6c570b0a1c1f5405631e0a",
+      "auditBaselineContentHash": "79c211c8ecfb2ebfd3d08fa95a39948fefd084ab05b7c193a42b92e5b87966ab",
       "history": [
         {
           "video": {
@@ -152,6 +165,38 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "6898e8e29c694896ff075f7cfa9de8d5720936208916b01021432201f754aa8d"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
+            "watchUrl": "https://www.youtube.com/watch?v=NDy4XDe1Uz4",
+            "title": "大腿後側訓練機",
+            "channel": "東吳大學體育室",
+            "language": "中文",
+            "note": "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
+            "check": {
+              "videoId": "NDy4XDe1Uz4",
+              "seconds": [
+                7,
+                15,
+                22,
+                27
+              ],
+              "observation": "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。"
+            },
+            "findings": [
+              "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "e3c2cf544f674142803ff19b617001562f7bc33e6e6c570b0a1c1f5405631e0a"
           }
         }
       ]

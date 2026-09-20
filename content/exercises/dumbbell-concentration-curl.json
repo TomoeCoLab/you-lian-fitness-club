@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-concentration-curl",
+    "name": "啞鈴集中彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "坐穩後用大腿內側支撐上臂，單手控制啞鈴彎舉。",
+    "instructions": [
+      "坐在穩固長椅前緣，雙腳張開踩地，軀幹微前傾；工作上臂靠同側大腿內側，不把肘尖硬壓膝蓋骨。",
+      "單手持輕啞鈴，掌心向前上方，手臂向地面伸長但不強迫肘過伸，另一手扶大腿。",
+      "保持上臂支撐，屈肘把啞鈴帶近肩前，不聳肩、扭身或折手腕。",
+      "慢慢放回起點；完成後換側，每組左右各做指定次數。"
+    ],
+    "cues": [
+      "上臂靠大腿，不硬壓膝蓋",
+      "手腕維持自然",
+      "不抬肩或扭身甩動"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EjUnEEfTSEY",
+      "watchUrl": "https://www.youtube.com/shorts/EjUnEEfTSEY",
+      "title": "啞鈴集中彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/EjUnEEfTSEY",
+    "sourceLabel": "DeltaBolic：啞鈴集中彎舉示範"
+  },
+  "definition": {
+    "variation": "坐姿、單顆啞鈴、工作上臂靠同側大腿內側的集中彎舉。",
+    "counting": "每側彎舉並放回算 1 次；每組左右各 10 次，兩側皆完成算 1 組。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/EjUnEEfTSEY",
+      "label": "DeltaBolic：啞鈴集中彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "坐姿大腿支撐",
+        "單手彎舉",
+        "控制放回"
+      ],
+      "note": "2.184 秒上臂支撐錯誤對照、5.461 秒掌心與回程、8.737 秒正確坐姿前傾集中彎舉。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "7d964013aba98d5ebb88557037bee719fd6cbf92031f594b610d0991b0fd6703",
+      "findings": [
+        "2.184 秒上臂支撐錯誤對照、5.461 秒掌心與回程、8.737 秒正確坐姿前傾集中彎舉。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "7d964013aba98d5ebb88557037bee719fd6cbf92031f594b610d0991b0fd6703",
+      "reviewedImageSha256": "edb9df02f11badf1adb9820aa0388f27a7684fa4534668db17a804c4412077ac",
+      "findings": [
+        "已檢視坐姿雙腳支撐、上臂靠大腿內側，單顆啞鈴屈肘再放回，未畫成站姿彎舉。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/EjUnEEfTSEY",
+      "check": {
+        "videoId": "EjUnEEfTSEY",
+        "seconds": [
+          2.1842,
+          5.4605,
+          8.7368
+        ],
+        "observation": "2.184 秒上臂支撐錯誤對照、5.461 秒掌心與回程、8.737 秒正確坐姿前傾集中彎舉。"
+      },
+      "findings": [
+        "2.184 秒上臂支撐錯誤對照、5.461 秒掌心與回程、8.737 秒正確坐姿前傾集中彎舉。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "7d964013aba98d5ebb88557037bee719fd6cbf92031f594b610d0991b0fd6703",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-concentration-curl-zh-tw.png",
+    "sha256": "edb9df02f11badf1adb9820aa0388f27a7684fa4534668db17a804c4412077ac",
+    "generatedFromContentHash": "7d964013aba98d5ebb88557037bee719fd6cbf92031f594b610d0991b0fd6703",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定前側三分之四，雙腳、坐墊、右上臂與右大腿內側接觸點可見。",
+      "frames": [
+        {
+          "title": "坐穩支撐",
+          "pose": "Woman seated near front of bench feet wide flat, torso slight forward. RIGHT upper arm rests inside RIGHT thigh above knee, not elbow tip on kneecap. Right hand single dumbbell palm forward/up, elbow extended naturally downward. Left hand on left thigh.",
+          "caption": "上臂靠大腿內側，雙腳踩穩。"
+        },
+        {
+          "title": "屈肘彎舉",
+          "pose": "Curl single dumbbell toward right shoulder while right upper arm stays against inner thigh and wrist straight, torso still and neutral neck looking downforward.",
+          "caption": "上臂固定，手腕保持自然。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "Lower dumbbell through elbow extension toward start without elbow hyperextension, maintain seated support, no shoulder shrug.",
+          "caption": "慢慢放回，每組左右各 10 次。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 啞鈴集中彎舉; subtitle 坐穩後用大腿內側支撐上臂，單手控制啞鈴彎舉。; camera 固定前側三分之四，雙腳、坐墊、右上臂與右大腿內側接觸點可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"坐穩支撐\",\"pose\":\"Woman seated near front of bench feet wide flat, torso slight forward. RIGHT upper arm rests inside RIGHT thigh above knee, not elbow tip on kneecap. Right hand single dumbbell palm forward/up, elbow extended naturally downward. Left hand on left thigh.\",\"caption\":\"上臂靠大腿內側，雙腳踩穩。\"},{\"title\":\"屈肘彎舉\",\"pose\":\"Curl single dumbbell toward right shoulder while right upper arm stays against inner thigh and wrist straight, torso still and neutral neck looking downforward.\",\"caption\":\"上臂固定，手腕保持自然。\"},{\"title\":\"控制放回\",\"pose\":\"Lower dumbbell through elbow extension toward start without elbow hyperextension, maintain seated support, no shoulder shrug.\",\"caption\":\"慢慢放回，每組左右各 10 次。\"}]; bottom three columns 動作重點 [\"上臂靠大腿，不硬壓膝蓋\",\"手腕維持自然\",\"不抬肩或扭身甩動\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 每側彎舉並放回算 1 次；每組左右各 10 次，兩側皆完成算 1 組。"
+    }
+  }
+}

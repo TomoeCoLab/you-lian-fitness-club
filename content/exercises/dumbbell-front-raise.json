@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-front-raise",
+    "name": "站姿啞鈴前平舉",
+    "bodyParts": [
+      "肩"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "站穩後將兩顆輕啞鈴向前抬起，以肩部舒適高度練習控制。",
+    "instructions": [
+      "雙腳約髖寬站穩，各持一顆輕啞鈴放在大腿前方，手肘微彎，腹部穩定。",
+      "保持手腕自然，將雙臂向前抬起，到大約肩高或更低的舒服位置即可。",
+      "軀幹保持穩定，肩膀不要往耳朵擠，不靠後仰或甩動把重量拉高。",
+      "控制啞鈴沿原路回到大腿前，兩顆啞鈴不互撞；完整抬起與放回算一次。"
+    ],
+    "cues": [
+      "選能穩定控制的輕重量",
+      "不刻意翻腕，肩頸放鬆",
+      "不後仰追求更高幅度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/eJ_HNftboic",
+      "watchUrl": "https://www.youtube.com/shorts/eJ_HNftboic",
+      "title": "站姿啞鈴前平舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "請看下方綠色示範；上方紅色為錯誤對照。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/eJ_HNftboic",
+    "sourceLabel": "DeltaBolic：站姿啞鈴前平舉示範"
+  },
+  "definition": {
+    "variation": "站姿雙啞鈴同步前平舉，掌心向下或略相對；不是原提案四分割影片中的坐姿版本。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/eJ_HNftboic",
+      "label": "DeltaBolic：站姿啞鈴前平舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "站姿前平舉",
+        "綠色正確示範肩位",
+        "前抬及回程"
+      ],
+      "note": "1.116、2.791、4.465 秒可見上下錯誤／正確對照，採下方綠色站姿版本。相較熱門 #26 四分割合集更清楚，因此同步改為站姿名稱與分鏡。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "1c8959313a704b924542ee9cbd86a6202895518a881211622bd2ba25ea3bceba",
+      "findings": [
+        "1.116、2.791、4.465 秒可見上下錯誤／正確對照，採下方綠色站姿版本。相較熱門 #26 四分割合集更清楚，因此同步改為站姿名稱與分鏡。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "1c8959313a704b924542ee9cbd86a6202895518a881211622bd2ba25ea3bceba",
+      "reviewedImageSha256": "903f2043acf8b9fb3722170398723eaf7b431bd7bf13ad60b62eb605c9519893",
+      "findings": [
+        "已檢視原圖：站姿雙啞鈴由大腿前抬至肩高再放回，軀幹未後仰，上臂前舉方向和文字一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eJ_HNftboic",
+      "check": {
+        "videoId": "eJ_HNftboic",
+        "seconds": [
+          1.1162,
+          2.7905,
+          4.4648
+        ],
+        "observation": "1.116、2.791、4.465 秒可見上下錯誤／正確對照，採下方綠色站姿版本。相較熱門 #26 四分割合集更清楚，因此同步改為站姿名稱與分鏡。"
+      },
+      "findings": [
+        "1.116、2.791、4.465 秒可見上下錯誤／正確對照，採下方綠色站姿版本。相較熱門 #26 四分割合集更清楚，因此同步改為站姿名稱與分鏡。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "1c8959313a704b924542ee9cbd86a6202895518a881211622bd2ba25ea3bceba",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-front-raise-zh-tw.png",
+    "sha256": "903f2043acf8b9fb3722170398723eaf7b431bd7bf13ad60b62eb605c9519893",
+    "generatedFromContentHash": "1c8959313a704b924542ee9cbd86a6202895518a881211622bd2ba25ea3bceba",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略偏前，全身及兩顆啞鈴可見。",
+      "frames": [
+        {
+          "title": "站穩準備",
+          "pose": "Woman stands upright hipwidth feet, two light dumbbells in front of thighs palms toward thighs, elbows softly bent, neck neutral looking forward.",
+          "caption": "雙腳踩穩，啞鈴放大腿前。"
+        },
+        {
+          "title": "向前抬起",
+          "pose": "Raise both arms forward to shoulder height with slight elbow bend, palms down, wrists neutral. Shoulders not shrugged, torso not leaning back, no knee bounce.",
+          "caption": "平順抬到肩高或更低的舒服位置。"
+        },
+        {
+          "title": "緩慢放回",
+          "pose": "Lower both dumbbells to front of thighs with controlled motion, same posture and neutral shoulders.",
+          "caption": "慢慢放回，不甩動或後仰。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 站姿啞鈴前平舉; subtitle 站穩後將兩顆輕啞鈴向前抬起，以肩部舒適高度練習控制。; camera 固定正側略偏前，全身及兩顆啞鈴可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"站穩準備\",\"pose\":\"Woman stands upright hipwidth feet, two light dumbbells in front of thighs palms toward thighs, elbows softly bent, neck neutral looking forward.\",\"caption\":\"雙腳踩穩，啞鈴放大腿前。\"},{\"title\":\"向前抬起\",\"pose\":\"Raise both arms forward to shoulder height with slight elbow bend, palms down, wrists neutral. Shoulders not shrugged, torso not leaning back, no knee bounce.\",\"caption\":\"平順抬到肩高或更低的舒服位置。\"},{\"title\":\"緩慢放回\",\"pose\":\"Lower both dumbbells to front of thighs with controlled motion, same posture and neutral shoulders.\",\"caption\":\"慢慢放回，不甩動或後仰。\"}]; bottom three columns 動作重點 [\"選能穩定控制的輕重量\",\"不刻意翻腕，肩頸放鬆\",\"不後仰追求更高幅度\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

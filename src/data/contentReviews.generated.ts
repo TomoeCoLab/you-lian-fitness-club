@@ -264,9 +264,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/mTaiQemkEpU",
       "check": {
-        "videoId": "Am787GTLclY"
+        "videoId": "mTaiQemkEpU"
       }
     }
   },
@@ -276,9 +276,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/yHqqGd0tXcw",
       "check": {
-        "videoId": "r1loX83MWaw"
+        "videoId": "yHqqGd0tXcw"
       }
     }
   },
@@ -288,9 +288,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/k6tzKisR3NY",
       "check": {
-        "videoId": "ePxgPKcI1fU"
+        "videoId": "k6tzKisR3NY"
       }
     }
   },
@@ -300,9 +300,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/clRekvAadDA",
       "check": {
-        "videoId": "2g4v5qv8ByM"
+        "videoId": "clRekvAadDA"
       }
     }
   },
@@ -324,9 +324,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/_FkbD0FhgVE",
       "check": {
-        "videoId": "1Ppl7czpoUc"
+        "videoId": "_FkbD0FhgVE"
       }
     }
   },
@@ -336,9 +336,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xNwpvDuZJ3k",
       "check": {
-        "videoId": "mCkHvemP79U"
+        "videoId": "xNwpvDuZJ3k"
       }
     }
   },
@@ -372,11 +372,11 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/NxCntzwABlY?start=8&end=13",
       "check": {
-        "videoId": "H14HliH4Mfs",
-        "start": 64,
-        "end": 90
+        "videoId": "NxCntzwABlY",
+        "start": 8,
+        "end": 13
       }
     }
   },
@@ -410,9 +410,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Qu7-ceCvq7w",
       "check": {
-        "videoId": "nxklnskwKeo"
+        "videoId": "Qu7-ceCvq7w"
       }
     }
   },
@@ -422,9 +422,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eGjt4lk6g34",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/a9vQ_hwIksU",
       "check": {
-        "videoId": "eGjt4lk6g34"
+        "videoId": "a9vQ_hwIksU"
       }
     }
   },
@@ -434,9 +434,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/bNmvKpJSWKM",
       "check": {
-        "videoId": "0KULvdo7T0c"
+        "videoId": "bNmvKpJSWKM"
       }
     }
   },
@@ -446,9 +446,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/k0cTJCfxa0Y",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/qD1WZ5pSuvk",
       "check": {
-        "videoId": "k0cTJCfxa0Y"
+        "videoId": "qD1WZ5pSuvk"
       }
     }
   },
@@ -458,9 +458,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/TnhIyp4kmO8",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/6v4nrRVySj0",
       "check": {
-        "videoId": "TnhIyp4kmO8"
+        "videoId": "6v4nrRVySj0"
       }
     }
   },
@@ -470,9 +470,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/q4W4_VJbKW0",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/EotSw18oR9w",
       "check": {
-        "videoId": "q4W4_VJbKW0"
+        "videoId": "EotSw18oR9w"
       }
     }
   },
@@ -482,9 +482,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/iQ92TuvBqRo",
       "check": {
-        "videoId": "-jYITOdsRKk"
+        "videoId": "iQ92TuvBqRo"
       }
     }
   },
@@ -494,9 +494,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xdbEG3xGLI8",
       "check": {
-        "videoId": "NDy4XDe1Uz4"
+        "videoId": "xdbEG3xGLI8"
       }
     }
   },
@@ -506,9 +506,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/WDIpL0pjun0",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/GHJgsTIW_bQ",
       "check": {
-        "videoId": "WDIpL0pjun0"
+        "videoId": "GHJgsTIW_bQ"
       }
     }
   },
@@ -518,9 +518,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xe2MXatLTUw",
       "check": {
-        "videoId": "QpOgJLqeo14"
+        "videoId": "xe2MXatLTUw"
       }
     }
   },
@@ -530,11 +530,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/8fXfwG4ftaQ",
       "check": {
-        "videoId": "8IdQTpwJD-A",
-        "start": 10,
-        "end": 30
+        "videoId": "8fXfwG4ftaQ"
       }
     }
   },
@@ -544,11 +542,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Kl3LEzQ5Zqs",
       "check": {
-        "videoId": "vR5fCLCTNq4",
-        "start": 95,
-        "end": 183
+        "videoId": "Kl3LEzQ5Zqs"
       }
     }
   },
@@ -594,9 +590,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/IeOqdw9WI90",
       "check": {
-        "videoId": "eTCBSFlCJ_s"
+        "videoId": "IeOqdw9WI90"
       }
     }
   },
@@ -618,9 +614,9 @@ export const contentReviews: Record<string, ContentAudit> = {
     },
     "video": {
       "status": "spot-checked",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/YQiVUH3aXkU",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/sxOrVuCvWq4",
       "check": {
-        "videoId": "YQiVUH3aXkU"
+        "videoId": "sxOrVuCvWq4"
       }
     }
   },
@@ -937,6 +933,666 @@ export const contentReviews: Record<string, ContentAudit> = {
         "videoId": "vdIugUHKGWg",
         "start": 300,
         "end": 350
+      }
+    }
+  },
+  "smith-bench-press": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/XFYMLdlaq04",
+      "check": {
+        "videoId": "XFYMLdlaq04"
+      }
+    }
+  },
+  "smith-incline-press": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/VXaBbUYMfIs",
+      "check": {
+        "videoId": "VXaBbUYMfIs"
+      }
+    }
+  },
+  "incline-barbell-press": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/98HWfiRonkE",
+      "check": {
+        "videoId": "98HWfiRonkE"
+      }
+    }
+  },
+  "dumbbell-fly": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/rk8YayRoTRQ",
+      "check": {
+        "videoId": "rk8YayRoTRQ"
+      }
+    }
+  },
+  "high-to-low-cable-fly": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/I-Ue34qLxc4",
+      "check": {
+        "videoId": "I-Ue34qLxc4"
+      }
+    }
+  },
+  "seated-cable-chest-press": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/FHeLHhTth8w?start=0&end=12",
+      "check": {
+        "videoId": "FHeLHhTth8w",
+        "start": 0,
+        "end": 12
+      }
+    }
+  },
+  "diamond-push-up": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/PPTj-MW2tcs",
+      "check": {
+        "videoId": "PPTj-MW2tcs"
+      }
+    }
+  },
+  "pull-up": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eDP_OOhMTZ4",
+      "check": {
+        "videoId": "eDP_OOhMTZ4"
+      }
+    }
+  },
+  "barbell-bent-over-row": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/phVtqawIgbk",
+      "check": {
+        "videoId": "phVtqawIgbk"
+      }
+    }
+  },
+  "landmine-row": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Sr2q7i-i8X0",
+      "check": {
+        "videoId": "Sr2q7i-i8X0"
+      }
+    }
+  },
+  "straight-arm-pulldown": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/hAMcfubonDc",
+      "check": {
+        "videoId": "hAMcfubonDc"
+      }
+    }
+  },
+  "chest-supported-dumbbell-row": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/2ByilQ4NaAs",
+      "check": {
+        "videoId": "2ByilQ4NaAs"
+      }
+    }
+  },
+  "chest-supported-machine-row": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/p88Y69wWQz0?start=7&end=12",
+      "check": {
+        "videoId": "p88Y69wWQz0",
+        "start": 7,
+        "end": 12
+      }
+    }
+  },
+  "smith-bent-over-row": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/kKONaLGAQW8",
+      "check": {
+        "videoId": "kKONaLGAQW8"
+      }
+    }
+  },
+  "dumbbell-pullover": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Datv2L6t3-4",
+      "check": {
+        "videoId": "Datv2L6t3-4"
+      }
+    }
+  },
+  "standing-barbell-press": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/zoN5EH50Dro",
+      "check": {
+        "videoId": "zoN5EH50Dro"
+      }
+    }
+  },
+  "smith-seated-shoulder-press": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/E7ngsffMPR0",
+      "check": {
+        "videoId": "E7ngsffMPR0"
+      }
+    }
+  },
+  "arnold-press": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/AjB-UXErljM",
+      "check": {
+        "videoId": "AjB-UXErljM"
+      }
+    }
+  },
+  "bent-over-dumbbell-reverse-fly": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/LsT-bR_zxLo",
+      "check": {
+        "videoId": "LsT-bR_zxLo"
+      }
+    }
+  },
+  "chest-supported-reverse-fly": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/sIQNCJ6Xwsk",
+      "check": {
+        "videoId": "sIQNCJ6Xwsk"
+      }
+    }
+  },
+  "single-arm-cable-reverse-fly": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/FeERX9UwspY",
+      "check": {
+        "videoId": "FeERX9UwspY"
+      }
+    }
+  },
+  "single-arm-cable-lateral-raise": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/JlT2xB92lY8",
+      "check": {
+        "videoId": "JlT2xB92lY8"
+      }
+    }
+  },
+  "dumbbell-front-raise": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eJ_HNftboic",
+      "check": {
+        "videoId": "eJ_HNftboic"
+      }
+    }
+  },
+  "dumbbell-shrug": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/rFsSeClGnNA",
+      "check": {
+        "videoId": "rFsSeClGnNA"
+      }
+    }
+  },
+  "seated-dumbbell-overhead-extension": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/b_r_LW4HEcM",
+      "check": {
+        "videoId": "b_r_LW4HEcM"
+      }
+    }
+  },
+  "low-cable-overhead-extension": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/9Ark9S11uXw",
+      "check": {
+        "videoId": "9Ark9S11uXw"
+      }
+    }
+  },
+  "high-cable-overhead-extension": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/NTk0Igxqcsk",
+      "check": {
+        "videoId": "NTk0Igxqcsk"
+      }
+    }
+  },
+  "lying-ez-bar-triceps-extension": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/K3mFeNz4e3w",
+      "check": {
+        "videoId": "K3mFeNz4e3w"
+      }
+    }
+  },
+  "single-arm-dumbbell-kickback": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/WhBxKbe1-NU",
+      "check": {
+        "videoId": "WhBxKbe1-NU"
+      }
+    }
+  },
+  "dumbbell-concentration-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/EjUnEEfTSEY",
+      "check": {
+        "videoId": "EjUnEEfTSEY"
+      }
+    }
+  },
+  "barbell-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/54x2WF1_Suc",
+      "check": {
+        "videoId": "54x2WF1_Suc"
+      }
+    }
+  },
+  "dumbbell-hammer-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=4&end=9",
+      "check": {
+        "videoId": "_aoad2yuP5w",
+        "start": 4,
+        "end": 9
+      }
+    }
+  },
+  "reverse-dumbbell-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=9&end=12",
+      "check": {
+        "videoId": "_aoad2yuP5w",
+        "start": 9,
+        "end": 12
+      }
+    }
+  },
+  "incline-dumbbell-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/uCUaRFlA9vE",
+      "check": {
+        "videoId": "uCUaRFlA9vE"
+      }
+    }
+  },
+  "machine-preacher-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/S4dDLfp3e8w",
+      "check": {
+        "videoId": "S4dDLfp3e8w"
+      }
+    }
+  },
+  "standing-cable-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/CrbTqNOlFgE",
+      "check": {
+        "videoId": "CrbTqNOlFgE"
+      }
+    }
+  },
+  "bayesian-cable-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/w3sXATQzGvc",
+      "check": {
+        "videoId": "w3sXATQzGvc"
+      }
+    }
+  },
+  "seated-dumbbell-wrist-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=2&end=5",
+      "check": {
+        "videoId": "wSwo6mKHgZI",
+        "start": 2,
+        "end": 5
+      }
+    }
+  },
+  "seated-reverse-wrist-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=7&end=10",
+      "check": {
+        "videoId": "wSwo6mKHgZI",
+        "start": 7,
+        "end": 10
+      }
+    }
+  },
+  "dumbbell-static-split-squat": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/mJilHWIBWO8",
+      "check": {
+        "videoId": "mJilHWIBWO8"
+      }
+    }
+  },
+  "dumbbell-bulgarian-split-squat": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/or1frhkjBDc",
+      "check": {
+        "videoId": "or1frhkjBDc"
+      }
+    }
+  },
+  "barbell-back-squat": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/dW3zj79xfrc",
+      "check": {
+        "videoId": "dW3zj79xfrc"
+      }
+    }
+  },
+  "barbell-front-squat": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/_qv0m3tPd3s",
+      "check": {
+        "videoId": "_qv0m3tPd3s"
+      }
+    }
+  },
+  "dumbbell-romanian-deadlift": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/hu3jRvTc_po",
+      "check": {
+        "videoId": "hu3jRvTc_po"
+      }
+    }
+  },
+  "dumbbell-sumo-squat": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/bRCjBCtBGIo",
+      "check": {
+        "videoId": "bRCjBCtBGIo"
+      }
+    }
+  },
+  "lying-leg-curl": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/6eVuy_P5FR8?start=1&end=4",
+      "check": {
+        "videoId": "6eVuy_P5FR8",
+        "start": 1,
+        "end": 4
+      }
+    }
+  },
+  "standing-cable-glute-kickback": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/UbOcViik3hk?start=1&end=5",
+      "check": {
+        "videoId": "UbOcViik3hk",
+        "start": 1,
+        "end": 5
+      }
+    }
+  },
+  "dumbbell-standing-calf-raise": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/wdOkFomQNp8",
+      "check": {
+        "videoId": "wdOkFomQNp8"
+      }
+    }
+  },
+  "supine-crunch": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=0&end=3",
+      "check": {
+        "videoId": "acj52MXBaeo",
+        "start": 0,
+        "end": 3
+      }
+    }
+  },
+  "supine-leg-raise": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=9&end=11",
+      "check": {
+        "videoId": "TkCoHrR6Y7Q",
+        "start": 9,
+        "end": 11
+      }
+    }
+  },
+  "bicycle-crunch": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/acj52MXBaeo?start=7&end=10",
+      "check": {
+        "videoId": "acj52MXBaeo",
+        "start": 7,
+        "end": 10
+      }
+    }
+  },
+  "russian-twist": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=16&end=19",
+      "check": {
+        "videoId": "TkCoHrR6Y7Q",
+        "start": 16,
+        "end": 19
+      }
+    }
+  },
+  "kneeling-cable-crunch": {
+    "image": {
+      "status": "visual-checked"
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/K2m0jj6RfYg",
+      "check": {
+        "videoId": "K2m0jj6RfYg"
       }
     }
   }

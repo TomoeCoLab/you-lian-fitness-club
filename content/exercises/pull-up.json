@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "pull-up",
+    "name": "徒手引體向上",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "單槓",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "使用固定單槓，以背部與手臂力量拉起身體，練習控制上拉與下放。",
+    "instructions": [
+      "確認單槓穩固，從安全踏台完整正握單槓，雙手略寬於肩；不跳抓不穩定的門框。",
+      "離開踏台後穩定軀幹，手臂伸長、肩部保有控制，雙腿不前後甩。",
+      "將手肘向下帶，拉身體靠近槓；以可控制高度為準，不伸脖子硬湊下巴過槓。",
+      "慢慢下放到手臂伸長的起點，肩部不猛然鬆掉；完成後踩回踏台再放手。"
+    ],
+    "cues": [
+      "不踢腿或擺盪借力",
+      "不伸脖子湊高度",
+      "回程保持控制"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "先以徒手完成可控制的 3–5 次；做不到時改選輔助引體向上，不甩動硬拉。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/eDP_OOhMTZ4",
+      "watchUrl": "https://www.youtube.com/shorts/eDP_OOhMTZ4",
+      "title": "徒手引體向上短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/eDP_OOhMTZ4",
+    "sourceLabel": "DeltaBolic：徒手引體向上示範"
+  },
+  "definition": {
+    "variation": "正握、略寬於肩、無機械輔助的引體向上；非反握或擺盪式。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/eDP_OOhMTZ4",
+      "label": "DeltaBolic：徒手引體向上",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "正握單槓",
+        "握距與肩胛控制",
+        "無輔助上拉"
+      ],
+      "note": "3.260 秒正握、8.151 秒握距與手臂伸長、13.041 秒上拉終點；無輔助踏板。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "748ed8fd331c06b962648199b8918ef4a297f93ce85a25c2670ed59fd40fc2ba",
+      "findings": [
+        "3.260 秒正握、8.151 秒握距與手臂伸長、13.041 秒上拉終點；無輔助踏板。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "748ed8fd331c06b962648199b8918ef4a297f93ce85a25c2670ed59fd40fc2ba",
+      "reviewedImageSha256": "6eebc5b9e4c9aba6b0a1713a595942cc4f8d361b465257d1e7826e0d585a2f58",
+      "findings": [
+        "後側三格中正握固定單槓、手臂伸長、屈肘上拉及控制回程清楚；腳未踩輔助墊，頭頸未向後仰，2 組 5 次一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eDP_OOhMTZ4",
+      "check": {
+        "videoId": "eDP_OOhMTZ4",
+        "seconds": [
+          3.2602,
+          8.1505,
+          13.0408
+        ],
+        "observation": "3.260 秒正握、8.151 秒握距與手臂伸長、13.041 秒上拉終點；無輔助踏板。"
+      },
+      "findings": [
+        "3.260 秒正握、8.151 秒握距與手臂伸長、13.041 秒上拉終點；無輔助踏板。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "748ed8fd331c06b962648199b8918ef4a297f93ce85a25c2670ed59fd40fc2ba",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-pull-up-zh-tw.png",
+    "sha256": "6eebc5b9e4c9aba6b0a1713a595942cc4f8d361b465257d1e7826e0d585a2f58",
+    "generatedFromContentHash": "748ed8fd331c06b962648199b8918ef4a297f93ce85a25c2670ed59fd40fc2ba",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定後側三分之四視角，全身及固定單槓可見，頭頸與軀幹對齊。",
+      "frames": [
+        {
+          "title": "穩定懸垂",
+          "pose": "Woman hangs from fixed pull-up bar with overhand closed grip slightly wider than shoulders; arms extended with active shoulder control, feet clear floor, knees softly bent. Camera rear-three-quarter, no assistance pad, no swinging.",
+          "caption": "正握單槓，身體不擺盪。"
+        },
+        {
+          "title": "屈肘上拉",
+          "pose": "Same rear angle, bend elbows downward toward ribs to raise torso near bar, chin approaches bar without craning neck, legs remain quiet, back and shoulders controlled.",
+          "caption": "手肘向下帶，不伸脖子硬湊高度。"
+        },
+        {
+          "title": "緩慢下放",
+          "pose": "Lower controlled to starting extended arms, same body alignment and grip; no sudden relaxed drop or swinging. Stable platform visible nearby for safe exit but not supporting knees.",
+          "caption": "慢慢回到起點，結束踩穩再放手。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across 3 clear numbered panels, full body/support visible. Title 徒手引體向上; subtitle 使用固定單槓，以背部與手臂力量拉起身體，練習控制上拉與下放。; camera 固定後側三分之四視角，全身及固定單槓可見，頭頸與軀幹對齊。; render each step title and caption verbatim and depict pose: [{\"title\":\"穩定懸垂\",\"pose\":\"Woman hangs from fixed pull-up bar with overhand closed grip slightly wider than shoulders; arms extended with active shoulder control, feet clear floor, knees softly bent. Camera rear-three-quarter, no assistance pad, no swinging.\",\"caption\":\"正握單槓，身體不擺盪。\"},{\"title\":\"屈肘上拉\",\"pose\":\"Same rear angle, bend elbows downward toward ribs to raise torso near bar, chin approaches bar without craning neck, legs remain quiet, back and shoulders controlled.\",\"caption\":\"手肘向下帶，不伸脖子硬湊高度。\"},{\"title\":\"緩慢下放\",\"pose\":\"Lower controlled to starting extended arms, same body alignment and grip; no sudden relaxed drop or swinging. Stable platform visible nearby for safe exit but not supporting knees.\",\"caption\":\"慢慢回到起點，結束踩穩再放手。\"}]; bottom three columns 動作重點 [\"不踢腿或擺盪借力\",\"不伸脖子湊高度\",\"回程保持控制\"]; 建議次數 起始參考：2 組 × 5 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

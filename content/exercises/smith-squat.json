@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "smith-squat",
     "name": "史密斯深蹲",
@@ -30,12 +30,12 @@
       "load": "先用空機確認槓重與腳位"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs&t=64s",
-      "title": "下半身器械：史密斯機",
-      "channel": "May Fit",
-      "language": "中文",
-      "note": "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NxCntzwABlY?start=8&end=13",
+      "watchUrl": "https://www.youtube.com/shorts/NxCntzwABlY",
+      "title": "史密斯深蹲姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "播放平地肩寬版本的片段；其他站距變化不套用本項圖解。"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/back-squat-2/",
     "sourceLabel": "Fitness Institute：史密斯深蹲"
@@ -67,54 +67,73 @@
         "上背承槓、導軌下蹲與起身"
       ],
       "note": "已讀動作正文；不採用來源『膝蓋不得超過腳尖』的絕對限制。腳位、解掛鉤方向、安全限位仍依現場機台，非跨型號通則。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/NxCntzwABlY",
+      "label": "DeltaBolic：史密斯深蹲",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "8b5725120543bbcccdc8d18fa69f36dda07f33f90061f8f04d19f61c241ec3cc",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "aa7544e6afac2a56a8a352541501ed29f97732b6925a7b664676cb2927b696b6",
       "findings": [
         "已讀動作正文；不採用來源『膝蓋不得超過腳尖』的絕對限制。腳位、解掛鉤方向、安全限位仍依現場機台，非跨型號通則。",
         "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
-        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。",
+        "原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "8b5725120543bbcccdc8d18fa69f36dda07f33f90061f8f04d19f61c241ec3cc",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "aa7544e6afac2a56a8a352541501ed29f97732b6925a7b664676cb2927b696b6",
       "reviewedImageSha256": "3a5d5e25c0cb5de360e85b5d49344971ca3819c94f28d4b7b3dbdff9a4064c67",
       "findings": [
         "軌道內上背負槓、解鉤、蹲下與掛回順序可見；8–12 次 3 組包含本站 10 次 3 組。安全限位仍需現場依機型設定。",
         "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
-        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。",
+        "本次重新開啟原圖檢視：原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/NxCntzwABlY?start=8&end=13",
       "check": {
-        "videoId": "H14HliH4Mfs",
+        "videoId": "NxCntzwABlY",
         "seconds": [
-          64,
-          75,
-          85,
-          95
+          7,
+          8,
+          9,
+          10,
+          12,
+          14,
+          15,
+          16,
+          17
         ],
-        "start": 64,
-        "end": 90,
-        "observation": "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。"
+        "observation": "原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。",
+        "start": 8,
+        "end": 13
       },
       "findings": [
-        "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "原#136與#747腳跟墊高不採；#239的8–13秒平地肩寬段與原圖相符，7至17秒確認界線。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "8b5725120543bbcccdc8d18fa69f36dda07f33f90061f8f04d19f61c241ec3cc",
+      "auditBaselineContentHash": "aa7544e6afac2a56a8a352541501ed29f97732b6925a7b664676cb2927b696b6",
       "history": [
         {
           "video": {
@@ -145,6 +164,40 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "3be2714267a4660d7566bdfde23acaf7abd07509f73539e2c94078fa5bbb5e5f"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90",
+            "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs&t=64s",
+            "title": "下半身器械：史密斯機",
+            "channel": "May Fit",
+            "language": "中文",
+            "note": "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90",
+            "check": {
+              "videoId": "H14HliH4Mfs",
+              "seconds": [
+                64,
+                75,
+                85,
+                95
+              ],
+              "start": 64,
+              "end": 90,
+              "observation": "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。"
+            },
+            "findings": [
+              "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "8b5725120543bbcccdc8d18fa69f36dda07f33f90061f8f04d19f61c241ec3cc"
           }
         }
       ]

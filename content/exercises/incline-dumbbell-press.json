@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
+  "revision": 6,
   "exercise": {
     "id": "incline-dumbbell-press",
     "name": "上斜啞鈴胸推",
@@ -31,12 +31,12 @@
       "load": "先比平板胸推使用更輕的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
-      "watchUrl": "https://www.youtube.com/watch?v=8IdQTpwJD-A&t=10s",
-      "title": "上斜啞鈴胸推片段",
-      "channel": "東吳大學體育室",
-      "language": "中文",
-      "note": "已對照上斜靠背與屈肘推舉畫面；內嵌限定 00:10–00:30，原影片後段另有擴胸，不是本項動作。"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8fXfwG4ftaQ",
+      "watchUrl": "https://www.youtube.com/shorts/8fXfwG4ftaQ",
+      "title": "上斜啞鈴胸推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/two-arm-incline-dumbbell-chest-press",
     "sourceLabel": "NASM：雙手上斜啞鈴胸推"
@@ -65,57 +65,69 @@
       "scope": "movement-specific",
       "checkedAt": "2026-09-20",
       "supports": [
-        "上斜靠背、雙脚踩地",
+        "上斜靠背、雙腳踩地",
         "兩顆啞鈴同步推起",
         "控制回到胸側"
       ],
       "note": "來源示範 45 度並提醒過陡會增加肩部主導；本站約 30–45 度、只降到舒適深度，不強迫固定深度。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/8fXfwG4ftaQ",
+      "label": "DeltaBolic：上斜啞鈴胸推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "818cc32035d12bb0dc4b8c7bd26cb4095758721c3eae57852849c0fe2404f7a3",
       "findings": [
         "來源示範 45 度並提醒過陡會增加肩部主導；本站約 30–45 度、只降到舒適深度，不強迫固定深度。",
-        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。",
+        "斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "818cc32035d12bb0dc4b8c7bd26cb4095758721c3eae57852849c0fe2404f7a3",
       "reviewedImageSha256": "88985409c7c991a8cb4bf7f4b2b86c5868b8e04ea07215bdbad72964ce4c52f4",
       "findings": [
         "重新檢視三格：低上斜椅背、頭背均有支撐，雙啞鈴由胸側上推再回程；3 組 10 次一致。圖像不能量測精確椅背角度，以文字 30–45 度及現場刻度為準。",
-        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。"
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。",
+        "本次重新開啟原圖檢視：斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/8fXfwG4ftaQ",
       "check": {
-        "videoId": "8IdQTpwJD-A",
+        "videoId": "8fXfwG4ftaQ",
         "seconds": [
-          12,
-          18,
-          24,
-          29
+          2.3522,
+          5.8805,
+          9.4088
         ],
-        "start": 10,
-        "end": 30,
-        "observation": "重新核對 10–30 秒上斜長椅雙啞鈴推胸；後半為擴胸，不納入示範區間。"
+        "observation": "斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。"
       },
       "findings": [
-        "重新核對 10–30 秒上斜長椅雙啞鈴推胸；後半為擴胸，不納入示範區間。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "斜背椅雙腳踩地、雙啞鈴胸側推起；原圖約30–45度相符。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75",
+      "auditBaselineContentHash": "818cc32035d12bb0dc4b8c7bd26cb4095758721c3eae57852849c0fe2404f7a3",
       "history": [
         {
           "video": {
@@ -148,6 +160,40 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "a13f48afb48818c2b94e6854ed65808d7a17a5dab4737f62344f4e0075b3a6f1"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
+            "watchUrl": "https://www.youtube.com/watch?v=8IdQTpwJD-A&t=10s",
+            "title": "上斜啞鈴胸推片段",
+            "channel": "東吳大學體育室",
+            "language": "中文",
+            "note": "已對照上斜靠背與屈肘推舉畫面；內嵌限定 00:10–00:30，原影片後段另有擴胸，不是本項動作。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
+            "check": {
+              "videoId": "8IdQTpwJD-A",
+              "seconds": [
+                12,
+                18,
+                24,
+                29
+              ],
+              "start": 10,
+              "end": 30,
+              "observation": "重新核對 10–30 秒上斜長椅雙啞鈴推胸；後半為擴胸，不納入示範區間。"
+            },
+            "findings": [
+              "重新核對 10–30 秒上斜長椅雙啞鈴推胸；後半為擴胸，不納入示範區間。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75"
           }
         }
       ]

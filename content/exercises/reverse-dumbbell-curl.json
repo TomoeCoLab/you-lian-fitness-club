@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "reverse-dumbbell-curl",
+    "name": "反握啞鈴彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以掌心朝下的正握方向彎舉啞鈴，練習前臂與屈肘肌群。",
+    "instructions": [
+      "雙腳踩穩，各持輕啞鈴在大腿前，掌心朝後、手背朝前，上臂靠近軀幹。",
+      "保持手腕直，屈肘把啞鈴抬向前上方，抬起後掌心仍朝下。",
+      "不靠翻掌、後仰或上臂前甩完成；重量通常要比一般彎舉更輕。",
+      "控制伸肘回到大腿前，避免手腕被重量向下折；完整回程算一次。"
+    ],
+    "cues": [
+      "手掌方向固定，不變成槌式",
+      "手腕保持中立",
+      "比一般彎舉更輕也沒關係"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=9&end=12",
+      "watchUrl": "https://www.youtube.com/shorts/_aoad2yuP5w",
+      "title": "反握啞鈴彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/_aoad2yuP5w",
+    "sourceLabel": "DeltaBolic：反握啞鈴彎舉示範"
+  },
+  "definition": {
+    "variation": "站姿雙啞鈴反向彎舉：起點掌心朝後，抬起後掌心向下；不是腕彎舉。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/_aoad2yuP5w",
+      "label": "DeltaBolic：反握啞鈴彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "反握近景",
+        "屈肘時掌心朝下",
+        "與槌式區分"
+      ],
+      "note": "已檢視 9 秒正握近景、10 秒低位與 11 秒上抬：掌心保持朝下、肘在身側，採 9–12 秒反握區段。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "4dbe09664559099e32a38b346c22e065657045c6da1a8fcb7031bbeb674e12ab",
+      "findings": [
+        "已檢視 9 秒正握近景、10 秒低位與 11 秒上抬：掌心保持朝下、肘在身侧，採 9–12 秒反握區段。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。",
+        "繁體字校對：僅統一腳、雙、側、與、當、對等字形，未變更動作、器械、份量或影片區段。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "4dbe09664559099e32a38b346c22e065657045c6da1a8fcb7031bbeb674e12ab",
+      "reviewedImageSha256": "cbd420e660a9f1a9c487272b882d75c15f7f6fad6932faea3b24c7d9cb306a8d",
+      "findings": [
+        "已檢視起點手背朝前、中格掌心朝下，雙啞鈴屈肘不是腕彎舉，回程保持正握。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/_aoad2yuP5w?start=9&end=12",
+      "check": {
+        "videoId": "_aoad2yuP5w",
+        "seconds": [
+          9,
+          10,
+          11
+        ],
+        "observation": "已檢視 9 秒正握近景、10 秒低位與 11 秒上抬：掌心保持朝下、肘在身侧，採 9–12 秒反握區段。",
+        "start": 9,
+        "end": 12
+      },
+      "findings": [
+        "已檢視 9 秒正握近景、10 秒低位與 11 秒上抬：掌心保持朝下、肘在身侧，採 9–12 秒反握區段。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "4dbe09664559099e32a38b346c22e065657045c6da1a8fcb7031bbeb674e12ab",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-reverse-dumbbell-curl-zh-tw.png",
+    "sha256": "cbd420e660a9f1a9c487272b882d75c15f7f6fad6932faea3b24c7d9cb306a8d",
+    "generatedFromContentHash": "e4ad677668fcfa054392dbf7a47fe6b9fb16ed9e3dae5bcf476b25a46fb737de",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定前側三分之四，前臂與手背清楚，全身可見。",
+      "frames": [
+        {
+          "title": "正握準備",
+          "pose": "Woman holds two dumbbells in front of thighs with pronated grip: PALMS FACE BACK and knuckles face front, elbows extended naturally at sides, upright body.",
+          "caption": "手背朝前，啞鈴放大腿前。"
+        },
+        {
+          "title": "反向彎舉",
+          "pose": "Flex both elbows raising weights in front, PALMS FACE DOWN at top, wrists straight, upper arms stable near ribs. No wrist curl or supination.",
+          "caption": "屈肘抬起，掌心保持朝下。"
+        },
+        {
+          "title": "緩慢放回",
+          "pose": "Extend elbows lowering dumbbells to starting pronated position, no wrist collapse or torso movement.",
+          "caption": "控制放回，手腕不折。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 反握啞鈴彎舉; subtitle 以掌心朝下的正握方向彎舉啞鈴，練習前臂與屈肘肌群。; camera 固定前側三分之四，前臂與手背清楚，全身可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"正握準備\",\"pose\":\"Woman holds two dumbbells in front of thighs with pronated grip: PALMS FACE BACK and knuckles face front, elbows extended naturally at sides, upright body.\",\"caption\":\"手背朝前，啞鈴放大腿前。\"},{\"title\":\"反向彎舉\",\"pose\":\"Flex both elbows raising weights in front, PALMS FACE DOWN at top, wrists straight, upper arms stable near ribs. No wrist curl or supination.\",\"caption\":\"屈肘抬起，掌心保持朝下。\"},{\"title\":\"緩慢放回\",\"pose\":\"Extend elbows lowering dumbbells to starting pronated position, no wrist collapse or torso movement.\",\"caption\":\"控制放回，手腕不折。\"}]; bottom three columns 動作重點 [\"手掌方向固定，不變成槌式\",\"手腕保持中立\",\"比一般彎舉更輕也沒關係\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting clarification, include this if unilateral: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

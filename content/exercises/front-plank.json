@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 6,
+  "revision": 7,
   "exercise": {
     "id": "front-plank",
     "name": "前臂棒式",
@@ -29,11 +29,12 @@
       "load": "徒手計時；姿勢優先於撐得更久"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
-      "watchUrl": "https://www.youtube.com/watch?v=QpOgJLqeo14",
-      "title": "前臂棒式",
-      "channel": "Nuffield Health",
-      "language": "英文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xe2MXatLTUw",
+      "watchUrl": "https://www.youtube.com/shorts/xe2MXatLTUw",
+      "title": "前臂棒式姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/32/front-plank/",
     "sourceLabel": "ACE Exercise Library"
@@ -68,48 +69,63 @@
         "腰痛即停止"
       ],
       "note": "核對三階段與停止條件；30 秒 × 3 組是本站起始參考，可提早結束，不以時間取代姿勢。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/xe2MXatLTUw",
+      "label": "DeltaBolic：前臂棒式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "db58d0c25e3418d6307358aff1222c0f0e1a2c43732971b0b8c5a600b2404acd",
       "findings": [
         "核對三階段與停止條件；30 秒 × 3 組是本站起始參考，可提早結束，不以時間取代姿勢。",
-        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。"
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。",
+        "前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "db58d0c25e3418d6307358aff1222c0f0e1a2c43732971b0b8c5a600b2404acd",
       "reviewedImageSha256": "553a6f349498c5424fd7e81b65040b3342dc6deae9275f2f9ebfde9a43b4fa48",
       "findings": [
         "四格：前臂肩下定位、前臂與腳尖支撐、靜止保持、膝回地結束；3 組 × 30 秒。",
-        "已人工檢視可見畫面及文字，非醫療或生物力學認證。"
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。",
+        "本次重新開啟原圖檢視：前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xe2MXatLTUw",
       "check": {
-        "videoId": "QpOgJLqeo14",
+        "videoId": "xe2MXatLTUw",
         "seconds": [
-          10,
-          20
+          1.8442,
+          4.6105,
+          7.3768
         ],
-        "observation": "重新核對前臂、腳尖支撐的棒式；10 秒準備跪姿，20 秒可見伸腿保持與肩肘對齊，非直臂高棒式。"
+        "observation": "前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。"
       },
       "findings": [
-        "重新核對前臂、腳尖支撐的棒式；10 秒準備跪姿，20 秒可見伸腿保持與肩肘對齊，非直臂高棒式。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "前臂腳尖支撐、頭頸自然；原圖靜態保持與跪回一致。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827",
+      "auditBaselineContentHash": "db58d0c25e3418d6307358aff1222c0f0e1a2c43732971b0b8c5a600b2404acd",
       "history": [
         {
           "video": {
@@ -137,6 +153,35 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "9440a93525a7d1e3e9f51a608ea1f471cfd0dc7a8482946731b42216d543c92f"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
+            "watchUrl": "https://www.youtube.com/watch?v=QpOgJLqeo14",
+            "title": "前臂棒式",
+            "channel": "Nuffield Health",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
+            "check": {
+              "videoId": "QpOgJLqeo14",
+              "seconds": [
+                10,
+                20
+              ],
+              "observation": "重新核對前臂、腳尖支撐的棒式；10 秒準備跪姿，20 秒可見伸腿保持與肩肘對齊，非直臂高棒式。"
+            },
+            "findings": [
+              "重新核對前臂、腳尖支撐的棒式；10 秒準備跪姿，20 秒可見伸腿保持與肩肘對齊，非直臂高棒式。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827"
           }
         }
       ]

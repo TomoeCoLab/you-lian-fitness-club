@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "barbell-front-squat",
+    "name": "槓鈴前蹲",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以前肩承槓、手肘抬高完成深蹲，練習軀幹與腿部協調。",
+    "instructions": [
+      "在安全架內從空槓開始，安全桿放在預計最低槓位下方；槓放在前肩肌肉上，不壓喉嚨。",
+      "手指輕托槓、手肘抬向前方，保持能舒適支撐的前架位置；手腕痛或無法穩住槓時先停止。",
+      "雙腳約肩寬，腳掌踩穩，保持手肘高度並屈髖屈膝下蹲，膝蓋沿腳尖。",
+      "在穩定深度推地站起，不讓槓往前滾；確認回到兩側掛鉤後才鬆開。"
+    ],
+    "cues": [
+      "前肩承重，不靠手腕硬撐",
+      "手肘保持向前抬高",
+      "握法不舒服先不加重量"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_qv0m3tPd3s",
+      "watchUrl": "https://www.youtube.com/shorts/_qv0m3tPd3s",
+      "title": "槓鈴前蹲短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/_qv0m3tPd3s",
+    "sourceLabel": "DeltaBolic：槓鈴前蹲示範"
+  },
+  "definition": {
+    "variation": "舉重式前架握法的槓鈴前蹲，槓由前三角肌承重，不是手腕托起全部重量。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/_qv0m3tPd3s",
+      "label": "DeltaBolic：槓鈴前蹲",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "前肩承槓近景",
+        "肘高與軀幹",
+        "膝蓋方向"
+      ],
+      "note": "2.944 秒前肩承槓、7.361 秒側視手肘與軀幹、11.777 秒正面蹲姿；採影片前架握法。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "4c11aaecc0209bd4043e929560e2ae20271d03ea8848314847b05ac65aa43bd1",
+      "findings": [
+        "2.944 秒前肩承槓、7.361 秒側視手肘與軀幹、11.777 秒正面蹲姿；採影片前架握法。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "4c11aaecc0209bd4043e929560e2ae20271d03ea8848314847b05ac65aa43bd1",
+      "reviewedImageSha256": "597680dca996c3c536cb44c5f6f806ef7577b1e4ea23d9e7bea3f2d42c7dba34",
+      "findings": [
+        "檢視前肩承槓、抬肘、腳掌落地與蹲起姿勢；已移除攝影指令文字。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/_qv0m3tPd3s",
+      "check": {
+        "videoId": "_qv0m3tPd3s",
+        "seconds": [
+          2.9442,
+          7.3605,
+          11.7768
+        ],
+        "observation": "2.944 秒前肩承槓、7.361 秒側視手肘與軀幹、11.777 秒正面蹲姿；採影片前架握法。"
+      },
+      "findings": [
+        "2.944 秒前肩承槓、7.361 秒側視手肘與軀幹、11.777 秒正面蹲姿；採影片前架握法。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "4c11aaecc0209bd4043e929560e2ae20271d03ea8848314847b05ac65aa43bd1",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-barbell-front-squat-zh-tw.png",
+    "sha256": "597680dca996c3c536cb44c5f6f806ef7577b1e4ea23d9e7bea3f2d42c7dba34",
+    "generatedFromContentHash": "4c11aaecc0209bd4043e929560e2ae20271d03ea8848314847b05ac65aa43bd1",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定前側三分之四，肩部槓位、手肘、雙腳與安全架清楚。",
+      "frames": [
+        {
+          "title": "前肩承槓",
+          "pose": "Woman inside squat rack, barbell rests on FRONT shoulders/deltoids not throat, fingers lightly under bar in clean rack grip with elbows pointing forward high. Feet shoulderwidth, safety rails set.",
+          "caption": "槓放前肩，手肘抬高。"
+        },
+        {
+          "title": "保持下蹲",
+          "pose": "Controlled front squat, elbows stay pointing forward, trunk upright relative to back squat, knees track toes heels on floor, bar stays on front deltoids.",
+          "caption": "手肘不掉，腳掌踩穩。"
+        },
+        {
+          "title": "推地站回",
+          "pose": "Rise by extending hips/knees together, front rack unchanged, no wrist strain or bar rolling.",
+          "caption": "平順站回，先穩再加重。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-barbell-front-squat-rejected-1-zh-tw.png",
+        "sha256": "2ba2a8bce1a07ab1604ef56e32abd0409e04159b344e32736dda33748837396e",
+        "status": "rejected",
+        "reason": "圖上誤印內部鏡位描述；運動姿勢可用，但須移除內部提示字。",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Edit the supplied exercise infographic ONLY by deleting the subtitle line describing camera angle (固定...視角/側面/全身...). Keep the main exercise title, purpose subtitle, all poses, steps, safety cues and dosage exactly unchanged. Leave clean background where this internal camera instruction was. Do not add any slogans."
+    }
+  }
+}

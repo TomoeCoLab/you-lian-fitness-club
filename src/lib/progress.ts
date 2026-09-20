@@ -1,5 +1,6 @@
 import type { Checkin, GuideExercise } from "../types";
 import { canonicalExerciseId } from "./exerciseGuidance";
+import { weightLabel } from "./weightLabel";
 
 export function exerciseHistory(exercise: GuideExercise, checkins: Checkin[]) {
   return [...checkins].sort((a, b) => b.date.localeCompare(a.date) || b.createdAt.localeCompare(a.createdAt))
@@ -21,7 +22,7 @@ export function progressSuggestion(exercise: GuideExercise, checkins: Checkin[])
   return { title: "先穩定完成，不自動加重", detail: exercise.equipment === "輔助引體機"
     ? "這裡記錄的是輔助重量：輔助越大通常越容易，不以公斤增加代表進步。"
     : "確認所有組都能控制、沒有不適並保留餘力，再依器材最小增量調整；單次最佳組不代表已適合加重。",
-    meta: `最近 ${latest.date} · 實際一組：${best.weight ? `${best.weight} kg` : "自重"} × ${best.reps ?? "—"} 次` };
+    meta: `最近 ${latest.date} · 實際一組：${weightLabel(best.weight, exercise.equipment)} × ${best.reps ?? "—"} 次` };
 }
 
 export function progressOverview(checkins: Checkin[]) {

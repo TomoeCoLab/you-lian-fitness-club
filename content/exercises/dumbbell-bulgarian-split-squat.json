@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-bulgarian-split-squat",
+    "name": "啞鈴保加利亞分腿蹲",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "後腳放在穩固矮凳，以前腳支撐完成分腿蹲，增加單側控制挑戰。",
+    "instructions": [
+      "先用徒手確認平衡，選穩固不滑動的矮凳；背對凳面，把後腳腳背輕放凳上，前腳踩穩。",
+      "前腳離凳適當距離、左右保留髖寬，雙手輕啞鈴垂身側，軀幹可自然微前傾。",
+      "以前腳彎膝下蹲，膝蓋沿腳尖方向，後腳只輔助平衡，不用它用力推凳。",
+      "下降到可控制深度後以前腳出力站回；慢慢放下啞鈴再換側，不跳躍換腳。"
+    ],
+    "cues": [
+      "先徒手練穩再加重量",
+      "凳面穩固，前腳全掌踩穩",
+      "不強追深度或晃動"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/or1frhkjBDc",
+      "watchUrl": "https://www.youtube.com/shorts/or1frhkjBDc",
+      "title": "啞鈴保加利亞分腿蹲短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/or1frhkjBDc",
+    "sourceLabel": "DeltaBolic：啞鈴保加利亞分腿蹲示範"
+  },
+  "definition": {
+    "variation": "後腳腳背放在穩固凳面、雙手持啞鈴的原地分腿蹲；需先具備徒手平衡。",
+    "counting": "每側下蹲站回算 1 次；每組左右各 8 次，兩側完成算 1 組。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/or1frhkjBDc",
+      "label": "DeltaBolic：啞鈴保加利亞分腿蹲",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "後腳腳背支撐",
+        "前腳承重",
+        "軀幹可自然前傾"
+      ],
+      "note": "3.084 秒後腳腳背支撐、7.711 秒直立版本、12.337 秒自然前傾版本；本站採輕啞鈴自然微前傾。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "5dbe10161e454e3c6d09d55461df0ac0cf44b1593be674d4ef573a7e5c5af4dc",
+      "findings": [
+        "3.084 秒後腳腳背支撐、7.711 秒直立版本、12.337 秒自然前傾版本；本站採輕啞鈴自然微前傾。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "5dbe10161e454e3c6d09d55461df0ac0cf44b1593be674d4ef573a7e5c5af4dc",
+      "reviewedImageSha256": "11558bb151988b985be8b2e58c9ad8af1d42a8cb103b2af4ff9392d1f03d7f2f",
+      "findings": [
+        "已檢視後腳腳背在穩固凳面、前腳全掌支撐，兩啞鈴身側與前腳下蹲回程；每側8次一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/or1frhkjBDc",
+      "check": {
+        "videoId": "or1frhkjBDc",
+        "seconds": [
+          3.0842,
+          7.7105,
+          12.3368
+        ],
+        "observation": "3.084 秒後腳腳背支撐、7.711 秒直立版本、12.337 秒自然前傾版本；本站採輕啞鈴自然微前傾。"
+      },
+      "findings": [
+        "3.084 秒後腳腳背支撐、7.711 秒直立版本、12.337 秒自然前傾版本；本站採輕啞鈴自然微前傾。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "5dbe10161e454e3c6d09d55461df0ac0cf44b1593be674d4ef573a7e5c5af4dc",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-bulgarian-split-squat-zh-tw.png",
+    "sha256": "11558bb151988b985be8b2e58c9ad8af1d42a8cb103b2af4ff9392d1f03d7f2f",
+    "generatedFromContentHash": "5dbe10161e454e3c6d09d55461df0ac0cf44b1593be674d4ef573a7e5c5af4dc",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略偏前，矮凳、後腳腳背與前腳全掌可見。",
+      "frames": [
+        {
+          "title": "後腳放穩",
+          "pose": "Woman holds two light dumbbells at sides, RIGHT foot top rests on a low sturdy bench behind, LEFT foot flat well forward; feet laterally apart, stable pelvis.",
+          "caption": "後腳輕放，前腳踩穩。"
+        },
+        {
+          "title": "前腳下蹲",
+          "pose": "Lower by flexing left front hip and knee, torso naturally slightly forward with neutral back; rear knee drops toward floor, rear instep remains on bench, front heel grounded.",
+          "caption": "前膝順腳尖，穩定下蹲。"
+        },
+        {
+          "title": "站回換側",
+          "pose": "Drive through front left foot to return tall split stance, rear foot remains light on bench, no jumping.",
+          "caption": "慢慢站回，每組左右各 8 次。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 啞鈴保加利亞分腿蹲; subtitle 後腳放在穩固矮凳，以前腳支撐完成分腿蹲，增加單側控制挑戰。; camera 固定正側略偏前，矮凳、後腳腳背與前腳全掌可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"後腳放穩\",\"pose\":\"Woman holds two light dumbbells at sides, RIGHT foot top rests on a low sturdy bench behind, LEFT foot flat well forward; feet laterally apart, stable pelvis.\",\"caption\":\"後腳輕放，前腳踩穩。\"},{\"title\":\"前腳下蹲\",\"pose\":\"Lower by flexing left front hip and knee, torso naturally slightly forward with neutral back; rear knee drops toward floor, rear instep remains on bench, front heel grounded.\",\"caption\":\"前膝順腳尖，穩定下蹲。\"},{\"title\":\"站回換側\",\"pose\":\"Drive through front left foot to return tall split stance, rear foot remains light on bench, no jumping.\",\"caption\":\"慢慢站回，每組左右各 8 次。\"}]; bottom three columns 動作重點 [\"先徒手練穩再加重量\",\"凳面穩固，前腳全掌踩穩\",\"不強追深度或晃動\"]; 建議次數 起始參考：2 組 × 8 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting must be clear: 每側下蹲站回算 1 次；每組左右各 8 次，兩側完成算 1 組。"
+    }
+  }
+}

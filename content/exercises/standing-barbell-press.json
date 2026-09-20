@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "standing-barbell-press",
+    "name": "站姿槓鈴肩推",
+    "bodyParts": [
+      "肩",
+      "手臂",
+      "核心"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "站穩後將槓鈴由肩前推到頭頂，以穩定軀幹練習上推力量。",
+    "instructions": [
+      "從合適高度的槓架取槓，完整正握略寬於肩，槓在肩前，手肘略在槓前下方；先以空槓熟悉路徑。",
+      "雙腳約髖寬踩穩，腹部與臀部維持張力，肋骨不向前翻；視線平視。",
+      "下巴稍讓出路徑，把槓貼近身體上推，過額頭後讓頭回到自然位置；不往後仰躲槓。",
+      "控制把槓降回肩前，膝蓋不蹬動；結束穩定掛回槓架。"
+    ],
+    "cues": [
+      "不蹬腿變成借力推舉",
+      "不拱腰或推到頸後",
+      "槓通過頭部時保留安全空間"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/zoN5EH50Dro",
+      "watchUrl": "https://www.youtube.com/shorts/zoN5EH50Dro",
+      "title": "站姿槓鈴肩推短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/zoN5EH50Dro",
+    "sourceLabel": "DeltaBolic：站姿槓鈴肩推示範"
+  },
+  "definition": {
+    "variation": "站姿正握自由槓肩推；不蹬腿、不做頸後推舉。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/zoN5EH50Dro",
+      "label": "DeltaBolic：站姿槓鈴肩推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "站姿自由槓",
+        "肩前到頭頂",
+        "軀幹與手肘位置"
+      ],
+      "note": "2.008 秒上推終點、5.021 秒正面肩前起點、8.033 秒側面與軀幹錯誤對照；採不蹬腿版本。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "fcea435c456c7463f41c43d36f5381030788a6d24f1569f77467f2249ab03c76",
+      "findings": [
+        "2.008 秒上推終點、5.021 秒正面肩前起點、8.033 秒側面與軀幹錯誤對照；採不蹬腿版本。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "fcea435c456c7463f41c43d36f5381030788a6d24f1569f77467f2249ab03c76",
+      "reviewedImageSha256": "9098cc94a519408cfaa2c055fbde655c08f4bb8b9d73a2a363cc9477b8b3906c",
+      "findings": [
+        "已檢視原圖：站姿肩前起槓、向頭頂推起、控制回肩前；雙腳固定、無蹬腿或頸後推，圖文一致。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/zoN5EH50Dro",
+      "check": {
+        "videoId": "zoN5EH50Dro",
+        "seconds": [
+          2.0082,
+          5.0205,
+          8.0328
+        ],
+        "observation": "2.008 秒上推終點、5.021 秒正面肩前起點、8.033 秒側面與軀幹錯誤對照；採不蹬腿版本。"
+      },
+      "findings": [
+        "2.008 秒上推終點、5.021 秒正面肩前起點、8.033 秒側面與軀幹錯誤對照；採不蹬腿版本。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "fcea435c456c7463f41c43d36f5381030788a6d24f1569f77467f2249ab03c76",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-standing-barbell-press-zh-tw.png",
+    "sha256": "9098cc94a519408cfaa2c055fbde655c08f4bb8b9d73a2a363cc9477b8b3906c",
+    "generatedFromContentHash": "fcea435c456c7463f41c43d36f5381030788a6d24f1569f77467f2249ab03c76",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略偏前，全身及自由槓兩端可見。",
+      "frames": [
+        {
+          "title": "肩前就位",
+          "pose": "Woman stands hipwidth feet, free barbell at upper chest/front shoulders with closed overhand grip just wider than shoulders, elbows slightly in front, forearms nearly vertical. Neutral upright torso eyes forward.",
+          "caption": "雙腳踩穩，槓放肩前。"
+        },
+        {
+          "title": "平順上推",
+          "pose": "Press free bar overhead without knee drive, head moves only enough to clear bar then returns neutral under it. Arms naturally extended, ribs stacked over pelvis, no lumbar arch.",
+          "caption": "槓靠近身體上推，不蹬腿或拱腰。"
+        },
+        {
+          "title": "回到肩前",
+          "pose": "Control lowering bar down in front of face to front shoulders, maintain upright body and stable feet, no behind-neck path.",
+          "caption": "慢慢回到肩前，結束穩定掛回。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 站姿槓鈴肩推; subtitle 站穩後將槓鈴由肩前推到頭頂，以穩定軀幹練習上推力量。; camera 固定正側略偏前，全身及自由槓兩端可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"肩前就位\",\"pose\":\"Woman stands hipwidth feet, free barbell at upper chest/front shoulders with closed overhand grip just wider than shoulders, elbows slightly in front, forearms nearly vertical. Neutral upright torso eyes forward.\",\"caption\":\"雙腳踩穩，槓放肩前。\"},{\"title\":\"平順上推\",\"pose\":\"Press free bar overhead without knee drive, head moves only enough to clear bar then returns neutral under it. Arms naturally extended, ribs stacked over pelvis, no lumbar arch.\",\"caption\":\"槓靠近身體上推，不蹬腿或拱腰。\"},{\"title\":\"回到肩前\",\"pose\":\"Control lowering bar down in front of face to front shoulders, maintain upright body and stable feet, no behind-neck path.\",\"caption\":\"慢慢回到肩前，結束穩定掛回。\"}]; bottom three columns 動作重點 [\"不蹬腿變成借力推舉\",\"不拱腰或推到頸後\",\"槓通過頭部時保留安全空間\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact."
+    }
+  }
+}

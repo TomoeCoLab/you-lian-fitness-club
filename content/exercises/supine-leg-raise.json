@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "supine-leg-raise",
+    "name": "仰躺抬腿",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "仰躺控制雙腿抬起與下降，練習腹部維持軀幹穩定。",
+    "instructions": [
+      "仰躺墊上，雙手放身側，頭與肩放鬆靠墊；雙腿伸長或保留自然微彎。",
+      "腹部保持張力，將兩腿一起抬向上方，骨盆不要突然捲起甩動。",
+      "慢慢下降到腰背仍舒適穩定的位置即可，不要求腳跟碰地。",
+      "若開始拱腰、憋氣或不舒服，提早回程、彎膝降低難度或停止。"
+    ],
+    "cues": [
+      "下降幅度由腰背控制決定",
+      "不用雙腿甩動借力",
+      "先穩住，再加大幅度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "徒手練習；腰部無法維持舒適穩定時先改屈膝或減少下降幅度。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=9&end=11",
+      "watchUrl": "https://www.youtube.com/shorts/TkCoHrR6Y7Q",
+      "title": "仰躺抬腿短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/TkCoHrR6Y7Q",
+    "sourceLabel": "DeltaBolic：仰躺抬腿示範"
+  },
+  "definition": {
+    "variation": "雙腿同步抬起、頭背靠墊的仰躺抬腿；不採懸垂版本，也不把下背離地拱起。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/TkCoHrR6Y7Q",
+      "label": "DeltaBolic：仰躺抬腿",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "雙腿同步",
+        "頭背墊上支撐",
+        "抬腿短片區間"
+      ],
+      "note": "9 秒腿下降、10 秒雙腿抬高，8 與11 秒為其他動作；影片段落短，限定 9–11 秒輔助確認雙腿路徑。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "c26882f4c7ed8f2677cb6353c5956651108773129400deecc6919e7b88141d9b",
+      "findings": [
+        "9 秒腿下降、10 秒雙腿抬高，8 與11 秒為其他動作；影片段落短，限定 9–11 秒輔助確認雙腿路徑。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "c26882f4c7ed8f2677cb6353c5956651108773129400deecc6919e7b88141d9b",
+      "reviewedImageSha256": "add8e1c1fa8b0e9be14d354a4abd9a71474f727ce4e44ff209e53c7235c53434",
+      "findings": [
+        "檢視仰躺雙腿同步抬起與控制下降、頭背留墊；已移除攝影指令文字。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/TkCoHrR6Y7Q?start=9&end=11",
+      "check": {
+        "videoId": "TkCoHrR6Y7Q",
+        "seconds": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "observation": "9 秒腿下降、10 秒雙腿抬高，8 與11 秒為其他動作；影片段落短，限定 9–11 秒輔助確認雙腿路徑。",
+        "start": 9,
+        "end": 11
+      },
+      "findings": [
+        "9 秒腿下降、10 秒雙腿抬高，8 與11 秒為其他動作；影片段落短，限定 9–11 秒輔助確認雙腿路徑。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "c26882f4c7ed8f2677cb6353c5956651108773129400deecc6919e7b88141d9b",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-supine-leg-raise-zh-tw.png",
+    "sha256": "add8e1c1fa8b0e9be14d354a4abd9a71474f727ce4e44ff209e53c7235c53434",
+    "generatedFromContentHash": "c26882f4c7ed8f2677cb6353c5956651108773129400deecc6919e7b88141d9b",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面，全身與腰背墊面關係清楚。",
+      "frames": [
+        {
+          "title": "仰躺準備",
+          "pose": "Woman supine on mat, head shoulders pelvis resting, hands palms down beside torso, legs together elevated moderately with soft knees, low back comfortable not arched.",
+          "caption": "頭背放鬆，腹部保持穩定。"
+        },
+        {
+          "title": "雙腿抬高",
+          "pose": "Raise both legs together toward vertical with soft knees, pelvis stays controlled on mat no hip throw, hands by sides.",
+          "caption": "雙腿同步，不甩動骨盆。"
+        },
+        {
+          "title": "控制下降",
+          "pose": "Lower legs only to about45degrees or a comfortable angle that preserves stable low back, heels still off mat, no arch, show not flat low extreme.",
+          "caption": "腰背穩定的範圍內慢慢放下。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-supine-leg-raise-rejected-1-zh-tw.png",
+        "sha256": "19639a36fef542eb51bb0bde37281c5f789bf25e23da3cae8dd4f75e83834575",
+        "status": "rejected",
+        "reason": "圖上誤印內部鏡位描述；運動姿勢可用，但須移除內部提示字。",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Edit the supplied exercise infographic ONLY by deleting the subtitle line describing camera angle (固定...視角/側面/全身...). Keep the main exercise title, purpose subtitle, all poses, steps, safety cues and dosage exactly unchanged. Leave clean background where this internal camera instruction was. Do not add any slogans."
+    }
+  }
+}

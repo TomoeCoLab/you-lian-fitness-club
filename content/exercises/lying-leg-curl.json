@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "lying-leg-curl",
+    "name": "俯臥腿彎舉",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "腿彎舉機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "俯臥在專用器械，以屈膝拉近腳跟練習腿後側。",
+    "instructions": [
+      "依機台標示調整滾墊與膝部轉軸位置，俯臥貼穩支撐墊，滾墊壓在腳踝上方的小腿後側、不是腳跟關節上。",
+      "握穩前方把手，腹部和骨盆貼穩墊面，雙腿自然伸長、膝蓋不鎖死，腳尖朝自然方向。",
+      "慢慢彎膝讓腳跟往臀部靠近，骨盆不要抬離墊面或拱腰追幅度。",
+      "控制伸膝放回，配重不撞擊；結束先放穩重量再離開。"
+    ],
+    "cues": [
+      "骨盆全程貼穩",
+      "滾墊放腳踝上方",
+      "不要靠拱腰抬臀"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/6eVuy_P5FR8?start=1&end=4",
+      "watchUrl": "https://www.youtube.com/shorts/6eVuy_P5FR8",
+      "title": "俯臥腿彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/lying-leg-curl",
+    "sourceLabel": "NASM：俯臥腿彎舉"
+  },
+  "definition": {
+    "variation": "俯臥雙腿彎舉、腳尖自然向前，不採外轉或內轉變化；滾墊位於腳踝上方的小腿後側。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/6eVuy_P5FR8",
+      "label": "DeltaBolic：俯臥腿彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "俯臥屈膝",
+        "自然腳尖段落",
+        "滾墊位置"
+      ],
+      "note": "0.5 秒腳底角度、2 秒自然方向俯臥雙腿、3 秒屈膝、4 秒轉入其他腳尖方向；截取 1–4 秒。完整軀幹支撐另核對 NASM。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/lying-leg-curl",
+      "label": "NASM：俯臥腿彎舉",
+      "supports": [
+        "腳踝上方滾墊",
+        "髖部貼墊",
+        "控制屈伸膝"
+      ],
+      "note": "採用器械設定、骨盆支撐與回程控制；不把來源訓練量作為本站個人處方。",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "159196aaccc8d3fbe266c498a9ccacbe3a4018019f17d1a65787d38feb932d00",
+      "findings": [
+        "0.5 秒腳底角度、2 秒自然方向俯臥雙腿、3 秒屈膝、4 秒轉入其他腳尖方向；截取 1–4 秒。完整軀幹支撐另核對 NASM。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "159196aaccc8d3fbe266c498a9ccacbe3a4018019f17d1a65787d38feb932d00",
+      "reviewedImageSha256": "c24fa76b40765db209ce47a685a27f292f67808394e971a2f4848ad024ba8ec1",
+      "findings": [
+        "已檢視俯臥軀幹骨盆支撐，滾墊在小腿後側腳踝上方，屈膝腳跟升起而大腿留墊，回程不抬臀；機台為示意，設定依現場。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/6eVuy_P5FR8?start=1&end=4",
+      "check": {
+        "videoId": "6eVuy_P5FR8",
+        "seconds": [
+          0.5,
+          2,
+          3,
+          4
+        ],
+        "observation": "0.5 秒腳底角度、2 秒自然方向俯臥雙腿、3 秒屈膝、4 秒轉入其他腳尖方向；截取 1–4 秒。完整軀幹支撐另核對 NASM。",
+        "start": 1,
+        "end": 4
+      },
+      "findings": [
+        "0.5 秒腳底角度、2 秒自然方向俯臥雙腿、3 秒屈膝、4 秒轉入其他腳尖方向；截取 1–4 秒。完整軀幹支撐另核對 NASM。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "159196aaccc8d3fbe266c498a9ccacbe3a4018019f17d1a65787d38feb932d00",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-lying-leg-curl-zh-tw.png",
+    "sha256": "c24fa76b40765db209ce47a685a27f292f67808394e971a2f4848ad024ba8ec1",
+    "generatedFromContentHash": "159196aaccc8d3fbe266c498a9ccacbe3a4018019f17d1a65787d38feb932d00",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略偏前，專用俯臥腿彎舉機、頭胸骨盆支撐、膝與滾墊可見。",
+      "frames": [
+        {
+          "title": "俯臥就位",
+          "pose": "Woman lies FACE DOWN on dedicated lying leg curl machine, torso and pelvis fully supported on pad, hands grip front handles, knees aligned machine hinge just beyond pad. Roller rests across BACK OF LOWER CALVES just above ankles, legs naturally extended. Face down neutral neck.",
+          "caption": "骨盆貼穩，滾墊在腳踝上方。"
+        },
+        {
+          "title": "屈膝拉近",
+          "pose": "Keeping hips on pad, flex both knees lifting heels toward butt, roller stays behind lower calves and lever pivots around knee hinge. Thighs and torso remain supported, not a hip extension.",
+          "caption": "慢慢彎膝，臀部不抬離。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "Extend knees under control to starting position short of locking, roller mechanism follows same arc, toes neutral.",
+          "caption": "緩慢伸膝，配重不撞擊。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 俯臥腿彎舉; subtitle 俯臥在專用器械，以屈膝拉近腳跟練習腿後側。; camera 固定正側略偏前，專用俯臥腿彎舉機、頭胸骨盆支撐、膝與滾墊可見。; render each step title and caption verbatim and depict pose: [{\"title\":\"俯臥就位\",\"pose\":\"Woman lies FACE DOWN on dedicated lying leg curl machine, torso and pelvis fully supported on pad, hands grip front handles, knees aligned machine hinge just beyond pad. Roller rests across BACK OF LOWER CALVES just above ankles, legs naturally extended. Face down neutral neck.\",\"caption\":\"骨盆貼穩，滾墊在腳踝上方。\"},{\"title\":\"屈膝拉近\",\"pose\":\"Keeping hips on pad, flex both knees lifting heels toward butt, roller stays behind lower calves and lever pivots around knee hinge. Thighs and torso remain supported, not a hip extension.\",\"caption\":\"慢慢彎膝，臀部不抬離。\"},{\"title\":\"控制放回\",\"pose\":\"Extend knees under control to starting position short of locking, roller mechanism follows same arc, toes neutral.\",\"caption\":\"緩慢伸膝，配重不撞擊。\"}]; bottom three columns 動作重點 [\"骨盆全程貼穩\",\"滾墊放腳踝上方\",\"不要靠拱腰抬臀\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting must be clear: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "seated-reverse-wrist-curl",
+    "name": "坐姿啞鈴反向腕彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "掌心朝下、前臂有支撐，以手背小幅度抬起練習前臂伸肌。",
+    "instructions": [
+      "坐穩，工作前臂掌心朝下放在同側大腿，手腕略超過膝前，手握一顆很輕的啞鈴。",
+      "前臂與手肘保持支撐，手腕先在舒服範圍自然微垂，肩部放鬆。",
+      "以手背向上抬起啞鈴，幅度不必大，不抬整條手臂或用手肘彎舉。",
+      "控制慢慢放回，完成後換側；手腕疼痛、刺痛或麻木就停止。"
+    ],
+    "cues": [
+      "掌心朝下，抬的是手背",
+      "前臂全程留在大腿",
+      "不要用甩動補幅度"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "使用很輕、能維持前臂支撐的單顆啞鈴；不要用一般彎舉重量做腕部動作。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=7&end=10",
+      "watchUrl": "https://www.youtube.com/shorts/wSwo6mKHgZI",
+      "title": "坐姿啞鈴反向腕彎舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/wSwo6mKHgZI",
+    "sourceLabel": "DeltaBolic：坐姿啞鈴反向腕彎舉示範"
+  },
+  "definition": {
+    "variation": "坐姿單手正握啞鈴、前臂放在大腿的反向腕彎舉；非反握整臂彎舉。",
+    "counting": "每側手背抬起並放回算 1 次；每組左右各 10 次，兩側皆完成算 1 組。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/wSwo6mKHgZI",
+      "label": "DeltaBolic：坐姿啞鈴反向腕彎舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "坐姿單手",
+        "掌心朝下腕伸",
+        "前臂支撐"
+      ],
+      "note": "改用 #195 的 7、8、9 秒坐姿掌心朝下腕伸，6、10 秒為握法近景、11 秒切往另一動作；截取 7–10 秒，比原 #8 合集更聚焦。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "22f3b4d218d5ffb6f309e429034b36c83d2f9b23655db7baf07d85f845a34d4d",
+      "findings": [
+        "改用 #195 的 7、8、9 秒坐姿掌心朝下腕伸，6、10 秒為握法近景、11 秒切往另一動作；截取 7–10 秒，比原 #8 合集更聚焦。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "22f3b4d218d5ffb6f309e429034b36c83d2f9b23655db7baf07d85f845a34d4d",
+      "reviewedImageSha256": "63b2597d46dd7885cce7926e85410373a52e015d8745539941ca84b9aadf37ba",
+      "findings": [
+        "逐格檢視：坐姿前傾、前臂完整靠大腿、掌心向下，手腕超出膝緣，以手背上抬而非屈肘。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/wSwo6mKHgZI?start=7&end=10",
+      "check": {
+        "videoId": "wSwo6mKHgZI",
+        "seconds": [
+          6,
+          7,
+          8,
+          8.3905,
+          9,
+          10,
+          11
+        ],
+        "observation": "改用 #195 的 7、8、9 秒坐姿掌心朝下腕伸，6、10 秒為握法近景、11 秒切往另一動作；截取 7–10 秒，比原 #8 合集更聚焦。",
+        "start": 7,
+        "end": 10
+      },
+      "findings": [
+        "改用 #195 的 7、8、9 秒坐姿掌心朝下腕伸，6、10 秒為握法近景、11 秒切往另一動作；截取 7–10 秒，比原 #8 合集更聚焦。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "22f3b4d218d5ffb6f309e429034b36c83d2f9b23655db7baf07d85f845a34d4d",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-seated-reverse-wrist-curl-zh-tw.png",
+    "sha256": "63b2597d46dd7885cce7926e85410373a52e015d8745539941ca84b9aadf37ba",
+    "generatedFromContentHash": "22f3b4d218d5ffb6f309e429034b36c83d2f9b23655db7baf07d85f845a34d4d",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "嚴格工作側正側面，人物髖折前傾約 40 度，整條前臂沿大腿放平，手腕超出膝前；手腕動作另有近景。",
+      "frames": [
+        {
+          "title": "掌心向下",
+          "pose": "STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM DOWN pronated grip. Wrist at comfortable slightly lowered starting angle. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.",
+          "caption": "掌心朝下，前臂放穩。"
+        },
+        {
+          "title": "手背抬起",
+          "pose": "STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM DOWN pronated grip. Extend ONLY wrist a small amount so BACK of hand tilts upward. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.",
+          "caption": "小幅度抬手背，不抬手肘。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM DOWN pronated grip. Wrist at comfortable slightly lowered starting angle. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.",
+          "caption": "慢慢放回，每組左右各 10 次。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [
+      {
+        "path": "content/image-history/v1.9.0/fitness-seated-reverse-wrist-curl-rejected-1-zh-tw.png",
+        "sha256": "a9f0883bf513767b633dafdd9eb73353b9094de119c8509fa493d6ebd92fc6d0",
+        "status": "rejected",
+        "reason": "主圖前臂支撐不足且中格像抬整個前臂；需固定前臂貼腿只動手腕。",
+        "reviewedAt": "2026-09-21"
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 坐姿啞鈴反向腕彎舉; subtitle 掌心朝下、前臂有支撐，以手背小幅度抬起練習前臂伸肌。; camera 嚴格工作側正側面，人物髖折前傾約 40 度，整條前臂沿大腿放平，手腕超出膝前；手腕動作另有近景。; render each step title and caption verbatim and depict pose: [{\"title\":\"掌心向下\",\"pose\":\"STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM DOWN pronated grip. Wrist at comfortable slightly lowered starting angle. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.\",\"caption\":\"掌心朝下，前臂放穩。\"},{\"title\":\"手背抬起\",\"pose\":\"STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM DOWN pronated grip. Extend ONLY wrist a small amount so BACK of hand tilts upward. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.\",\"caption\":\"小幅度抬手背，不抬手肘。\"},{\"title\":\"控制放回\",\"pose\":\"STRICT SIDE PROFILE FACING RIGHT. Woman sits on flat bench, feet flat, leans torso FORWARD40degrees from hips. RIGHT FOREARM from elbow all the way to wrist is HORIZONTAL and FLAT SUPPORTED LENGTHWISE on RIGHT THIGH; elbow is above mid-thigh and wrist extends BEYOND FRONT OF KNEE. One small dumbbell held securely outside knee. Forearm stays in contact with thigh in ALL panels, not lifted, no upright seated biceps-curl posture. PALM DOWN pronated grip. Wrist at comfortable slightly lowered starting angle. Include SIDE-PROFILE closeup hand-wrist at knee showing exact same support and wrist angle; thumb/fingers wrap grip, no dumbbell rolling.\",\"caption\":\"慢慢放回，每組左右各 10 次。\"}]; bottom three columns 動作重點 [\"掌心朝下，抬的是手背\",\"前臂全程留在大腿\",\"不要用甩動補幅度\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Do not print camera/rendering directions, only supplied Chinese exercise instruction. 每側手背抬起並放回算 1 次；每組左右各 10 次，兩側皆完成算 1 組。"
+    }
+  }
+}

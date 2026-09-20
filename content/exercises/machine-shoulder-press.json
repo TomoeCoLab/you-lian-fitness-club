@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 6,
+  "revision": 7,
   "exercise": {
     "id": "machine-shoulder-press",
     "name": "器械肩推",
@@ -30,12 +30,12 @@
       "load": "先以可全程貼靠椅背的重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/TnhIyp4kmO8",
-      "watchUrl": "https://www.youtube.com/watch?v=TnhIyp4kmO8",
-      "title": "器械肩推動作示範",
-      "channel": "PureGym",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/6v4nrRVySj0",
+      "watchUrl": "https://www.youtube.com/shorts/6v4nrRVySj0",
+      "title": "器械肩推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
       "language": "英文",
-      "note": "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。"
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。 圖解與影片器械外觀可能不同，座位、墊位及解鎖依現場機台標示。"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/186/seated-shoulder-press/",
     "sourceLabel": "ACE：器械坐姿肩推"
@@ -79,57 +79,65 @@
         "背靠墊、腳踩地、活動臂推高及控制回程"
       ],
       "note": "已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/6v4nrRVySj0",
+      "label": "DeltaBolic：器械肩推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "靠背肩推機、肩旁握把向上推；原圖另一機型同版本。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "cb4ca038a34c2e8d86714a32b023867b18df4eb3b04686cc0f7ac9db523052dc",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "2eec235e1cdff12513ae6ddc48823d716178722899addb985d47abdb971a9e5f",
       "internalReviewedAt": "2026-09-20",
       "findings": [
         "已對照原廠手冊第 5 頁文字與圖示：背靠墊、腳踩地、活動臂推高及控制回程。",
         "同名器械可能不同構造；現場設定仍需依原廠圖示。",
-        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。",
+        "靠背肩推機、肩旁握把向上推；原圖另一機型同版本。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ]
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "cb4ca038a34c2e8d86714a32b023867b18df4eb3b04686cc0f7ac9db523052dc",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "2eec235e1cdff12513ae6ddc48823d716178722899addb985d47abdb971a9e5f",
       "reviewedImageSha256": "08b94aaa1c5c44c9b29a7a5915f00bec03a663820c51c0996a3c6c884e64db6e",
       "findings": [
         "對照原廠 Circuit Series 肩推示意，機臂向上轉動、握把肩側起始、背部支撐與放回一致；3 組 10 次相符。圖為該機型方向示意，不取代現場設定。",
         "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。",
-        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。",
+        "本次重新開啟原圖檢視：靠背肩推機、肩旁握把向上推；原圖另一機型同版本。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/TnhIyp4kmO8",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/6v4nrRVySj0",
       "check": {
-        "videoId": "TnhIyp4kmO8",
+        "videoId": "6v4nrRVySj0",
         "seconds": [
-          9,
-          19,
-          25,
-          29,
-          31,
-          33,
-          35,
-          37,
-          40
+          2.0202,
+          5.0505,
+          8.0808
         ],
-        "observation": "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。"
+        "observation": "靠背肩推機、肩旁握把向上推；原圖另一機型同版本。"
       },
       "findings": [
-        "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "靠背肩推機、肩旁握把向上推；原圖另一機型同版本。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "cb4ca038a34c2e8d86714a32b023867b18df4eb3b04686cc0f7ac9db523052dc",
+      "auditBaselineContentHash": "2eec235e1cdff12513ae6ddc48823d716178722899addb985d47abdb971a9e5f",
       "history": [
         {
           "video": {
@@ -158,6 +166,43 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "e67c60fba0c5554adb4b2444b53d8dd38c5015dbd3358c1b46def62f975ec8e8"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/TnhIyp4kmO8",
+            "watchUrl": "https://www.youtube.com/watch?v=TnhIyp4kmO8",
+            "title": "器械肩推動作示範",
+            "channel": "PureGym",
+            "language": "英文",
+            "note": "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/TnhIyp4kmO8",
+            "check": {
+              "videoId": "TnhIyp4kmO8",
+              "seconds": [
+                9,
+                19,
+                25,
+                29,
+                31,
+                33,
+                35,
+                37,
+                40
+              ],
+              "observation": "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。"
+            },
+            "findings": [
+              "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "cb4ca038a34c2e8d86714a32b023867b18df4eb3b04686cc0f7ac9db523052dc"
           }
         }
       ]

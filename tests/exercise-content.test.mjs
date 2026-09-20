@@ -7,8 +7,31 @@ const root = new URL('../',import.meta.url);
 const ids = JSON.parse(readFileSync(new URL('content/catalog.json',root),'utf8'));
 const read = id => JSON.parse(readFileSync(new URL(`content/exercises/${id}.json`,root),'utf8'));
 
+test('v1.9.0 expansion preserves legacy IDs and individually reviewed media', () => {
+  const release=JSON.parse(readFileSync(new URL('content/releases/v1.9.0.json',root),'utf8'));
+  assert.equal(release.added.length,53);
+  assert.equal(release.replaced.length,21);
+  assert.equal(release.excluded.length,1);
+  for(const entry of [...release.added,...release.replaced]) {
+    const r=read(entry.id);
+    assert.equal(r.exercise.video.watchUrl,entry.video);
+    assert.equal(r.review.video.status,'spot-checked');
+    assert(r.review.video.check.seconds.length>=3,entry.id);
+    assert(r.review.video.check.observation.length>10,entry.id);
+  }
+  for(const entry of release.added) {
+    const r=read(entry.id);
+    assert(r.illustration.generation.prompt.length>100,entry.id);
+    assert.equal(r.illustration.plan.status,'ready');
+    for(const h of r.illustration.history) assert.equal(sha256(readFileSync(new URL(h.path,root))),h.sha256,entry.id);
+  }
+  for(const entry of release.replaced) assert(read(entry.id).review.video.history.length>0,entry.id);
+  assert(!ids.includes('machine-triceps-extension'));
+  assert(ids.includes('dumbbell-triceps-extension'),'historical alias is retained');
+});
+
 test('every canonical exercise validates and image digest matches inspected original', () => {
-  assert.equal(ids.length,76);
+  assert.equal(ids.length,129);
   assert.equal(new Set(ids).size,ids.length);
   for (const id of ids) {
     const r=read(id); validateRecord(r,id);
@@ -123,5 +146,5 @@ test('checked video mappings preserve IDs and chapter boundaries; pending entrie
     assert.equal(v.reviewedEmbedUrl,r.exercise.video.embedUrl,id);
     assert.equal(v.auditBaselineContentHash,contentHash(r),id);
   }
-  assert.equal(pending,0); assert.equal(checked,76);
+  assert.equal(pending,0); assert.equal(checked,129);
 });

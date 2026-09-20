@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "leg-press",
     "name": "腿推",
@@ -30,12 +30,12 @@
       "load": "空機或輕重量先確認活動範圍"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/q4W4_VJbKW0",
-      "watchUrl": "https://www.youtube.com/watch?v=q4W4_VJbKW0",
-      "title": "腿推動作示範",
-      "channel": "PureGym",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EotSw18oR9w",
+      "watchUrl": "https://www.youtube.com/shorts/EotSw18oR9w",
+      "title": "腿推姿勢短片",
+      "channel": "Andrew Kwong（DeltaBolic）",
       "language": "英文",
-      "note": "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。"
+      "note": "短片含姿勢重點與錯誤對照；以綠色標示的示範為準，不照抄影片重量。"
     },
     "sourceUrl": "https://www.puregym.com/exercises/legs/quad-exercises/leg-presses/45-degree-leg-press/",
     "sourceLabel": "PureGym：45 度腿推"
@@ -68,53 +68,65 @@
         "控制膝髖彎曲、伸腿但不硬鎖"
       ],
       "note": "已讀 45 度滑車版本，與目前圖解一致；不把深度角度或解鎖方式套用所有機台。"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/EotSw18oR9w",
+      "label": "DeltaBolic：腿推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "支撐與器材版本",
+        "動作路徑與正誤對照"
+      ],
+      "note": "斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。"
     }
   ],
   "review": {
     "text": {
       "status": "source-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "02a821f63e6c71007b84e6c6780d02ca6d80a9972db7b1c40a651e25a2787907",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "53e1fbb60a133339d1a82eb7df857e5abb4fe8b853db9ea081c672d967347875",
       "findings": [
         "已讀 45 度滑車版本，與目前圖解一致；不把深度角度或解鎖方式套用所有機台。",
         "份量是本站起始參考，不是來源的個人化處方。",
-        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。",
+        "斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。",
+        "本次逐項對照原文字及現有圖解，未改變既有課表份量。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "02a821f63e6c71007b84e6c6780d02ca6d80a9972db7b1c40a651e25a2787907",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "53e1fbb60a133339d1a82eb7df857e5abb4fe8b853db9ea081c672d967347875",
       "reviewedImageSha256": "ab34798929fc94b10e7b49a071c702454980fa138bf9db9bf1259d389470e144",
       "findings": [
         "45 度滑車版而非水平腿推；全腳掌支撐、控制下放、推回與重新扣上安全把手相符，10–15 次 3 組包含本站 12 次。槓片圖示不是建議重量。",
         "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
-        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。",
+        "本次重新開啟原圖檢視：斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。"
       ]
     },
     "video": {
       "status": "spot-checked",
-      "reviewedAt": "2026-09-20",
-      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/q4W4_VJbKW0",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/EotSw18oR9w",
       "check": {
-        "videoId": "q4W4_VJbKW0",
+        "videoId": "EotSw18oR9w",
         "seconds": [
-          2,
-          4,
-          5,
-          6,
-          8
+          2.2562,
+          5.6405,
+          9.0248
         ],
-        "observation": "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。"
+        "observation": "斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。"
       },
       "findings": [
-        "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。",
-        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+        "斜軌腿推、骨盆背部靠墊、雙腳踏板；原圖相符，安全扣按機型。",
+        "已實際播放並檢視所列秒點；未宣稱逐秒完整審片。"
       ],
       "fullPlaybackReviewed": false,
       "reviewedContentHash": null,
-      "auditBaselineContentHash": "02a821f63e6c71007b84e6c6780d02ca6d80a9972db7b1c40a651e25a2787907",
+      "auditBaselineContentHash": "53e1fbb60a133339d1a82eb7df857e5abb4fe8b853db9ea081c672d967347875",
       "history": [
         {
           "video": {
@@ -143,6 +155,39 @@
             "fullPlaybackReviewed": false,
             "reviewedContentHash": null,
             "auditBaselineContentHash": "eaeadf663c8b8d217d33421d6564ed5f741f576186c671cb6e1788b9e0167890"
+          }
+        },
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/q4W4_VJbKW0",
+            "watchUrl": "https://www.youtube.com/watch?v=q4W4_VJbKW0",
+            "title": "腿推動作示範",
+            "channel": "PureGym",
+            "language": "英文",
+            "note": "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/q4W4_VJbKW0",
+            "check": {
+              "videoId": "q4W4_VJbKW0",
+              "seconds": [
+                2,
+                4,
+                5,
+                6,
+                8
+              ],
+              "observation": "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。"
+            },
+            "findings": [
+              "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。",
+              "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "02a821f63e6c71007b84e6c6780d02ca6d80a9972db7b1c40a651e25a2787907"
           }
         }
       ]

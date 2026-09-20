@@ -31,7 +31,7 @@ test("drafts and movement preferences are scoped; legacy drafts are never implic
 });
 
 test("content review covers every mapping and fails closed on changed or unmatched videos", () => {
-  assert.equal(exercises.length, 76);
+  assert.equal(exercises.length, 129);
   for (const exercise of exercises) assert.equal(videoNeedsReview(exercise), false, exercise.id);
   const squat = exercises.find(e => e.id === "bodyweight-squat")!;
   assert.equal(videoNeedsReview(squat), false);

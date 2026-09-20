@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "exercise": {
+    "id": "dumbbell-romanian-deadlift",
+    "name": "啞鈴羅馬尼亞硬舉",
+    "bodyParts": [
+      "腿",
+      "背"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "膝蓋微彎、臀部向後移，讓啞鈴貼近腿部完成髖折與站回。",
+    "instructions": [
+      "站穩、雙手各持啞鈴在大腿前，膝蓋保持小幅彎曲，頭頸延續背部方向。",
+      "臀部向後移動，軀幹隨髖折前傾，啞鈴貼近腿部慢慢下降，膝蓋不持續往前蹲。",
+      "下降到腿後側有拉伸、背部仍能穩定的範圍即可，啞鈴不一定到地面。",
+      "腳掌踩穩，將臀部帶回站姿；頂端站直即可，不向後拗腰。"
+    ],
+    "cues": [
+      "想像臀部向後找牆",
+      "啞鈴貼腿，不追求碰地",
+      "背部穩定，不用腰甩起"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先用能控制全程的輕重量，結束時保留約 2–3 次餘力；重量不以影片人物為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hu3jRvTc_po",
+      "watchUrl": "https://www.youtube.com/shorts/hu3jRvTc_po",
+      "title": "啞鈴羅馬尼亞硬舉短片示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文",
+      "note": "影片含姿勢重點；依本站步驟控制速度，不照抄示範重量。"
+    },
+    "sourceUrl": "https://www.youtube.com/shorts/hu3jRvTc_po",
+    "sourceLabel": "DeltaBolic：啞鈴羅馬尼亞硬舉示範"
+  },
+  "definition": {
+    "variation": "雙手啞鈴站姿羅馬尼亞硬舉，從站姿下放，不要求啞鈴觸地。",
+    "counting": "完成主要動作與控制回程算 1 次，雙側同步不加倍。",
+    "breathing": "出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般起始參考，並非影片作者或資料來源提供的個人處方；課表份量可另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/shorts/hu3jRvTc_po",
+      "label": "DeltaBolic：啞鈴羅馬尼亞硬舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-21",
+      "supports": [
+        "髖後移",
+        "膝微彎",
+        "啞鈴路徑"
+      ],
+      "note": "2.284 秒站姿背部對照、5.711 秒髖折箭頭、9.137 秒膝微彎與臀部後移。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "f45115ba39fdc9db5afe5ad073e25f9bf1ee6e556d92460f845eb3b726587c75",
+      "findings": [
+        "2.284 秒站姿背部對照、5.711 秒髖折箭頭、9.137 秒膝微彎與臀部後移。",
+        "已逐項核對指定姿勢、支撐、器材、回程與分鏡；份量為本站起始參考。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedContentHash": "f45115ba39fdc9db5afe5ad073e25f9bf1ee6e556d92460f845eb3b726587c75",
+      "reviewedImageSha256": "e8523638fa6823fca0f56b56f0386c93f96ef1b458e6c75b88b48a78dd3e5e94",
+      "findings": [
+        "已檢視膝微彎、臀後移、啞鈴近腿，回程站直不後仰，未把下放畫成深蹲。",
+        "視覺檢查不等於生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-21",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/hu3jRvTc_po",
+      "check": {
+        "videoId": "hu3jRvTc_po",
+        "seconds": [
+          2.2842,
+          5.7105,
+          9.1368
+        ],
+        "observation": "2.284 秒站姿背部對照、5.711 秒髖折箭頭、9.137 秒膝微彎與臀部後移。"
+      },
+      "findings": [
+        "2.284 秒站姿背部對照、5.711 秒髖折箭頭、9.137 秒膝微彎與臀部後移。",
+        "實際播放並檢視指定秒點；非完整逐秒審片或專業動作認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "f45115ba39fdc9db5afe5ad073e25f9bf1ee6e556d92460f845eb3b726587c75",
+      "history": []
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-romanian-deadlift-zh-tw.png",
+    "sha256": "e8523638fa6823fca0f56b56f0386c93f96ef1b458e6c75b88b48a78dd3e5e94",
+    "generatedFromContentHash": "f45115ba39fdc9db5afe5ad073e25f9bf1ee6e556d92460f845eb3b726587c75",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略偏前，全身與啞鈴貼腿路徑清楚。",
+      "frames": [
+        {
+          "title": "站穩持鈴",
+          "pose": "Woman stands feet hipwidth, holding two dumbbells at front thighs, knees softly bent, spine neutral.",
+          "caption": "雙腳踩穩，膝蓋微彎。"
+        },
+        {
+          "title": "臀部後移",
+          "pose": "Hinge at hips pushing butt backward with almost fixed soft knee angle, torso inclines with neutral back, dumbbells slide close to thighs to upper shins as mobility permits, neck follows torso.",
+          "caption": "臀部往後，啞鈴貼近腿。"
+        },
+        {
+          "title": "站回直立",
+          "pose": "Extend hips returning tall without leaning backward, dumbbells at thighs and feet fixed.",
+          "caption": "臀部帶回，不向後拗腰。"
+        }
+      ]
+    },
+    "preferences": [
+      "核准成年女性三視圖、服裝一致",
+      "繁體中文、4:3、淺色背景、寫實人物",
+      "自然視線沿頭部方向，不要求看鏡頭",
+      "沒有標語、裝飾口號或品牌",
+      "分鏡明確、支撐點可見、不編造機械結構"
+    ],
+    "history": [],
+    "generation": {
+      "generatedAt": "2026-09-21",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create a finished 4:3 landscape photorealistic Traditional Chinese exercise infographic. Use attached approved ADULT woman turnaround ONLY as character identity/outfit reference. Preserve her bob haircut and bluegray sports outfit/white shoes. Light neutral studio background, muted slateblue headings, large legible Traditional Chinese. NO slogans, motivational copy, brands or extra decorative text. Natural gaze aligned head, not at camera. Accurate exercise biomechanics and equipment first. Same fixed camera across the exact number of clear numbered panels specified in the frames, full body/support visible. Title 啞鈴羅馬尼亞硬舉; subtitle 膝蓋微彎、臀部向後移，讓啞鈴貼近腿部完成髖折與站回。; camera 固定正側略偏前，全身與啞鈴貼腿路徑清楚。; render each step title and caption verbatim and depict pose: [{\"title\":\"站穩持鈴\",\"pose\":\"Woman stands feet hipwidth, holding two dumbbells at front thighs, knees softly bent, spine neutral.\",\"caption\":\"雙腳踩穩，膝蓋微彎。\"},{\"title\":\"臀部後移\",\"pose\":\"Hinge at hips pushing butt backward with almost fixed soft knee angle, torso inclines with neutral back, dumbbells slide close to thighs to upper shins as mobility permits, neck follows torso.\",\"caption\":\"臀部往後，啞鈴貼近腿。\"},{\"title\":\"站回直立\",\"pose\":\"Extend hips returning tall without leaning backward, dumbbells at thighs and feet fixed.\",\"caption\":\"臀部帶回，不向後拗腰。\"}]; bottom three columns 動作重點 [\"想像臀部向後找牆\",\"啞鈴貼腿，不追求碰地\",\"背部穩定，不用腰甩起\"]; 建議次數 起始參考：2 組 × 10 次，依本次課表調整; 呼吸提醒 出力時吐氣，控制回程時吸氣，持續呼吸、不憋氣。. No audit metadata or source hash printed. No invented extra doses. Same natural head direction each frame, no deliberate camera eye contact. Counting must be clear: 完成主要動作與控制回程算 1 次，雙側同步不加倍。"
+    }
+  }
+}
