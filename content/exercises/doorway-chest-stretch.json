@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "doorway-chest-stretch",
+    "name": "門框胸部伸展",
+    "bodyParts": [
+      "胸",
+      "肩"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "扶穩門框，輕輕移動身體，感受胸前溫和拉伸。",
+    "instructions": [
+      "站在穩固門框內，雙前臂扶在兩側，手肘約肩高或稍低。",
+      "一腳小步往前，身體慢慢前移。",
+      "胸前有輕微拉伸即可，腰背保持自然，不仰頭。",
+      "維持約 20 秒後退回，放鬆雙手。"
+    ],
+    "cues": [
+      "不壓到肩膀前側疼痛，不彈震。",
+      "手麻、刺痛或肩膀不舒服就停止，不強拉。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": null,
+      "durationSeconds": 20,
+      "restSeconds": 15,
+      "load": "不加重量，輕拉 20 秒即可；不是越痛越有效。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/B9uY01NoqBg",
+      "watchUrl": "https://www.youtube.com/watch?v=B9uY01NoqBg",
+      "title": "門框胸部伸展動作示範",
+      "channel": "Baptist Health",
+      "language": "英文",
+      "note": "已核對雙前臂扶門框、肘約 90 度，跨小步身體前移後保持，取代單側版本；停留時間以本站課表為準。"
+    },
+    "sourceUrl": "https://rebalancept.com/physical-therapy-exercises/featured-exercise-doorway-chestpectoralis-stretch/",
+    "sourceLabel": "Rebalance Physical Therapy：雙側門框胸部伸展"
+  },
+  "definition": {
+    "variation": "門框胸部伸展；本項起始設定：站在穩固門框內，雙前臂扶在兩側，手肘約肩高或稍低。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 20 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。",
+      "有肩關節脫位、半脫位或冰凍肩病史，先詢問醫療專業如何修改。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://sportsrehab.ucsf.edu/elbow",
+      "label": "UCSF 上肢伸展指引",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://rebalancept.com/physical-therapy-exercises/featured-exercise-doorway-chestpectoralis-stretch/",
+      "label": "Rebalance Physical Therapy：雙側門框胸部伸展",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "雙臂扶門框、前後站姿",
+        "前移到胸前輕拉、手臂高度依舒適度調整"
+      ],
+      "note": "已讀治療機構原文。來源保持 30–60 秒；本站 20 秒是一般較短起始份量，不聲稱源自該文處方。肩脫位、不穩或冰凍肩需先詢問專業。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "03f377d5552441a3a488023a00577dbf615aeab2dadb9d43e32dc43037b7e975",
+      "findings": [
+        "已讀治療機構原文。來源保持 30–60 秒；本站 20 秒是一般較短起始份量，不聲稱源自該文處方。肩脫位、不穩或冰凍肩需先詢問專業。",
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "03f377d5552441a3a488023a00577dbf615aeab2dadb9d43e32dc43037b7e975",
+      "reviewedImageSha256": "8410b51f2add28e64f7d4d5108e82caf8c132766ae8744f7f3ad0abbc79a25f1",
+      "findings": [
+        "雙前臂貼兩側門框，弓步小幅前移、維持、退回完整；手麻肩痛停止與 20 秒相符。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/B9uY01NoqBg",
+      "check": {
+        "videoId": "B9uY01NoqBg",
+        "seconds": [
+          8,
+          18,
+          28,
+          40
+        ],
+        "observation": "已核對雙前臂扶門框、肘約 90 度，跨小步身體前移後保持，取代單側版本；停留時間以本站課表為準。"
+      },
+      "findings": [
+        "已核對雙前臂扶門框、肘約 90 度，跨小步身體前移後保持，取代單側版本；停留時間以本站課表為準。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "03f377d5552441a3a488023a00577dbf615aeab2dadb9d43e32dc43037b7e975",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/3EUCP4okOvs?rel=0",
+            "watchUrl": "https://www.youtube.com/watch?v=3EUCP4okOvs",
+            "title": "門框胸部伸展：單側版本",
+            "channel": "UCSF Orthopaedic Surgery",
+            "language": "英文",
+            "note": "影片示範單側扶門框的變化；圖解為雙側版本。兩者皆只需胸前輕微拉伸，不向肩膀硬壓。"
+          },
+          "review": {
+            "status": "blocked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/3EUCP4okOvs?rel=0",
+            "check": {
+              "videoId": "3EUCP4okOvs",
+              "seconds": [
+                4,
+                8,
+                15
+              ],
+              "observation": "影片是單側低手位扶門框，圖解為雙側版本；兩者角度不同，不能照搬手位或拉伸幅度。"
+            },
+            "findings": [
+              "影片與本站指定起始姿勢／單雙側版本不同；為避免初學者混用，暫停作為本項示範，待同版本影片完成核對再開放。",
+              "影片是單側低手位扶門框，圖解為雙側版本；兩者角度不同，不能照搬手位或拉伸幅度。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "b07908f6a07d9f5c167c79cf8727860cf567f2296a1da0028ab0b7542d3a5f40"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-doorway-chest-stretch-zh-tw.png",
+    "sha256": "8410b51f2add28e64f7d4d5108e82caf8c132766ae8744f7f3ad0abbc79a25f1",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 門框胸部伸展. MOVEMENT PLAN: Bilateral doorway pectoral stretch STATIC; threequarterfront show fixeddoorframe bothsides, womanwithinopening. 1 扶穩門框 forearmsvertical onbothjambs elbows90 upperarms atshoulderheightorjustbelow. 2 小步向前 splitstance onefootstepforward torso movesgentlypastjamb shouldersNOTforcedback. 3 輕拉維持 keepuprightneutralbacknohollowback comfortablecheststretch. 4 退回放鬆 returnfeetcloser lowerarmsbybody. Key 輕拉不痛，不彈震／手麻或肩痛就停止. Reps 20秒，1組. Breath 維持自然呼吸，不憋氣.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

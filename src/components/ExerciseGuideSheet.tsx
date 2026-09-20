@@ -3,6 +3,9 @@ import { ExternalLink } from "lucide-react";
 import type { GuideExercise } from "../types";
 import { ExerciseDiagram } from "./ExerciseDiagram";
 import { TrainingSheet } from "./TrainingSheet";
+import { EquipmentGuidance } from "./EquipmentGuidance";
+import { videoNeedsReview } from "../lib/exerciseGuidance";
+import { ContentReview } from "./ContentReview";
 
 export function ExerciseGuideSheet({ exercise, onClose, onAdd, added }: { exercise: GuideExercise; onClose: () => void; onAdd?: () => void; added: boolean }) {
   const [tab, setTab] = useState<"diagram" | "video">("diagram");
@@ -13,11 +16,12 @@ export function ExerciseGuideSheet({ exercise, onClose, onAdd, added }: { exerci
       <button aria-pressed={tab === "video"} onClick={() => setTab("video")}>示範影片</button>
     </div>
     <div className="training-sheet__body">
-      {tab === "diagram" ? <ExerciseDiagram exercise={exercise} /> : <><div className="exercise-video__frame"><iframe src={exercise.video.embedUrl} title={`${exercise.name}示範影片`} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen referrerPolicy="strict-origin-when-cross-origin" /></div><p className="sheet-meta">{exercise.video.language}示範 · {exercise.video.channel}。若播放器無法載入，可使用下方影片來源連結。</p></>}
-      {tab === "video" && exercise.video.note ? <p className="sheet-meta">{exercise.video.note}</p> : null}
+      <ContentReview exercise={exercise} />
+      {tab === "diagram" ? <ExerciseDiagram exercise={exercise} /> : videoNeedsReview(exercise) ? <p className="video-review-notice">示範影片待補。原連結已停用，請先查看動作步驟與教學來源。</p> : <><div className="exercise-video__frame"><iframe src={exercise.video.embedUrl} title={`${exercise.name}示範影片`} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen referrerPolicy="strict-origin-when-cross-origin" /></div><p className="sheet-meta">{exercise.video.language}示範 · {exercise.video.channel}。若播放器無法載入，可使用下方影片來源連結。</p></>}
+      <EquipmentGuidance exercise={exercise} />
       <section className="sheet-instructions"><h3>動作步驟</h3><ol>{exercise.instructions.map(text => <li key={text}>{text}</li>)}</ol><h3>動作重點</h3><ul>{exercise.cues.map(text => <li key={text}>{text}</li>)}</ul>
         <h3>單獨練習參考</h3><p>{exercise.recommendation.sets} 組 × {exercise.tracking === "time" ? `${exercise.recommendation.durationSeconds} 秒` : `${exercise.recommendation.reps} 次`} · 休息 {exercise.recommendation.restSeconds} 秒</p><p>{exercise.recommendation.load}</p><p>課表可能依熱身、主訓練或收尾安排不同份量；本次實際組數、次數與時間以「今日課表」為準，可按身體狀態減量。</p>
-        <a href={exercise.sourceUrl} target="_blank" rel="noreferrer">{exercise.sourceLabel}<ExternalLink size={14} /></a><a href={exercise.video.watchUrl} target="_blank" rel="noreferrer">影片：{exercise.video.channel}<ExternalLink size={14} /></a>
+        <a href={exercise.sourceUrl} target="_blank" rel="noreferrer">{exercise.sourceLabel}<ExternalLink size={14} /></a>{!videoNeedsReview(exercise) ? <a href={exercise.video.watchUrl} target="_blank" rel="noreferrer">影片：{exercise.video.channel}<ExternalLink size={14} /></a> : null}
       </section>
     </div>
     <footer className="training-sheet__footer">{onAdd && !added ? <button className="primary-button" onClick={onAdd}>加入今日課表</button> : null}<button onClick={onClose}>返回{onAdd ? "動作庫" : "訓練課表"}</button></footer>

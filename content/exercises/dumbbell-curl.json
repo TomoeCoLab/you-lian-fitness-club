@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "exercise": {
+    "id": "dumbbell-curl",
+    "name": "啞鈴彎舉",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "固定上臂，以肘關節彎曲訓練肱二頭肌。",
+    "instructions": [
+      "掌心朝上握住啞鈴，手肘貼近身體。",
+      "彎曲手肘將重量抬起，上臂保持安定。",
+      "手腕保持直立，平順放下。"
+    ],
+    "cues": [
+      "不甩手、不抬手肘",
+      "左右可交替進行",
+      "下放速度不要過快"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "能保持手腕直立完成 10–12 次"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
+      "watchUrl": "https://www.youtube.com/watch?v=2g4v5qv8ByM",
+      "title": "啞鈴彎舉完整教學",
+      "channel": "卓叔增重",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+    "sourceLabel": "NHS 肌力活動"
+  },
+  "definition": {
+    "variation": "啞鈴彎舉；本項起始設定：掌心朝上握住啞鈴，手肘貼近身體。",
+    "counting": "雙手同步彎舉一次算 1 次，預設每組 12 次；若改交替，左右各完成設定次數才算一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+      "label": "NHS 肌力活動",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "上臂在身旁的彎舉路徑"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    },
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675",
+      "label": "Mayo Clinic 動作影片",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "9b1e5d1d109fd828a5505a9b3f3e1dc02409ecdb8d67bf8118340946dcadfda9",
+      "findings": [
+        "已對照原始來源：上臂在身旁的彎舉路徑。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "9b1e5d1d109fd828a5505a9b3f3e1dc02409ecdb8d67bf8118340946dcadfda9",
+      "reviewedImageSha256": "b2895a3b6d32869ab9984e7218b264d3e8352cfa0fb2fbce7f338e95e940712d",
+      "findings": [
+        "站姿雙手同時彎肘，上臂近軀幹；10–12 次 × 3 組相容。頁面交替版本須另以每側計數。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "9b1e5d1d109fd828a5505a9b3f3e1dc02409ecdb8d67bf8118340946dcadfda9"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-curl-zh-tw.png",
+    "sha256": "b2895a3b6d32869ab9984e7218b264d3e8352cfa0fb2fbce7f338e95e940712d",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

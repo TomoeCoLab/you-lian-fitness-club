@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "supine-twist",
+    "name": "仰躺脊椎扭轉",
+    "bodyParts": [
+      "背",
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "仰躺讓膝蓋向側邊落下，溫和活動軀幹旋轉。",
+    "instructions": [
+      "仰躺屈膝，雙腳踩地，雙臂向兩側打開。",
+      "兩膝一起緩慢倒向一側，肩膀保持放鬆。",
+      "回到中間後換邊，幅度以舒適為準。"
+    ],
+    "cues": [
+      "膝下可墊枕頭",
+      "肩膀不必硬貼地",
+      "不要憋氣或彈震"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 30,
+      "restSeconds": 15,
+      "load": "每側 20–30 秒；用枕頭縮小旋轉幅度"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/QxsmVexWs_4",
+      "watchUrl": "https://www.youtube.com/watch?v=QxsmVexWs_4",
+      "title": "仰躺脊椎扭轉動作示範",
+      "channel": "NHS inform",
+      "language": "英文",
+      "note": "已核對仰躺屈膝、雙膝一起往兩側轉動並回正，取代原單膝跨側版本。影片雙臂放身側且為短停往返；本站雙臂舒適展開，依課表每側保持 30 秒，不必跟影片節奏或追求膝蓋碰地。"
+    },
+    "sourceUrl": "https://www.cuh.nhs.uk/patient-information/back-mobility-exercises/",
+    "sourceLabel": "CUH 雙膝仰躺旋轉"
+  },
+  "definition": {
+    "variation": "仰躺脊椎扭轉；本項起始設定：仰躺屈膝，雙腳踩地，雙臂向兩側打開。",
+    "counting": "每組只保持一側 30 秒；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://sharedfiles.mayoclinic.org/bedside/ope/GNT-20421908.html",
+      "label": "Mayo Clinic Mindful Movements",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.cuh.nhs.uk/patient-information/back-mobility-exercises/",
+      "label": "CUH 雙膝仰躺旋轉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "仰躺屈膝併攏、雙膝一同轉向側面並返回"
+      ],
+      "note": "採雙膝版，不是單膝跨腿；保持上身放鬆，不以強壓肩膀換取膝蓋觸地。本站靜態時間非來源處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "daf08cc6efa2f6b5f397425220a58979c116e87dfb85db3650b28dc1d9071a31",
+      "internalReviewedAt": "2026-09-20",
+      "findings": [
+        "已核對：仰躺屈膝併攏、雙膝一同轉向側面並返回。",
+        "採雙膝版，不是單膝跨腿；保持上身放鬆，不以強壓肩膀換取膝蓋觸地。本站靜態時間非來源處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "daf08cc6efa2f6b5f397425220a58979c116e87dfb85db3650b28dc1d9071a31",
+      "reviewedImageSha256": "871929fc95e5b6890d3cb91c8edd7f9104eb1f8095b04d51c71402462f0e2e9f",
+      "findings": [
+        "重新檢視四格：雙膝靠攏向一側轉、幅度小、回正；沒有強迫肩膀壓地箭頭；每側 30 秒、合共兩組一致。",
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/QxsmVexWs_4",
+      "check": {
+        "videoId": "QxsmVexWs_4",
+        "seconds": [
+          4,
+          10,
+          16,
+          22
+        ],
+        "observation": "已核對仰躺屈膝、雙膝一起往兩側轉動並回正，取代原單膝跨側版本。影片雙臂放身側且為短停往返；本站雙臂舒適展開，依課表每側保持 30 秒，不必跟影片節奏或追求膝蓋碰地。"
+      },
+      "findings": [
+        "已核對仰躺屈膝、雙膝一起往兩側轉動並回正，取代原單膝跨側版本。影片雙臂放身側且為短停往返；本站雙臂舒適展開，依課表每側保持 30 秒，不必跟影片節奏或追求膝蓋碰地。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "daf08cc6efa2f6b5f397425220a58979c116e87dfb85db3650b28dc1d9071a31",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=110&end=145",
+            "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg&t=110s",
+            "title": "睡前 10 分鐘全身伸展放鬆",
+            "channel": "啾c物理治療師",
+            "language": "中文",
+            "note": "原片採單膝跨側版本，本站採雙膝輕放側邊；不以手硬扳，不追求膝蓋碰地。片段示範一側，回正後再換側。"
+          },
+          "review": {
+            "status": "blocked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=110&end=145",
+            "check": {
+              "videoId": "vdIugUHKGWg",
+              "seconds": [
+                110,
+                125
+              ],
+              "start": 110,
+              "end": 145,
+              "observation": "此段可見仰躺、單側抱膝跨向另一側。原本 452 秒是嬰兒式，已修正；此為單膝版本，圖解雙膝版本的槓桿與幅度不同。"
+            },
+            "findings": [
+              "影片與本站指定起始姿勢／單雙側版本不同；為避免初學者混用，暫停作為本項示範，待同版本影片完成核對再開放。",
+              "此段可見仰躺、單側抱膝跨向另一側。原本 452 秒是嬰兒式，已修正；此為單膝版本，圖解雙膝版本的槓桿與幅度不同。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "37f18da6c96d8595fdf414fe35d0a32053fab1a3f92d2d4379ead53ee663319e"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-supine-twist-v2-zh-tw.png",
+    "sha256": "871929fc95e5b6890d3cb91c8edd7f9104eb1f8095b04d51c71402462f0e2e9f",
+    "generatedFromContentHash": "727c5d10f58c67320acf41399b87722095764627cc94d791555364d2cf867a6a",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定高角度俯視，雙膝同側轉動；保持男性角色。",
+      "frames": [
+        {
+          "title": "仰躺屈膝",
+          "pose": "Lie supine, both feet floor, knees bent together, arms relaxed out to sides.",
+          "caption": "雙腳踩地，肩頸放鬆。"
+        },
+        {
+          "title": "雙膝側轉",
+          "pose": "Both bent knees rotate together to comfortable side without hands pushing or forced shoulder pinning.",
+          "caption": "只轉到舒適範圍，不強壓。"
+        },
+        {
+          "title": "自然停留",
+          "pose": "Same comfortable rotation, optional pillow supports knees; no downward shoulder arrows.",
+          "caption": "肩膀放鬆，維持自然呼吸。"
+        },
+        {
+          "title": "回正换邊",
+          "pose": "Both knees return together to central bent position, both feet floor.",
+          "caption": "慢慢回到中間，再換另一側。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-supine-twist-zh-tw.png",
+        "sha256": "feb842c0fe1cded81c4d7b5487e3193104904ca553dbf4057909e9a6fed23c44",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "37f18da6c96d8595fdf414fe35d0a32053fab1a3f92d2d4379ead53ee663319e",
+          "reviewedImageSha256": "feb842c0fe1cded81c4d7b5487e3193104904ca553dbf4057909e9a6fed23c44",
+          "findings": [
+            "雙膝版本可見，但圖要求雙肩全程貼地並向下箭頭，與不硬壓肩的文字矛盾；且影片為單膝版本，需統一或明確分版本。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖-男.png",
+        "sha256": "2000c9cb93e4117acc03549e42c6e1519f00b812c9e26e5640f69316ea1889d8"
+      },
+      "prompt": "Keep male character/layout, remove BOTH downward shoulder arrows and ALL demands that shoulders stay pinned/pressed to floor. Replace with 肩膀放鬆，不強壓貼地. Same bent-two-knees version, comfortable range. Remove claims twisting isolated thoracic/hip or exhales deepenstretch. Say 保持自然呼吸，不強求更深. Dose 左右各30秒，共2組.\nUse approved input image as character reference. Precise canonical brief follows; don't print metadata.\n內容版本：3\n來源文字 SHA-256：727c5d10f58c67320acf41399b87722095764627cc94d791555364d2cf867a6a\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"仰躺脊椎扭轉\",\n  \"variation\": \"仰躺脊椎扭轉；本項起始設定：仰躺屈膝，雙腳踩地，雙臂向兩側打開。\",\n  \"subtitle_zh\": \"背、核心動作指引\",\n  \"intro_zh\": \"仰躺讓膝蓋向側邊落下，溫和活動軀幹旋轉。\",\n  \"target_areas\": [\n    \"背\",\n    \"核心\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定高角度俯視，雙膝同側轉動；保持男性角色。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"仰躺屈膝\",\n      \"pose_description\": \"Lie supine, both feet floor, knees bent together, arms relaxed out to sides.\",\n      \"coaching_note_zh\": \"雙腳踩地，肩頸放鬆。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"雙膝側轉\",\n      \"pose_description\": \"Both bent knees rotate together to comfortable side without hands pushing or forced shoulder pinning.\",\n      \"coaching_note_zh\": \"只轉到舒適範圍，不強壓。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"自然停留\",\n      \"pose_description\": \"Same comfortable rotation, optional pillow supports knees; no downward shoulder arrows.\",\n      \"coaching_note_zh\": \"肩膀放鬆，維持自然呼吸。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"回正换邊\",\n      \"pose_description\": \"Both knees return together to central bent position, both feet floor.\",\n      \"coaching_note_zh\": \"慢慢回到中間，再換另一側。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"膝下可墊枕頭\",\n      \"肩膀不必硬貼地\",\n      \"不要憋氣或彈震\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 30 秒\",\n      \"每組只保持一側 30 秒；共 2 組，左右各一組。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n",
+      "inputImage": "C:/Users/tomoe/Documents/ChatGPT/健身打卡網站/public/exercise-guides/skill-final/fitness-supine-twist-zh-tw.png"
+    }
+  }
+}

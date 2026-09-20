@@ -1,4 +1,4 @@
-const CACHE_NAME = "you-lian-shell-v2";
+const CACHE_NAME = "you-lian-shell-v3";
 const PRECACHE = [
   "/",
   "/manifest.webmanifest",
@@ -16,7 +16,7 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("activate", (event) => {
-  event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key)))).then(() => self.clients.claim()));
+  event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key.startsWith("you-lian-shell-") && key !== CACHE_NAME).map((key) => caches.delete(key)))).then(() => self.clients.claim()));
 });
 
 self.addEventListener("message", (event) => {

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "seated-row",
+    "name": "坐姿划船",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "坐姿划船機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "固定坐姿的水平拉，建立上背與肩胛控制。",
+    "instructions": [
+      "採窄握滑輪坐姿划船：坐穩，雙腳踩踏板、膝微彎，握住前方把手；本版本不使用胸墊。",
+      "將把手拉向腰部，手肘向後移動。",
+      "肩膀穩定後，緩慢伸直手臂。"
+    ],
+    "cues": [
+      "軀幹不要前後擺盪",
+      "肩膀遠離耳朵",
+      "讓手肘帶動而不是手腕"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 75,
+      "load": "能保持坐姿不晃動的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/k0cTJCfxa0Y",
+      "watchUrl": "https://www.youtube.com/watch?v=k0cTJCfxa0Y",
+      "title": "坐姿窄握滑輪划船",
+      "channel": "NASM",
+      "language": "英文",
+      "note": "影片是無胸部靠墊的窄握滑輪版本；有胸墊機型請貼靠支撐，不靠後仰拉重量。"
+    },
+    "sourceUrl": "https://www.puregym.com/exercises/back/rows/seated-cable-row/",
+    "sourceLabel": "PureGym：坐姿滑輪划船文字教學"
+  },
+  "definition": {
+    "variation": "坐姿划船；本項起始設定：採窄握滑輪坐姿划船：坐穩，雙腳踩踏板、膝微彎，握住前方把手；本版本不使用胸墊。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/seated-machine-row-close-grip",
+      "label": "NASM 動作資料庫",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.puregym.com/exercises/back/rows/seated-cable-row/",
+      "label": "PureGym：坐姿滑輪划船文字教學",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "腳踩踏板、無胸墊坐姿",
+        "把手拉向腹部、上臂後移、控制放回"
+      ],
+      "note": "僅採已讀的坐姿滑輪文字步驟；該頁嵌入描述誤列上斜啞鈴划船，不採作影片佐證。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f2ce74b34389df7b5f5db104ee5f6307dd8b707d44d67d254c13f30873eeac67",
+      "findings": [
+        "僅採已讀的坐姿滑輪文字步驟；該頁嵌入描述誤列上斜啞鈴划船，不採作影片佐證。",
+        "份量是本站起始參考，不是來源的個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f2ce74b34389df7b5f5db104ee5f6307dd8b707d44d67d254c13f30873eeac67",
+      "reviewedImageSha256": "3e52a4a139690cee79faf83a92033c8624ec82645163391886f05abd27bfdc70",
+      "findings": [
+        "窄握滑輪、雙腳踩踏板、無胸墊，拉向腰部並回程；10–15 次 3 組包含本站 12 次。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/k0cTJCfxa0Y",
+      "check": {
+        "videoId": "k0cTJCfxa0Y",
+        "seconds": [
+          3,
+          6,
+          10,
+          13
+        ],
+        "observation": "重新核對坐姿腳踏支撐、窄握把纜繩划船，手臂前伸後拉向軀幹，非胸靠墊版本。"
+      },
+      "findings": [
+        "重新核對坐姿腳踏支撐、窄握把纜繩划船，手臂前伸後拉向軀幹，非胸靠墊版本。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "f2ce74b34389df7b5f5db104ee5f6307dd8b707d44d67d254c13f30873eeac67",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/k0cTJCfxa0Y",
+            "watchUrl": "https://www.youtube.com/watch?v=k0cTJCfxa0Y",
+            "title": "坐姿窄握滑輪划船",
+            "channel": "NASM",
+            "language": "英文",
+            "note": "影片是無胸部靠墊的窄握滑輪版本；有胸墊機型請貼靠支撐，不靠後仰拉重量。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/k0cTJCfxa0Y",
+            "check": {
+              "videoId": "k0cTJCfxa0Y",
+              "seconds": [
+                6,
+                13
+              ],
+              "observation": "NASM 原始頁連結與播放器均已查看：窄握滑輪坐姿向腹部拉回，取代舊飛鳥影片。"
+            },
+            "findings": [
+              "NASM 原始頁連結與播放器均已查看：窄握滑輪坐姿向腹部拉回，取代舊飛鳥影片。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "e03ad980a33b0600d0eafee6359856cba52190a597262b7b407a826a1a13edc4"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-seated-row-zh-tw.png",
+    "sha256": "3e52a4a139690cee79faf83a92033c8624ec82645163391886f05abd27bfdc70",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

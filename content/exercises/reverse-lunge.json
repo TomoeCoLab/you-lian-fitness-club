@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "reverse-lunge",
+    "name": "反向弓箭步",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "向後跨步的單腳訓練，練習下肢力量與平衡。",
+    "instructions": [
+      "站直並扶牆也可以，一腳向後跨一大步。",
+      "前腳踩穩，兩膝彎曲下降到舒適範圍。",
+      "以前腳推地回到站姿，左右交替。"
+    ],
+    "cues": [
+      "前膝順著腳尖",
+      "軀幹保持穩定",
+      "每側次數相同"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 45,
+      "load": "每側 8 次；平衡不穩時扶牆或縮小步幅"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+      "title": "新手下肢動作參考",
+      "channel": "May Fit",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/blog/squat-alternatives",
+    "sourceLabel": "NASM：反向弓箭步"
+  },
+  "definition": {
+    "variation": "反向弓箭步；本項起始設定：站直並扶牆也可以，一腳向後跨一大步。",
+    "counting": "每組數字表示每側次數：左右各 8 次（合計 16 次單側動作）才算完成一組；不是左右合計 8 次。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=571&pid=9778&sid=9771",
+      "label": "衛生福利部國民健康署",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/blog/squat-alternatives",
+      "label": "NASM：反向弓箭步",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "髖寬站姿",
+        "一脚往後跨、前腳承重",
+        "前腳推地回站姿",
+        "可交替左右側"
+      ],
+      "note": "核對 Reverse Lunges 段落；不採同頁不相關腿彎舉說明。本站左右各 8 次 × 2 組為起始參考。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "350a5ed3fa55fc459d40f9ab046e2e2fb6c73ba2b52d9bc53468297152e5832c",
+      "findings": [
+        "核對 Reverse Lunges 段落；不採同頁不相關腿彎舉說明。本站左右各 8 次 × 2 組為起始參考。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "350a5ed3fa55fc459d40f9ab046e2e2fb6c73ba2b52d9bc53468297152e5832c",
+      "reviewedImageSha256": "cb357ffbf8b0fc7c1d99bb77c3da22fd9b0d086e54fd4759cf86d4f124caf9c0",
+      "findings": [
+        "四格確認站立、後跨同一路徑、前腳全掌支撐下蹲及回站；未交叉後跨。左右各 8 次、2 組正確。",
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "4311533b888f0a87abd5b6fca9f5db97e669a286fa0b86f489ff03c50e1dc0d2"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-reverse-lunge-v2-zh-tw.png",
+    "sha256": "cb357ffbf8b0fc7c1d99bb77c3da22fd9b0d086e54fd4759cf86d4f124caf9c0",
+    "generatedFromContentHash": "350a5ed3fa55fc459d40f9ab046e2e2fb6c73ba2b52d9bc53468297152e5832c",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定前側三分之四全身，雙腳在平行的髖寬兩條路徑，不交叉。",
+      "frames": [
+        {
+          "title": "髖寬站穩",
+          "pose": "Stand upright feet hip width hands on hips, torso stable and gaze forward.",
+          "caption": "雙腳髖寬站穩，身體保持自然。"
+        },
+        {
+          "title": "向後跨步",
+          "pose": "Right foot steps straight backward along its own hip-width lane, left foot stays flat forward; right heel raised, right forefoot grounded. Do not cross feet.",
+          "caption": "一腳向後跨，不交叉到另一腳後方。"
+        },
+        {
+          "title": "控制下降",
+          "pose": "Bend both knees into reverse lunge, back knee approaches mat without hitting it. Front full foot stays planted, front knee follows toes. Torso upright, comfortable depth.",
+          "caption": "前腳踩穩，下降到舒適範圍。"
+        },
+        {
+          "title": "推回站姿",
+          "pose": "Push through front left whole foot, bring right leg forward to original hip-width stance. Both feet on ground.",
+          "caption": "以前腳推地站回，接著換側。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-reverse-lunge-zh-tw.png",
+        "sha256": "bbd215baf4562292cce9c9f0e386e9b3c48be5b4457a4167610ac0f055d1dbc3",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "4311533b888f0a87abd5b6fca9f5db97e669a286fa0b86f489ff03c50e1dc0d2",
+          "reviewedImageSha256": "bbd215baf4562292cce9c9f0e386e9b3c48be5b4457a4167610ac0f055d1dbc3",
+          "findings": [
+            "後跨與起身可見，但 3 組與頁面 2 組不同；前斜視角不易看出腿是否向後交叉，需側面確認直線後跨。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create ONE independent 4:3 photorealistic Traditional Chinese fitness instruction infographic using approved adult woman reference, consistent face/body/blue outfit/shoes. Light neutral studio, soft light, clear dark slate typography, natural gaze not directed to camera. No slogans or extra decorative diagrams. Exact supplied stages and captions. Add concise summary of cues, stated starting dose (including each side when relevant), natural breathing. No internal metadata. 內容版本：3\n來源文字 SHA-256：350a5ed3fa55fc459d40f9ab046e2e2fb6c73ba2b52d9bc53468297152e5832c\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"反向弓箭步\",\n  \"variation\": \"反向弓箭步；本項起始設定：站直並扶牆也可以，一腳向後跨一大步。\",\n  \"subtitle_zh\": \"腿、核心動作指引\",\n  \"intro_zh\": \"向後跨步的單腳訓練，練習下肢力量與平衡。\",\n  \"target_areas\": [\n    \"腿\",\n    \"核心\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定前側三分之四全身，雙腳在平行的髖寬兩條路徑，不交叉。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"髖寬站穩\",\n      \"pose_description\": \"Stand upright feet hip width hands on hips, torso stable and gaze forward.\",\n      \"coaching_note_zh\": \"雙腳髖寬站穩，身體保持自然。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"向後跨步\",\n      \"pose_description\": \"Right foot steps straight backward along its own hip-width lane, left foot stays flat forward; right heel raised, right forefoot grounded. Do not cross feet.\",\n      \"coaching_note_zh\": \"一腳向後跨，不交叉到另一腳後方。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"控制下降\",\n      \"pose_description\": \"Bend both knees into reverse lunge, back knee approaches mat without hitting it. Front full foot stays planted, front knee follows toes. Torso upright, comfortable depth.\",\n      \"coaching_note_zh\": \"前腳踩穩，下降到舒適範圍。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"推回站姿\",\n      \"pose_description\": \"Push through front left whole foot, bring right leg forward to original hip-width stance. Both feet on ground.\",\n      \"coaching_note_zh\": \"以前腳推地站回，接著換側。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"前膝順著腳尖\",\n      \"軀幹保持穩定\",\n      \"每側次數相同\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 8 次\",\n      \"每組數字表示每側次數：左右各 8 次（合計 16 次單側動作）才算完成一組；不是左右合計 8 次。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

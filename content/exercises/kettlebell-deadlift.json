@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "exercise": {
+    "id": "kettlebell-deadlift",
+    "name": "壺鈴硬舉",
+    "bodyParts": [
+      "腿",
+      "背",
+      "核心"
+    ],
+    "equipment": "壺鈴",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "以壺鈴學習髖折疊，是進入硬舉與壺鈴擺盪前的基礎。",
+    "instructions": [
+      "壺鈴放在兩腳之間，髖部往後推。",
+      "握住把手、收緊軀幹，腳掌踩地站起。",
+      "臀部往後，讓壺鈴垂直回到地面。"
+    ],
+    "cues": [
+      "膝蓋不要過度前移",
+      "手臂只負責握住",
+      "站起時不要過度後仰"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "先用能保持背部中立的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/LnIMaf-XOpM",
+      "watchUrl": "https://www.youtube.com/watch?v=LnIMaf-XOpM",
+      "title": "壺鈴硬舉",
+      "channel": "NASM",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/kettlebell-deadlift",
+    "sourceLabel": "NASM 壺鈴硬舉"
+  },
+  "definition": {
+    "variation": "壺鈴硬舉；本項起始設定：壺鈴放在兩腳之間，髖部往後推。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/kettlebell-deadlift",
+      "label": "NASM 壺鈴硬舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "地面起始、髖折及控制放回"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "d46e099e22e172b9c685b886a6e34be273d914a33dbffa5652be5926841b61b6",
+      "findings": [
+        "已對照原始來源：地面起始、髖折及控制放回。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "d46e099e22e172b9c685b886a6e34be273d914a33dbffa5652be5926841b61b6",
+      "reviewedImageSha256": "1b7d0809b12ca4778ad742501e363f88cd1d4ef1fd1d8b9a9d340fba7d300cf6",
+      "findings": [
+        "地面壺鈴、雙手握把髖折、站直與放回可見，8–12 次 × 3 組包含預設；第四格改側面，重製時應固定鏡頭。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/LnIMaf-XOpM",
+      "check": {
+        "videoId": "LnIMaf-XOpM",
+        "seconds": [
+          4,
+          9
+        ],
+        "observation": "可見雙手持單顆壺鈴在雙腿之間下降與起身，取代原本槓鈴影片；膝髖彎曲幅度依可控制範圍。"
+      },
+      "findings": [
+        "可見雙手持單顆壺鈴在雙腿之間下降與起身，取代原本槓鈴影片；膝髖彎曲幅度依可控制範圍。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "d46e099e22e172b9c685b886a6e34be273d914a33dbffa5652be5926841b61b6"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-kettlebell-deadlift-zh-tw.png",
+    "sha256": "1b7d0809b12ca4778ad742501e363f88cd1d4ef1fd1d8b9a9d340fba7d300cf6",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

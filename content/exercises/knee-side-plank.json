@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "knee-side-plank",
+    "name": "屈膝側棒式",
+    "bodyParts": [
+      "核心",
+      "肩"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "以前臂與屈膝支撐，練習側腹穩定；比雙腿伸直的側棒式容易。",
+    "instructions": [
+      "側躺，雙膝彎曲疊放，手肘放在肩膀正下方。",
+      "以前臂和下側膝部支撐，把髖部抬離墊面。",
+      "肩膀、髖部、膝蓋連成自然直線，維持呼吸。",
+      "慢慢放下，休息後下一組換側。"
+    ],
+    "cues": [
+      "不塌腰、不轉向地面，也不把肩膀擠向耳朵。",
+      "肩或膝壓痛時停止，可改做仰躺腳跟滑動。"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 10,
+      "restSeconds": 15,
+      "load": "共 2 組，每側 10 秒；第一組左側、第二組右側。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/a59BIeTP7DY?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=a59BIeTP7DY",
+      "title": "屈膝側棒式示範",
+      "channel": "Keep It Moving Physical Therapy & Wellness",
+      "language": "英文"
+    },
+    "sourceUrl": "https://na.physitrack.com/home-exercise-video/side-plank-on-knees---version-3",
+    "sourceLabel": "Physitrack：屈膝側棒式"
+  },
+  "definition": {
+    "variation": "屈膝側棒式；本項起始設定：側躺，雙膝彎曲疊放，手肘放在肩膀正下方。",
+    "counting": "每組只保持一側 10 秒；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://prophysiotherapy.in/exercises/side-plank-modified-from-knees",
+      "label": "物理治療師審閱：屈膝側棒式",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://na.physitrack.com/home-exercise-video/side-plank-on-knees---version-3",
+      "label": "Physitrack：屈膝側棒式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "側躺屈膝、手肘支撐",
+        "髖部抬離地",
+        "膝髖頭部成線"
+      ],
+      "note": "已核對屈膝保持版；本站每側 10 秒、共 2 組為起始量。回程採控制放下，不作反覆抬髖次數訓練。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "a94c09fa4209a08caf31ab974e33afbf9b0832a6c2323ded3b3fd44447e155a2",
+      "findings": [
+        "已核對屈膝保持版；本站每側 10 秒、共 2 組為起始量。回程採控制放下，不作反覆抬髖次數訓練。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "a94c09fa4209a08caf31ab974e33afbf9b0832a6c2323ded3b3fd44447e155a2",
+      "reviewedImageSha256": "89a856930a0431ff32e8fe3c93e578f4b241085bd13447a4f2335be4d5b0804e",
+      "findings": [
+        "三格確認屈膝側躺、前臂與下側膝支撐抬髖、髖部放回；未示範抬上側腿。每側 10 秒、左右共 2 組。",
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。",
+        "重新核圖為右前臂與右膝支撐；分鏡改為相同鏡向，原始生成提示與 hash 保留，不回填。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/a59BIeTP7DY?rel=0",
+      "check": {
+        "videoId": "a59BIeTP7DY",
+        "seconds": [
+          8,
+          19,
+          27,
+          35
+        ],
+        "observation": "重新核對前臂、屈膝支撐，髖部由地面抬起，再回到地面及換側；19 秒可見抬髖保持。"
+      },
+      "findings": [
+        "重新核對前臂、屈膝支撐，髖部由地面抬起，再回到地面及換側；19 秒可見抬髖保持。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "a94c09fa4209a08caf31ab974e33afbf9b0832a6c2323ded3b3fd44447e155a2",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/a59BIeTP7DY?rel=0",
+            "watchUrl": "https://www.youtube.com/watch?v=a59BIeTP7DY",
+            "title": "屈膝側棒式示範",
+            "channel": "Keep It Moving Physical Therapy & Wellness",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/a59BIeTP7DY?rel=0",
+            "check": {
+              "videoId": "a59BIeTP7DY",
+              "seconds": [
+                8,
+                19,
+                35
+              ],
+              "observation": "可見前臂及屈膝支撐抬髖，後段換另一側。每側份量請依課表註記。"
+            },
+            "findings": [
+              "可見前臂及屈膝支撐抬髖，後段換另一側。每側份量請依課表註記。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "74f3e3fe6f6a12ec101f739cccec1cb419bbf6e92414df50d76b7320521015a6"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-knee-side-plank-v2-zh-tw.png",
+    "sha256": "89a856930a0431ff32e8fe3c93e578f4b241085bd13447a4f2335be4d5b0804e",
+    "generatedFromContentHash": "0184dd930d733b1a63962a0bb442a7b3e440c01844429a587f21957f5e774d38",
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 屈膝側棒式. MOVEMENT PLAN: Modified SIDEplank on FOREARM andBENTKNEES, lateralabdominals static. Consistent front-sidecamera showingfullyingbody parallelimageplane headleft feetright. 1 側躺定位 sidelyingkneesstackedbent90, bottomforearmground elbowdirectlyundershoulder; tophandonhip. 2 撐起髖部 liftpelvis offmat supportedbottomforearm andbottomknee/lowerleg, shoulderhipknee straightline. 3 穩定維持 samepeak, ribcagepelvisstacked no shoulderhike no rotation, kneesstaybent90. 4 放下休息 pelvisrestsmat bothkneesstillbent; text 下一組換邊. Key 肩、髖、膝成一直線／不塌腰、不壓肩. Reps 每側10秒，各1組. Breath 自然呼吸，不憋氣.",
+    "plan": {
+      "status": "ready",
+      "camera": "固定朝人物胸前的側向視角，肘、雙膝、髖部離地空隙清楚；不鏡像換側。",
+      "frames": [
+        {
+          "title": "側躺定位",
+          "pose": "Lie on RIGHT side, both knees bent about 90 degrees and stacked, RIGHT forearm grounded elbow under right shoulder. Hips initially on mat, left hand on hip.",
+          "caption": "雙膝彎曲疊放，手肘在肩下。"
+        },
+        {
+          "title": "抬髖保持",
+          "pose": "Lift hips visibly off mat supported by right forearm and right bent knee. Shoulder hip knee make one straight diagonal line. Left leg remains stacked, not raised independently. Clear air gap under hips.",
+          "caption": "抬起髖部，肩、髖、膝自然成線。"
+        },
+        {
+          "title": "緩慢放下",
+          "pose": "Lower hips fully back to mat under control, right forearm still grounded, both knees stacked.",
+          "caption": "慢慢放下；休息後換另一側。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-knee-side-plank-zh-tw.png",
+        "sha256": "a39ff96310c39ed044727512858dcf3060d491246470cbdb618c1e5c5ab6dd78",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "74f3e3fe6f6a12ec101f739cccec1cb419bbf6e92414df50d76b7320521015a6",
+          "reviewedImageSha256": "a39ff96310c39ed044727512858dcf3060d491246470cbdb618c1e5c5ab6dd78",
+          "findings": [
+            "屈膝前臂支撐版本與每側 10 秒相符；抬髖前後差異不夠清晰，虛線不能取代實際肩髖膝對齊，需重製更清楚的側面離墊姿勢。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create ONE independent 4:3 photorealistic Traditional Chinese fitness instruction infographic using approved adult woman reference, consistent face/body/blue outfit/shoes. Light neutral studio, soft light, clear dark slate typography, natural gaze not directed to camera. No slogans or extra decorative diagrams. Exact supplied stages and captions. Add concise summary of cues, stated starting dose (including each side when relevant), natural breathing. No internal metadata. 內容版本：3\n來源文字 SHA-256：0184dd930d733b1a63962a0bb442a7b3e440c01844429a587f21957f5e774d38\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"屈膝側棒式\",\n  \"variation\": \"屈膝側棒式；本項起始設定：側躺，雙膝彎曲疊放，手肘放在肩膀正下方。\",\n  \"subtitle_zh\": \"核心、肩動作指引\",\n  \"intro_zh\": \"以前臂與屈膝支撐，練習側腹穩定；比雙腿伸直的側棒式容易。\",\n  \"target_areas\": [\n    \"核心\",\n    \"肩\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定朝人物胸前的側向視角，肘、雙膝、髖部離地空隙清楚；不鏡像換側。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"側躺定位\",\n      \"pose_description\": \"Lie on LEFT side, both knees bent about 90 degrees and stacked, LEFT forearm grounded elbow under left shoulder. Hips initially on mat, right hand on hip.\",\n      \"coaching_note_zh\": \"雙膝彎曲疊放，手肘在肩下。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"抬髖保持\",\n      \"pose_description\": \"Lift hips visibly off mat supported by left forearm and left bent knee. Shoulder hip knee make one straight diagonal line. Right leg remains stacked, not raised independently. Clear air gap under hips.\",\n      \"coaching_note_zh\": \"抬起髖部，肩、髖、膝自然成線。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"緩慢放下\",\n      \"pose_description\": \"Lower hips fully back to mat under control, left forearm still grounded, both knees stacked.\",\n      \"coaching_note_zh\": \"慢慢放下；休息後換另一側。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"不塌腰、不轉向地面，也不把肩膀擠向耳朵。\",\n      \"肩或膝壓痛時停止，可改做仰躺腳跟滑動。\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 10 秒\",\n      \"每組只保持一側 10 秒；共 2 組，左右各一組。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

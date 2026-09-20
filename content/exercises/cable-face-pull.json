@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "cable-face-pull",
+    "name": "滑輪臉拉",
+    "bodyParts": [
+      "背",
+      "肩"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "將繩索拉向臉部，訓練後肩與上背控制。",
+    "instructions": [
+      "滑輪調至臉部高度，雙手握住繩索。",
+      "手肘向外後方移動，把繩索拉向眉毛兩側。",
+      "肩胛穩定後控制伸直手臂。"
+    ],
+    "cues": [
+      "不要聳肩",
+      "手肘與肩接近同高",
+      "軀幹不要後仰借力"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 15,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "使用可在終點停住一秒的輕重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s",
+      "watchUrl": "https://www.youtube.com/watch?v=eTCBSFlCJ_s",
+      "title": "滑輪繩索臉拉",
+      "channel": "NASM",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/face-pull",
+    "sourceLabel": "NASM 動作資料庫"
+  },
+  "definition": {
+    "variation": "滑輪臉拉；本項起始設定：滑輪調至臉部高度，雙手握住繩索。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 15 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/face-pull",
+      "label": "NASM 動作資料庫",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "繩索設定約眼高",
+        "向臉拉與受控回送",
+        "避免聳肩或借力"
+      ],
+      "note": "支持主要路徑；手肘高度與肩部活動範圍依可控制且舒適為準，不宣稱矯正姿勢或治療。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "24712598a4fab26c0a8a7b9dcf5c4326df285d68bcc187b7d7d9132e1a0e56aa",
+      "findings": [
+        "已核對原始來源支持：繩索設定約眼高、向臉拉與受控回送、避免聳肩或借力。支持主要路徑；手肘高度與肩部活動範圍依可控制且舒適為準，不宣稱矯正姿勢或治療。",
+        "本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "24712598a4fab26c0a8a7b9dcf5c4326df285d68bcc187b7d7d9132e1a0e56aa",
+      "reviewedImageSha256": "beab92b1f589b71dc87d286e997ef1b7417afbd0774ffd626bf5d43abbcbc03f",
+      "findings": [
+        "繩索拉到臉旁、肘向外後方、軀幹穩定可見，10–15 次 × 3 組包含預設；未見同一圖內動作矛盾。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eTCBSFlCJ_s",
+      "check": {
+        "videoId": "eTCBSFlCJ_s",
+        "seconds": [
+          7,
+          16
+        ],
+        "observation": "可見站姿將高位繩索拉向面部並分開雙手，取代原本滑輪飛鳥影片。"
+      },
+      "findings": [
+        "可見站姿將高位繩索拉向面部並分開雙手，取代原本滑輪飛鳥影片。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "24712598a4fab26c0a8a7b9dcf5c4326df285d68bcc187b7d7d9132e1a0e56aa"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-cable-face-pull-zh-tw.png",
+    "sha256": "beab92b1f589b71dc87d286e997ef1b7417afbd0774ffd626bf5d43abbcbc03f",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

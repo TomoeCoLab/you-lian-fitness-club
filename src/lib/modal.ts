@@ -27,7 +27,7 @@ export function lockAppForModal(): () => void {
 export function trapTabKey(event: KeyboardEvent, container: HTMLElement | null): void {
   if (event.key !== "Tab" || !container) return;
   const controls = [...container.querySelectorAll<HTMLElement>(focusableSelector)]
-    .filter((element) => !element.hasAttribute("hidden") && element.getAttribute("aria-hidden") !== "true");
+    .filter((element) => !element.hasAttribute("hidden") && element.getAttribute("aria-hidden") !== "true" && element.getClientRects().length > 0);
   if (controls.length === 0) {
     event.preventDefault();
     container.focus();

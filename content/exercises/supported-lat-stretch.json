@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "supported-lat-stretch",
+    "name": "站姿扶穩背闊肌伸展",
+    "bodyParts": [
+      "背",
+      "肩"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "雙手扶固定檯面、臀部往後移，溫和伸展背部與腋下周圍。",
+    "instructions": [
+      "選不會滑動或翻倒的固定檯面，雙手扶穩、腳與髖同寬。",
+      "膝蓋微彎，臀部往後，身體從髖部前傾。",
+      "手臂沿身體向前延伸，背部自然，脖子跟背部同方向。",
+      "輕拉 20 秒後慢慢走近檯面、站回來。"
+    ],
+    "cues": [
+      "不往下硬壓胸口，不把腰拱起。",
+      "肩膀抬高會痛時跳過；不拉會移動的椅子。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": null,
+      "durationSeconds": 20,
+      "restSeconds": 15,
+      "load": "徒手輕拉 20 秒，1 組；不必把身體壓到水平。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Ux1E-Moqa0U?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=Ux1E-Moqa0U",
+      "title": "扶檯面背部伸展示範",
+      "channel": "RehabLex",
+      "language": "英文",
+      "note": "影片使用椅背示範；居家請優先用固定檯面，避免椅子滑動或翻倒。"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/198/90-lat-stretch/",
+    "sourceLabel": "ACE 背部伸展指引"
+  },
+  "definition": {
+    "variation": "站姿扶穩背闊肌伸展；本項起始設定：選不會滑動或翻倒的固定檯面，雙手扶穩、腳與髖同寬。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 20 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/198/90-lat-stretch/",
+      "label": "ACE 背部伸展指引",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "雙手扶穩檯面",
+        "髖後移與背部自然",
+        "頸部穩定、不鎖死膝"
+      ],
+      "note": "本站採舒適幅度版本，不要求身體達 90 度；不套用來源起始抬頭到保持姿勢。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "d6c3be2abc9c791e4bee8110bb161d72f3c2ad88e09f41f9fdaa31e7af37d201",
+      "findings": [
+        "已核對原始來源支持：雙手扶穩檯面、髖後移與背部自然、頸部穩定、不鎖死膝。本站採舒適幅度版本，不要求身體達 90 度；不套用來源起始抬頭到保持姿勢。",
+        "本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "d6c3be2abc9c791e4bee8110bb161d72f3c2ad88e09f41f9fdaa31e7af37d201",
+      "reviewedImageSha256": "aa9e7b709d83d47d463ddf8a97fbf2e85360f37d93cd433a97cb859a6bcef079",
+      "findings": [
+        "四格使用牆上固定檯面，髖部向後移、微彎膝保持及走近站回；頸部順軀幹，不以抬頭看前方示範；20 秒 × 1 組。",
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Ux1E-Moqa0U?rel=0",
+      "check": {
+        "videoId": "Ux1E-Moqa0U",
+        "seconds": [
+          6,
+          12,
+          18,
+          22
+        ],
+        "observation": "重新核對站姿雙手扶高支撐、髖往後移及背部延伸；影片椅背需確保固定，本站優先採固定檯面。"
+      },
+      "findings": [
+        "重新核對站姿雙手扶高支撐、髖往後移及背部延伸；影片椅背需確保固定，本站優先採固定檯面。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "d6c3be2abc9c791e4bee8110bb161d72f3c2ad88e09f41f9fdaa31e7af37d201",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/Ux1E-Moqa0U?rel=0",
+            "watchUrl": "https://www.youtube.com/watch?v=Ux1E-Moqa0U",
+            "title": "扶檯面背部伸展示範",
+            "channel": "RehabLex",
+            "language": "英文",
+            "note": "影片使用椅背示範；居家請優先用固定檯面，避免椅子滑動或翻倒。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Ux1E-Moqa0U?rel=0",
+            "check": {
+              "videoId": "Ux1E-Moqa0U",
+              "seconds": [
+                6,
+                12,
+                22
+              ],
+              "observation": "可見扶椅背向後坐髖；居家優先用固定檯面，避免椅子滑動。"
+            },
+            "findings": [
+              "可見扶椅背向後坐髖；居家優先用固定檯面，避免椅子滑動。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "126b016383e00cc6354335d2d5bad21e916e9d977500b59b2f82999a4b4ceb85"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-supported-lat-stretch-v2-zh-tw.png",
+    "sha256": "aa9e7b709d83d47d463ddf8a97fbf2e85360f37d93cd433a97cb859a6bcef079",
+    "generatedFromContentHash": "d6c3be2abc9c791e4bee8110bb161d72f3c2ad88e09f41f9fdaa31e7af37d201",
+    "legacyPrompt": "Create a factual adult exercise education infographic in Traditional Chinese, 4:3. Reference image identifies the adult instructor only; preserve her face haircut blue athletic clothes and shoes. Show full-body side views at a consistent camera distance. Focus on joint alignment and safe beginner movement, with neutral posture and facial expression, no glamour, no body-part closeups, no decorative quotes or slogans. Four numbered educational frames with blue text on light background. 站姿扶穩背闊肌伸展. Movement plan: Standing bilateral supported90degree lat stretch hands onHEAVYFIXED COUNTER NOTmovablechair. Sideview counteratrightwaistheight. 1 雙手扶穩 standhandsoncounterfeet hipwidth. 2 臀部向後 feetstepbackslightly hipsflexkneessoft torsoinclines45degrees longstraightarms handsremaincounter. 3 輕拉維持 torsonearlyhorizontal butneutralspine headinlinearms straightnotlocked, feetUNDERHIPS knees20degsoft, no hollowback. 4 慢慢站回 walkfeetforwardriseuprighthandscounter. Key 不硬壓胸口、不拱腰／肩痛就停止. Reps 20秒，1組. Breath 後移吐氣，維持自然呼吸.",
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面，全身及固定在牆上的檯面可見；不要角度標記。",
+      "frames": [
+        {
+          "title": "扶穩檯面",
+          "pose": "Standing feet hip width, both hands on a solid immovable wall-mounted counter at waist height, elbows soft.",
+          "caption": "選固定檯面，雙手扶穩。"
+        },
+        {
+          "title": "臀部後移",
+          "pose": "Step away slightly, knees soft, hip hinge and sit hips back. Hands remain on counter, arms in line with upper back. Head stays aligned spine looking naturally down. Comfortable diagonal torso not forced horizontal.",
+          "caption": "臀部往後，從髖部前傾。"
+        },
+        {
+          "title": "輕柔保持",
+          "pose": "Hold same stretch with spine neutral and neck aligned, no chest forced down and no back arch. Hands and feet remain stable.",
+          "caption": "自然呼吸，輕拉二十秒。"
+        },
+        {
+          "title": "走近站回",
+          "pose": "Move feet toward counter, torso returns upright supported by hands. No sudden head lift.",
+          "caption": "慢慢走近檯面，再站直。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-supported-lat-stretch-zh-tw.png",
+        "sha256": "d8e1fe038ea78b92069387c818de1e635615de1f65db121a54034c92f581c97c",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "126b016383e00cc6354335d2d5bad21e916e9d977500b59b2f82999a4b4ceb85",
+          "reviewedImageSha256": "d8e1fe038ea78b92069387c818de1e635615de1f65db121a54034c92f581c97c",
+          "findings": [
+            "第三格頭部抬起看前方，與頭頸沿背部方向的文字不夠一致；標示的 20/45 度也不應變成目標，需取消硬編角度並重製自然頸位。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create ONE independent 4:3 photorealistic Traditional Chinese fitness infographic. Input image is approved adult character identity/outfit reference only. Same character, face, proportions, blue outfit and white shoes throughout; light neutral studio, soft light, clear dark slate typography. Natural gaze along head direction, not at camera. No slogans or decorative text. Use exact plan and captions below, with small bottom band for key cues, starting dose and natural breathing. Don't print metadata. Clear coherent pose progression and physically correct supports above all. \n內容版本：4\n來源文字 SHA-256：d6c3be2abc9c791e4bee8110bb161d72f3c2ad88e09f41f9fdaa31e7af37d201\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"站姿扶穩背闊肌伸展\",\n  \"variation\": \"站姿扶穩背闊肌伸展；本項起始設定：選不會滑動或翻倒的固定檯面，雙手扶穩、腳與髖同寬。\",\n  \"subtitle_zh\": \"背、肩動作指引\",\n  \"intro_zh\": \"雙手扶固定檯面、臀部往後移，溫和伸展背部與腋下周圍。\",\n  \"target_areas\": [\n    \"背\",\n    \"肩\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定正側面，全身及固定在牆上的檯面可見；不要角度標記。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"扶穩檯面\",\n      \"pose_description\": \"Standing feet hip width, both hands on a solid immovable wall-mounted counter at waist height, elbows soft.\",\n      \"coaching_note_zh\": \"選固定檯面，雙手扶穩。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"臀部後移\",\n      \"pose_description\": \"Step away slightly, knees soft, hip hinge and sit hips back. Hands remain on counter, arms in line with upper back. Head stays aligned spine looking naturally down. Comfortable diagonal torso not forced horizontal.\",\n      \"coaching_note_zh\": \"臀部往後，從髖部前傾。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"輕柔保持\",\n      \"pose_description\": \"Hold same stretch with spine neutral and neck aligned, no chest forced down and no back arch. Hands and feet remain stable.\",\n      \"coaching_note_zh\": \"自然呼吸，輕拉二十秒。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"走近站回\",\n      \"pose_description\": \"Move feet toward counter, torso returns upright supported by hands. No sudden head lift.\",\n      \"coaching_note_zh\": \"慢慢走近檯面，再站直。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"不往下硬壓胸口，不把腰拱起。\",\n      \"肩膀抬高會痛時跳過；不拉會移動的椅子。\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：1 組 × 20 秒\",\n      \"每組以實際維持或活動的秒數記錄，預設 20 秒；休息不計入。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

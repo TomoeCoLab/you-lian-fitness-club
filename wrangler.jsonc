@@ -4,6 +4,7 @@
   "main": "worker/index.ts",
   "compatibility_date": "2026-09-04",
   "compatibility_flags": ["nodejs_compat"],
+  "triggers": { "crons": ["*/5 * * * *"] },
   "vars": {
     "DISCORD_CLIENT_ID": "1545369011611770890",
     "DISCORD_GUILD_ID": "1545351675471073342",

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "downward-dog",
+    "name": "下犬式",
+    "bodyParts": [
+      "肩",
+      "背",
+      "腿"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "以倒 V 姿勢延伸背部與腿後側，可保持屈膝降低難度。",
+    "instructions": [
+      "四足跪姿，腳趾踩地後將髖部向後上方推。",
+      "膝蓋可以彎曲，優先拉長背部。",
+      "手掌推穩地面，頭頸自然放鬆。",
+      "保持雙手支撐，慢慢屈膝回到四足跪姿後休息。"
+    ],
+    "cues": [
+      "腳跟不必碰地",
+      "膝蓋可以彎曲，背部舒適延伸即可",
+      "手腕或肩膀疼痛時停止承重，不靠縮短時間繼續忍痛"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 30,
+      "restSeconds": 20,
+      "load": "先做 20–30 秒；以背部延伸、無痛為準"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw",
+      "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw",
+      "title": "零基礎瑜珈入門",
+      "channel": "理周健康",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/18/downward-facing-dog/",
+    "sourceLabel": "ACE 下犬式"
+  },
+  "definition": {
+    "variation": "下犬式；本項起始設定：四足跪姿，腳趾踩地後將髖部向後上方推。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 30 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://sharedfiles.mayoclinic.org/bedside/ope/GNT-20421908.html",
+      "label": "Mayo Clinic Mindful Movements",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/18/downward-facing-dog/",
+      "label": "ACE 下犬式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "髖往後上方、軀幹延伸及可微屈膝"
+      ],
+      "note": "來源由高平板進出；本站是四足跪姿起始的靜態退階，屈膝回四足退出，不把來源動態份量直接套用。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "24adf0d61c18a95eb4b85bc5386efe76d9e24c6d6246a2eafd287d2e2cb39e7a",
+      "findings": [
+        "已對照動作專屬來源：髖往後上方、軀幹延伸及可微屈膝。",
+        "來源由高平板進出；本站是四足跪姿起始的靜態退階，屈膝回四足退出，不把來源動態份量直接套用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "24adf0d61c18a95eb4b85bc5386efe76d9e24c6d6246a2eafd287d2e2cb39e7a",
+      "reviewedImageSha256": "92f74328eb9fad91df7f6ee88e9043e6e9355fd050fea3b1c98cf6920d2a7eed",
+      "findings": [
+        "倒 V 姿勢、可微屈膝、不強求腳跟接地；20–30 秒包含本站 30 秒，退出依文字屈膝回四足。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "舊影片動作不相符，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "cb4376c974b67e01c4f82d42de8e4c58d5bf67bff53cda85a5c86102f159d1e0"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-downward-dog-zh-tw.png",
+    "sha256": "92f74328eb9fad91df7f6ee88e9043e6e9355fd050fea3b1c98cf6920d2a7eed",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

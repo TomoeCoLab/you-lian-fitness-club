@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "mountain-climber",
+    "name": "登山者",
+    "bodyParts": [
+      "核心",
+      "腿",
+      "肩"
+    ],
+    "equipment": "徒手",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以慢速高棒式交替提膝，練習核心與肩部支撐穩定；本圖不示範跳躍換腿。",
+    "instructions": [
+      "雙手置於肩膀下方，雙腳往後伸成高棒式；腹部收緊，頭頸與背部保持自然延伸。",
+      "一膝向胸口方向收近，另一腳尖留在地上支撐；不要扭腰或拱背追求提膝高度。",
+      "將提起的腿伸回、腳尖著地，再換另一腿；左右慢速交替，結束時雙膝輕放回墊上。"
+    ],
+    "cues": [
+      "肩膀穩定，不向耳朵聳起",
+      "背部不過度拱起或下塌",
+      "每次先回高棒式再換腿，不跳躍"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 45,
+      "load": "每側 12 次；可扶高支撐面降低難度"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/i17dhEn4_7Y",
+      "watchUrl": "https://www.youtube.com/watch?v=i17dhEn4_7Y",
+      "title": "高棒式姿勢參考",
+      "channel": "World Gym Taiwan",
+      "language": "中文"
+    },
+    "sourceUrl": "https://library.theprehabguys.com/vimeo-video/mountain-climber-slow/",
+    "sourceLabel": "[P]rehab：慢速登山者"
+  },
+  "definition": {
+    "variation": "慢速登山者：高棒式、單膝朝同側胸口方向收近，回程後才換腿；不是交叉提膝或跳躍換腿版本。",
+    "counting": "每組數字表示每側次數：左右各 12 次（合計 24 次單側動作）才算完成一組；不是左右合計 12 次。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=571&pid=9778&sid=9771",
+      "label": "衛生福利部國民健康署",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://library.theprehabguys.com/vimeo-video/mountain-climber-slow/",
+      "label": "[P]rehab：慢速登山者",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "高棒式起始",
+        "單膝向胸前、回程後換側",
+        "核心穩定與避免背部過度屈伸"
+      ],
+      "note": "已讀 HOW、FEEL、COMPENSATION 原始教學；只支持慢速版本，未觀看該頁 56 秒示範，不用它取代本站待補影片。每側 12 次 × 2 組為本站一般起始參考，不是來源處方。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/258/mountain-climbers/",
+      "label": "ACE：登山者（不同版本）",
+      "scope": "variant-comparison",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "手扶穩固高台的降低難度方式"
+      ],
+      "note": "原頁採雙腳同時離地的換腿版本，不能拿來證明本站慢速回程版本；不採用其跳躍分鏡。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "0419225f75994a79ed73b588be8a25c0184398bcfb4c90f2b95f2d6459f8234a",
+      "findings": [
+        "核對 [P]rehab 慢速版；明確移除加速暗示並補回程、換腿與雙膝落地結束。ACE 跳躍版及 Physitrack 頁面內的弓步旋轉不當作相同示範。",
+        "份量為本站一般起始參考，不是個人化處方；影片仍待補。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "0419225f75994a79ed73b588be8a25c0184398bcfb4c90f2b95f2d6459f8234a",
+      "reviewedImageSha256": "243b72c4a32ca67be73a1a03c5c29aaa2f710d6fa0d410fc68f5e08ca3781c80",
+      "findings": [
+        "已檢視四格新圖：第二格近鏡腿彎曲、遠腿支撐，第四格改為遠腿彎曲、近腿支撐；第三格雙腳回高棒式，與舊圖重複同側問題不同。",
+        "核對圖中每側 12 次 × 2 組、呼吸與主檔一致，無標語、視線朝地；左側標記指向該側鞋部而非膝，腿位仍可辨識。",
+        "這是成品視覺核對，不是生物力學量測或醫療／專業認證；未完成完整影片審查。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "舊影片動作不相符，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "64e1c6255698de908add079ede70974ade9112389a41bfae6baa420fe9216eb6"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-mountain-climber-v2-zh-tw.png",
+    "sha256": "243b72c4a32ca67be73a1a03c5c29aaa2f710d6fa0d410fc68f5e08ca3781c80",
+    "generatedFromContentHash": "0419225f75994a79ed73b588be8a25c0184398bcfb4c90f2b95f2d6459f8234a",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定略俯視的前側三分之四角度；全身與兩手、兩腳均可辨識，頭朝畫面左方，角色右腿是近鏡腿。",
+      "frames": [
+        {
+          "title": "高棒式",
+          "pose": "High plank, head pointing left. Both hands below shoulders, both forefeet grounded behind. Neutral spine and gaze down. Near leg is anatomical right; far leg anatomical left. Both arms remain straight throughout.",
+          "caption": "雙手在肩下，收緊核心，背部自然延伸。"
+        },
+        {
+          "title": "右膝收近",
+          "pose": "Same fixed camera. The NEAR right knee bends under torso toward right chest, right foot off floor. FAR left leg stays extended with toes grounded. Hips level, no cross-body twist.",
+          "caption": "右膝收近，左腳尖支撐，不扭腰。"
+        },
+        {
+          "title": "右腳伸回",
+          "pose": "Return near right foot behind onto its toes. Both legs fully extended in the same high plank as frame 1. No hopping.",
+          "caption": "右腳伸回著地，再準備換另一側。"
+        },
+        {
+          "title": "左膝收近",
+          "pose": "FAR left knee bends under torso toward left chest and left foot lifts. NEAR right leg visibly stays extended with right toes grounded. Distinguish this from panel 2; do not duplicate near bent leg. Keep both arms straight, hips level and neck neutral.",
+          "caption": "換左膝收近，右腳尖支撐，慢速交替。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-mountain-climber-zh-tw.png",
+        "sha256": "1748734a5036c41b3c0c78f3568f37909778a61cc9470ed2f022ba8bf5691116",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "blocked",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "64e1c6255698de908add079ede70974ade9112389a41bfae6baa420fe9216eb6",
+          "reviewedImageSha256": "1748734a5036c41b3c0c78f3568f37909778a61cc9470ed2f022ba8bf5691116",
+          "findings": [
+            "第二、第四格標成左右膝，畫面卻看不出換腿且近似重複同一側；另有 3–4 組與頁面 2 組差異，需明確標記左右並重製。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen.imagegen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Use case: scientific-educational. Create ONE photorealistic Traditional Chinese exercise breakdown infographic for YOU LIAN, landscape 4:3. Input image is the approved adult woman's CHARACTER IDENTITY REFERENCE ONLY. Preserve her face, bob hair, blue-gray activewear, proportions and white shoes throughout. No slogans or motivational text, no logos. Natural gaze in direction of head, not toward camera. Soft light neutral studio; clean dark slate typography, readable Chinese, generous panel spacing. Use four panels in 2x2 reading order, each full body large, with panel numbers and exact supplied labels and captions. Same fixed camera in all panels. Accurate limb positions more important than aesthetics. No extra limbs, no reflected or mirrored copies for left/right. Bottom compact summary: 動作重點, 起始參考, 呼吸提醒. No decorative copy. Only use provided text, shorten breathing to「自然呼吸，不憋氣；不適時停止。」 and dose to 「每側 12 次 × 2 組；左右各 12 次才是一組。」「實際份量依本次課表調整」. Do not infer extra repetitions. Main intro optional to avoid crowding.\n\n內容版本：3\n來源文字 SHA-256：0419225f75994a79ed73b588be8a25c0184398bcfb4c90f2b95f2d6459f8234a\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"登山者\",\n  \"variation\": \"慢速登山者：高棒式、單膝朝同側胸口方向收近，回程後才換腿；不是交叉提膝或跳躍換腿版本。\",\n  \"subtitle_zh\": \"核心、腿、肩動作指引\",\n  \"intro_zh\": \"以慢速高棒式交替提膝，練習核心與肩部支撐穩定；本圖不示範跳躍換腿。\",\n  \"target_areas\": [\n    \"核心\",\n    \"腿\",\n    \"肩\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定略俯視的前側三分之四角度；全身與兩手、兩腳均可辨識，頭朝畫面左方，角色右腿是近鏡腿。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"高棒式\",\n      \"pose_description\": \"High plank, head pointing left. Both hands below shoulders, both forefeet grounded behind. Neutral spine and gaze down. Near leg is anatomical right; far leg anatomical left. Both arms remain straight throughout.\",\n      \"coaching_note_zh\": \"雙手在肩下，收緊核心，背部自然延伸。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"右膝收近\",\n      \"pose_description\": \"Same fixed camera. The NEAR right knee bends under torso toward right chest, right foot off floor. FAR left leg stays extended with toes grounded. Hips level, no cross-body twist.\",\n      \"coaching_note_zh\": \"右膝收近，左腳尖支撐，不扭腰。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"右腳伸回\",\n      \"pose_description\": \"Return near right foot behind onto its toes. Both legs fully extended in the same high plank as frame 1. No hopping.\",\n      \"coaching_note_zh\": \"右腳伸回著地，再準備換另一側。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"左膝收近\",\n      \"pose_description\": \"FAR left knee bends under torso toward left chest and left foot lifts. NEAR right leg visibly stays extended with right toes grounded. Distinguish this from panel 2; do not duplicate near bent leg. Keep both arms straight, hips level and neck neutral.\",\n      \"coaching_note_zh\": \"換左膝收近，右腳尖支撐，慢速交替。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"肩膀穩定，不向耳朵聳起\",\n      \"背部不過度拱起或下塌\",\n      \"每次先回高棒式再換腿，不跳躍\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 12 次\",\n      \"每組數字表示每側次數：左右各 12 次（合計 24 次單側動作）才算完成一組；不是左右合計 12 次。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n\n\nCritical distinction: panel 2 NEAR right leg bends while FAR left stays long; panel 4 FAR left leg bends while NEAR right stays long. Camera cannot switch. Add a small 右/左 callout next to the corresponding BENT knee to make side verifiable. Both hands remain planted, weight-bearing arms straight. Knee comes forward under torso, not outside elbow."
+    }
+  }
+}

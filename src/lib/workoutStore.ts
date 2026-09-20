@@ -30,9 +30,9 @@ export function emptyWorkout(): WorkoutDraft {
   return { workoutDate: todayKey(), startedAt: now, updatedAt: now, items: [] };
 }
 
-export function loadWorkout(): WorkoutDraft {
+export function loadWorkout(owner = "unclaimed"): WorkoutDraft {
   try {
-    const parsed: unknown = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "null");
+    const parsed: unknown = JSON.parse(localStorage.getItem(owner === "unclaimed" ? STORAGE_KEY : `${STORAGE_KEY}:${owner}`) ?? "null");
     if (!parsed || typeof parsed !== "object") return emptyWorkout();
     const item = parsed as Record<string, unknown>;
     if (typeof item.startedAt !== "string" || typeof item.updatedAt !== "string" || !Array.isArray(item.items)) {
@@ -42,6 +42,8 @@ export function loadWorkout(): WorkoutDraft {
     return {
       workoutDate: typeof item.workoutDate === "string" ? item.workoutDate : taipeiDateKey(startedAt),
       startedAt: item.startedAt,
+      trainingStartedAt: typeof item.trainingStartedAt === "string" ? item.trainingStartedAt : null,
+      checkoutRequestId: typeof item.checkoutRequestId === "string" ? item.checkoutRequestId : undefined,
       updatedAt: item.updatedAt,
       items: item.items.filter(isItem),
     };
@@ -50,11 +52,11 @@ export function loadWorkout(): WorkoutDraft {
   }
 }
 
-export function saveWorkout(workout: WorkoutDraft): void {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...workout, updatedAt: new Date().toISOString() }));
+export function saveWorkout(workout: WorkoutDraft, owner: string): void {
+  localStorage.setItem(`${STORAGE_KEY}:${owner}`, JSON.stringify({ ...workout, updatedAt: new Date().toISOString() }));
 }
 
-export function clearWorkout(): WorkoutDraft {
-  localStorage.removeItem(STORAGE_KEY);
+export function clearWorkout(owner: string): WorkoutDraft {
+  localStorage.removeItem(`${STORAGE_KEY}:${owner}`);
   return emptyWorkout();
 }

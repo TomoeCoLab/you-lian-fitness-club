@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "dumbbell-row",
+    "name": "單臂啞鈴划船",
+    "bodyParts": [
+      "背",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "以單側支撐固定軀幹，將啞鈴拉向髖部。",
+    "instructions": [
+      "一手一膝支撐長椅，背部維持中立。",
+      "手肘貼近身體，將啞鈴拉向髖部。",
+      "肩膀不向前翻，控制啞鈴下降。"
+    ],
+    "cues": [
+      "腹部持續出力",
+      "不要聳肩",
+      "避免旋轉軀幹"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "選擇不需扭轉身體也能完成的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+      "watchUrl": "https://www.youtube.com/watch?v=r1loX83MWaw",
+      "title": "啞鈴划船完整教學",
+      "channel": "女力健身 Nuli App",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/126/single-arm-row/",
+    "sourceLabel": "ACE：長椅支撐單臂啞鈴划船"
+  },
+  "definition": {
+    "variation": "單臂啞鈴划船；本項起始設定：一手一膝支撐長椅，背部維持中立。",
+    "counting": "每組數字表示每側次數：左右各 10 次（合計 20 次單側動作）才算完成一組；不是左右合計 10 次。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/bent-over-row/vid-20084680",
+      "label": "Mayo Clinic 動作影片",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/126/single-arm-row/",
+      "label": "ACE：長椅支撐單臂啞鈴划船",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "同側手與膝在長椅支撐",
+        "對側持啞鈴、手肘沿身體後拉",
+        "不旋轉軀幹並控制放下"
+      ],
+      "note": "已核對三階段；動作時頭頸隨軀幹，不採轉頭看鏡子檢查姿勢的建議。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "8375fc2ac564b021d376a4d4307fcc598a73f73fc3d89c03c8d198978ca73169",
+      "findings": [
+        "已核對三階段；動作時頭頸隨軀幹，不採轉頭看鏡子檢查姿勢的建議。",
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "8375fc2ac564b021d376a4d4307fcc598a73f73fc3d89c03c8d198978ca73169",
+      "reviewedImageSha256": "59554dcdda896471b967d575b42f14670100ecde83c6e9ed867f89f3f28d3f7d",
+      "findings": [
+        "同側手膝支撐、另一手划向髖部，頸部自然、回程不扭腰；每側 10–12 次 3 組包含本站每側 10 次。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+      "check": {
+        "videoId": "r1loX83MWaw",
+        "seconds": [
+          95,
+          110,
+          115,
+          120
+        ],
+        "observation": "重新核對同側手膝扶長椅、另一手單啞鈴划船；110 秒示範肘沿身側拉向髖、115 秒回程。頻道目前名稱為女力健身 Nuli App。"
+      },
+      "findings": [
+        "重新核對同側手膝扶長椅、另一手單啞鈴划船；110 秒示範肘沿身側拉向髖、115 秒回程。頻道目前名稱為女力健身 Nuli App。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "8375fc2ac564b021d376a4d4307fcc598a73f73fc3d89c03c8d198978ca73169",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+            "watchUrl": "https://www.youtube.com/watch?v=r1loX83MWaw",
+            "title": "啞鈴划船完整教學",
+            "channel": "女子健心室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+            "check": {
+              "videoId": "r1loX83MWaw",
+              "seconds": [
+                8,
+                110
+              ],
+              "observation": "110 秒可見單手及單膝支撐長椅、另一手啞鈴向髖旁划動；不適用彈力帶划船。"
+            },
+            "findings": [
+              "110 秒可見單手及單膝支撐長椅、另一手啞鈴向髖旁划動；不適用彈力帶划船。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "610a38766b85b773d2dc960d6a506cb1ca964c8fa99b2bc05239dc671145ff26"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-row-zh-tw.png",
+    "sha256": "59554dcdda896471b967d575b42f14670100ecde83c6e9ed867f89f3f28d3f7d",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

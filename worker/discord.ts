@@ -34,6 +34,7 @@ export async function sendCheckinWebhook(env: Env, checkin: CheckinRecord): Prom
   }
 
   const response = await fetch(env.DISCORD_WEBHOOK_URL, {
+    signal: AbortSignal.timeout(10000),
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({

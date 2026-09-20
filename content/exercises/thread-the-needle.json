@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "thread-the-needle",
+    "name": "穿針引線式",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "四足跪姿旋轉上背，放鬆肩膀與胸椎周圍。",
+    "instructions": [
+      "從四足跪姿開始，一手掌心朝上滑過另一手下方。",
+      "讓肩膀與頭側輕放在墊子或枕頭上。",
+      "髖部保持大致在膝蓋上方，呼吸後換邊。",
+      "以未穿入的手掌輕推地，收回手臂回到四足跪姿，再換側。"
+    ],
+    "cues": [
+      "頭肩下方可加枕頭",
+      "不要將體重壓在頸部",
+      "兩側都做且不憋氣"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 30,
+      "restSeconds": 15,
+      "load": "每側 20–30 秒；肩頸舒適最重要"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=300&end=350",
+      "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg&t=300s",
+      "title": "睡前 10 分鐘全身伸展放鬆",
+      "channel": "啾c物理治療師",
+      "language": "中文"
+    },
+    "sourceUrl": "https://us.physitrack.com/home-exercise-video/%25e2%2580%259cthread-the-needle%25e2%2580%259d",
+    "sourceLabel": "Physitrack 穿針引線式"
+  },
+  "definition": {
+    "variation": "穿針引線式；本項起始設定：從四足跪姿開始，一手掌心朝上滑過另一手下方。",
+    "counting": "每組只保持一側 30 秒；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://sharedfiles.mayoclinic.org/bedside/ope/GNT-20421908.html",
+      "label": "Mayo Clinic Mindful Movements",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://us.physitrack.com/home-exercise-video/%25e2%2580%259cthread-the-needle%25e2%2580%259d",
+      "label": "Physitrack 穿針引線式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "四足跪姿、手臂穿過對側、肩頭隨軀幹旋轉及回程"
+      ],
+      "note": "只支持所列姿勢重點；本站預設份量非個人化處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "97443c78cf53550abb41d2bea3f66e5c608df48a500fb0a76a7828e0634c05bc",
+      "findings": [
+        "已對照動作專屬來源：四足跪姿、手臂穿過對側、肩頭隨軀幹旋轉及回程。",
+        "課表份量仍按能力調整，非醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "97443c78cf53550abb41d2bea3f66e5c608df48a500fb0a76a7828e0634c05bc",
+      "reviewedImageSha256": "e0bb91f5ef94c869eb7172dc5346b6c56ac2e0ec83eb5736369853f01c02c292",
+      "findings": [
+        "掌心朝上穿過對側手下，肩頭側輕靠墊、另一手支撐，回四足換側；每側 20–30 秒與左右各一組相容。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=300&end=350",
+      "check": {
+        "videoId": "vdIugUHKGWg",
+        "seconds": [
+          300,
+          330,
+          345
+        ],
+        "start": 300,
+        "end": 350,
+        "observation": "重新核對四足跪姿準備、單手穿過支撐手下方，肩側靠墊保持及換側；不必強壓肩膀觸地。"
+      },
+      "findings": [
+        "重新核對四足跪姿準備、單手穿過支撐手下方，肩側靠墊保持及換側；不必強壓肩膀觸地。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "97443c78cf53550abb41d2bea3f66e5c608df48a500fb0a76a7828e0634c05bc",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=300&end=350",
+            "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg&t=300s",
+            "title": "睡前 10 分鐘全身伸展放鬆",
+            "channel": "啾c物理治療師",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=300&end=350",
+            "check": {
+              "videoId": "vdIugUHKGWg",
+              "seconds": [
+                300,
+                330
+              ],
+              "start": 300,
+              "end": 350,
+              "observation": "可見四足支撐與手臂穿過身下的上背旋轉。原本 371 秒是貓牛式段落，已修正。"
+            },
+            "findings": [
+              "可見四足支撐與手臂穿過身下的上背旋轉。原本 371 秒是貓牛式段落，已修正。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "b61d2c63f869fdd381510aa96a405202fc077dfb44933ffac975106ff1ba2656"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-thread-the-needle-zh-tw.png",
+    "sha256": "e0bb91f5ef94c869eb7172dc5346b6c56ac2e0ec83eb5736369853f01c02c292",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

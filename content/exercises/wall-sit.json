@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "wall-sit",
+    "name": "靠牆深蹲停留",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "背靠牆維持半蹲，以等長方式訓練大腿與核心。",
+    "instructions": [
+      "背部靠穩牆面，雙腳向前移至能全腳掌踩穩、膝蓋舒適的位置，不固定為一個腳掌的距離。",
+      "沿牆下滑到膝蓋舒適的角度。",
+      "保持呼吸，時間到後慢慢站起。"
+    ],
+    "cues": [
+      "膝蓋順著腳尖",
+      "不用勉強蹲到九十度",
+      "膝蓋疼痛就停止"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 30,
+      "restSeconds": 45,
+      "load": "先從 20–30 秒開始，以無痛角度為準"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+      "title": "新手深蹲姿勢參考",
+      "channel": "May Fit",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.kingstonandrichmond.nhs.uk/patients-and-families/patient-leaflets/patellar-tendinopathy",
+    "sourceLabel": "Kingston and Richmond NHS：雙腳靠牆停留"
+  },
+  "definition": {
+    "variation": "靠牆深蹲停留；本項起始設定：背部靠穩牆面，雙腳向前移至能全腳掌踩穩、膝蓋舒適的位置，不固定為一個腳掌的距離。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 30 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=571&pid=9778&sid=9771",
+      "label": "衛生福利部國民健康署",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.kingstonandrichmond.nhs.uk/patients-and-families/patient-leaflets/patellar-tendinopathy",
+      "label": "Kingston and Richmond NHS：雙腳靠牆停留",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "背靠牆、雙腳往前",
+        "下滑至能控制的深度並保持"
+      ],
+      "note": "僅引用 Phase 2 的動作原理，不採治療進程、疼痛容許值或每日頻率。本站保持 30 秒 × 2 組為一般起始參考；疼痛即停止。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "ce302f700e3066956bd1c7d7522367df878c1eefa09667af73d53f18a65a043f",
+      "findings": [
+        "僅引用 Phase 2 的動作原理，不採治療進程、疼痛容許值或每日頻率。本站保持 30 秒 × 2 組為一般起始參考；疼痛即停止。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "ce302f700e3066956bd1c7d7522367df878c1eefa09667af73d53f18a65a043f",
+      "reviewedImageSha256": "3342e0c5962682c2809fed489616d892d7c1e3db96c77f487d5518dd30519a1a",
+      "findings": [
+        "三格確認背靠牆及全腳掌支撐、舒適深度保持、控制站回；移除強制九十度與額外組數。2 組 × 30 秒。",
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "210f0735d1bbbdf6f583bfd70411c32ed5fe2e9966a612998e681db7a60af79e"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-wall-sit-v2-zh-tw.png",
+    "sha256": "3342e0c5962682c2809fed489616d892d7c1e3db96c77f487d5518dd30519a1a",
+    "generatedFromContentHash": "ce302f700e3066956bd1c7d7522367df878c1eefa09667af73d53f18a65a043f",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側面全身，牆與背部接觸可见，膝蓋保持較淺舒適角度，不標固定九十度。",
+      "frames": [
+        {
+          "title": "靠牆站穩",
+          "pose": "Stand back against solid wall, both feet hip width stepped forward enough for stable flat foot support. Arms relaxed.",
+          "caption": "背靠穩牆面，雙腳向前踩穩。"
+        },
+        {
+          "title": "下滑保持",
+          "pose": "Slide back down wall into a SHALLOW half squat, hips above knees, knees flexed about 50 degrees, not 90. Back and butt contact wall, whole feet grounded, knees follow toes. Natural breathing.",
+          "caption": "停在可控制的深度，不必蹲到九十度。"
+        },
+        {
+          "title": "慢慢站回",
+          "pose": "Slide back up wall extending knees to comfortable standing position, do not push hands onto painful knees or jerk upward.",
+          "caption": "維持呼吸，時間到後慢慢站起。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-wall-sit-zh-tw.png",
+        "sha256": "bd94b8858be76e9b5b02b7aa1eb14de5ef8a762172f0fbaf05a82dee526efbd7",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "210f0735d1bbbdf6f583bfd70411c32ed5fe2e9966a612998e681db7a60af79e",
+          "reviewedImageSha256": "bd94b8858be76e9b5b02b7aa1eb14de5ef8a762172f0fbaf05a82dee526efbd7",
+          "findings": [
+            "圖把約 90 度稱為正確角度，與頁面不必蹲到 90 度矛盾；圖 3–4 組與頁面 2 組不同，需重製舒適角度與份量文字。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create ONE independent 4:3 photorealistic Traditional Chinese fitness instruction infographic using approved adult woman reference, consistent face/body/blue outfit/shoes. Light neutral studio, soft light, clear dark slate typography, natural gaze not directed to camera. No slogans or extra decorative diagrams. Exact supplied stages and captions. Add concise summary of cues, stated starting dose (including each side when relevant), natural breathing. No internal metadata. 內容版本：3\n來源文字 SHA-256：ce302f700e3066956bd1c7d7522367df878c1eefa09667af73d53f18a65a043f\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"靠牆深蹲停留\",\n  \"variation\": \"靠牆深蹲停留；本項起始設定：背部靠穩牆面，雙腳向前移至能全腳掌踩穩、膝蓋舒適的位置，不固定為一個腳掌的距離。\",\n  \"subtitle_zh\": \"腿、核心動作指引\",\n  \"intro_zh\": \"背靠牆維持半蹲，以等長方式訓練大腿與核心。\",\n  \"target_areas\": [\n    \"腿\",\n    \"核心\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定側面全身，牆與背部接觸可见，膝蓋保持較淺舒適角度，不標固定九十度。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"靠牆站穩\",\n      \"pose_description\": \"Stand back against solid wall, both feet hip width stepped forward enough for stable flat foot support. Arms relaxed.\",\n      \"coaching_note_zh\": \"背靠穩牆面，雙腳向前踩穩。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"下滑保持\",\n      \"pose_description\": \"Slide back down wall into a SHALLOW half squat, hips above knees, knees flexed about 50 degrees, not 90. Back and butt contact wall, whole feet grounded, knees follow toes. Natural breathing.\",\n      \"coaching_note_zh\": \"停在可控制的深度，不必蹲到九十度。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"慢慢站回\",\n      \"pose_description\": \"Slide back up wall extending knees to comfortable standing position, do not push hands onto painful knees or jerk upward.\",\n      \"coaching_note_zh\": \"維持呼吸，時間到後慢慢站起。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"膝蓋順著腳尖\",\n      \"不用勉強蹲到九十度\",\n      \"膝蓋疼痛就停止\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 30 秒\",\n      \"每組以實際維持或活動的秒數記錄，預設 30 秒；休息不計入。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

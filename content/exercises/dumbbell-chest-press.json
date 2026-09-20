@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "dumbbell-chest-press",
+    "name": "啞鈴胸推",
+    "bodyParts": [
+      "胸",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "水平推舉動作，主要訓練胸部並帶動肩與三頭肌。",
+    "instructions": [
+      "仰躺後讓前臂接近垂直地面。",
+      "將啞鈴平順推起，手肘接近伸直但不鎖死。",
+      "控制下降，手肘不要低於軀幹太多。"
+    ],
+    "cues": [
+      "頭與背穩定貼靠",
+      "手腕保持堆疊",
+      "全程控制下降速度"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "選擇能保留約 2 次餘力的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
+      "watchUrl": "https://www.youtube.com/watch?v=Am787GTLclY",
+      "title": "啞鈴仰臥推舉",
+      "channel": "東吳大學體育室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/19/chest-press/",
+    "sourceLabel": "ACE：平板啞鈴胸推"
+  },
+  "definition": {
+    "variation": "啞鈴胸推；本項起始設定：仰躺後讓前臂接近垂直地面。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/19/chest-press/",
+      "label": "ACE：平板啞鈴胸推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "仰躺長椅、頭肩臀支撐、雙脚踩地",
+        "中立手腕與控制推舉",
+        "不彈震、控制回程"
+      ],
+      "note": "已核對起始到收尾；本站不強求啞鈴碰胸，依肩膀可控幅度。需要時請保護者協助拿放重量。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "2a931cd4af67254be8fc2f2cbf5ada59bfa75edda3b7d71d2f4bc62faba3b525",
+      "findings": [
+        "已核對起始到收尾；本站不強求啞鈴碰胸，依肩膀可控幅度。需要時請保護者協助拿放重量。",
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "2a931cd4af67254be8fc2f2cbf5ada59bfa75edda3b7d71d2f4bc62faba3b525",
+      "reviewedImageSha256": "9bf42ccd56634257dd4e91e1f93db61c2941a814c0b75cfd45fb2429ce56931f",
+      "findings": [
+        "平椅仰躺雙啞鈴推舉，前臂接近垂直，下降不過度；8–12 次 3 組包含本站 10 次 3 組。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
+      "check": {
+        "videoId": "Am787GTLclY",
+        "seconds": [
+          26,
+          38,
+          41,
+          47
+        ],
+        "observation": "重新核對平板長椅、雙手各持一顆啞鈴，推起及下降胸側；非槓鈴或上斜版本。"
+      },
+      "findings": [
+        "重新核對平板長椅、雙手各持一顆啞鈴，推起及下降胸側；非槓鈴或上斜版本。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "2a931cd4af67254be8fc2f2cbf5ada59bfa75edda3b7d71d2f4bc62faba3b525",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
+            "watchUrl": "https://www.youtube.com/watch?v=Am787GTLclY",
+            "title": "啞鈴仰臥推舉",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Am787GTLclY",
+            "check": {
+              "videoId": "Am787GTLclY",
+              "seconds": [
+                8,
+                26,
+                38,
+                47
+              ],
+              "observation": "38 秒可見平板雙手持啞鈴推舉；不是槓鈴或上斜胸推。"
+            },
+            "findings": [
+              "38 秒可見平板雙手持啞鈴推舉；不是槓鈴或上斜胸推。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "9218fc7d42dcd3b3e19c3ff763dfc70b8238b510bb063277e008efea3adb615d"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-chest-press-zh-tw.png",
+    "sha256": "9bf42ccd56634257dd4e91e1f93db61c2941a814c0b75cfd45fb2429ce56931f",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

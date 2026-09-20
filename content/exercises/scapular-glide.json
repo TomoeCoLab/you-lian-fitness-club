@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "exercise": {
+    "id": "scapular-glide",
+    "name": "站姿肩胛前伸與後收",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "手臂抬在舒服高度，用肩胛的前後滑動練習上背控制。",
+    "instructions": [
+      "站穩，一手向前抬至舒服的高度，最高約肩高。",
+      "手肘保持伸直但不鎖死，手掌向前多送一點，讓肩胛滑向外側。",
+      "手臂輕輕回收，讓肩胛靠回胸廓，不用力夾背。",
+      "一組做 5 次，再換另一手。"
+    ],
+    "cues": [
+      "不是彎肘划船，也不靠扭腰或聳肩完成。",
+      "肩膀不適或疼痛時停止；沒有疼痛時可用較低抬手高度練習。"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "每組只做一側 5 次，共 2 組：第一組左側，第二組右側。疼痛時停止，不自動換動作繼續。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/OP8_zF0bh7M?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=OP8_zF0bh7M",
+      "title": "站姿肩胛控制示範",
+      "channel": "Peak Physio",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.peak-physio.com.au/exercise/serratus-anterior-open-chain/",
+    "sourceLabel": "Peak Physio 肩胛控制"
+  },
+  "definition": {
+    "variation": "站姿肩胛前伸與後收；本項起始設定：站穩，一手向前抬至舒服的高度，最高約肩高。",
+    "counting": "每組只做一側 5 次；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.peak-physio.com.au/exercise/serratus-anterior-open-chain/",
+      "label": "Peak Physio 肩胛控制",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "單臂抬起、肘伸直的肩胛前伸後收"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "c0c80f90a3ee5628781e51f9eb918e3b556e7412c9a36832aef2d3d3bcf3261e",
+      "findings": [
+        "已對照原始來源：單臂抬起、肘伸直的肩胛前伸後收。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "c0c80f90a3ee5628781e51f9eb918e3b556e7412c9a36832aef2d3d3bcf3261e",
+      "reviewedImageSha256": "7f93616e6964fbc1a5cbdd3da0aab74880f822fb85835d3290732fc6b4de53bf",
+      "findings": [
+        "圖為單臂前伸後收，並非舊影片紀錄所寫雙臂；每側 5 次各 1 組，與一組一側的澄清相符。肩胛位移仍屬示意。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/OP8_zF0bh7M?rel=0",
+      "check": {
+        "videoId": "OP8_zF0bh7M",
+        "seconds": [
+          2,
+          4,
+          8
+        ],
+        "observation": "既有抽查畫面為站姿單臂前伸；本次文字及圖片也確認為單臂版本，已修正舊紀錄誤寫的雙臂。仍只屬片段抽查，非完整播放核對。"
+      },
+      "findings": [
+        "既有抽查畫面為站姿單臂前伸；本次文字及圖片也確認為單臂版本，已修正舊紀錄誤寫的雙臂。仍只屬片段抽查，非完整播放核對。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "c0c80f90a3ee5628781e51f9eb918e3b556e7412c9a36832aef2d3d3bcf3261e"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-scapular-glide-zh-tw.png",
+    "sha256": "7f93616e6964fbc1a5cbdd3da0aab74880f822fb85835d3290732fc6b4de53bf",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 站姿肩胛前伸與後收. MOVEMENT PLAN: Single-arm openchain scapularprotractionretraction, serratus/rhomboidcontrol noelbowbend. SIDEthreequartercamera womanfacingright. 1 抬手準備 standingneutral one arm extendedforwardatshoulderheight elbowstraightnonlocked otherarmdown. 2 肩胛前伸 sameextendedarmreachesforward2cm shoulderbladeprotracts,ribcagequiet. 3 輕輕後收 samearmdrawsback2cm bladeback noelbowbend. 4 放鬆換側 lowerarmstartstanding. Key 手肘不彎，不扭腰／不聳肩、不用力夾背. Reps 每側5次，各1組. Breath 前伸吐氣，回收吸氣. Allframes singlearm notboth.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

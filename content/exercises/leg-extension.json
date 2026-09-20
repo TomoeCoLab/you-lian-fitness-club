@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "leg-extension",
+    "name": "腿屈伸",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "腿屈伸機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "以膝關節伸直動作訓練大腿前側。",
+    "instructions": [
+      "先依機台圖示設定座位與阻力；膝關節對齊旋轉軸，滾墊接觸小腿前側、腳踝上方。",
+      "握穩把手、坐穩軀幹，雙膝朝上，平順伸膝至接近伸直但不硬鎖。",
+      "控制屈膝回到起點，不用臀部彈起；結束時先讓活動臂停止再離開。"
+    ],
+    "cues": [
+      "座椅位置比重量更重要",
+      "不要用臀部彈起",
+      "出現疼痛或不適時先停止；不要在疼痛中縮小幅度硬做。"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "以可停住頂端、不需借力的重量開始"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
+      "watchUrl": "https://www.youtube.com/watch?v=-jYITOdsRKk",
+      "title": "大腿前側訓練機",
+      "channel": "東吳大學體育室",
+      "language": "中文",
+      "note": "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。"
+    },
+    "sourceUrl": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
+    "sourceLabel": "Life Fitness：Circuit Series 原廠操作手冊"
+  },
+  "definition": {
+    "variation": "腿屈伸；本項起始設定：膝關節對齊機器轉軸，腳墊落在腳踝上方。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
+      "label": "Life Fitness Circuit Series 操作手冊 PDF 第 2 頁",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "膝對旋轉軸、腿朝上、平順伸膝與回程"
+      ],
+      "note": "已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f6f82ad2eccebd8ae5fa674fdef358b05919050c77549d525527cb130f6dca9b",
+      "internalReviewedAt": "2026-09-20",
+      "findings": [
+        "已對照原廠手冊第 2 頁文字與圖示：膝對旋轉軸、腿朝上、平順伸膝與回程。",
+        "同名器械可能不同構造；現場設定仍需依原廠圖示。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f6f82ad2eccebd8ae5fa674fdef358b05919050c77549d525527cb130f6dca9b",
+      "reviewedImageSha256": "721147629fbef690d35d4614fd62accda831f897ea75e72a4f49570c89f52156",
+      "findings": [
+        "重新修正滾墊後，三格均在小腿前側近腳踝上方；槓桿連接與伸膝回程可辨，3 組 12 次相符。",
+        "原廠圖為機構參考，成圖為示意；座位與轉軸設定需依現場機型，非專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
+      "check": {
+        "videoId": "-jYITOdsRKk",
+        "seconds": [
+          8,
+          35,
+          41,
+          45
+        ],
+        "observation": "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。"
+      },
+      "findings": [
+        "重新核對坐姿腿伸展，滾墊位於小腿前側近踝、伸膝抬起與控制屈膝回程。影片與圖解機型不同，座椅／活動範圍調節依現場器材標示。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "f6f82ad2eccebd8ae5fa674fdef358b05919050c77549d525527cb130f6dca9b",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
+            "watchUrl": "https://www.youtube.com/watch?v=-jYITOdsRKk",
+            "title": "大腿前側訓練機",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/-jYITOdsRKk",
+            "check": {
+              "videoId": "-jYITOdsRKk",
+              "seconds": [
+                8,
+                41,
+                45
+              ],
+              "observation": "可見坐姿膝伸直與控制放下，滾墊位於小腿前方；先對準機台軸心。"
+            },
+            "findings": [
+              "可見坐姿膝伸直與控制放下，滾墊位於小腿前方；先對準機台軸心。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "dc17f6e134f453d6af860bcfcda14eba98495f656c39b7ff36f480bf70607ab0"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-leg-extension-v2-zh-tw.png",
+    "sha256": "721147629fbef690d35d4614fd62accda831f897ea75e72a4f49570c89f52156",
+    "generatedFromContentHash": "221b82a3173af85f0f02e8475ca9cb4dff4cafaf8c3e9a411bba7b255d1eb9c7",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側面略前三分之四，完整機架、支點、握把或滾墊都可見；依附加原廠手冊示例。",
+      "frames": [
+        {
+          "title": "坐穩準備",
+          "pose": "Seated on Circuit Series leg-extension machine matching reference geometry, thighs horizontal, knees bent, roller against FRONT of lower shins above ankle, feet behind roller.",
+          "caption": "膝對轉軸，滾墊貼小腿前側。"
+        },
+        {
+          "title": "平順伸膝",
+          "pose": "Same machine fixed side view. Extend knees to near straight, roller remains against FRONT lower shin, lever rotates around knee axis, feet rise. Connected frame and axle.",
+          "caption": "平順伸膝，不甩動、不硬鎖。"
+        },
+        {
+          "title": "控制回程",
+          "pose": "Return to starting bent knees, roller remains anterior not calf posterior, torso stable, same machine.",
+          "caption": "慢慢放回，坐姿保持穩定。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-leg-extension-zh-tw.png",
+        "sha256": "fec32d16d3ecd7d594e2ba8a326d17820abf17fe77119e5faf44e0ee79d7963c",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "dc17f6e134f453d6af860bcfcda14eba98495f656c39b7ff36f480bf70607ab0",
+          "reviewedImageSha256": "fec32d16d3ecd7d594e2ba8a326d17820abf17fe77119e5faf44e0ee79d7963c",
+          "findings": [
+            "不同格滾墊在小腿的位置變化不一致；需固定在腳踝上方的小腿前側並清楚畫出膝與軸心。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Generate independent photorealistic 4:3 Traditional Chinese exercise guide. First reference is approved adult woman identity/outfit. Second is MANUFACTURER EQUIPMENT REFERENCE ONLY: follow actual machine structure, linked pivots, pads and handles, but do not copy page text/layout/branding/logos. Show three stages on SAME machine from SAME camera. No imaginary weight stacks when reference has none. No slogans, no muscle icons, natural gaze. Concise text. Add small disclaimer 器械示例，設定依現場機型. Do not print hash metadata.\n內容版本：3\n來源文字 SHA-256：221b82a3173af85f0f02e8475ca9cb4dff4cafaf8c3e9a411bba7b255d1eb9c7\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"腿屈伸\",\n  \"variation\": \"腿屈伸；本項起始設定：膝關節對齊機器轉軸，腳墊落在腳踝上方。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。\",\n  \"subtitle_zh\": \"腿動作指引\",\n  \"intro_zh\": \"以膝關節伸直動作訓練大腿前側。\",\n  \"target_areas\": [\n    \"腿\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定側面略前三分之四，完整機架、支點、握把或滾墊都可見；依附加原廠手冊示例。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"坐穩準備\",\n      \"pose_description\": \"Seated on Circuit Series leg-extension machine matching reference geometry, thighs horizontal, knees bent, roller against FRONT of lower shins above ankle, feet behind roller.\",\n      \"coaching_note_zh\": \"膝對轉軸，滾墊貼小腿前側。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"平順伸膝\",\n      \"pose_description\": \"Same machine fixed side view. Extend knees to near straight, roller remains against FRONT lower shin, lever rotates around knee axis, feet rise. Connected frame and axle.\",\n      \"coaching_note_zh\": \"平順伸膝，不甩動、不硬鎖。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"控制回程\",\n      \"pose_description\": \"Return to starting bent knees, roller remains anterior not calf posterior, torso stable, same machine.\",\n      \"coaching_note_zh\": \"慢慢放回，坐姿保持穩定。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"座椅位置比重量更重要\",\n      \"不要用臀部彈起\",\n      \"出現疼痛或不適時先停止；不要在疼痛中縮小幅度硬做。\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 12 次\",\n      \"一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n",
+      "editPrompt": "Edit ONLY the moving shin roller in image 1. It must contact the LOWER FRONT SHINS just ABOVE BOTH ANKLES in all 3 panels. In the extended-knee middle panel the feet are forward to LEFT; move the blue padded roller LEFTWARD toward the shoes so it rests across distal shins 5–8 cm above the shoes, NOT at upper shin/knee. Keep the pivot coaxial with knee and draw the lever connected from knee-height pivot to the distal roller. Same roller placement relative to ankles in bent starting and ending poses. Keep same woman identity, clothes, all Chinese text and 3-panel layout, same foot positions, 3 sets 12. Do not put roller behind calf, that would be leg curl. Preserve everything else.",
+      "inputImage": "C:\\Users\\tomoe\\.codex\\generated_images\\01a06b63-8898-70b0-8caa-a34efc8ab891\\exec-e27cb7ec-9a9d-4f0b-9a51-d87588e1556f.png"
+    }
+  }
+}

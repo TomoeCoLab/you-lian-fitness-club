@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "smith-squat",
+    "name": "史密斯深蹲",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "史密斯機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "利用導軌與安全鉤，練習穩定的負重深蹲。",
+    "instructions": [
+      "調整安全限位，槓置於上背而非頸部。",
+      "雙腳略在槓前方，旋轉解開安全鉤。",
+      "控制下蹲後踩地起身，再確實掛回。"
+    ],
+    "cues": [
+      "開始前先試掛鉤",
+      "膝蓋順著腳尖",
+      "不要在底部放鬆"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "先用空機確認槓重與腳位"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90",
+      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs&t=64s",
+      "title": "下半身器械：史密斯機",
+      "channel": "May Fit",
+      "language": "中文",
+      "note": "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。"
+    },
+    "sourceUrl": "https://fitnessinstitute.com.au/back-squat-2/",
+    "sourceLabel": "Fitness Institute：史密斯深蹲"
+  },
+  "definition": {
+    "variation": "史密斯深蹲；本項起始設定：調整安全限位，槓置於上背而非頸部。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://fitnessinstitute.com.au/back-squat-2/",
+      "label": "Fitness Institute：史密斯深蹲",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "上背承槓、導軌下蹲與起身"
+      ],
+      "note": "已讀動作正文；不採用來源『膝蓋不得超過腳尖』的絕對限制。腳位、解掛鉤方向、安全限位仍依現場機台，非跨型號通則。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "8b5725120543bbcccdc8d18fa69f36dda07f33f90061f8f04d19f61c241ec3cc",
+      "findings": [
+        "已讀動作正文；不採用來源『膝蓋不得超過腳尖』的絕對限制。腳位、解掛鉤方向、安全限位仍依現場機台，非跨型號通則。",
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "8b5725120543bbcccdc8d18fa69f36dda07f33f90061f8f04d19f61c241ec3cc",
+      "reviewedImageSha256": "3a5d5e25c0cb5de360e85b5d49344971ca3819c94f28d4b7b3dbdff9a4064c67",
+      "findings": [
+        "軌道內上背負槓、解鉤、蹲下與掛回順序可見；8–12 次 3 組包含本站 10 次 3 組。安全限位仍需現場依機型設定。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=90",
+      "check": {
+        "videoId": "H14HliH4Mfs",
+        "seconds": [
+          64,
+          75,
+          85,
+          95
+        ],
+        "start": 64,
+        "end": 90,
+        "observation": "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。"
+      },
+      "findings": [
+        "已重新核對導軌槓上背深蹲；95 秒已進入寬站變化，因此縮短內嵌至 64–90 秒，避免混用站距。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "8b5725120543bbcccdc8d18fa69f36dda07f33f90061f8f04d19f61c241ec3cc",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=96",
+            "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs&t=64s",
+            "title": "下半身器械：史密斯機",
+            "channel": "May Fit",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs?start=64&end=96",
+            "check": {
+              "videoId": "H14HliH4Mfs",
+              "seconds": [
+                75,
+                80,
+                100
+              ],
+              "start": 64,
+              "end": 96,
+              "observation": "內嵌限史密斯深蹲示範片段，可見導軌槓鈴與下蹲。原片後續其他器械不屬於本項，深度依個人可控制範圍。"
+            },
+            "findings": [
+              "內嵌限史密斯深蹲示範片段，可見導軌槓鈴與下蹲。原片後續其他器械不屬於本項，深度依個人可控制範圍。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "3be2714267a4660d7566bdfde23acaf7abd07509f73539e2c94078fa5bbb5e5f"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-smith-squat-zh-tw.png",
+    "sha256": "3a5d5e25c0cb5de360e85b5d49344971ca3819c94f28d4b7b3dbdff9a4064c67",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

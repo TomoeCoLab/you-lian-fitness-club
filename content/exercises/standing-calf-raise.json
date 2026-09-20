@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "standing-calf-raise",
+    "name": "站姿提踵",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "小腿訓練機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "以腳踝蹠屈抬起腳跟，訓練小腿後側。",
+    "instructions": [
+      "先依機台說明調整肩墊；前腳掌踩穩踏塊，腳跟露出踏塊邊緣，握住把手。",
+      "腳跟平順下降到舒適伸展。",
+      "以前腳掌推起腳跟，頂端短暫停留。",
+      "控制回到起始高度；完成一組後依機台說明卸載，再離開肩墊，不帶負重跨下踏塊。"
+    ],
+    "cues": [
+      "膝蓋不要鎖死",
+      "腳踝正直不內外翻",
+      "全程控制而非彈跳"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 15,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "能完整下降與停住頂端的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+      "title": "下肢器械使用參考",
+      "channel": "May Fit",
+      "language": "中文"
+    },
+    "sourceUrl": "https://ifafitness.com/wttrain/calfraise.htm",
+    "sourceLabel": "IFA：肩墊式站姿提踵機"
+  },
+  "definition": {
+    "variation": "站姿提踵；本項起始設定：前腳掌踩穩踏板，肩墊高度調整合適。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 15 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670",
+      "label": "Mayo Clinic 肌力訓練原則",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://ifafitness.com/wttrain/calfraise.htm",
+      "label": "IFA：肩墊式站姿提踵機",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "肩墊高度、前腳掌踩踏塊",
+        "腳跟控制下降、抬起與回程"
+      ],
+      "note": "已讀機械段落，採腳尖朝前版本；不採用任意內外轉 45 度或膝過伸。無特定品牌操作機構的支持，解鎖方式依現場說明。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "005fe2fbc1e59837ae05c2b67f11a922c8bcf2e388bfe7b223612fcd057ca9fb",
+      "findings": [
+        "已讀機械段落，採腳尖朝前版本；不採用任意內外轉 45 度或膝過伸。無特定品牌操作機構的支持，解鎖方式依現場說明。",
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "005fe2fbc1e59837ae05c2b67f11a922c8bcf2e388bfe7b223612fcd057ca9fb",
+      "reviewedImageSha256": "4343e16d746ac06e01f2569297fa0ee541f8a657a8ab8241b49adbc4a06cb008",
+      "findings": [
+        "已改為前腳掌踩踏塊、腳跟懸出後緣，下放與提起均有活動空間；3 組 15 次及卸載後離機提示一致。",
+        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "7de8cac9e4899be02f2a031da1341b38a40d9d65df99004ed9f325800a40c40b"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-standing-calf-raise-v2-zh-tw.png",
+    "sha256": "4343e16d746ac06e01f2569297fa0ee541f8a657a8ab8241b49adbc4a06cb008",
+    "generatedFromContentHash": "005fe2fbc1e59837ae05c2b67f11a922c8bcf2e388bfe7b223612fcd057ca9fb",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面，肩墊與前腳掌支撐接觸清楚；縮短踏塊深度使腳跟始終位於後緣外。",
+      "frames": [
+        {
+          "title": "踩穩踏塊",
+          "pose": "Shoulder-pad standing calf machine, both forefeet securely on elevated block, both heels project PAST REAR EDGE into clear air, hands grip handles, knees soft and stable.",
+          "caption": "依機型調整肩墊，前腳掌踩穩。"
+        },
+        {
+          "title": "控制下降",
+          "pose": "Same forefoot point on rear edge, heels lower in empty air below block upper surface, heels never on solid block, spine neutral.",
+          "caption": "腳跟降到舒適伸展，不彈震。"
+        },
+        {
+          "title": "平順提踵",
+          "pose": "Same feet locations, plantarflex ankles lifting heels high, forefeet stay supported, no toe-only balance, shoulder pad rises with shoulders.",
+          "caption": "抬起腳跟，腳踝不內外翻。"
+        },
+        {
+          "title": "緩慢回程",
+          "pose": "Return heel to start height, clear air under heels and behind block rear edge, no stepping off loaded machine.",
+          "caption": "控制放回；依機型卸載後再離開。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-standing-calf-raise-zh-tw.png",
+        "sha256": "7e0e9c427ee7b55f065f92fc50a19f988b1037d8133b11fd63192e0bb7005765",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "7de8cac9e4899be02f2a031da1341b38a40d9d65df99004ed9f325800a40c40b",
+          "reviewedImageSha256": "7e0e9c427ee7b55f065f92fc50a19f988b1037d8133b11fd63192e0bb7005765",
+          "findings": [
+            "圖示腳跟在完整踏板上，卻指示向下伸展，未清楚呈現前掌支撐、腳跟可活動的邊緣；需補支撐面細節，不鼓勵追求最高點。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖-男.png",
+        "sha256": "2000c9cb93e4117acc03549e42c6e1519f00b812c9e26e5640f69316ea1889d8"
+      },
+      "prompt": "Edit image 1. Preserve adult male identity and shoulder-pad machine style. Shorten raised footblock depth so both heels overhang rear edge in EVERY panel, only balls of feet supported, heels descend in clear air BEHIND footblock. Do NOT draw whole foot atop block. Strict side view so support unmistakeable. Update text to exact plan: 內容版本：4\n來源文字 SHA-256：005fe2fbc1e59837ae05c2b67f11a922c8bcf2e388bfe7b223612fcd057ca9fb\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"站姿提踵\",\n  \"variation\": \"站姿提踵；本項起始設定：前腳掌踩穩踏板，肩墊高度調整合適。\",\n  \"subtitle_zh\": \"腿動作指引\",\n  \"intro_zh\": \"以腳踝蹠屈抬起腳跟，訓練小腿後側。\",\n  \"target_areas\": [\n    \"腿\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定正側面，肩墊與前腳掌支撐接觸清楚；縮短踏塊深度使腳跟始終位於後緣外。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"踩穩踏塊\",\n      \"pose_description\": \"Shoulder-pad standing calf machine, both forefeet securely on elevated block, both heels project PAST REAR EDGE into clear air, hands grip handles, knees soft and stable.\",\n      \"coaching_note_zh\": \"依機型調整肩墊，前腳掌踩穩。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"控制下降\",\n      \"pose_description\": \"Same forefoot point on rear edge, heels lower in empty air below block upper surface, heels never on solid block, spine neutral.\",\n      \"coaching_note_zh\": \"腳跟降到舒適伸展，不彈震。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"平順提踵\",\n      \"pose_description\": \"Same feet locations, plantarflex ankles lifting heels high, forefeet stay supported, no toe-only balance, shoulder pad rises with shoulders.\",\n      \"coaching_note_zh\": \"抬起腳跟，腳踝不內外翻。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"緩慢回程\",\n      \"pose_description\": \"Return heel to start height, clear air under heels and behind block rear edge, no stepping off loaded machine.\",\n      \"coaching_note_zh\": \"控制放回；依機型卸載後再離開。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"膝蓋不要鎖死\",\n      \"腳踝正直不內外翻\",\n      \"全程控制而非彈跳\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 15 次\",\n      \"一次完整動作加回程算 1 次，預設每組 15 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n",
+      "inputImage": "C:/Users/tomoe/Documents/ChatGPT/健身打卡網站/public/exercise-guides/skill-final/fitness-standing-calf-raise-zh-tw.png"
+    }
+  }
+}

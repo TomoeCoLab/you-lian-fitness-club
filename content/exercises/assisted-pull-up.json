@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "assisted-pull-up",
+    "name": "輔助引體向上",
+    "bodyParts": [
+      "背",
+      "手臂"
+    ],
+    "equipment": "輔助引體機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "使用配重輔助完成垂直拉，逐步建立引體向上力量。",
+    "instructions": [
+      "先請現場人員示範該機型的上下機方式；確認輔助重量與固定踏階，不把活動膝墊當固定踏板。",
+      "使用固定踏階並握穩把手，再依機台圖示將雙膝放上活動膝墊；不可跳上或跳下。",
+      "軀幹保持穩定，屈肘將身體向上拉至可控制的高度，再緩慢下放。",
+      "結束時保持握穩及支撐，按該機型規範回到固定踏階後再離開；不可先鬆手站在移動墊上。不熟悉時請現場人員協助。"
+    ],
+    "cues": [
+      "輔助重量越大越容易",
+      "避免身體擺盪",
+      "先確認墊板移動路徑",
+      "機台可能採跪墊或踏板，不互套上下機步驟。"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "選擇可穩定完成 6–8 次的輔助重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
+      "watchUrl": "https://www.youtube.com/watch?v=0KULvdo7T0c",
+      "title": "垂直下拉路徑參考",
+      "channel": "東吳大學體育室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://fitnessinstitute.com.au/chin-ups-pin-loaded-assisted/",
+    "sourceLabel": "Fitness Institute：跪墊式輔助引體向上"
+  },
+  "definition": {
+    "variation": "跪墊式輔助引體向上：雙膝支撐於活動墊；上下機踏固定踏階，不用活動墊當站板。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 8 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://fitnessinstitute.com.au/chin-ups-pin-loaded-assisted/",
+      "label": "Fitness Institute 輔助引體向上",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "配重輔助原理",
+        "固定踏階、握把與膝墊的上機順序",
+        "受控垂直拉"
+      ],
+      "note": "未提供完整下機指引；不同機型的墊板高度及退出順序不可互套，須以現場機型手冊或教練示範為準。文字仍保留待核對。"
+    },
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://fitnessinstitute.com.au/chin-ups-pin-loaded-assisted/",
+      "label": "Fitness Institute：跪墊式輔助引體向上",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "使用固定踏階與雙膝活動墊",
+        "輔助配重越重越省力、屈肘上拉與控制下放"
+      ],
+      "note": "已讀 Life Fitness Assisted Dip/Chin 雙膝墊教學；離機安全必須按現場說明，不適用活動站板式機台。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "77dceea4a746785b90ac8e1941d5a22faf2a9f2c15d0dcaee007dde86fcd58fc",
+      "findings": [
+        "已讀 Life Fitness Assisted Dip/Chin 雙膝墊教學；離機安全必須按現場說明，不適用活動站板式機台。",
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "77dceea4a746785b90ac8e1941d5a22faf2a9f2c15d0dcaee007dde86fcd58fc",
+      "reviewedImageSha256": "385c04b2a569bb7dafe8aec2fd45ea5ac2c39a451fbf05e03cb91d3b2b4adba0",
+      "findings": [
+        "固定踏階、雙膝支撐與移動膝墊分開；上拉時人體和膝墊同步升高，回程一致，3 組 8 次相符。",
+        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "舊影片動作不相符，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "ab7bf7d11c983b4751efa256b44da598a45f7286f88c63a6baebf92747cbe960"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-assisted-pull-up-v2-zh-tw.png",
+    "sha256": "385c04b2a569bb7dafe8aec2fd45ea5ac2c39a451fbf05e03cb91d3b2b4adba0",
+    "generatedFromContentHash": "77dceea4a746785b90ac8e1941d5a22faf2a9f2c15d0dcaee007dde86fcd58fc",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側前三分之四，全景顯示 Life Fitness 跪墊輔助引體示例；同一方向三格，固定踏階與活動膝墊可區分。",
+      "frames": [
+        {
+          "title": "握穩支撐",
+          "pose": "Adult woman already positioned BOTH KNEES on assisted pullup moving knee pad, hands overhand slightly wide on upper handles, arms near straight, feet behind knees. Tall assisted pullup machine with fixed steps on either side of frame clearly separate from moving knee pad. Follow photo reference apparatus type, no standing on knee pad.",
+          "caption": "用固定踏階上機，握穩後雙膝上墊。"
+        },
+        {
+          "title": "平順上拉",
+          "pose": "Same camera machine, bend elbows pulling body upward to comfortable height, knee pad moves UP with knees, hands fixed high handles, feet behind knees. Torso no swinging.",
+          "caption": "屈肘上拉，身體與膝墊一起上移。"
+        },
+        {
+          "title": "控制回程",
+          "pose": "Same machine and viewpoint return knees-on-pad to lower start position arms near straight, BOTH hands still grip top handles. Do NOT depict dismount or release grip.",
+          "caption": "控制下放；離機依現場規範，先維持握穩。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-assisted-pull-up-zh-tw.png",
+        "sha256": "23c03ecf1229de321a85c2526f7b8ad621a213fe274358ab58a4b8cad731dbda",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "blocked",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "ab7bf7d11c983b4751efa256b44da598a45f7286f88c63a6baebf92747cbe960",
+          "reviewedImageSha256": "23c03ecf1229de321a85c2526f7b8ad621a213fe274358ab58a4b8cad731dbda",
+          "findings": [
+            "第四格文字要求先放開手再離開膝墊，可能使人在移動支撐上失去控制；安全下機順序必須按機型規範重寫並重製。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "內容版本：4\n來源文字 SHA-256：77dceea4a746785b90ac8e1941d5a22faf2a9f2c15d0dcaee007dde86fcd58fc\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"輔助引體向上\",\n  \"variation\": \"跪墊式輔助引體向上：雙膝支撐於活動墊；上下機踏固定踏階，不用活動墊當站板。\",\n  \"subtitle_zh\": \"背、手臂動作指引\",\n  \"intro_zh\": \"使用配重輔助完成垂直拉，逐步建立引體向上力量。\",\n  \"target_areas\": [\n    \"背\",\n    \"手臂\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定側前三分之四，全景顯示 Life Fitness 跪墊輔助引體示例；同一方向三格，固定踏階與活動膝墊可區分。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"握穩支撐\",\n      \"pose_description\": \"Adult woman already positioned BOTH KNEES on assisted pullup moving knee pad, hands overhand slightly wide on upper handles, arms near straight, feet behind knees. Tall assisted pullup machine with fixed steps on either side of frame clearly separate from moving knee pad. Follow photo reference apparatus type, no standing on knee pad.\",\n      \"coaching_note_zh\": \"用固定踏階上機，握穩後雙膝上墊。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"平順上拉\",\n      \"pose_description\": \"Same camera machine, bend elbows pulling body upward to comfortable height, knee pad moves UP with knees, hands fixed high handles, feet behind knees. Torso no swinging.\",\n      \"coaching_note_zh\": \"屈肘上拉，身體與膝墊一起上移。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"控制回程\",\n      \"pose_description\": \"Same machine and viewpoint return knees-on-pad to lower start position arms near straight, BOTH hands still grip top handles. Do NOT depict dismount or release grip.\",\n      \"coaching_note_zh\": \"控制下放；離機依現場規範，先維持握穩。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"輔助重量越大越容易\",\n      \"避免身體擺盪\",\n      \"先確認墊板移動路徑\",\n      \"機台可能採跪墊或踏板，不互套上下機步驟。\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 8 次\",\n      \"一次完整動作加回程算 1 次，預設每組 8 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n\nImage A is adult character reference. Keep natural gaze, no slogans or machine logos. Any additional image is ONLY apparatus structure reference, not character reference. The machine is same orientation and mechanically connected across panels.",
+      "inputImages": [
+        "C:/Users/tomoe/Downloads/健身示範角色三視圖.png",
+        "C:/Users/tomoe/AppData/Local/Temp/you-lian-source-audit/assisted-pullup-reference.jpg"
+      ]
+    }
+  }
+}

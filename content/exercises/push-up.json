@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "push-up",
+    "name": "伏地挺身",
+    "bodyParts": [
+      "胸",
+      "肩",
+      "手臂",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "用身體作為負重的水平推動作，兼顧軀幹穩定。",
+    "instructions": [
+      "雙手約肩寬，肩膀位於手掌上方。",
+      "腹部、臀部與腿部收緊，身體維持一直線。",
+      "胸口靠近地面後推回，過程中不要塌腰。"
+    ],
+    "cues": [
+      "頭到腳跟維持一直線",
+      "先做斜板或跪姿也可以",
+      "每一下保持相同活動範圍"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 75,
+      "load": "保留約 2 次餘力；需要時提高支撐面"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/WDIpL0pjun0",
+      "watchUrl": "https://www.youtube.com/watch?v=WDIpL0pjun0",
+      "title": "地板伏地挺身",
+      "channel": "NASM",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/push-up",
+    "sourceLabel": "NASM 伏地挺身"
+  },
+  "definition": {
+    "variation": "標準地面伏地挺身，以雙手與腳尖支撐；非跪姿或上斜版。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 8 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/push-up",
+      "label": "NASM 伏地挺身",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "身體成線及上臂與軀幹方向"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186",
+      "findings": [
+        "已對照原始來源：身體成線及上臂與軀幹方向。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186",
+      "reviewedImageSha256": "19b9f258e456465b3186771994ad8f08aa17faa2f326905ed6f8f73fcccf4a2a",
+      "findings": [
+        "已查看四格：雙手與腳尖支撐、胸與骨盆同步下放及推回；視線朝地面，無原圖錯誤肘角標記；3 組 × 8 次與文字一致。",
+        "人工檢視可見畫面及文字，不代表醫療或生物力學認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/WDIpL0pjun0",
+      "check": {
+        "videoId": "WDIpL0pjun0",
+        "seconds": [
+          5,
+          10
+        ],
+        "observation": "可見地板雙手、腳尖支撐，屈肘下放與推回高位；選用單一動作短片，避免把其他退階說明當成同一版本。"
+      },
+      "findings": [
+        "可見地板雙手、腳尖支撐，屈肘下放與推回高位；選用單一動作短片，避免把其他退階說明當成同一版本。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-push-up-v2-zh-tw.png",
+    "sha256": "19b9f258e456465b3186771994ad8f08aa17faa2f326905ed6f8f73fcccf4a2a",
+    "generatedFromContentHash": "705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定略高的三分之四側面；手腳支撐、頭到腳跟的直線與上臂方向都可見。",
+      "frames": [
+        {
+          "title": "建立支撐",
+          "pose": "Hands just wider than shoulders on floor, toes on floor, arms extended without hyperextension, trunk pelvis legs aligned, neck neutral with gaze along head toward floor. No direct camera gaze.",
+          "caption": "雙手略比肩寬，頭到腳跟成一直線。"
+        },
+        {
+          "title": "控制下放",
+          "pose": "Bend elbows backward, upper arms approximately 45 degrees relative to torso in transverse plane, NOT 45 degree elbow flexion. Chest approaches floor as one aligned unit. Keep full stable support visible.",
+          "caption": "上臂斜向身後，胸與骨盆同步下放。"
+        },
+        {
+          "title": "舒適低點",
+          "pose": "Lowest comfortable controlled position, chest near floor without collapse, forearms roughly vertical, elbows flexed, head neutral. Do not force depth or depict 45 degrees as elbow bend.",
+          "caption": "停在能控制的深度，不塌腰、不抬頭。"
+        },
+        {
+          "title": "推回起始",
+          "pose": "Press through palms, elbows extend, chest pelvis and legs rise together, returning to the identical starting position without shoulder shrug or excessive elbow extension.",
+          "caption": "推回起始，維持全身穩定。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-push-up-zh-tw.png",
+        "sha256": "468f352336e483cedeeca2ec81c47247ac33f3e3d2cc8a1934bdecd52ea9341b",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186",
+          "reviewedImageSha256": "468f352336e483cedeeca2ec81c47247ac33f3e3d2cc8a1934bdecd52ea9341b",
+          "findings": [
+            "圖中持續抬頭看前方，與自然頸位不一致；30–45 度被寫成屈肘角度，應明確是上臂與軀幹的方向示意。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create one finished independent 4:3 photorealistic Traditional Chinese fitness infographic. Input image is the approved adult character identity and outfit reference only. Match her identity, blue activewear, bob haircut and white shoes consistently. Light neutral studio, soft light, dark slate text. No slogans, logos, decorative quotes, or extra exercises. Natural gaze follows neutral head position, not camera. Exact frame plan below. Keep text concise: numbered titles, given captions, key cues, starting dose and natural breathing. Do not print internal hashes or metadata. Correct poses take priority over aesthetics.\n內容版本：2\n來源文字 SHA-256：705d1e5e16bbbbcc2c1e7cecb838d622152c05e10e776aea4313ac5334f4d186\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"伏地挺身\",\n  \"variation\": \"標準地面伏地挺身，以雙手與腳尖支撐；非跪姿或上斜版。\",\n  \"subtitle_zh\": \"胸、肩、手臂、核心動作指引\",\n  \"intro_zh\": \"用身體作為負重的水平推動作，兼顧軀幹穩定。\",\n  \"target_areas\": [\n    \"胸\",\n    \"肩\",\n    \"手臂\",\n    \"核心\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定略高的三分之四側面；手腳支撐、頭到腳跟的直線與上臂方向都可見。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"建立支撐\",\n      \"pose_description\": \"Hands just wider than shoulders on floor, toes on floor, arms extended without hyperextension, trunk pelvis legs aligned, neck neutral with gaze along head toward floor. No direct camera gaze.\",\n      \"coaching_note_zh\": \"雙手略比肩寬，頭到腳跟成一直線。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"控制下放\",\n      \"pose_description\": \"Bend elbows backward, upper arms approximately 45 degrees relative to torso in transverse plane, NOT 45 degree elbow flexion. Chest approaches floor as one aligned unit. Keep full stable support visible.\",\n      \"coaching_note_zh\": \"上臂斜向身後，胸與骨盆同步下放。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"舒適低點\",\n      \"pose_description\": \"Lowest comfortable controlled position, chest near floor without collapse, forearms roughly vertical, elbows flexed, head neutral. Do not force depth or depict 45 degrees as elbow bend.\",\n      \"coaching_note_zh\": \"停在能控制的深度，不塌腰、不抬頭。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"推回起始\",\n      \"pose_description\": \"Press through palms, elbows extend, chest pelvis and legs rise together, returning to the identical starting position without shoulder shrug or excessive elbow extension.\",\n      \"coaching_note_zh\": \"推回起始，維持全身穩定。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"頭到腳跟維持一直線\",\n      \"先做斜板或跪姿也可以\",\n      \"每一下保持相同活動範圍\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 8 次\",\n      \"一次完整動作加回程算 1 次，預設每組 8 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

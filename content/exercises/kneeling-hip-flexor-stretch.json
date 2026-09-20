@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "kneeling-hip-flexor-stretch",
+    "name": "跪姿髖屈肌伸展",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "以半跪姿伸展髖部前側，適合久坐後溫和放鬆。",
+    "instructions": [
+      "單膝跪地、另一腳踩在前方，必要時扶牆。",
+      "骨盆保持正面並輕收臀部。",
+      "身體整體微向前，直到後側髖前方有溫和拉感。",
+      "慢慢退回起點，扶穩後換邊；膝墊只減少接觸壓力，若膝關節疼痛就停止。"
+    ],
+    "cues": [
+      "膝下墊毛巾",
+      "不要用拱腰換取幅度",
+      "兩側各停留一次"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 30,
+      "restSeconds": 15,
+      "load": "每側 20–30 秒；維持可呼吸、無痛的拉感"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg",
+      "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg",
+      "title": "睡前 10 分鐘全身伸展放鬆",
+      "channel": "啾c物理治療師",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/142/kneeling-hip-flexor-stretch/",
+    "sourceLabel": "ACE 半跪髖屈肌伸展"
+  },
+  "definition": {
+    "variation": "跪姿髖屈肌伸展；本項起始設定：單膝跪地、另一腳踩在前方，必要時扶牆。",
+    "counting": "每組只保持一側 30 秒；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=825&pid=14211",
+      "label": "衛生福利部國民健康署",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/142/kneeling-hip-flexor-stretch/",
+      "label": "ACE 半跪髖屈肌伸展",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "半跪排列、骨盆穩定及後側臀部輕收"
+      ],
+      "note": "只支持所列姿勢重點；本站預設份量非個人化處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "9bc885bcd03e3de12d3c1909310e806195cfee726a68a67760ec5e3a0af026fa",
+      "findings": [
+        "已對照動作專屬來源：半跪排列、骨盆穩定及後側臀部輕收。",
+        "課表份量仍按能力調整，非醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "9bc885bcd03e3de12d3c1909310e806195cfee726a68a67760ec5e3a0af026fa",
+      "reviewedImageSha256": "8ff46451e49f32caea86dd9ae11883c14f90ff8bd05a6b55a1a9766df2e5d30e",
+      "findings": [
+        "重新檢視四格：半跪、骨盆穩定小幅前移、保持與退回；每側 30 秒合共兩組一致。已區分墊子減少接觸壓力與關節疼痛需停止。",
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "600b793d9992fd1e861f912ed0cba0d0119185106c1690fae3e4db0180279d65"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-kneeling-hip-flexor-stretch-v2-zh-tw.png",
+    "sha256": "8ff46451e49f32caea86dd9ae11883c14f90ff8bd05a6b55a1a9766df2e5d30e",
+    "generatedFromContentHash": "9bc885bcd03e3de12d3c1909310e806195cfee726a68a67760ec5e3a0af026fa",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面，全身及後膝軟墊可見；保留既有核准男性角色。",
+      "frames": [
+        {
+          "title": "半跪姿",
+          "pose": "Rear knee rests on padded floor beneath hip; front foot flat, front knee over ankle, torso upright.",
+          "caption": "前腳踩穩、後膝下可墊軟墊。"
+        },
+        {
+          "title": "穩定骨盆",
+          "pose": "Gently posteriorly tilt pelvis, squeeze rear-side glute without lumbar extension, hands light on front thigh.",
+          "caption": "輕收臀部，不用拱腰增加幅度。"
+        },
+        {
+          "title": "小幅前移",
+          "pose": "Move pelvis and torso slightly forward with same tall trunk, no excessive knee bend.",
+          "caption": "感到後側髖前方溫和拉伸即可。"
+        },
+        {
+          "title": "退回换側",
+          "pose": "Return pelvis to initial half kneel before changing sides; do not pretend this identical side is the opposite leg.",
+          "caption": "緩慢退回，再扶穩換側。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-kneeling-hip-flexor-stretch-zh-tw.png",
+        "sha256": "8bc2b5c2f4331c01273964c94dfb5b5c46fca71d9d9c889858b2fcc1a2df92b2",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "600b793d9992fd1e861f912ed0cba0d0119185106c1690fae3e4db0180279d65",
+          "reviewedImageSha256": "8bc2b5c2f4331c01273964c94dfb5b5c46fca71d9d9c889858b2fcc1a2df92b2",
+          "findings": [
+            "半跪微後傾及小幅前移可見，但圖將膝不適一律改加墊，未區分接觸壓迫與疼痛；需補疼痛停止，避免誤解。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖-男.png",
+        "sha256": "2000c9cb93e4117acc03549e42c6e1519f00b812c9e26e5640f69316ea1889d8"
+      },
+      "prompt": "Keep existing male character,poses,layout. Revise text: remove any sentence saying knee discomfort can be treated by just adding pad; state 膝墊只減少接觸壓力；若關節疼痛就停止。 Label total dose 每側30秒，左右各1組，共2組. Last pose return upright halfkneel. Remove fixed knee-over-toes alignment rule; use 前膝順著腳尖方向. No slogans.\nUse approved input image as character reference. Precise canonical brief follows; don't print metadata.\n內容版本：4\n來源文字 SHA-256：9bc885bcd03e3de12d3c1909310e806195cfee726a68a67760ec5e3a0af026fa\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"跪姿髖屈肌伸展\",\n  \"variation\": \"跪姿髖屈肌伸展；本項起始設定：單膝跪地、另一腳踩在前方，必要時扶牆。\",\n  \"subtitle_zh\": \"腿、核心動作指引\",\n  \"intro_zh\": \"以半跪姿伸展髖部前側，適合久坐後溫和放鬆。\",\n  \"target_areas\": [\n    \"腿\",\n    \"核心\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定正側面，全身及後膝軟墊可見；保留既有核准男性角色。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"半跪姿\",\n      \"pose_description\": \"Rear knee rests on padded floor beneath hip; front foot flat, front knee over ankle, torso upright.\",\n      \"coaching_note_zh\": \"前腳踩穩、後膝下可墊軟墊。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"穩定骨盆\",\n      \"pose_description\": \"Gently posteriorly tilt pelvis, squeeze rear-side glute without lumbar extension, hands light on front thigh.\",\n      \"coaching_note_zh\": \"輕收臀部，不用拱腰增加幅度。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"小幅前移\",\n      \"pose_description\": \"Move pelvis and torso slightly forward with same tall trunk, no excessive knee bend.\",\n      \"coaching_note_zh\": \"感到後側髖前方溫和拉伸即可。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"退回换側\",\n      \"pose_description\": \"Return pelvis to initial half kneel before changing sides; do not pretend this identical side is the opposite leg.\",\n      \"coaching_note_zh\": \"緩慢退回，再扶穩換側。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"膝下墊毛巾\",\n      \"不要用拱腰換取幅度\",\n      \"兩側各停留一次\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 30 秒\",\n      \"每組只保持一側 30 秒；共 2 組，左右各一組。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n",
+      "inputImage": "C:/Users/tomoe/Documents/ChatGPT/健身打卡網站/public/exercise-guides/skill-final/fitness-kneeling-hip-flexor-stretch-zh-tw.png"
+    }
+  }
+}

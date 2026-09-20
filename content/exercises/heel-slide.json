@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "heel-slide",
+    "name": "仰躺腳跟滑動",
+    "bodyParts": [
+      "核心",
+      "腿"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "腳跟貼墊滑動，在四肢移動時維持軀幹穩定，是死蟲式的較輕版本。",
+    "instructions": [
+      "仰躺屈膝，雙腳踩穩，腹部輕輕出力。",
+      "吐氣，一側腳跟沿墊面滑遠，另一腳保持原位。",
+      "只滑到腰背不拱起的位置，再吸氣滑回。",
+      "左右交替；一次滑出再回來算 1 次。"
+    ],
+    "cues": [
+      "腳跟全程接觸墊面，不抬腿。",
+      "骨盆不左右晃動，幅度可以很小。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "左右合計 10 次，每側 5 次。腰背無法穩定時縮短滑動距離。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/t2sYmCjr7Hs?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=t2sYmCjr7Hs",
+      "title": "腹部控制與腳跟滑動",
+      "channel": "Nottingham University Hospitals NHS",
+      "language": "英文"
+    },
+    "sourceUrl": "https://na.physitrack.com/home-exercise-video/heel-slide-in-supine",
+    "sourceLabel": "Physitrack：仰躺腳跟滑動"
+  },
+  "definition": {
+    "variation": "仰躺腳跟滑動；本項起始設定：仰躺屈膝，雙腳踩穩，腹部輕輕出力。",
+    "counting": "移向一側並回正算 1 次；左右合計 10 次，每側 5 次。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nuh.nhs.uk/exercise-videos-spine-school",
+      "label": "Nottingham NHS 腹部控制教學",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://na.physitrack.com/home-exercise-video/heel-slide-in-supine",
+      "label": "Physitrack：仰躺腳跟滑動",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "屈膝雙腳踩地",
+        "腹部出力、腳跟滑出返回、骨盆軀幹不晃"
+      ],
+      "note": "已讀完整動作教學；滑動範圍以腰背穩定為限。來源未指定呼吸與本站的合計次數。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "b6ade5192ec617052e8a3a5982cfa64b827c3774cb15739923d3a494cf045947",
+      "findings": [
+        "已讀完整動作教學；滑動範圍以腰背穩定為限。來源未指定呼吸與本站的合計次數。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "b6ade5192ec617052e8a3a5982cfa64b827c3774cb15739923d3a494cf045947",
+      "reviewedImageSha256": "d86e14ddbf095f8d02b27d9e2677116e8428bdb41785ffacb1f8f0d0b6016cf9",
+      "findings": [
+        "單腳腳跟沿墊滑遠，另一膝屈曲，回程和換側文字清楚；左右合计 10 次相符。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/t2sYmCjr7Hs?rel=0",
+      "check": {
+        "videoId": "t2sYmCjr7Hs",
+        "seconds": [
+          18,
+          39,
+          52,
+          66
+        ],
+        "observation": "重新播放核對仰躺屈膝起始、單側腳跟沿墊滑出與回到屈膝；影片 5–10 次／側含本站每側 5 次，停留時間不覆蓋本站課表。"
+      },
+      "findings": [
+        "重新播放核對仰躺屈膝起始、單側腳跟沿墊滑出與回到屈膝；影片 5–10 次／側含本站每側 5 次，停留時間不覆蓋本站課表。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "b6ade5192ec617052e8a3a5982cfa64b827c3774cb15739923d3a494cf045947",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/t2sYmCjr7Hs?rel=0",
+            "watchUrl": "https://www.youtube.com/watch?v=t2sYmCjr7Hs",
+            "title": "腹部控制與腳跟滑動",
+            "channel": "Nottingham University Hospitals NHS",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/t2sYmCjr7Hs?rel=0",
+            "check": {
+              "videoId": "t2sYmCjr7Hs",
+              "seconds": [
+                8,
+                29,
+                52
+              ],
+              "observation": "可見仰躺屈膝、腳跟沿支撐面滑動。影片停留秒數不取代本次課表設定。"
+            },
+            "findings": [
+              "可見仰躺屈膝、腳跟沿支撐面滑動。影片停留秒數不取代本次課表設定。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "6d1f27e821434d2ceb9448e1a05ff5b38249f707a6d4ef1f5eca0e22dd0aa7ca"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-heel-slide-zh-tw.png",
+    "sha256": "d86e14ddbf095f8d02b27d9e2677116e8428bdb41785ffacb1f8f0d0b6016cf9",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Gaze follows head orientation naturally. Do not twist the head or eyes toward camera; side-view exercise eyes forward along face or forward/down aligned with neck.Title: 仰躺腳跟滑動. MOVEMENT PLAN: Foursteps teaching singlelegheel slide safely. EXACT labels:1 仰躺準備 bothkneesbentfeetflat supineheadrests onmat. 2 腳跟滑遠 nearlegslidesalmoststraight heelonthefloor, otherkneebentfootflat. 3 慢慢滑回 nearlegHALFbent heelonsurface returnsback, otherkneeunchanged. 4 回到起點 BOTHKNEESbent BOTHFEETflat asstage1; note 接著換另一側. Sidecameraheadleftfeetright armsbesidetorso pelvisquiet noexcessivearch. Key 腳跟不離墊／腰背不拱起，縮短距離也可以. Reps 左右合計10次，每側5次. Breath 滑遠吐氣，滑回吸氣.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

@@ -34,7 +34,24 @@ function parseTemplateItem(value: unknown): WorkoutTemplateItem | null {
     weight === undefined || reps === undefined || durationSeconds === undefined ||
     (tracking === "reps" && reps === null) || (tracking === "time" && durationSeconds === null)
   ) return null;
+  if (item.note !== undefined && (typeof item.note !== "string" || item.note.length > 200)) return null;
+  if (item.phase !== undefined && !["warmup", "main", "cooldown"].includes(String(item.phase))) return null;
+  const entries: NonNullable<WorkoutTemplateItem["entries"]> = [];
+  if (item.entries !== undefined) {
+    if (!Array.isArray(item.entries) || item.entries.length !== item.sets) return null;
+    for (const raw of item.entries) {
+      if (!raw || typeof raw !== "object") return null;
+      const set = raw as Record<string, unknown>;
+      const weight = nullableNumber(set.weight, 0, 1000), reps = nullableNumber(set.reps, 1, 1000), durationSeconds = nullableNumber(set.durationSeconds, 1, 86400);
+      if (weight === undefined || reps === undefined || durationSeconds === undefined ||
+        (tracking === "reps" && (reps === null || !Number.isInteger(reps))) || (tracking === "time" && (durationSeconds === null || !Number.isInteger(durationSeconds)))) return null;
+      entries.push({ weight, reps: tracking === "reps" ? reps : null, durationSeconds: tracking === "time" ? durationSeconds : null });
+    }
+  }
   return {
+    ...(item.note !== undefined ? { note: item.note as string } : {}),
+    ...(item.phase !== undefined ? { phase: item.phase as WorkoutTemplateItem["phase"] } : {}),
+    ...(item.entries !== undefined ? { entries } : {}),
     exerciseId,
     exerciseName,
     bodyPart: item.bodyPart as WorkoutTemplateItem["bodyPart"],

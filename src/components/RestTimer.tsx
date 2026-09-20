@@ -2,6 +2,7 @@ import { Pause, Play, RotateCcw, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 
 type RestTimerProps = {
+  kind?: "work" | "rest";
   seconds: number;
   timerKey: string;
   deadline: number;
@@ -15,7 +16,7 @@ function formatTime(seconds: number): string {
   return `${String(Math.floor(safe / 60)).padStart(2, "0")}:${String(safe % 60).padStart(2, "0")}`;
 }
 
-export function RestTimer({ seconds, timerKey, deadline: savedDeadline, pausedRemaining, onStateChange, onClose }: RestTimerProps) {
+export function RestTimer({ seconds, timerKey, deadline: savedDeadline, pausedRemaining, onStateChange, onClose, kind = "rest" }: RestTimerProps) {
   const initialDeadline = useMemo(() => savedDeadline || Date.now() + seconds * 1000, [savedDeadline, seconds, timerKey]);
   const [deadline, setDeadline] = useState(initialDeadline);
   const [remaining, setRemaining] = useState(() => pausedRemaining ?? Math.max(0, Math.ceil((initialDeadline - Date.now()) / 1000)));
@@ -67,7 +68,7 @@ export function RestTimer({ seconds, timerKey, deadline: savedDeadline, pausedRe
   return (
     <section className={`rest-timer${remaining === 0 ? " rest-timer--done" : ""}`} aria-live="polite">
       <div>
-        <span>{remaining === 0 ? "休息完成" : "休息中"}</span>
+        <span>{kind === "work" ? remaining === 0 ? "本組時間到，確認後按完成" : "動作進行中" : remaining === 0 ? "休息完成" : "休息中"}</span>
         <strong>{formatTime(remaining)}</strong>
       </div>
       <div className="rest-timer__actions">

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "dumbbell-lunge",
+    "name": "啞鈴弓箭步",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "單腳跨步下蹲，訓練下肢力量與左右平衡。",
+    "instructions": [
+      "雙手持啞鈴自然垂放，跨出穩定步距。",
+      "前後膝同時彎曲，軀幹保持直立。",
+      "以前腳整個腳掌踩穩推地，回到起始位置後再換側，不只以前腳掌踮起。"
+    ],
+    "cues": [
+      "前膝順著腳尖",
+      "步距保持一致",
+      "先徒手再負重"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "每側 8–10 次；平衡穩定後再加重"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+      "title": "新手下肢訓練參考",
+      "channel": "May Fit",
+      "language": "中文"
+    },
+    "sourceUrl": "https://gymnation.com/en-sa/exercise-library/dumbbell-lunge/",
+    "sourceLabel": "GymNation：啞鈴前跨弓箭步"
+  },
+  "definition": {
+    "variation": "啞鈴弓箭步；本項起始設定：雙手持啞鈴自然垂放，跨出穩定步距。",
+    "counting": "每組數字表示每側次數：左右各 10 次（合計 20 次單側動作）才算完成一組；不是左右合計 10 次。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670",
+      "label": "Mayo Clinic 肌力訓練原則",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://gymnation.com/en-sa/exercise-library/dumbbell-lunge/",
+      "label": "GymNation：啞鈴前跨弓箭步",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "雙啞鈴垂側、前跨後屈膝",
+        "前腳推地返回站姿"
+      ],
+      "note": "已讀健身機構原始四步教學；不採用能預防或減少膝痛的保證，不將前膝不得超過腳尖當規則。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "c6fe5a0160040c9ec25f9c00e378a34ac86926a4aa16ba7f9717a1f2e200848a",
+      "findings": [
+        "已讀健身機構原始四步教學；不採用能預防或減少膝痛的保證，不將前膝不得超過腳尖當規則。",
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "c6fe5a0160040c9ec25f9c00e378a34ac86926a4aa16ba7f9717a1f2e200848a",
+      "reviewedImageSha256": "2e2c44d0b254a0828044e0f5cf5bb82120f65a928fc9e1b20b507d706f33c939",
+      "findings": [
+        "向前跨步而非反向弓箭步，前腳掌完整著地、起身回站；每側 8–12 次 3 組包含本站每側 10 次。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "d8f5b7cbf101bdc20448710766550bd3965a087c8511e3acf8d41778ecb42699"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-lunge-zh-tw.png",
+    "sha256": "2e2c44d0b254a0828044e0f5cf5bb82120f65a928fc9e1b20b507d706f33c939",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

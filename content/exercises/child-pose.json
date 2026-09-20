@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "child-pose",
+    "name": "嬰兒式",
+    "bodyParts": [
+      "背",
+      "肩"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "以跪坐前趴的方式放鬆背部、肩膀與髖部。",
+    "instructions": [
+      "跪坐後讓膝蓋保持舒適寬度，臀部朝腳跟移動。",
+      "雙手向前延伸，額頭放在墊子或靠枕上。",
+      "保持自然呼吸，不必強求臀部碰到腳跟。"
+    ],
+    "cues": [
+      "接觸墊面的壓迫可加軟墊；膝關節疼痛仍須停止",
+      "額頭可加支撐",
+      "只到輕微拉感，不疼痛、不憋氣"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": null,
+      "durationSeconds": 45,
+      "restSeconds": 15,
+      "load": "停留 30–45 秒；胸前可放抱枕"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw?start=270&end=310",
+      "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw&t=270s",
+      "title": "零基礎瑜珈：貓牛式與嬰兒式",
+      "channel": "理周健康",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/childs-pose",
+    "sourceLabel": "NASM：嬰兒式"
+  },
+  "definition": {
+    "variation": "嬰兒式；本項起始設定：跪坐後讓膝蓋保持舒適寬度，臀部朝腳跟移動。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 45 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://sharedfiles.mayoclinic.org/bedside/ope/GNT-20421908.html",
+      "label": "Mayo Clinic Mindful Movements",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/childs-pose",
+      "label": "NASM：嬰兒式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "四足跪姿後移髖部",
+        "額頭可用支撐、雙手前伸",
+        "不強壓髖部、慢慢回正"
+      ],
+      "note": "核對 Setup–Release；本站只採輕微拉感，不把減壓或治療效果當保證，不採個人治療處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "285e01057b951213ddf298eb273af6c3537228fe0ac521239beda07f7f62cdc4",
+      "findings": [
+        "核對 Setup–Release；本站只採輕微拉感，不把減壓或治療效果當保證，不採個人治療處方。",
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "285e01057b951213ddf298eb273af6c3537228fe0ac521239beda07f7f62cdc4",
+      "reviewedImageSha256": "47617b67c8c027503eb5a1222513d238876e2d0f570f1505b0d321d0f8184e71",
+      "findings": [
+        "四足→髖向腳跟→雙臂前伸→保持，沒有把靜態伸展當反覆次數；30–45 秒包含本站 45 秒。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw?start=270&end=310",
+      "check": {
+        "videoId": "JzU1lMR1Uzw",
+        "seconds": [
+          280,
+          290,
+          300
+        ],
+        "start": 270,
+        "end": 310,
+        "observation": "重新核對臀部往腳跟、雙手前伸的嬰兒式；280 秒屈肘為準備，290、300 秒為雙手前伸保持。"
+      },
+      "findings": [
+        "重新核對臀部往腳跟、雙手前伸的嬰兒式；280 秒屈肘為準備，290、300 秒為雙手前伸保持。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "285e01057b951213ddf298eb273af6c3537228fe0ac521239beda07f7f62cdc4",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw?start=270&end=310",
+            "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw&t=270s",
+            "title": "零基礎瑜珈：貓牛式與嬰兒式",
+            "channel": "理周健康",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw?start=270&end=310",
+            "check": {
+              "videoId": "JzU1lMR1Uzw",
+              "seconds": [
+                280,
+                290
+              ],
+              "start": 270,
+              "end": 310,
+              "observation": "可見跪坐向前休息、額頭支撐與手臂前伸的嬰兒式；直接從此段開始，不再從貓牛式播放。"
+            },
+            "findings": [
+              "可見跪坐向前休息、額頭支撐與手臂前伸的嬰兒式；直接從此段開始，不再從貓牛式播放。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "2521237859039243315b1fe8665f6cd934e038d980ff0616a115d1b55a5f33e9"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-child-pose-zh-tw.png",
+    "sha256": "47617b67c8c027503eb5a1222513d238876e2d0f570f1505b0d321d0f8184e71",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "cat-cow",
+    "name": "貓牛式",
+    "bodyParts": [
+      "背",
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "配合呼吸溫和活動脊椎，適合作為睡前伸展的開始。",
+    "instructions": [
+      "四足跪姿，手在肩下、膝在髖下。",
+      "吸氣時胸口微抬、腹部放鬆，動作保持舒適。",
+      "吐氣時輕收腹部並圓背，持續緩慢交替。",
+      "結束時回到自然四足跪姿，再慢慢起身。"
+    ],
+    "cues": [
+      "跟著呼吸而不是追求幅度",
+      "手掌平均受力",
+      "任何刺痛都應停止"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": null,
+      "durationSeconds": 45,
+      "restSeconds": 15,
+      "load": "緩慢做 45 秒；膝下可墊毛巾"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw?start=65&end=180",
+      "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw&t=65s",
+      "title": "零基礎瑜珈：貓牛式與嬰兒式",
+      "channel": "理周健康",
+      "language": "中文",
+      "note": "已重新核對四足跪姿、拱背與回到牛式；125–135 秒包含錯誤過大幅度示範與說明，勿模仿。保留 65–180 秒完整說明區間，不要求跟到影片頸部抬起幅度或特定呼吸節奏。"
+    },
+    "sourceUrl": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/multimedia/cat-cow-pose/vid-20453581",
+    "sourceLabel": "Mayo Clinic 貓牛式"
+  },
+  "definition": {
+    "variation": "貓牛式；本項起始設定：四足跪姿，手在肩下、膝在髖下。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 45 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/multimedia/cat-cow-pose/vid-20453581",
+      "label": "Mayo Clinic 動作影片",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/multimedia/cat-cow-pose/vid-20453581",
+      "label": "Mayo Clinic 貓牛式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "四足支撐排列、吸氣延伸與吐氣圓背交替"
+      ],
+      "note": "只支持所列姿勢重點；本站預設份量非個人化處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "edc3c9c9189d9b68ba94cede9092b513cd0b08f985968d1be4fb123ea16eeefe",
+      "findings": [
+        "已對照動作專屬來源：四足支撐排列、吸氣延伸與吐氣圓背交替。",
+        "課表份量仍按能力調整，非醫療處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "edc3c9c9189d9b68ba94cede9092b513cd0b08f985968d1be4fb123ea16eeefe",
+      "reviewedImageSha256": "359909f93a051a20927bf2ebc1a0ef6cc311cb19018d1d0792a7e6321f2a9a58",
+      "findings": [
+        "四足支撐下牛式與貓式脊椎方向相反且可辨，45 秒活動相符；結束回中立依旁邊完整文字。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw?start=65&end=180",
+      "check": {
+        "videoId": "JzU1lMR1Uzw",
+        "seconds": [
+          80,
+          90,
+          100,
+          108,
+          125,
+          135,
+          150,
+          165
+        ],
+        "start": 65,
+        "end": 180,
+        "observation": "已重新核對四足跪姿、拱背與回到牛式；125–135 秒包含錯誤過大幅度示範與說明，勿模仿。保留 65–180 秒完整說明區間，不要求跟到影片頸部抬起幅度或特定呼吸節奏。"
+      },
+      "findings": [
+        "已重新核對四足跪姿、拱背與回到牛式；125–135 秒包含錯誤過大幅度示範與說明，勿模仿。保留 65–180 秒完整說明區間，不要求跟到影片頸部抬起幅度或特定呼吸節奏。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "edc3c9c9189d9b68ba94cede9092b513cd0b08f985968d1be4fb123ea16eeefe",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw?start=65&end=180",
+            "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw&t=65s",
+            "title": "零基礎瑜珈：貓牛式與嬰兒式",
+            "channel": "理周健康",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw?start=65&end=180",
+            "check": {
+              "videoId": "JzU1lMR1Uzw",
+              "seconds": [
+                80,
+                100,
+                125
+              ],
+              "start": 65,
+              "end": 180,
+              "observation": "可見四足支撐、背部拱起與回復；影片包含常見錯誤說明，不能把每一個姿勢都當成要模仿的示範。"
+            },
+            "findings": [
+              "可見四足支撐、背部拱起與回復；影片包含常見錯誤說明，不能把每一個姿勢都當成要模仿的示範。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "c111daa4c14c9687bc50782e01360300475ce428a8342a8a86e6e1f16dd56c8d"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-cat-cow-zh-tw.png",
+    "sha256": "359909f93a051a20927bf2ebc1a0ef6cc311cb19018d1d0792a7e6321f2a9a58",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

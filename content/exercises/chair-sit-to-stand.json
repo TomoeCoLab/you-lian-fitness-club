@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "exercise": {
+    "id": "chair-sit-to-stand",
+    "name": "椅子坐站",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "從椅子站起再坐回，練習日常起身所需的腿臀力量。",
+    "instructions": [
+      "使用不會滑動、沒有輪子的穩固椅子，靠牆固定；地面保持乾燥。",
+      "坐在椅面前半部，雙腳踩穩、膝蓋約直角。",
+      "從髖部略往前傾，腳掌向地面出力，緩慢站起。",
+      "臀部往後找椅面，控制坐回，不直接跌坐。"
+    ],
+    "cues": [
+      "膝蓋跟隨腳尖，不向內夾。",
+      "可用扶手協助或選稍高椅面；不要拉會翻倒的家具。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "先徒手 5 次。起身困難可用扶手，穩定後才增加到 8–10 次。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xeKgx4BYkDo?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=xeKgx4BYkDo",
+      "title": "椅子坐站示範",
+      "channel": "Nottingham University Hospitals NHS",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+    "sourceLabel": "NHS 肌力活動"
+  },
+  "definition": {
+    "variation": "椅子坐站；本項起始設定：使用不會滑動、沒有輪子的穩固椅子，靠牆固定；地面保持乾燥。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 5 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+      "label": "NHS 肌力活動",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "穩固椅子與坐站控制"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "32ac626460f018c6e16bcdc78e455b25e407d02dafbdeb3aaee4b19c50ea6879",
+      "findings": [
+        "已對照原始來源：穩固椅子與坐站控制。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "32ac626460f018c6e16bcdc78e455b25e407d02dafbdeb3aaee4b19c50ea6879",
+      "reviewedImageSha256": "f89ad1472cfa3e3b94ee5bf8641be4eaf6fc76c8f91effa8b7a5efe17799f887",
+      "findings": [
+        "坐姿、前傾起身、站直及控制坐回順序可見；5 次 × 1 組相符。圖中椅子未畫靠牆，實際練習仍依文字固定椅子。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xeKgx4BYkDo?rel=0",
+      "check": {
+        "videoId": "xeKgx4BYkDo",
+        "seconds": [
+          7,
+          14,
+          26
+        ],
+        "observation": "可見椅上坐姿、站起與坐回；影片雙手交叉胸前，可依需要扶穩椅子，次數以本次課表為準。"
+      },
+      "findings": [
+        "可見椅上坐姿、站起與坐回；影片雙手交叉胸前，可依需要扶穩椅子，次數以本次課表為準。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "32ac626460f018c6e16bcdc78e455b25e407d02dafbdeb3aaee4b19c50ea6879"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-chair-sit-to-stand-zh-tw.png",
+    "sha256": "f89ad1472cfa3e3b94ee5bf8641be4eaf6fc76c8f91effa8b7a5efe17799f887",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Adult approved instructor reference. 椅子坐站: stable chair, seated feet flat, hinge forward, stand with knees tracking toes, slowly sit. 4 stages, 5 reps, natural breathing. Traditional Chinese, no slogans.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

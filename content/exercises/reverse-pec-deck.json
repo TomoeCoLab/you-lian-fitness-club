@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "reverse-pec-deck",
+    "name": "反向蝴蝶機",
+    "bodyParts": [
+      "背",
+      "肩"
+    ],
+    "equipment": "蝴蝶機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "面向椅背向外展開手臂，訓練後肩與上背。",
+    "instructions": [
+      "面向器械坐穩，胸口貼靠墊面。",
+      "手肘微彎，向身體兩側展開把手。",
+      "肩胛穩定後控制回到起點。"
+    ],
+    "cues": [
+      "肩膀不要聳起",
+      "不要過度夾肩胛",
+      "胸口保持貼靠"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "選擇不需甩動即可展開的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vZ3ok2xIsK4",
+      "watchUrl": "https://www.youtube.com/watch?v=vZ3ok2xIsK4",
+      "title": "蝴蝶機操作參考",
+      "channel": "東吳大學體育室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://fitnessinstitute.com.au/rear-delt-pin-loaded/",
+    "sourceLabel": "Fitness Institute 反向飛鳥"
+  },
+  "definition": {
+    "variation": "反向蝴蝶機；本項起始設定：面向器械坐穩，胸口貼靠墊面。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://fitnessinstitute.com.au/rear-delt-pin-loaded/",
+      "label": "Fitness Institute 反向飛鳥",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "Life Fitness 飛鳥／後三角機胸靠墊、雙腳踩地、展臂與控制回程"
+      ],
+      "note": "來源機型 Life Fitness Pectoral Fly/Rear Deltoid；其他機型的起始角度需依原廠圖示調整。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "72a35561ad6debd2bd1347bc52bc9c35504fab9967bf1beeea597690c62399ce",
+      "findings": [
+        "已對照動作專屬來源：Life Fitness 飛鳥／後三角機胸靠墊、雙腳踩地、展臂與控制回程。",
+        "來源機型 Life Fitness Pectoral Fly/Rear Deltoid；其他機型的起始角度需依原廠圖示調整。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "72a35561ad6debd2bd1347bc52bc9c35504fab9967bf1beeea597690c62399ce",
+      "reviewedImageSha256": "850e2145c6d7d04396192a2095a04ea5ce8f39a78090c5117ab57497003ad964",
+      "findings": [
+        "胸口靠墊、手臂由前向兩側展開再回程；圖有切換正反視角，不代表中途轉身，10–15 次 3 組包含本站 12 次。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "舊影片動作不相符，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "14b3112059e2650290797499247084aa27a37841518bc0e07417df53bc94c3e9"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-reverse-pec-deck-zh-tw.png",
+    "sha256": "850e2145c6d7d04396192a2095a04ea5ce8f39a78090c5117ab57497003ad964",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

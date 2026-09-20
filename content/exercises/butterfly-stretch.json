@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "butterfly-stretch",
+    "name": "蝴蝶式伸展",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "坐姿讓腳掌相對，溫和伸展大腿內側與髖部。",
+    "instructions": [
+      "坐在折疊毛巾上，腳掌相對、膝蓋自然向兩側。",
+      "雙手扶住腳踝，脊椎保持舒服直立。",
+      "只需放鬆停留，不用手壓膝蓋。"
+    ],
+    "cues": [
+      "坐高可減少骨盆後倒",
+      "膝下可各墊一顆枕頭",
+      "不彈震、不硬壓"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": null,
+      "durationSeconds": 45,
+      "restSeconds": 15,
+      "load": "停留 30–45 秒；以能自然呼吸為準"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/v4OLkxi5-Q0",
+      "watchUrl": "https://www.youtube.com/watch?v=v4OLkxi5-Q0",
+      "title": "坐姿蝴蝶式伸展",
+      "channel": "NASM",
+      "language": "英文",
+      "note": "只在舒適幅度停留，不用手肘向下硬壓膝蓋。"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/static-butterfly-stretch",
+    "sourceLabel": "NASM 動作資料庫"
+  },
+  "definition": {
+    "variation": "蝴蝶式伸展；本項起始設定：坐在折疊毛巾上，腳掌相對、膝蓋自然向兩側。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 45 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/static-butterfly-stretch",
+      "label": "NASM 動作資料庫",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "腳掌相對的坐姿伸展",
+        "脊椎舒服直立",
+        "避免壓膝及彈震"
+      ],
+      "note": "來源提供 15–30 秒，本站既有 30–45 秒是一般參考上限，不是來源處方；不舒服應先停止，不能只墊高硬做。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "8b0b8b17b0d0fd8a5210794723464eeaf6f880415c6fb273c59091524a05faa1",
+      "findings": [
+        "已核對原始來源支持：腳掌相對的坐姿伸展、脊椎舒服直立、避免壓膝及彈震。來源提供 15–30 秒，本站既有 30–45 秒是一般參考上限，不是來源處方；不舒服應先停止，不能只墊高硬做。",
+        "本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "8b0b8b17b0d0fd8a5210794723464eeaf6f880415c6fb273c59091524a05faa1",
+      "reviewedImageSha256": "43f1335df1b392d64e19cf157c019b1971bd7937493bf262819378a68baaf196",
+      "findings": [
+        "腳掌相對、坐高、膝自然向外，無手壓膝可見，30–45 秒涵蓋預設；不適時不是只墊高就繼續。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/v4OLkxi5-Q0",
+      "check": {
+        "videoId": "v4OLkxi5-Q0",
+        "seconds": [
+          5,
+          11
+        ],
+        "observation": "可見坐地腳掌相對與舒適前傾，取代無對應章節的全身伸展長片。"
+      },
+      "findings": [
+        "可見坐地腳掌相對與舒適前傾，取代無對應章節的全身伸展長片。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "8b0b8b17b0d0fd8a5210794723464eeaf6f880415c6fb273c59091524a05faa1"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-butterfly-stretch-zh-tw.png",
+    "sha256": "43f1335df1b392d64e19cf157c019b1971bd7937493bf262819378a68baaf196",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

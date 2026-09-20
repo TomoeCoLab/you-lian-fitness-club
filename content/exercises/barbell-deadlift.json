@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "barbell-deadlift",
+    "name": "槓鈴硬舉",
+    "bodyParts": [
+      "腿",
+      "背",
+      "核心"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以髖關節為主導，從地面穩定提起槓鈴。",
+    "instructions": [
+      "槓鈴置於腳掌中段上方，髖部向後。",
+      "握緊槓鈴並收緊軀幹，將地面向下踩。",
+      "髖與膝同步伸直，站穩後沿腿控制下放。"
+    ],
+    "cues": [
+      "槓鈴貼近身體",
+      "背部維持中立",
+      "不以腰部猛拉"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 6,
+      "durationSeconds": null,
+      "restSeconds": 150,
+      "load": "先練空槓或墊高版本；保留 2–3 次餘力"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
+      "watchUrl": "https://www.youtube.com/watch?v=mCkHvemP79U",
+      "title": "一般硬舉",
+      "channel": "東吳大學體育室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/barbell-deadlift",
+    "sourceLabel": "NASM：槓鈴地板硬舉"
+  },
+  "definition": {
+    "variation": "槓鈴硬舉；本項起始設定：槓鈴置於腳掌中段上方，髖部向後。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 6 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/barbell-deadlift",
+      "label": "NASM：槓鈴地板硬舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "槓在腳掌中段上方",
+        "全腳掌出力、髖膝同步伸展",
+        "控制髖折與屈膝放回地面"
+      ],
+      "note": "已核對地板起始版，與站姿起始的羅馬尼亞硬舉分開；不採來源固定握距或強迫小腿垂直作每人體型標準。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b",
+      "findings": [
+        "已核對地板起始版，與站姿起始的羅馬尼亞硬舉分開；不採來源固定握距或強迫小腿垂直作每人體型標準。",
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b",
+      "reviewedImageSha256": "0c9d5a78ac138421434b359b4dd61a24e08aedfae377c65ab024971c48efd838",
+      "findings": [
+        "重新檢視四格：槓片落地起始與回程，槓貼近腿、髖膝協調站起、頸部隨軀幹自然延伸；3 組 6 次與文字一致。",
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
+      "check": {
+        "videoId": "mCkHvemP79U",
+        "seconds": [
+          5,
+          10,
+          15,
+          19
+        ],
+        "observation": "重新核對一般硬舉由站姿放回地面、再站起的槓鈴路徑；不同於膝微彎髖折的羅馬尼亞硬舉。"
+      },
+      "findings": [
+        "重新核對一般硬舉由站姿放回地面、再站起的槓鈴路徑；不同於膝微彎髖折的羅馬尼亞硬舉。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
+            "watchUrl": "https://www.youtube.com/watch?v=mCkHvemP79U",
+            "title": "一般硬舉",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/mCkHvemP79U",
+            "check": {
+              "videoId": "mCkHvemP79U",
+              "seconds": [
+                5,
+                10,
+                19
+              ],
+              "observation": "可見一般槓鈴硬舉站起及下降。不是羅馬尼亞硬舉，也不是壺鈴擺盪。"
+            },
+            "findings": [
+              "可見一般槓鈴硬舉站起及下降。不是羅馬尼亞硬舉，也不是壺鈴擺盪。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "cec608bbc72934565616446c6e4c65d944bb2563d89c850f50458a6834556286"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-barbell-deadlift-v2-zh-tw.png",
+    "sha256": "0c9d5a78ac138421434b359b4dd61a24e08aedfae377c65ab024971c48efd838",
+    "generatedFromContentHash": "66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略前三分之四，全身、腳掌及兩側槓片與地面接觸清楚。",
+      "frames": [
+        {
+          "title": "地板準備",
+          "pose": "Barbell with full-diameter light training bumper plates rests on level floor visibly both plates TOUCH floor, bar over midfeet. Hip-width feet, hinge hips and bend knees to grip just outside legs, neutral spine neck gaze downward ahead.",
+          "caption": "槓在腳掌中段上方，握穩並穩定軀幹。"
+        },
+        {
+          "title": "踩地起槓",
+          "pose": "Begin lifting plates visibly a few cm off floor by simultaneous knee and hip extension. Bar close shins, shoulders and hips rise together, spine neutral.",
+          "caption": "全腳掌踩地，髖與膝同步伸展。"
+        },
+        {
+          "title": "站直穩定",
+          "pose": "Stand upright holding bar at thighs, knees and hips extended naturally, no backwards lean.",
+          "caption": "站直即可，不向後仰。"
+        },
+        {
+          "title": "控制回地",
+          "pose": "Hip hinge then bend knees returning both plates to SAME floor contact as initial position. Bar stays close legs, no bounce.",
+          "caption": "沿腿控制放下，槓片回地後再重設。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-barbell-deadlift-zh-tw.png",
+        "sha256": "da7d78231280aa20ea0f2d62d63250c752dade5ed9d3af60dd4e0a8f10977b69",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "cec608bbc72934565616446c6e4c65d944bb2563d89c850f50458a6834556286",
+          "reviewedImageSha256": "da7d78231280aa20ea0f2d62d63250c752dade5ed9d3af60dd4e0a8f10977b69",
+          "findings": [
+            "起始及還原格槓片與地面接觸不清，不能清楚區分地板硬舉與懸空版本；需重製落地起始或明確畫出墊高支撐。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create one finished independent 4:3 photorealistic Traditional Chinese exercise infographic. Match attached approved adult character identity, blue outfit, bob haircut. No slogans, logos or anatomical muscle icons. Natural gaze follows head not camera. Minimal concise accurate captions and exact doses. Stable equipment geometry, grounded weights/supports. Do not print internal metadata or hashes.\n內容版本：3\n來源文字 SHA-256：66a985e8e11af9778319eb6811350c19549dcda9948b27cee09407b0582fd40b\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"槓鈴硬舉\",\n  \"variation\": \"槓鈴硬舉；本項起始設定：槓鈴置於腳掌中段上方，髖部向後。\",\n  \"subtitle_zh\": \"腿、背、核心動作指引\",\n  \"intro_zh\": \"以髖關節為主導，從地面穩定提起槓鈴。\",\n  \"target_areas\": [\n    \"腿\",\n    \"背\",\n    \"核心\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定正側略前三分之四，全身、腳掌及兩側槓片與地面接觸清楚。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"地板準備\",\n      \"pose_description\": \"Barbell with full-diameter light training bumper plates rests on level floor visibly both plates TOUCH floor, bar over midfeet. Hip-width feet, hinge hips and bend knees to grip just outside legs, neutral spine neck gaze downward ahead.\",\n      \"coaching_note_zh\": \"槓在腳掌中段上方，握穩並穩定軀幹。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"踩地起槓\",\n      \"pose_description\": \"Begin lifting plates visibly a few cm off floor by simultaneous knee and hip extension. Bar close shins, shoulders and hips rise together, spine neutral.\",\n      \"coaching_note_zh\": \"全腳掌踩地，髖與膝同步伸展。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"站直穩定\",\n      \"pose_description\": \"Stand upright holding bar at thighs, knees and hips extended naturally, no backwards lean.\",\n      \"coaching_note_zh\": \"站直即可，不向後仰。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"控制回地\",\n      \"pose_description\": \"Hip hinge then bend knees returning both plates to SAME floor contact as initial position. Bar stays close legs, no bounce.\",\n      \"coaching_note_zh\": \"沿腿控制放下，槓片回地後再重設。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"槓鈴貼近身體\",\n      \"背部維持中立\",\n      \"不以腰部猛拉\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 6 次\",\n      \"一次完整動作加回程算 1 次，預設每組 6 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

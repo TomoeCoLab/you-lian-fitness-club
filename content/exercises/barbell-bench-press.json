@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "barbell-bench-press",
+    "name": "槓鈴臥推",
+    "bodyParts": [
+      "胸",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以槓鈴進行水平推舉，適合已有穩定推舉基礎者。",
+    "instructions": [
+      "使用設好安全擋桿的臥推架，雙腳踩穩，頭、上背及臀部有支撐；眼睛在架上槓鈴下方。",
+      "握穩後解槓，移到胸口上方；控制下放到胸前舒適位置，不落向頸部。",
+      "前臂接近垂直，平順推回胸口上方；本組結束確認槓鈴兩側掛穩後才鬆手。"
+    ],
+    "cues": [
+      "使用安全架或保護者",
+      "手腕保持中立",
+      "臀部不要離開長椅"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 120,
+      "load": "先以空槓熟悉路徑，再逐步加重"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
+      "watchUrl": "https://www.youtube.com/watch?v=1Ppl7czpoUc",
+      "title": "槓鈴仰臥推舉",
+      "channel": "東吳大學體育室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/barbell-bench-press",
+    "sourceLabel": "NASM：槓鈴平板臥推"
+  },
+  "definition": {
+    "variation": "槓鈴臥推；本項起始設定：雙腳踩穩，眼睛位於槓鈴正下方。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 8 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/barbell-bench-press",
+      "label": "NASM：槓鈴平板臥推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "雙腳踩地、背部支撐",
+        "略寬握距、控制向胸前下放",
+        "保持軀幹穩定再推回"
+      ],
+      "note": "已核對 Setup–Return；不把最大重量、強制固定握距或接近力竭作新手要求。安全架／保護者依現場條件設定。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899",
+      "findings": [
+        "已核對 Setup–Return；不把最大重量、強制固定握距或接近力竭作新手要求。安全架／保護者依現場條件設定。",
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899",
+      "reviewedImageSha256": "ed9de231a49c570a458955a7becfaf2e680c2719b0c7341a5e27a22026a57aa7",
+      "findings": [
+        "三格正側面可辨槓位在胸前，不在頸部；雙手持槓、雙腳踩地、頭背臀有支撐，已補接合於立柱的安全支臂。實際擋桿高度仍須按本人胸高測試，非量測圖。",
+        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
+      "check": {
+        "videoId": "1Ppl7czpoUc",
+        "seconds": [
+          6,
+          12,
+          18,
+          23
+        ],
+        "observation": "重新核對平板槓鈴臥推，有保護者協助；圖文所述安全擋桿設定需依場館條件，影片不提供個人重量處方。"
+      },
+      "findings": [
+        "重新核對平板槓鈴臥推，有保護者協助；圖文所述安全擋桿設定需依場館條件，影片不提供個人重量處方。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
+            "watchUrl": "https://www.youtube.com/watch?v=1Ppl7czpoUc",
+            "title": "槓鈴仰臥推舉",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/1Ppl7czpoUc",
+            "check": {
+              "videoId": "1Ppl7czpoUc",
+              "seconds": [
+                6,
+                12,
+                23
+              ],
+              "observation": "可見平板槓鈴臥推；安全擋桿與保護者需依現場條件安排。"
+            },
+            "findings": [
+              "可見平板槓鈴臥推；安全擋桿與保護者需依現場條件安排。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "0e1b58758246bc1ab9cef74a13172cd1f9df6ba9af08e5b71fd9b1fd680afa43"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-barbell-bench-press-v2-zh-tw.png",
+    "sha256": "ed9de231a49c570a458955a7becfaf2e680c2719b0c7341a5e27a22026a57aa7",
+    "generatedFromContentHash": "9884b38589ae52ce95119baa0ccbde27b4bc0dc4b9159a3cccdb9c2a4c2c8899",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定嚴格正側面，頭在画面左、腳在右，鏡頭與胸部等高。三格只示範解槓後推舉循環，安全擋桿略低於低點。",
+      "frames": [
+        {
+          "title": "穩定持槓",
+          "pose": "STRICT SIDE PROFILE head left feet right. Adult woman lies supine horizontal flat bench, head back butt supported feet planted. Both hands securely grip light bar above mid sternum; arms vertical. Bar end seen circular, far hand partly occluded naturally. Rack four upright posts and connected safety rails below chest, not occluding body.",
+          "caption": "解槓後移到胸口上方，雙腳踩穩。"
+        },
+        {
+          "title": "慢慢下放",
+          "pose": "Same exact strict side view and support. Bend elbows lower bar down to mid sternum over torso, well to RIGHT of chin and neck. Forearms vertical beneath wrists. Elbows below bench top line but protected by connected safety rails below lowest bar. Both hands gripping the bar, head and butt stay supported.",
+          "caption": "槓鈴降到胸前，不落向頸部。"
+        },
+        {
+          "title": "平順推回",
+          "pose": "Return bar directly above mid chest with extended arms. Feet and head and butt remain planted. Same profile rack geometry.",
+          "caption": "推回上方；結束時掛穩再鬆手。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-barbell-bench-press-zh-tw.png",
+        "sha256": "bbd09531da94a3014e74c5ac8f36a71d267a809e1a0bc9c25e2d1c5844bb2a39",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "0e1b58758246bc1ab9cef74a13172cd1f9df6ba9af08e5b71fd9b1fd680afa43",
+          "reviewedImageSha256": "bbd09531da94a3014e74c5ac8f36a71d267a809e1a0bc9c25e2d1c5844bb2a39",
+          "findings": [
+            "正面透視無法清楚分辨最低點在胸前或頸前，安全擋桿高度也不明確；改用側斜視角、明示槓落點及安全設定。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Edit only the bench press infographic's safety equipment: add a clearly connected pair of horizontal spotting safety arms attached to the rack uprights at the head end, extending toward feet underneath the bar's vertical travel path. Height just below lowest bar at chest level, ABOVE bench top, never passing through body. These must be real catch arms able to catch both outer bar shafts. Existing very low bench frame is NOT a safety arm. Keep woman's three side profile poses, bar midchest position, hands, feet, clothes, face, all Chinese text and layout unchanged. Remove numerals 10 KG from plates (leave plain black plates). No slogans.",
+      "inputImage": "C:\\Users\\tomoe\\.codex\\generated_images\\01a06b63-8898-70b0-8caa-a34efc8ab891\\exec-88eb8cc5-cd92-4950-a6e0-4b0b3297f535.png"
+    }
+  }
+}

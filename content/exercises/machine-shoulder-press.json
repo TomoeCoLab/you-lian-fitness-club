@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "machine-shoulder-press",
+    "name": "器械肩推",
+    "bodyParts": [
+      "肩",
+      "手臂"
+    ],
+    "equipment": "肩推機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "沿固定軌跡過頭推舉，專注肩部發力。",
+    "instructions": [
+      "調整座椅，使握把約在肩膀高度。",
+      "背部貼靠，手腕疊在手肘上方。",
+      "向上推但不鎖死，控制回到起點。"
+    ],
+    "cues": [
+      "肋骨不要翻起",
+      "肩膀避免聳起",
+      "左右同步"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 75,
+      "load": "先以可全程貼靠椅背的重量開始"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TnhIyp4kmO8",
+      "watchUrl": "https://www.youtube.com/watch?v=TnhIyp4kmO8",
+      "title": "器械肩推動作示範",
+      "channel": "PureGym",
+      "language": "英文",
+      "note": "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/186/seated-shoulder-press/",
+    "sourceLabel": "ACE：器械坐姿肩推"
+  },
+  "definition": {
+    "variation": "器械肩推；本項起始設定：調整座椅，使握把約在肩膀高度。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/186/seated-shoulder-press/",
+      "label": "ACE：器械坐姿肩推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "座椅高度使握把肩高",
+        "背靠穩與手腕中立",
+        "控制推起與回程"
+      ],
+      "note": "已閱讀 Step 1–3；不採離開靠背的進階變式，不強制壓低肩胛限制自然上轉。"
+    },
+    {
+      "url": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
+      "label": "Life Fitness Circuit Series 操作手冊 PDF 第 5 頁",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "背靠墊、腳踩地、活動臂推高及控制回程"
+      ],
+      "note": "已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "cb4ca038a34c2e8d86714a32b023867b18df4eb3b04686cc0f7ac9db523052dc",
+      "internalReviewedAt": "2026-09-20",
+      "findings": [
+        "已對照原廠手冊第 5 頁文字與圖示：背靠墊、腳踩地、活動臂推高及控制回程。",
+        "同名器械可能不同構造；現場設定仍需依原廠圖示。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "cb4ca038a34c2e8d86714a32b023867b18df4eb3b04686cc0f7ac9db523052dc",
+      "reviewedImageSha256": "08b94aaa1c5c44c9b29a7a5915f00bec03a663820c51c0996a3c6c884e64db6e",
+      "findings": [
+        "對照原廠 Circuit Series 肩推示意，機臂向上轉動、握把肩側起始、背部支撐與放回一致；3 組 10 次相符。圖為該機型方向示意，不取代現場設定。",
+        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/TnhIyp4kmO8",
+      "check": {
+        "videoId": "TnhIyp4kmO8",
+        "seconds": [
+          9,
+          19,
+          25,
+          29,
+          31,
+          33,
+          35,
+          37,
+          40
+        ],
+        "observation": "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。"
+      },
+      "findings": [
+        "已核對靠背坐姿、雙手握器械把手，自肩側推過頭再控制放回。不同機型握把與調節方式不同，勿照影片外觀猜本站圖示的調節位置。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "cb4ca038a34c2e8d86714a32b023867b18df4eb3b04686cc0f7ac9db523052dc",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/nZD-9S0BQls",
+            "watchUrl": "https://www.youtube.com/watch?v=nZD-9S0BQls",
+            "title": "肩部推舉機",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/nZD-9S0BQls",
+            "check": {
+              "videoId": "nZD-9S0BQls",
+              "seconds": [
+                8,
+                28,
+                51
+              ],
+              "observation": "可見器械坐姿肩推；手把位置與機台設定仍需依場館機型。"
+            },
+            "findings": [
+              "可見器械坐姿肩推；手把位置與機台設定仍需依場館機型。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "e67c60fba0c5554adb4b2444b53d8dd38c5015dbd3358c1b46def62f975ec8e8"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-machine-shoulder-press-v2-zh-tw.png",
+    "sha256": "08b94aaa1c5c44c9b29a7a5915f00bec03a663820c51c0996a3c6c884e64db6e",
+    "generatedFromContentHash": "8ebc8bee64eb2b58b017eab049b42de7aa2c427dd974dfef7874c7be0cbc2c8f",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側面略前三分之四，完整機架、支點、握把或滾墊都可見；依附加原廠手冊示例。",
+      "frames": [
+        {
+          "title": "坐穩握把",
+          "pose": "Circuit Series shoulder press reference geometry. Fixed seat/backpad, feet flat. Hands grip connected handles on forward ends of two LONG levers pivoting at tall rear upper crossbar. Handles at shoulder level, elbows bent.",
+          "caption": "坐穩貼靠，握把在肩旁。"
+        },
+        {
+          "title": "平順推高",
+          "pose": "Same machine rear pivots FIXED. Both long lever ends rotate upward as elbows extend; each hand still grips handle welded to lever. Feet flat, backpad contact.",
+          "caption": "雙手推高，手肘自然伸展。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "Return levers along SAME arc to original shoulder-height handles; frame identical no disconnected handles.",
+          "caption": "慢慢放回，不拱腰借力。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-machine-shoulder-press-zh-tw.png",
+        "sha256": "51f4c0d70ef1a0600361630a91a5645c62427890b8ed0f00092c9aa136ad8f48",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "e67c60fba0c5554adb4b2444b53d8dd38c5015dbd3358c1b46def62f975ec8e8",
+          "reviewedImageSha256": "51f4c0d70ef1a0600361630a91a5645c62427890b8ed0f00092c9aa136ad8f48",
+          "findings": [
+            "握把升高時機械臂連接呈現不夠明確；重製需採可核對的同一機型，不能只把握把移高。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Generate independent photorealistic 4:3 Traditional Chinese exercise guide. First reference is approved adult woman identity/outfit. Second is MANUFACTURER EQUIPMENT REFERENCE ONLY: follow actual machine structure, linked pivots, pads and handles, but do not copy page text/layout/branding/logos. Show three stages on SAME machine from SAME camera. No imaginary weight stacks when reference has none. No slogans, no muscle icons, natural gaze. Concise text. Add small disclaimer 器械示例，設定依現場機型. Do not print hash metadata.\n內容版本：4\n來源文字 SHA-256：8ebc8bee64eb2b58b017eab049b42de7aa2c427dd974dfef7874c7be0cbc2c8f\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"器械肩推\",\n  \"variation\": \"器械肩推；本項起始設定：調整座椅，使握把約在肩膀高度。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。\",\n  \"subtitle_zh\": \"肩、手臂動作指引\",\n  \"intro_zh\": \"沿固定軌跡過頭推舉，專注肩部發力。\",\n  \"target_areas\": [\n    \"肩\",\n    \"手臂\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定側面略前三分之四，完整機架、支點、握把或滾墊都可見；依附加原廠手冊示例。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"坐穩握把\",\n      \"pose_description\": \"Circuit Series shoulder press reference geometry. Fixed seat/backpad, feet flat. Hands grip connected handles on forward ends of two LONG levers pivoting at tall rear upper crossbar. Handles at shoulder level, elbows bent.\",\n      \"coaching_note_zh\": \"坐穩貼靠，握把在肩旁。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"平順推高\",\n      \"pose_description\": \"Same machine rear pivots FIXED. Both long lever ends rotate upward as elbows extend; each hand still grips handle welded to lever. Feet flat, backpad contact.\",\n      \"coaching_note_zh\": \"雙手推高，手肘自然伸展。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"控制放回\",\n      \"pose_description\": \"Return levers along SAME arc to original shoulder-height handles; frame identical no disconnected handles.\",\n      \"coaching_note_zh\": \"慢慢放回，不拱腰借力。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"肋骨不要翻起\",\n      \"肩膀避免聳起\",\n      \"左右同步\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 10 次\",\n      \"一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "machine-hip-thrust",
+    "name": "臀推機臀推",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "臀推機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "使用臀推機固定負重位置，專注臀部伸髖。",
+    "instructions": [
+      "上背靠穩墊面，髖墊置於骨盆前側。",
+      "雙腳踩穩，收緊腹部後向上伸髖。",
+      "頂端停一下，再控制髖部下降。",
+      "結束時先控制機臂回到停靠處並卸載，再依機型解除墊帶；不在承重中解扣。"
+    ],
+    "cues": [
+      "下巴微收",
+      "頂端不要過度拱腰",
+      "膝蓋與腳尖同向"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "空機確認墊帶位置，再逐步加重"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+      "title": "下半身器械使用參考",
+      "channel": "May Fit",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.hussle.com/blog/how-to-use-a-hip-thrust-machine-for-optimal-gains/",
+    "sourceLabel": "Hussle：臀推機動作教學"
+  },
+  "definition": {
+    "variation": "臀推機臀推；本項起始設定：上背靠穩墊面，髖墊置於骨盆前側。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670",
+      "label": "Mayo Clinic 肌力訓練原則",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.hussle.com/blog/how-to-use-a-hip-thrust-machine-for-optimal-gains/",
+      "label": "Hussle：臀推機動作教學",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "上背靠墊、骨盆前側墊帶、腳掌推地",
+        "肩髖膝約成線、頸部隨軀幹與控制回程"
+      ],
+      "note": "已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。"
+    },
+    {
+      "url": "https://www.lifefitness.com/en-us/catalog/strength-training/plate-loaded/hammer-strength-plate-loaded-glute-drive",
+      "label": "Hammer Strength：Glute Drive 原廠設備",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "上背支撐墊、腳踏平台、腰髖墊帶結構"
+      ],
+      "note": "原廠產品說明，不當成完整上下機手冊；圖解亦不宣稱精確復刻此型號。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "aff3f4301e2edf45d4f411440e6db9f6c46fd1a53962a2b4404042209c012d1f",
+      "findings": [
+        "已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "aff3f4301e2edf45d4f411440e6db9f6c46fd1a53962a2b4404042209c012d1f",
+      "reviewedImageSha256": "b545e4dffc7ebcd121bf37cb4698cf569c5c50953bc24b1c3a62f3b371c17363",
+      "findings": [
+        "可見上背靠墊、骨盆前方護墊、腳踩平台與伸髖回程；10–15 次 3 組包含本站 10 次。退出／卸载需配合旁邊文字，圖非機台操作手冊。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "60f2fa8d338aec4928b84bfed17237c5991d8e1a6e5a5a9666e3441b5881d968"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-machine-hip-thrust-zh-tw.png",
+    "sha256": "b545e4dffc7ebcd121bf37cb4698cf569c5c50953bc24b1c3a62f3b371c17363",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

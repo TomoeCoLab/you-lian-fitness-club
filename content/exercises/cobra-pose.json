@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "cobra-pose",
+    "name": "低眼鏡蛇式",
+    "bodyParts": [
+      "背",
+      "核心"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "俯臥以背部力量微抬胸口，溫和活動軀幹前側與脊椎。",
+    "instructions": [
+      "俯臥，手掌放在胸口兩側，手肘靠近身體。",
+      "腿與骨盆貼穩，胸口小幅抬離地面。",
+      "手掌只輕扶，保持自然呼吸後放下。"
+    ],
+    "cues": [
+      "不是把身體用力推高",
+      "肩膀遠離耳朵",
+      "腰痛或腿麻立即停止"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 20,
+      "restSeconds": 20,
+      "load": "每次 15–20 秒；只抬到腰背舒適的位置"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw",
+      "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw",
+      "title": "零基礎瑜珈入門",
+      "channel": "理周健康",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/16/cobra/",
+    "sourceLabel": "ACE 眼鏡蛇式"
+  },
+  "definition": {
+    "variation": "低眼鏡蛇式；本項起始設定：俯臥，手掌放在胸口兩側，手肘靠近身體。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 20 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://sharedfiles.mayoclinic.org/bedside/ope/GNT-20421908.html",
+      "label": "Mayo Clinic Mindful Movements",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/16/cobra/",
+      "label": "ACE 眼鏡蛇式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "骨盆留在墊面、小幅抬胸、控制回程及腰痛停止"
+      ],
+      "note": "本站採低幅度版，非手肘完全伸直的高眼鏡蛇式。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "9bb732e97d726ebbf586791fff7cabb71715474ca3d88a9812fc883e4e023b46",
+      "findings": [
+        "已對照動作專屬來源：骨盆留在墊面、小幅抬胸、控制回程及腰痛停止。",
+        "本站採低幅度版，非手肘完全伸直的高眼鏡蛇式。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "9bb732e97d726ebbf586791fff7cabb71715474ca3d88a9812fc883e4e023b46",
+      "reviewedImageSha256": "7ad6c6956b58c675ca6ff3cb04a35fc52442c1d8a282f409f30691336afb7f55",
+      "findings": [
+        "骨盆腿部貼地、低幅胸抬、手輕扶與回趴可見，不是高眼鏡蛇／上犬式；15–20 秒包含本站 20 秒。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "舊影片動作不相符，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "f503642eb2b1b67d78297a2d7960297cc296ee01c600d6b32f5d3f97a3a4678e"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-cobra-pose-zh-tw.png",
+    "sha256": "7ad6c6956b58c675ca6ff3cb04a35fc52442c1d8a282f409f30691336afb7f55",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

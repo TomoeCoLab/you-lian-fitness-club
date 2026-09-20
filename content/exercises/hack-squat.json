@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "hack-squat",
+    "name": "哈克深蹲",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "哈克深蹲機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "沿傾斜導軌深蹲，在背部有支撐時訓練下肢。",
+    "instructions": [
+      "肩背貼穩墊面，雙腳置於踏板約肩寬。",
+      "解開安全扣，控制膝髖彎曲。",
+      "腳掌均勻踩踏板起身，結束時確實扣回。"
+    ],
+    "cues": [
+      "先確認安全扣",
+      "下背不離開靠墊",
+      "膝蓋順著腳尖"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 120,
+      "load": "先用空機測試滑車重量與活動範圍"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+      "title": "下半身器械教學",
+      "channel": "May Fit",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.puregym.com/exercises/legs/quad-exercises/squats/hack-squat/",
+    "sourceLabel": "PureGym：哈克深蹲"
+  },
+  "definition": {
+    "variation": "哈克深蹲；本項起始設定：肩背貼穩墊面，雙腳置於踏板約肩寬。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.puregym.com/exercises/legs/quad-exercises/squats/hack-squat/",
+      "label": "PureGym：哈克深蹲",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "肩背貼墊、雙腳在踏板",
+        "確認安全扣、控制下蹲和起身"
+      ],
+      "note": "已讀斜導軌肩背支撐版本；深度以可穩定控制為準，不強迫所有人蹲至固定角度。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "956ba07e069a6033707e321d92eb9786b1245fa635cb669dd4903d8b71ca4964",
+      "findings": [
+        "已讀斜導軌肩背支撐版本；深度以可穩定控制為準，不強迫所有人蹲至固定角度。",
+        "份量是本站起始參考，不是來源的個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "956ba07e069a6033707e321d92eb9786b1245fa635cb669dd4903d8b71ca4964",
+      "reviewedImageSha256": "a1937d1a73e43784db1075b4facddf4e9d8b04bf5fb7de20b2275be4222866f6",
+      "findings": [
+        "肩背貼滑車、腳踩固定踏板、下降與推回方向一致；安全扣和回掛文字具備，8–12 次 3 組包含本站 10 次。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "93b19253946d8c8037af3aaad275f01d95f99774e46f76bb12c402875e125605"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-hack-squat-zh-tw.png",
+    "sha256": "a1937d1a73e43784db1075b4facddf4e9d8b04bf5fb7de20b2275be4222866f6",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

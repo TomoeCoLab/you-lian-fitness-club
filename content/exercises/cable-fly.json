@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "cable-fly",
+    "name": "對向滑輪飛鳥",
+    "bodyParts": [
+      "胸",
+      "肩"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "從身體兩側向前合攏，讓胸肌在全程保持張力。",
+    "instructions": [
+      "兩側滑輪調至相同的肩高位置，各裝單手握把，採穩定前後站姿。",
+      "手肘維持微彎，雙臂以弧線向前合攏。",
+      "胸前短暫停留，再控制回到兩側。"
+    ],
+    "cues": [
+      "軀幹不要前後晃",
+      "肩膀遠離耳朵",
+      "重量不要拉扯肩關節"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 75,
+      "load": "以可維持弧線與平衡的重量開始"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Q32gisfVsls",
+      "watchUrl": "https://www.youtube.com/watch?v=Q32gisfVsls",
+      "title": "對向滑輪",
+      "channel": "東吳大學體育室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.puregym.com/exercises/chest/chest-fly/cable-flyes/",
+    "sourceLabel": "PureGym：肩高滑輪飛鳥"
+  },
+  "definition": {
+    "variation": "站姿肩高對向滑輪飛鳥；雙肘微彎、雙手在胸前合攏，不採高到低或低到高變化。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.puregym.com/exercises/chest/chest-fly/cable-flyes/",
+      "label": "PureGym：肩高滑輪飛鳥",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "肩高雙滑輪、前後站姿",
+        "肘微彎弧線合攏，控制打開到胸部側面"
+      ],
+      "note": "已讀標準肩高版本；不混用頁面高到低與低到高兩種版本。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "3beed51dadcc87130c0382586e650605c283413cd2f19323eca5505ff84f9498",
+      "findings": [
+        "已讀標準肩高版本；不混用頁面高到低與低到高兩種版本。",
+        "份量是本站起始參考，不是來源的個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "3beed51dadcc87130c0382586e650605c283413cd2f19323eca5505ff84f9498",
+      "reviewedImageSha256": "4c86df91f1c28989c36e7970de0f4bd3319377e39cf6b9966fa5e55b06ea43c7",
+      "findings": [
+        "雙側同高滑輪、單手握把、前後站姿，微屈肘弧線合攏再開；圖示高度約肩上緣，需依使用者身高調至肩高，10–15 次 3 組包含本站 12 次。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Q32gisfVsls",
+      "check": {
+        "videoId": "Q32gisfVsls",
+        "seconds": [
+          8,
+          55,
+          65,
+          70
+        ],
+        "observation": "重新核對雙側單握把、前後站姿與胸前弧線合攏；手肘保持微彎，非三頭下壓。"
+      },
+      "findings": [
+        "重新核對雙側單握把、前後站姿與胸前弧線合攏；手肘保持微彎，非三頭下壓。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "3beed51dadcc87130c0382586e650605c283413cd2f19323eca5505ff84f9498",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/Q32gisfVsls",
+            "watchUrl": "https://www.youtube.com/watch?v=Q32gisfVsls",
+            "title": "對向滑輪",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Q32gisfVsls",
+            "check": {
+              "videoId": "Q32gisfVsls",
+              "seconds": [
+                8,
+                70
+              ],
+              "observation": "70 秒可見站姿對向滑輪向身前合攏；不適用划船、臉拉或三頭下壓。"
+            },
+            "findings": [
+              "70 秒可見站姿對向滑輪向身前合攏；不適用划船、臉拉或三頭下壓。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "76793595551c214ff79fb946aa983f474e2e43f2e9707760a86d166c81472e2e"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-cable-fly-zh-tw.png",
+    "sha256": "4c86df91f1c28989c36e7970de0f4bd3319377e39cf6b9966fa5e55b06ea43c7",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "back-extension",
+    "name": "羅馬椅背伸",
+    "bodyParts": [
+      "背",
+      "腿",
+      "核心"
+    ],
+    "equipment": "羅馬椅",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "固定下肢後以髖部控制軀幹，訓練後鏈穩定。",
+    "instructions": [
+      "依機台說明調整大腿墊至髖折處下方，雙腳踩穩踏板、腳踝由固定墊支撐；確認穩固再交叉雙臂。",
+      "收緊腹部，從髖部控制軀幹下降。",
+      "臀部出力回到身體成一直線的位置。",
+      "完成後扶穩把手，依機台方式站回固定踏板再離開，不直接向前翻下。"
+    ],
+    "cues": [
+      "不要過度後仰",
+      "背部保持自然",
+      "先用徒手小範圍"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "徒手熟悉路徑；能穩定控制後再抱輕槓片"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/VdIKtiivPyk?start=80&end=135",
+      "watchUrl": "https://www.youtube.com/watch?v=VdIKtiivPyk&t=80s",
+      "title": "羅馬椅背伸完整教學",
+      "channel": "賴宇恩",
+      "language": "中文"
+    },
+    "sourceUrl": "https://fitnessinstitute.com.au/back-extension/",
+    "sourceLabel": "Fitness Institute：羅馬椅髖部背伸"
+  },
+  "definition": {
+    "variation": "羅馬椅背伸；本項起始設定：調整大腿墊，使髖關節能自由折疊。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://htbs.nchu.edu.tw/about/%E8%A8%93%E7%B7%B4%E6%96%B9%E5%BC%8F/%E6%A9%9F%E6%A2%B0%E5%BC%8F%E8%A8%AD%E5%82%99",
+      "label": "國立中興大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://fitnessinstitute.com.au/back-extension/",
+      "label": "Fitness Institute：羅馬椅髖部背伸",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "腳固定、大腿靠墊",
+        "髖折下降、伸髖返回一線"
+      ],
+      "note": "已讀俯臥羅馬椅版本，並非坐姿配重背伸機；不過度後仰。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "6978b06cc78fa13ba9c97798a4d2990913c7043e58452b47d7eebc8cc8a738a0",
+      "findings": [
+        "已讀俯臥羅馬椅版本，並非坐姿配重背伸機；不過度後仰。",
+        "份量是本站起始參考，不是來源的個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "6978b06cc78fa13ba9c97798a4d2990913c7043e58452b47d7eebc8cc8a738a0",
+      "reviewedImageSha256": "eb59ff484c7285ed8310237e682604bcb1bd8f66de99c54c9729b3df25c4e927",
+      "findings": [
+        "確為羅馬椅髖折背伸而非硬舉；腿部支撐、髖折下放及回到軀幹腿部直線相符，10–15 次 3 組包含本站 12 次。圖不取代上／下機文字。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/VdIKtiivPyk?start=80&end=135",
+      "check": {
+        "videoId": "VdIKtiivPyk",
+        "seconds": [
+          80,
+          105,
+          125
+        ],
+        "start": 80,
+        "end": 135,
+        "observation": "重新核對 80–135 秒為 45 度羅馬椅髖折前傾與回到身體一直線；確實不是硬舉。片名改善疼痛屬原作者表述，本站不將此當作治療承諾。"
+      },
+      "findings": [
+        "重新核對 80–135 秒為 45 度羅馬椅髖折前傾與回到身體一直線；確實不是硬舉。片名改善疼痛屬原作者表述，本站不將此當作治療承諾。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "6978b06cc78fa13ba9c97798a4d2990913c7043e58452b47d7eebc8cc8a738a0",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/VdIKtiivPyk?start=80&end=135",
+            "watchUrl": "https://www.youtube.com/watch?v=VdIKtiivPyk&t=80s",
+            "title": "羅馬椅背伸完整教學",
+            "channel": "賴宇恩",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/VdIKtiivPyk?start=80&end=135",
+            "check": {
+              "videoId": "VdIKtiivPyk",
+              "seconds": [
+                80,
+                105,
+                125
+              ],
+              "start": 80,
+              "end": 135,
+              "observation": "可見斜式羅馬椅支撐骨盆、軀幹前傾與起身。抬起到身體約一直線即可，不模仿過度後仰，也不是地面硬舉。"
+            },
+            "findings": [
+              "可見斜式羅馬椅支撐骨盆、軀幹前傾與起身。抬起到身體約一直線即可，不模仿過度後仰，也不是地面硬舉。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "1fb61d0ec92c432de6bb7a93d364ccce20895ab5d0457887dcf7a93f01c4bece"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-back-extension-zh-tw.png",
+    "sha256": "eb59ff484c7285ed8310237e682604bcb1bd8f66de99c54c9729b3df25c4e927",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

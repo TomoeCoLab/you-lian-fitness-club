@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "chair-hamstring-stretch",
+    "name": "坐姿單腿腿後側伸展",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "坐在椅子上伸展單側腿後肌群，不必坐到地板或摸到腳尖。",
+    "instructions": [
+      "使用不會滑動、沒有輪子的穩固椅子，靠牆固定；地面保持乾燥。",
+      "坐在前半部，一腳伸向前、腳跟著地，另一腳踩穩。",
+      "背部自然，從髖部輕微前傾，雙手放在未伸直那腿的大腿上。",
+      "腿後側輕拉即可，維持 20 秒後坐正換腿。"
+    ],
+    "cues": [
+      "不用伸手摸腳，也不壓住膝蓋。",
+      "不駝背硬拉，膝可微彎；麻或刺痛時停止。"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 20,
+      "restSeconds": 15,
+      "load": "每組一側 20 秒，共 2 組，左右各一次。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wS2lF2QrWJw?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=wS2lF2QrWJw",
+      "title": "坐姿腿後側伸展示範",
+      "channel": "South Tees Hospitals NHS",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.southtees.nhs.uk/resources/hamstring-stretch-2/",
+    "sourceLabel": "South Tees NHS 腿後側伸展"
+  },
+  "definition": {
+    "variation": "坐姿單腿腿後側伸展；本項起始設定：使用不會滑動、沒有輪子的穩固椅子，靠牆固定；地面保持乾燥。",
+    "counting": "每組只保持一側 20 秒；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.southtees.nhs.uk/resources/hamstring-stretch-2/",
+      "label": "South Tees NHS 腿後側伸展",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "穩固椅上單腿伸出",
+        "由髖前傾而非彎腰硬拉",
+        "不彈震"
+      ],
+      "note": "原文未指定 20 秒，本站秒數為起始參考；手的位置與膝微彎是舒適範圍提示。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "5ed8c826fa16c7c439a432f11bfaa6e9f9df20c6ebb495c8317fd6180d0be929",
+      "findings": [
+        "已核對原始來源支持：穩固椅上單腿伸出、由髖前傾而非彎腰硬拉、不彈震。原文未指定 20 秒，本站秒數為起始參考；手的位置與膝微彎是舒適範圍提示。",
+        "本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "5ed8c826fa16c7c439a432f11bfaa6e9f9df20c6ebb495c8317fd6180d0be929",
+      "reviewedImageSha256": "1b6769968837f4192b212547d0427661f3c49efbe7bb6c213990c5b533212031",
+      "findings": [
+        "椅上單腿前伸腳跟著地、手放另一腿且髖前傾，每側 20 秒相符；不壓膝及停止不適的文字可見。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/wS2lF2QrWJw?rel=0",
+      "check": {
+        "videoId": "wS2lF2QrWJw",
+        "seconds": [
+          8,
+          20,
+          37
+        ],
+        "observation": "可見坐椅前緣、單腿伸直與從髖前傾；不是雙腿坐地前彎。"
+      },
+      "findings": [
+        "可見坐椅前緣、單腿伸直與從髖前傾；不是雙腿坐地前彎。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "5ed8c826fa16c7c439a432f11bfaa6e9f9df20c6ebb495c8317fd6180d0be929"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-chair-hamstring-stretch-zh-tw.png",
+    "sha256": "1b6769968837f4192b212547d0427661f3c49efbe7bb6c213990c5b533212031",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create a factual adult exercise education infographic in Traditional Chinese, 4:3. Reference image identifies the adult instructor only; preserve her face haircut blue athletic clothes and shoes. Show full-body side views at a consistent camera distance. Focus on joint alignment and safe beginner movement, with neutral posture and facial expression, no glamour, no body-part closeups, no decorative quotes or slogans. Four numbered educational frames with blue text on light background. 坐姿單腿腿後側伸展. Movement plan: Chair seated singlehamstring stretch, NOTfloorstretch nor footonelevatedchair. Side3quartercamera woman onsolidnonwheeledchair fixedagainstwall. 1 坐穩準備 sitnearfrontbothfeetflat knees90. 2 伸出一腿 onelegextendsforwardHEELground toesup kneealmoststraight notlocked otherlegknee90footfloor. 3 髖部前傾 slightleanfromhips keepinglongneutralspine BOTHHANDS onBENTlegthigh NOTstraightknee, heelremainsfloor. 4 坐正換側 returnuprightbringextendedlegbackbothfeetfloor. Key 不用摸腳，不壓膝蓋／輕拉即可，不駝背硬壓. Reps 每側20秒，各1組. Breath 前傾吐氣，維持自然呼吸.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

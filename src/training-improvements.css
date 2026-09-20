@@ -1,0 +1,91 @@
+/* Shared reading / training controls; intentionally follows the existing monochrome system. */
+.checkout-preserve-note, .training-context-note { padding: 12px 16px; background: #f4f5f3; font-size: 14px; line-height: 1.65; border-left: 3px solid #111; }
+.active-workout-header button { min-height: 44px; padding-inline: 8px; }
+.set-editor--timed .set-editor__heading, .set-editor--timed .set-editor__row { grid-template-columns: 36px minmax(0,1fr) 76px; }
+.set-editor__tools { grid-column: 1 / -1; display: flex; gap: 12px; justify-content: flex-end; }
+.set-editor .set-editor__tools button, .text-action { min-height: 44px; padding: 8px 12px; font-size: 13px; border: 1px solid #ccc; color: #222; background: white; cursor: pointer; }
+.template-save-disclosure { margin-bottom: 20px; border: 1px solid #ccc; }
+.template-save-disclosure summary { min-height: 44px; padding: 12px; cursor: pointer; font-size: 14px; }
+.template-save-disclosure .template-save-panel { margin: 0; border: 0; }
+.diagram-viewer { display: flex; flex-direction: column; }
+.diagram-reading { padding: 8px 20px 28px; overflow: auto; font-size: 17px; line-height: 1.8; }
+.diagram-reading ol { list-style: none; padding: 0; }
+.diagram-reading ol li { padding: 16px; border: 1px solid #ddd; margin: 12px 0; }
+.diagram-reading ol li span { font-size: 14px; font-weight: 800; }
+.diagram-reading ol li p { margin: 8px 0 0; }
+.movement-summary { margin-bottom: 20px; padding: 18px; background: #f4f5f3; font-size: 15px; line-height: 1.7; }
+.movement-summary ul { display: flex; gap: 8px 28px; flex-wrap: wrap; }
+.exercise-detail .exercise-infographic__image-link img { max-height: 470px; }
+.exercise-list-row small, .equipment-card small, .exercise-video__credit a, .exercise-video__credit span, .exercise-infographic__heading span { font-size: 12px; }
+.exercise-browser__heading h1 { font-size: 27px; line-height: 1.3; }
+.exercise-infographic__heading button { min-height: 44px; white-space: nowrap; }
+.sheet-meta, .template-library-note, .template-guidance { font-size: 14px; line-height: 1.7; }
+.progress-stat-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+@media (max-width: 760px) {
+  .exercise-browser__heading { flex-direction: row; align-items: center; }
+  .exercise-infographic__heading { gap: 8px; }
+  .exercise-infographic__heading span { max-width: 190px; }
+  .active-context-actions { gap: 8px; }
+  .active-context-actions button { min-height: 44px; }
+  .training-context-note { margin: 8px 0; }
+}
+.data-management { background: var(--white); width: min(680px, calc(100vw - 24px)); max-height: 90dvh; overflow: auto; padding: 24px; line-height: 1.65; }
+.modal-backdrop:has(.data-management) { position: fixed; inset: 0; z-index: 1500; background: #0009; display: grid; place-items: center; }
+.data-management header { display: flex; justify-content: space-between; align-items: center; }
+.data-management section { border-top: 1px solid var(--line); margin-top: 24px; padding-top: 16px; }
+.data-management button, .backup-import, .favorite-filter, .recent-programs button { min-height: 44px; padding: 10px 14px; border: 1px solid var(--line); background: var(--white); cursor: pointer; }
+.backup-import { display: block; margin-top: 12px; }
+.backup-import input { display: block; margin-top: 8px; width: 100%; }
+.legacy-draft-banner { display: block; width: 100%; padding: 14px; background: var(--active); border: 0; cursor: pointer; }
+.active-workout-main { padding-bottom: 130px; }
+.active-workout-main button, .active-workout-main input { scroll-margin-bottom: 130px; }
+.equipment-guidance, .video-review-notice { padding: 16px; border: 1px solid var(--line); font-size: 14px; line-height: 1.7; margin: 16px 0; }
+.equipment-guidance summary { cursor: pointer; font-weight: 750; min-height: 28px; }
+.equipment-guidance h4 { margin-bottom: 6px; }
+.equipment-guidance p { margin-top: 0; }
+.weekly-plan { padding: 16px; border: 1px solid var(--line); margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+.weekly-plan summary { min-height: 32px; cursor: pointer; font-weight: 750; }
+.weekly-plan > div { display: grid; gap: 12px; }
+.weekly-plan label { display: grid; grid-template-columns: 40px 1fr; gap: 8px; align-items: center; }
+.weekly-plan select { min-width: 0; min-height: 44px; padding: 8px; width: 100%; }
+.recent-programs { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 16px; }
+.favorite-filter { margin-bottom: 16px; }
+.home-training-entry { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 24px clamp(20px, 5vw, 80px); border-bottom: 1px solid var(--line); }
+.home-training-entry p { margin-bottom: 0; color: var(--muted); font-size: 14px; }
+.home-training-entry .primary-button { margin-top: 16px; }
+.home-movement-previews { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: min(650px, 55%); gap: 12px; }
+.home-movement-previews figure { margin: 0; min-width: 0; border: 1px solid #ddd; background: white; }
+.home-movement-previews img { display: block; width: 100%; aspect-ratio: 4/3; object-fit: contain; }
+.home-movement-previews figcaption { padding: 8px; font-size: 14px; font-weight: 700; text-align: center; }
+@media (max-width: 700px) { .home-movement-previews { width: 100%; gap: 8px; } }
+@media (max-width: 700px) { .home-training-entry { align-items: stretch; flex-direction: column; gap: 16px; } .data-management { padding: 18px; } }
+.guide-workflow-actions { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; padding: 12px; }
+.guide-workflow-actions button { display: flex; align-items: center; gap: 12px; padding: 16px; text-align: left; background: white; border: 1px solid #ddd; min-height: 72px; }
+.guide-workflow-actions strong, .guide-workflow-actions small { display: block; }
+.guide-workflow-actions small { color: #666; margin-top: 5px; }
+.guide-workflow-actions button:disabled { opacity: .55; }
+.guide-inline-notice { grid-column: 1 / -1; padding: 12px; background: #fff5d6; border: 1px solid #d4ba71; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.guide-inline-notice button { min-height: 44px; flex-shrink: 0; }
+.movement-collections { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+.movement-collections button { border: 1px solid #ccc; background: white; border-radius: 8px; padding: 8px 10px; min-height: 44px; }
+.movement-collections button[aria-pressed="true"] { background: #202020; color: white; }
+.exercise-list-row { grid-template-columns: minmax(0, 1fr) 44px auto; }
+.movement-favorite { min-width: 44px; min-height: 44px; border: 0; background: transparent; color: #555; }
+.movement-favorite[aria-pressed="true"] { color: #354800; }
+.content-review { margin-block: 16px; padding: 14px; background: #f5f5f2; color: #171717; font-size: 14px; line-height: 1.75; }
+.content-review a { color: #171717; text-decoration: underline; }
+.content-review p:first-child { margin-top: 0; }
+.content-review summary { cursor: pointer; min-height: 44px; padding-top: 8px; }
+.template-save-disclosure { margin: 16px 0; padding: 12px; border: 1px solid #ddd; border-radius: 10px; }
+.template-save-disclosure summary { cursor: pointer; padding: 8px 0; }
+.template-save-disclosure label { display: grid; gap: 8px; flex: 1; min-width: 0; }
+.template-save-disclosure input { min-width: 0; width: 100%; box-sizing: border-box; min-height: 44px; }
+@media (min-width: 761px) and (max-width: 1600px) { .guide-page { grid-template-columns: 340px minmax(0, 1fr); } }
+@media (max-width: 760px) {
+  .guide-workflow-actions { margin-bottom: 18px; gap: 6px; }
+  .guide-workflow-actions button { padding: 10px 8px; display: block; min-height: 82px; }
+  .guide-workflow-actions button > svg { display: none; }
+  .guide-workflow-actions small { font-size: 12px; line-height: 1.5; }
+  .guide-workflow-actions strong { font-size: 15px; }
+  .template-save-panel { flex-direction: column; }
+}

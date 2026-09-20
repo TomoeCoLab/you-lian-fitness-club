@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "glute-bridge",
+    "name": "臀橋",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "仰躺伸髖，啟動臀部並練習骨盆與軀幹控制。",
+    "instructions": [
+      "仰躺屈膝，雙腳約髖寬踩穩地面。",
+      "輕收腹部，臀部出力將髖抬起。",
+      "到肩、髖、膝接近一直線後，控制下降。"
+    ],
+    "cues": [
+      "腳跟保持踩穩",
+      "頂端不要過度拱腰",
+      "感受臀部而非腰部"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 45,
+      "load": "徒手開始，頂端停一秒仍能穩定呼吸"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/iZ611vwxI4I",
+      "watchUrl": "https://www.youtube.com/watch?v=iZ611vwxI4I",
+      "title": "臀橋動作示範",
+      "channel": "Nottingham University Hospitals NHS",
+      "language": "英文",
+      "note": "重新核對仰躺屈膝、雙腳踏實及抬髖保持；非單腳臀橋。影片建議的保持秒數不覆蓋本站動態次數。"
+    },
+    "sourceUrl": "https://www.nuh.nhs.uk/exercise-videos-spine-school",
+    "sourceLabel": "Nottingham NHS 動作影片"
+  },
+  "definition": {
+    "variation": "臀橋；本項起始設定：仰躺屈膝，雙腳約髖寬踩穩地面。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nuh.nhs.uk/exercise-videos-spine-school",
+      "label": "Nottingham NHS 動作影片",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/floor-bridge",
+      "label": "NASM：地板臀橋",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "仰躺屈膝、腳掌支撐",
+        "肩髖膝成線",
+        "控制放下、避免過度拱腰"
+      ],
+      "note": "核對 Setup 至 Return 及常見錯誤；2 組 × 12 次為本站起始參考，不採用來源較長等長停留份量。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "dcfc44e72a965dd15f7557c0f675706d224b24b2657dc765667b1efa0b8c3131",
+      "findings": [
+        "核對 Setup 至 Return 及常見錯誤；2 組 × 12 次為本站起始參考，不採用來源較長等長停留份量。",
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "dcfc44e72a965dd15f7557c0f675706d224b24b2657dc765667b1efa0b8c3131",
+      "reviewedImageSha256": "c46fa8ba605568517b56521f630659662f429e006eb5038a45e1e7ea6a8bf42e",
+      "findings": [
+        "三格完整呈現屈膝準備、抬髖肩髖膝接近直線、骨盆控制放回；雙腳全腳掌支撐，2 組 × 12 次正確。",
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/iZ611vwxI4I",
+      "check": {
+        "videoId": "iZ611vwxI4I",
+        "seconds": [
+          7,
+          15,
+          27
+        ],
+        "observation": "重新核對仰躺屈膝、雙腳踏實及抬髖保持；非單腳臀橋。影片建議的保持秒數不覆蓋本站動態次數。"
+      },
+      "findings": [
+        "重新核對仰躺屈膝、雙腳踏實及抬髖保持；非單腳臀橋。影片建議的保持秒數不覆蓋本站動態次數。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "dcfc44e72a965dd15f7557c0f675706d224b24b2657dc765667b1efa0b8c3131",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/iZ611vwxI4I",
+            "watchUrl": "https://www.youtube.com/watch?v=iZ611vwxI4I",
+            "title": "臀橋動作示範",
+            "channel": "Nottingham University Hospitals NHS",
+            "language": "英文",
+            "note": "已對照醫院原始來源與屈膝、腳掌支撐及抬髖畫面；只參考動作，不套用術前復健處方。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/iZ611vwxI4I",
+            "check": {
+              "videoId": "iZ611vwxI4I",
+              "seconds": [
+                7,
+                15,
+                27
+              ],
+              "observation": "可見仰躺屈膝、腳掌支撐、抬髖；不套用原片的術前復健份量。"
+            },
+            "findings": [
+              "可見仰躺屈膝、腳掌支撐、抬髖；不套用原片的術前復健份量。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "a77ddff9d3a25bd635e6c3d7936f3e48ced3847e1e9ef62a4615be30b8ffe7b7"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-glute-bridge-v2-zh-tw.png",
+    "sha256": "c46fa8ba605568517b56521f630659662f429e006eb5038a45e1e7ea6a8bf42e",
+    "generatedFromContentHash": "4d0cb21b86a0cbde2e694454ca953c138535990ceaed75f7b93bb8ce8609e849",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面，全身及兩脚支撐可見；不抬頭看鏡頭。",
+      "frames": [
+        {
+          "title": "仰躺屈膝",
+          "pose": "Supine head shoulders pelvis on mat, knees bent, both soles flat hip width, arms beside torso palms down; gaze naturally up.",
+          "caption": "雙腳髖寬踩穩，頭與肩放鬆。"
+        },
+        {
+          "title": "抬起髖部",
+          "pose": "Lift pelvis smoothly to a straight diagonal shoulder hip knee line, shoulders and head remain on mat, both feet flat, no lumbar overextension.",
+          "caption": "臀部出力，抬至肩、髖、膝接近一直線。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "Pelvis lowered completely onto mat in identical initial hooklying pose; arms relaxed, no neck lift.",
+          "caption": "緩慢放下髖部，回到起始姿勢。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-glute-bridge-zh-tw.png",
+        "sha256": "c4b6e37da04e134ab98a68362c5507cf38909d7aee0b6621e1feba42c1cf6e38",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "a77ddff9d3a25bd635e6c3d7936f3e48ced3847e1e9ef62a4615be30b8ffe7b7",
+          "reviewedImageSha256": "c4b6e37da04e134ab98a68362c5507cf38909d7aee0b6621e1feba42c1cf6e38",
+          "findings": [
+            "仰躺伸髖可見，但圖印 3–4 組、頁面 2 組；「抬至最高」應改為舒適成線、不追求高度，並補完整落墊回程。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create ONE independent 4:3 photorealistic Traditional Chinese fitness infographic. Input image is approved adult character identity/outfit reference only. Same character, face, proportions, blue outfit and white shoes throughout; light neutral studio, soft light, clear dark slate typography. Natural gaze along head direction, not at camera. No slogans or decorative text. Use exact plan and captions below, with small bottom band for key cues, starting dose and natural breathing. Don't print metadata. Clear coherent pose progression and physically correct supports above all. \n內容版本：4\n來源文字 SHA-256：4d0cb21b86a0cbde2e694454ca953c138535990ceaed75f7b93bb8ce8609e849\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"臀橋\",\n  \"variation\": \"臀橋；本項起始設定：仰躺屈膝，雙腳約髖寬踩穩地面。\",\n  \"subtitle_zh\": \"腿、核心動作指引\",\n  \"intro_zh\": \"仰躺伸髖，啟動臀部並練習骨盆與軀幹控制。\",\n  \"target_areas\": [\n    \"腿\",\n    \"核心\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定正側面，全身及兩脚支撐可見；不抬頭看鏡頭。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"仰躺屈膝\",\n      \"pose_description\": \"Supine head shoulders pelvis on mat, knees bent, both soles flat hip width, arms beside torso palms down; gaze naturally up.\",\n      \"coaching_note_zh\": \"雙腳髖寬踩穩，頭與肩放鬆。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"抬起髖部\",\n      \"pose_description\": \"Lift pelvis smoothly to a straight diagonal shoulder hip knee line, shoulders and head remain on mat, both feet flat, no lumbar overextension.\",\n      \"coaching_note_zh\": \"臀部出力，抬至肩、髖、膝接近一直線。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"控制放回\",\n      \"pose_description\": \"Pelvis lowered completely onto mat in identical initial hooklying pose; arms relaxed, no neck lift.\",\n      \"coaching_note_zh\": \"緩慢放下髖部，回到起始姿勢。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"腳跟保持踩穩\",\n      \"頂端不要過度拱腰\",\n      \"感受臀部而非腰部\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 12 次\",\n      \"一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

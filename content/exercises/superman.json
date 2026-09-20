@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "superman",
+    "name": "俯臥超人式",
+    "bodyParts": [
+      "背",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "俯臥小幅抬起手腳，訓練背側肌群控制。",
+    "instructions": [
+      "俯臥並將手臂向前伸，額頭朝向地面。",
+      "腹部輕收，手腳只抬到背部舒適的位置。",
+      "停一下後緩慢放下，不甩動。"
+    ],
+    "cues": [
+      "頸部保持自然，視線向墊面",
+      "抬高不是重點",
+      "出現腰痛或不適立即停止，不以換抬手腳的方式忍痛繼續"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 45,
+      "load": "徒手小幅度，每次頂端停一秒"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/i17dhEn4_7Y",
+      "watchUrl": "https://www.youtube.com/watch?v=i17dhEn4_7Y",
+      "title": "徒手核心訓練參考",
+      "channel": "World Gym Taiwan",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/9/supermans/",
+    "sourceLabel": "ACE：俯臥超人式"
+  },
+  "definition": {
+    "variation": "俯臥超人式；本項起始設定：俯臥並將手臂向前伸，額頭朝向地面。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670",
+      "label": "Mayo Clinic 肌力訓練原則",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/9/supermans/",
+      "label": "ACE：俯臥超人式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "俯臥雙手前伸",
+        "手腳同步小幅抬起再控制放回",
+        "頭頸自然、不拱腰"
+      ],
+      "note": "核對起始、抬起與放下三階段；僅採小幅度、舒適範圍。本站 2 組 × 10 次不是來源的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "7cd24e9eb8dce1405bace8d8ee7875b7a743b2590b7717572f5c9491f64387af",
+      "findings": [
+        "核對起始、抬起與放下三階段；僅採小幅度、舒適範圍。本站 2 組 × 10 次不是來源的個人處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "7cd24e9eb8dce1405bace8d8ee7875b7a743b2590b7717572f5c9491f64387af",
+      "reviewedImageSha256": "6dfe9013e1683f5b411dc012819af9d26eb79e9758eeb883b4ee38aa4f460d16",
+      "findings": [
+        "三格確認俯臥、雙手雙腿小幅離地及放回；頭頸朝墊面，不抬頭看鏡頭。2 組 × 10 次，疼痛停止提示保留。",
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "舊影片動作不相符，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "1927da42da97130164243f7b9007550e1a66f280fc1af65ccbe560772d9cf6b8"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-superman-v2-zh-tw.png",
+    "sha256": "6dfe9013e1683f5b411dc012819af9d26eb79e9758eeb883b4ee38aa4f460d16",
+    "generatedFromContentHash": "7cd24e9eb8dce1405bace8d8ee7875b7a743b2590b7717572f5c9491f64387af",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面，完整手腳入鏡，頭始終朝墊面。",
+      "frames": [
+        {
+          "title": "俯臥預備",
+          "pose": "Lie prone with both arms straight overhead and legs extended, palms face inward, head neutral facing mat.",
+          "caption": "俯臥手臂前伸，頸部保持自然。"
+        },
+        {
+          "title": "小幅抬起",
+          "pose": "Raise both straight arms and both legs just a few centimetres, pelvis and lower torso remain supported by mat. Neck aligned and gaze down; no high arched back.",
+          "caption": "手腳小幅抬起，不追求高度。"
+        },
+        {
+          "title": "控制放下",
+          "pose": "Lower both arms and legs smoothly to original prone pose. Head remains facing mat.",
+          "caption": "緩慢放回，完成一次動作。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-superman-zh-tw.png",
+        "sha256": "b537cf0d52f1ee5cc8b556f6984b7630b2ac9aa9e1d3a50b9236b5a6d6bb88f5",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "1927da42da97130164243f7b9007550e1a66f280fc1af65ccbe560772d9cf6b8",
+          "reviewedImageSha256": "b537cf0d52f1ee5cc8b556f6984b7630b2ac9aa9e1d3a50b9236b5a6d6bb88f5",
+          "findings": [
+            "小幅俯臥抬起手腳可見，頸位比棒式圖自然；但圖 3 組與頁面 2 組不同，需統一並補不適停止而非忍痛退階。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create ONE independent 4:3 photorealistic Traditional Chinese fitness instruction infographic using approved adult woman reference, consistent face/body/blue outfit/shoes. Light neutral studio, soft light, clear dark slate typography, natural gaze not directed to camera. No slogans or extra decorative diagrams. Exact supplied stages and captions. Add concise summary of cues, stated starting dose (including each side when relevant), natural breathing. No internal metadata. 內容版本：3\n來源文字 SHA-256：7cd24e9eb8dce1405bace8d8ee7875b7a743b2590b7717572f5c9491f64387af\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"俯臥超人式\",\n  \"variation\": \"俯臥超人式；本項起始設定：俯臥並將手臂向前伸，額頭朝向地面。\",\n  \"subtitle_zh\": \"背、核心動作指引\",\n  \"intro_zh\": \"俯臥小幅抬起手腳，訓練背側肌群控制。\",\n  \"target_areas\": [\n    \"背\",\n    \"核心\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定正側面，完整手腳入鏡，頭始終朝墊面。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"俯臥預備\",\n      \"pose_description\": \"Lie prone with both arms straight overhead and legs extended, palms face inward, head neutral facing mat.\",\n      \"coaching_note_zh\": \"俯臥手臂前伸，頸部保持自然。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"小幅抬起\",\n      \"pose_description\": \"Raise both straight arms and both legs just a few centimetres, pelvis and lower torso remain supported by mat. Neck aligned and gaze down; no high arched back.\",\n      \"coaching_note_zh\": \"手腳小幅抬起，不追求高度。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"控制放下\",\n      \"pose_description\": \"Lower both arms and legs smoothly to original prone pose. Head remains facing mat.\",\n      \"coaching_note_zh\": \"緩慢放回，完成一次動作。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"頸部保持自然，視線向墊面\",\n      \"抬高不是重點\",\n      \"出現腰痛或不適立即停止，不以換抬手腳的方式忍痛繼續\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 10 次\",\n      \"一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

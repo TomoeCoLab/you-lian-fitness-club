@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "pec-deck",
+    "name": "蝴蝶機夾胸",
+    "bodyParts": [
+      "胸",
+      "肩"
+    ],
+    "equipment": "蝴蝶機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "以固定弧線完成夾胸，專注胸肌收縮與控制。",
+    "instructions": [
+      "本項採握把式蝴蝶機：調整座椅使握把約在胸口中段，雙腳踩穩；不同肘墊機型不要套用此設定。",
+      "背部貼靠，手肘保持微彎。",
+      "雙臂向前合攏，停一下後慢慢打開。"
+    ],
+    "cues": [
+      "肩膀保持下沉",
+      "不要讓手臂過度向後",
+      "回程仍保持張力"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "選擇肩膀舒適且胸部能控制的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/eGjt4lk6g34",
+      "watchUrl": "https://www.youtube.com/watch?v=eGjt4lk6g34",
+      "title": "蝴蝶機夾胸動作示範",
+      "channel": "PureGym",
+      "language": "英文",
+      "note": "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。"
+    },
+    "sourceUrl": "https://fitnessinstitute.com.au/pec-fly-pin-loaded/",
+    "sourceLabel": "Fitness Institute：握把式蝴蝶機夾胸"
+  },
+  "definition": {
+    "variation": "握把式蝴蝶機夾胸，背部貼靠，雙臂水平合攏；不採肘墊版本。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://fitnessinstitute.com.au/pec-fly-pin-loaded/",
+      "label": "Fitness Institute：握把式蝴蝶機夾胸",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "Life Fitness 握把式機台，座椅高度與胸口相對",
+        "雙臂合攏後控制打開"
+      ],
+      "note": "已讀 Life Fitness Pectoral Fly/Rear Deltoid 教學。此項限定握把版本，不能把肘墊機型設定混在同一步。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f5337b6b4aeaf5e7137697987ea6d12a5672bb53fbd2c515766f80635741ab89",
+      "findings": [
+        "已讀 Life Fitness Pectoral Fly/Rear Deltoid 教學。此項限定握把版本，不能把肘墊機型設定混在同一步。",
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f5337b6b4aeaf5e7137697987ea6d12a5672bb53fbd2c515766f80635741ab89",
+      "reviewedImageSha256": "42a2460ce528c4fa9a0f28c518a87bdba164b83d5352482f038adc67534211b7",
+      "findings": [
+        "已確認採手握把的坐姿飛鳥，不是以肘部壓墊版本；背貼靠、弧線合攏和回程，10–15 次 3 組包含本站 12 次。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/eGjt4lk6g34",
+      "check": {
+        "videoId": "eGjt4lk6g34",
+        "seconds": [
+          3,
+          6,
+          8,
+          9,
+          12
+        ],
+        "observation": "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。"
+      },
+      "findings": [
+        "已核對靠背坐姿、雙手握把、肘微彎向胸前合攏及控制回程。取代肘墊式版本，本站為握把式；調節機構依現場器材。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "f5337b6b4aeaf5e7137697987ea6d12a5672bb53fbd2c515766f80635741ab89",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/vZ3ok2xIsK4",
+            "watchUrl": "https://www.youtube.com/watch?v=vZ3ok2xIsK4",
+            "title": "蝴蝶機",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vZ3ok2xIsK4",
+            "check": {
+              "videoId": "vZ3ok2xIsK4",
+              "seconds": [
+                8,
+                18,
+                33
+              ],
+              "observation": "可見面向前方的蝴蝶機夾胸；不是面向靠墊的反向蝴蝶機。"
+            },
+            "findings": [
+              "可見面向前方的蝴蝶機夾胸；不是面向靠墊的反向蝴蝶機。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "438cdf029f42fc2cf1d72957a7079f612810b885e1de2140dca63c6829c8c734"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-pec-deck-zh-tw.png",
+    "sha256": "42a2460ce528c4fa9a0f28c518a87bdba164b83d5352482f038adc67534211b7",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

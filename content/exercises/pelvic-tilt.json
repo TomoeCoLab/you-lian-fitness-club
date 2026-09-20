@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "pelvic-tilt",
+    "name": "仰躺骨盆前後傾",
+    "bodyParts": [
+      "核心",
+      "背"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "仰躺小幅度轉動骨盆，練習腰腹的溫和控制，不是把臀部抬起。",
+    "instructions": [
+      "仰躺屈膝、雙腳踩墊，頭肩和臀部自然靠墊。",
+      "吐氣，輕輕讓骨盆後傾，下背靠近墊面。",
+      "吸氣回到自然位置，保留舒服的小弧度。",
+      "慢慢重複，不用追求最大的拱腰幅度。"
+    ],
+    "cues": [
+      "臀部不離墊，不做成臀橋。",
+      "出現疼痛或不適時先停止；不要在疼痛中縮小幅度硬做。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 6,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "徒手 6 次，小幅度即可；不適合拿來硬壓疼痛。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/RZi6di5IjW8?start=0&end=28",
+      "watchUrl": "https://www.youtube.com/watch?v=RZi6di5IjW8&t=0s",
+      "title": "仰躺骨盆傾斜示範",
+      "channel": "Nottingham University Hospitals NHS",
+      "language": "英文",
+      "note": "已實際核對屈膝仰躺骨盆前後傾；限定 0–28 秒，不連播末段伸腿。原片停 5 秒及 10–15 次不是本站份量。"
+    },
+    "sourceUrl": "https://www.nuh.nhs.uk/exercise-videos-spine-school",
+    "sourceLabel": "Nottingham NHS 脊椎動作教學"
+  },
+  "definition": {
+    "variation": "仰躺骨盆前後傾；本項起始設定：仰躺屈膝、雙腳踩墊，頭肩和臀部自然靠墊。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 6 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nuh.nhs.uk/exercise-videos-spine-school",
+      "label": "Nottingham NHS 脊椎動作教學",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.southtees.nhs.uk/resources/pelvic-tilt/",
+      "label": "South Tees NHS：仰躺骨盆傾斜",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "仰躺屈膝、胸背放鬆",
+        "小幅骨盆後傾再回自然位置",
+        "持續呼吸"
+      ],
+      "note": "核對原文與 Fig A/B 描述；不照抄最大前傾範圍，不鼓勵用力收腹或憋氣。本站 6 次為起始參考，不是來源處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "1da1a9187c8daf4563ff7add5d4362c2e75bd77b17402c38d7eea079d5570b6c",
+      "findings": [
+        "核對原文與 Fig A/B 描述；不照抄最大前傾範圍，不鼓勵用力收腹或憋氣。本站 6 次為起始參考，不是來源處方。",
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "1da1a9187c8daf4563ff7add5d4362c2e75bd77b17402c38d7eea079d5570b6c",
+      "reviewedImageSha256": "f9e8d210293a40f89ff32d1351f704a8c80532e2e14e661bfd3852dc8a371f6d",
+      "findings": [
+        "骨盆後傾時臀部未離墊，回到自然弧度而非臀橋；6 次 1 組相符。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/RZi6di5IjW8?start=0&end=28",
+      "check": {
+        "videoId": "RZi6di5IjW8",
+        "seconds": [
+          10,
+          18,
+          26
+        ],
+        "start": 0,
+        "end": 28,
+        "observation": "已實際核對屈膝仰躺骨盆前後傾；限定 0–28 秒，不連播末段伸腿。原片停 5 秒及 10–15 次不是本站份量。"
+      },
+      "findings": [
+        "已實際核對屈膝仰躺骨盆前後傾；限定 0–28 秒，不連播末段伸腿。原片停 5 秒及 10–15 次不是本站份量。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "1da1a9187c8daf4563ff7add5d4362c2e75bd77b17402c38d7eea079d5570b6c",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/RZi6di5IjW8?rel=0",
+            "watchUrl": "https://www.youtube.com/watch?v=RZi6di5IjW8",
+            "title": "仰躺骨盆傾斜示範",
+            "channel": "Nottingham University Hospitals NHS",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/RZi6di5IjW8?rel=0",
+            "check": {
+              "videoId": "RZi6di5IjW8",
+              "seconds": [
+                6,
+                13,
+                24
+              ],
+              "observation": "可見仰躺屈膝骨盆控制版本。細小骨盆角度不以單張截圖認證；維持自然呼吸、不硬壓腰部。"
+            },
+            "findings": [
+              "可見仰躺屈膝骨盆控制版本。細小骨盆角度不以單張截圖認證；維持自然呼吸、不硬壓腰部。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "11c78bd1195ee021f73c9f88e8fb76f0f6245b7cb91903a8e7d42286524423dd"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-pelvic-tilt-zh-tw.png",
+    "sha256": "f9e8d210293a40f89ff32d1351f704a8c80532e2e14e661bfd3852dc8a371f6d",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 仰躺骨盆前後傾. MOVEMENT PLAN: Gentle supine pelvic tilts lumbar mobility, NOT bridge/crunch. Low SIDEcamera same matallpanels. Head shoulders andbuttock remain firmlyonmat, kneesbent feetflat, armsbysides. 1 仰躺屈膝 neutral smallnaturallumbarcurve. 2 輕輕後傾 exhaletiltpelvis backward flatten smalllowbackgap WITHOUT liftinghips. 3 回到自然 returnneutralgap NOT exaggeratedarch. 4 緩慢重複 samekneesup restfullying. Add smallcurvearrow nearpelvis only. Key 臀部不離墊／只做小幅度，不用力壓腰. Reps 6次，1組. Breath 後傾吐氣，回復吸氣.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

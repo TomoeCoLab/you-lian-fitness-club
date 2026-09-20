@@ -15,6 +15,9 @@ export type SessionUser = {
 };
 
 export type Exercise = {
+  phase?: "warmup" | "main" | "cooldown";
+  note?: string;
+  exerciseId?: string;
   name: string;
   sets: number;
   weight: number;
@@ -54,6 +57,9 @@ export type CheckinRecord = CheckinInput & {
 };
 
 export type WorkoutTemplateItem = {
+  phase?: "warmup" | "main" | "cooldown";
+  note?: string;
+  entries?: Array<Pick<ExerciseSetEntry, "weight" | "reps" | "durationSeconds">>;
   exerciseId: string;
   exerciseName: string;
   bodyPart: "胸" | "背" | "腿" | "肩" | "手臂" | "核心";

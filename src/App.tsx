@@ -13,6 +13,10 @@ import { HeroCarousel } from "./components/HeroCarousel";
 import { LoginScreen } from "./components/LoginScreen";
 import { StaleWorkoutDialog } from "./components/StaleWorkoutDialog";
 import { TrainingGuide } from "./components/TrainingGuide";
+import { DataManagementDialog } from "./components/DataManagementDialog";
+import guideAssets from "./data/guideAssets.json";
+import { contentReviews } from "./data/contentReviews.generated";
+import { diagramNeedsReplacement } from "./lib/contentAudit";
 import {
   GUEST_MODE_KEY,
   guestUser,
@@ -20,11 +24,13 @@ import {
   loadGuestMonth,
   saveGuestCheckin,
   setGuestReaction,
+  revokeGuestPhotoUrls,
 } from "./lib/guestStore";
 import { createGuestTemplate, deleteGuestTemplate, loadGuestTemplates } from "./lib/templateStore";
-import { clearWorkout, loadWorkout, saveWorkout } from "./lib/workoutStore";
+import { clearWorkout, emptyWorkout, loadWorkout, saveWorkout } from "./lib/workoutStore";
+import { remainingWorkout } from "./lib/workoutPlan";
 import { loadCustomExercises, saveCustomExercise } from "./lib/customExerciseStore";
-import type { WorkoutDraft } from "./types";
+import type { ProgressOverview, WorkoutDraft } from "./types";
 
 type View = "calendar" | "activity" | "guide";
 type Session = { kind: "discord" | "guest"; user: User };
@@ -49,16 +55,27 @@ function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [view, setView] = useState<View>(() => viewFromHash());
   const [toast, setToast] = useState<string | null>(null);
-  const [workout, setWorkout] = useState<WorkoutDraft>(() => loadWorkout());
+  const [workout, setWorkout] = useState<WorkoutDraft>(emptyWorkout);
+  const storageScope = session?.kind === "discord" ? `discord:${session.user.id}` : "guest";
   const [drawerPrefill, setDrawerPrefill] = useState<CheckinDraft | null>(null);
   const [checkoutFromWorkout, setCheckoutFromWorkout] = useState(false);
   const [staleWorkoutOpen, setStaleWorkoutOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
+  const [dataOpen, setDataOpen] = useState(false);
   const [templates, setTemplates] = useState<WorkoutTemplate[]>([]);
   const [customExercises, setCustomExercises] = useState<CustomExercise[]>([]);
   const [progressHistory, setProgressHistory] = useState<Checkin[]>([]);
+  const [progressOverview, setProgressOverview] = useState<ProgressOverview | null>(null);
   const [guideDataLoading, setGuideDataLoading] = useState(false);
   const profileRef = useRef<HTMLDivElement>(null);
+  const calendarRequest = useRef(0);
+  const guideRequest = useRef(0);
+  const activateSession = (next: Session) => {
+    calendarRequest.current++; guideRequest.current++;
+    setCheckins([]); setProgressHistory([]); setTemplates([]); setCustomExercises([]); setProgressOverview(null);
+    setWorkout(loadWorkout(next.kind === "discord" ? `discord:${next.user.id}` : "guest"));
+    setSession(next);
+  };
 
   const bootstrap = useCallback(() => {
     setLoading(true);
@@ -74,14 +91,14 @@ function App() {
         setConfig(appConfig);
         if (me?.user) {
           localStorage.removeItem(GUEST_MODE_KEY);
-          setSession({ kind: "discord", user: me.user });
+          activateSession({ kind: "discord", user: me.user });
         } else if (localStorage.getItem(GUEST_MODE_KEY) === "true") {
-          setSession({ kind: "guest", user: guestUser });
+          activateSession({ kind: "guest", user: guestUser });
         }
       }).catch(() => {
         if (!navigator.onLine && localStorage.getItem(GUEST_MODE_KEY) === "true") {
           setConfig({ configured: false, demo: false, guildId: "", channelId: "" });
-          setSession({ kind: "guest", user: guestUser });
+          activateSession({ kind: "guest", user: guestUser });
         } else setStartupError(true);
       })
       .finally(() => setLoading(false));
@@ -120,18 +137,20 @@ function App() {
 
   const loadCalendar = useCallback(async (activeMonth: Date) => {
     if (!session) return;
+    const requestId = ++calendarRequest.current;
     setCalendarLoading(true);
     try {
       const activeMonthKey = monthKey(activeMonth);
       const records = session.kind === "guest"
         ? await loadGuestMonth(activeMonthKey)
         : (await api.calendar(activeMonthKey)).checkins;
-      setCheckins(records);
+      if (requestId === calendarRequest.current) setCheckins(records);
+      else if (session.kind === "guest") revokeGuestPhotoUrls(records);
     } catch {
       setToast("月曆載入失敗，請稍後再試。");
       window.setTimeout(() => setToast(null), 3800);
     } finally {
-      setCalendarLoading(false);
+      if (requestId === calendarRequest.current) setCalendarLoading(false);
     }
   }, [session]);
 
@@ -141,23 +160,28 @@ function App() {
 
   const loadGuideData = useCallback(async () => {
     if (!session) return;
+    const requestId = ++guideRequest.current;
     setGuideDataLoading(true);
     try {
       if (session.kind === "guest") {
+        setProgressOverview(null);
         setTemplates(loadGuestTemplates());
         setCustomExercises(loadCustomExercises());
-        setProgressHistory(await loadGuestHistory());
+        const records = await loadGuestHistory();
+        if (requestId === guideRequest.current) setProgressHistory(records); else revokeGuestPhotoUrls(records);
       } else {
         const [templateResult, progressResult, customResult] = await Promise.all([api.templates(), api.progress(), api.customExercises()]);
+        if (requestId !== guideRequest.current) return;
         setTemplates(templateResult.templates);
         setCustomExercises(customResult.exercises);
         setProgressHistory(progressResult.checkins);
+        setProgressOverview(progressResult.overview);
       }
     } catch {
       setToast("課表與進度暫時載入失敗。");
       window.setTimeout(() => setToast(null), 3800);
     } finally {
-      setGuideDataLoading(false);
+      if (requestId === guideRequest.current) setGuideDataLoading(false);
     }
   }, [session]);
 
@@ -261,18 +285,21 @@ function App() {
       ? { ...(await saveGuestCheckin(draft, photo)), notificationQueued: false }
       : await api.saveCheckin(draft, photo);
     setCheckins((current) => {
-      return [...current, result.record].sort(
+      return [...current.filter(record => record.id !== result.record.id), result.record].sort(
         (a, b) => a.date.localeCompare(b.date) || a.createdAt.localeCompare(b.createdAt),
       );
     });
     if (checkoutFromWorkout) {
-      setWorkout(clearWorkout());
+      const remaining = remainingWorkout(workout, new Date().toISOString(), new Set(result.record.exercises.flatMap(exercise => exercise.entries?.map(entry => entry.id) ?? [])));
+      if (remaining.items.length) updateWorkout(remaining);
+      else setWorkout(clearWorkout(storageScope));
       setCheckoutFromWorkout(false);
       setDrawerPrefill(null);
     }
     setDrawerOpen(false);
+    void loadGuideData();
     setToast(
-      session.kind === "guest"
+      !result.created ? "確認先前打卡已保存，沒有重複新增。未送出的組數仍保留。" : session.kind === "guest"
         ? "已新增一場訓練並保存在這個瀏覽器。"
         : result.notificationQueued
         ? "已新增一場訓練，Discord 通知已排入發送。"
@@ -285,8 +312,8 @@ function App() {
     const today = todayKey();
     const startingFresh = workout.items.length === 0 && next.items.length > 0 && next.workoutDate !== today;
     const normalized = startingFresh ? { ...next, workoutDate: today, startedAt: new Date().toISOString() } : next;
-    setWorkout(normalized);
-    saveWorkout(normalized);
+    try { saveWorkout(normalized, storageScope); setWorkout(normalized); return true; }
+    catch { setToast("瀏覽器儲存空間不足，這次訓練變更未保存。請先備份資料。"); return false; }
   };
 
   const prepareWorkoutCheckout = (targetDate: string, useLastUpdateAsEnd: boolean) => {
@@ -296,6 +323,9 @@ function App() {
       const last = entries.at(-1);
       return {
         name: item.exerciseName,
+        phase: item.phase,
+        note: item.note,
+        exerciseId: item.exerciseId,
         sets: entries.length,
         weight: last?.weight ?? 0,
         reps: last?.reps ?? 1,
@@ -307,19 +337,25 @@ function App() {
       window.setTimeout(() => setToast(null), 3800);
       return;
     }
-    const started = new Date(workout.startedAt).getTime();
+    const started = workout.trainingStartedAt ? new Date(workout.trainingStartedAt).getTime() : NaN;
     const lastUpdate = new Date(workout.updatedAt).getTime();
     const ended = useLastUpdateAsEnd && Number.isFinite(lastUpdate) ? lastUpdate : Date.now();
     const durationMinutes = Number.isFinite(started) ? Math.min(1440, Math.max(1, Math.round((ended - started) / 60_000))) : null;
     const target = dateFromKey(targetDate);
     setMonth(new Date(target.getFullYear(), target.getMonth(), 1));
     setSelectedDate(targetDate);
+    const submissionId = workout.checkoutRequestId ?? crypto.randomUUID();
+    if (!updateWorkout({ ...workout, checkoutRequestId: submissionId })) return;
+    const savedDraft = localStorage.getItem(`you-lian:checkin-draft:v1:${storageScope}`);
+    let pendingDraft: CheckinDraft | null = null;
+    try { const parsed = JSON.parse(savedDraft ?? "null"); if (parsed?.submissionId === submissionId) pendingDraft = parsed; } catch { /* Ignore invalid local draft. */ }
     setDrawerPrefill({
+      submissionId,
       date: targetDate,
       mode: "detailed",
-      workoutType: "YOU LIAN 指引訓練",
-      durationMinutes,
-      note: null,
+      workoutType: pendingDraft?.workoutType ?? "YOU LIAN 指引訓練",
+      durationMinutes: pendingDraft?.durationMinutes ?? durationMinutes,
+      note: pendingDraft?.note ?? null,
       exercises: items,
     });
     setCheckoutFromWorkout(true);
@@ -344,8 +380,7 @@ function App() {
   const openDetailedWorkout = () => {
     closeDrawer();
     navigate("guide");
-    setToast(workout.items.length ? "已回到今日訓練，可繼續完成組數。" : "請選擇課表、既有動作或建立自訂動作。");
-    window.setTimeout(() => setToast(null), 3800);
+    setToast(null);
   };
 
   const finishPreviousWorkout = () => {
@@ -354,7 +389,7 @@ function App() {
   };
 
   const startTodayWorkout = () => {
-    const empty = clearWorkout();
+    const empty = clearWorkout(storageScope);
     setWorkout(empty);
     setStaleWorkoutOpen(false);
     navigate("guide");
@@ -369,11 +404,13 @@ function App() {
   };
 
   const logout = async () => {
+    calendarRequest.current++; guideRequest.current++;
     if (session?.kind === "guest") {
       localStorage.removeItem(GUEST_MODE_KEY);
       setCheckins([]);
       setView("calendar");
       setSession(null);
+      setWorkout(emptyWorkout());
       return;
     }
     await api.logout();
@@ -383,7 +420,7 @@ function App() {
   const enterGuestMode = () => {
     localStorage.setItem(GUEST_MODE_KEY, "true");
     setView("calendar");
-    setSession({ kind: "guest", user: guestUser });
+    activateSession({ kind: "guest", user: guestUser });
   };
 
   if (startupError) return <div className="app-loading app-loading--error"><Brand /><X size={28} /><strong>目前無法載入 YOU LIAN</strong><span>請確認網路後再試一次。</span><button className="primary-button" onClick={bootstrap}>重新嘗試</button></div>;
@@ -408,14 +445,16 @@ function App() {
             <button className="profile-trigger" onClick={() => setProfileOpen((current) => !current)} aria-expanded={profileOpen} aria-haspopup="menu">
               <Avatar user={user} /><span>{localOnly ? "訪客 · 本機" : user.displayName}</span><ChevronDown size={16} />
             </button>
-            {profileOpen ? <div className="profile-menu" role="menu"><div><Avatar user={user} /><span><strong>{localOnly ? "訪客模式" : user.displayName}</strong><small>{localOnly ? "資料只在此瀏覽器" : "Discord 伺服器成員"}</small></span></div><button role="menuitem" onClick={() => void logout()}><LogOut size={18} />{localOnly ? "離開訪客模式" : "登出"}</button></div> : null}
+            {profileOpen ? <div className="profile-menu" role="menu"><div><Avatar user={user} /><span><strong>{localOnly ? "訪客模式" : user.displayName}</strong><small>{localOnly ? "資料只在此瀏覽器" : "Discord 伺服器成員"}</small></span></div><button role="menuitem" onClick={() => { setProfileOpen(false); setDataOpen(true); }}>資料備份與通知</button><button role="menuitem" onClick={() => void logout()}><LogOut size={18} />{localOnly ? "離開訪客模式" : "登出"}</button></div> : null}
           </div>
         </div>
       </header>
+      {loadWorkout("unclaimed").items.length > 0 && workout.items.length === 0 ? <button className="legacy-draft-banner" onClick={() => setDataOpen(true)}>找到舊版訓練草稿，請確認身分後恢復</button> : null}
 
       {view === "calendar" ? (
         <main>
           <HeroCarousel />
+          <section className="home-training-entry"><div><strong>在家活動，也能記錄。</strong><p>從居家肌力、核心活動到熱身與收尾，依今天的狀態選擇。</p><button className="primary-button" onClick={() => navigate("guide")}>挑選課表與動作</button></div><div className="home-movement-previews">{([{ id: "chair-sit-to-stand", name: "居家肌力" }, { id: "heel-slide", name: "核心控制" }, { id: "seated-neck-rotation", name: "溫和活動" }] as const).filter(item => !diagramNeedsReplacement(contentReviews[item.id])).map(item => <figure key={item.id}><img src={guideAssets[item.id].preview} alt="" loading="lazy" /><figcaption>{item.name}</figcaption></figure>)}</div></section>
           <div className={`workspace${calendarLoading ? " workspace--loading" : ""}`}>
             <Calendar
               month={month}
@@ -430,7 +469,7 @@ function App() {
           </div>
         </main>
       ) : view === "activity" ? <main><FriendFeed month={month} checkins={checkins} localOnly={localOnly} onReact={updateReaction} onPreviousMonth={() => changeMonth(-1)} onNextMonth={() => changeMonth(1)} onToday={showCurrentActivityMonth} /></main> : (
-        <TrainingGuide workout={workout} templates={templates} history={progressHistory} dataLoading={guideDataLoading} customExercises={customExercises} onCreateCustomExercise={createCustomExercise} onWorkoutChange={updateWorkout} onCheckout={checkoutWorkout} onSaveTemplate={saveTemplate} onDeleteTemplate={removeTemplate} />
+        <TrainingGuide key={storageScope} storageScope={storageScope} workout={workout} templates={templates} history={progressHistory} overview={progressOverview} dataLoading={guideDataLoading} customExercises={customExercises} onCreateCustomExercise={createCustomExercise} onWorkoutChange={updateWorkout} onCheckout={checkoutWorkout} onSaveTemplate={saveTemplate} onDeleteTemplate={removeTemplate} />
       )}
 
       <footer className="site-footer"><span className="discord-symbol" aria-hidden="true">●●</span><span>{localOnly ? "訪客模式 · 資料只保存在這個瀏覽器" : "只顯示「今天有練」伺服器成員的動態"}</span></footer>
@@ -439,7 +478,8 @@ function App() {
         <button className={view === "activity" ? "mobile-nav__button mobile-nav__button--active" : "mobile-nav__button"} onClick={() => navigate("activity")} aria-current={view === "activity" ? "page" : undefined}>{localOnly ? <NotebookTabs size={20} /> : <Users size={20} />}<span>{localOnly ? "我的紀錄" : "好友動態"}</span></button>
         <button className={view === "guide" ? "mobile-nav__button mobile-nav__button--active" : "mobile-nav__button"} onClick={() => navigate("guide")} aria-current={view === "guide" ? "page" : undefined}><Dumbbell size={20} /><span>健身指引</span></button>
       </nav>
-      {drawerOpen ? <CheckinDrawer date={selectedDate} prefill={drawerPrefill} onClose={closeDrawer} onSave={save} localOnly={localOnly} onDetailedRequested={openDetailedWorkout} /> : null}
+      {drawerOpen ? <CheckinDrawer storageScope={storageScope} date={selectedDate} prefill={drawerPrefill} onClose={closeDrawer} onSave={save} localOnly={localOnly} onDetailedRequested={openDetailedWorkout} /> : null}
+      {dataOpen ? <DataManagementDialog localOnly={localOnly} workout={workout} onRestore={draft => { saveWorkout(draft, storageScope); setWorkout(draft); }} onRefresh={() => { setWorkout(loadWorkout(storageScope)); void loadCalendar(month); void loadGuideData(); }} onClose={() => setDataOpen(false)} /> : null}
       {staleWorkoutOpen ? <StaleWorkoutDialog date={workout.workoutDate} completedSets={completedWorkoutSets} onFinishPrevious={finishPreviousWorkout} onStartToday={startTodayWorkout} onClose={() => setStaleWorkoutOpen(false)} /> : null}
       {toast ? <div className="toast" role="status"><Check size={18} strokeWidth={3} />{toast}</div> : null}
     </div>

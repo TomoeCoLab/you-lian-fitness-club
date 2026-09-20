@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "seated-forward-fold",
+    "name": "坐姿腿後側伸展",
+    "bodyParts": [
+      "腿",
+      "背"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "以坐姿髖折疊伸展腿後側，不以摸到腳尖為目標。",
+    "instructions": [
+      "坐在折疊毛巾上，雙腿向前並保持微彎。",
+      "背部拉長，從髖部向前傾。",
+      "雙手放在大腿或小腿，停在溫和拉感處。",
+      "停留後以手輕扶腿部，緩慢回到坐直；雙腿一起伸展，不另外計每側。"
+    ],
+    "cues": [
+      "不必碰到腳尖",
+      "膝下可墊枕頭",
+      "不要圓背硬拉或彈震"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 30,
+      "restSeconds": 15,
+      "load": "停留 20–30 秒；緊繃但不疼痛即可"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg",
+      "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg",
+      "title": "睡前 10 分鐘全身伸展放鬆",
+      "channel": "啾c物理治療師",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.yogaeasy.com/artikel/seated-forward-bend",
+    "sourceLabel": "YogaEasy 坐姿前彎（原 EkhartYoga）"
+  },
+  "definition": {
+    "variation": "坐姿腿後側伸展；本項起始設定：坐在折疊毛巾上，雙腿向前並保持微彎。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 30 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=825&pid=14211",
+      "label": "衛生福利部國民健康署",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.yogaeasy.com/artikel/seated-forward-bend",
+      "label": "YogaEasy 坐姿前彎（原 EkhartYoga）",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "髖折疊、頸椎沿脊椎方向、可屈膝與墊高坐姿"
+      ],
+      "note": "本站採溫和退階與自訂份量，不是來源的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "0e8d5283c145fedec2a6bdc6408c2cd7c56896f47c26e865db3a436e6ea68ada",
+      "internalReviewedAt": "2026-09-20",
+      "findings": [
+        "已核對：髖折疊、頸椎沿脊椎方向、可屈膝與墊高坐姿。",
+        "不要求摸脚或加深幅度。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "0e8d5283c145fedec2a6bdc6408c2cd7c56896f47c26e865db3a436e6ea68ada",
+      "reviewedImageSha256": "613f3177a3eacf5ef3cbda06ce57b183374f3d581b3f44661950603a8a5a9e41",
+      "findings": [
+        "重新檢視四格：坐穩拉長軀幹、髖部前傾、雙手輕放腿部不拉腳、緩慢回坐直；雙腿同時 30 秒、兩組一致。",
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "bd57902f7d084e8d56be75aa74246f24718daeb541a78980a4e06f3ce2a0bc5c"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-seated-forward-fold-v2-zh-tw.png",
+    "sha256": "613f3177a3eacf5ef3cbda06ce57b183374f3d581b3f44661950603a8a5a9e41",
+    "generatedFromContentHash": "0e8d5283c145fedec2a6bdc6408c2cd7c56896f47c26e865db3a436e6ea68ada",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側面略前三分之四，保留男性角色；頸部隨軀幹方向。",
+      "frames": [
+        {
+          "title": "坐穩準備",
+          "pose": "Sit on folded towel both legs forward knees slightly bent, hands thighs.",
+          "caption": "雙腿同時前伸，膝蓋可微彎。"
+        },
+        {
+          "title": "拉長軀幹",
+          "pose": "Lengthen upright spine without craning head back.",
+          "caption": "先坐高，不急著向下。"
+        },
+        {
+          "title": "髖部前傾",
+          "pose": "Hinge forward slightly from hips, hands on shins not pulling feet, neck aligned with torso gaze floor ahead.",
+          "caption": "停在溫和拉感，不追著摸腳。"
+        },
+        {
+          "title": "緩慢回正",
+          "pose": "Return to tall seated same initialposition, knees soft.",
+          "caption": "保持三十秒後，慢慢坐直。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-seated-forward-fold-zh-tw.png",
+        "sha256": "1c60907c81eb7bbf02855f53a0820fcdcef3df579758e0048a58846cdb154ab2",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "bd57902f7d084e8d56be75aa74246f24718daeb541a78980a4e06f3ce2a0bc5c",
+          "reviewedImageSha256": "1c60907c81eb7bbf02855f53a0820fcdcef3df579758e0048a58846cdb154ab2",
+          "findings": [
+            "圖為雙腿同時前伸，卻寫「每側 1 回」；計數矛盾。需改雙側同時保持的秒數，頭頸沿背部自然方向，不追摸腳。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖-男.png",
+        "sha256": "2000c9cb93e4117acc03549e42c6e1519f00b812c9e26e5640f69316ea1889d8"
+      },
+      "prompt": "Keep male character/layout. Remove 每側1回、可重複2–3組, replace 雙腿同時保持30秒，共2組. In leaning frames neck follows long back line, look diagonally down not head tiltedup. Hands rest on shins not grasping toes. Fourthframe must return to upright sitting. Keep knees slightlybent and foldedtowel. No slogans.\nUse approved input image as character reference. Precise canonical brief follows; don't print metadata.\n內容版本：3\n來源文字 SHA-256：0e8d5283c145fedec2a6bdc6408c2cd7c56896f47c26e865db3a436e6ea68ada\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"坐姿腿後側伸展\",\n  \"variation\": \"坐姿腿後側伸展；本項起始設定：坐在折疊毛巾上，雙腿向前並保持微彎。\",\n  \"subtitle_zh\": \"腿、背動作指引\",\n  \"intro_zh\": \"以坐姿髖折疊伸展腿後側，不以摸到腳尖為目標。\",\n  \"target_areas\": [\n    \"腿\",\n    \"背\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定側面略前三分之四，保留男性角色；頸部隨軀幹方向。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"坐穩準備\",\n      \"pose_description\": \"Sit on folded towel both legs forward knees slightly bent, hands thighs.\",\n      \"coaching_note_zh\": \"雙腿同時前伸，膝蓋可微彎。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"拉長軀幹\",\n      \"pose_description\": \"Lengthen upright spine without craning head back.\",\n      \"coaching_note_zh\": \"先坐高，不急著向下。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"髖部前傾\",\n      \"pose_description\": \"Hinge forward slightly from hips, hands on shins not pulling feet, neck aligned with torso gaze floor ahead.\",\n      \"coaching_note_zh\": \"停在溫和拉感，不追著摸腳。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"緩慢回正\",\n      \"pose_description\": \"Return to tall seated same initialposition, knees soft.\",\n      \"coaching_note_zh\": \"保持三十秒後，慢慢坐直。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"不必碰到腳尖\",\n      \"膝下可墊枕頭\",\n      \"不要圓背硬拉或彈震\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 30 秒\",\n      \"每組以實際維持或活動的秒數記錄，預設 30 秒；休息不計入。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n",
+      "inputImage": "C:/Users/tomoe/Documents/ChatGPT/健身打卡網站/public/exercise-guides/skill-final/fitness-seated-forward-fold-zh-tw.png"
+    }
+  }
+}

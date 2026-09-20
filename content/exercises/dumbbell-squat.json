@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "dumbbell-squat",
+    "name": "高腳杯深蹲",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "將啞鈴靠近胸口，練習更直立且穩定的負重深蹲。",
+    "instructions": [
+      "雙手托住一顆啞鈴並靠近胸口。",
+      "收緊腹部，髖與膝同時彎曲下蹲。",
+      "腳掌踩穩，吐氣站起。"
+    ],
+    "cues": [
+      "重量貼近身體",
+      "膝蓋與腳尖同向",
+      "先穩定再增加重量"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "選擇能保留約 2 次餘力的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+      "title": "新手下半身器械與深蹲教學",
+      "channel": "May Fit",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/squat/vid-20084682",
+    "sourceLabel": "Mayo Clinic 動作影片"
+  },
+  "definition": {
+    "variation": "高腳杯深蹲；本項起始設定：雙手托住一顆啞鈴並靠近胸口。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/squat/vid-20084682",
+      "label": "Mayo Clinic 動作影片",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/goblet-squat",
+      "label": "NASM：高腳杯深蹲",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "雙手持單一啞鈴於胸前",
+        "髖膝彎曲、重量靠近身體",
+        "控制站回"
+      ],
+      "note": "採單顆啞鈴版，不混入雙啞鈴或壺鈴；深度依可控制範圍。本站份量不是來源個人化處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "1b3ac00ae3e4e9eccedbdd91c6b33fca4e8d6c0bd4abaf407cc00b70e5e05344",
+      "findings": [
+        "採單顆啞鈴版，不混入雙啞鈴或壺鈴；深度依可控制範圍。本站份量不是來源個人化處方。",
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "1b3ac00ae3e4e9eccedbdd91c6b33fca4e8d6c0bd4abaf407cc00b70e5e05344",
+      "reviewedImageSha256": "1399b71197decbdb4e02f5a4f28ecfc346e0cb167a155b1b016300cc3c62bba2",
+      "findings": [
+        "一顆啞鈴胸前雙手托持，蹲下與回站一致；圖示 10–12 次 3 組包含本站 10 次 3 組。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "c62f9a8847f202d1a91bd1e2fe3a35ca5af563c87df0324aa9d17d7fa5e48d1e"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-squat-zh-tw.png",
+    "sha256": "1399b71197decbdb4e02f5a4f28ecfc346e0cb167a155b1b016300cc3c62bba2",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

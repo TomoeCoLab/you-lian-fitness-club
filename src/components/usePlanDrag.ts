@@ -37,6 +37,12 @@ export function usePlanDrag(onMove: (from: number, to: number) => void) {
     onPointerDown: (event: PointerEvent<HTMLButtonElement>) => start(event, index),
     onPointerMove: (event: PointerEvent<HTMLButtonElement>) => { const current = state.current; if (!current) return; current.y = event.clientY; if (!current.active && Math.abs(current.y - current.startY) > 10) finish(false); },
     onPointerUp: () => finish(true), onPointerCancel: () => finish(false), onLostPointerCapture: () => finish(false),
-    onKeyDown: (event: React.KeyboardEvent<HTMLButtonElement>) => { if (event.key === "Escape") finish(false); },
+    onKeyDown: (event: React.KeyboardEvent<HTMLButtonElement>) => {
+      if (event.key === "Escape") finish(false);
+      if (event.altKey && (event.key === "ArrowUp" || event.key === "ArrowDown")) {
+        event.preventDefault(); onMove(index, index + (event.key === "ArrowUp" ? -1 : 1));
+      }
+    },
+    title: "長按拖曳；鍵盤可用 Alt + 上下方向鍵排序",
   }) };
 }

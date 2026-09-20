@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "incline-dumbbell-press",
+    "name": "上斜啞鈴胸推",
+    "bodyParts": [
+      "胸",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "以較高椅背角度進行推舉，偏重上胸與前三角肌。",
+    "instructions": [
+      "椅背調至約 30–45 度，雙腳踩穩。",
+      "啞鈴位於胸口上方兩側，前臂接近垂直。",
+      "平順推起，再控制下降到肩膀舒適的深度。"
+    ],
+    "cues": [
+      "肩胛穩定貼靠",
+      "手腕疊在手肘上",
+      "不要把椅背調得過直"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "先比平板胸推使用更輕的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
+      "watchUrl": "https://www.youtube.com/watch?v=8IdQTpwJD-A&t=10s",
+      "title": "上斜啞鈴胸推片段",
+      "channel": "東吳大學體育室",
+      "language": "中文",
+      "note": "已對照上斜靠背與屈肘推舉畫面；內嵌限定 00:10–00:30，原影片後段另有擴胸，不是本項動作。"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/two-arm-incline-dumbbell-chest-press",
+    "sourceLabel": "NASM：雙手上斜啞鈴胸推"
+  },
+  "definition": {
+    "variation": "上斜啞鈴胸推；本項起始設定：椅背調至約 30–45 度，雙腳踩穩。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/two-arm-incline-dumbbell-chest-press",
+      "label": "NASM：雙手上斜啞鈴胸推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "上斜靠背、雙脚踩地",
+        "兩顆啞鈴同步推起",
+        "控制回到胸側"
+      ],
+      "note": "來源示範 45 度並提醒過陡會增加肩部主導；本站約 30–45 度、只降到舒適深度，不強迫固定深度。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75",
+      "findings": [
+        "來源示範 45 度並提醒過陡會增加肩部主導；本站約 30–45 度、只降到舒適深度，不強迫固定深度。",
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75",
+      "reviewedImageSha256": "88985409c7c991a8cb4bf7f4b2b86c5868b8e04ea07215bdbad72964ce4c52f4",
+      "findings": [
+        "重新檢視三格：低上斜椅背、頭背均有支撐，雙啞鈴由胸側上推再回程；3 組 10 次一致。圖像不能量測精確椅背角度，以文字 30–45 度及現場刻度為準。",
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
+      "check": {
+        "videoId": "8IdQTpwJD-A",
+        "seconds": [
+          12,
+          18,
+          24,
+          29
+        ],
+        "start": 10,
+        "end": 30,
+        "observation": "重新核對 10–30 秒上斜長椅雙啞鈴推胸；後半為擴胸，不納入示範區間。"
+      },
+      "findings": [
+        "重新核對 10–30 秒上斜長椅雙啞鈴推胸；後半為擴胸，不納入示範區間。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
+            "watchUrl": "https://www.youtube.com/watch?v=8IdQTpwJD-A&t=10s",
+            "title": "上斜啞鈴胸推片段",
+            "channel": "東吳大學體育室",
+            "language": "中文",
+            "note": "已對照上斜靠背與屈肘推舉畫面；內嵌限定 00:10–00:30，原影片後段另有擴胸，不是本項動作。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/8IdQTpwJD-A?start=10&end=30",
+            "check": {
+              "videoId": "8IdQTpwJD-A",
+              "seconds": [
+                8,
+                14,
+                20,
+                37
+              ],
+              "start": 10,
+              "end": 30,
+              "observation": "內嵌限 00:10–00:30 上斜推舉；原片後段另有擴胸，不是本項動作。"
+            },
+            "findings": [
+              "內嵌限 00:10–00:30 上斜推舉；原片後段另有擴胸，不是本項動作。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "a13f48afb48818c2b94e6854ed65808d7a17a5dab4737f62344f4e0075b3a6f1"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-incline-dumbbell-press-v2-zh-tw.png",
+    "sha256": "88985409c7c991a8cb4bf7f4b2b86c5868b8e04ea07215bdbad72964ce4c52f4",
+    "generatedFromContentHash": "58d9f7d6cf9ee2176abfef08baff8d50e4656b5eb0232204b19d2f1558c04c75",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略前三分之四，靠背與地面的約四十五度夾角清楚，不畫成接近直立。",
+      "frames": [
+        {
+          "title": "靠穩準備",
+          "pose": "Sit on adjustable bench with backrest exactly45 degrees relative floor and seat level. Head upper back butt supported, feet flat. Hold two dumbbells at upper chest sides with wrists above elbows, upper arms angled forward of torso.",
+          "caption": "靠背約三十至四十五度，雙腳踩穩。"
+        },
+        {
+          "title": "平順推起",
+          "pose": "Same45 degree bench, extend both elbows to press dumbbells above upper chest, forearms vertical, not beyond head; avoid elbow hyperextension and lumbar arch.",
+          "caption": "雙手同步推起，不甩動、不拱腰。"
+        },
+        {
+          "title": "控制下放",
+          "pose": "Return dumbbells to identical starting upper chest-side position, lower only comfortable depth, stable neutral wrists.",
+          "caption": "控制回到胸側，肩膀不過度向後。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-incline-dumbbell-press-zh-tw.png",
+        "sha256": "80fbb47c1177fb4d54624226f9059484a820eaf1b88509427b9da05be3fb0050",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "a13f48afb48818c2b94e6854ed65808d7a17a5dab4737f62344f4e0075b3a6f1",
+          "reviewedImageSha256": "80fbb47c1177fb4d54624226f9059484a820eaf1b88509427b9da05be3fb0050",
+          "findings": [
+            "圖中文字稱約 30 度，椅背視覺卻明顯更陡；需重製符合指定 30–45 度版本的椅背，保留透視基準。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Correct the bench incline in ALL three panels. Current backrest is visibly around60 degrees despite30–45label; rebuild it at30 degrees relative horizontal floor, a shallow incline, not shoulder-press chair. Woman torso AND head must recline naturally against this lower backrest; head supported looking upward along face. Keep hands at chest-side then push vertically above chest then return. Remove angle annotation instead of drawing false angle. Preserve all text, identity, dose3x10, clothing, style.",
+      "inputImage": "C:\\Users\\tomoe\\.codex\\generated_images\\01a06b63-8898-70b0-8caa-a34efc8ab891\\exec-a30b7791-77ba-43fc-986f-50a11fa10bbc.png"
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "leg-press",
+    "name": "腿推",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "腿推機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "在背部有支撐的情況下練習髖膝伸展。",
+    "instructions": [
+      "調整椅背與起始深度，雙腳約肩寬踩踏板。",
+      "按機台指示完成起始設定；有安全扣的機型先確認解鎖方式，再控制膝蓋彎曲。",
+      "腳掌均勻推回，不鎖死膝蓋。",
+      "完成本組後把滑車平順推回可掛扣位置，確認左右安全扣承重後才離開踏板；機型不熟悉先請現場人員示範。"
+    ],
+    "cues": [
+      "下背不要離開靠墊",
+      "膝蓋與腳尖同向",
+      "先熟悉安全把手"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "空機或輕重量先確認活動範圍"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/q4W4_VJbKW0",
+      "watchUrl": "https://www.youtube.com/watch?v=q4W4_VJbKW0",
+      "title": "腿推動作示範",
+      "channel": "PureGym",
+      "language": "英文",
+      "note": "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。"
+    },
+    "sourceUrl": "https://www.puregym.com/exercises/legs/quad-exercises/leg-presses/45-degree-leg-press/",
+    "sourceLabel": "PureGym：45 度腿推"
+  },
+  "definition": {
+    "variation": "45 度滑車腿推，頭背及骨盆貼靠、雙腳約肩寬；非水平坐姿版本。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.puregym.com/exercises/legs/quad-exercises/leg-presses/45-degree-leg-press/",
+      "label": "PureGym：45 度腿推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "頭背貼靠、雙腳踩穩、確認安全扣",
+        "控制膝髖彎曲、伸腿但不硬鎖"
+      ],
+      "note": "已讀 45 度滑車版本，與目前圖解一致；不把深度角度或解鎖方式套用所有機台。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "02a821f63e6c71007b84e6c6780d02ca6d80a9972db7b1c40a651e25a2787907",
+      "findings": [
+        "已讀 45 度滑車版本，與目前圖解一致；不把深度角度或解鎖方式套用所有機台。",
+        "份量是本站起始參考，不是來源的個人化處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "02a821f63e6c71007b84e6c6780d02ca6d80a9972db7b1c40a651e25a2787907",
+      "reviewedImageSha256": "ab34798929fc94b10e7b49a071c702454980fa138bf9db9bf1259d389470e144",
+      "findings": [
+        "45 度滑車版而非水平腿推；全腳掌支撐、控制下放、推回與重新扣上安全把手相符，10–15 次 3 組包含本站 12 次。槓片圖示不是建議重量。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/q4W4_VJbKW0",
+      "check": {
+        "videoId": "q4W4_VJbKW0",
+        "seconds": [
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "observation": "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。"
+      },
+      "findings": [
+        "已核對 45 度斜板腿推的伸腿、屈膝及回程，取代水平式機器。短片未詳述安全擋桿／解鎖，必須另讀本站文字及現場標示，不能照影片負重量選重量。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "02a821f63e6c71007b84e6c6780d02ca6d80a9972db7b1c40a651e25a2787907",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/orvMt-aaD8E",
+            "watchUrl": "https://www.youtube.com/watch?v=orvMt-aaD8E",
+            "title": "腿推機",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/orvMt-aaD8E",
+            "check": {
+              "videoId": "orvMt-aaD8E",
+              "seconds": [
+                8,
+                28,
+                51
+              ],
+              "observation": "可見坐姿腿推機，圖解可能使用不同傾角機型；不直接套用座椅刻度或重量。"
+            },
+            "findings": [
+              "可見坐姿腿推機，圖解可能使用不同傾角機型；不直接套用座椅刻度或重量。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "eaeadf663c8b8d217d33421d6564ed5f741f576186c671cb6e1788b9e0167890"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-leg-press-zh-tw.png",
+    "sha256": "ab34798929fc94b10e7b49a071c702454980fa138bf9db9bf1259d389470e144",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

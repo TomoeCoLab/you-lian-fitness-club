@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "march-in-place",
+    "name": "原地踏步",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "用小步伐讓身體逐漸活動起來，可作為居家活動或熱身的起點。",
+    "instructions": [
+      "站在平坦防滑的地面，雙腳自然分開；需要時扶住固定檯面。",
+      "一腳輕輕抬離地面，不必把膝蓋抬高。",
+      "輕放回地面，再換另一腳，雙手自然擺動。",
+      "維持能輕鬆說話的速度；收尾時逐漸放慢。"
+    ],
+    "cues": [
+      "不跳躍、不重踩，膝蓋朝前。",
+      "不穩時扶固定檯面，不追求抬腿高度。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": null,
+      "durationSeconds": 30,
+      "restSeconds": 15,
+      "load": "先做 30 秒；熱身時可逐步延長，感覺吃力就放慢或休息。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hno83jTbZrM?start=21&end=28",
+      "watchUrl": "https://www.youtube.com/watch?v=hno83jTbZrM&t=21s",
+      "title": "站姿原地踏步片段",
+      "channel": "Lancashire & South Cumbria NHS",
+      "language": "英文",
+      "note": "前段另有坐姿與扶穩版本，這裡直接從站姿片段開始。"
+    },
+    "sourceUrl": "https://www.lscft.nhs.uk/services/service-finder-z/community-pain-service/useful-resources",
+    "sourceLabel": "Lancashire NHS 動作示範"
+  },
+  "definition": {
+    "variation": "原地踏步；本項起始設定：站在平坦防滑的地面，雙腳自然分開；需要時扶住固定檯面。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 30 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.lscft.nhs.uk/services/service-finder-z/community-pain-service/useful-resources",
+      "label": "Lancashire NHS 動作示範",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.uhsussex.nhs.uk/resources/standing-exercises-2/",
+      "label": "University Hospitals Sussex NHS：原地踏步",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "扶穩固定表面",
+        "舒適高度、慢速交替抬腿"
+      ],
+      "note": "已核對 Marching on the spot；本站不追求抬腿高度，30 秒是一般起始量。不是醫院開給使用者的復健處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "118fbf00580f7ae7e1379c8968b5ac52a001b72c942d4f485f8e28b87b5d0951",
+      "findings": [
+        "已核對 Marching on the spot；本站不追求抬腿高度，30 秒是一般起始量。不是醫院開給使用者的復健處方。",
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "118fbf00580f7ae7e1379c8968b5ac52a001b72c942d4f485f8e28b87b5d0951",
+      "reviewedImageSha256": "dd8c348246fe4871ded790717367d572b0c6f5ee4c69fed0d075cbf70d5ab306",
+      "findings": [
+        "重新對照輕抬、同腳落地與左右交替；30 秒 1 組相符。圖中 5 公分僅為示意，不是必達高度。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/hno83jTbZrM?start=21&end=28",
+      "check": {
+        "videoId": "hno83jTbZrM",
+        "seconds": [
+          21,
+          23,
+          25,
+          27
+        ],
+        "start": 21,
+        "end": 28,
+        "observation": "已核對 21–28 秒為站姿交替抬腳，非前段坐姿；片中抬膝較高，本站只需舒適輕抬，不必跟到同高度。"
+      },
+      "findings": [
+        "已核對 21–28 秒為站姿交替抬腳，非前段坐姿；片中抬膝較高，本站只需舒適輕抬，不必跟到同高度。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "118fbf00580f7ae7e1379c8968b5ac52a001b72c942d4f485f8e28b87b5d0951",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/hno83jTbZrM?start=21&end=28",
+            "watchUrl": "https://www.youtube.com/watch?v=hno83jTbZrM&t=21s",
+            "title": "站姿原地踏步片段",
+            "channel": "Lancashire & South Cumbria NHS",
+            "language": "英文",
+            "note": "前段另有坐姿與扶穩版本，這裡直接從站姿片段開始。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/hno83jTbZrM?start=21&end=28",
+            "check": {
+              "videoId": "hno83jTbZrM",
+              "seconds": [
+                5,
+                11,
+                20,
+                22
+              ],
+              "start": 21,
+              "end": 28,
+              "observation": "已查看 22 秒站姿踏步片段。原片先有坐姿與扶穩版本；內嵌從 21 秒開始站姿示範，需要時仍可扶固定檯面。"
+            },
+            "findings": [
+              "已查看 22 秒站姿踏步片段。原片先有坐姿與扶穩版本；內嵌從 21 秒開始站姿示範，需要時仍可扶固定檯面。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "a4402f4c15951223e5def32a00e8905ddc9401cd5157d945c6d3e7f5c0db06d4"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-march-in-place-zh-tw.png",
+    "sha256": "dd8c348246fe4871ded790717367d572b0c6f5ee4c69fed0d075cbf70d5ab306",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Gaze follows head orientation naturally. Do not twist the head or eyes toward camera; side-view exercise eyes forward along face or forward/down aligned with neck.Title: 原地踏步. MOVEMENT PLAN: Four panels teaching ONE step of LOWmarch then text instructswitchside; NOT show two opposite raisedlegs. 1 站穩預備 bothfeetflat armsrelaxedside. 2 輕抬一腳 raiseonefootonly5cm knee soft slightlybent. 3 控制放下 samefootnearlytouchesfloor toeandheelstillaligned. 4 回到站穩 BOTHfeetflat, text 接著換腳，左右交替. Headupright eyesnaturallyforward no fixedsmile. Key 小步輕踩，不用抬高膝蓋／需要時扶穩. Reps 30秒，1組. Breath 自然呼吸，維持能說話的速度.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

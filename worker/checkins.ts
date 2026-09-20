@@ -1,6 +1,7 @@
 import type { CheckinInput, CheckinMode, CheckinRecord, Exercise, ExerciseSetEntry, ReactionKind, ReactionSummary, SessionUser } from "./types";
 
 type CheckinRow = {
+  submission_hash?: string | null;
   id: string;
   user_id: string;
   checkin_date: string;
@@ -76,12 +77,17 @@ function parseExercise(value: unknown): Exercise | null {
   const weight = typeof item.weight === "number" && item.weight >= 0 && item.weight <= 1000 ? item.weight : undefined;
   const reps = nullableInteger(item.reps, 1, 1000);
   if (!name || sets === null || sets === undefined || weight === undefined || reps === null || reps === undefined) return null;
+  const phase = item.phase === undefined ? undefined : ["warmup", "main", "cooldown"].includes(String(item.phase)) ? item.phase as Exercise["phase"] : null;
+  const note = item.note === undefined ? undefined : nullableText(item.note, 200);
+  const exerciseId = item.exerciseId === undefined ? undefined : nullableText(item.exerciseId, 100);
+  if (phase === null || item.note !== undefined && note === undefined || item.exerciseId !== undefined && !exerciseId) return null;
+  const context = { ...(phase ? { phase } : {}), ...(note ? { note } : {}), ...(exerciseId ? { exerciseId } : {}) };
   const rawEntries = item.entries;
-  if (rawEntries === undefined) return { name, sets, weight, reps };
+  if (rawEntries === undefined) return { name, sets, weight, reps, ...context };
   if (!Array.isArray(rawEntries) || rawEntries.length > 100) return null;
   const entries = rawEntries.map(parseExerciseEntry);
   if (entries.some((entry) => entry === null)) return null;
-  return { name, sets, weight, reps, entries: entries.filter((entry): entry is ExerciseSetEntry => entry !== null) };
+  return { name, sets, weight, reps, ...context, entries: entries.filter((entry): entry is ExerciseSetEntry => entry !== null) };
 }
 
 function validDate(value: string): boolean {
@@ -225,6 +231,19 @@ export async function listUserHistory(env: Env, userId: string, limit = 120): Pr
   return addReactionSummaries(env, result.results.map(mapRow), userId);
 }
 
+export async function getProgressOverview(env: Env, userId: string) {
+  const [totals, sets, favorite] = await Promise.all([
+    env.DB.prepare("SELECT COUNT(*) AS sessionCount, COUNT(DISTINCT checkin_date) AS trainingDays, COALESCE(SUM(duration_minutes), 0) AS totalMinutes FROM checkins WHERE user_id = ?").bind(userId).first<{ sessionCount: number; trainingDays: number; totalMinutes: number }>(),
+    env.DB.prepare(`SELECT COALESCE(SUM(CASE WHEN json_type(e.value, '$.entries') = 'array'
+      THEN (SELECT COUNT(*) FROM json_each(e.value, '$.entries') s WHERE json_extract(s.value, '$.completed') = 1)
+      ELSE COALESCE(json_extract(e.value, '$.sets'), 0) END), 0) AS totalSets
+      FROM checkins c, json_each(c.exercises_json) e WHERE c.user_id = ?`).bind(userId).first<{ totalSets: number }>(),
+    env.DB.prepare(`SELECT json_extract(e.value, '$.name') AS name FROM checkins c, json_each(c.exercises_json) e
+      WHERE c.user_id = ? GROUP BY name ORDER BY COUNT(*) DESC, name ASC LIMIT 1`).bind(userId).first<{ name: string }>(),
+  ]);
+  return { sessionCount: totals?.sessionCount ?? 0, trainingDays: totals?.trainingDays ?? 0, totalMinutes: totals?.totalMinutes ?? 0, totalSets: sets?.totalSets ?? 0, favorite: favorite?.name ?? "尚無資料" };
+}
+
 export function parseReaction(value: unknown): ReactionKind | null | undefined {
   if (value === null) return null;
   return typeof value === "string" && reactionKinds.has(value as ReactionKind) ? value as ReactionKind : undefined;
@@ -271,15 +290,16 @@ export async function saveCheckin(
   user: SessionUser,
   input: CheckinInput,
   photo: { key: string; contentType: string; size: number } | null,
-): Promise<{ record: CheckinRecord; created: true }> {
-  const id = crypto.randomUUID();
+  submission?: { id: string; hash: string },
+): Promise<{ record: CheckinRecord; created: boolean }> {
+  const id = submission ? `${user.id}_${submission.id}` : crypto.randomUUID();
   const createdAt = new Date().toISOString();
 
-  await env.DB.prepare(
-    `INSERT INTO checkins
+  const insert = env.DB.prepare(
+    `INSERT OR IGNORE INTO checkins
        (id, user_id, checkin_date, mode, workout_type, duration_minutes, note, exercises_json,
-        photo_key, photo_content_type, photo_size_bytes, created_at, updated_at)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        photo_key, photo_content_type, photo_size_bytes, created_at, updated_at, submission_hash)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
   )
     .bind(
       id,
@@ -295,11 +315,16 @@ export async function saveCheckin(
       photo?.size ?? 0,
       createdAt,
       createdAt,
-    )
-    .run();
+      submission?.hash ?? null,
+    );
+  const statements = [insert];
+  if (env.DISCORD_WEBHOOK_URL) statements.push(env.DB.prepare(
+    "INSERT OR IGNORE INTO notification_outbox(checkin_id) SELECT id FROM checkins WHERE id = ? AND submission_hash IS ?",
+  ).bind(id, submission?.hash ?? null));
+  const results = await env.DB.batch(statements);
 
   const row = await env.DB.prepare(
-    `SELECT c.id, c.user_id, c.checkin_date, c.mode, c.workout_type,
+    `SELECT c.submission_hash, c.id, c.user_id, c.checkin_date, c.mode, c.workout_type,
             c.duration_minutes, c.note, c.exercises_json, c.photo_key, c.photo_content_type, c.photo_size_bytes,
             c.created_at, c.updated_at,
             u.username, u.global_name, u.avatar_hash
@@ -309,7 +334,25 @@ export async function saveCheckin(
     .bind(id)
     .first<CheckinRow>();
   if (!row) throw new Error("Saved check-in could not be loaded");
-  return { record: mapRow(row), created: true };
+  if (submission && row.submission_hash !== submission.hash) throw new SubmissionConflict();
+  return { record: mapRow(row), created: results[0].meta.changes > 0 };
+}
+
+export class SubmissionConflict extends Error {
+  constructor() { super("這次送出的前一版本已儲存，請先查看紀錄；如需另一筆打卡，請重新開啟打卡視窗。"); }
+}
+
+export async function findSubmission(env: Env, userId: string, submissionId: string) {
+  const row = await env.DB.prepare(`SELECT c.*, u.username, u.global_name, u.avatar_hash
+    FROM checkins c JOIN users u ON u.discord_id = c.user_id WHERE c.id = ? AND c.user_id = ?`)
+    .bind(`${userId}_${submissionId}`, userId).first<CheckinRow>();
+  return row ? { hash: row.submission_hash, record: mapRow(row) } : null;
+}
+
+export async function getCheckinById(env: Env, id: string) {
+  const row = await env.DB.prepare(`SELECT c.*, u.username, u.global_name, u.avatar_hash
+    FROM checkins c JOIN users u ON u.discord_id = c.user_id WHERE c.id = ?`).bind(id).first<CheckinRow>();
+  return row ? mapRow(row) : null;
 }
 
 export async function getPhoto(env: Env, checkinId: string): Promise<R2ObjectBody | null> {

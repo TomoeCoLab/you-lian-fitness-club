@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "exercise": {
+    "id": "seated-neck-rotation",
+    "name": "坐姿頸部左右轉動",
+    "bodyParts": [
+      "肩"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "保持身體朝前，在舒服範圍內緩慢轉頭，不拉扯頸部。",
+    "instructions": [
+      "坐穩，雙腳著地，手放大腿，眼睛看前方。",
+      "慢慢轉頭朝一側，只到舒服的位置，短停約 5 秒。",
+      "回到正中，再轉向另一側。",
+      "左右各 3 次，合計記 6 次。"
+    ],
+    "cues": [
+      "肩膀不跟著轉、不仰頭；不用手扳頭。",
+      "若疼痛加重、頭暈、手麻或無力，立即停止；持續痠痛請找醫師或物理治療師評估。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 6,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "左右各 3 次，每次短停約 5 秒；幅度以舒服為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/b6b_8mmexj4?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=b6b_8mmexj4",
+      "title": "坐姿頸部轉動：左側示範",
+      "channel": "South Tees Hospitals NHS",
+      "language": "英文",
+      "note": "影片示範轉向左側；回正後以相同的小幅動作換右側，不用手扳頭。"
+    },
+    "sourceUrl": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+    "sourceLabel": "NHS 柔軟度活動"
+  },
+  "definition": {
+    "variation": "坐姿頸部左右轉動；本項起始設定：坐穩，雙腳著地，手放大腿，眼睛看前方。",
+    "counting": "移向一側並回正算 1 次；左右合計 6 次，每側 3 次。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+      "label": "NHS 柔軟度活動",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "坐姿轉頭、肩部朝前及舒適範圍"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "4fb8a732e7ceb1c253466bfc9abeab411577c4edf7df9de7c903ac019452f1cf",
+      "findings": [
+        "已對照原始來源：坐姿轉頭、肩部朝前及舒適範圍。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "4fb8a732e7ceb1c253466bfc9abeab411577c4edf7df9de7c903ac019452f1cf",
+      "reviewedImageSha256": "18d4b624c3e8d27a54974470600bb86f6cb1a67b7b2a9ed2e91072400714e41f",
+      "findings": [
+        "坐姿轉頭、回正再換側，肩部向前與每側 3 次相符；可見安全提醒，不需模仿最大轉角。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/b6b_8mmexj4?rel=0",
+      "check": {
+        "videoId": "b6b_8mmexj4",
+        "seconds": [
+          6,
+          13,
+          23
+        ],
+        "observation": "可見坐姿向左轉頭；本頁左右都做，先回正再換側，不用手扳頭。"
+      },
+      "findings": [
+        "可見坐姿向左轉頭；本頁左右都做，先回正再換側，不用手扳頭。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "4fb8a732e7ceb1c253466bfc9abeab411577c4edf7df9de7c903ac019452f1cf"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-seated-neck-rotation-zh-tw.png",
+    "sha256": "18d4b624c3e8d27a54974470600bb86f6cb1a67b7b2a9ed2e91072400714e41f",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 坐姿頸部左右轉動. MOVEMENT PLAN: Gentle active cervicalrotation NOT neckcircles. Upperbody seatedchairfeetground chestfacescamera unchangedallpanels. 1 坐穩看前方 headcenter neckneutral. 2 轉向一側 headturns40degrees tooneside WITHOUTtilt shoulderskeepforward. 3 回到正中 headcenter. 4 轉向另一側 headturns40degreesoppositedirection shouldersunchanged. Handsrestthighs NOTpullhead. Key 只轉到舒服的位置／不硬扳，不仰頭. Reps 每側3次，短停約5秒. Breath 緩慢自然呼吸. Safety smalltext 疼痛加重、頭暈或手麻就停止.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "leg-curl",
+    "name": "坐姿腿彎舉",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "腿彎舉機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "以膝關節彎曲訓練大腿後側肌群。",
+    "instructions": [
+      "先依機台圖示設定阻力及活動範圍，坐穩並讓膝關節對齊旋轉軸。",
+      "大腿固定墊輕壓大腿前方、膝上部位；小腿後側、腳跟上方接觸活動滾墊，不把墊放在脛骨前面。",
+      "握住把手穩定身體，屈膝讓腳跟與滾墊向下、向後移，再慢慢伸膝回起點。",
+      "結束時控制活動臂回位，按機型規範解除並固定大腿墊後離開；不要帶著負荷抽出雙腿。"
+    ],
+    "cues": [
+      "臀部維持貼靠座椅",
+      "不要猛甩重量",
+      "出現疼痛或抽筋就停止，不用更大力量硬拉。"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "選擇能完整控制回程的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
+      "watchUrl": "https://www.youtube.com/watch?v=NDy4XDe1Uz4",
+      "title": "大腿後側訓練機",
+      "channel": "東吳大學體育室",
+      "language": "中文",
+      "note": "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。"
+    },
+    "sourceUrl": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
+    "sourceLabel": "Life Fitness：Circuit Series 原廠操作手冊"
+  },
+  "definition": {
+    "variation": "坐姿腿彎舉；本項起始設定：膝關節對齊機器轉軸，固定大腿墊。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.lifefitness.com.au/wp-content/uploads/2015/02/Circuit_Manual_11_081a_1_27.pdf",
+      "label": "Life Fitness Circuit Series 原廠手冊，第 10 頁",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "坐姿腿彎舉的膝軸設定",
+        "向下向後彎曲及受控回程"
+      ],
+      "note": "只核對 TCLC 機型文字，不可外推所有廠牌；原圖前側滾墊與腿彎舉方向矛盾，已停用，仍需對照對應機型原廠圖。"
+    },
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
+      "label": "Life Fitness Circuit Series 操作手冊 PDF 第 3 頁",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "大腿固定、膝對旋轉軸、滾墊向下後屈膝、回程與退出"
+      ],
+      "note": "已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "e3c2cf544f674142803ff19b617001562f7bc33e6e6c570b0a1c1f5405631e0a",
+      "internalReviewedAt": "2026-09-20",
+      "findings": [
+        "已對照原廠手冊第 3 頁文字與圖示：大腿固定、膝對旋轉軸、滾墊向下後屈膝、回程與退出。",
+        "同名器械可能不同構造；現場設定仍需依原廠圖示。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "e3c2cf544f674142803ff19b617001562f7bc33e6e6c570b0a1c1f5405631e0a",
+      "reviewedImageSha256": "1341a5f1167ac5d72f58a6dfde687a206200a0afe7753ef938ddd8906a7cc46c",
+      "findings": [
+        "本次修正後活動滾墊位於小腿後側：伸膝時在腿下、屈膝時在腿後；大腿固定、下屈和回程清楚，3 組 12 次相符。",
+        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
+      "check": {
+        "videoId": "NDy4XDe1Uz4",
+        "seconds": [
+          7,
+          15,
+          22,
+          27
+        ],
+        "observation": "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。"
+      },
+      "findings": [
+        "重新核對坐姿、大腿固定、活動墊在小腿後側，伸膝起始與向下屈膝。影片與圖示機型不同，調節與上下機不互套。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "e3c2cf544f674142803ff19b617001562f7bc33e6e6c570b0a1c1f5405631e0a",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
+            "watchUrl": "https://www.youtube.com/watch?v=NDy4XDe1Uz4",
+            "title": "大腿後側訓練機",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/NDy4XDe1Uz4",
+            "check": {
+              "videoId": "NDy4XDe1Uz4",
+              "seconds": [
+                7,
+                15,
+                27
+              ],
+              "observation": "可見坐姿腿彎舉與腿部固定墊，並非俯臥腿彎舉。"
+            },
+            "findings": [
+              "可見坐姿腿彎舉與腿部固定墊，並非俯臥腿彎舉。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "6898e8e29c694896ff075f7cfa9de8d5720936208916b01021432201f754aa8d"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-leg-curl-v2-zh-tw.png",
+    "sha256": "1341a5f1167ac5d72f58a6dfde687a206200a0afe7753ef938ddd8906a7cc46c",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "嚴格正側面，人物面向右，膝與活動臂軸心一致；腿下方的滾墊始終在小腿後側。依手冊小圖的簡潔側面結構，不使用前側擋墊。",
+      "frames": [
+        {
+          "title": "固定大腿",
+          "pose": "Circuit Series seated leg curl matching reference, seated stable slight recline, thighs horizontal, knees nearly straight forward, thigh hold-down pad over lower thighs just above knees. Resistance roller UNDER/POSTERIOR lower calves just above heels. Clearly separate TWO pads.",
+          "caption": "固定大腿，活動滾墊在小腿後側。"
+        },
+        {
+          "title": "向下屈膝",
+          "pose": "Same machine side view, thighs stationary, knees bend toward90 degrees, heels and posterior calf roller travel down/back; connected lever rotates around axis near knee.",
+          "caption": "腳跟向下、向後，身體不晃。"
+        },
+        {
+          "title": "慢慢回程",
+          "pose": "Same machine return near-straight knees with roller supporting posterior calves, thigh pad remains secure. Show return not release while loaded.",
+          "caption": "控制伸膝回位，再按機型規範離開。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-leg-curl-zh-tw.png",
+        "sha256": "691fd7a7accd7594c9e8a89f34cd7fcf0828b5b89ed19d9f3990a79048b45a00",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "blocked",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "6898e8e29c694896ff075f7cfa9de8d5720936208916b01021432201f754aa8d",
+          "reviewedImageSha256": "691fd7a7accd7594c9e8a89f34cd7fcf0828b5b89ed19d9f3990a79048b45a00",
+          "findings": [
+            "圖中文字稱滾墊在小腿後側，實際畫面卻呈前側擋墊，與坐姿腿彎舉受力方向矛盾；需重製。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "This fitness infographic has the WRONG placement of the blue lower-leg rollers. Correct only the lower-leg roller POSITION in all three panels, keep same poses, machine, character, clothing, texts, dose, layout. All figures face RIGHT: the shin/front side is RIGHT, calf/back side is LEFT or UNDERSIDE. Move each blue cylinder from in FRONT of the shin to BEHIND the calf above the Achilles. In panels 1 and 3 the legs are extended diagonally: calves REST ON TOP OF the blue roller like legs resting over a foam bolster; roller must be visible BELOW the calf, ankle and shoe to its RIGHT. In panel2 with near vertical lower leg, the blue roll is entirely to the LEFT of the calf/heel, pushing against the BACK of lower leg as heel pulls backward. The front shin silhouette from knee down to shoelaces must be completely unobstructed. Keep the thin machine lever OUTSIDE leg, connect the corrected roller cylinder to lever via side bracket. Thigh pad remains above thigh near knees, distinct from calf roll. No text changes.",
+      "inputImages": [
+        "C:/Users/tomoe/.codex/generated_images/01a06b63-8898-70b0-8caa-a34efc8ab891/exec-e887e33e-88a0-4e0e-b74a-0179c645a917.png"
+      ]
+    }
+  }
+}

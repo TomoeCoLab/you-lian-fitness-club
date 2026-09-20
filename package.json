@@ -1,10 +1,17 @@
 {
   "name": "you-lian-rep-club",
   "private": true,
-  "version": "1.7.1",
+  "version": "1.8.0",
   "type": "module",
   "scripts": {
+    "test": "npm run content:check && node --experimental-strip-types --import ./tests/resolve-ts.mjs --test tests/*.test.ts tests/*.test.mjs",
+    "test:browser": "playwright test",
     "dev": "vite",
+    "assets:guides": "node scripts/build-guide-assets.mjs",
+    "content:build": "node scripts/build-exercise-content.mjs",
+    "content:check": "node scripts/build-exercise-content.mjs --check",
+    "content:prompt": "node scripts/exercise-prompt.mjs",
+    "prebuild": "npm run content:check && npm run assets:guides",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy",
@@ -15,7 +22,7 @@
     "cf-typegen": "wrangler types",
     "db:migrate:local": "wrangler d1 migrations apply DB --local",
     "db:migrate:remote": "wrangler d1 migrations apply DB --remote",
-    "check": "npm run cf-typegen && tsc -b && vite build"
+    "check": "npm run content:check && npm run assets:guides && npm run cf-typegen && tsc -b && vite build"
   },
   "dependencies": {
     "lucide-react": "^1.40.0",
@@ -25,10 +32,12 @@
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.54.4",
     "@cloudflare/workers-types": "^5.20260905.1",
+    "@playwright/test": "^1.63.0",
     "@types/node": "^26.4.1",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
+    "sharp": "^0.35.4",
     "typescript": "^7.0.2",
     "vite": "^8.2.2",
     "wrangler": "^4.129.0"

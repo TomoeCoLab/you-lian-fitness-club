@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "band-row",
+    "name": "彈力帶俯身划船",
+    "bodyParts": [
+      "背",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "彈力帶",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "用彈力帶練習髖折疊與肩胛向後靠近。",
+    "instructions": [
+      "雙腳踩住彈力帶中央，膝微彎並從髖部前傾。",
+      "脊椎保持中立，手肘貼近身體往後帶。",
+      "控制回程並持續保持張力。"
+    ],
+    "cues": [
+      "先檢查彈力帶是否完整",
+      "不要聳肩",
+      "背部不拱也不過度凹"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "調整踩帶位置，最後 2 次有挑戰即可"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+      "watchUrl": "https://www.youtube.com/watch?v=r1loX83MWaw",
+      "title": "划船動作與肩胛控制",
+      "channel": "女子健心室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://workoutlabs.com/exercise-guide/resistance-band-bent-over-rows/",
+    "sourceLabel": "WorkoutLabs：雙腳踩帶俯身划船"
+  },
+  "definition": {
+    "variation": "彈力帶俯身划船；本項起始設定：雙腳踩住彈力帶中央，膝微彎並從髖部前傾。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/diseases-conditions/osteoporosis/in-depth/osteoporosis/art-20044989",
+      "label": "Mayo Clinic 動作影片",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://workoutlabs.com/exercise-guide/resistance-band-bent-over-rows/",
+      "label": "WorkoutLabs：雙腳踩帶俯身划船",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "雙腳踩帶、屈髖微屈膝",
+        "手肘向後帶、控制放回"
+      ],
+      "note": "已讀搜尋索引提供的完整三步教學；頁面直連回傳 403。支持雙腳踩帶版本，不支持把帶繞頸或固定遠處。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "08d3d318fbd8033d1a4bf5721bed2240c1ace14ec395914aae129d4f4f62cd19",
+      "findings": [
+        "已讀搜尋索引提供的完整三步教學；頁面直連回傳 403。支持雙腳踩帶版本，不支持把帶繞頸或固定遠處。",
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "08d3d318fbd8033d1a4bf5721bed2240c1ace14ec395914aae129d4f4f62cd19",
+      "reviewedImageSha256": "f5c4c32d26e5587a8002f3aa4f96808a7cb2477dfd647ca1e12f341dd27dce35",
+      "findings": [
+        "四格腳踩帶與划船方向一致，頭頸已不轉向鏡頭；回程、3 組 12 次與規格相符。",
+        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "舊影片動作不相符，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "1cc292de5c3303cf163621062c026c22f11e21908c50e7d50716d30e617d44d4"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-band-row-v2-zh-tw.png",
+    "sha256": "f5c4c32d26e5587a8002f3aa4f96808a7cb2477dfd647ca1e12f341dd27dce35",
+    "generatedFromContentHash": "08d3d318fbd8033d1a4bf5721bed2240c1ace14ec395914aae129d4f4f62cd19",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側前三分之四，保持原四格構圖，但頸部隨脊椎、不轉頭看鏡頭。",
+      "frames": [
+        {
+          "title": "準備姿勢",
+          "pose": "Hip hinge, knees softly bent, both feet secure middle of band, both hands hold ends under shoulders, spine and neck neutral eyes toward floor ahead.",
+          "caption": "雙腳踩穩帶中央，髖向後、頸部自然。"
+        },
+        {
+          "title": "向後拉起",
+          "pose": "Same hinge, both elbows bend and move backward close to sides, hands pull toward waist, neck aligned with torso not twisted.",
+          "caption": "手肘往後帶，軀幹保持穩定。"
+        },
+        {
+          "title": "頂點收縮",
+          "pose": "Both hands at waist, elbows bent by ribs, shoulders not shrugged, torso unchanged.",
+          "caption": "肩胛自然靠近，不聳肩。"
+        },
+        {
+          "title": "緩慢回程",
+          "pose": "Extend elbows back to initial lowered hands, feet still secure band, neutral neck gaze toward floor.",
+          "caption": "慢慢放回，彈力帶保持控制。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-band-row-zh-tw.png",
+        "sha256": "fa6141eba2350ac1d0564cdb76333f8a2ddbe9992cca31f2be310ef906167b15",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "1cc292de5c3303cf163621062c026c22f11e21908c50e7d50716d30e617d44d4",
+          "reviewedImageSha256": "fa6141eba2350ac1d0564cdb76333f8a2ddbe9992cca31f2be310ef906167b15",
+          "findings": [
+            "俯身時持續抬頭轉向鏡頭，與脊椎中立教學不一致；需改自然向前下方視線、固定頸位。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Edit image 1 to follow this reviewed movement plan. Keep same adult woman identity, outfit, band and four-panel layout; most important change is neutral head looking toward floor in every panel, never turning face toward viewer. 內容版本：4\n來源文字 SHA-256：08d3d318fbd8033d1a4bf5721bed2240c1ace14ec395914aae129d4f4f62cd19\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"彈力帶俯身划船\",\n  \"variation\": \"彈力帶俯身划船；本項起始設定：雙腳踩住彈力帶中央，膝微彎並從髖部前傾。\",\n  \"subtitle_zh\": \"背、肩、手臂動作指引\",\n  \"intro_zh\": \"用彈力帶練習髖折疊與肩胛向後靠近。\",\n  \"target_areas\": [\n    \"背\",\n    \"肩\",\n    \"手臂\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定側前三分之四，保持原四格構圖，但頸部隨脊椎、不轉頭看鏡頭。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"準備姿勢\",\n      \"pose_description\": \"Hip hinge, knees softly bent, both feet secure middle of band, both hands hold ends under shoulders, spine and neck neutral eyes toward floor ahead.\",\n      \"coaching_note_zh\": \"雙腳踩穩帶中央，髖向後、頸部自然。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"向後拉起\",\n      \"pose_description\": \"Same hinge, both elbows bend and move backward close to sides, hands pull toward waist, neck aligned with torso not twisted.\",\n      \"coaching_note_zh\": \"手肘往後帶，軀幹保持穩定。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"頂點收縮\",\n      \"pose_description\": \"Both hands at waist, elbows bent by ribs, shoulders not shrugged, torso unchanged.\",\n      \"coaching_note_zh\": \"肩胛自然靠近，不聳肩。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"緩慢回程\",\n      \"pose_description\": \"Extend elbows back to initial lowered hands, feet still secure band, neutral neck gaze toward floor.\",\n      \"coaching_note_zh\": \"慢慢放回，彈力帶保持控制。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"先檢查彈力帶是否完整\",\n      \"不要聳肩\",\n      \"背部不拱也不過度凹\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 12 次\",\n      \"一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n",
+      "inputImage": "C:/Users/tomoe/Documents/ChatGPT/健身打卡網站/public/exercise-guides/skill-final/fitness-band-row-zh-tw.png"
+    }
+  }
+}

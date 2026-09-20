@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "supported-calf-raise",
+    "name": "扶椅雙腳提踵",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "扶穩支撐後，練習雙腳抬起腳跟，活動小腿。",
+    "instructions": [
+      "使用不會滑動、沒有輪子的穩固椅子，靠牆固定；地面保持乾燥。",
+      "雙手扶椅背，雙腳與髖同寬、腳尖朝前。",
+      "腳前掌留在地面，雙腳腳跟一起慢慢抬高。",
+      "短暫停留後慢慢放下，回到整個腳掌著地。"
+    ],
+    "cues": [
+      "不把腳踝往內或往外翻，不前後搖晃。",
+      "全程扶穩；只抬到能控制的高度。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "不加重量；雙腳一起做，先不嘗試單腳版本。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Obtwzv5WxaM?rel=0&end=6",
+      "watchUrl": "https://www.youtube.com/watch?v=Obtwzv5WxaM",
+      "title": "扶椅雙腳提踵示範",
+      "channel": "Peak Physio",
+      "language": "英文",
+      "note": "本頁播放影片開頭的雙腳提踵片段；原始影片後段另有其他椅旁動作，無需一併跟做。椅子務必靠牆固定。"
+    },
+    "sourceUrl": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+    "sourceLabel": "NHS 肌力活動"
+  },
+  "definition": {
+    "variation": "扶椅雙腳提踵；本項起始設定：使用不會滑動、沒有輪子的穩固椅子，靠牆固定；地面保持乾燥。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 5 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+      "label": "NHS 肌力活動",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "扶椅提踵、控制下降"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    },
+    {
+      "url": "https://www.peak-physio.com.au/exercise/chair-exercises/",
+      "label": "Peak Physio 扶椅活動指引",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "5579b76a580d1945a8401f6959f721212c019ae94b5903900872c9b4623b81b5",
+      "findings": [
+        "已對照原始來源：扶椅提踵、控制下降。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "5579b76a580d1945a8401f6959f721212c019ae94b5903900872c9b4623b81b5",
+      "reviewedImageSha256": "9274c0503339fb46baa1da28d2caa185d3f6b67f949492b7e7934dbe7f937a08",
+      "findings": [
+        "已逐格核對：固定椅座前緣貼牆、雙手扶椅，前腳掌持續著地、腳跟抬起再放回；1 組 × 5 次與文字相符。",
+        "人工檢視可見畫面及文字，不代表醫療或生物力學認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Obtwzv5WxaM?rel=0&end=6",
+      "check": {
+        "videoId": "Obtwzv5WxaM",
+        "seconds": [
+          3,
+          5,
+          10,
+          19
+        ],
+        "end": 6,
+        "observation": "已查看開頭雙腳扶椅提踵，內嵌於 6 秒結束；原片後段其他椅旁動作不屬於本項。"
+      },
+      "findings": [
+        "已查看開頭雙腳扶椅提踵，內嵌於 6 秒結束；原片後段其他椅旁動作不屬於本項。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "5579b76a580d1945a8401f6959f721212c019ae94b5903900872c9b4623b81b5"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-supported-calf-raise-v2-zh-tw.png",
+    "sha256": "9274c0503339fb46baa1da28d2caa185d3f6b67f949492b7e7934dbe7f937a08",
+    "generatedFromContentHash": "5579b76a580d1945a8401f6959f721212c019ae94b5903900872c9b4623b81b5",
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title 扶椅雙腳提踵. Side three-quarter view sturdy non-wheeled chair backed firmly against wall in all frames, both hands on chair back, feet hip width. 1 扶穩預備 heels flat, note 雙手扶穩，腳尖朝前. 2 抬起腳跟 bilateral heels rise with balls of feet on floor knees softly extended, note 雙腳一起抬，不向外翻. 3 穩定頂點 modest heel elevation, note 身體直立，不向前撲. 4 慢慢放下 heels flat, note 控制落地，不重踩. Key 扶椅維持平衡／幅度以舒服為準. Reps 初次５下、１組. Breathing 抬起吐氣／放下吸氣.",
+    "plan": {
+      "status": "ready",
+      "camera": "固定側斜面低角度，兩腳前掌接地及腳跟離地高度清晰可見。",
+      "frames": [
+        {
+          "title": "雙腳站穩",
+          "pose": "Stand upright on level floor, both hands lightly touching fixed chair back, both whole feet on floor, knees soft, head neutral.",
+          "caption": "扶穩支撐，雙腳先踩穩地面。"
+        },
+        {
+          "title": "抬起腳跟",
+          "pose": "Lift both HEELS a small comfortable height while toes and balls of BOTH feet remain visibly in contact with level floor. Keep trunk upright, no jumping or whole-foot lift.",
+          "caption": "前掌不離地，雙腳腳跟一起抬。"
+        },
+        {
+          "title": "緩慢放下",
+          "pose": "Both heels lower to original level floor contact, no bounce; same posture, chair and viewpoint.",
+          "caption": "慢慢放下腳跟，不彈跳。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-supported-calf-raise-zh-tw.png",
+        "sha256": "e82e705fdd6d4ddafd21304418d7c7bc33052c82be50043bdb0f8d3bbb348e72",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "5579b76a580d1945a8401f6959f721212c019ae94b5903900872c9b4623b81b5",
+          "reviewedImageSha256": "e82e705fdd6d4ddafd21304418d7c7bc33052c82be50043bdb0f8d3bbb348e72",
+          "findings": [
+            "前掌著地、腳跟抬起可見；圖上「雙腳一起抬」易被誤解成全腳離地，應改「雙腳腳跟一起抬」。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Keep exercise poses, approved adult character, text, heel closeups, doses, layout unchanged. Correct only chair support safety: show the FRONT edge of the chair's SEAT pressed firmly against a solid vertical wall to screen LEFT, with entire chair including front legs visible. The woman stands behind the chair holding its back, as current. The chair must not be free-standing with space before it; depict actual wall contact clearly in all three panels. Do not change correct foot/heel motion.",
+      "inputImage": "C:/Users/tomoe/.codex/generated_images/01a06b63-8898-70b0-8caa-a34efc8ab891/exec-eb8cf977-9def-4c88-9d6a-4887e8cd76a8.png"
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "figure-four-stretch",
+    "name": "仰躺四字臀部伸展",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "瑜珈墊",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "仰躺伸展臀部與髖外側，可依柔軟度調整拉近程度。",
+    "instructions": [
+      "仰躺屈膝、雙腳踩地；以右側為例，將右腳踝放在左大腿靠近膝蓋上方，不壓膝關節。",
+      "右手從兩腿間穿過，與左手一起抱住左大腿後側；輕輕把左腿帶近，直到右臀有溫和拉伸感。",
+      "頭肩保持放鬆，自然呼吸、不彈震。結束時左腳先放回地面，再解開右腳，換另一側。"
+    ],
+    "cues": [
+      "膝蓋不要硬壓",
+      "頭部可墊薄枕",
+      "只到緊繃、不疼痛"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 30,
+      "restSeconds": 15,
+      "load": "每側 30 秒、左右各一組；拉不到腿時不要硬拉，可先讓支撐腳留在地上"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=40&end=105",
+      "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg&t=40s",
+      "title": "睡前 10 分鐘全身伸展放鬆",
+      "channel": "啾c物理治療師",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.therapia.com/physiotherapy-rehabilitation-exercises/piriformis-stretch",
+    "sourceLabel": "Therapia：仰躺四字伸展"
+  },
+  "definition": {
+    "variation": "仰躺四字伸展：腳踝架在對側大腿、雙手抱支撐腿後側；本圖固定右腳踝架左大腿示範，先回地面再解開換側。",
+    "counting": "每組只保持一側 30 秒；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=825&pid=14211",
+      "label": "衛生福利部國民健康署",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.therapia.com/physiotherapy-rehabilitation-exercises/piriformis-stretch",
+      "label": "Therapia：仰躺四字伸展",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "腳踝跨對側大腿、避開膝關節",
+        "抱支撐大腿後側並輕拉近",
+        "頭肩放鬆、自然呼吸、不彈震",
+        "較輕版本可讓支撐腳留在地上"
+      ],
+      "note": "已讀 lying version、hold、mistakes、modifications；僅採動作與安全提示，不引用治療坐骨神經痛效果。來源每側 20–30 秒重複 2–3 次；本站左右各一次是一般起始量，不冒充來源完整處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f0a80e5bc6b9003ac2f7f87b5cbd5109e91b31d863a0321d9cd03b9791c66eab",
+      "findings": [
+        "核對仰躺抱大腿版本，補明確同側與支撐側、回程後才換邊；移除未由所選來源說明的毛巾操作。",
+        "每側 30 秒、左右各一組為本站起始參考，不是個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f0a80e5bc6b9003ac2f7f87b5cbd5109e91b31d863a0321d9cd03b9791c66eab",
+      "reviewedImageSha256": "ad08b0db9c9a4e459b8c60ede0f886d6abf2b0568f1adb92ac6ac515f9056ea2",
+      "findings": [
+        "重新檢視三格：腳踝搭對側大腿，雙手環抱支撐腿大腿後側，頭肩留在墊上，退出回雙腳著地；左右各 30 秒、合共兩組一致。",
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=40&end=105",
+      "check": {
+        "videoId": "vdIugUHKGWg",
+        "seconds": [
+          60,
+          80,
+          100
+        ],
+        "start": 40,
+        "end": 105,
+        "observation": "重新核對仰躺一踝跨對側大腿形成四字，雙手托支撐腿後側，兩側依序示範；不是踝壓膝蓋。"
+      },
+      "findings": [
+        "重新核對仰躺一踝跨對側大腿形成四字，雙手托支撐腿後側，兩側依序示範；不是踝壓膝蓋。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "f0a80e5bc6b9003ac2f7f87b5cbd5109e91b31d863a0321d9cd03b9791c66eab",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=40&end=105",
+            "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg&t=40s",
+            "title": "睡前 10 分鐘全身伸展放鬆",
+            "channel": "啾c物理治療師",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg?start=40&end=105",
+            "check": {
+              "videoId": "vdIugUHKGWg",
+              "seconds": [
+                60,
+                80,
+                100
+              ],
+              "start": 40,
+              "end": 105,
+              "observation": "可見仰躺一腳踝跨在另一腿上、抱大腿的四字伸展與換側；不將後續抱膝旋轉當成同一動作。"
+            },
+            "findings": [
+              "可見仰躺一腳踝跨在另一腿上、抱大腿的四字伸展與換側；不將後續抱膝旋轉當成同一動作。",
+              "文字已補足手位、腳踝位置與退出步驟；舊片段抽查未涵蓋這些細節，保留舊 hash，待重新審片。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "c56bf0963a8a298275d53d186289c4d8f1b5419f6d6c8042cca0b050d13569d1"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-figure-four-stretch-v2-zh-tw.png",
+    "sha256": "ad08b0db9c9a4e459b8c60ede0f886d6abf2b0568f1adb92ac6ac515f9056ea2",
+    "generatedFromContentHash": "f0a80e5bc6b9003ac2f7f87b5cbd5109e91b31d863a0321d9cd03b9791c66eab",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定從腳端向頭部看的高斜俯視，兩膝朝不同方向、雙手與交叉腳踝避免遮擋；只示範右側，換側以文字提示。",
+      "frames": [
+        {
+          "title": "右踝搭左腿",
+          "pose": "Supine head resting on mat, left foot flat knee bent. Place RIGHT ankle across LEFT thigh just above knee, right knee opens laterally. Hands at sides. Elevated foot-end three-quarter camera shows exact four-figure crossing, two separate knees and both shoes.",
+          "caption": "右腳踝放在左大腿上，右膝自然外開。"
+        },
+        {
+          "title": "抱左腿輕拉",
+          "pose": "Keep right ankle on left thigh, lift LEFT foot off mat with left knee flexed. BOTH hands clasp the back of LEFT THIGH well ABOVE knee toward hip, clearly separate from crossed RIGHT ankle. One forearm reaches through triangular opening and other around outside of left thigh. Head and shoulders stay down. Both hands visible on hamstring side, NEVER grabbing foot ankle or shin. Elevated foot-end view shows right knee wide to subject right.",
+          "caption": "雙手抱左大腿後側，頭肩留在墊上。"
+        },
+        {
+          "title": "放回再換側",
+          "pose": "Release thigh gently, lower left sole to ground, uncross right ankle and put right sole down. Supine both feet grounded knees bent arms relaxed.",
+          "caption": "輕拉三十秒後放回，換另一側。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "generationAttempts": [
+      {
+        "generatedAt": "2026-09-20",
+        "tool": "image_gen.imagegen",
+        "contentHash": "fcf0f8699fab5a6a5a08683ae103aeed9dcf6c58b8f1002cea2ed1c693ca912a",
+        "outputName": "exec-3c91357d-678c-4cea-ad07-50a4b65e0243.png",
+        "prompt": "Use case: scientific-educational. Create ONE photorealistic Traditional Chinese exercise breakdown infographic for YOU LIAN, landscape 4:3. Input image is the approved adult woman's CHARACTER IDENTITY REFERENCE ONLY. Preserve her face, bob hair, blue-gray activewear, proportions and white shoes throughout. No slogans or motivational text, no logos. Natural gaze in direction of head, not toward camera. Soft light neutral studio; clean dark slate typography, readable Chinese, generous panel spacing. Use four panels in 2x2 reading order, each full body large, with panel numbers and exact supplied labels and captions. Same fixed camera in all panels. Accurate limb positions more important than aesthetics. No extra limbs, no reflected or mirrored copies for left/right. Bottom compact summary: 動作重點, 起始參考, 呼吸提醒. No decorative copy. Only use provided text, shorten breathing to「自然呼吸，不憋氣；不適時停止。」 and dose to 「每側 30 秒，各一組；共 2 組。」「實際份量依本次課表調整」. Do not infer extra repetitions. Main intro optional to avoid crowding.\n\n內容版本：3\n來源文字 SHA-256：fcf0f8699fab5a6a5a08683ae103aeed9dcf6c58b8f1002cea2ed1c693ca912a\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"仰躺四字臀部伸展\",\n  \"variation\": \"仰躺四字伸展：腳踝架在對側大腿、雙手抱支撐腿後側；本圖固定右腳踝架左大腿示範，先回地面再解開換側。\",\n  \"subtitle_zh\": \"腿動作指引\",\n  \"intro_zh\": \"仰躺伸展臀部與髖外側，可依柔軟度調整拉近程度。\",\n  \"target_areas\": [\n    \"腿\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定略俯視的前側三分之四角度；頭在左、腳在右，右腿靠近鏡頭；每格顯示雙腳及手的位置。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"仰躺屈膝\",\n      \"pose_description\": \"Supine on mat, head to left, both knees bent and both soles flat on floor to right. Head, shoulders and pelvis resting. Arms at sides. Anatomical right leg nearer camera. Gaze toward ceiling.\",\n      \"coaching_note_zh\": \"頭肩放鬆貼墊，雙膝彎曲、雙腳踩地。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"右踝跨左腿\",\n      \"pose_description\": \"Same camera. Place RIGHT ankle on LEFT distal thigh just above left knee. RIGHT knee opens outward toward camera; LEFT sole remains on floor with left knee bent. This is a clear figure-four shape, not folded double-knees to chest.\",\n      \"coaching_note_zh\": \"右腳踝跨左大腿，不壓膝蓋，左腳仍踩地。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"抱左腿保持\",\n      \"pose_description\": \"Keep RIGHT ankle resting on LEFT distal thigh, RIGHT knee open. Lift LEFT foot off floor and draw LEFT thigh toward chest modestly. RIGHT arm threads through triangular gap, LEFT arm around outside; both hands clasp behind LEFT thigh, not shin or crossed leg. Head shoulders pelvis remain on mat, no crunch. Show exactly two feet and two hands.\",\n      \"coaching_note_zh\": \"抱左大腿後側，輕拉近；保持右臀溫和伸展。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"回程再換側\",\n      \"pose_description\": \"Same RIGHT ankle still on LEFT thigh but LEFT sole lowered back to floor, knee bent. Hands release and rest by sides. This depicts return BEFORE uncrossing, not premature other-side pose. Head and shoulders remain resting.\",\n      \"coaching_note_zh\": \"先放回左腳，再解開右腳，換另一側。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"膝蓋不要硬壓\",\n      \"頭部可墊薄枕\",\n      \"只到緊繃、不疼痛\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 30 秒\",\n      \"每組只保持一側 30 秒；共 2 組，左右各一組。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n\n\nCritical continuity: RIGHT ankle stays on LEFT thigh in panels 2, 3 and 4. Only LEFT support leg lifts and lowers. In panel 3 both hands hold the BACK OF LEFT THIGH through/around the leg gap, not right shin. LEFT foot airborne only in panel 3, flat on mat in panels 1,2,4. No leg identity swaps. Pelvis/head/shoulders stay resting. No need to illustrate opposite side.",
+        "status": "rejected",
+        "finding": "第三格抓握位置與交叉腳的鞋部重疊，無法清楚確認雙手抱支撐腿後側，不接入網站。"
+      },
+      {
+        "generatedAt": "2026-09-20",
+        "tool": "image_gen.imagegen",
+        "contentHash": "fcf0f8699fab5a6a5a08683ae103aeed9dcf6c58b8f1002cea2ed1c693ca912a",
+        "outputName": "exec-2c5a76e4-cc5e-437c-a0d5-e4adb6d8ebc3.png",
+        "prompt": "Edit the supplied infographic. Image 1 is the edit target. Image 2 is the approved adult character identity reference. Preserve every other panel, all Traditional Chinese copy, layout, colors, character identity, clothing, no slogans. Correct ONLY panel 3 (lower left) anatomy and grasp so it matches panels 2 and 4 with the SAME crossed leg.\nShe is performing supine figure-four glute stretch. RIGHT ankle rests across the LEFT thigh just above its knee. RIGHT knee is open toward camera. LEFT thigh is drawn modestly toward chest, LEFT knee bent; LEFT shin extends to upper right, LEFT foot airborne.\nThe hands must NOT grip either ankle, foot, shin, kneecap, or crossed right leg. BOTH HANDS CLASP BEHIND THE SUPPORTING LEFT MID-THIGH, halfway between hip and knee, visibly below and clearly separated from the crossed right ankle/shoe. Right forearm threads between legs, left arm passes outside supporting thigh. Move the clasp lower on thigh toward pelvis to create visible separation from crossed shoe. Do not swap the two legs' identity between panels. Preserve the four shape and show both separate feet. Keep head, shoulder blades and pelvis on mat, natural upward gaze. Make the camera slightly elevated only as needed to expose the thigh grasp but retain the existing side viewpoint and overall composition.\nExactly two arms and two legs, anatomically connected. Keep panel 3 caption unchanged: 抱左大腿後側，輕拉近；保持右臀溫和伸展。",
+        "status": "rejected",
+        "finding": "局部修正後手部仍被鞋部遮擋，未清楚呈現兩手抱左大腿後側；應改更高視角重排分鏡後再製，不用近似圖取代已停用舊圖。"
+      }
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-figure-four-stretch-zh-tw.png",
+        "sha256": "f6e1263ca79e03468beb78e9235573418e661e38e9f030f28260589ab7c4af90",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "blocked",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "c56bf0963a8a298275d53d186289c4d8f1b5419f6d6c8042cca0b050d13569d1",
+          "reviewedImageSha256": "f6e1263ca79e03468beb78e9235573418e661e38e9f030f28260589ab7c4af90",
+          "findings": [
+            "第二至四格的四字腿位及支撐腿不連續，第三格手的位置不能清楚對應抱支撐腿大腿後側；需固定同側腿位重製，不用錯圖教學。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。",
+            "2026-09-20 新產及局部修正版均未通過手位清晰度檢查；維持停用。提示詞與拒用理由存 illustration.generationAttempts。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Preserve all three exercise poses, hand positions and identity EXACTLY. Change ONLY top right dose text: remove 2組×30秒(每側) and replace 左右各30秒，共2組. This means one30secseteachside,2setstotal not2each. Bottom text is correct already, leaveunchanged.",
+      "inputImage": "C:\\Users\\tomoe\\.codex\\generated_images\\01a06b63-8898-70b0-8caa-a34efc8ab891\\exec-4f3987b9-9f61-4d13-bc7c-7565217461a0.png"
+    }
+  }
+}

@@ -147,7 +147,8 @@ export function ActivityDetailDialog({ sessions, onReact, onClose }: ActivityDet
                       {session.exercises.map((exercise, exerciseIndex) => (
                         <div className="session-exercise" key={`${session.id}-${exerciseIndex}`}>
                           <div><Dumbbell size={15} /><strong>{exercise.name}</strong></div>
-                          <span>{exercise.sets} 組 · {exercise.weight} kg · {exercise.reps} 次</span>
+                          {exercise.phase || exercise.note ? <p className="training-context-note">{exercise.phase ? { warmup: "熱身", main: "主訓練", cooldown: "收尾" }[exercise.phase] : ""}{exercise.note ? ` · ${exercise.note}` : ""}</p> : null}
+                          <span>{exercise.sets} 組{exercise.entries?.some(entry => entry.durationSeconds != null) ? " · 計時練習" : ` · ${exercise.weight ? `${exercise.weight} kg` : "自重"} · ${exercise.reps} 次`}</span>
                           {exercise.entries?.length ? (
                             <ol>
                               {exercise.entries.map((entry, entryIndex) => (

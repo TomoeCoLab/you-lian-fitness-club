@@ -10,3 +10,5 @@ worker-configuration.d.ts
 *.tsbuildinfo
 *.cpuprofile
 .release-notes.md
+test-results/
+playwright-report/

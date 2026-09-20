@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "bodyweight-hip-hinge",
+    "name": "徒手髖折",
+    "bodyParts": [
+      "腿",
+      "背",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "練習從髖部折疊，而不是彎腰駝背，可用於下肢訓練前準備。",
+    "instructions": [
+      "雙腳與髖同寬，膝蓋微彎，手輕放髖部。",
+      "臀部向後移，上半身跟著從髖部前傾。",
+      "背部保持自然，停在腿後側微有張力且能控制的位置。",
+      "腳掌踩穩，臀部出力回到站姿，不往後仰。"
+    ],
+    "cues": [
+      "小幅練習即可，不追求摸地。",
+      "膝蓋略彎但不做成深蹲，脖子跟背部同方向。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "先不拿重量，8 次。能維持背部自然後再學負重動作。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/2W_gXhut5S8?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=2W_gXhut5S8",
+      "title": "徒手髖折教學",
+      "channel": "Hinge Health",
+      "language": "英文"
+    },
+    "sourceUrl": "https://blogs.ifas.ufl.edu/orangeco/2026/01/26/functional-movement-series-the-hip-hinge/",
+    "sourceLabel": "UF/IFAS 髖折疊教學"
+  },
+  "definition": {
+    "variation": "徒手髖折；本項起始設定：雙腳與髖同寬，膝蓋微彎，手輕放髖部。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 8 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=2W_gXhut5S8",
+      "label": "Hinge Health 物理治療師髖折指引",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://blogs.ifas.ufl.edu/orangeco/2026/01/26/functional-movement-series-the-hip-hinge/",
+      "label": "UF/IFAS 髖折疊教學",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "髖部向後、脊椎自然及控制回站"
+      ],
+      "note": "引用動作步驟，不採用治療或預防疼痛的成效宣稱；木棍是選用的姿勢提示，不是本站徒手版必需品。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "0304b50e990a5a964d3848ca9abf3de3b9b11f42c88e30119248d96492837b12",
+      "findings": [
+        "已對照動作專屬來源：髖部向後、脊椎自然及控制回站。",
+        "引用動作步驟，不採用治療或預防疼痛的成效宣稱；木棍是選用的姿勢提示，不是本站徒手版必需品。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "0304b50e990a5a964d3848ca9abf3de3b9b11f42c88e30119248d96492837b12",
+      "reviewedImageSha256": "00affacfbdf99539429bcad10dcd152ec36c8e2a15e6914cd5e5c3508c60edfd",
+      "findings": [
+        "微屈膝、髖向後、軀幹隨髖前傾再站直，無過伸回程；8 次 1 組相符。圖中角度與視距是示意，不要求個別使用者精準達到。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/2W_gXhut5S8?rel=0",
+      "check": {
+        "videoId": "2W_gXhut5S8",
+        "seconds": [
+          8,
+          22,
+          32,
+          41
+        ],
+        "observation": "重新核對站姿無負重、膝微彎，臀部後推與軀幹髖折前傾；不是以膝主導的深蹲。"
+      },
+      "findings": [
+        "重新核對站姿無負重、膝微彎，臀部後推與軀幹髖折前傾；不是以膝主導的深蹲。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "0304b50e990a5a964d3848ca9abf3de3b9b11f42c88e30119248d96492837b12",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/2W_gXhut5S8?rel=0",
+            "watchUrl": "https://www.youtube.com/watch?v=2W_gXhut5S8",
+            "title": "徒手髖折教學",
+            "channel": "Hinge Health",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/2W_gXhut5S8?rel=0",
+            "check": {
+              "videoId": "2W_gXhut5S8",
+              "seconds": [
+                8,
+                22,
+                41
+              ],
+              "observation": "可見站姿、髖往後推與軀幹前傾；採徒手而非硬舉負重版本。"
+            },
+            "findings": [
+              "可見站姿、髖往後推與軀幹前傾；採徒手而非硬舉負重版本。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "a04efe860a512614ae527bc0d4874e571c32371f20478ae63960798edd042771"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-bodyweight-hip-hinge-zh-tw.png",
+    "sha256": "00affacfbdf99539429bcad10dcd152ec36c8e2a15e6914cd5e5c3508c60edfd",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 徒手髖折. MOVEMENT PLAN: Unloaded bilateral hiphinge gluteshamstrings control notsquat; SIDEviewfacingright fullbody. 1 站穩準備 feethipwidth softknees handsonhipcrease. 2 臀部後移 kneesbend15degrees hipsflex torsoinclines30degreesneutralspine shinsnearlyvertical. 3 保持自然 torsoinclines45degrees glutesback kneesstillonly15degrees, headinlinewithspineeyesfloor3mahead. 4 回到站姿 neutraluprightnohyperextension. Key 從髖部折疊，不駝背／膝微彎，不必摸地. Reps 8次，1組. Breath 後移吸氣，站起吐氣.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "kettlebell-swing",
+    "name": "壺鈴擺盪",
+    "bodyParts": [
+      "腿",
+      "背",
+      "核心"
+    ],
+    "equipment": "壺鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "用快速伸髖帶動壺鈴，建立髖部爆發力。",
+    "instructions": [
+      "壺鈴置於前方，以髖折疊把壺鈴帶到腿間。",
+      "快速伸髖站直，讓壺鈴自然擺起。",
+      "手臂保持放鬆，順勢回到髖折疊。",
+      "本組結束時，讓壺鈴再回腿間，以髖折疊控制它停回前方原位；不要在最高點突然鬆手或用腰硬煞。"
+    ],
+    "cues": [
+      "不是前蹲或手臂抬舉",
+      "脊椎保持中立",
+      "先熟悉壺鈴硬舉"
+    ],
+    "recommendation": {
+      "sets": 4,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 75,
+      "load": "能維持俐落髖折疊的重量；動作失速就停止"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/sN57oEreWAU",
+      "watchUrl": "https://www.youtube.com/watch?v=sN57oEreWAU",
+      "title": "雙手壺鈴擺盪",
+      "channel": "Nuffield Health",
+      "language": "英文",
+      "note": "這是以髖部驅動的雙手擺盪，與慢速壺鈴硬舉不同；先熟悉髖折再嘗試，不以肩膀拉起。"
+    },
+    "sourceUrl": "https://www.strongfirst.com/2-common-errors-kettlebell-swing-set/",
+    "sourceLabel": "StrongFirst：壺鈴擺盪起始與停放"
+  },
+  "definition": {
+    "variation": "雙手壺鈴擺盪至約胸高，以髖折疊及伸髖驅動；不採過頭版本，包含地面起始與結束停放。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nuffieldhealth.com/article/how-to-kettlebell-swing",
+      "label": "Nuffield Health",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.strongfirst.com/2-common-errors-kettlebell-swing-set/",
+      "label": "StrongFirst：壺鈴擺盪起始與停放",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "先找到髖折再握壺鈴",
+        "後擺接腿後伸髖、結束回髖折並停回地面"
+      ],
+      "note": "已讀 Brett Jones 的起始與停放說明；雙手胸高版本、不過頭，份量仍是本站參考，不代表來源處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "ae112588a0187b9127ca381156d9e777b4df6d63db5c558a0b81a42586a120cf",
+      "findings": [
+        "已讀 Brett Jones 的起始與停放說明；雙手胸高版本、不過頭，份量仍是本站參考，不代表來源處方。",
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "ae112588a0187b9127ca381156d9e777b4df6d63db5c558a0b81a42586a120cf",
+      "reviewedImageSha256": "e76ce3026e7453d81f49d7ddcb637d482b0538db18fe61ab039c6de00e3428bf",
+      "findings": [
+        "髖折、帶入腿間、伸髖擺起、回擺、地面停放五階段可見；壺鈴不過頭，4 組 10 次相符。",
+        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/sN57oEreWAU",
+      "check": {
+        "videoId": "sN57oEreWAU",
+        "seconds": [
+          9,
+          15,
+          21,
+          25
+        ],
+        "observation": "重新核對雙手握單壺鈴，髖折與伸髖擺起，約胸高而非過頭擺盪。"
+      },
+      "findings": [
+        "重新核對雙手握單壺鈴，髖折與伸髖擺起，約胸高而非過頭擺盪。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "ae112588a0187b9127ca381156d9e777b4df6d63db5c558a0b81a42586a120cf",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/sN57oEreWAU",
+            "watchUrl": "https://www.youtube.com/watch?v=sN57oEreWAU",
+            "title": "雙手壺鈴擺盪",
+            "channel": "Nuffield Health",
+            "language": "英文",
+            "note": "這是以髖部驅動的雙手擺盪，與慢速壺鈴硬舉不同；先熟悉髖折再嘗試，不以肩膀拉起。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/sN57oEreWAU",
+            "check": {
+              "videoId": "sN57oEreWAU",
+              "seconds": [
+                9,
+                21
+              ],
+              "observation": "可見雙手壺鈴動態擺盪；這不是槓鈴硬舉示範，初學者請先建立髖折控制。"
+            },
+            "findings": [
+              "可見雙手壺鈴動態擺盪；這不是槓鈴硬舉示範，初學者請先建立髖折控制。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "eda690d0251054552f781433c3b44dfd120ddc1faff58c4e47c9d60cd4d5a4a4"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-kettlebell-swing-v2-zh-tw.png",
+    "sha256": "e76ce3026e7453d81f49d7ddcb637d482b0538db18fe61ab039c6de00e3428bf",
+    "generatedFromContentHash": "ae112588a0187b9127ca381156d9e777b4df6d63db5c558a0b81a42586a120cf",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面全身，人物面向右；單顆壺鈴在前方地面起始，髖折、擺至胸高、停放均可見。",
+      "frames": [
+        {
+          "title": "髖折準備",
+          "pose": "Stand about one foot behind kettlebell on floor, hinge hips back knees softly bent, both hands grip handle, neutral spine gaze floor ahead.",
+          "caption": "先髖折再握鈴，背部自然。"
+        },
+        {
+          "title": "帶入腿間",
+          "pose": "Hike kettlebell backward high between thighs, forearms contact inner upper thighs, torso hinged, shins near vertical.",
+          "caption": "壺鈴帶入腿間，不蹲著舉手。"
+        },
+        {
+          "title": "伸髖擺起",
+          "pose": "Extend hips to stand tall, kettlebell floats in front at lower chest height held both hands, arms relaxed straight, no backward lumbar lean.",
+          "caption": "以伸髖帶動，壺鈴不過頭。"
+        },
+        {
+          "title": "順勢回擺",
+          "pose": "Return kettlebell between upper thighs through hip hinge, knees soft, spine neutral, ready next rep.",
+          "caption": "等壺鈴回擺，再向後折髖。"
+        },
+        {
+          "title": "結束停放",
+          "pose": "After last backswing stay hinged and guide kettlebell onto floor in front at original position, both hands stay gripping until base rests.",
+          "caption": "本組結束，控制停回前方地面。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-kettlebell-swing-zh-tw.png",
+        "sha256": "69de44e14578d119f89b85e8cafda514583717c771773cb379fa932644da9232",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "eda690d0251054552f781433c3b44dfd120ddc1faff58c4e47c9d60cd4d5a4a4",
+          "reviewedImageSha256": "69de44e14578d119f89b85e8cafda514583717c771773cb379fa932644da9232",
+          "findings": [
+            "髖折與胸高擺盪可見，但圖為 3 組，頁面為 4 組；需統一份量，補地面起始與安全放回而非省略。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "內容版本：4\n來源文字 SHA-256：ae112588a0187b9127ca381156d9e777b4df6d63db5c558a0b81a42586a120cf\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"壺鈴擺盪\",\n  \"variation\": \"雙手壺鈴擺盪至約胸高，以髖折疊及伸髖驅動；不採過頭版本，包含地面起始與結束停放。\",\n  \"subtitle_zh\": \"腿、背、核心動作指引\",\n  \"intro_zh\": \"用快速伸髖帶動壺鈴，建立髖部爆發力。\",\n  \"target_areas\": [\n    \"腿\",\n    \"背\",\n    \"核心\"\n  ],\n  \"step_count\": 5,\n  \"camera\": \"固定正側面全身，人物面向右；單顆壺鈴在前方地面起始，髖折、擺至胸高、停放均可見。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"髖折準備\",\n      \"pose_description\": \"Stand about one foot behind kettlebell on floor, hinge hips back knees softly bent, both hands grip handle, neutral spine gaze floor ahead.\",\n      \"coaching_note_zh\": \"先髖折再握鈴，背部自然。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"帶入腿間\",\n      \"pose_description\": \"Hike kettlebell backward high between thighs, forearms contact inner upper thighs, torso hinged, shins near vertical.\",\n      \"coaching_note_zh\": \"壺鈴帶入腿間，不蹲著舉手。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"伸髖擺起\",\n      \"pose_description\": \"Extend hips to stand tall, kettlebell floats in front at lower chest height held both hands, arms relaxed straight, no backward lumbar lean.\",\n      \"coaching_note_zh\": \"以伸髖帶動，壺鈴不過頭。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"順勢回擺\",\n      \"pose_description\": \"Return kettlebell between upper thighs through hip hinge, knees soft, spine neutral, ready next rep.\",\n      \"coaching_note_zh\": \"等壺鈴回擺，再向後折髖。\"\n    },\n    {\n      \"step_number\": 5,\n      \"step_title_zh\": \"結束停放\",\n      \"pose_description\": \"After last backswing stay hinged and guide kettlebell onto floor in front at original position, both hands stay gripping until base rests.\",\n      \"coaching_note_zh\": \"本組結束，控制停回前方地面。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"不是前蹲或手臂抬舉\",\n      \"脊椎保持中立\",\n      \"先熟悉壺鈴硬舉\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：4 組 × 10 次\",\n      \"一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n\nImage A is adult character reference. Keep natural gaze, no slogans or machine logos. Any additional image is ONLY apparatus structure reference, not character reference. The machine is same orientation and mechanically connected across panels.",
+      "inputImages": [
+        "C:/Users/tomoe/Downloads/健身示範角色三視圖.png"
+      ]
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "wall-ankle-mobility",
+    "name": "扶牆踝關節前移",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "腳跟不抬起，讓膝蓋小幅前移，練習踝關節活動。",
+    "instructions": [
+      "雙手扶牆，一腳在前，腳尖離牆一小段距離，另一腳在後支撐。",
+      "前腳腳跟留在地面，膝蓋朝第二腳趾方向慢慢前移。",
+      "可輕碰牆，但不必硬碰到；前腳跟不能抬起。",
+      "退回起點，重複 5 次再換側。"
+    ],
+    "cues": [
+      "不向內倒膝、不靠腳踝內翻湊距離。",
+      "腳踝前方夾痛時停止，不用力壓膝。"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "每側 5 次，共 2 組；離牆距離以腳跟能著地為準。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rulADo6OOLs?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=rulADo6OOLs",
+      "title": "膝蓋前移與腳跟著地示範",
+      "channel": "Physio Plus Fitness",
+      "language": "英文"
+    },
+    "sourceUrl": "https://uk.physitrack.com/home-exercise-video/knee-to-wall---ankle-dorsiflexion",
+    "sourceLabel": "Physitrack 踝關節活動說明"
+  },
+  "definition": {
+    "variation": "扶牆踝關節前移；本項起始設定：雙手扶牆，一腳在前，腳尖離牆一小段距離，另一腳在後支撐。",
+    "counting": "每組只做一側 5 次；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://uk.physitrack.com/home-exercise-video/knee-to-wall---ankle-dorsiflexion",
+      "label": "Physitrack 踝關節活動說明",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "面牆前腳膝前移",
+        "依腳跟可著地調整距離"
+      ],
+      "note": "不將來源的極限距離測試當必須達成目標；本站不要求固定 5 公分或膝蓋一定碰牆。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "6bed500c1dd0765c3474686aedfff7787877ad52d0a2f7c9a67db9aa245bee9e",
+      "findings": [
+        "已核對原始來源支持：面牆前腳膝前移、依腳跟可著地調整距離。不將來源的極限距離測試當必須達成目標；本站不要求固定 5 公分或膝蓋一定碰牆。",
+        "本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "6bed500c1dd0765c3474686aedfff7787877ad52d0a2f7c9a67db9aa245bee9e",
+      "reviewedImageSha256": "24a3cbef455f9cb0ffa99a57e28f0cc5827af2a5f109f83f5fd04b105c85cbd6",
+      "findings": [
+        "前膝前移且腳跟保留地面、每側 5 次相符；圖上 5 公分只是起始示意，不強求碰牆。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/rulADo6OOLs?rel=0",
+      "check": {
+        "videoId": "rulADo6OOLs",
+        "seconds": [
+          20,
+          45,
+          80
+        ],
+        "observation": "可見前後站姿扶牆與膝向牆前移。原片是踝活動度測試，本頁只取輕柔活動形式，不追求測量距離或疼痛極限。"
+      },
+      "findings": [
+        "可見前後站姿扶牆與膝向牆前移。原片是踝活動度測試，本頁只取輕柔活動形式，不追求測量距離或疼痛極限。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "6bed500c1dd0765c3474686aedfff7787877ad52d0a2f7c9a67db9aa245bee9e"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-wall-ankle-mobility-zh-tw.png",
+    "sha256": "24a3cbef455f9cb0ffa99a57e28f0cc5827af2a5f109f83f5fd04b105c85cbd6",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 扶牆踝關節前移. MOVEMENT PLAN: Standing knees-to-wall ankledorsiflexion mobility notcalfstretch. SIDEcamera wallscreenright handswallshoulderheight. 1 前後站穩 targetfrontfoottoes5cmfromwall rearfootbehindforbalancebothheelsdown. 2 膝蓋前移 bendFRONTkneeoversecondtoe untilnearwall FRONTHEELfullyground. 3 保持腳跟 frontkneelightlytouchwall heelONFLOOR, no kneevalgus. 4 回到起點 movefrontkneeback hipsbackslightly remainsstandinghandswall. Key 前腳跟不離地／膝蓋朝腳尖，不硬壓. Reps 每側5次，各1組. Breath 前移吐氣，回復吸氣.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

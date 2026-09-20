@@ -1,7 +1,8 @@
 import { beginLogin, completeLogin, getSession, logout } from "./auth";
 import { appLoginTestPage } from "./app-login-test";
-import { deleteCheckin, getPhoto, listMonth, listUserHistory, parseCheckinInput, parseReaction, saveCheckin, setReaction } from "./checkins";
-import { sendCheckinWebhook } from "./discord";
+import { deleteCheckin, getPhoto, getProgressOverview, listMonth, listUserHistory, parseCheckinInput, parseReaction, saveCheckin, setReaction } from "./checkins";
+import { findSubmission, SubmissionConflict } from "./checkins";
+import { deliverNotification, listNotifications, retryNotifications } from "./notifications";
 import { assertSameOrigin, json } from "./http";
 import { reservePhotoRead, reservePhotoUpload } from "./r2-quota";
 import { createTemplate, deleteTemplate, listTemplates, parseTemplateInput } from "./templates";
@@ -32,6 +33,13 @@ async function handleApi(request: Request, env: Env, ctx: ExecutionContext): Pro
   if (!user) return json({ error: "Unauthorized" }, 401);
 
   if (request.method === "GET" && url.pathname === "/api/me") return json({ user });
+  if (request.method === "GET" && url.pathname === "/api/notifications") return json({ notifications: await listNotifications(env, user.id) });
+  if (request.method === "GET" && url.pathname.startsWith("/api/submissions/")) {
+    const id = url.pathname.slice("/api/submissions/".length);
+    if (!/^[\da-f-]{36}$/i.test(id)) return json({ error: "Invalid submission ID" }, 400);
+    const prior = await findSubmission(env, user.id, id);
+    return json({ record: prior?.record ?? null, created: false, notificationQueued: Boolean(env.DISCORD_WEBHOOK_URL) });
+  }
 
   if (request.method === "GET" && url.pathname.startsWith("/api/photos/")) {
     const checkinId = decodeURIComponent(url.pathname.slice("/api/photos/".length));
@@ -52,7 +60,8 @@ async function handleApi(request: Request, env: Env, ctx: ExecutionContext): Pro
   }
 
   if (request.method === "GET" && url.pathname === "/api/progress") {
-    return json({ checkins: await listUserHistory(env, user.id) });
+    const [checkins, overview] = await Promise.all([listUserHistory(env, user.id), getProgressOverview(env, user.id)]);
+    return json({ checkins, overview, historyLimit: 120 });
   }
 
   if (request.method === "GET" && url.pathname === "/api/templates") {
@@ -120,6 +129,20 @@ async function handleApi(request: Request, env: Env, ctx: ExecutionContext): Pro
     const input = parseCheckinInput(body);
     if (!input) return json({ error: "Invalid check-in" }, 400);
 
+    if (photoFile && (photoFile.size > 5_000_000 || !["image/jpeg", "image/png", "image/webp"].includes(photoFile.type))) return json({ error: "照片必須為 JPEG、PNG 或 WebP，且不超過 5 MB。" }, 400);
+    const requestId = request.headers.get("Idempotency-Key");
+    if (requestId && !/^[\da-f]{8}-[\da-f]{4}-[\da-f]{4}-[\da-f]{4}-[\da-f]{12}$/i.test(requestId)) return json({ error: "Invalid submission ID" }, 400);
+    const hex = (value: ArrayBuffer) => [...new Uint8Array(value)].map(n => n.toString(16).padStart(2, "0")).join("");
+    const photoHash = photoFile ? hex(await crypto.subtle.digest("SHA-256", await photoFile.arrayBuffer())) : null;
+    const hash = hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(JSON.stringify({ input, photoHash }))));
+    if (requestId) {
+      const prior = await findSubmission(env, user.id, requestId);
+      if (prior) {
+        if (prior.hash !== hash) throw new SubmissionConflict();
+        return json({ record: prior.record, created: false, notificationQueued: Boolean(env.DISCORD_WEBHOOK_URL) });
+      }
+    }
+
     let storedPhoto: { key: string; contentType: string; size: number } | null = null;
     if (photoFile) {
       const allowedTypes = new Set(["image/jpeg", "image/png", "image/webp"]);
@@ -137,23 +160,14 @@ async function handleApi(request: Request, env: Env, ctx: ExecutionContext): Pro
 
     let result: Awaited<ReturnType<typeof saveCheckin>>;
     try {
-      result = await saveCheckin(env, user, input, storedPhoto);
+      result = await saveCheckin(env, user, input, storedPhoto, requestId ? { id: requestId, hash } : undefined);
     } catch (error) {
       if (storedPhoto) await env.PHOTOS.delete(storedPhoto.key).catch(() => undefined);
       throw error;
     }
-    if (env.DISCORD_WEBHOOK_URL) {
-      ctx.waitUntil(
-        sendCheckinWebhook(env, result.record).catch((error: unknown) => {
-          console.error(JSON.stringify({
-            message: "discord_webhook_failed",
-            checkinId: result.record.id,
-            error: error instanceof Error ? error.message : String(error),
-          }));
-        }),
-      );
-    }
-    return json({ ...result, notificationQueued: Boolean(env.DISCORD_WEBHOOK_URL) }, 201);
+    if (!result.created && storedPhoto) await env.PHOTOS.delete(storedPhoto.key);
+    if (env.DISCORD_WEBHOOK_URL) ctx.waitUntil(deliverNotification(env, result.record.id));
+    return json({ ...result, notificationQueued: Boolean(env.DISCORD_WEBHOOK_URL) }, result.created ? 201 : 200);
   }
 
   if (request.method === "DELETE" && url.pathname.startsWith("/api/checkins/")) {
@@ -173,6 +187,7 @@ export default {
     try {
       return await handleApi(request, env, ctx);
     } catch (error) {
+      if (error instanceof SubmissionConflict) return json({ error: error.message }, 409);
       console.error(JSON.stringify({
         message: "request_failed",
         method: request.method,
@@ -181,5 +196,8 @@ export default {
       }));
       return json({ error: "Internal server error" }, 500);
     }
+  },
+  async scheduled(_controller: ScheduledController, env: Env, ctx: ExecutionContext) {
+    ctx.waitUntil(retryNotifications(env));
   },
 } satisfies ExportedHandler<Env>;

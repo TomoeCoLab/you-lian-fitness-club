@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "front-plank",
+    "name": "前臂棒式",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "以等長收縮維持軀幹，訓練核心與肩帶穩定。",
+    "instructions": [
+      "手肘位於肩膀正下方，雙腿向後伸直。",
+      "腹部與臀部收緊，讓軀幹與腿形成一直線。",
+      "持續自然呼吸，時間到後平順放下。"
+    ],
+    "cues": [
+      "不要塌腰或抬臀",
+      "肩膀不要聳起",
+      "以能維持姿勢的時間為準"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": null,
+      "durationSeconds": 30,
+      "restSeconds": 60,
+      "load": "徒手計時；姿勢優先於撐得更久"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
+      "watchUrl": "https://www.youtube.com/watch?v=QpOgJLqeo14",
+      "title": "前臂棒式",
+      "channel": "Nuffield Health",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/32/front-plank/",
+    "sourceLabel": "ACE Exercise Library"
+  },
+  "definition": {
+    "variation": "前臂棒式；本項起始設定：手肘位於肩膀正下方，雙腿向後伸直。",
+    "counting": "每組以實際維持或活動的秒數記錄，預設 30 秒；休息不計入。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/32/front-plank/",
+      "label": "ACE Exercise Library",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/32/front-plank/",
+      "label": "ACE：前臂棒式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "手肘在肩下、前臂支撐",
+        "軀幹腿部成線、避免塌腰抬臀",
+        "維持呼吸、控制回地面",
+        "腰痛即停止"
+      ],
+      "note": "核對三階段與停止條件；30 秒 × 3 組是本站起始參考，可提早結束，不以時間取代姿勢。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827",
+      "findings": [
+        "核對三階段與停止條件；30 秒 × 3 組是本站起始參考，可提早結束，不以時間取代姿勢。",
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827",
+      "reviewedImageSha256": "553a6f349498c5424fd7e81b65040b3342dc6deae9275f2f9ebfde9a43b4fa48",
+      "findings": [
+        "四格：前臂肩下定位、前臂與腳尖支撐、靜止保持、膝回地結束；3 組 × 30 秒。",
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
+      "check": {
+        "videoId": "QpOgJLqeo14",
+        "seconds": [
+          10,
+          20
+        ],
+        "observation": "重新核對前臂、腳尖支撐的棒式；10 秒準備跪姿，20 秒可見伸腿保持與肩肘對齊，非直臂高棒式。"
+      },
+      "findings": [
+        "重新核對前臂、腳尖支撐的棒式；10 秒準備跪姿，20 秒可見伸腿保持與肩肘對齊，非直臂高棒式。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
+            "watchUrl": "https://www.youtube.com/watch?v=QpOgJLqeo14",
+            "title": "前臂棒式",
+            "channel": "Nuffield Health",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/QpOgJLqeo14",
+            "check": {
+              "videoId": "QpOgJLqeo14",
+              "seconds": [
+                10,
+                20
+              ],
+              "observation": "可見前臂與腳尖支撐的靜態棒式；不是原先共用的伏地挺身影片。時間依本次課表及穩定度調整，不比撐最久。"
+            },
+            "findings": [
+              "可見前臂與腳尖支撐的靜態棒式；不是原先共用的伏地挺身影片。時間依本次課表及穩定度調整，不比撐最久。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "9440a93525a7d1e3e9f51a608ea1f471cfd0dc7a8482946731b42216d543c92f"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-front-plank-v2-zh-tw.png",
+    "sha256": "553a6f349498c5424fd7e81b65040b3342dc6deae9275f2f9ebfde9a43b4fa48",
+    "generatedFromContentHash": "f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側面，頭到腳完整入鏡，前臂、腳尖及膝部接地清楚。",
+      "frames": [
+        {
+          "title": "前臂定位",
+          "pose": "Kneel on mat with forearms on floor, elbows directly beneath shoulders, palms down, neck aligned with torso looking at mat.",
+          "caption": "手肘在肩下，前臂穩定貼地。"
+        },
+        {
+          "title": "建立直線",
+          "pose": "Extend both legs behind and lift knees: forearms and toes are sole supports. Shoulder hip ankle form a straight line; gaze downward, no neck extension, no arched back.",
+          "caption": "伸腿抬膝，頭、軀幹與腿自然成線。"
+        },
+        {
+          "title": "穩定保持",
+          "pose": "Identical forearm plank alignment, maintain stillness and natural breathing, no dynamic up-and-down repetition.",
+          "caption": "自然呼吸，不塌腰、不抬臀。"
+        },
+        {
+          "title": "緩慢放下",
+          "pose": "Lower BOTH knees onto mat, keeping forearms on ground, release tension in a controlled supported position.",
+          "caption": "膝蓋輕放回墊面，結束本組。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-front-plank-zh-tw.png",
+        "sha256": "ef69a859447337f61c6aec19b86e3d5b3d6b6f4a44a7e1d277a14affc485508d",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "9440a93525a7d1e3e9f51a608ea1f471cfd0dc7a8482946731b42216d543c92f",
+          "reviewedImageSha256": "ef69a859447337f61c6aec19b86e3d5b3d6b6f4a44a7e1d277a14affc485508d",
+          "findings": [
+            "持續抬頭看前方，與頭頸自然沿軀幹的重點矛盾；需重製自然向地面視線，不以抬頭展示面孔。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create ONE independent 4:3 photorealistic Traditional Chinese fitness infographic. Input image is approved adult character identity/outfit reference only. Same character, face, proportions, blue outfit and white shoes throughout; light neutral studio, soft light, clear dark slate typography. Natural gaze along head direction, not at camera. No slogans or decorative text. Use exact plan and captions below, with small bottom band for key cues, starting dose and natural breathing. Don't print metadata. Clear coherent pose progression and physically correct supports above all. \n內容版本：4\n來源文字 SHA-256：f51a7138bff4951e052fac725a331bcaa12d9b306c934b2886266116b389a827\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"前臂棒式\",\n  \"variation\": \"前臂棒式；本項起始設定：手肘位於肩膀正下方，雙腿向後伸直。\",\n  \"subtitle_zh\": \"核心動作指引\",\n  \"intro_zh\": \"以等長收縮維持軀幹，訓練核心與肩帶穩定。\",\n  \"target_areas\": [\n    \"核心\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定側面，頭到腳完整入鏡，前臂、腳尖及膝部接地清楚。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"前臂定位\",\n      \"pose_description\": \"Kneel on mat with forearms on floor, elbows directly beneath shoulders, palms down, neck aligned with torso looking at mat.\",\n      \"coaching_note_zh\": \"手肘在肩下，前臂穩定貼地。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"建立直線\",\n      \"pose_description\": \"Extend both legs behind and lift knees: forearms and toes are sole supports. Shoulder hip ankle form a straight line; gaze downward, no neck extension, no arched back.\",\n      \"coaching_note_zh\": \"伸腿抬膝，頭、軀幹與腿自然成線。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"穩定保持\",\n      \"pose_description\": \"Identical forearm plank alignment, maintain stillness and natural breathing, no dynamic up-and-down repetition.\",\n      \"coaching_note_zh\": \"自然呼吸，不塌腰、不抬臀。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"緩慢放下\",\n      \"pose_description\": \"Lower BOTH knees onto mat, keeping forearms on ground, release tension in a controlled supported position.\",\n      \"coaching_note_zh\": \"膝蓋輕放回墊面，結束本組。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"不要塌腰或抬臀\",\n      \"肩膀不要聳起\",\n      \"以能維持姿勢的時間為準\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 30 秒\",\n      \"每組以實際維持或活動的秒數記錄，預設 30 秒；休息不計入。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "exercise": {
+    "id": "wall-push-up",
+    "name": "牆壁伏地挺身",
+    "bodyParts": [
+      "胸",
+      "手臂",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "利用牆面降低負荷，練習上半身推力。",
+    "instructions": [
+      "雙手放在牆面胸口至肩膀高度，略比肩寬，雙腳站穩。",
+      "身體從頭到腳保持自然直線，慢慢彎肘靠近牆面。",
+      "手肘自然向斜後方，不向兩旁大幅張開。",
+      "吐氣推回起點，胸口和臀部一起移動。"
+    ],
+    "cues": [
+      "靠牆近一點較容易，先用小幅度。",
+      "不塌腰、不聳肩；手腕或肩膀疼痛就停止。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "徒手，先 5 次；動作穩定後再逐步增加至 10 次。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/kmzcmFZ9NyY?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=kmzcmFZ9NyY",
+      "title": "牆壁伏地挺身示範",
+      "channel": "South Tees Hospitals NHS",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+    "sourceLabel": "NHS 肌力活動"
+  },
+  "definition": {
+    "variation": "牆壁伏地挺身；本項起始設定：雙手放在牆面胸口至肩膀高度，略比肩寬，雙腳站穩。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 5 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+      "label": "NHS 肌力活動",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "牆面推撐與身體成線"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    },
+    {
+      "url": "https://www.southtees.nhs.uk/resources/combined-press-ups/",
+      "label": "South Tees NHS 牆面推力指引",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "34065c091d85b1015559ef0c1fc273c3e8405c60b8acd79e0a7d4ca7bb4c5019",
+      "findings": [
+        "已對照原始來源：牆面推撐與身體成線。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "34065c091d85b1015559ef0c1fc273c3e8405c60b8acd79e0a7d4ca7bb4c5019",
+      "reviewedImageSha256": "8800304dcd5bd8643ddad725b85f83ebec58969ca1e19c72ef8363da8a0aa295",
+      "findings": [
+        "側面顯示手撐牆、身體成線屈肘靠近再推回，5 次 × 1 組；未見明顯順序矛盾。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/kmzcmFZ9NyY?rel=0",
+      "check": {
+        "videoId": "kmzcmFZ9NyY",
+        "seconds": [
+          7,
+          14,
+          26
+        ],
+        "observation": "可見離牆站位與雙手推牆的版本；只在舒適距離內操作。"
+      },
+      "findings": [
+        "可見離牆站位與雙手推牆的版本；只在舒適距離內操作。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "34065c091d85b1015559ef0c1fc273c3e8405c60b8acd79e0a7d4ca7bb4c5019"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-wall-push-up-zh-tw.png",
+    "sha256": "8800304dcd5bd8643ddad725b85f83ebec58969ca1e19c72ef8363da8a0aa295",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title 牆壁伏地挺身. Side view wall at right. 1 雙手定位: palms flat on wall chest height arms long, feet hip width away from wall, entire head-hips-heels line; note 手掌貼牆，雙腳踩穩. 2 屈肘靠近: elbows bend 30-45 degrees to torso, straight body leans toward wall; note 身體整體前傾，不塌腰. 3 穩定停留: face stays clear of wall, elbows bent comfortable depth; note 肩膀放鬆，手肘不外張. 4 推回起點: elbows extend body returns, feet unchanged; note 推牆回復，動作平順. Key 距離近一點較容易／牆面穩固. Reps 初次５下、１組. Breathing 靠近吸氣／推回吐氣.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

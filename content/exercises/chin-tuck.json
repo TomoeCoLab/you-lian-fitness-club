@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "revision": 7,
+  "exercise": {
+    "id": "chin-tuck",
+    "name": "坐姿下巴後收",
+    "bodyParts": [
+      "肩"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "保持視線水平，讓頭部輕輕後移；不是把下巴往胸口壓。",
+    "instructions": [
+      "坐穩、肩膀放鬆，頭部自然，眼睛平視。",
+      "頭部小幅水平向後移，下巴略往內收。",
+      "輕停約 2 秒，不用力，保持呼吸。",
+      "放鬆回到自然位置，慢慢重複。"
+    ],
+    "cues": [
+      "不低頭、不仰頭、不用手推頭。",
+      "若疼痛加重、頭暈、手麻或無力，立即停止；持續痠痛請找醫師或物理治療師評估。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "小幅度做 5 次；沒有不適才繼續，不追求用力或角度。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/14UhAiWiMq0?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=14UhAiWiMq0",
+      "title": "坐姿下巴後收示範",
+      "channel": "PhysioExercise",
+      "language": "其他語言",
+      "note": "影片含荷蘭語說明；以本頁中文步驟輔助觀看，只做頭部小幅水平後移，不用手用力推頭。"
+    },
+    "sourceUrl": "https://www.lancsteachinghospitals.nhs.uk/trauma-exercises",
+    "sourceLabel": "Lancashire NHS 頸部動作示範"
+  },
+  "definition": {
+    "variation": "坐姿下巴後收；本項起始設定：坐穩、肩膀放鬆，頭部自然，眼睛平視。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 5 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.lancsteachinghospitals.nhs.uk/trauma-exercises",
+      "label": "Lancashire NHS 頸部動作示範",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.cuh.nhs.uk/patient-information/neck-exercises-and-advice/",
+      "label": "Cambridge University Hospitals NHS：坐姿下巴後收",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "坐直後收下巴",
+        "不向前低頭",
+        "頸背保持自然"
+      ],
+      "note": "核對 Chin retraction 段落；本站小幅 5 次、停約 2 秒是起始設定，不引用其他需手壓頭的伸展。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "4a771a2a1055cb6eef2a59bb60d019b32d5c7ae7d50467085cb508adb3fbda4c",
+      "findings": [
+        "核對 Chin retraction 段落；本站小幅 5 次、停約 2 秒是起始設定，不引用其他需手壓頭的伸展。",
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "4a771a2a1055cb6eef2a59bb60d019b32d5c7ae7d50467085cb508adb3fbda4c",
+      "reviewedImageSha256": "1b8875a71dbd4940973e041e51eb7ae230da805cc18d8d9bd0d7cb4f63a04c4d",
+      "findings": [
+        "已核對側面坐姿及水平向後的小幅下巴回收，移除誤導垂直參考線；視線水平，5 次與文字相符。",
+        "人工檢視可見畫面及文字，不代表醫療或生物力學認證。",
+        "重新核圖是淡色原頭位加水平箭頭，不是虛線；分鏡同步實際採用方式，生成當時 hash 不變。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/14UhAiWiMq0?rel=0",
+      "check": {
+        "videoId": "14UhAiWiMq0",
+        "seconds": [
+          8,
+          26,
+          38,
+          47
+        ],
+        "observation": "重新核對坐姿水平後收下巴；影片手指作位置提示，本站不要求以手施壓或低頭。"
+      },
+      "findings": [
+        "重新核對坐姿水平後收下巴；影片手指作位置提示，本站不要求以手施壓或低頭。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "4a771a2a1055cb6eef2a59bb60d019b32d5c7ae7d50467085cb508adb3fbda4c",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/14UhAiWiMq0?rel=0",
+            "watchUrl": "https://www.youtube.com/watch?v=14UhAiWiMq0",
+            "title": "坐姿下巴後收示範",
+            "channel": "PhysioExercise",
+            "language": "其他語言",
+            "note": "影片含荷蘭語說明；以本頁中文步驟輔助觀看，只做頭部小幅水平後移，不用手用力推頭。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/14UhAiWiMq0?rel=0",
+            "check": {
+              "videoId": "14UhAiWiMq0",
+              "seconds": [
+                8,
+                26,
+                47
+              ],
+              "observation": "可見坐姿下巴後收示範，手指作位置提示；本頁不要求以手施壓。"
+            },
+            "findings": [
+              "可見坐姿下巴後收示範，手指作位置提示；本頁不要求以手施壓。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "70f192f36f889286c2de01f0baeb5e03bd4a83bb13103593866ef1ce4b7385b8"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-chin-tuck-v2-zh-tw.png",
+    "sha256": "1b8875a71dbd4940973e041e51eb7ae230da805cc18d8d9bd0d7cb4f63a04c4d",
+    "generatedFromContentHash": "ec8f3b6986b068f527937a0bd42095233970d62519e75a9f6e4dbaad108e2b93",
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 坐姿下巴後收. MOVEMENT PLAN: Gentle seated cervical retraction NOT headflexion/chestchin. Zoom SIDEprofile headnecktorso facingright allpanels; seatedupright shouldersquiet handsrestthigh. 1 坐穩看前方 headnaturalneutral eyehorizontal. 2 水平向後收 entireheadslidesposterior2cm WITHOUTnod eyeshorizontal chinlevel doublechinverysubtle. 3 輕停兩秒 keepretractedhead eyehorizontal noheadbow. 4 放鬆回復 naturalneutralnotpokingforward. Smallhorizontalleftarrownearheadin2. Key 不低頭、不用手推／小幅度即可. Reps 5次，1組. Breath 自然呼吸，不憋氣. Safety 疼痛加重、頭暈或手麻就停止.",
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側面腰以上，坐在有靠背的穩固椅上，肩膀固定；以淡色頭部原位置與水平箭頭對比小幅後收。",
+      "frames": [
+        {
+          "title": "坐直平視",
+          "pose": "Seated upright side profile facing left, shoulders relaxed, head neutral, hands resting on lap. Horizontal eye gaze. No extra reference line.",
+          "caption": "坐穩、肩放鬆，眼睛平視。"
+        },
+        {
+          "title": "輕輕後收",
+          "pose": "Same torso shoulder chair position. Translate entire head gently backward horizontally a small amount, chin slightly tucked without tipping gaze down. Use a faint ghost of the original head position to show the small backward translation. Clear small horizontal arrow points backwards. Never push head with hand.",
+          "caption": "頭部小幅向後移，下巴略內收。"
+        },
+        {
+          "title": "放鬆回位",
+          "pose": "Same shoulder position, head returns to initial neutral pose. Gaze remains horizontal throughout.",
+          "caption": "輕停約兩秒，再放鬆回到自然位置。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-chin-tuck-zh-tw.png",
+        "sha256": "a30e78d5425b8734ea6c02a1870bbb3a6256472bd4aea38dd44cca36a782bac7",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "70f192f36f889286c2de01f0baeb5e03bd4a83bb13103593866ef1ce4b7385b8",
+          "reviewedImageSha256": "a30e78d5425b8734ea6c02a1870bbb3a6256472bd4aea38dd44cca36a782bac7",
+          "findings": [
+            "四格頭頸位置差異極小，主要靠箭頭表達後收；需固定肩部基準線及小幅水平位移，不能只換標題。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Refine only panel 2 of chin-retraction guide: remove BOTH vertical dotted lines entirely (they imply incorrect displacement). Keep the small right-pointing arrow below chin. Make her chin very slightly tucked, eyes remaining horizontal, head translated about 1 centimetre to screen RIGHT relative to the stationary shoulder. A very subtle ghost of ORIGINAL face immediately to LEFT can indicate movement, no detached large outline. All other text, poses, chair, character, outfit, dose, and layout unchanged. Woman faces left so backwards is right. No slogans.",
+      "inputImage": "C:/Users/tomoe/.codex/generated_images/01a06b63-8898-70b0-8caa-a34efc8ab891/exec-570dbb3f-c915-4d67-8832-4e1f86f980ee.png"
+    }
+  }
+}

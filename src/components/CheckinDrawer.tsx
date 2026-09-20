@@ -7,6 +7,7 @@ import { optimizeCheckinPhoto } from "../lib/image";
 import { lockAppForModal, trapTabKey } from "../lib/modal";
 
 type CheckinDrawerProps = {
+  storageScope: string;
   date: string;
   prefill?: CheckinDraft | null;
   onClose: () => void;
@@ -24,10 +25,10 @@ const options: Array<{ mode: CheckinMode; index: number; title: string; descript
 const emptyExercise: Exercise = { name: "", sets: 3, weight: 0, reps: 10 };
 const DRAFT_KEY = "you-lian:checkin-draft:v1";
 
-function readDraft(date: string, prefill: CheckinDraft | null | undefined): CheckinDraft {
+function readDraft(date: string, prefill: CheckinDraft | null | undefined, storageScope: string): CheckinDraft {
   if (prefill) return prefill;
   try {
-    const parsed = JSON.parse(localStorage.getItem(DRAFT_KEY) ?? "null") as CheckinDraft | null;
+    const parsed = JSON.parse(localStorage.getItem(`${DRAFT_KEY}:${storageScope}`) ?? "null") as CheckinDraft | null;
     if (parsed?.date === date && ["quick", "standard", "detailed"].includes(parsed.mode) && Array.isArray(parsed.exercises)) return parsed;
   } catch {
     // A malformed local draft should never block check-in.
@@ -39,8 +40,9 @@ function inRange(value: number, min: number, max: number): boolean {
   return Number.isFinite(value) && value >= min && value <= max;
 }
 
-export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = false, onDetailedRequested }: CheckinDrawerProps) {
-  const initial = useRef(readDraft(date, prefill)).current;
+export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = false, onDetailedRequested, storageScope }: CheckinDrawerProps) {
+  const initial = useRef(readDraft(date, prefill, storageScope)).current;
+  const submissionId = useRef(initial.submissionId ?? crypto.randomUUID()).current;
   const [mode, setMode] = useState<CheckinMode>(initial.mode);
   const [workoutType, setWorkoutType] = useState(initial.workoutType ?? "");
   const [duration, setDuration] = useState(initial.durationMinutes?.toString() ?? "");
@@ -55,7 +57,7 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
   const closeRef = useRef<HTMLButtonElement>(null);
   const previousFocusRef = useRef<HTMLElement | null>(null);
   const onCloseRef = useRef(onClose);
-  onCloseRef.current = onClose;
+  onCloseRef.current = () => { if (!saving) onClose(); };
 
   useEffect(() => {
     previousFocusRef.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
@@ -74,9 +76,9 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
   }, []);
 
   useEffect(() => {
-    if (prefill) return;
     const durationMinutes = duration === "" ? null : Number(duration);
-    localStorage.setItem(DRAFT_KEY, JSON.stringify({ date, mode, workoutType: workoutType.trim() || null, durationMinutes, note: note.trim() || null, exercises } satisfies CheckinDraft));
+    try { localStorage.setItem(`${DRAFT_KEY}:${storageScope}`, JSON.stringify({ submissionId, date, mode, workoutType: workoutType.trim() || null, durationMinutes, note: note.trim() || null, exercises } satisfies CheckinDraft)); }
+    catch { setError("無法暫存打卡草稿，請勿關閉頁面；照片不會跨頁保存。"); }
   }, [date, duration, exercises, mode, note, prefill, workoutType]);
 
   useEffect(() => {
@@ -101,12 +103,13 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
     }
     setOptimizingPhoto(true);
     setError(null);
-    const optimized = await optimizeCheckinPhoto(file);
-    setPhoto(optimized);
-    setOptimizingPhoto(false);
+    try { setPhoto(await optimizeCheckinPhoto(file)); }
+    catch { setError("照片處理失敗，請重新選擇 JPEG、PNG 或 WebP 照片。"); }
+    finally { setOptimizingPhoto(false); }
   };
 
   const submit = async () => {
+    if (saving || optimizingPhoto) return;
     const durationValue = duration === "" ? null : Number(duration);
     if (mode !== "quick" && durationValue !== null && !inRange(durationValue, 1, 1440)) {
       setError("訓練時長請填 1～1440 分鐘。");
@@ -129,8 +132,8 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
     setSaving(true);
     setError(null);
     try {
-      await onSave({ date, mode, workoutType: mode === "quick" ? null : workoutType.trim() || null, durationMinutes: mode === "quick" ? null : durationValue, note: mode === "quick" ? null : note.trim() || null, exercises: cleanExercises }, mode === "quick" ? null : photo);
-      localStorage.removeItem(DRAFT_KEY);
+      await onSave({ submissionId, date, mode, workoutType: mode === "quick" ? null : workoutType.trim() || null, durationMinutes: mode === "quick" ? null : durationValue, note: mode === "quick" ? null : note.trim() || null, exercises: cleanExercises }, mode === "quick" ? null : photo);
+      localStorage.removeItem(`${DRAFT_KEY}:${storageScope}`);
     } catch (caught) {
       const message = caught instanceof Error ? caught.message : "儲存失敗，請稍後再試。";
       setError(message === "Invalid check-in" ? "資料格式不正確，請檢查時長與訓練欄位。" : message);
@@ -141,15 +144,15 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
 
   return createPortal(
     <div className="drawer-layer" role="presentation">
-      <button className="drawer-scrim" onClick={onClose} aria-label="關閉打卡視窗" />
+      <button className="drawer-scrim" disabled={saving} onClick={onClose} aria-label="關閉打卡視窗" />
       <aside ref={dialogRef} className="checkin-drawer" role="dialog" aria-modal="true" aria-labelledby="checkin-title" tabIndex={-1}>
         <form onSubmit={(event) => { event.preventDefault(); void submit(); }}>
           <header className="drawer-header">
             <div><h2 id="checkin-title">今天練了什麼？</h2><p>{formatSelectedDate(date)}</p></div>
-            <button ref={closeRef} type="button" className="icon-button icon-button--plain" onClick={onClose} aria-label="關閉"><X size={28} /></button>
+            <button ref={closeRef} type="button" disabled={saving} className="icon-button icon-button--plain" onClick={onClose} aria-label="關閉"><X size={28} /></button>
           </header>
 
-          <div className="mode-list" role="radiogroup" aria-label="打卡深度">
+          {prefill ? <p className="checkout-preserve-note">這次會保存已完成的逐組紀錄；尚未完成的動作與組數會保留在今日課表。</p> : <div className="mode-list" role="radiogroup" aria-label="打卡深度">
             {options.map((option) => (
               <button type="button" className={`mode-row${mode === option.mode ? " mode-row--selected" : ""}`} key={option.mode} onClick={() => {
                 if (option.mode === "detailed" && !prefill && onDetailedRequested) {
@@ -161,7 +164,7 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
                 <span className="mode-row__index">{option.index}</span><strong>{option.title}</strong><span>{option.description}</span>{mode === option.mode ? <Check size={20} strokeWidth={2.6} /> : <ChevronRight size={20} />}
               </button>
             ))}
-          </div>
+          </div>}
 
           {mode === "quick" ? (
             <div className="quick-state"><span className="quick-state__mark"><Check size={28} strokeWidth={3} /></span><div><strong>今天有練，就值得留下。</strong><p>不需要填內容，按下完成即可。</p></div></div>
@@ -198,7 +201,7 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
 
           <div className="visibility-row"><span className="discord-symbol" aria-hidden="true">●●</span><span>{localOnly ? "只保存在這個瀏覽器" : "只顯示給「今天有練」伺服器成員"}</span></div>
           {error ? <p className="form-error" role="alert">{error}</p> : null}
-          <footer className="drawer-actions"><button type="button" className="secondary-button" onClick={onClose}>取消</button><button type="submit" className="primary-button" disabled={saving || optimizingPhoto}>{saving ? "儲存中…" : "完成打卡"}</button></footer>
+          <footer className="drawer-actions"><button type="button" disabled={saving} className="secondary-button" onClick={onClose}>取消</button><button type="submit" className="primary-button" disabled={saving || optimizingPhoto}>{saving ? "儲存中…" : "完成打卡"}</button></footer>
         </form>
       </aside>
     </div>,

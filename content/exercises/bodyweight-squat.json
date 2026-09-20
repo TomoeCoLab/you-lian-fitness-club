@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "bodyweight-squat",
+    "name": "徒手深蹲",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "用髖、膝與踝協同下蹲，建立下肢與軀幹控制。",
+    "instructions": [
+      "雙腳略寬於髖，腳尖自然微微朝外。",
+      "先讓髖部往後再下沉，軀幹維持穩定。",
+      "腳掌均勻踩地，起身時髖與胸口同步上升。"
+    ],
+    "cues": [
+      "膝蓋順著腳尖方向",
+      "背部維持自然中立",
+      "動作平順、不要借彈力"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 75,
+      "load": "先用徒手；最後 2 次有挑戰、姿勢仍穩定"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/A8_Zwr3SIac",
+      "watchUrl": "https://www.youtube.com/watch?v=A8_Zwr3SIac",
+      "title": "徒手深蹲動作示範",
+      "channel": "Nottingham University Hospitals NHS",
+      "language": "英文",
+      "note": "重新播放核對站姿、徒手下蹲與回站。原片有停留 10 秒的復健建議，本頁為連續控制蹲起，份量依本站課表而非影片。"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/",
+    "sourceLabel": "ACE Exercise Library"
+  },
+  "definition": {
+    "variation": "徒手深蹲；本項起始設定：雙腳略寬於髖，腳尖自然微微朝外。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/",
+      "label": "ACE Exercise Library",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/",
+      "label": "ACE：徒手深蹲",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "站距與腳尖方向",
+        "髖膝彎曲、全腳掌支撐",
+        "膝隨腳尖、軀幹與髖同步站回"
+      ],
+      "note": "逐段核對動作；僅採舒適可控制幅度，不把平行深度、抬頭或前膝限制套成每人必須達到的角度。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "6f1a6a4a808870bb0c4a2458e32025520582e439bd966ca8cf1a207deb70fad6",
+      "findings": [
+        "逐段核對動作；僅採舒適可控制幅度，不把平行深度、抬頭或前膝限制套成每人必須達到的角度。",
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "6f1a6a4a808870bb0c4a2458e32025520582e439bd966ca8cf1a207deb70fad6",
+      "reviewedImageSha256": "39ccf6c536ae3f48efe44af76267c3ad789c595bbafa492dc29fdc6556570e0c",
+      "findings": [
+        "五格徒手蹲起、全腳掌著地與膝腳尖同向；圖示 10–15 次、3–4 組包含本站 10 次 3 組。深度依個人能力而非必達平行。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/A8_Zwr3SIac",
+      "check": {
+        "videoId": "A8_Zwr3SIac",
+        "seconds": [
+          8,
+          17,
+          25,
+          31
+        ],
+        "observation": "重新播放核對站姿、徒手下蹲與回站。原片有停留 10 秒的復健建議，本頁為連續控制蹲起，份量依本站課表而非影片。"
+      },
+      "findings": [
+        "重新播放核對站姿、徒手下蹲與回站。原片有停留 10 秒的復健建議，本頁為連續控制蹲起，份量依本站課表而非影片。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "6f1a6a4a808870bb0c4a2458e32025520582e439bd966ca8cf1a207deb70fad6",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/A8_Zwr3SIac",
+            "watchUrl": "https://www.youtube.com/watch?v=A8_Zwr3SIac",
+            "title": "徒手深蹲動作示範",
+            "channel": "Nottingham University Hospitals NHS",
+            "language": "英文",
+            "note": "已對照醫院原始來源與影片動作；示範採舒適的小幅度深蹲，不要求蹲到特定深度。此處僅參考動作，不套用術前復健處方。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/A8_Zwr3SIac",
+            "check": {
+              "videoId": "A8_Zwr3SIac",
+              "seconds": [
+                8,
+                17,
+                31
+              ],
+              "observation": "可見站直、舒適幅度下蹲與站起；不套用影片的術前復健份量。"
+            },
+            "findings": [
+              "可見站直、舒適幅度下蹲與站起；不套用影片的術前復健份量。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "dfa21709228442aada0527b7bffa5c1470f49bf2c24993ff60a0c0852fef6743"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-bodyweight-squat-zh-tw.png",
+    "sha256": "39ccf6c536ae3f48efe44af76267c3ad789c595bbafa492dc29fdc6556570e0c",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

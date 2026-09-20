@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "machine-hip-adduction",
+    "name": "坐姿大腿內收",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "大腿內收機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "坐姿將雙腿向中線靠攏，集中訓練大腿內側肌群。",
+    "instructions": [
+      "依機身圖示調整座椅、起始角度與擋墊，讓擋墊接觸大腿內側、避開膝關節直接受壓；不套用膝蓋對準轉軸的口訣。",
+      "背部與骨盆貼穩靠墊，雙腳踩妥踏板後平順合攏雙腿。",
+      "在終點短暫停留，再控制雙腿回到舒適的張開幅度。"
+    ],
+    "cues": [
+      "依機型調整擋墊及舒適的起始角度",
+      "骨盆與背部不離開靠墊",
+      "回程慢、不讓配重碰撞"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "先以可完整控制 12–15 次的輕重量熟悉活動範圍"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/3iGBw2muBrc",
+      "watchUrl": "https://www.youtube.com/watch?v=3iGBw2muBrc",
+      "title": "大腿內收／外展訓練機教學",
+      "channel": "提爾健身",
+      "language": "中文"
+    },
+    "sourceUrl": "https://fitnessinstitute.com.au/hip-adduction-pin-loaded/",
+    "sourceLabel": "Fitness Institute 髖內收"
+  },
+  "definition": {
+    "variation": "坐姿大腿內收；本項起始設定：依機身圖示調整座椅、起始角度與擋墊，讓擋墊接觸大腿內側、避開膝關節直接受壓；不套用膝蓋對準轉軸的口訣。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://fitnessinstitute.com.au/hip-adduction-pin-loaded/",
+      "label": "Fitness Institute 髖內收",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "內側擋墊與合腿、受控回程"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    },
+    {
+      "url": "https://www.womenshealthmag.com/tw/fitness/work-outs/g43382298/inner-outer-thigh/",
+      "label": "Women's Health Taiwan",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "776bad570c3bac7590b7525f93114eec646546c2433d116a8c12eb894aa2956d",
+      "findings": [
+        "已對照原始來源：內側擋墊與合腿、受控回程。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "776bad570c3bac7590b7525f93114eec646546c2433d116a8c12eb894aa2956d",
+      "reviewedImageSha256": "c1166a8cbd814a171aa6b5256fb76081954861f64fdb0e8382356d083423af70",
+      "findings": [
+        "阻力墊在大腿內側而非外側，雙腳有踏桿支撐，張開→合攏→張開三階段一致，3 組 12 次相符。",
+        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "尚缺可靠對應影片，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "118d5a95e42871b8922fd532cf979162e2309cef9a4bdcd18bc2f38d5e4db2b4"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-machine-hip-adduction-v2-zh-tw.png",
+    "sha256": "c1166a8cbd814a171aa6b5256fb76081954861f64fdb0e8382356d083423af70",
+    "generatedFromContentHash": "776bad570c3bac7590b7525f93114eec646546c2433d116a8c12eb894aa2956d",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正前三分之四，機型參考已核對 Life Fitness Hip Adduction 原始照片；內側墊、踏腳桿與機臂接合清楚。",
+      "frames": [
+        {
+          "title": "調整內側墊",
+          "pose": "Seated hip adduction machine, back supported, hands on side handles, legs comfortably open, pads contact inner lower thighs above knee joint, both feet supported on machine footpegs (not floor). Matching apparatus example photo.",
+          "caption": "依機型調整內側墊，雙腳踩妥支撐。"
+        },
+        {
+          "title": "平順合腿",
+          "pose": "Same machine feet follow footpegs, thighs move inward pressing against INNER thigh pads, connected machine arms rotate toward midline, torso still.",
+          "caption": "雙腿向中線靠攏，不晃動骨盆。"
+        },
+        {
+          "title": "控制回程",
+          "pose": "Return thighs to comfortable open starting angle with inner pads and foot supports same, stable back.",
+          "caption": "慢慢張開回起點，不讓配重碰撞。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-machine-hip-adduction-zh-tw.png",
+        "sha256": "b76a8273bfccdce72cb594ffb9317c9f839ca15f172e6c7c8cc70819909b7a89",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "blocked",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "118d5a95e42871b8922fd532cf979162e2309cef9a4bdcd18bc2f38d5e4db2b4",
+          "reviewedImageSha256": "b76a8273bfccdce72cb594ffb9317c9f839ca15f172e6c7c8cc70819909b7a89",
+          "findings": [
+            "內收方向與內側擋墊可見，但圖上兩處將膝蓋對齊轉軸當通則，與髖內收器械設定不符；須重製。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "內容版本：3\n來源文字 SHA-256：776bad570c3bac7590b7525f93114eec646546c2433d116a8c12eb894aa2956d\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"坐姿大腿內收\",\n  \"variation\": \"坐姿大腿內收；本項起始設定：依機身圖示調整座椅、起始角度與擋墊，讓擋墊接觸大腿內側、避開膝關節直接受壓；不套用膝蓋對準轉軸的口訣。\",\n  \"subtitle_zh\": \"腿動作指引\",\n  \"intro_zh\": \"坐姿將雙腿向中線靠攏，集中訓練大腿內側肌群。\",\n  \"target_areas\": [\n    \"腿\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定正前三分之四，機型參考已核對 Life Fitness Hip Adduction 原始照片；內側墊、踏腳桿與機臂接合清楚。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"調整內側墊\",\n      \"pose_description\": \"Seated hip adduction machine, back supported, hands on side handles, legs comfortably open, pads contact inner lower thighs above knee joint, both feet supported on machine footpegs (not floor). Matching apparatus example photo.\",\n      \"coaching_note_zh\": \"依機型調整內側墊，雙腳踩妥支撐。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"平順合腿\",\n      \"pose_description\": \"Same machine feet follow footpegs, thighs move inward pressing against INNER thigh pads, connected machine arms rotate toward midline, torso still.\",\n      \"coaching_note_zh\": \"雙腿向中線靠攏，不晃動骨盆。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"控制回程\",\n      \"pose_description\": \"Return thighs to comfortable open starting angle with inner pads and foot supports same, stable back.\",\n      \"coaching_note_zh\": \"慢慢張開回起點，不讓配重碰撞。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"依機型調整擋墊及舒適的起始角度\",\n      \"骨盆與背部不離開靠墊\",\n      \"回程慢、不讓配重碰撞\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 12 次\",\n      \"一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n\nImage A is adult character reference. Keep natural gaze, no slogans or machine logos. Any additional image is ONLY apparatus structure reference, not character reference. The machine is same orientation and mechanically connected across panels.",
+      "inputImages": [
+        "C:/Users/tomoe/Downloads/健身示範角色三視圖.png",
+        "C:/Users/tomoe/AppData/Local/Temp/you-lian-source-audit/hip-adduction-reference.jpg"
+      ]
+    }
+  }
+}

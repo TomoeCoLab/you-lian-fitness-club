@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "exercise": {
+    "id": "wall-calf-stretch",
+    "name": "扶牆小腿伸展",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "time",
+    "summary": "前後站姿讓後腳小腿溫和伸展，適合活動後使用。",
+    "instructions": [
+      "雙手扶牆，一腳在前、另一腳往後。",
+      "兩腳腳尖朝前，後膝自然伸直，後腳跟踩地。",
+      "前膝微彎，身體慢慢前移，到後側小腿輕拉的位置。",
+      "維持 20 秒，退回後換腳。"
+    ],
+    "cues": [
+      "後腳跟不離地，腳尖不要往外轉。",
+      "不彈震、不忍受刺痛，先縮短前後距離。"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": null,
+      "durationSeconds": 20,
+      "restSeconds": 15,
+      "load": "每組一側 20 秒，共 2 組，左右各一次。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/A8GwnrsDLi8?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=A8GwnrsDLi8",
+      "title": "扶牆小腿伸展示範",
+      "channel": "South Tees Hospitals NHS",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+    "sourceLabel": "NHS 柔軟度活動"
+  },
+  "definition": {
+    "variation": "扶牆小腿伸展；本項起始設定：雙手扶牆，一腳在前、另一腳往後。",
+    "counting": "每組只保持一側 20 秒；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+      "label": "NHS 柔軟度活動",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "扶牆前後站、後膝伸直與腳跟著地"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    },
+    {
+      "url": "https://www.southtees.nhs.uk/resources/upper-calf-stretch/",
+      "label": "South Tees NHS 小腿伸展指引",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "b2d3813364c306a22a009b98e8d5c92a53cdb10cbd02c5f19cd884b57c1d5ee6",
+      "findings": [
+        "已對照原始來源：扶牆前後站、後膝伸直與腳跟著地。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "b2d3813364c306a22a009b98e8d5c92a53cdb10cbd02c5f19cd884b57c1d5ee6",
+      "reviewedImageSha256": "c2e909ea054b1371e8dece30a352c19e61ffcbdda216026246ed63d2ed933218",
+      "findings": [
+        "前後站姿、後膝自然伸直與後跟著地可見，每側 20 秒各 1 組相符；60 公分僅示意，不硬套步距。",
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/A8GwnrsDLi8?rel=0",
+      "check": {
+        "videoId": "A8GwnrsDLi8",
+        "seconds": [
+          8,
+          22,
+          41
+        ],
+        "observation": "可見雙手扶牆、前後站姿及後腿伸直的小腿伸展版本。"
+      },
+      "findings": [
+        "可見雙手扶牆、前後站姿及後腿伸直的小腿伸展版本。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "b2d3813364c306a22a009b98e8d5c92a53cdb10cbd02c5f19cd884b57c1d5ee6"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-wall-calf-stretch-zh-tw.png",
+    "sha256": "c2e909ea054b1371e8dece30a352c19e61ffcbdda216026246ed63d2ed933218",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 扶牆小腿伸展. MOVEMENT PLAN: Standing wall gastrocnemius staticstretch REARKNEESTRAIGHT. Sideviewwomanfacingright handswallshoulderheight. 1 扶牆站穩 bothfeetnearwallcomfortable. 2 一腳向後 step rearfootback60cm toesforwardbothheelsground frontkneebent rearkneeextendedNONlocked. 3 維持伸展 samepose leanwholebodygentlyforward rearheelstaysground rearcalfstretch noforcedrange. 4 退回換側 stepfeetbacktogether BOTHFEETfloor handswall. Key 後腳跟踩地／後膝自然伸直，不彈震. Reps 每側20秒，各1組. Breath 自然呼吸，不憋氣.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

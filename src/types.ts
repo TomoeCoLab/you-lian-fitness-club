@@ -9,6 +9,9 @@ export type User = {
 };
 
 export type Exercise = {
+  phase?: "warmup" | "main" | "cooldown";
+  note?: string;
+  exerciseId?: string;
   name: string;
   sets: number;
   weight: number;
@@ -89,6 +92,10 @@ export type GuideExercise = {
 };
 
 export type WorkoutItem = {
+  instanceId?: string;
+  phase?: "warmup" | "main" | "cooldown";
+  note?: string;
+  templateName?: string;
   exerciseId: string;
   exerciseName: string;
   bodyPart: BodyPart;
@@ -108,13 +115,19 @@ export type CustomExercise = {
 };
 
 export type WorkoutDraft = {
+  checkoutRequestId?: string;
+  trainingStartedAt?: string | null;
   workoutDate: string;
   startedAt: string;
   updatedAt: string;
   items: WorkoutItem[];
 };
 
+export type ProgressOverview = { sessionCount: number; trainingDays: number; totalSets: number; totalMinutes: number; favorite: string };
+
 export type WorkoutTemplateItem = {
+  phase?: "warmup" | "main" | "cooldown";
+  entries?: Array<Pick<ExerciseSetEntry, "weight" | "reps" | "durationSeconds">>;
   note?: string;
   exerciseId: string;
   exerciseName: string;
@@ -159,6 +172,7 @@ export type Checkin = {
 };
 
 export type CheckinDraft = {
+  submissionId?: string;
   date: string;
   mode: CheckinMode;
   workoutType: string | null;

@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "supported-weight-shift",
+    "name": "扶穩重心左右轉移",
+    "bodyParts": [
+      "腿",
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "雙腳不離地，在穩固支撐旁練習小幅度重心移動。",
+    "instructions": [
+      "面向不會移動的檯面，雙手扶穩，雙腳與髖同寬。",
+      "把重心緩慢移向一腳，兩腳腳掌都留在地面。",
+      "回到中間，再移向另一腳。",
+      "每移向一側再回正算 1 次，左右合計 10 次。"
+    ],
+    "cues": [
+      "不抬腳、不閉眼、不向旁邊大幅歪腰。",
+      "旁邊留出空間；不穩或頭暈就停止並坐下。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "左右合計 10 次，每側 5 次；雙手全程扶穩。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/O4-q0_GpfdA?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=O4-q0_GpfdA",
+      "title": "扶穩站姿重心轉移示範",
+      "channel": "Caregiver Stress / Home Instead",
+      "language": "英文",
+      "note": "已核對扶椅者雙腳留地、左右重心轉移；教練另示範無扶物，本站請依文字全程扶穩。"
+    },
+    "sourceUrl": "https://hw.qld.gov.au/blog/exercises-to-help-improve-balance/",
+    "sourceLabel": "Health and Wellbeing Queensland 平衡活動指引"
+  },
+  "definition": {
+    "variation": "扶穩重心左右轉移；本項起始設定：面向不會移動的檯面，雙手扶穩，雙腳與髖同寬。",
+    "counting": "移向一側並回正算 1 次；左右合計 10 次，每側 5 次。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://hw.qld.gov.au/blog/exercises-to-help-improve-balance/",
+      "label": "Health and Wellbeing Queensland 平衡活動指引",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://hw.qld.gov.au/blog/exercises-to-help-improve-balance/",
+      "label": "Health and Wellbeing Queensland：重心轉移",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "雙腳髖寬",
+        "緩慢左右轉移",
+        "旁有穩固支撐"
+      ],
+      "note": "核對 Weight shifts；本站採全程扶穩、兩腳不離地的保守版，不要求移到單腳全承重或放手。合計 10 次為本站起始量。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "32364f3902af3a28c65df71dc65786e7d1403bae7a65dbd7053733548b992159",
+      "findings": [
+        "核對 Weight shifts；本站採全程扶穩、兩腳不離地的保守版，不要求移到單腳全承重或放手。合計 10 次為本站起始量。",
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "32364f3902af3a28c65df71dc65786e7d1403bae7a65dbd7053733548b992159",
+      "reviewedImageSha256": "a555e434767cb811d449a284ee3d8333a71f351650b43f171acbc763f4ec3a98",
+      "findings": [
+        "雙腳全程接地、手扶穩、左右轉移與回中間可見；左右合計 10 次相符。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/O4-q0_GpfdA?rel=0",
+      "check": {
+        "videoId": "O4-q0_GpfdA",
+        "seconds": [
+          8,
+          70,
+          90,
+          100
+        ],
+        "observation": "已核對扶椅者雙腳留地、左右重心轉移；教練另示範無扶物，本站請依文字全程扶穩。"
+      },
+      "findings": [
+        "已核對扶椅者雙腳留地、左右重心轉移；教練另示範無扶物，本站請依文字全程扶穩。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "32364f3902af3a28c65df71dc65786e7d1403bae7a65dbd7053733548b992159",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/O4-q0_GpfdA?rel=0",
+            "watchUrl": "https://www.youtube.com/watch?v=O4-q0_GpfdA",
+            "title": "扶穩站姿重心轉移示範",
+            "channel": "Caregiver Stress / Home Instead",
+            "language": "英文",
+            "note": "教練先示範左右重心轉移，再由練習者扶椅操作。本課表請全程扶穩，不跟著做無支撐版本。"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/O4-q0_GpfdA?rel=0",
+            "check": {
+              "videoId": "O4-q0_GpfdA",
+              "seconds": [
+                8,
+                90
+              ],
+              "observation": "已查看練習者扶椅的重心轉移段落；原片另有無支撐示範，本頁請全程扶穩。"
+            },
+            "findings": [
+              "已查看練習者扶椅的重心轉移段落；原片另有無支撐示範，本頁請全程扶穩。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "49a515113175b531333b1d237556f8836955374bfa32dcc88319ae500004eb1a"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-supported-weight-shift-zh-tw.png",
+    "sha256": "a555e434767cb811d449a284ee3d8333a71f351650b43f171acbc763f4ec3a98",
+    "generatedFromContentHash": null,
+    "legacyPrompt": "Edit this existing exercise infographic. Preserve the fixed support counter and both hands on the counter in EVERY panel, feet planted and small lateral weight shifts, all photos, character and text unchanged except these TWO heading corrections: panel 2 replace 重心向左 with 移向一側; panel 4 replace 重心向右 with 移向另一側. DO NOT remove furniture or put hands on hips. Preserve light studio, existing layout, Traditional Chinese text, 4:3. No slogans. Eyes naturally in same direction as head.",
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

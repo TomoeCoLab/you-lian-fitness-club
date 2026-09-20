@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "dumbbell-shoulder-press",
+    "name": "坐姿啞鈴肩推",
+    "bodyParts": [
+      "肩",
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "坐姿過頭推舉，訓練肩部並降低軀幹晃動。",
+    "instructions": [
+      "靠背調至接近直立，啞鈴置於肩側。",
+      "手腕疊在手肘上方，將啞鈴向上推。",
+      "不鎖死手肘，控制回到肩側。"
+    ],
+    "cues": [
+      "肋骨不要翻起",
+      "背部貼穩靠墊",
+      "左右同步上推"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 10,
+      "durationSeconds": null,
+      "restSeconds": 90,
+      "load": "從能穩定控制的輕重量開始"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+      "watchUrl": "https://www.youtube.com/watch?v=ePxgPKcI1fU",
+      "title": "坐姿啞鈴肩上推舉",
+      "channel": "東吳大學體育室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.puregym.com/exercises/arms-and-shoulders/shoulder-press/seated-shoulder-press/",
+    "sourceLabel": "PureGym：坐姿啞鈴肩推"
+  },
+  "definition": {
+    "variation": "坐姿啞鈴肩推；本項起始設定：靠背調至接近直立，啞鈴置於肩側。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 10 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.puregym.com/exercises/arms-and-shoulders/shoulder-press/seated-shoulder-press/",
+      "label": "PureGym：坐姿啞鈴肩推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "靠背坐姿與雙脚踩穩",
+        "啞鈴在肩耳間起始",
+        "雙臂向上推再控制放下"
+      ],
+      "note": "僅核對頁面 How To Do A Seated Dumbbell Shoulder Press；同頁內嵌說明是槓鈴版，不採作啞鈴示範。使用輕重量，不以踢腿慣性或疼痛中增加幅度作本站要求。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "dcd0b255c4bab96cbb67e809794dcfc8735e1334a3e0e910c46961cdbe9efd40",
+      "findings": [
+        "僅核對頁面 How To Do A Seated Dumbbell Shoulder Press；同頁內嵌說明是槓鈴版，不採作啞鈴示範。使用輕重量，不以踢腿慣性或疼痛中增加幅度作本站要求。",
+        "預設組數及次數為本站一般起始參考，非來源個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "dcd0b255c4bab96cbb67e809794dcfc8735e1334a3e0e910c46961cdbe9efd40",
+      "reviewedImageSha256": "d21b1b698a361cd23bc9f4f42b8ad3ed3ee65c3e0c325cc65552cf9e4d8e1076",
+      "findings": [
+        "有靠背坐姿雙啞鈴肩推、回肩側，非站姿或胸推；8–12 次 3 組包含本站 10 次 3 組。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+      "check": {
+        "videoId": "ePxgPKcI1fU",
+        "seconds": [
+          8,
+          19,
+          28,
+          35
+        ],
+        "observation": "重新核對有靠背坐姿、雙啞鈴肩側起始、向上推及控制放回。"
+      },
+      "findings": [
+        "重新核對有靠背坐姿、雙啞鈴肩側起始、向上推及控制放回。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "dcd0b255c4bab96cbb67e809794dcfc8735e1334a3e0e910c46961cdbe9efd40",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+            "watchUrl": "https://www.youtube.com/watch?v=ePxgPKcI1fU",
+            "title": "坐姿啞鈴肩上推舉",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+            "check": {
+              "videoId": "ePxgPKcI1fU",
+              "seconds": [
+                8,
+                19,
+                35
+              ],
+              "observation": "可見坐姿啞鈴肩推準備與推舉路徑；不適用側平舉。"
+            },
+            "findings": [
+              "可見坐姿啞鈴肩推準備與推舉路徑；不適用側平舉。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "8b0f14f98d1b6aa2f538189adbac5f8a737c7a725bf6ede9061ccd8d5e92f0a7"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-shoulder-press-zh-tw.png",
+    "sha256": "d21b1b698a361cd23bc9f4f42b8ad3ed3ee65c3e0c325cc65552cf9e4d8e1076",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

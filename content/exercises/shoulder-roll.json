@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "revision": 6,
+  "exercise": {
+    "id": "shoulder-roll",
+    "name": "肩膀緩慢繞動",
+    "bodyParts": [
+      "肩",
+      "背"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "手臂放鬆，讓肩膀做小圈活動，適合久坐空檔。",
+    "instructions": [
+      "坐穩或站穩，手臂自然垂放，眼睛平視。",
+      "輕輕提起雙肩，再慢慢向後繞。",
+      "把肩膀放回自然位置，完成 1 圈。",
+      "小圈慢慢重複，脖子不要一起轉圈。"
+    ],
+    "cues": [
+      "不強迫用力夾背，不做大幅甩肩。",
+      "若疼痛加重、頭暈、手麻或無力，立即停止；持續痠痛請找醫師或物理治療師評估。"
+    ],
+    "recommendation": {
+      "sets": 1,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "向後小圈 5 次即可；也可坐在穩固椅子上。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/SGocpsxRkBM?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=SGocpsxRkBM",
+      "title": "肩膀繞動示範",
+      "channel": "Peak Physio",
+      "language": "英文",
+      "note": "可見坐姿肩膀上提與回落繞動、頭部不轉圈；圖解採站姿，影片坐姿僅示範肩部路徑，不套用有輪椅為站姿支撐。"
+    },
+    "sourceUrl": "https://www.peak-physio.com.au/exercise/shoulder-rolls/",
+    "sourceLabel": "Peak Physio 肩膀活動指引"
+  },
+  "definition": {
+    "variation": "肩膀緩慢繞動；本項起始設定：坐穩或站穩，手臂自然垂放，眼睛平視。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 5 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.peak-physio.com.au/exercise/shoulder-rolls/",
+      "label": "Peak Physio 肩膀活動指引",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "坐姿向後緩慢繞肩"
+      ],
+      "note": "來源示範坐姿；本站也提供站穩的小圈版本。來源不提供本站 5 次份量，並非治療處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "e8428f195c7d94b7547c924c18019933f76316da55a2df01b8d045a8d7530e8d",
+      "findings": [
+        "已核對原始來源支持：坐姿向後緩慢繞肩。來源示範坐姿；本站也提供站穩的小圈版本。來源不提供本站 5 次份量，並非治療處方。",
+        "本次僅補來源核對紀錄，教學、份量、圖檔與影片 URL 未變；保留原圖問題及影片僅片段抽查的限制。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "e8428f195c7d94b7547c924c18019933f76316da55a2df01b8d045a8d7530e8d",
+      "reviewedImageSha256": "a09f4b251f2f069e8c678dc33c13e2016019e43cb867db35667e447c0887e42d",
+      "findings": [
+        "四格鏡頭及軀幹方向固定；雙肩抬起、向後向下、返回放鬆，頭頸不繞圈；1 組 × 5 次。",
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/SGocpsxRkBM?rel=0",
+      "check": {
+        "videoId": "SGocpsxRkBM",
+        "seconds": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "observation": "可見坐姿肩膀上提與回落繞動、頭部不轉圈；圖解採站姿，影片坐姿僅示範肩部路徑，不套用有輪椅為站姿支撐。"
+      },
+      "findings": [
+        "可見坐姿肩膀上提與回落繞動、頭部不轉圈；圖解採站姿，影片坐姿僅示範肩部路徑，不套用有輪椅為站姿支撐。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "e8428f195c7d94b7547c924c18019933f76316da55a2df01b8d045a8d7530e8d",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/SGocpsxRkBM?rel=0",
+            "watchUrl": "https://www.youtube.com/watch?v=SGocpsxRkBM",
+            "title": "肩膀繞動示範",
+            "channel": "Peak Physio",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/SGocpsxRkBM?rel=0",
+            "check": {
+              "videoId": "SGocpsxRkBM",
+              "seconds": [
+                2,
+                4,
+                8
+              ],
+              "observation": "影片是坐姿肩膀繞動，與站姿圖解支撐方式不同；不跟著轉頭。"
+            },
+            "findings": [
+              "影片是坐姿肩膀繞動，與站姿圖解支撐方式不同；不跟著轉頭。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "9f8e35345c43f3bc95d5d31050eb8cd060f7eb59268a88b459d4d8a90e8c2548"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-shoulder-roll-v2-zh-tw.png",
+    "sha256": "a09f4b251f2f069e8c678dc33c13e2016019e43cb867db35667e447c0887e42d",
+    "generatedFromContentHash": "cfec1ca037df031e5e52129884015b002b8b67475feea0d8d9c729ab7b4affa8",
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 肩膀緩慢繞動. MOVEMENT PLAN: Gentle bilateral shoulder rolls NOT armcircles; trapezius/scapularmobility. Waistupview threequarterfront arms hanging relaxed. 1 放鬆站好 shouldersneutral necklong. 2 輕輕提肩 shoulderbladesrise smallcomfortableamount armsstaydown neckneutral. 3 向後繞動 move shoulders backgently nothardpinch elbowsnotpulled. 4 放下回復 shoulderssettleddown. Smallcurvedarrows atshoulders. Key 小圈慢繞／脖子不跟著轉圈. Reps 向後5圈，1組. Breath 自然呼吸，不憋氣.",
+    "plan": {
+      "status": "ready",
+      "camera": "固定正侧略前三分之四腰以上，同一姿態、同一頭部方向，不旋轉身體。",
+      "frames": [
+        {
+          "title": "放鬆預備",
+          "pose": "Seated upright on fixed chair, arms hanging relaxed, head neutral gaze forward; fixed three quarter side camera.",
+          "caption": "手臂放鬆，頭部保持自然。"
+        },
+        {
+          "title": "輕提雙肩",
+          "pose": "Same torso and head angle, both shoulders elevate gently, arms relaxed hanging, no neck bending.",
+          "caption": "輕輕提起雙肩，不用力聳緊。"
+        },
+        {
+          "title": "向後繞動",
+          "pose": "Same camera, head and torso fixed, shoulder girdle rolls slightly posteriorly from elevated position, arms remain hanging. Small curved arrow near shoulders directed backward-down.",
+          "caption": "雙肩小幅向後繞，脖子不跟著轉。"
+        },
+        {
+          "title": "回到放鬆",
+          "pose": "Shoulders lower to same initial resting level. No torso rotation. Complete one backward circle.",
+          "caption": "雙肩放回自然位置，完成一圈。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-shoulder-roll-zh-tw.png",
+        "sha256": "885cf5165f1a83adcf30e62436e747b50c91b792a5c40bc285081b6f7c7335be",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "9f8e35345c43f3bc95d5d31050eb8cd060f7eb59268a88b459d4d8a90e8c2548",
+          "reviewedImageSha256": "885cf5165f1a83adcf30e62436e747b50c91b792a5c40bc285081b6f7c7335be",
+          "findings": [
+            "第三格軀幹方向相對前兩格改變，容易誤讀成轉身；需固定鏡頭與軀幹，只呈現肩帶繞動。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create ONE independent 4:3 photorealistic Traditional Chinese fitness infographic. Input image is approved adult character identity/outfit reference only. Same character, face, proportions, blue outfit and white shoes throughout; light neutral studio, soft light, clear dark slate typography. Natural gaze along head direction, not at camera. No slogans or decorative text. Use exact plan and captions below, with small bottom band for key cues, starting dose and natural breathing. Don't print metadata. Clear coherent pose progression and physically correct supports above all. \n內容版本：4\n來源文字 SHA-256：cfec1ca037df031e5e52129884015b002b8b67475feea0d8d9c729ab7b4affa8\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"肩膀緩慢繞動\",\n  \"variation\": \"肩膀緩慢繞動；本項起始設定：坐穩或站穩，手臂自然垂放，眼睛平視。\",\n  \"subtitle_zh\": \"肩、背動作指引\",\n  \"intro_zh\": \"手臂放鬆，讓肩膀做小圈活動，適合久坐空檔。\",\n  \"target_areas\": [\n    \"肩\",\n    \"背\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定正侧略前三分之四腰以上，同一姿態、同一頭部方向，不旋轉身體。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"放鬆預備\",\n      \"pose_description\": \"Seated upright on fixed chair, arms hanging relaxed, head neutral gaze forward; fixed three quarter side camera.\",\n      \"coaching_note_zh\": \"手臂放鬆，頭部保持自然。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"輕提雙肩\",\n      \"pose_description\": \"Same torso and head angle, both shoulders elevate gently, arms relaxed hanging, no neck bending.\",\n      \"coaching_note_zh\": \"輕輕提起雙肩，不用力聳緊。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"向後繞動\",\n      \"pose_description\": \"Same camera, head and torso fixed, shoulder girdle rolls slightly posteriorly from elevated position, arms remain hanging. Small curved arrow near shoulders directed backward-down.\",\n      \"coaching_note_zh\": \"雙肩小幅向後繞，脖子不跟著轉。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"回到放鬆\",\n      \"pose_description\": \"Shoulders lower to same initial resting level. No torso rotation. Complete one backward circle.\",\n      \"coaching_note_zh\": \"雙肩放回自然位置，完成一圈。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"不強迫用力夾背，不做大幅甩肩。\",\n      \"若疼痛加重、頭暈、手麻或無力，立即停止；持續痠痛請找醫師或物理治療師評估。\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：1 組 × 5 次\",\n      \"一次完整動作加回程算 1 次，預設每組 5 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

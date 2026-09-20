@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "revision": 7,
+  "exercise": {
+    "id": "machine-chest-press",
+    "name": "器械胸推",
+    "bodyParts": [
+      "胸",
+      "肩",
+      "手臂"
+    ],
+    "equipment": "胸推機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "利用固定軌跡練習水平推，適合熟悉胸推發力。",
+    "instructions": [
+      "調整座椅，握把約在胸口中段。",
+      "背部貼穩靠墊，將握把向前推。",
+      "控制回到舒適起點，機臂保持平順，不用腰部甩動；結束時控制機臂停靠後才鬆手。"
+    ],
+    "cues": [
+      "不要拱腰",
+      "手肘不要退到身體後方",
+      "機臂平順回位，不猛撞限位。"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 75,
+      "load": "從可穩定完成 12 次的輕重量開始"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
+      "watchUrl": "https://www.youtube.com/watch?v=nxklnskwKeo",
+      "title": "胸部推舉機",
+      "channel": "東吳大學體育室",
+      "language": "中文",
+      "note": "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。"
+    },
+    "sourceUrl": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
+    "sourceLabel": "Life Fitness：Circuit Series 原廠操作手冊"
+  },
+  "definition": {
+    "variation": "器械胸推；本項起始設定：調整座椅，握把約在胸口中段。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://web-ch.scu.edu.tw/physical/web_page/8857",
+      "label": "東吳大學體育室",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/chest-press-machine",
+      "label": "NASM 器械胸推",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "座椅使握把在胸中段、背靠墊與雙腳支撐、控制推回"
+      ],
+      "note": "只核對通用動作；機械連桿與輔助踏板仍需另對照實際機型。"
+    },
+    {
+      "url": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
+      "label": "Life Fitness Circuit Series 操作手冊 PDF 第 6 頁",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "背靠墊、雙腳支撐、肘略低於肩、前推及回程"
+      ],
+      "note": "已讀原廠文字並查看機台及動作示意；圖解採此系列作器械示例，其他機型的調節與上下機依現場圖示。阻力表不作本站建議重量。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "c36fc7c57cd058ea1c17c66aca859769fe400e45e35fd78a71d75a75a1e14326",
+      "internalReviewedAt": "2026-09-20",
+      "findings": [
+        "已對照原廠手冊第 6 頁文字與圖示：背靠墊、雙腳支撐、肘略低於肩、前推及回程。",
+        "同名器械可能不同構造；現場設定仍需依原廠圖示。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ]
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "c36fc7c57cd058ea1c17c66aca859769fe400e45e35fd78a71d75a75a1e14326",
+      "reviewedImageSha256": "61ff24f0aac0791c3353f1ff981f9c3fbd0b42265e0ead32e8a8605ed04794a7",
+      "findings": [
+        "三格機臂接合可見，握把由胸前推向前方並回程；沒有沿用配重碰撞提示，3 組 12 次相符。",
+        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
+      "check": {
+        "videoId": "nxklnskwKeo",
+        "seconds": [
+          8,
+          39,
+          55,
+          65
+        ],
+        "observation": "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。"
+      },
+      "findings": [
+        "重新播放核對靠背坐姿，手肘彎曲起始向前推、控制回程。影片 Matrix 機型與圖解 Life Fitness Circuit 不同，僅對照推胸動作；調節機構依現場標示。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "c36fc7c57cd058ea1c17c66aca859769fe400e45e35fd78a71d75a75a1e14326",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
+            "watchUrl": "https://www.youtube.com/watch?v=nxklnskwKeo",
+            "title": "胸部推舉機",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/nxklnskwKeo",
+            "check": {
+              "videoId": "nxklnskwKeo",
+              "seconds": [
+                8,
+                39,
+                65
+              ],
+              "observation": "65 秒可見坐姿器械向前推舉；機台手把高度與座椅仍依現場機型調整。"
+            },
+            "findings": [
+              "65 秒可見坐姿器械向前推舉；機台手把高度與座椅仍依現場機型調整。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "bf1a365c1da7abdba78ae61e63b6dce7b1ffc15e52f4aaf072670ee3c6138220"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-machine-chest-press-v2-zh-tw.png",
+    "sha256": "61ff24f0aac0791c3353f1ff981f9c3fbd0b42265e0ead32e8a8605ed04794a7",
+    "generatedFromContentHash": "4a91fd19f71f751efebc00548703dfead498ab7e1f7f7c98612c5009a77fa877",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定側面略前三分之四，完整機架、支點、握把或滾墊都可見；依附加原廠手冊示例。",
+      "frames": [
+        {
+          "title": "靠穩準備",
+          "pose": "Circuit Series Chest Press reference structure: two LONG lever arms rise from pivots at FLOOR near feet, ending in vertical grips near chest. Back against fixed pad feet flat. Hands hold grips, elbows bent.",
+          "caption": "背部貼靠，握把在胸前。"
+        },
+        {
+          "title": "控制前推",
+          "pose": "Same machine floor pivots fixed, long arms rotate forward away from body, hands maintain grips and extend elbows near straight, back stays against pad.",
+          "caption": "平順向前推，不硬鎖手肘。"
+        },
+        {
+          "title": "慢慢回程",
+          "pose": "Same frame floor pivot levers return chest grips to original position, elbows comfortably flex, no armrests attached to grips.",
+          "caption": "控制放回，重量不碰撞。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-machine-chest-press-zh-tw.png",
+        "sha256": "a25fbc83071ccf4f4dd444520935d7902a65a852c638dd1149a97cc7e58461a5",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "blocked",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "bf1a365c1da7abdba78ae61e63b6dce7b1ffc15e52f4aaf072670ee3c6138220",
+          "reviewedImageSha256": "a25fbc83071ccf4f4dd444520935d7902a65a852c638dd1149a97cc7e58461a5",
+          "findings": [
+            "第三格握把與機台連桿的連接不連續，推回箭頭又呈左右方向；器械結構及運動方向須重製，不作設定示範。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Edit only all visible text that mentions weight plates or collisions in this image. This machine has no weight stack. Replace third panel caption with『控制回位，機臂平順停靠。』and third bottom key point with『機臂平順回位，不猛撞限位。』. Remove all logos/brand text from machine surfaces (plain surfaces). Preserve every pose, hands, connected machine arms, same woman, camera, Chinese title, 3組12次 dose. No slogans. Other canonical specification: 內容版本：5\n來源文字 SHA-256：4a91fd19f71f751efebc00548703dfead498ab7e1f7f7c98612c5009a77fa877\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"器械胸推\",\n  \"variation\": \"器械胸推；本項起始設定：調整座椅，握把約在胸口中段。 圖解器械示例：Life Fitness Circuit Series；調節與上下機不得跨機型照搬。\",\n  \"subtitle_zh\": \"胸、肩、手臂動作指引\",\n  \"intro_zh\": \"利用固定軌跡練習水平推，適合熟悉胸推發力。\",\n  \"target_areas\": [\n    \"胸\",\n    \"肩\",\n    \"手臂\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定側面略前三分之四，完整機架、支點、握把或滾墊都可見；依附加原廠手冊示例。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"靠穩準備\",\n      \"pose_description\": \"Circuit Series Chest Press reference structure: two LONG lever arms rise from pivots at FLOOR near feet, ending in vertical grips near chest. Back against fixed pad feet flat. Hands hold grips, elbows bent.\",\n      \"coaching_note_zh\": \"背部貼靠，握把在胸前。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"控制前推\",\n      \"pose_description\": \"Same machine floor pivots fixed, long arms rotate forward away from body, hands maintain grips and extend elbows near straight, back stays against pad.\",\n      \"coaching_note_zh\": \"平順向前推，不硬鎖手肘。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"慢慢回程\",\n      \"pose_description\": \"Same frame floor pivot levers return chest grips to original position, elbows comfortably flex, no armrests attached to grips.\",\n      \"coaching_note_zh\": \"控制放回，重量不碰撞。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"不要拱腰\",\n      \"手肘不要退到身體後方\",\n      \"機臂平順回位，不猛撞限位。\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 12 次\",\n      \"一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n",
+      "inputImages": [
+        "C:/Users/tomoe/.codex/generated_images/01a06b63-8898-70b0-8caa-a34efc8ab891/exec-5f2f6a08-d60e-456a-8285-9bc72268f9c4.png"
+      ]
+    }
+  }
+}

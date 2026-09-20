@@ -1,0 +1,458 @@
+{
+  "march-in-place": {
+    "preview": "/exercise-guides/preview/fitness-march-in-place-zh-tw.dd8c348246fe.webp",
+    "full": "/exercise-guides/skill-final/fitness-march-in-place-zh-tw.png?v=dd8c348246fe",
+    "width": 1448,
+    "height": 1086
+  },
+  "chair-sit-to-stand": {
+    "preview": "/exercise-guides/preview/fitness-chair-sit-to-stand-zh-tw.f89ad1472cfa.webp",
+    "full": "/exercise-guides/skill-final/fitness-chair-sit-to-stand-zh-tw.png?v=f89ad1472cfa",
+    "width": 1448,
+    "height": 1086
+  },
+  "wall-push-up": {
+    "preview": "/exercise-guides/preview/fitness-wall-push-up-zh-tw.8800304dcd5b.webp",
+    "full": "/exercise-guides/skill-final/fitness-wall-push-up-zh-tw.png?v=8800304dcd5b",
+    "width": 1448,
+    "height": 1086
+  },
+  "supported-calf-raise": {
+    "preview": "/exercise-guides/preview/fitness-supported-calf-raise-v2-zh-tw.9274c0503339.webp",
+    "full": "/exercise-guides/skill-final/fitness-supported-calf-raise-v2-zh-tw.png?v=9274c0503339",
+    "width": 1448,
+    "height": 1086
+  },
+  "supported-hip-abduction": {
+    "preview": "/exercise-guides/preview/fitness-supported-hip-abduction-v2-zh-tw.544e7ef956f0.webp",
+    "full": "/exercise-guides/skill-final/fitness-supported-hip-abduction-v2-zh-tw.png?v=544e7ef956f0",
+    "width": 1448,
+    "height": 1086
+  },
+  "supported-weight-shift": {
+    "preview": "/exercise-guides/preview/fitness-supported-weight-shift-zh-tw.a555e434767c.webp",
+    "full": "/exercise-guides/skill-final/fitness-supported-weight-shift-zh-tw.png?v=a555e434767c",
+    "width": 1448,
+    "height": 1086
+  },
+  "pelvic-tilt": {
+    "preview": "/exercise-guides/preview/fitness-pelvic-tilt-zh-tw.f9e8d210293a.webp",
+    "full": "/exercise-guides/skill-final/fitness-pelvic-tilt-zh-tw.png?v=f9e8d210293a",
+    "width": 1448,
+    "height": 1086
+  },
+  "heel-slide": {
+    "preview": "/exercise-guides/preview/fitness-heel-slide-zh-tw.d86e14ddbf09.webp",
+    "full": "/exercise-guides/skill-final/fitness-heel-slide-zh-tw.png?v=d86e14ddbf09",
+    "width": 1448,
+    "height": 1086
+  },
+  "knee-side-plank": {
+    "preview": "/exercise-guides/preview/fitness-knee-side-plank-v2-zh-tw.89a856930a04.webp",
+    "full": "/exercise-guides/skill-final/fitness-knee-side-plank-v2-zh-tw.png?v=89a856930a04",
+    "width": 1448,
+    "height": 1086
+  },
+  "shoulder-roll": {
+    "preview": "/exercise-guides/preview/fitness-shoulder-roll-v2-zh-tw.a09f4b251f2f.webp",
+    "full": "/exercise-guides/skill-final/fitness-shoulder-roll-v2-zh-tw.png?v=a09f4b251f2f",
+    "width": 1448,
+    "height": 1086
+  },
+  "seated-neck-rotation": {
+    "preview": "/exercise-guides/preview/fitness-seated-neck-rotation-zh-tw.18d4b624c3e8.webp",
+    "full": "/exercise-guides/skill-final/fitness-seated-neck-rotation-zh-tw.png?v=18d4b624c3e8",
+    "width": 1448,
+    "height": 1086
+  },
+  "chin-tuck": {
+    "preview": "/exercise-guides/preview/fitness-chin-tuck-v2-zh-tw.1b8875a71dbd.webp",
+    "full": "/exercise-guides/skill-final/fitness-chin-tuck-v2-zh-tw.png?v=1b8875a71dbd",
+    "width": 1448,
+    "height": 1086
+  },
+  "scapular-glide": {
+    "preview": "/exercise-guides/preview/fitness-scapular-glide-zh-tw.7f93616e6964.webp",
+    "full": "/exercise-guides/skill-final/fitness-scapular-glide-zh-tw.png?v=7f93616e6964",
+    "width": 1448,
+    "height": 1086
+  },
+  "bodyweight-hip-hinge": {
+    "preview": "/exercise-guides/preview/fitness-bodyweight-hip-hinge-zh-tw.00affacfbdf9.webp",
+    "full": "/exercise-guides/skill-final/fitness-bodyweight-hip-hinge-zh-tw.png?v=00affacfbdf9",
+    "width": 1448,
+    "height": 1086
+  },
+  "wall-ankle-mobility": {
+    "preview": "/exercise-guides/preview/fitness-wall-ankle-mobility-zh-tw.24a3cbef455f.webp",
+    "full": "/exercise-guides/skill-final/fitness-wall-ankle-mobility-zh-tw.png?v=24a3cbef455f",
+    "width": 1448,
+    "height": 1086
+  },
+  "doorway-chest-stretch": {
+    "preview": "/exercise-guides/preview/fitness-doorway-chest-stretch-zh-tw.8410b51f2add.webp",
+    "full": "/exercise-guides/skill-final/fitness-doorway-chest-stretch-zh-tw.png?v=8410b51f2add",
+    "width": 1448,
+    "height": 1086
+  },
+  "wall-calf-stretch": {
+    "preview": "/exercise-guides/preview/fitness-wall-calf-stretch-zh-tw.c2e909ea054b.webp",
+    "full": "/exercise-guides/skill-final/fitness-wall-calf-stretch-zh-tw.png?v=c2e909ea054b",
+    "width": 1448,
+    "height": 1086
+  },
+  "chair-hamstring-stretch": {
+    "preview": "/exercise-guides/preview/fitness-chair-hamstring-stretch-zh-tw.1b6769968837.webp",
+    "full": "/exercise-guides/skill-final/fitness-chair-hamstring-stretch-zh-tw.png?v=1b6769968837",
+    "width": 1448,
+    "height": 1086
+  },
+  "supported-lat-stretch": {
+    "preview": "/exercise-guides/preview/fitness-supported-lat-stretch-v2-zh-tw.aa9e7b709d83.webp",
+    "full": "/exercise-guides/skill-final/fitness-supported-lat-stretch-v2-zh-tw.png?v=aa9e7b709d83",
+    "width": 1448,
+    "height": 1086
+  },
+  "bodyweight-squat": {
+    "preview": "/exercise-guides/preview/fitness-bodyweight-squat-zh-tw.39ccf6c536ae.webp",
+    "full": "/exercise-guides/skill-final/fitness-bodyweight-squat-zh-tw.png?v=39ccf6c536ae",
+    "width": 1448,
+    "height": 1086
+  },
+  "dumbbell-squat": {
+    "preview": "/exercise-guides/preview/fitness-dumbbell-squat-zh-tw.1399b71197de.webp",
+    "full": "/exercise-guides/skill-final/fitness-dumbbell-squat-zh-tw.png?v=1399b71197de",
+    "width": 1448,
+    "height": 1086
+  },
+  "dumbbell-chest-press": {
+    "preview": "/exercise-guides/preview/fitness-dumbbell-chest-press-zh-tw.9bf42ccd5663.webp",
+    "full": "/exercise-guides/skill-final/fitness-dumbbell-chest-press-zh-tw.png?v=9bf42ccd5663",
+    "width": 1448,
+    "height": 1086
+  },
+  "dumbbell-row": {
+    "preview": "/exercise-guides/preview/fitness-dumbbell-row-zh-tw.59554dcdda89.webp",
+    "full": "/exercise-guides/skill-final/fitness-dumbbell-row-zh-tw.png?v=59554dcdda89",
+    "width": 1448,
+    "height": 1086
+  },
+  "dumbbell-shoulder-press": {
+    "preview": "/exercise-guides/preview/fitness-dumbbell-shoulder-press-zh-tw.d21b1b698a36.webp",
+    "full": "/exercise-guides/skill-final/fitness-dumbbell-shoulder-press-zh-tw.png?v=d21b1b698a36",
+    "width": 1448,
+    "height": 1086
+  },
+  "dumbbell-curl": {
+    "preview": "/exercise-guides/preview/fitness-dumbbell-curl-zh-tw.b2895a3b6d32.webp",
+    "full": "/exercise-guides/skill-final/fitness-dumbbell-curl-zh-tw.png?v=b2895a3b6d32",
+    "width": 1448,
+    "height": 1086
+  },
+  "dumbbell-triceps-extension": {
+    "preview": "/exercise-guides/preview/fitness-dumbbell-overhead-triceps-extension-v2-zh-tw.b8093cad299e.webp",
+    "full": "/exercise-guides/skill-final/fitness-dumbbell-overhead-triceps-extension-v2-zh-tw.png?v=b8093cad299e",
+    "width": 1448,
+    "height": 1086
+  },
+  "barbell-bench-press": {
+    "preview": "/exercise-guides/preview/fitness-barbell-bench-press-v2-zh-tw.ed9de231a49c.webp",
+    "full": "/exercise-guides/skill-final/fitness-barbell-bench-press-v2-zh-tw.png?v=ed9de231a49c",
+    "width": 1448,
+    "height": 1086
+  },
+  "barbell-deadlift": {
+    "preview": "/exercise-guides/preview/fitness-barbell-deadlift-v2-zh-tw.0c9d5a78ac13.webp",
+    "full": "/exercise-guides/skill-final/fitness-barbell-deadlift-v2-zh-tw.png?v=0c9d5a78ac13",
+    "width": 1448,
+    "height": 1086
+  },
+  "kettlebell-deadlift": {
+    "preview": "/exercise-guides/preview/fitness-kettlebell-deadlift-zh-tw.1b7d0809b12c.webp",
+    "full": "/exercise-guides/skill-final/fitness-kettlebell-deadlift-zh-tw.png?v=1b7d0809b12c",
+    "width": 1448,
+    "height": 1086
+  },
+  "band-row": {
+    "preview": "/exercise-guides/preview/fitness-band-row-v2-zh-tw.f5c4c32d26e5.webp",
+    "full": "/exercise-guides/skill-final/fitness-band-row-v2-zh-tw.png?v=f5c4c32d26e5",
+    "width": 1448,
+    "height": 1086
+  },
+  "smith-squat": {
+    "preview": "/exercise-guides/preview/fitness-smith-squat-zh-tw.3a5d5e25c0cb.webp",
+    "full": "/exercise-guides/skill-final/fitness-smith-squat-zh-tw.png?v=3a5d5e25c0cb",
+    "width": 1448,
+    "height": 1086
+  },
+  "cable-fly": {
+    "preview": "/exercise-guides/preview/fitness-cable-fly-zh-tw.4c86df91f1c2.webp",
+    "full": "/exercise-guides/skill-final/fitness-cable-fly-zh-tw.png?v=4c86df91f1c2",
+    "width": 1448,
+    "height": 1086
+  },
+  "cable-triceps-pushdown": {
+    "preview": "/exercise-guides/preview/fitness-cable-triceps-pushdown-zh-tw.248526770a27.webp",
+    "full": "/exercise-guides/skill-final/fitness-cable-triceps-pushdown-zh-tw.png?v=248526770a27",
+    "width": 1448,
+    "height": 1086
+  },
+  "machine-chest-press": {
+    "preview": "/exercise-guides/preview/fitness-machine-chest-press-v2-zh-tw.61ff24f0aac0.webp",
+    "full": "/exercise-guides/skill-final/fitness-machine-chest-press-v2-zh-tw.png?v=61ff24f0aac0",
+    "width": 1448,
+    "height": 1086
+  },
+  "pec-deck": {
+    "preview": "/exercise-guides/preview/fitness-pec-deck-zh-tw.42a2460ce528.webp",
+    "full": "/exercise-guides/skill-final/fitness-pec-deck-zh-tw.png?v=42a2460ce528",
+    "width": 1448,
+    "height": 1086
+  },
+  "lat-pulldown": {
+    "preview": "/exercise-guides/preview/fitness-lat-pulldown-v2-zh-tw.b886198226ef.webp",
+    "full": "/exercise-guides/skill-final/fitness-lat-pulldown-v2-zh-tw.png?v=b886198226ef",
+    "width": 1448,
+    "height": 1086
+  },
+  "seated-row": {
+    "preview": "/exercise-guides/preview/fitness-seated-row-zh-tw.3e52a4a13969.webp",
+    "full": "/exercise-guides/skill-final/fitness-seated-row-zh-tw.png?v=3e52a4a13969",
+    "width": 1448,
+    "height": 1086
+  },
+  "machine-shoulder-press": {
+    "preview": "/exercise-guides/preview/fitness-machine-shoulder-press-v2-zh-tw.08b94aaa1c5c.webp",
+    "full": "/exercise-guides/skill-final/fitness-machine-shoulder-press-v2-zh-tw.png?v=08b94aaa1c5c",
+    "width": 1448,
+    "height": 1086
+  },
+  "leg-press": {
+    "preview": "/exercise-guides/preview/fitness-leg-press-zh-tw.ab34798929fc.webp",
+    "full": "/exercise-guides/skill-final/fitness-leg-press-zh-tw.png?v=ab34798929fc",
+    "width": 1448,
+    "height": 1086
+  },
+  "leg-extension": {
+    "preview": "/exercise-guides/preview/fitness-leg-extension-v2-zh-tw.721147629fbe.webp",
+    "full": "/exercise-guides/skill-final/fitness-leg-extension-v2-zh-tw.png?v=721147629fbe",
+    "width": 1448,
+    "height": 1086
+  },
+  "leg-curl": {
+    "preview": "/exercise-guides/preview/fitness-leg-curl-v2-zh-tw.1341a5f1167a.webp",
+    "full": "/exercise-guides/skill-final/fitness-leg-curl-v2-zh-tw.png?v=1341a5f1167a",
+    "width": 1448,
+    "height": 1086
+  },
+  "push-up": {
+    "preview": "/exercise-guides/preview/fitness-push-up-v2-zh-tw.19b9f258e456.webp",
+    "full": "/exercise-guides/skill-final/fitness-push-up-v2-zh-tw.png?v=19b9f258e456",
+    "width": 1448,
+    "height": 1086
+  },
+  "front-plank": {
+    "preview": "/exercise-guides/preview/fitness-front-plank-v2-zh-tw.553a6f349498.webp",
+    "full": "/exercise-guides/skill-final/fitness-front-plank-v2-zh-tw.png?v=553a6f349498",
+    "width": 1448,
+    "height": 1086
+  },
+  "incline-dumbbell-press": {
+    "preview": "/exercise-guides/preview/fitness-incline-dumbbell-press-v2-zh-tw.88985409c7c9.webp",
+    "full": "/exercise-guides/skill-final/fitness-incline-dumbbell-press-v2-zh-tw.png?v=88985409c7c9",
+    "width": 1448,
+    "height": 1086
+  },
+  "dumbbell-lateral-raise": {
+    "preview": "/exercise-guides/preview/fitness-dumbbell-lateral-raise-zh-tw.0f772fe35d3a.webp",
+    "full": "/exercise-guides/skill-final/fitness-dumbbell-lateral-raise-zh-tw.png?v=0f772fe35d3a",
+    "width": 1448,
+    "height": 1086
+  },
+  "romanian-deadlift": {
+    "preview": "/exercise-guides/preview/fitness-romanian-deadlift-v2-zh-tw.86724e053b6d.webp",
+    "full": "/exercise-guides/skill-final/fitness-romanian-deadlift-v2-zh-tw.png?v=86724e053b6d",
+    "width": 1448,
+    "height": 1086
+  },
+  "dumbbell-lunge": {
+    "preview": "/exercise-guides/preview/fitness-dumbbell-lunge-zh-tw.2e2c44d0b254.webp",
+    "full": "/exercise-guides/skill-final/fitness-dumbbell-lunge-zh-tw.png?v=2e2c44d0b254",
+    "width": 1448,
+    "height": 1086
+  },
+  "kettlebell-swing": {
+    "preview": "/exercise-guides/preview/fitness-kettlebell-swing-v2-zh-tw.e76ce3026e74.webp",
+    "full": "/exercise-guides/skill-final/fitness-kettlebell-swing-v2-zh-tw.png?v=e76ce3026e74",
+    "width": 1448,
+    "height": 1086
+  },
+  "cable-face-pull": {
+    "preview": "/exercise-guides/preview/fitness-cable-face-pull-zh-tw.beab92b1f589.webp",
+    "full": "/exercise-guides/skill-final/fitness-cable-face-pull-zh-tw.png?v=beab92b1f589",
+    "width": 1448,
+    "height": 1086
+  },
+  "assisted-pull-up": {
+    "preview": "/exercise-guides/preview/fitness-assisted-pull-up-v2-zh-tw.385c04b2a569.webp",
+    "full": "/exercise-guides/skill-final/fitness-assisted-pull-up-v2-zh-tw.png?v=385c04b2a569",
+    "width": 1448,
+    "height": 1086
+  },
+  "machine-hip-thrust": {
+    "preview": "/exercise-guides/preview/fitness-machine-hip-thrust-zh-tw.b545e4dffc7e.webp",
+    "full": "/exercise-guides/skill-final/fitness-machine-hip-thrust-zh-tw.png?v=b545e4dffc7e",
+    "width": 1448,
+    "height": 1086
+  },
+  "hack-squat": {
+    "preview": "/exercise-guides/preview/fitness-hack-squat-zh-tw.a1937d1a73e4.webp",
+    "full": "/exercise-guides/skill-final/fitness-hack-squat-zh-tw.png?v=a1937d1a73e4",
+    "width": 1448,
+    "height": 1086
+  },
+  "standing-calf-raise": {
+    "preview": "/exercise-guides/preview/fitness-standing-calf-raise-v2-zh-tw.4343e16d746a.webp",
+    "full": "/exercise-guides/skill-final/fitness-standing-calf-raise-v2-zh-tw.png?v=4343e16d746a",
+    "width": 1448,
+    "height": 1086
+  },
+  "machine-hip-adduction": {
+    "preview": "/exercise-guides/preview/fitness-machine-hip-adduction-v2-zh-tw.c1166a8cbd81.webp",
+    "full": "/exercise-guides/skill-final/fitness-machine-hip-adduction-v2-zh-tw.png?v=c1166a8cbd81",
+    "width": 1448,
+    "height": 1086
+  },
+  "machine-hip-abduction": {
+    "preview": "/exercise-guides/preview/fitness-machine-hip-abduction-zh-tw.1d14b5c57fa6.webp",
+    "full": "/exercise-guides/skill-final/fitness-machine-hip-abduction-zh-tw.png?v=1d14b5c57fa6",
+    "width": 1448,
+    "height": 1086
+  },
+  "dumbbell-overhead-triceps-extension": {
+    "preview": "/exercise-guides/preview/fitness-dumbbell-overhead-triceps-extension-v2-zh-tw.b8093cad299e.webp",
+    "full": "/exercise-guides/skill-final/fitness-dumbbell-overhead-triceps-extension-v2-zh-tw.png?v=b8093cad299e",
+    "width": 1448,
+    "height": 1086
+  },
+  "back-extension": {
+    "preview": "/exercise-guides/preview/fitness-back-extension-zh-tw.eb59ff484c72.webp",
+    "full": "/exercise-guides/skill-final/fitness-back-extension-zh-tw.png?v=eb59ff484c72",
+    "width": 1448,
+    "height": 1086
+  },
+  "reverse-pec-deck": {
+    "preview": "/exercise-guides/preview/fitness-reverse-pec-deck-zh-tw.850e2145c6d7.webp",
+    "full": "/exercise-guides/skill-final/fitness-reverse-pec-deck-zh-tw.png?v=850e2145c6d7",
+    "width": 1448,
+    "height": 1086
+  },
+  "incline-push-up": {
+    "preview": "/exercise-guides/preview/fitness-incline-push-up-v2-zh-tw.4a06bf6a182c.webp",
+    "full": "/exercise-guides/skill-final/fitness-incline-push-up-v2-zh-tw.png?v=4a06bf6a182c",
+    "width": 1448,
+    "height": 1086
+  },
+  "reverse-lunge": {
+    "preview": "/exercise-guides/preview/fitness-reverse-lunge-v2-zh-tw.cb357ffbf8b0.webp",
+    "full": "/exercise-guides/skill-final/fitness-reverse-lunge-v2-zh-tw.png?v=cb357ffbf8b0",
+    "width": 1448,
+    "height": 1086
+  },
+  "glute-bridge": {
+    "preview": "/exercise-guides/preview/fitness-glute-bridge-v2-zh-tw.c46fa8ba6055.webp",
+    "full": "/exercise-guides/skill-final/fitness-glute-bridge-v2-zh-tw.png?v=c46fa8ba6055",
+    "width": 1448,
+    "height": 1086
+  },
+  "bird-dog": {
+    "preview": "/exercise-guides/preview/fitness-bird-dog-v2-zh-tw.a1856d20edff.webp",
+    "full": "/exercise-guides/skill-final/fitness-bird-dog-v2-zh-tw.png?v=a1856d20edff",
+    "width": 1448,
+    "height": 1086
+  },
+  "dead-bug": {
+    "preview": "/exercise-guides/preview/fitness-dead-bug-v2-zh-tw.b26a08d22db3.webp",
+    "full": "/exercise-guides/skill-final/fitness-dead-bug-v2-zh-tw.png?v=b26a08d22db3",
+    "width": 1448,
+    "height": 1086
+  },
+  "mountain-climber": {
+    "preview": "/exercise-guides/preview/fitness-mountain-climber-v2-zh-tw.243b72c4a32c.webp",
+    "full": "/exercise-guides/skill-final/fitness-mountain-climber-v2-zh-tw.png?v=243b72c4a32c",
+    "width": 1448,
+    "height": 1086
+  },
+  "wall-sit": {
+    "preview": "/exercise-guides/preview/fitness-wall-sit-v2-zh-tw.3342e0c59626.webp",
+    "full": "/exercise-guides/skill-final/fitness-wall-sit-v2-zh-tw.png?v=3342e0c59626",
+    "width": 1448,
+    "height": 1086
+  },
+  "superman": {
+    "preview": "/exercise-guides/preview/fitness-superman-v2-zh-tw.6dfe9013e168.webp",
+    "full": "/exercise-guides/skill-final/fitness-superman-v2-zh-tw.png?v=6dfe9013e168",
+    "width": 1448,
+    "height": 1086
+  },
+  "cat-cow": {
+    "preview": "/exercise-guides/preview/fitness-cat-cow-zh-tw.359909f93a05.webp",
+    "full": "/exercise-guides/skill-final/fitness-cat-cow-zh-tw.png?v=359909f93a05",
+    "width": 1448,
+    "height": 1086
+  },
+  "child-pose": {
+    "preview": "/exercise-guides/preview/fitness-child-pose-zh-tw.47617b67c8c0.webp",
+    "full": "/exercise-guides/skill-final/fitness-child-pose-zh-tw.png?v=47617b67c8c0",
+    "width": 1448,
+    "height": 1086
+  },
+  "kneeling-hip-flexor-stretch": {
+    "preview": "/exercise-guides/preview/fitness-kneeling-hip-flexor-stretch-v2-zh-tw.8ff46451e49f.webp",
+    "full": "/exercise-guides/skill-final/fitness-kneeling-hip-flexor-stretch-v2-zh-tw.png?v=8ff46451e49f",
+    "width": 1448,
+    "height": 1086
+  },
+  "figure-four-stretch": {
+    "preview": "/exercise-guides/preview/fitness-figure-four-stretch-v2-zh-tw.ad08b0db9c9a.webp",
+    "full": "/exercise-guides/skill-final/fitness-figure-four-stretch-v2-zh-tw.png?v=ad08b0db9c9a",
+    "width": 1448,
+    "height": 1086
+  },
+  "supine-twist": {
+    "preview": "/exercise-guides/preview/fitness-supine-twist-v2-zh-tw.871929fc95e5.webp",
+    "full": "/exercise-guides/skill-final/fitness-supine-twist-v2-zh-tw.png?v=871929fc95e5",
+    "width": 1448,
+    "height": 1086
+  },
+  "butterfly-stretch": {
+    "preview": "/exercise-guides/preview/fitness-butterfly-stretch-zh-tw.43f1335df1b3.webp",
+    "full": "/exercise-guides/skill-final/fitness-butterfly-stretch-zh-tw.png?v=43f1335df1b3",
+    "width": 1448,
+    "height": 1086
+  },
+  "downward-dog": {
+    "preview": "/exercise-guides/preview/fitness-downward-dog-zh-tw.92f74328eb9f.webp",
+    "full": "/exercise-guides/skill-final/fitness-downward-dog-zh-tw.png?v=92f74328eb9f",
+    "width": 1448,
+    "height": 1086
+  },
+  "cobra-pose": {
+    "preview": "/exercise-guides/preview/fitness-cobra-pose-zh-tw.7ad6c6956b58.webp",
+    "full": "/exercise-guides/skill-final/fitness-cobra-pose-zh-tw.png?v=7ad6c6956b58",
+    "width": 1448,
+    "height": 1086
+  },
+  "seated-forward-fold": {
+    "preview": "/exercise-guides/preview/fitness-seated-forward-fold-v2-zh-tw.613f3177a3ea.webp",
+    "full": "/exercise-guides/skill-final/fitness-seated-forward-fold-v2-zh-tw.png?v=613f3177a3ea",
+    "width": 1448,
+    "height": 1086
+  },
+  "thread-the-needle": {
+    "preview": "/exercise-guides/preview/fitness-thread-the-needle-zh-tw.e0bb91f5ef94.webp",
+    "full": "/exercise-guides/skill-final/fitness-thread-the-needle-zh-tw.png?v=e0bb91f5ef94",
+    "width": 1448,
+    "height": 1086
+  }
+}

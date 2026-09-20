@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "dumbbell-triceps-extension",
+    "name": "啞鈴三頭伸展",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "讓上臂保持穩定，以伸直手肘訓練三頭肌。",
+    "instructions": [
+      "雙手托住啞鈴並舉到頭頂。",
+      "保持上臂位置，彎曲手肘放低重量。",
+      "吐氣伸直手肘，不要甩動。"
+    ],
+    "cues": [
+      "上臂不要前後飄",
+      "肋骨保持收好",
+      "從輕重量熟悉路徑"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "選擇可平順控制、不需借力的重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/z2-MsrrOFLM",
+      "watchUrl": "https://www.youtube.com/watch?v=z2-MsrrOFLM",
+      "title": "如何用啞鈴練習三頭肌",
+      "channel": "黃士倫",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/74/triceps-extension/",
+    "sourceLabel": "ACE 過頭三頭肌伸展"
+  },
+  "definition": {
+    "variation": "啞鈴三頭伸展；本項起始設定：雙手托住啞鈴並舉到頭頂。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/triceps-extension/vid-20084676",
+      "label": "Mayo Clinic 動作影片",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/74/triceps-extension/",
+      "label": "ACE 過頭三頭肌伸展",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "雙手一顆啞鈴過頭伸展，上臂穩定、屈伸手肘"
+      ],
+      "note": "歷史別名沿用站姿雙手過頭版；原 Mayo 影片為躺姿單手版，不作本項證據。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "440f91814f56f3e8a1512e95adbb26459b11657ede9c42507ad342ec48ff93bc",
+      "findings": [
+        "已對照動作專屬來源：雙手一顆啞鈴過頭伸展，上臂穩定、屈伸手肘。",
+        "歷史別名沿用站姿雙手過頭版；原 Mayo 影片為躺姿單手版，不作本項證據。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "440f91814f56f3e8a1512e95adbb26459b11657ede9c42507ad342ec48ff93bc",
+      "reviewedImageSha256": "b8093cad299e300270c0d2d3d11e591a412151f8179d04b9a499b88e2532f988",
+      "findings": [
+        "歷史別名已共用正式『啞鈴過頭三頭肌伸展』新圖；重新核對同為站姿雙手單顆啞鈴，上臂穩定、頭後屈肘再伸直，3 組 12 次。",
+        "保留真正原動作生成來源與提示，不假裝是以別名另產。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/z2-MsrrOFLM",
+      "check": {
+        "videoId": "z2-MsrrOFLM",
+        "seconds": [
+          15,
+          29,
+          40,
+          52
+        ],
+        "observation": "重新核對站姿雙手持單顆啞鈴、頭後屈肘與向上伸肘；不是坐姿或單手版本。"
+      },
+      "findings": [
+        "重新核對站姿雙手持單顆啞鈴、頭後屈肘與向上伸肘；不是坐姿或單手版本。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "440f91814f56f3e8a1512e95adbb26459b11657ede9c42507ad342ec48ff93bc",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/z2-MsrrOFLM",
+            "watchUrl": "https://www.youtube.com/watch?v=z2-MsrrOFLM",
+            "title": "如何用啞鈴練習三頭肌",
+            "channel": "黃士倫",
+            "language": "中文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/z2-MsrrOFLM",
+            "check": {
+              "videoId": "z2-MsrrOFLM",
+              "seconds": [
+                8,
+                29,
+                52
+              ],
+              "observation": "可見站姿雙手持單顆啞鈴、頭後屈肘與伸肘；舊名保留供歷史資料使用。"
+            },
+            "findings": [
+              "可見站姿雙手持單顆啞鈴、頭後屈肘與伸肘；舊名保留供歷史資料使用。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "3efb9ab8dcac8da3159c5fe9afd015b8983e95fed78ae006ab5947bfca779285"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-overhead-triceps-extension-v2-zh-tw.png",
+    "sha256": "b8093cad299e300270c0d2d3d11e591a412151f8179d04b9a499b88e2532f988",
+    "generatedFromContentHash": "27957aadbf3dd93df6f43b5a29a041c5411311b45f29ad7f1b548ee05ca174ff",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-dumbbell-triceps-extension-zh-tw.png",
+        "sha256": "175ee3cc6aacb8adaaf08e9fc13f25f1aa9d6b7277e2122d1434114b31801e19",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "visual-checked",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "3efb9ab8dcac8da3159c5fe9afd015b8983e95fed78ae006ab5947bfca779285",
+          "reviewedImageSha256": "175ee3cc6aacb8adaaf08e9fc13f25f1aa9d6b7277e2122d1434114b31801e19",
+          "findings": [
+            "歷史別名圖為站姿雙手持單顆頭後伸肘版本，10–12 次 × 3 組；不得再當不同動作新增。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "內容版本：4\n來源文字 SHA-256：27957aadbf3dd93df6f43b5a29a041c5411311b45f29ad7f1b548ee05ca174ff\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"啞鈴過頭三頭肌伸展\",\n  \"variation\": \"啞鈴過頭三頭肌伸展；本項起始設定：雙手托住一顆啞鈴並舉過頭，雙腳站穩、腹部收緊。\",\n  \"subtitle_zh\": \"手臂動作指引\",\n  \"intro_zh\": \"將啞鈴置於頭後，以伸直手肘訓練肱三頭肌，特別是長頭。\",\n  \"target_areas\": [\n    \"手臂\"\n  ],\n  \"step_count\": 3,\n  \"camera\": \"固定嚴格正側面，人物面向左；單顆啞鈴在頭後方即画面右側。上半身大圖，手肘與前臂輪廓清楚。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"站穩舉高\",\n      \"pose_description\": \"Stand feet stable about hip width, knees soft, hold ONE dumbbell vertically overhead with BOTH palms supporting underside of top end. Arms above shoulders, upper arms comfortably shoulder-width, not squeezed against ears; elbows extended naturally, no back arch.\",\n      \"coaching_note_zh\": \"雙手共持一顆啞鈴，腹部穩定。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"屈肘下放\",\n      \"pose_description\": \"STRICT side profile facing LEFT. Both upper arms remain vertical beside head, both elbows high above crown. Both elbows flex about100degrees: FOREARMS slope DOWN behind head to screen RIGHT, both hands together cup the upper end of ONE vertical dumbbell at upper neck height BEHIND head. Near elbow silhouette must visibly bend; no straight arm in this panel. Torso and head upright, gaze left.\",\n      \"coaching_note_zh\": \"上臂穩定，啞鈴緩慢降到頭後。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"伸肘回程\",\n      \"pose_description\": \"Extend both elbows to original overhead position, torso unchanged, both hands still supporting same single dumbbell. Do not arch back or lock elbows forcibly.\",\n      \"coaching_note_zh\": \"平順伸肘回起點，不甩動重量。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"上臂穩定，手肘寬度以肩肘舒適為準\",\n      \"肋骨收好、腰部不過度拱起\",\n      \"先用輕重量確認頭後空間\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：3 組 × 12 次\",\n      \"一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    },
+    "reusedFromExerciseId": "dumbbell-overhead-triceps-extension"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "bird-dog",
+    "name": "鳥狗式",
+    "bodyParts": [
+      "核心",
+      "背"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "四足跪姿交替伸展對側手腳，建立核心抗旋轉能力。",
+    "instructions": [
+      "雙手在肩下、膝蓋在髖下，背部維持自然。",
+      "腹部收穩，同時伸出一手與對側腿。",
+      "停一下後緩慢收回，再換邊。"
+    ],
+    "cues": [
+      "骨盆保持朝地面",
+      "手腳不必抬得很高"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "每側 8 次；先只伸手或只伸腳也可以"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ZdAHe9_HeEw",
+      "watchUrl": "https://www.youtube.com/watch?v=ZdAHe9_HeEw",
+      "title": "鳥狗式對側伸展",
+      "channel": "NASM",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/bird-dog",
+    "sourceLabel": "NASM 鳥狗式"
+  },
+  "definition": {
+    "variation": "四足跪姿、對側手腳交替伸展的鳥狗式；不使用同側手腳抬起版本。",
+    "counting": "每組數字表示每側次數：左右各 8 次（合計 16 次單側動作）才算完成一組；不是左右合計 8 次。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/bird-dog",
+      "label": "NASM 鳥狗式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "四足對側伸展及骨盆穩定"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f89335da883e4d25a772adef3e489ca9932600109f1d034f5c3b613a6457bc9f",
+      "findings": [
+        "已對照原始來源：四足對側伸展及骨盆穩定。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "f89335da883e4d25a772adef3e489ca9932600109f1d034f5c3b613a6457bc9f",
+      "reviewedImageSha256": "a1856d20edff952c44e2253f87ec80dc0ca3d065dce05891157d363ff7cef820",
+      "findings": [
+        "三格確認四足定位、遠側右手與近側左腿伸展、收回；對側支撐可辨識。已移除鏡像假換側與重複左右標籤。另一側以文字提示，左右各 8 次、2 組。",
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/ZdAHe9_HeEw",
+      "check": {
+        "videoId": "ZdAHe9_HeEw",
+        "seconds": [
+          7,
+          12,
+          16
+        ],
+        "observation": "重新核對四足跪姿、對側手腳伸展與回收／換側；手腳不必抬得比軀幹高。"
+      },
+      "findings": [
+        "重新核對四足跪姿、對側手腳伸展與回收／換側；手腳不必抬得比軀幹高。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "f89335da883e4d25a772adef3e489ca9932600109f1d034f5c3b613a6457bc9f",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/ZdAHe9_HeEw",
+            "watchUrl": "https://www.youtube.com/watch?v=ZdAHe9_HeEw",
+            "title": "鳥狗式對側伸展",
+            "channel": "NASM",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/ZdAHe9_HeEw",
+            "check": {
+              "videoId": "ZdAHe9_HeEw",
+              "seconds": [
+                7,
+                16
+              ],
+              "observation": "可見四足支撐與對側手腳伸展、左右切換；不再共用伏地挺身影片。"
+            },
+            "findings": [
+              "可見四足支撐與對側手腳伸展、左右切換；不再共用伏地挺身影片。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "5467bdd1bc516957736184986e9d624011b09da81acb2f6971015b131e1644c6"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-bird-dog-v2-zh-tw.png",
+    "sha256": "a1856d20edff952c44e2253f87ec80dc0ca3d065dce05891157d363ff7cef820",
+    "generatedFromContentHash": "f89335da883e4d25a772adef3e489ca9932600109f1d034f5c3b613a6457bc9f",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定右前方略高三分之四側面，展示右手配左腳的一次循環；另一側用文字提示，不鏡像冒充換側。",
+      "frames": [
+        {
+          "title": "四足定位",
+          "pose": "Quadruped on mat, both palms under shoulders, elbows straight without hyperextension, both knees under hips, neutral trunk and neck, eyes on mat; entire body visible.",
+          "caption": "雙手肩下、雙膝髖下，背部保持自然。"
+        },
+        {
+          "title": "右手左腳伸展",
+          "pose": "Same fixed view: right arm extends forward while LEFT leg extends back to trunk height. Left palm and RIGHT knee remain planted. Pelvis stays level and faces mat. Label right hand and left foot in Traditional Chinese.",
+          "caption": "右手配左腳；骨盆不轉，不追求高度。"
+        },
+        {
+          "title": "控制收回",
+          "pose": "Return right palm and left knee to original contact positions, all four supports visible. Head and pelvis remain in same orientation, not looking at camera.",
+          "caption": "收回四足支撐；下一次換左手配右腳。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-bird-dog-zh-tw.png",
+        "sha256": "7a7c4ea26d4f21db799b044a82b37f24c72d5130a67f7a5522eeda1cd34b9c17",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "5467bdd1bc516957736184986e9d624011b09da81acb2f6971015b131e1644c6",
+          "reviewedImageSha256": "7a7c4ea26d4f21db799b044a82b37f24c72d5130a67f7a5522eeda1cd34b9c17",
+          "findings": [
+            "圖印每側 8–12 次 × 3 組，頁面為每側 8 次 × 2 組；側向遮擋也不利辨認對側肢體，需統一份量並加左右標記。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Reformat this into exactly THREE panels, retaining the valid poses from old panels 1, 2 and 3 only. DELETE old panel 4 completely because it depicts the wrong limb pair. Maintain approved adult character and outfit. Make three wide horizontal rows, with large full-body image on right and short numbered caption on left: 1 四足定位 — 雙手肩下、雙膝髖下，背部保持自然。; 2 右手左腳伸展 — 右手配左腳；骨盆不轉，不追求高度。; 3 控制收回 — 收回四足支撐；下一次換左手配右腳。. Exactly same poses as existing first THREE panels, don't invent opposite-side pose. Preserve title and concise summary: 重點：骨盆朝地面，不追求高度。起始參考：左右各8次，2組；左右各8次才算一組。呼吸：自然呼吸，不憋氣。 Keep camera fixed facing left. No slogans. Landscape 4:3."
+    }
+  }
+}

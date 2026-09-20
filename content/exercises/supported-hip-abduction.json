@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "supported-hip-abduction",
+    "name": "扶椅站姿側抬腿",
+    "bodyParts": [
+      "腿"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "扶著固定支撐，小幅側抬腿練習臀部外側控制。",
+    "instructions": [
+      "使用不會滑動、沒有輪子的穩固椅子，靠牆固定；地面保持乾燥。",
+      "站直扶穩，腳尖朝前，先站穩支撐腳。",
+      "另一腿向側邊小幅抬離地面，骨盆保持水平。",
+      "控制放回，再重複；完成一組後換側。"
+    ],
+    "cues": [
+      "不歪腰、不靠身體側倒增加高度。",
+      "支撐膝不鎖死，抬腿腳尖不要轉向天花板。"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 5,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "每組一側 5 次，共 2 組：第一組左側，第二組右側。"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wl5RfJ1ZjIE?rel=0",
+      "watchUrl": "https://www.youtube.com/watch?v=wl5RfJ1ZjIE",
+      "title": "站姿側抬腿示範",
+      "channel": "NHS Golden Jubilee",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+    "sourceLabel": "NHS 肌力活動"
+  },
+  "definition": {
+    "variation": "站姿扶穩固定支撐，軀幹直立的單側髖外展；不是側彎或骨盆側提。",
+    "counting": "每組只做一側 5 次；共 2 組，左右各一組。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+      "label": "NHS 肌力活動",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "側抬腿時身體直立"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "38e0efea1e341923f56fa71f7296ac876cbfdf4c60e53aa6cf99848258dc71ad",
+      "findings": [
+        "已對照原始來源：側抬腿時身體直立。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "38e0efea1e341923f56fa71f7296ac876cbfdf4c60e53aa6cf99848258dc71ad",
+      "reviewedImageSha256": "544e7ef956f0080d8893ea5ca045c7401804680cb43e0f12a02d688a594da8c6",
+      "findings": [
+        "新圖三格的軀幹直立、支撐腳著地、遠離椅子的腿小幅外展及控制放回可見；未再出現舊圖的明顯側傾。",
+        "每側 5 次各 1 組、共 2 組及自然呼吸的文字與主檔相符。椅子仍須依現場確認不滑動、靠牆固定，不能由圖保證穩定性。",
+        "已逐格視覺檢查，不是專業動作認證；舊圖與原問題保留在 illustration.history。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/wl5RfJ1ZjIE?rel=0",
+      "check": {
+        "videoId": "wl5RfJ1ZjIE",
+        "seconds": [
+          6,
+          13,
+          24
+        ],
+        "observation": "可見站姿扶穩、單腳向側抬起。影片用固定治療床，居家支撐需同樣穩固。"
+      },
+      "findings": [
+        "可見站姿扶穩、單腳向側抬起。影片用固定治療床，居家支撐需同樣穩固。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "38e0efea1e341923f56fa71f7296ac876cbfdf4c60e53aa6cf99848258dc71ad"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-supported-hip-abduction-v2-zh-tw.png",
+    "sha256": "544e7ef956f0080d8893ea5ca045c7401804680cb43e0f12a02d688a594da8c6",
+    "generatedFromContentHash": "38e0efea1e341923f56fa71f7296ac876cbfdf4c60e53aa6cf99848258dc71ad",
+    "legacyPrompt": "Create ONE independent 4:3 landscape photorealistic Traditional Chinese fitness instruction infographic, using Image A only as the authoritative adult woman's face, bob haircut, natural body proportions, blue activewear and white shoes identity reference. Same adult woman in every frame. Neutral light studio, soft lighting, dark blue clean text, clear numbered panels, realistic anatomy, no slogans, no decorative quotes, no English, no reference turnaround text. Four coherent instructional stages; use exact Chinese title and notes below. Bottom panels 動作重點 / 建議次數 / 呼吸提醒 with concise specified cues. Keep correct movement more important than looks. Title: 扶椅站姿側抬腿. MOVEMENT PLAN: Standing hip abduction for gluteus medius, bilateral chair support; front three quarter camera chair at left of frame and woman's lateral leg unobstructed. 1 扶穩站好: feetparallel bothhands sturdy fixedchairback. 2 側抬一腿: lift outside leg 15-20cm sideways, kneesstraightsoft toesforward pelvislevel nolean. 3 控制停留: samepeak smallrange, bothhandsonchair. 4 回到站姿: bothfeetgrounded. Key 骨盆保持水平／不向側邊歪腰. Reps 每側5下，1組. Breath 抬腿吐氣，放下吸氣.",
+    "plan": {
+      "status": "ready",
+      "camera": "固定正前方；全身與雙腳完整入鏡，垂直參考線保持在軀幹旁。",
+      "frames": [
+        {
+          "title": "扶穩站立",
+          "pose": "Standing upright beside a fixed non-wheeled support, one hand rests lightly on support, both feet planted hip width, knees soft, level shoulders and pelvis, gaze forward along neutral head.",
+          "caption": "扶穩支撐站直，骨盆保持水平。"
+        },
+        {
+          "title": "小幅側抬",
+          "pose": "Move the leg farther from support a small distance directly sideways; toe points forward, stance foot stays planted. Torso remains vertical without leaning toward chair or hiking hip. Entire lifted foot visible.",
+          "caption": "腳尖朝前，小幅抬腿，不歪腰。"
+        },
+        {
+          "title": "控制放回",
+          "pose": "Lower lifted foot to original place under control; shoulders and pelvis remain level, no change in camera or torso orientation.",
+          "caption": "控制放回，每側完成一組再換側。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-supported-hip-abduction-zh-tw.png",
+        "sha256": "5bfb30b544a5dc5aefdfe45c6ba7bc7f2fa08d10b27b1fbd4eda44edc8a50707",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "blocked",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "38e0efea1e341923f56fa71f7296ac876cbfdf4c60e53aa6cf99848258dc71ad",
+          "reviewedImageSha256": "5bfb30b544a5dc5aefdfe45c6ba7bc7f2fa08d10b27b1fbd4eda44edc8a50707",
+          "findings": [
+            "抬腿畫面軀幹明顯朝支撐物側傾，與不歪腰的文字矛盾；需重製直立骨盆穩定的版本。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "built-in image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Use case: scientific-educational. Create ONE photorealistic Traditional Chinese fitness movement infographic, 4:3 landscape. Image 1 is ONLY the approved adult character identity reference: preserve the same adult woman, short bob hair, face, blue-gray fitness top and leggings, white shoes, realistic proportions in all panels. Do not copy any slogans from the reference. Light neutral studio background, soft even light, restrained navy typography. No mannequins, no vector figures, no slogans or decorative motivational writing.\n\nMovement: 扶椅站姿側抬腿. Exact variation: standing supported hip abduction, upright torso. Three panels from a fixed front-facing camera, full head, both feet and the same stable support visible in every panel. Adult looks naturally in direction of neutral head, no forced turn toward camera. Use a secured non-wheeled chair visibly backed against a wall. One hand rests lightly on chair. Leg farther from chair moves a SMALL distance sideways. Keep shoulders level, ribcage vertical and pelvis level: no leaning toward support and no hip hiking. Stance knee soft, stance foot fully planted, moving toe forward, not rotated outward. Prioritize these facts over attractive posing. A thin vertical guide next to torso may help; it must match the actually upright pose.\n\nVisible title: \"扶椅站姿側抬腿\"\nSubtitle: \"小幅側抬，練習臀部外側控制\"\nPanel 1 title: \"1 扶穩站立\"\nPose: Upright standing, both feet hip width on level floor, hand on secured chair, soft knees, level pelvis.\nCaption: \"扶穩支撐站直，骨盆保持水平。\"\nPanel 2 title: \"2 小幅側抬\"\nPose: Move leg farther from chair sideways about a small comfortable 10–15 degrees, entire foot visible off ground, toe forward. Torso remains upright exactly aligned with first panel, weight supported by planted leg, shoulders and pelvis level. NO sideways trunk lean.\nCaption: \"腳尖朝前，小幅抬腿，不歪腰。\"\nPanel 3 title: \"3 控制放回\"\nPose: Leg returns to starting position, both feet planted as panel1, torso and chair unchanged.\nCaption: \"控制放回，每側完成一組再換側。\"\n\nBottom three restrained information panels with exact Traditional Chinese:\n\"動作重點\"\n\"不歪腰、不側倒增加高度\"\n\"支撐膝不鎖死，腳尖朝前\"\n\"起始參考\"\n\"每側 5 次，各 1 組\"\n\"共 2 組；實際份量依本次課表\"\n\"呼吸與安全\"\n\"自然呼吸，不憋氣\"\n\"疼痛、麻木或頭暈時停止\"\n\nNo additional numeric targets, no extreme range, no extra exercise phases, no English text in image. Same character and equipment in all frames. Clearly readable captions and coherent limb support. This is a movement teaching graphic, not a certificate of correctness."
+    }
+  }
+}

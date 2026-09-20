@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "exercise": {
+    "id": "romanian-deadlift",
+    "name": "羅馬尼亞硬舉",
+    "bodyParts": [
+      "腿",
+      "背",
+      "核心"
+    ],
+    "equipment": "槓鈴",
+    "difficulty": "進階",
+    "tracking": "reps",
+    "summary": "以髖折疊為主，強化臀部與大腿後側。",
+    "instructions": [
+      "站直持槓，膝蓋保持微彎。",
+      "髖部往後推，槓鈴沿腿下降。",
+      "感到腿後側伸展後，踩穩並伸髖站起。"
+    ],
+    "cues": [
+      "槓鈴貼腿",
+      "背部維持中立",
+      "深度由髖折疊決定"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 120,
+      "load": "先用空槓建立髖折疊與下放控制"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xgusDooVfKU",
+      "watchUrl": "https://www.youtube.com/watch?v=xgusDooVfKU",
+      "title": "槓鈴羅馬尼亞硬舉",
+      "channel": "NASM",
+      "language": "英文"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/romanian-deadlift-barbell",
+    "sourceLabel": "NASM 槓鈴羅馬尼亞硬舉"
+  },
+  "definition": {
+    "variation": "羅馬尼亞硬舉；本項起始設定：站直持槓，膝蓋保持微彎。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 8 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/romanian-deadlift-barbell",
+      "label": "NASM 槓鈴羅馬尼亞硬舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "微彎膝、髖折及控制活動幅度"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "6e9e062b6fe3cbcf9241f668db2de4dde39d79603fa6f651dcfffc406d2253b0",
+      "findings": [
+        "已對照原始來源：微彎膝、髖折及控制活動幅度。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "6e9e062b6fe3cbcf9241f668db2de4dde39d79603fa6f651dcfffc406d2253b0",
+      "reviewedImageSha256": "86724e053b6da4ba90de65d7141a6322c14ca1a0eaf552beed1fe4f864566cc5",
+      "findings": [
+        "已核對站姿開始、髖後移、槓貼腿、舒適深度與站直回程；移除將臀部誤標為背部的肌群圖，3 組 × 8 次相符。",
+        "人工檢視可見畫面及文字，不代表醫療或生物力學認證。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xgusDooVfKU",
+      "check": {
+        "videoId": "xgusDooVfKU",
+        "seconds": [
+          5,
+          7,
+          10,
+          12
+        ],
+        "observation": "重新核對從站姿開始，膝微彎、髖後移、槓貼腿下降與回站；非一般硬舉地面起拉版本。"
+      },
+      "findings": [
+        "重新核對從站姿開始，膝微彎、髖後移、槓貼腿下降與回站；非一般硬舉地面起拉版本。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "6e9e062b6fe3cbcf9241f668db2de4dde39d79603fa6f651dcfffc406d2253b0",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/xgusDooVfKU",
+            "watchUrl": "https://www.youtube.com/watch?v=xgusDooVfKU",
+            "title": "槓鈴羅馬尼亞硬舉",
+            "channel": "NASM",
+            "language": "英文"
+          },
+          "review": {
+            "status": "spot-checked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xgusDooVfKU",
+            "check": {
+              "videoId": "xgusDooVfKU",
+              "seconds": [
+                5,
+                7,
+                10,
+                12
+              ],
+              "observation": "可見站姿持槓開始、膝微彎並向後折髖、槓沿腿下降後站回。已改成羅馬尼亞硬舉，不再共用一般槓鈴硬舉。"
+            },
+            "findings": [
+              "可見站姿持槓開始、膝微彎並向後折髖、槓沿腿下降後站回。已改成羅馬尼亞硬舉，不再共用一般槓鈴硬舉。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "2389b9bfa257493b2f3a39487ca34273036c21e71428b52189b220aabac15ff4"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-romanian-deadlift-v2-zh-tw.png",
+    "sha256": "86724e053b6da4ba90de65d7141a6322c14ca1a0eaf552beed1fe4f864566cc5",
+    "generatedFromContentHash": "6e9e062b6fe3cbcf9241f668db2de4dde39d79603fa6f651dcfffc406d2253b0",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定正側略前三分之四，全身及輕槓完整入鏡。",
+      "frames": [
+        {
+          "title": "站穩持槓",
+          "pose": "Stand hip width holding light barbell with both hands just outside thighs, bar resting at upper thighs, knees soft, natural neck.",
+          "caption": "站穩持槓，膝蓋微彎。"
+        },
+        {
+          "title": "髖部後移",
+          "pose": "Hinge hips backwards keeping shins almost vertical and knees slightly bent. Bar slides close thighs toward knees, arms hang straight, spine neutral, gaze follows torso.",
+          "caption": "髖往後推，槓沿腿下降。"
+        },
+        {
+          "title": "可控低點",
+          "pose": "Hinge a little further until hamstring stretch, bar just below knees, back neutral, bar close legs. Do not show mandatory mid-shin depth or plates touching floor.",
+          "caption": "到腿後側有伸展感即可，不追求深度。"
+        },
+        {
+          "title": "伸髖站回",
+          "pose": "Stand by extending hips and knees slightly to neutral upright, bar close thighs, do not lean backward at top.",
+          "caption": "踩穩伸髖站回，不向後仰。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-romanian-deadlift-zh-tw.png",
+        "sha256": "8dc325634c359858327bfe9974b1f1fcbacfc8f684d89da6e96d9966da9c097a",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "2389b9bfa257493b2f3a39487ca34273036c21e71428b52189b220aabac15ff4",
+          "reviewedImageSha256": "8dc325634c359858327bfe9974b1f1fcbacfc8f684d89da6e96d9966da9c097a",
+          "findings": [
+            "第三格標題寫下放至小腿中段，槓卻仍在膝附近；不應為配合標題強迫深度，須改成可控制髖折幅度並一致重製。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Remove the three small anatomical muscle icons in upper right entirely, because glutes are wrongly labeled 背. Replace that area with simple text only: 訓練部位：臀腿、背部與核心. Keep ALL exercise poses, captions, character, outfit, light barbell, four-stage sequence, and 3組×8次 dose unchanged. Do not introduce new diagrams or slogans.",
+      "inputImage": "C:/Users/tomoe/.codex/generated_images/01a06b63-8898-70b0-8caa-a34efc8ab891/exec-fad03330-8ee4-4f6b-b25d-d4c77793ddde.png"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "exercise": {
+    "id": "dumbbell-lateral-raise",
+    "name": "啞鈴側平舉",
+    "bodyParts": [
+      "肩"
+    ],
+    "equipment": "啞鈴",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "以輕重量向身體兩側抬手，訓練三角肌中束。",
+    "instructions": [
+      "啞鈴放在身體兩側，手肘保持微彎。",
+      "向斜前方抬起至接近肩高。",
+      "停一下後慢慢放下，不借力擺動。"
+    ],
+    "cues": [
+      "肩膀遠離耳朵",
+      "以手肘帶動",
+      "重量寧輕勿甩"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "選擇能控制下放 2 秒的輕重量"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+      "watchUrl": "https://www.youtube.com/watch?v=ePxgPKcI1fU",
+      "title": "肩部訓練路徑參考",
+      "channel": "東吳大學體育室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/",
+    "sourceLabel": "ACE：啞鈴側平舉"
+  },
+  "definition": {
+    "variation": "啞鈴側平舉；本項起始設定：啞鈴放在身體兩側，手肘保持微彎。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670",
+      "label": "Mayo Clinic 肌力訓練原則",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/",
+      "label": "ACE：啞鈴側平舉",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "肘微彎、軀幹穩定",
+        "抬到肩高、緩慢回程與手腕中立"
+      ],
+      "note": "已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "e8421f368cba2ec9fe644afc10c75f094bfc2413ee6ff1e077352361fe24e750",
+      "findings": [
+        "已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。",
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "e8421f368cba2ec9fe644afc10c75f094bfc2413ee6ff1e077352361fe24e750",
+      "reviewedImageSha256": "0f772fe35d3a10e67b54e879892f641c9e7892314dd8817428dcadd9ec6e1320",
+      "findings": [
+        "微屈肘向斜前外側抬至肩高，再控制下放；非前平舉過頭，10–15 次 3 組包含本站 12 次。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "舊影片動作不相符，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "b900f0580ad0b4718fcfb4d2defad8148b5c10e12a6c31960397f6be0425fcd3"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dumbbell-lateral-raise-zh-tw.png",
+    "sha256": "0f772fe35d3a10e67b54e879892f641c9e7892314dd8817428dcadd9ec6e1320",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}

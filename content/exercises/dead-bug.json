@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "dead-bug",
+    "name": "死蟲式",
+    "bodyParts": [
+      "核心"
+    ],
+    "equipment": "徒手",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "仰躺交替放下對側手腳，練習維持腰椎與骨盆穩定。",
+    "instructions": [
+      "仰躺抬起雙手，髖膝各彎曲約九十度。",
+      "輕收腹部，對側手腳緩慢朝地面延伸。",
+      "腰背仍穩定時收回，再換邊。"
+    ],
+    "cues": [
+      "腰部不要拱起",
+      "慢速且可控制，不刻意拖長或憋氣",
+      "縮短伸展距離也可以"
+    ],
+    "recommendation": {
+      "sets": 2,
+      "reps": 8,
+      "durationSeconds": null,
+      "restSeconds": 30,
+      "load": "每側 8 次；只在腰背能穩定的範圍活動"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xZhwA0lgIs8?start=110&end=180",
+      "watchUrl": "https://www.youtube.com/watch?v=xZhwA0lgIs8&t=110s",
+      "title": "死蟲式動作示範",
+      "channel": "全人物理治療所",
+      "language": "中文",
+      "note": "已核對仰躺髖膝約 90 度、雙手朝上起始，對側手腳延伸後回收與換側；選取 110–180 秒示範，避免前段錯誤姿勢說明被當作正確動作。不是整片逐秒審核；份量依本站課表。"
+    },
+    "sourceUrl": "https://www.nasm.org/resource-center/exercise-library/dead-bug",
+    "sourceLabel": "NASM 死蟲式"
+  },
+  "definition": {
+    "variation": "仰躺髖膝約 90 度起始，對側手腳下放再回收的死蟲式；非伸直起始交替抬腿版。",
+    "counting": "每組數字表示每側次數：左右各 8 次（合計 16 次單側動作）才算完成一組；不是左右合計 8 次。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.nasm.org/resource-center/exercise-library/dead-bug",
+      "label": "NASM 死蟲式",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "90/90 起始、對側伸展及腰背控制"
+      ],
+      "note": "僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "2ffb8fa399cad9130db07933032be456382c4dbe044bee7bd54b030d4e44638d",
+      "findings": [
+        "已對照原始來源：90/90 起始、對側伸展及腰背控制。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。",
+        "影片配對／備註更新後複核：動作步驟、計數、來源及分鏡未改；影片差異已明示，文字核對仍適用。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "2ffb8fa399cad9130db07933032be456382c4dbe044bee7bd54b030d4e44638d",
+      "reviewedImageSha256": "b26a08d22db385caae377df8cf0cce03acec3b5d17b2b91d1c26bd45fc8343d1",
+      "findings": [
+        "已查看四格：仰躺髖膝屈曲起始，第二格遠側右手與近側左腿延伸，第四格近側左手與遠側右腿延伸；頭部保持墊上，左右各 8 次、2 組。",
+        "人工檢視可見畫面及文字，不代表醫療或生物力學認證。",
+        "影片配對／備註更新後對照已檢視成品：指定動作、支撐與份量未變，現有圖片仍適用；保留原產圖內容 hash。"
+      ]
+    },
+    "video": {
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/xZhwA0lgIs8?start=110&end=180",
+      "check": {
+        "videoId": "xZhwA0lgIs8",
+        "seconds": [
+          115,
+          125,
+          135,
+          145,
+          155,
+          175
+        ],
+        "start": 110,
+        "end": 180,
+        "observation": "已核對仰躺髖膝約 90 度、雙手朝上起始，對側手腳延伸後回收與換側；選取 110–180 秒示範，避免前段錯誤姿勢說明被當作正確動作。不是整片逐秒審核；份量依本站課表。"
+      },
+      "findings": [
+        "已核對仰躺髖膝約 90 度、雙手朝上起始，對側手腳延伸後回收與換側；選取 110–180 秒示範，避免前段錯誤姿勢說明被當作正確動作。不是整片逐秒審核；份量依本站課表。",
+        "已實際播放並檢查所列時間點；屬片段抽查，不代表逐秒完整審片或專業認證。"
+      ],
+      "fullPlaybackReviewed": false,
+      "reviewedContentHash": null,
+      "auditBaselineContentHash": "2ffb8fa399cad9130db07933032be456382c4dbe044bee7bd54b030d4e44638d",
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/bxn9FBrt4-A",
+            "watchUrl": "https://www.youtube.com/watch?v=bxn9FBrt4-A",
+            "title": "死蟲式對側手腳控制",
+            "channel": "NASM",
+            "language": "英文",
+            "note": "影片從手腳伸展姿勢交替抬起；本站步驟從屈膝 90 度開始伸展，起始位置不同，均以腰背穩定為先，不必降到地面。"
+          },
+          "review": {
+            "status": "blocked",
+            "reviewedAt": "2026-09-20",
+            "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/bxn9FBrt4-A",
+            "check": {
+              "videoId": "bxn9FBrt4-A",
+              "seconds": [
+                8,
+                19
+              ],
+              "observation": "可見仰躺交替對側手腳動作，取代錯誤的伏地挺身影片。起始位置與本頁不同，差異見下方提示。"
+            },
+            "findings": [
+              "影片與本站指定起始姿勢／單雙側版本不同；為避免初學者混用，暫停作為本項示範，待同版本影片完成核對再開放。",
+              "可見仰躺交替對側手腳動作，取代錯誤的伏地挺身影片。起始位置與本頁不同，差異見下方提示。"
+            ],
+            "fullPlaybackReviewed": false,
+            "reviewedContentHash": null,
+            "auditBaselineContentHash": "597634dda42634bb762881a459106a4b721f7716108c35f7108029e0a454e0d3"
+          }
+        }
+      ]
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-dead-bug-v2-zh-tw.png",
+    "sha256": "b26a08d22db385caae377df8cf0cce03acec3b5d17b2b91d1c26bd45fc8343d1",
+    "generatedFromContentHash": "597634dda42634bb762881a459106a4b721f7716108c35f7108029e0a454e0d3",
+    "legacyPrompt": null,
+    "plan": {
+      "status": "ready",
+      "camera": "固定略高的三分之四側面，雙手雙腳可辨認；各側標右／左，不靠鏡像換側。",
+      "frames": [
+        {
+          "title": "仰躺預備",
+          "pose": "Supine, head resting on mat facing ceiling, arms reaching toward ceiling, hips and knees about 90 degrees, shins parallel floor. Neutral comfortable low-back contact, no forced arch.",
+          "caption": "雙手朝上、髖膝約九十度，腹部穩定。"
+        },
+        {
+          "title": "右手左腳下放",
+          "pose": "Right arm moves overhead toward mat as left leg extends away, stopping above floor where trunk stays stable. LEFT arm remains vertical; RIGHT hip and knee remain 90 degrees. Head remains down.",
+          "caption": "右手配左腳，只延伸到腰背仍穩定處。"
+        },
+        {
+          "title": "回到起始",
+          "pose": "Right arm and left leg return to original raised position; both knees bent about 90 degrees. No trunk rocking or neck lifting.",
+          "caption": "控制收回，不憋氣、不拱腰。"
+        },
+        {
+          "title": "左手右腳下放",
+          "pose": "LEFT arm moves overhead and RIGHT leg extends away. Right arm vertical and left knee 90 degrees remain. Same camera and mat; correctly label the opposite pair.",
+          "caption": "換左手配右腳；左右各做設定次數。"
+        }
+      ]
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ],
+    "history": [
+      {
+        "path": "public/exercise-guides/skill-final/fitness-dead-bug-zh-tw.png",
+        "sha256": "61019ce69d2b1c6604ba54cbec0cc4c5294eb01938761a65d83aff508fcf8833",
+        "generatedFromContentHash": null,
+        "review": {
+          "status": "needs-revision",
+          "reviewedAt": "2026-09-20",
+          "reviewedContentHash": "597634dda42634bb762881a459106a4b721f7716108c35f7108029e0a454e0d3",
+          "reviewedImageSha256": "61019ce69d2b1c6604ba54cbec0cc4c5294eb01938761a65d83aff508fcf8833",
+          "findings": [
+            "仰躺與交替手腳可見，但圖印每側 8–12 次 × 3 組，頁面為每側 8 次 × 2 組；需統一份量，明示對側肢體。",
+            "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+          ]
+        }
+      }
+    ],
+    "generation": {
+      "generatedAt": "2026-09-20",
+      "tool": "image_gen",
+      "characterReference": {
+        "name": "健身示範角色三視圖.png",
+        "sha256": "cdc2f564c0f41af5b7ab27c5190d63c5139f0a2251d201d0678fa1e89d7ab4f0"
+      },
+      "prompt": "Create one finished independent 4:3 photorealistic Traditional Chinese fitness infographic. Input image is the approved adult character identity and outfit reference only. Match her identity, blue activewear, bob haircut and white shoes consistently. Light neutral studio, soft light, dark slate text. No slogans, logos, decorative quotes, or extra exercises. Natural gaze follows neutral head position, not camera. Exact frame plan below. Keep text concise: numbered titles, given captions, key cues, starting dose and natural breathing. Do not print internal hashes or metadata. Correct poses take priority over aesthetics.\n內容版本：2\n來源文字 SHA-256：597634dda42634bb762881a459106a4b721f7716108c35f7108029e0a454e0d3\n\n使用 fitness-movement-infographic skill，先閱讀 skill 全文。附上使用者核准的成年角色三視圖，不能只靠文字猜測角色。\n保持每格同一角色、服裝與比例；4:3 橫向、寫實人物、淺色背景，繁體中文。視線自然沿頭部方向，不刻意看鏡頭。\n不要成功標語。姿勢與器械正確性高於美觀；固定鏡頭、清晰支撐點、完整回程。不得把每側次數當成左右合計，也不得自行增加組數。\n以下是分鏡規格；生成後仍須人工逐格比較成品，未通過不可上架。\n\n{\n  \"exercise_name_zh\": \"死蟲式\",\n  \"variation\": \"仰躺髖膝約 90 度起始，對側手腳下放再回收的死蟲式；非伸直起始交替抬腿版。\",\n  \"subtitle_zh\": \"核心動作指引\",\n  \"intro_zh\": \"仰躺交替放下對側手腳，練習維持腰椎與骨盆穩定。\",\n  \"target_areas\": [\n    \"核心\"\n  ],\n  \"step_count\": 4,\n  \"camera\": \"固定略高的三分之四側面，雙手雙腳可辨認；各側標右／左，不靠鏡像換側。\",\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"step_title_zh\": \"仰躺預備\",\n      \"pose_description\": \"Supine, head resting on mat facing ceiling, arms reaching toward ceiling, hips and knees about 90 degrees, shins parallel floor. Neutral comfortable low-back contact, no forced arch.\",\n      \"coaching_note_zh\": \"雙手朝上、髖膝約九十度，腹部穩定。\"\n    },\n    {\n      \"step_number\": 2,\n      \"step_title_zh\": \"右手左腳下放\",\n      \"pose_description\": \"Right arm moves overhead toward mat as left leg extends away, stopping above floor where trunk stays stable. LEFT arm remains vertical; RIGHT hip and knee remain 90 degrees. Head remains down.\",\n      \"coaching_note_zh\": \"右手配左腳，只延伸到腰背仍穩定處。\"\n    },\n    {\n      \"step_number\": 3,\n      \"step_title_zh\": \"回到起始\",\n      \"pose_description\": \"Right arm and left leg return to original raised position; both knees bent about 90 degrees. No trunk rocking or neck lifting.\",\n      \"coaching_note_zh\": \"控制收回，不憋氣、不拱腰。\"\n    },\n    {\n      \"step_number\": 4,\n      \"step_title_zh\": \"左手右腳下放\",\n      \"pose_description\": \"LEFT arm moves overhead and RIGHT leg extends away. Right arm vertical and left knee 90 degrees remain. Same camera and mat; correctly label the opposite pair.\",\n      \"coaching_note_zh\": \"換左手配右腳；左右各做設定次數。\"\n    }\n  ],\n  \"summary\": {\n    \"key_points_zh\": [\n      \"腰部不要拱起\",\n      \"慢速且可控制，不刻意拖長或憋氣\",\n      \"縮短伸展距離也可以\"\n    ],\n    \"suggested_reps_zh\": [\n      \"起始參考：2 組 × 8 次\",\n      \"每組數字表示每側次數：左右各 8 次（合計 16 次單側動作）才算完成一組；不是左右合計 8 次。\",\n      \"實際份量依本次課表調整\"\n    ],\n    \"breathing_zh\": [\n      \"持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。\"\n    ]\n  }\n}\n"
+    }
+  }
+}

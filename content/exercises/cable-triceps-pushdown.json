@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "exercise": {
+    "id": "cable-triceps-pushdown",
+    "name": "滑輪三頭下壓",
+    "bodyParts": [
+      "手臂"
+    ],
+    "equipment": "滑輪機",
+    "difficulty": "入門",
+    "tracking": "reps",
+    "summary": "固定上臂，利用滑輪阻力伸直手肘。",
+    "instructions": [
+      "滑輪調至高位，雙手握住直桿或繩索。",
+      "上臂貼近身體，向下伸直手肘。",
+      "控制回到前臂接近水平的位置。"
+    ],
+    "cues": [
+      "不要聳肩或前後擺動",
+      "手肘保持在身體兩側",
+      "到底時不要甩腕"
+    ],
+    "recommendation": {
+      "sets": 3,
+      "reps": 12,
+      "durationSeconds": null,
+      "restSeconds": 60,
+      "load": "以能完整伸直、回程不被拉走的重量開始"
+    },
+    "video": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Q32gisfVsls",
+      "watchUrl": "https://www.youtube.com/watch?v=Q32gisfVsls",
+      "title": "滑輪器材操作參考",
+      "channel": "東吳大學體育室",
+      "language": "中文"
+    },
+    "sourceUrl": "https://www.puregym.com/exercises/arms-and-shoulders/tricep-extension/tricep-pushdowns/",
+    "sourceLabel": "PureGym：滑輪三頭下壓"
+  },
+  "definition": {
+    "variation": "滑輪三頭下壓；本項起始設定：滑輪調至高位，雙手握住直桿或繩索。",
+    "counting": "一次完整動作加回程算 1 次，預設每組 12 次；雙側同步不重複加倍。",
+    "breathing": "持續自然呼吸，不憋氣；若配合動作呼吸讓你頭暈或不舒服，先停止。",
+    "stopSignals": [
+      "出現疼痛、麻木、頭暈或不適時停止；持續或加重請尋求醫療專業協助。"
+    ],
+    "doseBasis": "本站一般健身起始參考，非引用來源的個人化處方；課表份量另行設定。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670",
+      "label": "Mayo Clinic 肌力訓練原則",
+      "scope": "legacy-unverified",
+      "checkedAt": null,
+      "supports": [],
+      "note": "由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。"
+    },
+    {
+      "url": "https://www.puregym.com/exercises/arms-and-shoulders/tricep-extension/tricep-pushdowns/",
+      "label": "PureGym：滑輪三頭下壓",
+      "scope": "movement-specific",
+      "checkedAt": "2026-09-20",
+      "supports": [
+        "高滑輪、上臂保持身側",
+        "伸肘向下與緩慢返回"
+      ],
+      "note": "已讀原始教學的直桿與繩索設定；已重新核圖，採高位繩索版本，不採身體前後甩動。"
+    }
+  ],
+  "review": {
+    "text": {
+      "status": "source-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "4cb6e0d19f80b3193df5dc890a0b30bf0ac99520239a43e080dd7fcc56726217",
+      "findings": [
+        "已讀原始教學的直桿與繩索設定；圖解採繩索（需再核圖），不採身體前後甩動。",
+        "份量是本站起始參考，不是來源的個人化處方。"
+      ],
+      "internalReviewedAt": "2026-09-20"
+    },
+    "image": {
+      "status": "visual-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": "4cb6e0d19f80b3193df5dc890a0b30bf0ac99520239a43e080dd7fcc56726217",
+      "reviewedImageSha256": "248526770a271748bfbf2c976cfb99119b0234960e9ed4264512219b59143fd2",
+      "findings": [
+        "已確認圖解是高位繩索版本；上臂貼身、屈肘起始、下壓伸肘與控制回程，10–15 次 3 組包含本站 12 次。",
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+      ]
+    },
+    "video": {
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewedEmbedUrl": null,
+      "check": null,
+      "findings": [
+        "舊影片動作不相符，已停止播放與連結。"
+      ],
+      "fullPlaybackReviewed": false,
+      "auditBaselineContentHash": "ff9951ec02146f8d1f8513989bbc17283365d9f73c9ef27d3e66a718905cbbb3"
+    }
+  },
+  "illustration": {
+    "path": "public/exercise-guides/skill-final/fitness-cable-triceps-pushdown-zh-tw.png",
+    "sha256": "248526770a271748bfbf2c976cfb99119b0234960e9ed4264512219b59143fd2",
+    "generatedFromContentHash": null,
+    "legacyPrompt": null,
+    "plan": {
+      "status": "draft",
+      "camera": null,
+      "frames": []
+    },
+    "preferences": [
+      "使用已核准成年角色三視圖",
+      "繁體中文",
+      "不要成功標語或裝飾口號",
+      "視線自然跟隨頭部方向，不要求看鏡頭",
+      "靜態保持不假造往返動作",
+      "份量由文字規格提供，不自行加組數或重量"
+    ]
+  }
+}
