@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
+  "revision": 6,
   "exercise": {
     "id": "band-row",
     "name": "彈力帶俯身划船",
@@ -31,11 +31,11 @@
       "load": "調整踩帶位置，最後 2 次有挑戰即可"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
-      "watchUrl": "https://www.youtube.com/watch?v=r1loX83MWaw",
-      "title": "划船動作與肩胛控制",
-      "channel": "女子健心室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vR9KcvzLqVo",
+      "watchUrl": "https://www.youtube.com/watch?v=vR9KcvzLqVo",
+      "title": "彈力帶俯身划船示範",
+      "channel": "Vive Health",
+      "language": "英文"
     },
     "sourceUrl": "https://workoutlabs.com/exercise-guide/resistance-band-bent-over-rows/",
     "sourceLabel": "WorkoutLabs：雙腳踩帶俯身划船"
@@ -74,33 +74,74 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "08d3d318fbd8033d1a4bf5721bed2240c1ace14ec395914aae129d4f4f62cd19",
+      "reviewedContentHash": "03a4928c9fd3b3b19d6458ea44933f03b6a89c0212500ebb733414dd7b3f1b57",
       "findings": [
         "已讀搜尋索引提供的完整三步教學；頁面直連回傳 403。支持雙腳踩帶版本，不支持把帶繞頸或固定遠處。",
-        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "08d3d318fbd8033d1a4bf5721bed2240c1ace14ec395914aae129d4f4f62cd19",
+      "reviewedContentHash": "03a4928c9fd3b3b19d6458ea44933f03b6a89c0212500ebb733414dd7b3f1b57",
       "reviewedImageSha256": "f5c4c32d26e5587a8002f3aa4f96808a7cb2477dfd647ca1e12f341dd27dce35",
       "findings": [
         "四格腳踩帶與划船方向一致，頭頸已不轉向鏡頭；回程、3 組 12 次與規格相符。",
-        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。"
+        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "舊影片動作不相符，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "1cc292de5c3303cf163621062c026c22f11e21908c50e7d50716d30e617d44d4"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vR9KcvzLqVo",
+      "auditBaselineContentHash": "03a4928c9fd3b3b19d6458ea44933f03b6a89c0212500ebb733414dd7b3f1b57",
+      "check": {
+        "videoId": "vR9KcvzLqVo",
+        "seconds": [
+          10,
+          22,
+          25,
+          32,
+          38,
+          45,
+          48,
+          60,
+          75,
+          85
+        ],
+        "observation": "雙腳踩住帶中央，站姿屈髖膝微彎；雙手由下垂拉向腰側，肘往後再伸回。與本站站姿俯身版本一致，排除 h9iN9flDpI0 的坐姿版本。"
+      },
+      "findings": [
+        "雙腳踩住帶中央，站姿屈髖膝微彎；雙手由下垂拉向腰側，肘往後再伸回。與本站站姿俯身版本一致，排除 h9iN9flDpI0 的坐姿版本。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
+            "watchUrl": "https://www.youtube.com/watch?v=r1loX83MWaw",
+            "title": "划船動作與肩胛控制",
+            "channel": "女子健心室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "舊影片動作不相符，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "1cc292de5c3303cf163621062c026c22f11e21908c50e7d50716d30e617d44d4"
+          }
+        }
+      ]
     }
   },
   "illustration": {

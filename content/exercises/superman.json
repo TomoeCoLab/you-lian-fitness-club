@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "superman",
     "name": "俯臥超人式",
@@ -30,11 +30,11 @@
       "load": "徒手小幅度，每次頂端停一秒"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/i17dhEn4_7Y",
-      "watchUrl": "https://www.youtube.com/watch?v=i17dhEn4_7Y",
-      "title": "徒手核心訓練參考",
-      "channel": "World Gym Taiwan",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/2weqS3uqWlM",
+      "watchUrl": "https://www.youtube.com/watch?v=2weqS3uqWlM",
+      "title": "俯臥超人式示範",
+      "channel": "HIDEF Physical Therapy",
+      "language": "英文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/9/supermans/",
     "sourceLabel": "ACE：俯臥超人式"
@@ -74,32 +74,67 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "7cd24e9eb8dce1405bace8d8ee7875b7a743b2590b7717572f5c9491f64387af",
+      "reviewedContentHash": "53b0382be48278da3f0bbf56520b4e1e97f70397a7faa1c91ca87c7e475b272c",
       "findings": [
-        "核對起始、抬起與放下三階段；僅採小幅度、舒適範圍。本站 2 組 × 10 次不是來源的個人處方。"
+        "核對起始、抬起與放下三階段；僅採小幅度、舒適範圍。本站 2 組 × 10 次不是來源的個人處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "7cd24e9eb8dce1405bace8d8ee7875b7a743b2590b7717572f5c9491f64387af",
+      "reviewedContentHash": "53b0382be48278da3f0bbf56520b4e1e97f70397a7faa1c91ca87c7e475b272c",
       "reviewedImageSha256": "6dfe9013e1683f5b411dc012819af9d26eb79e9758eeb883b4ee38aa4f460d16",
       "findings": [
         "三格確認俯臥、雙手雙腿小幅離地及放回；頭頸朝墊面，不抬頭看鏡頭。2 組 × 10 次，疼痛停止提示保留。",
-        "已人工檢視可見畫面及文字，非醫療或生物力學認證。"
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "舊影片動作不相符，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "1927da42da97130164243f7b9007550e1a66f280fc1af65ccbe560772d9cf6b8"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/2weqS3uqWlM",
+      "auditBaselineContentHash": "53b0382be48278da3f0bbf56520b4e1e97f70397a7faa1c91ca87c7e475b272c",
+      "check": {
+        "videoId": "2weqS3uqWlM",
+        "seconds": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "observation": "俯臥雙臂向前、雙腿同時抬起，4秒放回，7至10秒再抬；非對側游泳版本。示範高度僅供路徑參考，不覆蓋本站舒適低幅度提示。"
+      },
+      "findings": [
+        "俯臥雙臂向前、雙腿同時抬起，4秒放回，7至10秒再抬；非對側游泳版本。示範高度僅供路徑參考，不覆蓋本站舒適低幅度提示。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/i17dhEn4_7Y",
+            "watchUrl": "https://www.youtube.com/watch?v=i17dhEn4_7Y",
+            "title": "徒手核心訓練參考",
+            "channel": "World Gym Taiwan",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "舊影片動作不相符，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "1927da42da97130164243f7b9007550e1a66f280fc1af65ccbe560772d9cf6b8"
+          }
+        }
+      ]
     }
   },
   "illustration": {

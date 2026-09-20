@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "dumbbell-lateral-raise",
     "name": "啞鈴側平舉",
@@ -29,10 +29,10 @@
       "load": "選擇能控制下放 2 秒的輕重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
-      "watchUrl": "https://www.youtube.com/watch?v=ePxgPKcI1fU",
-      "title": "肩部訓練路徑參考",
-      "channel": "東吳大學體育室",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183",
+      "watchUrl": "https://www.youtube.com/watch?v=vR5fCLCTNq4&t=95s",
+      "title": "啞鈴側平舉教學",
+      "channel": "女力健身 Nuli App",
       "language": "中文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/",
@@ -72,33 +72,72 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "e8421f368cba2ec9fe644afc10c75f094bfc2413ee6ff1e077352361fe24e750",
+      "reviewedContentHash": "08fdc27cd7328833b451e8d17ada02d7ee6d7eb3a5027a4848ba44b3a0d7ad0b",
       "findings": [
         "已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。",
-        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "e8421f368cba2ec9fe644afc10c75f094bfc2413ee6ff1e077352361fe24e750",
+      "reviewedContentHash": "08fdc27cd7328833b451e8d17ada02d7ee6d7eb3a5027a4848ba44b3a0d7ad0b",
       "reviewedImageSha256": "0f772fe35d3a10e67b54e879892f641c9e7892314dd8817428dcadd9ec6e1320",
       "findings": [
         "微屈肘向斜前外側抬至肩高，再控制下放；非前平舉過頭，10–15 次 3 組包含本站 12 次。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "舊影片動作不相符，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "b900f0580ad0b4718fcfb4d2defad8148b5c10e12a6c31960397f6be0425fcd3"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183",
+      "auditBaselineContentHash": "08fdc27cd7328833b451e8d17ada02d7ee6d7eb3a5027a4848ba44b3a0d7ad0b",
+      "check": {
+        "videoId": "vR5fCLCTNq4",
+        "seconds": [
+          95,
+          108,
+          128,
+          150,
+          170,
+          182
+        ],
+        "start": 95,
+        "end": 183,
+        "observation": "95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。"
+      },
+      "findings": [
+        "95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
+            "watchUrl": "https://www.youtube.com/watch?v=ePxgPKcI1fU",
+            "title": "肩部訓練路徑參考",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "舊影片動作不相符，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "b900f0580ad0b4718fcfb4d2defad8148b5c10e12a6c31960397f6be0425fcd3"
+          }
+        }
+      ]
     }
   },
   "illustration": {

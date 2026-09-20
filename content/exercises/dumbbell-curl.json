@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 2,
+  "revision": 3,
   "exercise": {
     "id": "dumbbell-curl",
     "name": "啞鈴彎舉",
@@ -31,7 +31,7 @@
     "video": {
       "embedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
       "watchUrl": "https://www.youtube.com/watch?v=2g4v5qv8ByM",
-      "title": "啞鈴彎舉完整教學",
+      "title": "啞鈴彎舉動作教學",
       "channel": "卓叔增重",
       "language": "中文"
     },
@@ -71,32 +71,73 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "9b1e5d1d109fd828a5505a9b3f3e1dc02409ecdb8d67bf8118340946dcadfda9",
+      "reviewedContentHash": "77f0680cb6a20496f6f3a3bd19fed39d5f079929d3e8b4c5938785da367763bd",
       "findings": [
-        "已對照原始來源：上臂在身旁的彎舉路徑。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+        "已對照原始來源：上臂在身旁的彎舉路徑。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "9b1e5d1d109fd828a5505a9b3f3e1dc02409ecdb8d67bf8118340946dcadfda9",
+      "reviewedContentHash": "77f0680cb6a20496f6f3a3bd19fed39d5f079929d3e8b4c5938785da367763bd",
       "reviewedImageSha256": "b2895a3b6d32869ab9984e7218b264d3e8352cfa0fb2fbce7f338e95e940712d",
       "findings": [
         "站姿雙手同時彎肘，上臂近軀幹；10–12 次 × 3 組相容。頁面交替版本須另以每側計數。",
-        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。"
+        "已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "9b1e5d1d109fd828a5505a9b3f3e1dc02409ecdb8d67bf8118340946dcadfda9"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
+      "auditBaselineContentHash": "77f0680cb6a20496f6f3a3bd19fed39d5f079929d3e8b4c5938785da367763bd",
+      "check": {
+        "videoId": "2g4v5qv8ByM",
+        "seconds": [
+          10,
+          31,
+          35,
+          38,
+          43,
+          49,
+          65,
+          95,
+          125,
+          155
+        ],
+        "observation": "雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。"
+      },
+      "findings": [
+        "雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
+            "watchUrl": "https://www.youtube.com/watch?v=2g4v5qv8ByM",
+            "title": "啞鈴彎舉完整教學",
+            "channel": "卓叔增重",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "9b1e5d1d109fd828a5505a9b3f3e1dc02409ecdb8d67bf8118340946dcadfda9"
+          }
+        }
+      ]
     }
   },
   "illustration": {

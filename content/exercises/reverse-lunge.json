@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "reverse-lunge",
     "name": "反向弓箭步",
@@ -30,10 +30,10 @@
       "load": "每側 8 次；平衡不穩時扶牆或縮小步幅"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "新手下肢動作參考",
-      "channel": "May Fit",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8D9IjGGYMJQ",
+      "watchUrl": "https://www.youtube.com/watch?v=8D9IjGGYMJQ",
+      "title": "徒手後退弓箭步教學",
+      "channel": "Coach Hank 肌力體能訓練",
       "language": "中文"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/blog/squat-alternatives",
@@ -75,32 +75,73 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "350a5ed3fa55fc459d40f9ab046e2e2fb6c73ba2b52d9bc53468297152e5832c",
+      "reviewedContentHash": "bf1a7f939935770e0475c4cbf39b82c3e2652277be6580048a4441e14bb0068e",
       "findings": [
-        "核對 Reverse Lunges 段落；不採同頁不相關腿彎舉說明。本站左右各 8 次 × 2 組為起始參考。"
+        "核對 Reverse Lunges 段落；不採同頁不相關腿彎舉說明。本站左右各 8 次 × 2 組為起始參考。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "350a5ed3fa55fc459d40f9ab046e2e2fb6c73ba2b52d9bc53468297152e5832c",
+      "reviewedContentHash": "bf1a7f939935770e0475c4cbf39b82c3e2652277be6580048a4441e14bb0068e",
       "reviewedImageSha256": "cb357ffbf8b0fc7c1d99bb77c3da22fd9b0d086e54fd4759cf86d4f124caf9c0",
       "findings": [
         "四格確認站立、後跨同一路徑、前腳全掌支撐下蹲及回站；未交叉後跨。左右各 8 次、2 組正確。",
-        "已人工檢視可見畫面及文字，非醫療或生物力學認證。"
+        "已人工檢視可見畫面及文字，非醫療或生物力學認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "4311533b888f0a87abd5b6fca9f5db97e669a286fa0b86f489ff03c50e1dc0d2"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/8D9IjGGYMJQ",
+      "auditBaselineContentHash": "bf1a7f939935770e0475c4cbf39b82c3e2652277be6580048a4441e14bb0068e",
+      "check": {
+        "videoId": "8D9IjGGYMJQ",
+        "seconds": [
+          1,
+          4,
+          7,
+          10,
+          15,
+          23,
+          30,
+          40,
+          50,
+          59
+        ],
+        "observation": "站姿側面向後跨再屈膝，前脚踩穩，回到併站；後段正面示範相同路徑，另提示站距與重心。"
+      },
+      "findings": [
+        "站姿側面向後跨再屈膝，前脚踩穩，回到併站；後段正面示範相同路徑，另提示站距與重心。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+            "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+            "title": "新手下肢動作參考",
+            "channel": "May Fit",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "4311533b888f0a87abd5b6fca9f5db97e669a286fa0b86f489ff03c50e1dc0d2"
+          }
+        }
+      ]
     }
   },
   "illustration": {

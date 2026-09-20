@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "reverse-pec-deck",
     "name": "反向蝴蝶機",
@@ -30,11 +30,11 @@
       "load": "選擇不需甩動即可展開的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vZ3ok2xIsK4",
-      "watchUrl": "https://www.youtube.com/watch?v=vZ3ok2xIsK4",
-      "title": "蝴蝶機操作參考",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H5UxZFl0lgk",
+      "watchUrl": "https://www.youtube.com/shorts/H5UxZFl0lgk",
+      "title": "反向蝴蝶機重點示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/rear-delt-pin-loaded/",
     "sourceLabel": "Fitness Institute 反向飛鳥"
@@ -72,33 +72,72 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "72a35561ad6debd2bd1347bc52bc9c35504fab9967bf1beeea597690c62399ce",
+      "reviewedContentHash": "044f66afa68b4b827783a96f53853de1cb3844f7afddcdb208ae296f8dec376f",
       "findings": [
         "已對照動作專屬來源：Life Fitness 飛鳥／後三角機胸靠墊、雙腳踩地、展臂與控制回程。",
-        "來源機型 Life Fitness Pectoral Fly/Rear Deltoid；其他機型的起始角度需依原廠圖示調整。"
+        "來源機型 Life Fitness Pectoral Fly/Rear Deltoid；其他機型的起始角度需依原廠圖示調整。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "72a35561ad6debd2bd1347bc52bc9c35504fab9967bf1beeea597690c62399ce",
+      "reviewedContentHash": "044f66afa68b4b827783a96f53853de1cb3844f7afddcdb208ae296f8dec376f",
       "reviewedImageSha256": "850e2145c6d7d04396192a2095a04ea5ce8f39a78090c5117ab57497003ad964",
       "findings": [
         "胸口靠墊、手臂由前向兩側展開再回程；圖有切換正反視角，不代表中途轉身，10–15 次 3 組包含本站 12 次。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "舊影片動作不相符，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "14b3112059e2650290797499247084aa27a37841518bc0e07417df53bc94c3e9"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/H5UxZFl0lgk",
+      "auditBaselineContentHash": "044f66afa68b4b827783a96f53853de1cb3844f7afddcdb208ae296f8dec376f",
+      "check": {
+        "videoId": "H5UxZFl0lgk",
+        "seconds": [
+          1,
+          4,
+          7,
+          8,
+          8.5,
+          9,
+          9.5,
+          10
+        ],
+        "observation": "中立握把、肩胛穩定與微彎手肘近照，10秒坐姿面向器械展臂；未示範調座椅，上機設定以本站文字及機身說明為準。"
+      },
+      "findings": [
+        "中立握把、肩胛穩定與微彎手肘近照，10秒坐姿面向器械展臂；未示範調座椅，上機設定以本站文字及機身說明為準。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/vZ3ok2xIsK4",
+            "watchUrl": "https://www.youtube.com/watch?v=vZ3ok2xIsK4",
+            "title": "蝴蝶機操作參考",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "舊影片動作不相符，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "14b3112059e2650290797499247084aa27a37841518bc0e07417df53bc94c3e9"
+          }
+        }
+      ]
     }
   },
   "illustration": {

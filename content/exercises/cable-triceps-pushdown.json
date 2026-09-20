@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "cable-triceps-pushdown",
     "name": "滑輪三頭下壓",
@@ -29,11 +29,11 @@
       "load": "以能完整伸直、回程不被拉走的重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Q32gisfVsls",
-      "watchUrl": "https://www.youtube.com/watch?v=Q32gisfVsls",
-      "title": "滑輪器材操作參考",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/jMIMHK_L6cg",
+      "watchUrl": "https://www.youtube.com/shorts/jMIMHK_L6cg",
+      "title": "滑輪三頭下壓重點示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文"
     },
     "sourceUrl": "https://www.puregym.com/exercises/arms-and-shoulders/tricep-extension/tricep-pushdowns/",
     "sourceLabel": "PureGym：滑輪三頭下壓"
@@ -72,33 +72,73 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "4cb6e0d19f80b3193df5dc890a0b30bf0ac99520239a43e080dd7fcc56726217",
+      "reviewedContentHash": "4021c45b1667be265f92150828e0b379350eca62776b6a844c048561869a5cd1",
       "findings": [
         "已讀原始教學的直桿與繩索設定；圖解採繩索（需再核圖），不採身體前後甩動。",
-        "份量是本站起始參考，不是來源的個人化處方。"
+        "份量是本站起始參考，不是來源的個人化處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "4cb6e0d19f80b3193df5dc890a0b30bf0ac99520239a43e080dd7fcc56726217",
+      "reviewedContentHash": "4021c45b1667be265f92150828e0b379350eca62776b6a844c048561869a5cd1",
       "reviewedImageSha256": "248526770a271748bfbf2c976cfb99119b0234960e9ed4264512219b59143fd2",
       "findings": [
         "已確認圖解是高位繩索版本；上臂貼身、屈肘起始、下壓伸肘與控制回程，10–15 次 3 組包含本站 12 次。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "舊影片動作不相符，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "ff9951ec02146f8d1f8513989bbc17283365d9f73c9ef27d3e66a718905cbbb3"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/jMIMHK_L6cg",
+      "auditBaselineContentHash": "4021c45b1667be265f92150828e0b379350eca62776b6a844c048561869a5cd1",
+      "check": {
+        "videoId": "jMIMHK_L6cg",
+        "seconds": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7.5,
+          8.5
+        ],
+        "observation": "高滑輪直桿，正握與手腕近照、上臂靠身、微前傾；7.5秒下壓伸肘，8.5秒屈肘回程。原頻道Shorts實際嵌入可播放。"
+      },
+      "findings": [
+        "高滑輪直桿，正握與手腕近照、上臂靠身、微前傾；7.5秒下壓伸肘，8.5秒屈肘回程。原頻道Shorts實際嵌入可播放。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/Q32gisfVsls",
+            "watchUrl": "https://www.youtube.com/watch?v=Q32gisfVsls",
+            "title": "滑輪器材操作參考",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "舊影片動作不相符，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "ff9951ec02146f8d1f8513989bbc17283365d9f73c9ef27d3e66a718905cbbb3"
+          }
+        }
+      ]
     }
   },
   "illustration": {

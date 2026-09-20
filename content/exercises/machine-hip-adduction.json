@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "machine-hip-adduction",
     "name": "坐姿大腿內收",
@@ -29,11 +29,11 @@
       "load": "先以可完整控制 12–15 次的輕重量熟悉活動範圍"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/3iGBw2muBrc",
-      "watchUrl": "https://www.youtube.com/watch?v=3iGBw2muBrc",
-      "title": "大腿內收／外展訓練機教學",
-      "channel": "提爾健身",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/HVt2MwtdPek",
+      "watchUrl": "https://www.youtube.com/watch?v=HVt2MwtdPek",
+      "title": "坐姿大腿內收機操作教學",
+      "channel": "Kenosha YMCA",
+      "language": "英文"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/hip-adduction-pin-loaded/",
     "sourceLabel": "Fitness Institute 髖內收"
@@ -71,32 +71,75 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "776bad570c3bac7590b7525f93114eec646546c2433d116a8c12eb894aa2956d",
+      "reviewedContentHash": "ac3cbc0d39868bc009e385caf5aced6120c625982abd6f45de3532237801e686",
       "findings": [
-        "已對照原始來源：內側擋墊與合腿、受控回程。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。"
+        "已對照原始來源：內側擋墊與合腿、受控回程。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "776bad570c3bac7590b7525f93114eec646546c2433d116a8c12eb894aa2956d",
+      "reviewedContentHash": "ac3cbc0d39868bc009e385caf5aced6120c625982abd6f45de3532237801e686",
       "reviewedImageSha256": "c1166a8cbd814a171aa6b5256fb76081954861f64fdb0e8382356d083423af70",
       "findings": [
         "阻力墊在大腿內側而非外側，雙腳有踏桿支撐，張開→合攏→張開三階段一致，3 組 12 次相符。",
-        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。"
+        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "118d5a95e42871b8922fd532cf979162e2309cef9a4bdcd18bc2f38d5e4db2b4"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/HVt2MwtdPek",
+      "auditBaselineContentHash": "ac3cbc0d39868bc009e385caf5aced6120c625982abd6f45de3532237801e686",
+      "check": {
+        "videoId": "HVt2MwtdPek",
+        "seconds": [
+          5,
+          15,
+          25,
+          35,
+          45,
+          48,
+          55,
+          58,
+          62,
+          66,
+          70,
+          76
+        ],
+        "observation": "機身標HIP ADDUCTION；25及45秒調節拉鈕，坐姿墊在腿內側，58至66秒合腿與控制張開，70秒收回起始角後76秒離機。原3iGBw2muBrc雖標內收／外展，實際主示範向外打開且墊在外側，故不配給內收。"
+      },
+      "findings": [
+        "機身標HIP ADDUCTION；25及45秒調節拉鈕，坐姿墊在腿內側，58至66秒合腿與控制張開，70秒收回起始角後76秒離機。原3iGBw2muBrc雖標內收／外展，實際主示範向外打開且墊在外側，故不配給內收。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/3iGBw2muBrc",
+            "watchUrl": "https://www.youtube.com/watch?v=3iGBw2muBrc",
+            "title": "大腿內收／外展訓練機教學",
+            "channel": "提爾健身",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "118d5a95e42871b8922fd532cf979162e2309cef9a4bdcd18bc2f38d5e4db2b4"
+          }
+        }
+      ]
     }
   },
   "illustration": {

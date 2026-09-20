@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "machine-hip-thrust",
     "name": "臀推機臀推",
@@ -31,10 +31,10 @@
       "load": "空機確認墊帶位置，再逐步加重"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "下半身器械使用參考",
-      "channel": "May Fit",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/YQiVUH3aXkU",
+      "watchUrl": "https://www.youtube.com/watch?v=YQiVUH3aXkU",
+      "title": "臀推機器材教學",
+      "channel": "United Fitness 聯合健身",
       "language": "中文"
     },
     "sourceUrl": "https://www.hussle.com/blog/how-to-use-a-hip-thrust-machine-for-optimal-gains/",
@@ -84,32 +84,73 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "aff3f4301e2edf45d4f411440e6db9f6c46fd1a53962a2b4404042209c012d1f",
+      "reviewedContentHash": "34dbfd10a54abab02c88413ff799976180fa0959c2f9a2029781815348f104a5",
       "findings": [
-        "已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。"
+        "已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "aff3f4301e2edf45d4f411440e6db9f6c46fd1a53962a2b4404042209c012d1f",
+      "reviewedContentHash": "34dbfd10a54abab02c88413ff799976180fa0959c2f9a2029781815348f104a5",
       "reviewedImageSha256": "b545e4dffc7ebcd121bf37cb4698cf569c5c50953bc24b1c3a62f3b371c17363",
       "findings": [
         "可見上背靠墊、骨盆前方護墊、腳踩平台與伸髖回程；10–15 次 3 組包含本站 10 次。退出／卸载需配合旁邊文字，圖非機台操作手冊。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "60f2fa8d338aec4928b84bfed17237c5991d8e1a6e5a5a9666e3441b5881d968"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/YQiVUH3aXkU",
+      "auditBaselineContentHash": "34dbfd10a54abab02c88413ff799976180fa0959c2f9a2029781815348f104a5",
+      "check": {
+        "videoId": "YQiVUH3aXkU",
+        "seconds": [
+          5,
+          15,
+          25,
+          35,
+          45,
+          55,
+          62,
+          68,
+          75,
+          82
+        ],
+        "observation": "Matrix臀推機坐入、上背支撐、骨盆前方墊臂、踏板位置；62秒伸髖、68秒下降、75及82秒說明呼吸。為臀推機而非槓鈴臀推；卸載鎖扣仍依機身說明。"
+      },
+      "findings": [
+        "Matrix臀推機坐入、上背支撐、骨盆前方墊臂、踏板位置；62秒伸髖、68秒下降、75及82秒說明呼吸。為臀推機而非槓鈴臀推；卸載鎖扣仍依機身說明。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+            "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+            "title": "下半身器械使用參考",
+            "channel": "May Fit",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "60f2fa8d338aec4928b84bfed17237c5991d8e1a6e5a5a9666e3441b5881d968"
+          }
+        }
+      ]
     }
   },
   "illustration": {

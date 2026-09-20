@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "cobra-pose",
     "name": "低眼鏡蛇式",
@@ -30,10 +30,10 @@
       "load": "每次 15–20 秒；只抬到腰背舒適的位置"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw",
-      "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw",
-      "title": "零基礎瑜珈入門",
-      "channel": "理周健康",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/79Fo2NnMblg?start=24&end=49",
+      "watchUrl": "https://www.youtube.com/watch?v=79Fo2NnMblg&t=24s",
+      "title": "低眼鏡蛇式動作教學",
+      "channel": "PhysiomotionLab 動作實驗室",
       "language": "中文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/16/cobra/",
@@ -72,33 +72,76 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "9bb732e97d726ebbf586791fff7cabb71715474ca3d88a9812fc883e4e023b46",
+      "reviewedContentHash": "86151e4e7eb81222aa9d0f99b2bced189e27c041e7e44c8143943eb9ef2f5976",
       "findings": [
         "已對照動作專屬來源：骨盆留在墊面、小幅抬胸、控制回程及腰痛停止。",
-        "本站採低幅度版，非手肘完全伸直的高眼鏡蛇式。"
+        "本站採低幅度版，非手肘完全伸直的高眼鏡蛇式。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "9bb732e97d726ebbf586791fff7cabb71715474ca3d88a9812fc883e4e023b46",
+      "reviewedContentHash": "86151e4e7eb81222aa9d0f99b2bced189e27c041e7e44c8143943eb9ef2f5976",
       "reviewedImageSha256": "7ad6c6956b58c675ca6ff3cb04a35fc52442c1d8a282f409f30691336afb7f55",
       "findings": [
         "骨盆腿部貼地、低幅胸抬、手輕扶與回趴可見，不是高眼鏡蛇／上犬式；15–20 秒包含本站 20 秒。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "舊影片動作不相符，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "f503642eb2b1b67d78297a2d7960297cc296ee01c600d6b32f5d3f97a3a4678e"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/79Fo2NnMblg?start=24&end=49",
+      "auditBaselineContentHash": "86151e4e7eb81222aa9d0f99b2bced189e27c041e7e44c8143943eb9ef2f5976",
+      "check": {
+        "videoId": "79Fo2NnMblg",
+        "seconds": [
+          24,
+          29,
+          34,
+          35,
+          40,
+          46,
+          53,
+          60,
+          90,
+          120
+        ],
+        "start": 24,
+        "end": 49,
+        "observation": "24秒俯臥、29至34秒手放胸旁肘貼身，35至40秒屈肘低幅抬胸且骨盆腿部留地，46秒放回。嵌入24至49秒聚焦此版本，非伸直手肘上犬式。"
+      },
+      "findings": [
+        "24秒俯臥、29至34秒手放胸旁肘貼身，35至40秒屈肘低幅抬胸且骨盆腿部留地，46秒放回。嵌入24至49秒聚焦此版本，非伸直手肘上犬式。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw",
+            "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw",
+            "title": "零基礎瑜珈入門",
+            "channel": "理周健康",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "舊影片動作不相符，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "f503642eb2b1b67d78297a2d7960297cc296ee01c600d6b32f5d3f97a3a4678e"
+          }
+        }
+      ]
     }
   },
   "illustration": {

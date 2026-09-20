@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "dumbbell-lunge",
     "name": "啞鈴弓箭步",
@@ -30,11 +30,11 @@
       "load": "每側 8–10 次；平衡穩定後再加重"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "新手下肢訓練參考",
-      "channel": "May Fit",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JTprZdkJqc4",
+      "watchUrl": "https://www.youtube.com/watch?v=JTprZdkJqc4",
+      "title": "啞鈴前跨弓箭步示範",
+      "channel": "E3 Rehab Exercise Library",
+      "language": "英文"
     },
     "sourceUrl": "https://gymnation.com/en-sa/exercise-library/dumbbell-lunge/",
     "sourceLabel": "GymNation：啞鈴前跨弓箭步"
@@ -73,33 +73,74 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "c6fe5a0160040c9ec25f9c00e378a34ac86926a4aa16ba7f9717a1f2e200848a",
+      "reviewedContentHash": "fd2a967dad72c5302f6379d8dcd1ecc218945a2ac97265fb289009aecac6ffb4",
       "findings": [
         "已讀健身機構原始四步教學；不採用能預防或減少膝痛的保證，不將前膝不得超過腳尖當規則。",
-        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "c6fe5a0160040c9ec25f9c00e378a34ac86926a4aa16ba7f9717a1f2e200848a",
+      "reviewedContentHash": "fd2a967dad72c5302f6379d8dcd1ecc218945a2ac97265fb289009aecac6ffb4",
       "reviewedImageSha256": "2e2c44d0b254a0828044e0f5cf5bb82120f65a928fc9e1b20b507d706f33c939",
       "findings": [
         "向前跨步而非反向弓箭步，前腳掌完整著地、起身回站；每側 8–12 次 3 組包含本站每側 10 次。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "d8f5b7cbf101bdc20448710766550bd3965a087c8511e3acf8d41778ecb42699"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/JTprZdkJqc4",
+      "auditBaselineContentHash": "fd2a967dad72c5302f6379d8dcd1ecc218945a2ac97265fb289009aecac6ffb4",
+      "check": {
+        "videoId": "JTprZdkJqc4",
+        "seconds": [
+          0.5,
+          1,
+          2,
+          3.4,
+          5,
+          6.5,
+          8,
+          9.4,
+          11,
+          12
+        ],
+        "observation": "雙手各持一顆啞鈴，1秒向前跨出、2秒屈膝下蹲，3.4秒推回併站；其後可見同腿往返循環。本站左右交替仍依文字，不是影片有示範換側。排除 f-6FbxXxmrE 後段混有其他變化。"
+      },
+      "findings": [
+        "雙手各持一顆啞鈴，1秒向前跨出、2秒屈膝下蹲，3.4秒推回併站；其後可見同腿往返循環。本站左右交替仍依文字，不是影片有示範換側。排除 f-6FbxXxmrE 後段混有其他變化。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+            "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+            "title": "新手下肢訓練參考",
+            "channel": "May Fit",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "d8f5b7cbf101bdc20448710766550bd3965a087c8511e3acf8d41778ecb42699"
+          }
+        }
+      ]
     }
   },
   "illustration": {

@@ -46,13 +46,10 @@ export function videoNeedsReview(exercise: GuideExercise): boolean {
   } catch { return true; }
 }
 
-export function contentReview(exercise: GuideExercise) {
-  const audit = contentReviews[exercise.id]?.video;
-  const check = !videoNeedsReview(exercise) ? audit?.check : undefined;
-  return {
-    date: audit?.reviewedAt ?? '尚未完成',
-    status: check ? "僅片段抽查，非完整核對" : audit?.status === 'blocked' ? "版本不符，暫停示範" : "尚未取得足夠片段，待複核",
-    detail: check?.observation ?? audit?.findings.join('；') ?? "本次未能確認對應動作片段，不把片名或能播放當成內容正確。已停用原影片與影片連結，請先閱讀文字步驟及來源。",
-    seconds: check?.seconds ?? [],
-  };
+export function videoFrameClass(exercise: GuideExercise) {
+  try {
+    const url = new URL(exercise.video.watchUrl);
+    if (["www.youtube.com", "youtube.com"].includes(url.hostname) && url.pathname.startsWith('/shorts/')) return 'exercise-video__frame exercise-video__frame--portrait';
+  } catch { /* Invalid URLs retain the ordinary layout; playback validation is separate. */ }
+  return 'exercise-video__frame';
 }

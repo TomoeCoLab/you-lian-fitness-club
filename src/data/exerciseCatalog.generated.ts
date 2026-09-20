@@ -794,10 +794,10 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "選擇能保留約 2 次餘力的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "新手下半身器械與深蹲教學",
-      "channel": "May Fit",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/WimELq8uXV0",
+      "watchUrl": "https://www.youtube.com/watch?v=WimELq8uXV0",
+      "title": "啞鈴深蹲（高腳杯深蹲）",
+      "channel": "Coach Hank 肌力體能訓練",
       "language": "中文"
     },
     "sourceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/squat/vid-20084682",
@@ -949,7 +949,7 @@ export const exerciseCatalog: GuideExercise[] = [
     "video": {
       "embedUrl": "https://www.youtube-nocookie.com/embed/2g4v5qv8ByM",
       "watchUrl": "https://www.youtube.com/watch?v=2g4v5qv8ByM",
-      "title": "啞鈴彎舉完整教學",
+      "title": "啞鈴彎舉動作教學",
       "channel": "卓叔增重",
       "language": "中文"
     },
@@ -1140,11 +1140,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "調整踩帶位置，最後 2 次有挑戰即可"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/r1loX83MWaw",
-      "watchUrl": "https://www.youtube.com/watch?v=r1loX83MWaw",
-      "title": "划船動作與肩胛控制",
-      "channel": "女子健心室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vR9KcvzLqVo",
+      "watchUrl": "https://www.youtube.com/watch?v=vR9KcvzLqVo",
+      "title": "彈力帶俯身划船示範",
+      "channel": "Vive Health",
+      "language": "英文"
     },
     "sourceUrl": "https://workoutlabs.com/exercise-guide/resistance-band-bent-over-rows/",
     "sourceLabel": "WorkoutLabs：雙腳踩帶俯身划船"
@@ -1254,11 +1254,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "以能完整伸直、回程不被拉走的重量開始"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Q32gisfVsls",
-      "watchUrl": "https://www.youtube.com/watch?v=Q32gisfVsls",
-      "title": "滑輪器材操作參考",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/jMIMHK_L6cg",
+      "watchUrl": "https://www.youtube.com/shorts/jMIMHK_L6cg",
+      "title": "滑輪三頭下壓重點示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文"
     },
     "sourceUrl": "https://www.puregym.com/exercises/arms-and-shoulders/tricep-extension/tricep-pushdowns/",
     "sourceLabel": "PureGym：滑輪三頭下壓"
@@ -1719,10 +1719,10 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "選擇能控制下放 2 秒的輕重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ePxgPKcI1fU",
-      "watchUrl": "https://www.youtube.com/watch?v=ePxgPKcI1fU",
-      "title": "肩部訓練路徑參考",
-      "channel": "東吳大學體育室",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183",
+      "watchUrl": "https://www.youtube.com/watch?v=vR5fCLCTNq4&t=95s",
+      "title": "啞鈴側平舉教學",
+      "channel": "女力健身 Nuli App",
       "language": "中文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/",
@@ -1796,11 +1796,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "每側 8–10 次；平衡穩定後再加重"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "新手下肢訓練參考",
-      "channel": "May Fit",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JTprZdkJqc4",
+      "watchUrl": "https://www.youtube.com/watch?v=JTprZdkJqc4",
+      "title": "啞鈴前跨弓箭步示範",
+      "channel": "E3 Rehab Exercise Library",
+      "language": "英文"
     },
     "sourceUrl": "https://gymnation.com/en-sa/exercise-library/dumbbell-lunge/",
     "sourceLabel": "GymNation：啞鈴前跨弓箭步"
@@ -1915,10 +1915,10 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "選擇可穩定完成 6–8 次的輔助重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
-      "watchUrl": "https://www.youtube.com/watch?v=0KULvdo7T0c",
-      "title": "垂直下拉路徑參考",
-      "channel": "東吳大學體育室",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Hw7qI5h-QUg",
+      "watchUrl": "https://www.youtube.com/watch?v=Hw7qI5h-QUg",
+      "title": "輔助引體向上器材教學",
+      "channel": "提爾健身",
       "language": "中文"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/chin-ups-pin-loaded-assisted/",
@@ -1954,10 +1954,10 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "空機確認墊帶位置，再逐步加重"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "下半身器械使用參考",
-      "channel": "May Fit",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/YQiVUH3aXkU",
+      "watchUrl": "https://www.youtube.com/watch?v=YQiVUH3aXkU",
+      "title": "臀推機器材教學",
+      "channel": "United Fitness 聯合健身",
       "language": "中文"
     },
     "sourceUrl": "https://www.hussle.com/blog/how-to-use-a-hip-thrust-machine-for-optimal-gains/",
@@ -1992,11 +1992,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "先用空機測試滑車重量與活動範圍"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "下半身器械教學",
-      "channel": "May Fit",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rzsfm43_9c0",
+      "watchUrl": "https://www.youtube.com/shorts/rzsfm43_9c0",
+      "title": "哈克深蹲重點示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文"
     },
     "sourceUrl": "https://www.puregym.com/exercises/legs/quad-exercises/squats/hack-squat/",
     "sourceLabel": "PureGym：哈克深蹲"
@@ -2030,11 +2030,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "能完整下降與停住頂端的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "下肢器械使用參考",
-      "channel": "May Fit",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/g_E7_q1z2bo",
+      "watchUrl": "https://www.youtube.com/watch?v=g_E7_q1z2bo",
+      "title": "站姿提踵機操作示範",
+      "channel": "Hammer Strength",
+      "language": "英文"
     },
     "sourceUrl": "https://ifafitness.com/wttrain/calfraise.htm",
     "sourceLabel": "IFA：肩墊式站姿提踵機"
@@ -2067,11 +2067,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "先以可完整控制 12–15 次的輕重量熟悉活動範圍"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/3iGBw2muBrc",
-      "watchUrl": "https://www.youtube.com/watch?v=3iGBw2muBrc",
-      "title": "大腿內收／外展訓練機教學",
-      "channel": "提爾健身",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/HVt2MwtdPek",
+      "watchUrl": "https://www.youtube.com/watch?v=HVt2MwtdPek",
+      "title": "坐姿大腿內收機操作教學",
+      "channel": "Kenosha YMCA",
+      "language": "英文"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/hip-adduction-pin-loaded/",
     "sourceLabel": "Fitness Institute 髖內收"
@@ -2220,11 +2220,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "選擇不需甩動即可展開的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vZ3ok2xIsK4",
-      "watchUrl": "https://www.youtube.com/watch?v=vZ3ok2xIsK4",
-      "title": "蝴蝶機操作參考",
-      "channel": "東吳大學體育室",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/H5UxZFl0lgk",
+      "watchUrl": "https://www.youtube.com/shorts/H5UxZFl0lgk",
+      "title": "反向蝴蝶機重點示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/rear-delt-pin-loaded/",
     "sourceLabel": "Fitness Institute 反向飛鳥"
@@ -2299,10 +2299,10 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "每側 8 次；平衡不穩時扶牆或縮小步幅"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "新手下肢動作參考",
-      "channel": "May Fit",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8D9IjGGYMJQ",
+      "watchUrl": "https://www.youtube.com/watch?v=8D9IjGGYMJQ",
+      "title": "徒手後退弓箭步教學",
+      "channel": "Coach Hank 肌力體能訓練",
       "language": "中文"
     },
     "sourceUrl": "https://www.nasm.org/resource-center/blog/squat-alternatives",
@@ -2452,11 +2452,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "每側 12 次；可扶高支撐面降低難度"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/i17dhEn4_7Y",
-      "watchUrl": "https://www.youtube.com/watch?v=i17dhEn4_7Y",
-      "title": "高棒式姿勢參考",
-      "channel": "World Gym Taiwan",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/O5tgMG1AfSM",
+      "watchUrl": "https://www.youtube.com/watch?v=O5tgMG1AfSM",
+      "title": "慢速登山者示範",
+      "channel": "E3 Rehab Exercise Library",
+      "language": "英文"
     },
     "sourceUrl": "https://library.theprehabguys.com/vimeo-video/mountain-climber-slow/",
     "sourceLabel": "[P]rehab：慢速登山者"
@@ -2490,11 +2490,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "先從 20–30 秒開始，以無痛角度為準"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "新手深蹲姿勢參考",
-      "channel": "May Fit",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/RG7z0P9qrLk",
+      "watchUrl": "https://www.youtube.com/watch?v=RG7z0P9qrLk",
+      "title": "靠牆深蹲停留示範",
+      "channel": "E3 Rehab Exercise Library",
+      "language": "英文"
     },
     "sourceUrl": "https://www.kingstonandrichmond.nhs.uk/patients-and-families/patient-leaflets/patellar-tendinopathy",
     "sourceLabel": "Kingston and Richmond NHS：雙腳靠牆停留"
@@ -2528,11 +2528,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "徒手小幅度，每次頂端停一秒"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/i17dhEn4_7Y",
-      "watchUrl": "https://www.youtube.com/watch?v=i17dhEn4_7Y",
-      "title": "徒手核心訓練參考",
-      "channel": "World Gym Taiwan",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/2weqS3uqWlM",
+      "watchUrl": "https://www.youtube.com/watch?v=2weqS3uqWlM",
+      "title": "俯臥超人式示範",
+      "channel": "HIDEF Physical Therapy",
+      "language": "英文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/9/supermans/",
     "sourceLabel": "ACE：俯臥超人式"
@@ -2645,10 +2645,10 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "每側 20–30 秒；維持可呼吸、無痛的拉感"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg",
-      "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg",
-      "title": "睡前 10 分鐘全身伸展放鬆",
-      "channel": "啾c物理治療師",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/dQAE29xW2lQ",
+      "watchUrl": "https://www.youtube.com/watch?v=dQAE29xW2lQ",
+      "title": "單跪姿髖屈肌伸展",
+      "channel": "Coach Hank 肌力體能訓練",
       "language": "中文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/142/kneeling-hip-flexor-stretch/",
@@ -2799,10 +2799,10 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "先做 20–30 秒；以背部延伸、無痛為準"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw",
-      "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw",
-      "title": "零基礎瑜珈入門",
-      "channel": "理周健康",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/YwFOL6vFfhE",
+      "watchUrl": "https://www.youtube.com/watch?v=YwFOL6vFfhE",
+      "title": "初學者下犬式教學",
+      "channel": "亞洲瑜伽 Yoga Asia",
       "language": "中文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/18/downward-facing-dog/",
@@ -2837,10 +2837,10 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "每次 15–20 秒；只抬到腰背舒適的位置"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw",
-      "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw",
-      "title": "零基礎瑜珈入門",
-      "channel": "理周健康",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/79Fo2NnMblg?start=24&end=49",
+      "watchUrl": "https://www.youtube.com/watch?v=79Fo2NnMblg&t=24s",
+      "title": "低眼鏡蛇式動作教學",
+      "channel": "PhysiomotionLab 動作實驗室",
       "language": "中文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/16/cobra/",
@@ -2876,11 +2876,11 @@ export const exerciseCatalog: GuideExercise[] = [
       "load": "停留 20–30 秒；緊繃但不疼痛即可"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg",
-      "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg",
-      "title": "睡前 10 分鐘全身伸展放鬆",
-      "channel": "啾c物理治療師",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wcwFaBeJNjY?start=15&end=105",
+      "watchUrl": "https://www.youtube.com/watch?v=wcwFaBeJNjY&t=15s",
+      "title": "坐姿腿後側伸展入門",
+      "channel": "YogaEasy",
+      "language": "英文"
     },
     "sourceUrl": "https://www.yogaeasy.com/artikel/seated-forward-bend",
     "sourceLabel": "YogaEasy 坐姿前彎（原 EkhartYoga）"

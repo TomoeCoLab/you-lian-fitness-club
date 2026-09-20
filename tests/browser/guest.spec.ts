@@ -3,6 +3,8 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { exercises } from "../../src/data/exercises";
 
+const repairedVideoIds = ["dumbbell-squat","dumbbell-curl","band-row","cable-triceps-pushdown","dumbbell-lateral-raise","assisted-pull-up","machine-hip-thrust","hack-squat","reverse-pec-deck","dumbbell-lunge","mountain-climber","standing-calf-raise","reverse-lunge","machine-hip-adduction","wall-sit","superman","kneeling-hip-flexor-stretch","cobra-pose","downward-dog","seated-forward-fold"];
+
 async function guest(page: Page) {
   await page.route("**/api/me", route => route.fulfill({ status: 401, json: { error: "Unauthorized" } }));
   await page.goto("/", { waitUntil: "domcontentloaded" });
@@ -19,6 +21,59 @@ async function apply(page: Page, type: string) {
   await page.getByRole("dialog", { name: "課表與進度", exact: true }).getByRole("button", { name: "加入今日課表", exact: true }).click();
   await expect(page.getByRole("dialog", { name: "今日課表", exact: true })).toBeVisible();
 }
+
+test("all 20 repaired videos are available without public audit panels", async ({page}) => {
+  await page.setViewportSize({width:1366,height:900}); await guest(page);
+  for (const id of repairedVideoIds) {
+    const exercise=exercises.find(e=>e.id===id)!;
+    await page.getByPlaceholder('搜尋動作、部位或器材').fill(exercise.name);
+    await page.getByRole('button',{name:`查看${exercise.name}指引`,exact:true}).click();
+    const detail=page.locator('.exercise-detail');
+    await expect(detail.getByText(/來源已核對|來源與檢查紀錄|計數方式|僅片段抽查|已檢視/)).toHaveCount(0);
+    await detail.getByRole('button',{name:`播放 ${exercise.name} 示範影片`,exact:true}).click();
+    await expect(detail.locator('iframe')).toHaveAttribute('src',exercise.video.embedUrl+(exercise.video.embedUrl.includes('?')?'&':'?')+'autoplay=1');
+    await expect(detail.getByRole('link',{name:'開啟原始影片',exact:true})).toHaveAttribute('href',exercise.video.watchUrl);
+  }
+});
+
+for (const width of [360,390,1366]) test(`Shorts use readable portrait frames at ${width}`, async ({page}) => {
+  await page.setViewportSize({width,height:844}); await guest(page);
+  for (const id of ['cable-triceps-pushdown','hack-squat','reverse-pec-deck']) {
+    const exercise=exercises.find(e=>e.id===id)!;
+    await page.getByPlaceholder('搜尋動作、部位或器材').fill(exercise.name);
+    await page.getByRole('button',{name:`查看${exercise.name}指引`,exact:true}).click();
+    const scope=width<700?page.getByRole('dialog',{name:exercise.name,exact:true}):page.locator('.exercise-detail');
+    if(width<700) await scope.getByRole('button',{name:'示範影片',exact:true}).click();
+    else await scope.getByRole('button',{name:`播放 ${exercise.name} 示範影片`,exact:true}).click();
+    const frame=scope.locator('.exercise-video__frame--portrait');
+    await expect(frame).toBeVisible();
+    const box=await frame.boundingBox();
+    expect(box!.width/box!.height).toBeCloseTo(9/16,2);
+    expect(box!.width).toBeGreaterThanOrEqual(200);
+    expect(box!.height).toBeLessThanOrEqual(844*.7+1);
+    if(width<700) {
+      const footer=await scope.locator('.training-sheet__footer').boundingBox();
+      expect(box!.y+box!.height).toBeLessThanOrEqual(footer!.y);
+    }
+    await expect(scope.getByText(/來源與檢查紀錄|計數方式|僅片段抽查|已檢視/)).toHaveCount(0);
+    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+    if(width<700) await scope.getByRole('button',{name:'返回動作庫',exact:true}).click();
+  }
+});
+
+test("missing media approval still hides images, playback and video links", async ({page}) => {
+  await page.route(/\/src\/data\/contentReviews\.generated\.ts(?:\?.*)?$/,route=>route.fulfill({contentType:'text/javascript',body:'export const contentReviews = {};'}));
+  await page.setViewportSize({width:390,height:844}); await guest(page);
+  await page.getByPlaceholder('搜尋動作、部位或器材').fill('高腳杯深蹲');
+  await page.getByRole('button',{name:'查看高腳杯深蹲指引',exact:true}).click();
+  const sheet=page.getByRole('dialog',{name:'高腳杯深蹲',exact:true});
+  await expect(sheet.getByText('圖解暫無提供',{exact:true})).toBeVisible();
+  await expect(sheet.locator('.exercise-infographic img')).toHaveCount(0);
+  await sheet.getByRole('button',{name:'示範影片',exact:true}).click();
+  await expect(sheet.getByText('示範影片暫無提供，請先參考動作步驟與教學來源。',{exact:true})).toBeVisible();
+  await expect(sheet.locator('iframe, a[href*="youtube"]')).toHaveCount(0);
+  await expect(sheet.getByRole('heading',{name:'動作步驟',exact:true})).toBeVisible();
+});
 test("every visible exercise renders its current reviewed illustration", async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 900 });
   await guest(page);
@@ -31,7 +86,7 @@ test("every visible exercise renders its current reviewed illustration", async (
     const detail=page.locator('.exercise-detail'), image=detail.locator('.exercise-infographic img');
     await image.scrollIntoViewIfNeeded();
     await expect.poll(()=>image.evaluate((img:HTMLImageElement)=>img.complete&&img.naturalWidth>0),{message:exercise.id}).toBe(true);
-    await expect(detail.getByText(/文字：來源已核對 · 圖解：已檢視/)).toBeVisible();
+    await expect(detail.getByText(/來源已核對|來源與檢查紀錄|計數方式|僅片段抽查|已檢視/)).toHaveCount(0);
   }
   expect(errors).toEqual([]);
 });
@@ -134,14 +189,14 @@ test("cross-day checkout keeps original date and does not erase incomplete sets"
   expect(saved.draft.items[0].entries.some((entry: any) => entry.id === "unfinished-next")).toBe(true);
 });
 
-test("unverified videos cannot be played or opened; reviewed segments keep their boundaries", async ({ page }) => {
+test("repaired band row plays and reviewed segments keep their boundaries", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 }); await guest(page);
   await page.getByPlaceholder("搜尋動作、部位或器材").fill("彈力帶俯身划船");
   await page.getByRole("button", { name: "查看彈力帶俯身划船指引", exact: true }).click();
   const sheet = page.getByRole("dialog", { name: "彈力帶俯身划船", exact: true });
   await sheet.getByRole("button", { name: "示範影片", exact: true }).click();
-  await expect(sheet.getByText("示範影片待補。原連結已停用，請先查看動作步驟與教學來源。")).toBeVisible();
-  await expect(sheet.locator("iframe, a[href*='youtube']")).toHaveCount(0);
+  await expect(sheet.locator("iframe")).toHaveAttribute("src", /vR9KcvzLqVo/);
+  await expect(sheet.getByText(/來源與檢查紀錄|計數方式|僅片段抽查/)).toHaveCount(0);
   await sheet.getByRole("button", { name: "返回動作庫", exact: true }).click();
   await page.getByPlaceholder("搜尋動作、部位或器材").fill("貓牛式");
   await page.getByRole("button", { name: "查看貓牛式指引", exact: true }).click();
@@ -162,9 +217,8 @@ for (const width of [390, 1366]) {
     await expect(image).toHaveAttribute('src',/fitness-leg-curl-v2-zh-tw/);
     await expect.poll(()=>image.evaluate((img:HTMLImageElement)=>img.complete&&img.naturalWidth>0)).toBe(true);
     await expect(scope.getByRole("button",{name:"開啟坐姿腿彎舉完整大圖",exact:true})).toBeVisible();
-    await expect(scope.getByText(/文字：來源已核對 · 圖解：已檢視/)).toBeVisible();
-    const auditColor=await scope.locator('.content-review').last().evaluate(element=>getComputedStyle(element).color);
-    expect(auditColor).toBe('rgb(23, 23, 23)');
+    await expect(scope.getByText(/來源已核對|來源與檢查紀錄|計數方式|僅片段抽查|已檢視/)).toHaveCount(0);
+    await expect(scope.locator('.content-review')).toHaveCount(0);
     await scope.screenshot({path:join(tmpdir(),`you-lian-content-audit-${width}.png`)});
     if(width<700) await scope.getByRole("button",{name:"返回動作庫",exact:true}).click();
     await page.getByPlaceholder("搜尋動作、部位或器材").fill("死蟲式");
@@ -217,7 +271,7 @@ test("repaired mountain climber and figure-four media render on mobile", async (
   const figureImage=figure.locator('.exercise-infographic img');
   await expect(figureImage).toHaveAttribute('src',/fitness-figure-four-stretch-v2-zh-tw/);
   await expect.poll(()=>figureImage.evaluate((img:HTMLImageElement)=>img.complete&&img.naturalWidth>0)).toBe(true);
-  await expect(figure.getByText(/文字：來源已核對 · 圖解：已檢視 · 影片：僅片段抽查/)).toBeVisible();
+  await expect(figure.getByText(/來源已核對|來源與檢查紀錄|計數方式|僅片段抽查|已檢視/)).toHaveCount(0);
   await figure.getByRole("button",{name:"示範影片",exact:true}).click();
   await expect(figure.locator("iframe")).toHaveAttribute('src',/vdIugUHKGWg\?start=40&end=105/);
   expect(errors).toEqual([]);

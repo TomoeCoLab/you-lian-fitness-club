@@ -30,8 +30,7 @@ import { TrainingSheet } from "./TrainingSheet";
 import { ExerciseGuideSheet } from "./ExerciseGuideSheet";
 import { WorkoutPlanSheet } from "./WorkoutPlanSheet";
 import { EquipmentGuidance } from "./EquipmentGuidance";
-import { ContentReview } from "./ContentReview";
-import { exerciseAliases, videoNeedsReview } from "../lib/exerciseGuidance";
+import { exerciseAliases, videoNeedsReview, videoFrameClass } from "../lib/exerciseGuidance";
 import { loadMovementPreferences, saveMovementPreferences } from "../lib/movementPreferences";
 
 type TrainingGuideProps = {
@@ -416,8 +415,7 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
         <EquipmentGuidance exercise={selected} />
 
         <section className="exercise-video" aria-label={`${selected.name} 示範影片`}>
-          <ContentReview exercise={selected} />
-          {videoNeedsReview(selected) ? <p className="video-review-notice">示範影片待補。原連結已停用，請先查看動作步驟與教學來源。</p> : <div className="exercise-video__frame">
+          {videoNeedsReview(selected) ? <p className="video-review-notice">示範影片暫無提供，請先參考動作步驟與教學來源。</p> : <div className={videoFrameClass(selected)}>
             {videoActive ? <iframe
                 key={selected.video.embedUrl}
                 src={`${selected.video.embedUrl}${selected.video.embedUrl.includes("?") ? "&" : "?"}autoplay=1`}

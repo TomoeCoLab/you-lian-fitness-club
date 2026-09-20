@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "downward-dog",
     "name": "下犬式",
@@ -32,10 +32,10 @@
       "load": "先做 20–30 秒；以背部延伸、無痛為準"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw",
-      "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw",
-      "title": "零基礎瑜珈入門",
-      "channel": "理周健康",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/YwFOL6vFfhE",
+      "watchUrl": "https://www.youtube.com/watch?v=YwFOL6vFfhE",
+      "title": "初學者下犬式教學",
+      "channel": "亞洲瑜伽 Yoga Asia",
       "language": "中文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/18/downward-facing-dog/",
@@ -74,33 +74,89 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "24adf0d61c18a95eb4b85bc5386efe76d9e24c6d6246a2eafd287d2e2cb39e7a",
+      "reviewedContentHash": "c0d1e7ad9587bbe1be38eac51e666d269b08fc0fefd820d95641c547d8ea0621",
       "findings": [
         "已對照動作專屬來源：髖往後上方、軀幹延伸及可微屈膝。",
-        "來源由高平板進出；本站是四足跪姿起始的靜態退階，屈膝回四足退出，不把來源動態份量直接套用。"
+        "來源由高平板進出；本站是四足跪姿起始的靜態退階，屈膝回四足退出，不把來源動態份量直接套用。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "24adf0d61c18a95eb4b85bc5386efe76d9e24c6d6246a2eafd287d2e2cb39e7a",
+      "reviewedContentHash": "c0d1e7ad9587bbe1be38eac51e666d269b08fc0fefd820d95641c547d8ea0621",
       "reviewedImageSha256": "92f74328eb9fad91df7f6ee88e9043e6e9355fd050fea3b1c98cf6920d2a7eed",
       "findings": [
         "倒 V 姿勢、可微屈膝、不強求腳跟接地；20–30 秒包含本站 30 秒，退出依文字屈膝回四足。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "舊影片動作不相符，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "cb4376c974b67e01c4f82d42de8e4c58d5bf67bff53cda85a5c86102f159d1e0"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/YwFOL6vFfhE",
+      "auditBaselineContentHash": "c0d1e7ad9587bbe1be38eac51e666d269b08fc0fefd820d95641c547d8ea0621",
+      "check": {
+        "videoId": "YwFOL6vFfhE",
+        "seconds": [
+          10,
+          30,
+          50,
+          70,
+          90,
+          110,
+          150,
+          200,
+          250,
+          270,
+          285,
+          300,
+          305,
+          310,
+          315,
+          320,
+          350,
+          370,
+          400,
+          410,
+          415,
+          420,
+          430,
+          450,
+          485
+        ],
+        "observation": "四足跪姿進入、髖往上後推及手掌支撐，285至320秒再次示範進入與重心調整；後段含屈膝踩踏變化及不適提醒。本站採靜態舒適版，腳跟無須強壓地，影片活動變化不改課表計時。"
+      },
+      "findings": [
+        "四足跪姿進入、髖往上後推及手掌支撐，285至320秒再次示範進入與重心調整；後段含屈膝踩踏變化及不適提醒。本站採靜態舒適版，腳跟無須強壓地，影片活動變化不改課表計時。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw",
+            "watchUrl": "https://www.youtube.com/watch?v=JzU1lMR1Uzw",
+            "title": "零基礎瑜珈入門",
+            "channel": "理周健康",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "舊影片動作不相符，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "cb4376c974b67e01c4f82d42de8e4c58d5bf67bff53cda85a5c86102f159d1e0"
+          }
+        }
+      ]
     }
   },
   "illustration": {

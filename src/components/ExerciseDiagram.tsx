@@ -15,17 +15,16 @@ export function ExerciseDiagram({ exercise }: { exercise: GuideExercise }) {
   const guideImage = asset?.full ?? guideImageFor(exercise.id);
 
   const audit = contentReviews[exercise.id];
-  if (diagramNeedsReplacement(audit)) return <section className="exercise-infographic content-review" aria-label={`${exercise.name}圖解待修訂`}>
-    <strong>圖解待修訂，暫不顯示舊圖</strong>
-    <p>{audit?.image.findings[0] ?? '尚無圖解檢查紀錄。'}</p>
-    <p>請先對照下方文字重點與來源；文字的核對狀態另外列示。</p>
+  if (diagramNeedsReplacement(audit)) return <section className="exercise-infographic" aria-label={`${exercise.name}圖解暫無提供`}>
+    <strong>圖解暫無提供</strong>
+    <p>請先參考下方動作步驟與重點。</p>
   </section>;
 
   return <><section className="exercise-infographic" aria-label={`${exercise.name}動作分解圖`}>
     <div className="exercise-infographic__heading">
       <div>
         <strong>動作分解圖</strong>
-        <span>{audit?.image.status === 'visual-checked' ? 'AI 輔助圖解 · 已檢視，非專業認證' : 'AI 輔助圖解 · 尚待逐張核對'} · 份量以本次課表為準</span>
+        <span>AI 輔助圖解 · 份量以本次課表為準</span>
       </div>
       <button onClick={() => setOpen(true)} aria-label={`開啟${exercise.name}完整大圖`}>
         步驟／大圖

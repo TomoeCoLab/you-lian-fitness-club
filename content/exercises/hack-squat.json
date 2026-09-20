@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "hack-squat",
     "name": "哈克深蹲",
@@ -30,11 +30,11 @@
       "load": "先用空機測試滑車重量與活動範圍"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "下半身器械教學",
-      "channel": "May Fit",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rzsfm43_9c0",
+      "watchUrl": "https://www.youtube.com/shorts/rzsfm43_9c0",
+      "title": "哈克深蹲重點示範",
+      "channel": "Andrew Kwong（DeltaBolic）",
+      "language": "英文"
     },
     "sourceUrl": "https://www.puregym.com/exercises/legs/quad-exercises/squats/hack-squat/",
     "sourceLabel": "PureGym：哈克深蹲"
@@ -73,33 +73,72 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "956ba07e069a6033707e321d92eb9786b1245fa635cb669dd4903d8b71ca4964",
+      "reviewedContentHash": "b91e24e532208eae6d8327c6071aa93200d9ba8c0ff315cbe6153f13e5e140ed",
       "findings": [
         "已讀斜導軌肩背支撐版本；深度以可穩定控制為準，不強迫所有人蹲至固定角度。",
-        "份量是本站起始參考，不是來源的個人化處方。"
+        "份量是本站起始參考，不是來源的個人化處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "956ba07e069a6033707e321d92eb9786b1245fa635cb669dd4903d8b71ca4964",
+      "reviewedContentHash": "b91e24e532208eae6d8327c6071aa93200d9ba8c0ff315cbe6153f13e5e140ed",
       "reviewedImageSha256": "a1937d1a73e43784db1075b4facddf4e9d8b04bf5fb7de20b2275be4222866f6",
       "findings": [
         "肩背貼滑車、腳踩固定踏板、下降與推回方向一致；安全扣和回掛文字具備，8–12 次 3 組包含本站 10 次。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "93b19253946d8c8037af3aaad275f01d95f99774e46f76bb12c402875e125605"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/rzsfm43_9c0",
+      "auditBaselineContentHash": "b91e24e532208eae6d8327c6071aa93200d9ba8c0ff315cbe6153f13e5e140ed",
+      "check": {
+        "videoId": "rzsfm43_9c0",
+        "seconds": [
+          1,
+          5,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "observation": "1秒踏板腳掌位置、5秒腰背靠墊、10秒腳掌支撐正誤對比、15秒背靠式深蹲；無反向站姿片段。未示範解鎖掛回，仍依本站文字及機身說明。"
+      },
+      "findings": [
+        "1秒踏板腳掌位置、5秒腰背靠墊、10秒腳掌支撐正誤對比、15秒背靠式深蹲；無反向站姿片段。未示範解鎖掛回，仍依本站文字及機身說明。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+            "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+            "title": "下半身器械教學",
+            "channel": "May Fit",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "93b19253946d8c8037af3aaad275f01d95f99774e46f76bb12c402875e125605"
+          }
+        }
+      ]
     }
   },
   "illustration": {

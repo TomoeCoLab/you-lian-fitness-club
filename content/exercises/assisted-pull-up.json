@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
+  "revision": 6,
   "exercise": {
     "id": "assisted-pull-up",
     "name": "輔助引體向上",
@@ -32,10 +32,10 @@
       "load": "選擇可穩定完成 6–8 次的輔助重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
-      "watchUrl": "https://www.youtube.com/watch?v=0KULvdo7T0c",
-      "title": "垂直下拉路徑參考",
-      "channel": "東吳大學體育室",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Hw7qI5h-QUg",
+      "watchUrl": "https://www.youtube.com/watch?v=Hw7qI5h-QUg",
+      "title": "輔助引體向上器材教學",
+      "channel": "提爾健身",
       "language": "中文"
     },
     "sourceUrl": "https://fitnessinstitute.com.au/chin-ups-pin-loaded-assisted/",
@@ -87,33 +87,76 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "77dceea4a746785b90ac8e1941d5a22faf2a9f2c15d0dcaee007dde86fcd58fc",
+      "reviewedContentHash": "f3420dd2846f8054bee4e692d80a69be1edc8e222d40b37def84484e2cd97f33",
       "findings": [
         "已讀 Life Fitness Assisted Dip/Chin 雙膝墊教學；離機安全必須按現場說明，不適用活動站板式機台。",
-        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "77dceea4a746785b90ac8e1941d5a22faf2a9f2c15d0dcaee007dde86fcd58fc",
+      "reviewedContentHash": "f3420dd2846f8054bee4e692d80a69be1edc8e222d40b37def84484e2cd97f33",
       "reviewedImageSha256": "385c04b2a569bb7dafe8aec2fd45ea5ac2c39a451fbf05e03cb91d3b2b4adba0",
       "findings": [
         "固定踏階、雙膝支撐與移動膝墊分開；上拉時人體和膝墊同步升高，回程一致，3 組 8 次相符。",
-        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。"
+        "已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "舊影片動作不相符，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "ab7bf7d11c983b4751efa256b44da598a45f7286f88c63a6baebf92747cbe960"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/Hw7qI5h-QUg",
+      "auditBaselineContentHash": "f3420dd2846f8054bee4e692d80a69be1edc8e222d40b37def84484e2cd97f33",
+      "check": {
+        "videoId": "Hw7qI5h-QUg",
+        "seconds": [
+          10,
+          25,
+          28,
+          32,
+          36,
+          40,
+          55,
+          70,
+          85,
+          94,
+          100,
+          106
+        ],
+        "observation": "機台活動膝墊、固定踏階；36秒字幕指雙膝跪上，40秒下沉、55及85秒向上拉。後段另解釋握法差異；未取得完整下機步驟，仍須依本站文字及現場機型規範。"
+      },
+      "findings": [
+        "機台活動膝墊、固定踏階；36秒字幕指雙膝跪上，40秒下沉、55及85秒向上拉。後段另解釋握法差異；未取得完整下機步驟，仍須依本站文字及現場機型規範。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/0KULvdo7T0c",
+            "watchUrl": "https://www.youtube.com/watch?v=0KULvdo7T0c",
+            "title": "垂直下拉路徑參考",
+            "channel": "東吳大學體育室",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "舊影片動作不相符，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "ab7bf7d11c983b4751efa256b44da598a45f7286f88c63a6baebf92747cbe960"
+          }
+        }
+      ]
     }
   },
   "illustration": {

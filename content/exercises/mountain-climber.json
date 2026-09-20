@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "mountain-climber",
     "name": "登山者",
@@ -31,11 +31,11 @@
       "load": "每側 12 次；可扶高支撐面降低難度"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/i17dhEn4_7Y",
-      "watchUrl": "https://www.youtube.com/watch?v=i17dhEn4_7Y",
-      "title": "高棒式姿勢參考",
-      "channel": "World Gym Taiwan",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/O5tgMG1AfSM",
+      "watchUrl": "https://www.youtube.com/watch?v=O5tgMG1AfSM",
+      "title": "慢速登山者示範",
+      "channel": "E3 Rehab Exercise Library",
+      "language": "英文"
     },
     "sourceUrl": "https://library.theprehabguys.com/vimeo-video/mountain-climber-slow/",
     "sourceLabel": "[P]rehab：慢速登山者"
@@ -85,34 +85,71 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "0419225f75994a79ed73b588be8a25c0184398bcfb4c90f2b95f2d6459f8234a",
+      "reviewedContentHash": "ce333a4d340be788a41ef8e5dcbd1ba4b25430640f12934b249007ac2d01202c",
       "findings": [
         "核對 [P]rehab 慢速版；明確移除加速暗示並補回程、換腿與雙膝落地結束。ACE 跳躍版及 Physitrack 頁面內的弓步旋轉不當作相同示範。",
-        "份量為本站一般起始參考，不是個人化處方；影片仍待補。"
+        "份量為本站一般起始參考，不是個人化處方；影片仍待補。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "0419225f75994a79ed73b588be8a25c0184398bcfb4c90f2b95f2d6459f8234a",
+      "reviewedContentHash": "ce333a4d340be788a41ef8e5dcbd1ba4b25430640f12934b249007ac2d01202c",
       "reviewedImageSha256": "243b72c4a32ca67be73a1a03c5c29aaa2f710d6fa0d410fc68f5e08ca3781c80",
       "findings": [
         "已檢視四格新圖：第二格近鏡腿彎曲、遠腿支撐，第四格改為遠腿彎曲、近腿支撐；第三格雙腳回高棒式，與舊圖重複同側問題不同。",
         "核對圖中每側 12 次 × 2 組、呼吸與主檔一致，無標語、視線朝地；左側標記指向該側鞋部而非膝，腿位仍可辨識。",
-        "這是成品視覺核對，不是生物力學量測或醫療／專業認證；未完成完整影片審查。"
+        "這是成品視覺核對，不是生物力學量測或醫療／專業認證；未完成完整影片審查。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "舊影片動作不相符，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "64e1c6255698de908add079ede70974ade9112389a41bfae6baa420fe9216eb6"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/O5tgMG1AfSM",
+      "auditBaselineContentHash": "ce333a4d340be788a41ef8e5dcbd1ba4b25430640f12934b249007ac2d01202c",
+      "check": {
+        "videoId": "O5tgMG1AfSM",
+        "seconds": [
+          1,
+          4,
+          7,
+          10,
+          14,
+          18
+        ],
+        "observation": "高棒式雙手撐地，一腳支撐另一膝往同側胸前，先退回再換腿，非跳躍或交叉提膝。"
+      },
+      "findings": [
+        "高棒式雙手撐地，一腳支撐另一膝往同側胸前，先退回再換腿，非跳躍或交叉提膝。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/i17dhEn4_7Y",
+            "watchUrl": "https://www.youtube.com/watch?v=i17dhEn4_7Y",
+            "title": "高棒式姿勢參考",
+            "channel": "World Gym Taiwan",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "舊影片動作不相符，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "64e1c6255698de908add079ede70974ade9112389a41bfae6baa420fe9216eb6"
+          }
+        }
+      ]
     }
   },
   "illustration": {

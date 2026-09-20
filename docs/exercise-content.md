@@ -6,7 +6,7 @@
 
 - text：文字來源已核對 76 項。
 - image：已視覺檢查（非專業認證） 76 項。
-- video：僅片段抽查 56 項；待核對 20 項。
+- video：僅片段抽查 76 項。
 
 ## 逐項索引
 
@@ -32,19 +32,19 @@
 | [坐姿單腿腿後側伸展](#chair-hamstring-stretch) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [站姿扶穩背闊肌伸展](#supported-lat-stretch) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [徒手深蹲](#bodyweight-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [高腳杯深蹲](#dumbbell-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [高腳杯深蹲](#dumbbell-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [啞鈴胸推](#dumbbell-chest-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [單臂啞鈴划船](#dumbbell-row) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [坐姿啞鈴肩推](#dumbbell-shoulder-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [啞鈴彎舉](#dumbbell-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [啞鈴彎舉](#dumbbell-curl) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [啞鈴三頭伸展](#dumbbell-triceps-extension) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [槓鈴臥推](#barbell-bench-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [槓鈴硬舉](#barbell-deadlift) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [壺鈴硬舉](#kettlebell-deadlift) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [彈力帶俯身划船](#band-row) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [彈力帶俯身划船](#band-row) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [史密斯深蹲](#smith-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [對向滑輪飛鳥](#cable-fly) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [滑輪三頭下壓](#cable-triceps-pushdown) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [滑輪三頭下壓](#cable-triceps-pushdown) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [器械胸推](#machine-chest-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [蝴蝶機夾胸](#pec-deck) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [高位下拉](#lat-pulldown) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
@@ -56,37 +56,37 @@
 | [伏地挺身](#push-up) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [前臂棒式](#front-plank) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [上斜啞鈴胸推](#incline-dumbbell-press) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [啞鈴側平舉](#dumbbell-lateral-raise) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [啞鈴側平舉](#dumbbell-lateral-raise) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [羅馬尼亞硬舉](#romanian-deadlift) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [啞鈴弓箭步](#dumbbell-lunge) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [啞鈴弓箭步](#dumbbell-lunge) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [壺鈴擺盪](#kettlebell-swing) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [滑輪臉拉](#cable-face-pull) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [輔助引體向上](#assisted-pull-up) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
-| [臀推機臀推](#machine-hip-thrust) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
-| [哈克深蹲](#hack-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
-| [站姿提踵](#standing-calf-raise) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
-| [坐姿大腿內收](#machine-hip-adduction) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [輔助引體向上](#assisted-pull-up) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [臀推機臀推](#machine-hip-thrust) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [哈克深蹲](#hack-squat) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [站姿提踵](#standing-calf-raise) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [坐姿大腿內收](#machine-hip-adduction) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [坐姿大腿外展](#machine-hip-abduction) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [啞鈴過頭三頭肌伸展](#dumbbell-overhead-triceps-extension) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [羅馬椅背伸](#back-extension) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [反向蝴蝶機](#reverse-pec-deck) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [反向蝴蝶機](#reverse-pec-deck) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [斜板伏地挺身](#incline-push-up) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [反向弓箭步](#reverse-lunge) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [反向弓箭步](#reverse-lunge) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [臀橋](#glute-bridge) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [鳥狗式](#bird-dog) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [死蟲式](#dead-bug) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [登山者](#mountain-climber) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
-| [靠牆深蹲停留](#wall-sit) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
-| [俯臥超人式](#superman) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [登山者](#mountain-climber) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [靠牆深蹲停留](#wall-sit) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [俯臥超人式](#superman) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [貓牛式](#cat-cow) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [嬰兒式](#child-pose) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [跪姿髖屈肌伸展](#kneeling-hip-flexor-stretch) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [跪姿髖屈肌伸展](#kneeling-hip-flexor-stretch) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [仰躺四字臀部伸展](#figure-four-stretch) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [仰躺脊椎扭轉](#supine-twist) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [蝴蝶式伸展](#butterfly-stretch) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
-| [下犬式](#downward-dog) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
-| [低眼鏡蛇式](#cobra-pose) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
-| [坐姿腿後側伸展](#seated-forward-fold) | 文字來源已核對 | 已視覺檢查（非專業認證） | 待核對 |
+| [下犬式](#downward-dog) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [低眼鏡蛇式](#cobra-pose) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
+| [坐姿腿後側伸展](#seated-forward-fold) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 | [穿針引線式](#thread-the-needle) | 文字來源已核對 | 已視覺檢查（非專業認證） | 僅片段抽查 |
 
 <a id="march-in-place"></a>
@@ -1239,8 +1239,8 @@
 <a id="dumbbell-squat"></a>
 ## 高腳杯深蹲
 
-- ID：`dumbbell-squat`；內容修訂：3
-- 內容 SHA-256：`1b3ac00ae3e4e9eccedbdd91c6b33fca4e8d6c0bd4abaf407cc00b70e5e05344`
+- ID：`dumbbell-squat`；內容修訂：4
+- 內容 SHA-256：`fd7082a748477a422c91179d1657f9145288a899cc56524ff79dc1df9e9a3596`
 - 唯一編輯來源：[JSON](../content/exercises/dumbbell-squat.json)
 - 指定版本：高腳杯深蹲；本項起始設定：雙手托住一顆啞鈴並靠近胸口。
 - 器材：啞鈴
@@ -1270,10 +1270,10 @@
 - [Mayo Clinic 動作影片](https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/squat/vid-20084682) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [NASM：高腳杯深蹲](https://www.nasm.org/resource-center/exercise-library/goblet-squat) — movement-specific；核對日期：2026-09-20；支持：雙手持單一啞鈴於胸前、髖膝彎曲、重量靠近身體、控制站回。採單顆啞鈴版，不混入雙啞鈴或壺鈴；深度依可控制範圍。本站份量不是來源個人化處方。
 
-- text：文字來源已核對。採單顆啞鈴版，不混入雙啞鈴或壺鈴；深度依可控制範圍。本站份量不是來源個人化處方。；已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。
-- image：已視覺檢查（非專業認證）。一顆啞鈴胸前雙手托持，蹲下與回站一致；圖示 10–12 次 3 組包含本站 10 次 3 組。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[新手下半身器械與深蹲教學](https://www.youtube.com/watch?v=H14HliH4Mfs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。採單顆啞鈴版，不混入雙啞鈴或壺鈴；深度依可控制範圍。本站份量不是來源個人化處方。；已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。一顆啞鈴胸前雙手托持，蹲下與回站一致；圖示 10–12 次 3 組包含本站 10 次 3 組。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。單顆啞鈴直持胸前，雙腳站穩；5、8 秒為屈髖屈膝下蹲，11 秒站起，非雙啞鈴側持。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[啞鈴深蹲（高腳杯深蹲）](https://www.youtube.com/watch?v=WimELq8uXV0)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-squat-zh-tw.png`；SHA-256：`1399b71197decbdb4e02f5a4f28ecfc346e0cb167a155b1b016300cc3c62bba2`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -1285,11 +1285,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/H14HliH4Mfs
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/WimELq8uXV0
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/WimELq8uXV0
+- 實際檢查秒點：2、5、8、11
+- 播放區間：0 秒起，原片結尾
+- 可見內容：單顆啞鈴直持胸前，雙腳站穩；5、8 秒為屈髖屈膝下蹲，11 秒站起，非雙啞鈴側持。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="dumbbell-chest-press"></a>
@@ -1463,8 +1463,8 @@
 <a id="dumbbell-curl"></a>
 ## 啞鈴彎舉
 
-- ID：`dumbbell-curl`；內容修訂：2
-- 內容 SHA-256：`9b1e5d1d109fd828a5505a9b3f3e1dc02409ecdb8d67bf8118340946dcadfda9`
+- ID：`dumbbell-curl`；內容修訂：3
+- 內容 SHA-256：`77f0680cb6a20496f6f3a3bd19fed39d5f079929d3e8b4c5938785da367763bd`
 - 唯一編輯來源：[JSON](../content/exercises/dumbbell-curl.json)
 - 指定版本：啞鈴彎舉；本項起始設定：掌心朝上握住啞鈴，手肘貼近身體。
 - 器材：啞鈴
@@ -1494,10 +1494,10 @@
 - [NHS 肌力活動](https://www.nhs.uk/live-well/exercise/strength-exercises/) — movement-specific；核對日期：2026-09-20；支持：上臂在身旁的彎舉路徑。僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。
 - [Mayo Clinic 動作影片](https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 
-- text：文字來源已核對。已對照原始來源：上臂在身旁的彎舉路徑。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。
-- image：已視覺檢查（非專業認證）。站姿雙手同時彎肘，上臂近軀幹；10–12 次 × 3 組相容。頁面交替版本須另以每側計數。；已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[啞鈴彎舉完整教學](https://www.youtube.com/watch?v=2g4v5qv8ByM)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照原始來源：上臂在身旁的彎舉路徑。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。站姿雙手同時彎肘，上臂近軀幹；10–12 次 × 3 組相容。頁面交替版本須另以每側計數。；已逐張檢視原始圖的可見內容；這不是生物力學量測或醫療／專業認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[啞鈴彎舉動作教學](https://www.youtube.com/watch?v=2g4v5qv8ByM)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-curl-zh-tw.png`；SHA-256：`b2895a3b6d32869ab9984e7218b264d3e8352cfa0fb2fbce7f338e95e940712d`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -1510,10 +1510,10 @@
 ### 影片核對紀錄
 
 - 嵌入網址：https://www.youtube-nocookie.com/embed/2g4v5qv8ByM
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/2g4v5qv8ByM
+- 實際檢查秒點：10、31、35、38、43、49、65、95、125、155
+- 播放區間：0 秒起，原片結尾
+- 可見內容：雙手各持啞鈴、掌心向前，上臂貼近軀幹屈肘上舉及下放；片中另以文字明標上臂前移等錯誤示範，不能把錯誤段視作正確做法。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="dumbbell-triceps-extension"></a>
@@ -1754,8 +1754,8 @@
 <a id="band-row"></a>
 ## 彈力帶俯身划船
 
-- ID：`band-row`；內容修訂：5
-- 內容 SHA-256：`08d3d318fbd8033d1a4bf5721bed2240c1ace14ec395914aae129d4f4f62cd19`
+- ID：`band-row`；內容修訂：6
+- 內容 SHA-256：`03a4928c9fd3b3b19d6458ea44933f03b6a89c0212500ebb733414dd7b3f1b57`
 - 唯一編輯來源：[JSON](../content/exercises/band-row.json)
 - 指定版本：彈力帶俯身划船；本項起始設定：雙腳踩住彈力帶中央，膝微彎並從髖部前傾。
 - 器材：彈力帶
@@ -1785,10 +1785,10 @@
 - [Mayo Clinic 動作影片](https://www.mayoclinic.org/diseases-conditions/osteoporosis/in-depth/osteoporosis/art-20044989) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [WorkoutLabs：雙腳踩帶俯身划船](https://workoutlabs.com/exercise-guide/resistance-band-bent-over-rows/) — movement-specific；核對日期：2026-09-20；支持：雙腳踩帶、屈髖微屈膝、手肘向後帶、控制放回。已讀搜尋索引提供的完整三步教學；頁面直連回傳 403。支持雙腳踩帶版本，不支持把帶繞頸或固定遠處。
 
-- text：文字來源已核對。已讀搜尋索引提供的完整三步教學；頁面直連回傳 403。支持雙腳踩帶版本，不支持把帶繞頸或固定遠處。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。
-- image：已視覺檢查（非專業認證）。四格腳踩帶與划船方向一致，頭頸已不轉向鏡頭；回程、3 組 12 次與規格相符。；已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。
-- video：待核對。舊影片動作不相符，已停止播放與連結。
-- 影片：[划船動作與肩胛控制](https://www.youtube.com/watch?v=r1loX83MWaw)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀搜尋索引提供的完整三步教學；頁面直連回傳 403。支持雙腳踩帶版本，不支持把帶繞頸或固定遠處。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。四格腳踩帶與划船方向一致，頭頸已不轉向鏡頭；回程、3 組 12 次與規格相符。；已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。雙腳踩住帶中央，站姿屈髖膝微彎；雙手由下垂拉向腰側，肘往後再伸回。與本站站姿俯身版本一致，排除 h9iN9flDpI0 的坐姿版本。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[彈力帶俯身划船示範](https://www.youtube.com/watch?v=vR9KcvzLqVo)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-band-row-v2-zh-tw.png`；SHA-256：`f5c4c32d26e5587a8002f3aa4f96808a7cb2477dfd647ca1e12f341dd27dce35`
 - 原圖生成所依文字版本：08d3d318fbd8033d1a4bf5721bed2240c1ace14ec395914aae129d4f4f62cd19，不得事後填成目前版本。
 
@@ -1807,11 +1807,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/r1loX83MWaw
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/vR9KcvzLqVo
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/vR9KcvzLqVo
+- 實際檢查秒點：10、22、25、32、38、45、48、60、75、85
+- 播放區間：0 秒起，原片結尾
+- 可見內容：雙腳踩住帶中央，站姿屈髖膝微彎；雙手由下垂拉向腰側，肘往後再伸回。與本站站姿俯身版本一致，排除 h9iN9flDpI0 的坐姿版本。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="smith-squat"></a>
@@ -1929,8 +1929,8 @@
 <a id="cable-triceps-pushdown"></a>
 ## 滑輪三頭下壓
 
-- ID：`cable-triceps-pushdown`；內容修訂：4
-- 內容 SHA-256：`4cb6e0d19f80b3193df5dc890a0b30bf0ac99520239a43e080dd7fcc56726217`
+- ID：`cable-triceps-pushdown`；內容修訂：5
+- 內容 SHA-256：`4021c45b1667be265f92150828e0b379350eca62776b6a844c048561869a5cd1`
 - 唯一編輯來源：[JSON](../content/exercises/cable-triceps-pushdown.json)
 - 指定版本：滑輪三頭下壓；本項起始設定：滑輪調至高位，雙手握住直桿或繩索。
 - 器材：滑輪機
@@ -1960,10 +1960,10 @@
 - [Mayo Clinic 肌力訓練原則](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [PureGym：滑輪三頭下壓](https://www.puregym.com/exercises/arms-and-shoulders/tricep-extension/tricep-pushdowns/) — movement-specific；核對日期：2026-09-20；支持：高滑輪、上臂保持身側、伸肘向下與緩慢返回。已讀原始教學的直桿與繩索設定；已重新核圖，採高位繩索版本，不採身體前後甩動。
 
-- text：文字來源已核對。已讀原始教學的直桿與繩索設定；圖解採繩索（需再核圖），不採身體前後甩動。；份量是本站起始參考，不是來源的個人化處方。
-- image：已視覺檢查（非專業認證）。已確認圖解是高位繩索版本；上臂貼身、屈肘起始、下壓伸肘與控制回程，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：待核對。舊影片動作不相符，已停止播放與連結。
-- 影片：[滑輪器材操作參考](https://www.youtube.com/watch?v=Q32gisfVsls)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀原始教學的直桿與繩索設定；圖解採繩索（需再核圖），不採身體前後甩動。；份量是本站起始參考，不是來源的個人化處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。已確認圖解是高位繩索版本；上臂貼身、屈肘起始、下壓伸肘與控制回程，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。高滑輪直桿，正握與手腕近照、上臂靠身、微前傾；7.5秒下壓伸肘，8.5秒屈肘回程。原頻道Shorts實際嵌入可播放。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[滑輪三頭下壓重點示範](https://www.youtube.com/shorts/jMIMHK_L6cg)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-cable-triceps-pushdown-zh-tw.png`；SHA-256：`248526770a271748bfbf2c976cfb99119b0234960e9ed4264512219b59143fd2`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -1975,11 +1975,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/Q32gisfVsls
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/jMIMHK_L6cg
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/jMIMHK_L6cg
+- 實際檢查秒點：1、2、3、4、5、6、7、7.5、8.5
+- 播放區間：0 秒起，原片結尾
+- 可見內容：高滑輪直桿，正握與手腕近照、上臂靠身、微前傾；7.5秒下壓伸肘，8.5秒屈肘回程。原頻道Shorts實際嵌入可播放。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="machine-chest-press"></a>
@@ -2649,8 +2649,8 @@
 <a id="dumbbell-lateral-raise"></a>
 ## 啞鈴側平舉
 
-- ID：`dumbbell-lateral-raise`；內容修訂：3
-- 內容 SHA-256：`e8421f368cba2ec9fe644afc10c75f094bfc2413ee6ff1e077352361fe24e750`
+- ID：`dumbbell-lateral-raise`；內容修訂：4
+- 內容 SHA-256：`08fdc27cd7328833b451e8d17ada02d7ee6d7eb3a5027a4848ba44b3a0d7ad0b`
 - 唯一編輯來源：[JSON](../content/exercises/dumbbell-lateral-raise.json)
 - 指定版本：啞鈴側平舉；本項起始設定：啞鈴放在身體兩側，手肘保持微彎。
 - 器材：啞鈴
@@ -2680,10 +2680,10 @@
 - [Mayo Clinic 肌力訓練原則](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [ACE：啞鈴側平舉](https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/) — movement-specific；核對日期：2026-09-20；支持：肘微彎、軀幹穩定、抬到肩高、緩慢回程與手腕中立。已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。
 
-- text：文字來源已核對。已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。
-- image：已視覺檢查（非專業認證）。微屈肘向斜前外側抬至肩高，再控制下放；非前平舉過頭，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：待核對。舊影片動作不相符，已停止播放與連結。
-- 影片：[肩部訓練路徑參考](https://www.youtube.com/watch?v=ePxgPKcI1fU)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀四步教學。避免以倒水姿勢強迫內旋；不把肩胛固定不動當成自然上舉必須遵循的通則。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。微屈肘向斜前外側抬至肩高，再控制下放；非前平舉過頭，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[啞鈴側平舉教學](https://www.youtube.com/watch?v=vR5fCLCTNq4&t=95s)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-lateral-raise-zh-tw.png`；SHA-256：`0f772fe35d3a10e67b54e879892f641c9e7892314dd8817428dcadd9ec6e1320`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -2695,11 +2695,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/ePxgPKcI1fU
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/vR5fCLCTNq4?start=95&end=183
+- 實際檢查秒點：95、108、128、150、170、182
+- 播放區間：95 秒起，183 秒止
+- 可見內容：95 秒開始側平舉，手肘微彎抬至肩高；150、170 秒以文字分別標示聳肩、下放鬆懈錯誤。183 秒起是前平舉，因此嵌入止於183秒。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="romanian-deadlift"></a>
@@ -2767,8 +2767,8 @@
 <a id="dumbbell-lunge"></a>
 ## 啞鈴弓箭步
 
-- ID：`dumbbell-lunge`；內容修訂：3
-- 內容 SHA-256：`c6fe5a0160040c9ec25f9c00e378a34ac86926a4aa16ba7f9717a1f2e200848a`
+- ID：`dumbbell-lunge`；內容修訂：4
+- 內容 SHA-256：`fd2a967dad72c5302f6379d8dcd1ecc218945a2ac97265fb289009aecac6ffb4`
 - 唯一編輯來源：[JSON](../content/exercises/dumbbell-lunge.json)
 - 指定版本：啞鈴弓箭步；本項起始設定：雙手持啞鈴自然垂放，跨出穩定步距。
 - 器材：啞鈴
@@ -2798,10 +2798,10 @@
 - [Mayo Clinic 肌力訓練原則](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [GymNation：啞鈴前跨弓箭步](https://gymnation.com/en-sa/exercise-library/dumbbell-lunge/) — movement-specific；核對日期：2026-09-20；支持：雙啞鈴垂側、前跨後屈膝、前腳推地返回站姿。已讀健身機構原始四步教學；不採用能預防或減少膝痛的保證，不將前膝不得超過腳尖當規則。
 
-- text：文字來源已核對。已讀健身機構原始四步教學；不採用能預防或減少膝痛的保證，不將前膝不得超過腳尖當規則。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。
-- image：已視覺檢查（非專業認證）。向前跨步而非反向弓箭步，前腳掌完整著地、起身回站；每側 8–12 次 3 組包含本站每側 10 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[新手下肢訓練參考](https://www.youtube.com/watch?v=H14HliH4Mfs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀健身機構原始四步教學；不採用能預防或減少膝痛的保證，不將前膝不得超過腳尖當規則。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。向前跨步而非反向弓箭步，前腳掌完整著地、起身回站；每側 8–12 次 3 組包含本站每側 10 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。雙手各持一顆啞鈴，1秒向前跨出、2秒屈膝下蹲，3.4秒推回併站；其後可見同腿往返循環。本站左右交替仍依文字，不是影片有示範換側。排除 f-6FbxXxmrE 後段混有其他變化。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[啞鈴前跨弓箭步示範](https://www.youtube.com/watch?v=JTprZdkJqc4)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-dumbbell-lunge-zh-tw.png`；SHA-256：`2e2c44d0b254a0828044e0f5cf5bb82120f65a928fc9e1b20b507d706f33c939`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -2813,11 +2813,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/H14HliH4Mfs
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/JTprZdkJqc4
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/JTprZdkJqc4
+- 實際檢查秒點：0.5、1、2、3.4、5、6.5、8、9.4、11、12
+- 播放區間：0 秒起，原片結尾
+- 可見內容：雙手各持一顆啞鈴，1秒向前跨出、2秒屈膝下蹲，3.4秒推回併站；其後可見同腿往返循環。本站左右交替仍依文字，不是影片有示範換側。排除 f-6FbxXxmrE 後段混有其他變化。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="kettlebell-swing"></a>
@@ -2944,8 +2944,8 @@
 <a id="assisted-pull-up"></a>
 ## 輔助引體向上
 
-- ID：`assisted-pull-up`；內容修訂：5
-- 內容 SHA-256：`77dceea4a746785b90ac8e1941d5a22faf2a9f2c15d0dcaee007dde86fcd58fc`
+- ID：`assisted-pull-up`；內容修訂：6
+- 內容 SHA-256：`f3420dd2846f8054bee4e692d80a69be1edc8e222d40b37def84484e2cd97f33`
 - 唯一編輯來源：[JSON](../content/exercises/assisted-pull-up.json)
 - 指定版本：跪墊式輔助引體向上：雙膝支撐於活動墊；上下機踏固定踏階，不用活動墊當站板。
 - 器材：輔助引體機
@@ -2978,10 +2978,10 @@
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [Fitness Institute：跪墊式輔助引體向上](https://fitnessinstitute.com.au/chin-ups-pin-loaded-assisted/) — movement-specific；核對日期：2026-09-20；支持：使用固定踏階與雙膝活動墊、輔助配重越重越省力、屈肘上拉與控制下放。已讀 Life Fitness Assisted Dip/Chin 雙膝墊教學；離機安全必須按現場說明，不適用活動站板式機台。
 
-- text：文字來源已核對。已讀 Life Fitness Assisted Dip/Chin 雙膝墊教學；離機安全必須按現場說明，不適用活動站板式機台。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。
-- image：已視覺檢查（非專業認證）。固定踏階、雙膝支撐與移動膝墊分開；上拉時人體和膝墊同步升高，回程一致，3 組 8 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。
-- video：待核對。舊影片動作不相符，已停止播放與連結。
-- 影片：[垂直下拉路徑參考](https://www.youtube.com/watch?v=0KULvdo7T0c)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀 Life Fitness Assisted Dip/Chin 雙膝墊教學；離機安全必須按現場說明，不適用活動站板式機台。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。固定踏階、雙膝支撐與移動膝墊分開；上拉時人體和膝墊同步升高，回程一致，3 組 8 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。機台活動膝墊、固定踏階；36秒字幕指雙膝跪上，40秒下沉、55及85秒向上拉。後段另解釋握法差異；未取得完整下機步驟，仍須依本站文字及現場機型規範。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[輔助引體向上器材教學](https://www.youtube.com/watch?v=Hw7qI5h-QUg)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-assisted-pull-up-v2-zh-tw.png`；SHA-256：`385c04b2a569bb7dafe8aec2fd45ea5ac2c39a451fbf05e03cb91d3b2b4adba0`
 - 原圖生成所依文字版本：77dceea4a746785b90ac8e1941d5a22faf2a9f2c15d0dcaee007dde86fcd58fc，不得事後填成目前版本。
 
@@ -2998,18 +2998,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/0KULvdo7T0c
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/Hw7qI5h-QUg
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/Hw7qI5h-QUg
+- 實際檢查秒點：10、25、28、32、36、40、55、70、85、94、100、106
+- 播放區間：0 秒起，原片結尾
+- 可見內容：機台活動膝墊、固定踏階；36秒字幕指雙膝跪上，40秒下沉、55及85秒向上拉。後段另解釋握法差異；未取得完整下機步驟，仍須依本站文字及現場機型規範。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="machine-hip-thrust"></a>
 ## 臀推機臀推
 
-- ID：`machine-hip-thrust`；內容修訂：3
-- 內容 SHA-256：`aff3f4301e2edf45d4f411440e6db9f6c46fd1a53962a2b4404042209c012d1f`
+- ID：`machine-hip-thrust`；內容修訂：4
+- 內容 SHA-256：`34dbfd10a54abab02c88413ff799976180fa0959c2f9a2029781815348f104a5`
 - 唯一編輯來源：[JSON](../content/exercises/machine-hip-thrust.json)
 - 指定版本：臀推機臀推；本項起始設定：上背靠穩墊面，髖墊置於骨盆前側。
 - 器材：臀推機
@@ -3041,10 +3041,10 @@
 - [Hussle：臀推機動作教學](https://www.hussle.com/blog/how-to-use-a-hip-thrust-machine-for-optimal-gains/) — movement-specific；核對日期：2026-09-20；支持：上背靠墊、骨盆前側墊帶、腳掌推地、肩髖膝約成線、頸部隨軀幹與控制回程。已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。
 - [Hammer Strength：Glute Drive 原廠設備](https://www.lifefitness.com/en-us/catalog/strength-training/plate-loaded/hammer-strength-plate-loaded-glute-drive) — movement-specific；核對日期：2026-09-20；支持：上背支撐墊、腳踏平台、腰髖墊帶結構。原廠產品說明，不當成完整上下機手冊；圖解亦不宣稱精確復刻此型號。
 
-- text：文字來源已核對。已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。
-- image：已視覺檢查（非專業認證）。可見上背靠墊、骨盆前方護墊、腳踩平台與伸髖回程；10–15 次 3 組包含本站 10 次。退出／卸载需配合旁邊文字，圖非機台操作手冊。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[下半身器械使用參考](https://www.youtube.com/watch?v=H14HliH4Mfs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀器械臀推段落，並參照 Life Fitness 原廠 Glute Drive 結構；不採文章的『必須重重量』或防受傷保證，解扣必須依現場型號。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。可見上背靠墊、骨盆前方護墊、腳踩平台與伸髖回程；10–15 次 3 組包含本站 10 次。退出／卸载需配合旁邊文字，圖非機台操作手冊。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。Matrix臀推機坐入、上背支撐、骨盆前方墊臂、踏板位置；62秒伸髖、68秒下降、75及82秒說明呼吸。為臀推機而非槓鈴臀推；卸載鎖扣仍依機身說明。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[臀推機器材教學](https://www.youtube.com/watch?v=YQiVUH3aXkU)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-machine-hip-thrust-zh-tw.png`；SHA-256：`b545e4dffc7ebcd121bf37cb4698cf569c5c50953bc24b1c3a62f3b371c17363`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -3056,18 +3056,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/H14HliH4Mfs
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/YQiVUH3aXkU
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/YQiVUH3aXkU
+- 實際檢查秒點：5、15、25、35、45、55、62、68、75、82
+- 播放區間：0 秒起，原片結尾
+- 可見內容：Matrix臀推機坐入、上背支撐、骨盆前方墊臂、踏板位置；62秒伸髖、68秒下降、75及82秒說明呼吸。為臀推機而非槓鈴臀推；卸載鎖扣仍依機身說明。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="hack-squat"></a>
 ## 哈克深蹲
 
-- ID：`hack-squat`；內容修訂：3
-- 內容 SHA-256：`956ba07e069a6033707e321d92eb9786b1245fa635cb669dd4903d8b71ca4964`
+- ID：`hack-squat`；內容修訂：4
+- 內容 SHA-256：`b91e24e532208eae6d8327c6071aa93200d9ba8c0ff315cbe6153f13e5e140ed`
 - 唯一編輯來源：[JSON](../content/exercises/hack-squat.json)
 - 指定版本：哈克深蹲；本項起始設定：肩背貼穩墊面，雙腳置於踏板約肩寬。
 - 器材：哈克深蹲機
@@ -3097,10 +3097,10 @@
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [PureGym：哈克深蹲](https://www.puregym.com/exercises/legs/quad-exercises/squats/hack-squat/) — movement-specific；核對日期：2026-09-20；支持：肩背貼墊、雙腳在踏板、確認安全扣、控制下蹲和起身。已讀斜導軌肩背支撐版本；深度以可穩定控制為準，不強迫所有人蹲至固定角度。
 
-- text：文字來源已核對。已讀斜導軌肩背支撐版本；深度以可穩定控制為準，不強迫所有人蹲至固定角度。；份量是本站起始參考，不是來源的個人化處方。
-- image：已視覺檢查（非專業認證）。肩背貼滑車、腳踩固定踏板、下降與推回方向一致；安全扣和回掛文字具備，8–12 次 3 組包含本站 10 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[下半身器械教學](https://www.youtube.com/watch?v=H14HliH4Mfs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀斜導軌肩背支撐版本；深度以可穩定控制為準，不強迫所有人蹲至固定角度。；份量是本站起始參考，不是來源的個人化處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。肩背貼滑車、腳踩固定踏板、下降與推回方向一致；安全扣和回掛文字具備，8–12 次 3 組包含本站 10 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。1秒踏板腳掌位置、5秒腰背靠墊、10秒腳掌支撐正誤對比、15秒背靠式深蹲；無反向站姿片段。未示範解鎖掛回，仍依本站文字及機身說明。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[哈克深蹲重點示範](https://www.youtube.com/shorts/rzsfm43_9c0)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-hack-squat-zh-tw.png`；SHA-256：`a1937d1a73e43784db1075b4facddf4e9d8b04bf5fb7de20b2275be4222866f6`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -3112,18 +3112,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/H14HliH4Mfs
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/rzsfm43_9c0
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/rzsfm43_9c0
+- 實際檢查秒點：1、5、10、12、13、14、15、16
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1秒踏板腳掌位置、5秒腰背靠墊、10秒腳掌支撐正誤對比、15秒背靠式深蹲；無反向站姿片段。未示範解鎖掛回，仍依本站文字及機身說明。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="standing-calf-raise"></a>
 ## 站姿提踵
 
-- ID：`standing-calf-raise`；內容修訂：5
-- 內容 SHA-256：`005fe2fbc1e59837ae05c2b67f11a922c8bcf2e388bfe7b223612fcd057ca9fb`
+- ID：`standing-calf-raise`；內容修訂：6
+- 內容 SHA-256：`7b13467f171456b9be76a287e353ed4a15358070f21971b4e3572715a42fa966`
 - 唯一編輯來源：[JSON](../content/exercises/standing-calf-raise.json)
 - 指定版本：站姿提踵；本項起始設定：前腳掌踩穩踏板，肩墊高度調整合適。
 - 器材：小腿訓練機
@@ -3154,10 +3154,10 @@
 - [Mayo Clinic 肌力訓練原則](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [IFA：肩墊式站姿提踵機](https://ifafitness.com/wttrain/calfraise.htm) — movement-specific；核對日期：2026-09-20；支持：肩墊高度、前腳掌踩踏塊、腳跟控制下降、抬起與回程。已讀機械段落，採腳尖朝前版本；不採用任意內外轉 45 度或膝過伸。無特定品牌操作機構的支持，解鎖方式依現場說明。
 
-- text：文字來源已核對。已讀機械段落，採腳尖朝前版本；不採用任意內外轉 45 度或膝過伸。無特定品牌操作機構的支持，解鎖方式依現場說明。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。
-- image：已視覺檢查（非專業認證）。已改為前腳掌踩踏塊、腳跟懸出後緣，下放與提起均有活動空間；3 組 15 次及卸載後離機提示一致。；已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[下肢器械使用參考](https://www.youtube.com/watch?v=H14HliH4Mfs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已讀機械段落，採腳尖朝前版本；不採用任意內外轉 45 度或膝過伸。無特定品牌操作機構的支持，解鎖方式依現場說明。；已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。已改為前腳掌踩踏塊、腳跟懸出後緣，下放與提起均有活動空間；3 組 15 次及卸載後離機提示一致。；已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。原廠肩墊式機型，2秒定位握把、8秒肩墊承重踮起，15秒腳跟下放；非腿推機提踵或坐姿版本。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[站姿提踵機操作示範](https://www.youtube.com/watch?v=g_E7_q1z2bo)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-standing-calf-raise-v2-zh-tw.png`；SHA-256：`4343e16d746ac06e01f2569297fa0ee541f8a657a8ab8241b49adbc4a06cb008`
 - 原圖生成所依文字版本：005fe2fbc1e59837ae05c2b67f11a922c8bcf2e388bfe7b223612fcd057ca9fb，不得事後填成目前版本。
 
@@ -3176,18 +3176,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/H14HliH4Mfs
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/g_E7_q1z2bo
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/g_E7_q1z2bo
+- 實際檢查秒點：2、8、15
+- 播放區間：0 秒起，原片結尾
+- 可見內容：原廠肩墊式機型，2秒定位握把、8秒肩墊承重踮起，15秒腳跟下放；非腿推機提踵或坐姿版本。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="machine-hip-adduction"></a>
 ## 坐姿大腿內收
 
-- ID：`machine-hip-adduction`；內容修訂：4
-- 內容 SHA-256：`776bad570c3bac7590b7525f93114eec646546c2433d116a8c12eb894aa2956d`
+- ID：`machine-hip-adduction`；內容修訂：5
+- 內容 SHA-256：`ac3cbc0d39868bc009e385caf5aced6120c625982abd6f45de3532237801e686`
 - 唯一編輯來源：[JSON](../content/exercises/machine-hip-adduction.json)
 - 指定版本：坐姿大腿內收；本項起始設定：依機身圖示調整座椅、起始角度與擋墊，讓擋墊接觸大腿內側、避開膝關節直接受壓；不套用膝蓋對準轉軸的口訣。
 - 器材：大腿內收機
@@ -3217,10 +3217,10 @@
 - [Fitness Institute 髖內收](https://fitnessinstitute.com.au/hip-adduction-pin-loaded/) — movement-specific；核對日期：2026-09-20；支持：內側擋墊與合腿、受控回程。僅支持所列動作要點；本站份量、休息與退階為一般起始參考，不宣稱出自此頁的個人處方。
 - [Women's Health Taiwan](https://www.womenshealthmag.com/tw/fitness/work-outs/g43382298/inner-outer-thigh/) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 
-- text：文字來源已核對。已對照原始來源：內側擋墊與合腿、受控回程。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。
-- image：已視覺檢查（非專業認證）。阻力墊在大腿內側而非外側，雙腳有踏桿支撐，張開→合攏→張開三階段一致，3 組 12 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[大腿內收／外展訓練機教學](https://www.youtube.com/watch?v=3iGBw2muBrc)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照原始來源：內側擋墊與合腿、受控回程。預設次數、組數及舒適範圍仍依個人能力調整，不是醫療處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。阻力墊在大腿內側而非外側，雙腳有踏桿支撐，張開→合攏→張開三階段一致，3 組 12 次相符。；已對照可見姿勢、支撐與文字；器械外形為示意，設定與上下機依現場機型，非生物力學量測或專業認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。機身標HIP ADDUCTION；25及45秒調節拉鈕，坐姿墊在腿內側，58至66秒合腿與控制張開，70秒收回起始角後76秒離機。原3iGBw2muBrc雖標內收／外展，實際主示範向外打開且墊在外側，故不配給內收。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[坐姿大腿內收機操作教學](https://www.youtube.com/watch?v=HVt2MwtdPek)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-machine-hip-adduction-v2-zh-tw.png`；SHA-256：`c1166a8cbd814a171aa6b5256fb76081954861f64fdb0e8382356d083423af70`
 - 原圖生成所依文字版本：776bad570c3bac7590b7525f93114eec646546c2433d116a8c12eb894aa2956d，不得事後填成目前版本。
 
@@ -3237,11 +3237,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/3iGBw2muBrc
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/HVt2MwtdPek
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/HVt2MwtdPek
+- 實際檢查秒點：5、15、25、35、45、48、55、58、62、66、70、76
+- 播放區間：0 秒起，原片結尾
+- 可見內容：機身標HIP ADDUCTION；25及45秒調節拉鈕，坐姿墊在腿內側，58至66秒合腿與控制張開，70秒收回起始角後76秒離機。原3iGBw2muBrc雖標內收／外展，實際主示範向外打開且墊在外側，故不配給內收。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="machine-hip-abduction"></a>
@@ -3421,8 +3421,8 @@
 <a id="reverse-pec-deck"></a>
 ## 反向蝴蝶機
 
-- ID：`reverse-pec-deck`；內容修訂：3
-- 內容 SHA-256：`72a35561ad6debd2bd1347bc52bc9c35504fab9967bf1beeea597690c62399ce`
+- ID：`reverse-pec-deck`；內容修訂：4
+- 內容 SHA-256：`044f66afa68b4b827783a96f53853de1cb3844f7afddcdb208ae296f8dec376f`
 - 唯一編輯來源：[JSON](../content/exercises/reverse-pec-deck.json)
 - 指定版本：反向蝴蝶機；本項起始設定：面向器械坐穩，胸口貼靠墊面。
 - 器材：蝴蝶機
@@ -3452,10 +3452,10 @@
 - [東吳大學體育室](https://web-ch.scu.edu.tw/physical/web_page/8857) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [Fitness Institute 反向飛鳥](https://fitnessinstitute.com.au/rear-delt-pin-loaded/) — movement-specific；核對日期：2026-09-20；支持：Life Fitness 飛鳥／後三角機胸靠墊、雙腳踩地、展臂與控制回程。來源機型 Life Fitness Pectoral Fly/Rear Deltoid；其他機型的起始角度需依原廠圖示調整。
 
-- text：文字來源已核對。已對照動作專屬來源：Life Fitness 飛鳥／後三角機胸靠墊、雙腳踩地、展臂與控制回程。；來源機型 Life Fitness Pectoral Fly/Rear Deltoid；其他機型的起始角度需依原廠圖示調整。
-- image：已視覺檢查（非專業認證）。胸口靠墊、手臂由前向兩側展開再回程；圖有切換正反視角，不代表中途轉身，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：待核對。舊影片動作不相符，已停止播放與連結。
-- 影片：[蝴蝶機操作參考](https://www.youtube.com/watch?v=vZ3ok2xIsK4)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照動作專屬來源：Life Fitness 飛鳥／後三角機胸靠墊、雙腳踩地、展臂與控制回程。；來源機型 Life Fitness Pectoral Fly/Rear Deltoid；其他機型的起始角度需依原廠圖示調整。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。胸口靠墊、手臂由前向兩側展開再回程；圖有切換正反視角，不代表中途轉身，10–15 次 3 組包含本站 12 次。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。中立握把、肩胛穩定與微彎手肘近照，10秒坐姿面向器械展臂；未示範調座椅，上機設定以本站文字及機身說明為準。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[反向蝴蝶機重點示範](https://www.youtube.com/shorts/H5UxZFl0lgk)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-reverse-pec-deck-zh-tw.png`；SHA-256：`850e2145c6d7d04396192a2095a04ea5ce8f39a78090c5117ab57497003ad964`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -3467,11 +3467,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/vZ3ok2xIsK4
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/H5UxZFl0lgk
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/H5UxZFl0lgk
+- 實際檢查秒點：1、4、7、8、8.5、9、9.5、10
+- 播放區間：0 秒起，原片結尾
+- 可見內容：中立握把、肩胛穩定與微彎手肘近照，10秒坐姿面向器械展臂；未示範調座椅，上機設定以本站文字及機身說明為準。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="incline-push-up"></a>
@@ -3539,8 +3539,8 @@
 <a id="reverse-lunge"></a>
 ## 反向弓箭步
 
-- ID：`reverse-lunge`；內容修訂：4
-- 內容 SHA-256：`350a5ed3fa55fc459d40f9ab046e2e2fb6c73ba2b52d9bc53468297152e5832c`
+- ID：`reverse-lunge`；內容修訂：5
+- 內容 SHA-256：`bf1a7f939935770e0475c4cbf39b82c3e2652277be6580048a4441e14bb0068e`
 - 唯一編輯來源：[JSON](../content/exercises/reverse-lunge.json)
 - 指定版本：反向弓箭步；本項起始設定：站直並扶牆也可以，一腳向後跨一大步。
 - 器材：徒手
@@ -3570,10 +3570,10 @@
 - [衛生福利部國民健康署](https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=571&pid=9778&sid=9771) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [NASM：反向弓箭步](https://www.nasm.org/resource-center/blog/squat-alternatives) — movement-specific；核對日期：2026-09-20；支持：髖寬站姿、一脚往後跨、前腳承重、前腳推地回站姿、可交替左右側。核對 Reverse Lunges 段落；不採同頁不相關腿彎舉說明。本站左右各 8 次 × 2 組為起始參考。
 
-- text：文字來源已核對。核對 Reverse Lunges 段落；不採同頁不相關腿彎舉說明。本站左右各 8 次 × 2 組為起始參考。
-- image：已視覺檢查（非專業認證）。四格確認站立、後跨同一路徑、前腳全掌支撐下蹲及回站；未交叉後跨。左右各 8 次、2 組正確。；已人工檢視可見畫面及文字，非醫療或生物力學認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[新手下肢動作參考](https://www.youtube.com/watch?v=H14HliH4Mfs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。核對 Reverse Lunges 段落；不採同頁不相關腿彎舉說明。本站左右各 8 次 × 2 組為起始參考。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。四格確認站立、後跨同一路徑、前腳全掌支撐下蹲及回站；未交叉後跨。左右各 8 次、2 組正確。；已人工檢視可見畫面及文字，非醫療或生物力學認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。站姿側面向後跨再屈膝，前脚踩穩，回到併站；後段正面示範相同路徑，另提示站距與重心。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[徒手後退弓箭步教學](https://www.youtube.com/watch?v=8D9IjGGYMJQ)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-reverse-lunge-v2-zh-tw.png`；SHA-256：`cb357ffbf8b0fc7c1d99bb77c3da22fd9b0d086e54fd4759cf86d4f124caf9c0`
 - 原圖生成所依文字版本：350a5ed3fa55fc459d40f9ab046e2e2fb6c73ba2b52d9bc53468297152e5832c，不得事後填成目前版本。
 
@@ -3592,11 +3592,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/H14HliH4Mfs
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/8D9IjGGYMJQ
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/8D9IjGGYMJQ
+- 實際檢查秒點：1、4、7、10、15、23、30、40、50、59
+- 播放區間：0 秒起，原片結尾
+- 可見內容：站姿側面向後跨再屈膝，前脚踩穩，回到併站；後段正面示範相同路徑，另提示站距與重心。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="glute-bridge"></a>
@@ -3784,8 +3784,8 @@
 <a id="mountain-climber"></a>
 ## 登山者
 
-- ID：`mountain-climber`；內容修訂：3
-- 內容 SHA-256：`0419225f75994a79ed73b588be8a25c0184398bcfb4c90f2b95f2d6459f8234a`
+- ID：`mountain-climber`；內容修訂：4
+- 內容 SHA-256：`ce333a4d340be788a41ef8e5dcbd1ba4b25430640f12934b249007ac2d01202c`
 - 唯一編輯來源：[JSON](../content/exercises/mountain-climber.json)
 - 指定版本：慢速登山者：高棒式、單膝朝同側胸口方向收近，回程後才換腿；不是交叉提膝或跳躍換腿版本。
 - 器材：徒手
@@ -3816,10 +3816,10 @@
 - [[P]rehab：慢速登山者](https://library.theprehabguys.com/vimeo-video/mountain-climber-slow/) — movement-specific；核對日期：2026-09-20；支持：高棒式起始、單膝向胸前、回程後換側、核心穩定與避免背部過度屈伸。已讀 HOW、FEEL、COMPENSATION 原始教學；只支持慢速版本，未觀看該頁 56 秒示範，不用它取代本站待補影片。每側 12 次 × 2 組為本站一般起始參考，不是來源處方。
 - [ACE：登山者（不同版本）](https://www.acefitness.org/resources/everyone/exercise-library/258/mountain-climbers/) — variant-comparison；核對日期：2026-09-20；支持：手扶穩固高台的降低難度方式。原頁採雙腳同時離地的換腿版本，不能拿來證明本站慢速回程版本；不採用其跳躍分鏡。
 
-- text：文字來源已核對。核對 [P]rehab 慢速版；明確移除加速暗示並補回程、換腿與雙膝落地結束。ACE 跳躍版及 Physitrack 頁面內的弓步旋轉不當作相同示範。；份量為本站一般起始參考，不是個人化處方；影片仍待補。
-- image：已視覺檢查（非專業認證）。已檢視四格新圖：第二格近鏡腿彎曲、遠腿支撐，第四格改為遠腿彎曲、近腿支撐；第三格雙腳回高棒式，與舊圖重複同側問題不同。；核對圖中每側 12 次 × 2 組、呼吸與主檔一致，無標語、視線朝地；左側標記指向該側鞋部而非膝，腿位仍可辨識。；這是成品視覺核對，不是生物力學量測或醫療／專業認證；未完成完整影片審查。
-- video：待核對。舊影片動作不相符，已停止播放與連結。
-- 影片：[高棒式姿勢參考](https://www.youtube.com/watch?v=i17dhEn4_7Y)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。核對 [P]rehab 慢速版；明確移除加速暗示並補回程、換腿與雙膝落地結束。ACE 跳躍版及 Physitrack 頁面內的弓步旋轉不當作相同示範。；份量為本站一般起始參考，不是個人化處方；影片仍待補。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。已檢視四格新圖：第二格近鏡腿彎曲、遠腿支撐，第四格改為遠腿彎曲、近腿支撐；第三格雙腳回高棒式，與舊圖重複同側問題不同。；核對圖中每側 12 次 × 2 組、呼吸與主檔一致，無標語、視線朝地；左側標記指向該側鞋部而非膝，腿位仍可辨識。；這是成品視覺核對，不是生物力學量測或醫療／專業認證；未完成完整影片審查。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。高棒式雙手撐地，一腳支撐另一膝往同側胸前，先退回再換腿，非跳躍或交叉提膝。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[慢速登山者示範](https://www.youtube.com/watch?v=O5tgMG1AfSM)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-mountain-climber-v2-zh-tw.png`；SHA-256：`243b72c4a32ca67be73a1a03c5c29aaa2f710d6fa0d410fc68f5e08ca3781c80`
 - 原圖生成所依文字版本：0419225f75994a79ed73b588be8a25c0184398bcfb4c90f2b95f2d6459f8234a，不得事後填成目前版本。
 
@@ -3838,18 +3838,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/i17dhEn4_7Y
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/O5tgMG1AfSM
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/O5tgMG1AfSM
+- 實際檢查秒點：1、4、7、10、14、18
+- 播放區間：0 秒起，原片結尾
+- 可見內容：高棒式雙手撐地，一腳支撐另一膝往同側胸前，先退回再換腿，非跳躍或交叉提膝。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="wall-sit"></a>
 ## 靠牆深蹲停留
 
-- ID：`wall-sit`；內容修訂：4
-- 內容 SHA-256：`ce302f700e3066956bd1c7d7522367df878c1eefa09667af73d53f18a65a043f`
+- ID：`wall-sit`；內容修訂：5
+- 內容 SHA-256：`a77139846914d6e71f027e55fd01d35bc731ed07e057c5209344bed47e2c4a0f`
 - 唯一編輯來源：[JSON](../content/exercises/wall-sit.json)
 - 指定版本：靠牆深蹲停留；本項起始設定：背部靠穩牆面，雙腳向前移至能全腳掌踩穩、膝蓋舒適的位置，不固定為一個腳掌的距離。
 - 器材：徒手
@@ -3879,10 +3879,10 @@
 - [衛生福利部國民健康署](https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=571&pid=9778&sid=9771) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [Kingston and Richmond NHS：雙腳靠牆停留](https://www.kingstonandrichmond.nhs.uk/patients-and-families/patient-leaflets/patellar-tendinopathy) — movement-specific；核對日期：2026-09-20；支持：背靠牆、雙腳往前、下滑至能控制的深度並保持。僅引用 Phase 2 的動作原理，不採治療進程、疼痛容許值或每日頻率。本站保持 30 秒 × 2 組為一般起始參考；疼痛即停止。
 
-- text：文字來源已核對。僅引用 Phase 2 的動作原理，不採治療進程、疼痛容許值或每日頻率。本站保持 30 秒 × 2 組為一般起始參考；疼痛即停止。
-- image：已視覺檢查（非專業認證）。三格確認背靠牆及全腳掌支撐、舒適深度保持、控制站回；移除強制九十度與額外組數。2 組 × 30 秒。；已人工檢視可見畫面及文字，非醫療或生物力學認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[新手深蹲姿勢參考](https://www.youtube.com/watch?v=H14HliH4Mfs)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。僅引用 Phase 2 的動作原理，不採治療進程、疼痛容許值或每日頻率。本站保持 30 秒 × 2 組為一般起始參考；疼痛即停止。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。三格確認背靠牆及全腳掌支撐、舒適深度保持、控制站回；移除強制九十度與額外組數。2 組 × 30 秒。；已人工檢視可見畫面及文字，非醫療或生物力學認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。1秒背靠牆下滑，3至9秒雙腳踩地靜態維持，10秒起身；不是連續動態深蹲，本站不要求跟隨示範者深度。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[靠牆深蹲停留示範](https://www.youtube.com/watch?v=RG7z0P9qrLk)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-wall-sit-v2-zh-tw.png`；SHA-256：`3342e0c5962682c2809fed489616d892d7c1e3db96c77f487d5518dd30519a1a`
 - 原圖生成所依文字版本：ce302f700e3066956bd1c7d7522367df878c1eefa09667af73d53f18a65a043f，不得事後填成目前版本。
 
@@ -3899,18 +3899,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/H14HliH4Mfs
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/RG7z0P9qrLk
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/RG7z0P9qrLk
+- 實際檢查秒點：1、3、5、7、9、10
+- 播放區間：0 秒起，原片結尾
+- 可見內容：1秒背靠牆下滑，3至9秒雙腳踩地靜態維持，10秒起身；不是連續動態深蹲，本站不要求跟隨示範者深度。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="superman"></a>
 ## 俯臥超人式
 
-- ID：`superman`；內容修訂：4
-- 內容 SHA-256：`7cd24e9eb8dce1405bace8d8ee7875b7a743b2590b7717572f5c9491f64387af`
+- ID：`superman`；內容修訂：5
+- 內容 SHA-256：`53b0382be48278da3f0bbf56520b4e1e97f70397a7faa1c91ca87c7e475b272c`
 - 唯一編輯來源：[JSON](../content/exercises/superman.json)
 - 指定版本：俯臥超人式；本項起始設定：俯臥並將手臂向前伸，額頭朝向地面。
 - 器材：徒手
@@ -3940,10 +3940,10 @@
 - [Mayo Clinic 肌力訓練原則](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [ACE：俯臥超人式](https://www.acefitness.org/resources/everyone/exercise-library/9/supermans/) — movement-specific；核對日期：2026-09-20；支持：俯臥雙手前伸、手腳同步小幅抬起再控制放回、頭頸自然、不拱腰。核對起始、抬起與放下三階段；僅採小幅度、舒適範圍。本站 2 組 × 10 次不是來源的個人處方。
 
-- text：文字來源已核對。核對起始、抬起與放下三階段；僅採小幅度、舒適範圍。本站 2 組 × 10 次不是來源的個人處方。
-- image：已視覺檢查（非專業認證）。三格確認俯臥、雙手雙腿小幅離地及放回；頭頸朝墊面，不抬頭看鏡頭。2 組 × 10 次，疼痛停止提示保留。；已人工檢視可見畫面及文字，非醫療或生物力學認證。
-- video：待核對。舊影片動作不相符，已停止播放與連結。
-- 影片：[徒手核心訓練參考](https://www.youtube.com/watch?v=i17dhEn4_7Y)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。核對起始、抬起與放下三階段；僅採小幅度、舒適範圍。本站 2 組 × 10 次不是來源的個人處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。三格確認俯臥、雙手雙腿小幅離地及放回；頭頸朝墊面，不抬頭看鏡頭。2 組 × 10 次，疼痛停止提示保留。；已人工檢視可見畫面及文字，非醫療或生物力學認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。俯臥雙臂向前、雙腿同時抬起，4秒放回，7至10秒再抬；非對側游泳版本。示範高度僅供路徑參考，不覆蓋本站舒適低幅度提示。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[俯臥超人式示範](https://www.youtube.com/watch?v=2weqS3uqWlM)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-superman-v2-zh-tw.png`；SHA-256：`6dfe9013e1683f5b411dc012819af9d26eb79e9758eeb883b4ee38aa4f460d16`
 - 原圖生成所依文字版本：7cd24e9eb8dce1405bace8d8ee7875b7a743b2590b7717572f5c9491f64387af，不得事後填成目前版本。
 
@@ -3960,11 +3960,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/i17dhEn4_7Y
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/2weqS3uqWlM
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/2weqS3uqWlM
+- 實際檢查秒點：1、4、7、10
+- 播放區間：0 秒起，原片結尾
+- 可見內容：俯臥雙臂向前、雙腿同時抬起，4秒放回，7至10秒再抬；非對側游泳版本。示範高度僅供路徑參考，不覆蓋本站舒適低幅度提示。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="cat-cow"></a>
@@ -4083,8 +4083,8 @@
 <a id="kneeling-hip-flexor-stretch"></a>
 ## 跪姿髖屈肌伸展
 
-- ID：`kneeling-hip-flexor-stretch`；內容修訂：5
-- 內容 SHA-256：`9bc885bcd03e3de12d3c1909310e806195cfee726a68a67760ec5e3a0af026fa`
+- ID：`kneeling-hip-flexor-stretch`；內容修訂：6
+- 內容 SHA-256：`4427474168265a12a2d23cac55bea9a1bba3e70110bb16e503fb2822d8c55266`
 - 唯一編輯來源：[JSON](../content/exercises/kneeling-hip-flexor-stretch.json)
 - 指定版本：跪姿髖屈肌伸展；本項起始設定：單膝跪地、另一腳踩在前方，必要時扶牆。
 - 器材：瑜珈墊
@@ -4115,10 +4115,10 @@
 - [衛生福利部國民健康署](https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=825&pid=14211) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [ACE 半跪髖屈肌伸展](https://www.acefitness.org/resources/everyone/exercise-library/142/kneeling-hip-flexor-stretch/) — movement-specific；核對日期：2026-09-20；支持：半跪排列、骨盆穩定及後側臀部輕收。只支持所列姿勢重點；本站預設份量非個人化處方。
 
-- text：文字來源已核對。已對照動作專屬來源：半跪排列、骨盆穩定及後側臀部輕收。；課表份量仍按能力調整，非醫療處方。
-- image：已視覺檢查（非專業認證）。重新檢視四格：半跪、骨盆穩定小幅前移、保持與退回；每側 30 秒合共兩組一致。已區分墊子減少接觸壓力與關節疼痛需停止。；圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[睡前 10 分鐘全身伸展放鬆](https://www.youtube.com/watch?v=vdIugUHKGWg)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照動作專屬來源：半跪排列、骨盆穩定及後側臀部輕收。；課表份量仍按能力調整，非醫療處方。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。重新檢視四格：半跪、骨盆穩定小幅前移、保持與退回；每側 30 秒合共兩組一致。已區分墊子減少接觸壓力與關節疼痛需停止。；圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。單膝跪墊前腳踩地，軀幹直立、骨盆微前移；5秒標不挺腰，8秒標骨盆前推，16秒正面說明骨盆。影片無完整換側，本站文字仍提示退回後扶穩換邊。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[單跪姿髖屈肌伸展](https://www.youtube.com/watch?v=dQAE29xW2lQ)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-kneeling-hip-flexor-stretch-v2-zh-tw.png`；SHA-256：`8ff46451e49f32caea86dd9ae11883c14f90ff8bd05a6b55a1a9766df2e5d30e`
 - 原圖生成所依文字版本：9bc885bcd03e3de12d3c1909310e806195cfee726a68a67760ec5e3a0af026fa，不得事後填成目前版本。
 
@@ -4137,11 +4137,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/vdIugUHKGWg
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/dQAE29xW2lQ
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/dQAE29xW2lQ
+- 實際檢查秒點：1、4、5、8、11、15、16、20
+- 播放區間：0 秒起，原片結尾
+- 可見內容：單膝跪墊前腳踩地，軀幹直立、骨盆微前移；5秒標不挺腰，8秒標骨盆前推，16秒正面說明骨盆。影片無完整換側，本站文字仍提示退回後扶穩換邊。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="figure-four-stretch"></a>
@@ -4326,8 +4326,8 @@
 <a id="downward-dog"></a>
 ## 下犬式
 
-- ID：`downward-dog`；內容修訂：3
-- 內容 SHA-256：`24adf0d61c18a95eb4b85bc5386efe76d9e24c6d6246a2eafd287d2e2cb39e7a`
+- ID：`downward-dog`；內容修訂：4
+- 內容 SHA-256：`c0d1e7ad9587bbe1be38eac51e666d269b08fc0fefd820d95641c547d8ea0621`
 - 唯一編輯來源：[JSON](../content/exercises/downward-dog.json)
 - 指定版本：下犬式；本項起始設定：四足跪姿，腳趾踩地後將髖部向後上方推。
 - 器材：瑜珈墊
@@ -4358,10 +4358,10 @@
 - [Mayo Clinic Mindful Movements](https://sharedfiles.mayoclinic.org/bedside/ope/GNT-20421908.html) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [ACE 下犬式](https://www.acefitness.org/resources/everyone/exercise-library/18/downward-facing-dog/) — movement-specific；核對日期：2026-09-20；支持：髖往後上方、軀幹延伸及可微屈膝。來源由高平板進出；本站是四足跪姿起始的靜態退階，屈膝回四足退出，不把來源動態份量直接套用。
 
-- text：文字來源已核對。已對照動作專屬來源：髖往後上方、軀幹延伸及可微屈膝。；來源由高平板進出；本站是四足跪姿起始的靜態退階，屈膝回四足退出，不把來源動態份量直接套用。
-- image：已視覺檢查（非專業認證）。倒 V 姿勢、可微屈膝、不強求腳跟接地；20–30 秒包含本站 30 秒，退出依文字屈膝回四足。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：待核對。舊影片動作不相符，已停止播放與連結。
-- 影片：[零基礎瑜珈入門](https://www.youtube.com/watch?v=JzU1lMR1Uzw)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照動作專屬來源：髖往後上方、軀幹延伸及可微屈膝。；來源由高平板進出；本站是四足跪姿起始的靜態退階，屈膝回四足退出，不把來源動態份量直接套用。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。倒 V 姿勢、可微屈膝、不強求腳跟接地；20–30 秒包含本站 30 秒，退出依文字屈膝回四足。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。四足跪姿進入、髖往上後推及手掌支撐，285至320秒再次示範進入與重心調整；後段含屈膝踩踏變化及不適提醒。本站採靜態舒適版，腳跟無須強壓地，影片活動變化不改課表計時。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[初學者下犬式教學](https://www.youtube.com/watch?v=YwFOL6vFfhE)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-downward-dog-zh-tw.png`；SHA-256：`92f74328eb9fad91df7f6ee88e9043e6e9355fd050fea3b1c98cf6920d2a7eed`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -4373,18 +4373,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/YwFOL6vFfhE
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/YwFOL6vFfhE
+- 實際檢查秒點：10、30、50、70、90、110、150、200、250、270、285、300、305、310、315、320、350、370、400、410、415、420、430、450、485
+- 播放區間：0 秒起，原片結尾
+- 可見內容：四足跪姿進入、髖往上後推及手掌支撐，285至320秒再次示範進入與重心調整；後段含屈膝踩踏變化及不適提醒。本站採靜態舒適版，腳跟無須強壓地，影片活動變化不改課表計時。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="cobra-pose"></a>
 ## 低眼鏡蛇式
 
-- ID：`cobra-pose`；內容修訂：3
-- 內容 SHA-256：`9bb732e97d726ebbf586791fff7cabb71715474ca3d88a9812fc883e4e023b46`
+- ID：`cobra-pose`；內容修訂：4
+- 內容 SHA-256：`86151e4e7eb81222aa9d0f99b2bced189e27c041e7e44c8143943eb9ef2f5976`
 - 唯一編輯來源：[JSON](../content/exercises/cobra-pose.json)
 - 指定版本：低眼鏡蛇式；本項起始設定：俯臥，手掌放在胸口兩側，手肘靠近身體。
 - 器材：瑜珈墊
@@ -4414,10 +4414,10 @@
 - [Mayo Clinic Mindful Movements](https://sharedfiles.mayoclinic.org/bedside/ope/GNT-20421908.html) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [ACE 眼鏡蛇式](https://www.acefitness.org/resources/everyone/exercise-library/16/cobra/) — movement-specific；核對日期：2026-09-20；支持：骨盆留在墊面、小幅抬胸、控制回程及腰痛停止。本站採低幅度版，非手肘完全伸直的高眼鏡蛇式。
 
-- text：文字來源已核對。已對照動作專屬來源：骨盆留在墊面、小幅抬胸、控制回程及腰痛停止。；本站採低幅度版，非手肘完全伸直的高眼鏡蛇式。
-- image：已視覺檢查（非專業認證）。骨盆腿部貼地、低幅胸抬、手輕扶與回趴可見，不是高眼鏡蛇／上犬式；15–20 秒包含本站 20 秒。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。
-- video：待核對。舊影片動作不相符，已停止播放與連結。
-- 影片：[零基礎瑜珈入門](https://www.youtube.com/watch?v=JzU1lMR1Uzw)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已對照動作專屬來源：骨盆留在墊面、小幅抬胸、控制回程及腰痛停止。；本站採低幅度版，非手肘完全伸直的高眼鏡蛇式。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。骨盆腿部貼地、低幅胸抬、手輕扶與回趴可見，不是高眼鏡蛇／上犬式；15–20 秒包含本站 20 秒。；已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。24秒俯臥、29至34秒手放胸旁肘貼身，35至40秒屈肘低幅抬胸且骨盆腿部留地，46秒放回。嵌入24至49秒聚焦此版本，非伸直手肘上犬式。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[低眼鏡蛇式動作教學](https://www.youtube.com/watch?v=79Fo2NnMblg&t=24s)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-cobra-pose-zh-tw.png`；SHA-256：`7ad6c6956b58c675ca6ff3cb04a35fc52442c1d8a282f409f30691336afb7f55`
 - 原圖生成所依文字版本：未知（歷史資產），不得事後填成目前版本。
 
@@ -4429,18 +4429,18 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/JzU1lMR1Uzw
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/79Fo2NnMblg?start=24&end=49
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/79Fo2NnMblg?start=24&end=49
+- 實際檢查秒點：24、29、34、35、40、46、53、60、90、120
+- 播放區間：24 秒起，49 秒止
+- 可見內容：24秒俯臥、29至34秒手放胸旁肘貼身，35至40秒屈肘低幅抬胸且骨盆腿部留地，46秒放回。嵌入24至49秒聚焦此版本，非伸直手肘上犬式。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="seated-forward-fold"></a>
 ## 坐姿腿後側伸展
 
-- ID：`seated-forward-fold`；內容修訂：4
-- 內容 SHA-256：`0e8d5283c145fedec2a6bdc6408c2cd7c56896f47c26e865db3a436e6ea68ada`
+- ID：`seated-forward-fold`；內容修訂：5
+- 內容 SHA-256：`7564ba60aeebdb46c834aa25f014771b5aca524b04aec1d1de171cc47ecb0c49`
 - 唯一編輯來源：[JSON](../content/exercises/seated-forward-fold.json)
 - 指定版本：坐姿腿後側伸展；本項起始設定：坐在折疊毛巾上，雙腿向前並保持微彎。
 - 器材：瑜珈墊
@@ -4471,10 +4471,10 @@
 - [衛生福利部國民健康署](https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=825&pid=14211) — legacy-unverified；核對日期：尚未；支持：尚未確認。由舊資料移入，不因存在連結即視為已核對；一般原則頁不能當成特定動作證據。
 - [YogaEasy 坐姿前彎（原 EkhartYoga）](https://www.yogaeasy.com/artikel/seated-forward-bend) — movement-specific；核對日期：2026-09-20；支持：髖折疊、頸椎沿脊椎方向、可屈膝與墊高坐姿。本站採溫和退階與自訂份量，不是來源的個人處方。
 
-- text：文字來源已核對。已核對：髖折疊、頸椎沿脊椎方向、可屈膝與墊高坐姿。；不要求摸脚或加深幅度。
-- image：已視覺檢查（非專業認證）。重新檢視四格：坐穩拉長軀幹、髖部前傾、雙手輕放腿部不拉腳、緩慢回坐直；雙腿同時 30 秒、兩組一致。；圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。
-- video：待核對。尚缺可靠對應影片，已停止播放與連結。
-- 影片：[睡前 10 分鐘全身伸展放鬆](https://www.youtube.com/watch?v=vdIugUHKGWg)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
+- text：文字來源已核對。已核對：髖折疊、頸椎沿脊椎方向、可屈膝與墊高坐姿。；不要求摸脚或加深幅度。；2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。
+- image：已視覺檢查（非專業認證）。重新檢視四格：坐穩拉長軀幹、髖部前傾、雙手輕放腿部不拉腳、緩慢回坐直；雙腿同時 30 秒、兩組一致。；圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。；2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。
+- video：僅片段抽查。15至40秒摺毯墊高坐骨、雙腿向前；72至90秒軀幹延伸由髖前傾，100秒已坐回。示範者可摸到腳，本站保留微彎膝與手扶腿的減量版本，不要求相同深度；105秒結束，排除後段更深前彎與反向平板。；實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。
+- 影片：[坐姿腿後側伸展入門](https://www.youtube.com/watch?v=wcwFaBeJNjY&t=15s)；完整逐段觀看：否。影片片段抽查不是整體內容認證。
 - 原圖：`public/exercise-guides/skill-final/fitness-seated-forward-fold-v2-zh-tw.png`；SHA-256：`613f3177a3eacf5ef3cbda06ce57b183374f3d581b3f44661950603a8a5a9e41`
 - 原圖生成所依文字版本：0e8d5283c145fedec2a6bdc6408c2cd7c56896f47c26e865db3a436e6ea68ada，不得事後填成目前版本。
 
@@ -4493,11 +4493,11 @@
 
 ### 影片核對紀錄
 
-- 嵌入網址：https://www.youtube-nocookie.com/embed/vdIugUHKGWg
-- 已核對嵌入網址：尚未
-- 實際檢查秒點：尚未
-- 播放區間：尚未核准
-- 可見內容：尚未取得足夠證據
+- 嵌入網址：https://www.youtube-nocookie.com/embed/wcwFaBeJNjY?start=15&end=105
+- 已核對嵌入網址：https://www.youtube-nocookie.com/embed/wcwFaBeJNjY?start=15&end=105
+- 實際檢查秒點：15、28、40、65、72、90、100、115、145、160、170、175、180、205
+- 播放區間：15 秒起，105 秒止
+- 可見內容：15至40秒摺毯墊高坐骨、雙腿向前；72至90秒軀幹延伸由髖前傾，100秒已坐回。示範者可摸到腳，本站保留微彎膝與手扶腿的減量版本，不要求相同深度；105秒結束，排除後段更深前彎與反向平板。
 - 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。
 
 <a id="thread-the-needle"></a>

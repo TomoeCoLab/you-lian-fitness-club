@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
+  "revision": 6,
   "exercise": {
     "id": "standing-calf-raise",
     "name": "站姿提踵",
@@ -30,11 +30,11 @@
       "load": "能完整下降與停住頂端的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "下肢器械使用參考",
-      "channel": "May Fit",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/g_E7_q1z2bo",
+      "watchUrl": "https://www.youtube.com/watch?v=g_E7_q1z2bo",
+      "title": "站姿提踵機操作示範",
+      "channel": "Hammer Strength",
+      "language": "英文"
     },
     "sourceUrl": "https://ifafitness.com/wttrain/calfraise.htm",
     "sourceLabel": "IFA：肩墊式站姿提踵機"
@@ -73,33 +73,67 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "005fe2fbc1e59837ae05c2b67f11a922c8bcf2e388bfe7b223612fcd057ca9fb",
+      "reviewedContentHash": "7b13467f171456b9be76a287e353ed4a15358070f21971b4e3572715a42fa966",
       "findings": [
         "已讀機械段落，採腳尖朝前版本；不採用任意內外轉 45 度或膝過伸。無特定品牌操作機構的支持，解鎖方式依現場說明。",
-        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。"
+        "已分開記錄動作來源支持與本站預設份量；仍非個別健康狀況的處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "005fe2fbc1e59837ae05c2b67f11a922c8bcf2e388bfe7b223612fcd057ca9fb",
+      "reviewedContentHash": "7b13467f171456b9be76a287e353ed4a15358070f21971b4e3572715a42fa966",
       "reviewedImageSha256": "4343e16d746ac06e01f2569297fa0ee541f8a657a8ab8241b49adbc4a06cb008",
       "findings": [
         "已改為前腳掌踩踏塊、腳跟懸出後緣，下放與提起均有活動空間；3 組 15 次及卸載後離機提示一致。",
-        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。"
+        "已對照可見姿勢、支撐和文字；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "7de8cac9e4899be02f2a031da1341b38a40d9d65df99004ed9f325800a40c40b"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/g_E7_q1z2bo",
+      "auditBaselineContentHash": "7b13467f171456b9be76a287e353ed4a15358070f21971b4e3572715a42fa966",
+      "check": {
+        "videoId": "g_E7_q1z2bo",
+        "seconds": [
+          2,
+          8,
+          15
+        ],
+        "observation": "原廠肩墊式機型，2秒定位握把、8秒肩墊承重踮起，15秒腳跟下放；非腿推機提踵或坐姿版本。"
+      },
+      "findings": [
+        "原廠肩墊式機型，2秒定位握把、8秒肩墊承重踮起，15秒腳跟下放；非腿推機提踵或坐姿版本。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+            "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+            "title": "下肢器械使用參考",
+            "channel": "May Fit",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "7de8cac9e4899be02f2a031da1341b38a40d9d65df99004ed9f325800a40c40b"
+          }
+        }
+      ]
     }
   },
   "illustration": {

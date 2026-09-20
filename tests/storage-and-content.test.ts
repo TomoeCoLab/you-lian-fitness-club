@@ -5,7 +5,7 @@ import { runInNewContext } from "node:vm";
 import { loadWorkout, saveWorkout, clearWorkout, emptyWorkout } from "../src/lib/workoutStore.ts";
 import { loadMovementPreferences, saveMovementPreferences } from "../src/lib/movementPreferences.ts";
 import { exercises } from "../src/data/exercises.ts";
-import { videoNeedsReview, contentReview } from "../src/lib/exerciseGuidance.ts";
+import { videoNeedsReview, videoFrameClass } from "../src/lib/exerciseGuidance.ts";
 import { contentReviews } from "../src/data/contentReviews.generated.ts";
 import { diagramNeedsReplacement } from "../src/lib/contentAudit.ts";
 import { exerciseHistory } from "../src/lib/progress.ts";
@@ -32,13 +32,28 @@ test("drafts and movement preferences are scoped; legacy drafts are never implic
 
 test("content review covers every mapping and fails closed on changed or unmatched videos", () => {
   assert.equal(exercises.length, 76);
-  for (const exercise of exercises) assert(contentReview(exercise).status);
+  for (const exercise of exercises) assert.equal(videoNeedsReview(exercise), false, exercise.id);
   const squat = exercises.find(e => e.id === "bodyweight-squat")!;
   assert.equal(videoNeedsReview(squat), false);
   assert.equal(videoNeedsReview({ ...squat, video: { ...squat.video, embedUrl: "https://www.youtube-nocookie.com/embed/unknown" } }), true);
-  assert.equal(videoNeedsReview(exercises.find(e => e.id === "band-row")!), true);
+  assert.equal(videoNeedsReview({ ...squat, id: "not-reviewed" }), true);
   assert.equal(videoNeedsReview(exercises.find(e => e.id === "kettlebell-swing")!), false);
   assert.equal(videoNeedsReview({ ...squat, video: { ...squat.video, embedUrl: `${squat.video.embedUrl}?start=300` } }), true);
+});
+
+test("Shorts have a portrait frame without changing the safe embed gate", () => {
+  const short = exercises.find(e => e.id === 'hack-squat')!;
+  assert.match(videoFrameClass(short), /--portrait/);
+  assert.equal(videoNeedsReview(short), false);
+  const landscape = exercises.find(e => e.id === 'band-row')!;
+  assert.equal(videoFrameClass(landscape), 'exercise-video__frame');
+  assert.equal(videoFrameClass({...short, video:{...short.video, watchUrl:'https://example.com/shorts/anything'}}), 'exercise-video__frame');
+  const audit=contentReviews[short.id];
+  assert.deepEqual(Object.keys(audit).sort(), ['image','video']);
+  assert(!JSON.stringify(contentReviews).includes('findings'));
+  const original=audit.video.status;
+  try { for (const status of ['pending','blocked','stale'] as const) { audit.video.status=status; assert.equal(videoNeedsReview(short),true); } }
+  finally { audit.video.status=original; }
 });
 
 test("renamed triceps movement retains old name-only history", () => {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
+  "revision": 4,
   "exercise": {
     "id": "dumbbell-squat",
     "name": "高腳杯深蹲",
@@ -30,10 +30,10 @@
       "load": "選擇能保留約 2 次餘力的重量"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
-      "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
-      "title": "新手下半身器械與深蹲教學",
-      "channel": "May Fit",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/WimELq8uXV0",
+      "watchUrl": "https://www.youtube.com/watch?v=WimELq8uXV0",
+      "title": "啞鈴深蹲（高腳杯深蹲）",
+      "channel": "Coach Hank 肌力體能訓練",
       "language": "中文"
     },
     "sourceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/squat/vid-20084682",
@@ -74,33 +74,68 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "1b3ac00ae3e4e9eccedbdd91c6b33fca4e8d6c0bd4abaf407cc00b70e5e05344",
+      "reviewedContentHash": "fd7082a748477a422c91179d1657f9145288a899cc56524ff79dc1df9e9a3596",
       "findings": [
         "採單顆啞鈴版，不混入雙啞鈴或壺鈴；深度依可控制範圍。本站份量不是來源個人化處方。",
-        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。"
+        "已對照動作專屬來源；起始份量為本站一般參考，不是個人化處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "1b3ac00ae3e4e9eccedbdd91c6b33fca4e8d6c0bd4abaf407cc00b70e5e05344",
+      "reviewedContentHash": "fd7082a748477a422c91179d1657f9145288a899cc56524ff79dc1df9e9a3596",
       "reviewedImageSha256": "1399b71197decbdb4e02f5a4f28ecfc346e0cb167a155b1b016300cc3c62bba2",
       "findings": [
         "一顆啞鈴胸前雙手托持，蹲下與回站一致；圖示 10–12 次 3 組包含本站 10 次 3 組。",
-        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。"
+        "已於文字更新後重新查看原圖，核對可見內容；非生物力學量測或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "c62f9a8847f202d1a91bd1e2fe3a35ca5af563c87df0324aa9d17d7fa5e48d1e"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/WimELq8uXV0",
+      "auditBaselineContentHash": "fd7082a748477a422c91179d1657f9145288a899cc56524ff79dc1df9e9a3596",
+      "check": {
+        "videoId": "WimELq8uXV0",
+        "seconds": [
+          2,
+          5,
+          8,
+          11
+        ],
+        "observation": "單顆啞鈴直持胸前，雙腳站穩；5、8 秒為屈髖屈膝下蹲，11 秒站起，非雙啞鈴側持。"
+      },
+      "findings": [
+        "單顆啞鈴直持胸前，雙腳站穩；5、8 秒為屈髖屈膝下蹲，11 秒站起，非雙啞鈴側持。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/H14HliH4Mfs",
+            "watchUrl": "https://www.youtube.com/watch?v=H14HliH4Mfs",
+            "title": "新手下半身器械與深蹲教學",
+            "channel": "May Fit",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "c62f9a8847f202d1a91bd1e2fe3a35ca5af563c87df0324aa9d17d7fa5e48d1e"
+          }
+        }
+      ]
     }
   },
   "illustration": {

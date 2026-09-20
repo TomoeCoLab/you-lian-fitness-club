@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
+  "revision": 5,
   "exercise": {
     "id": "seated-forward-fold",
     "name": "坐姿腿後側伸展",
@@ -31,11 +31,11 @@
       "load": "停留 20–30 秒；緊繃但不疼痛即可"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg",
-      "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg",
-      "title": "睡前 10 分鐘全身伸展放鬆",
-      "channel": "啾c物理治療師",
-      "language": "中文"
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wcwFaBeJNjY?start=15&end=105",
+      "watchUrl": "https://www.youtube.com/watch?v=wcwFaBeJNjY&t=15s",
+      "title": "坐姿腿後側伸展入門",
+      "channel": "YogaEasy",
+      "language": "英文"
     },
     "sourceUrl": "https://www.yogaeasy.com/artikel/seated-forward-bend",
     "sourceLabel": "YogaEasy 坐姿前彎（原 EkhartYoga）"
@@ -73,33 +73,80 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "0e8d5283c145fedec2a6bdc6408c2cd7c56896f47c26e865db3a436e6ea68ada",
+      "reviewedContentHash": "7564ba60aeebdb46c834aa25f014771b5aca524b04aec1d1de171cc47ecb0c49",
       "internalReviewedAt": "2026-09-20",
       "findings": [
         "已核對：髖折疊、頸椎沿脊椎方向、可屈膝與墊高坐姿。",
-        "不要求摸脚或加深幅度。"
+        "不要求摸脚或加深幅度。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ]
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "0e8d5283c145fedec2a6bdc6408c2cd7c56896f47c26e865db3a436e6ea68ada",
+      "reviewedContentHash": "7564ba60aeebdb46c834aa25f014771b5aca524b04aec1d1de171cc47ecb0c49",
       "reviewedImageSha256": "613f3177a3eacf5ef3cbda06ce57b183374f3d581b3f44661950603a8a5a9e41",
       "findings": [
         "重新檢視四格：坐穩拉長軀幹、髖部前傾、雙手輕放腿部不拉腳、緩慢回坐直；雙腿同時 30 秒、兩組一致。",
-        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。"
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "bd57902f7d084e8d56be75aa74246f24718daeb541a78980a4e06f3ce2a0bc5c"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/wcwFaBeJNjY?start=15&end=105",
+      "auditBaselineContentHash": "7564ba60aeebdb46c834aa25f014771b5aca524b04aec1d1de171cc47ecb0c49",
+      "check": {
+        "videoId": "wcwFaBeJNjY",
+        "seconds": [
+          15,
+          28,
+          40,
+          65,
+          72,
+          90,
+          100,
+          115,
+          145,
+          160,
+          170,
+          175,
+          180,
+          205
+        ],
+        "start": 15,
+        "end": 105,
+        "observation": "15至40秒摺毯墊高坐骨、雙腿向前；72至90秒軀幹延伸由髖前傾，100秒已坐回。示範者可摸到腳，本站保留微彎膝與手扶腿的減量版本，不要求相同深度；105秒結束，排除後段更深前彎與反向平板。"
+      },
+      "findings": [
+        "15至40秒摺毯墊高坐骨、雙腿向前；72至90秒軀幹延伸由髖前傾，100秒已坐回。示範者可摸到腳，本站保留微彎膝與手扶腿的減量版本，不要求相同深度；105秒結束，排除後段更深前彎與反向平板。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg",
+            "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg",
+            "title": "睡前 10 分鐘全身伸展放鬆",
+            "channel": "啾c物理治療師",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "bd57902f7d084e8d56be75aa74246f24718daeb541a78980a4e06f3ce2a0bc5c"
+          }
+        }
+      ]
     }
   },
   "illustration": {

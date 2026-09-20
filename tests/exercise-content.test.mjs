@@ -54,7 +54,10 @@ test('repaired images retain rejected originals, reasons and independent checks'
 test('mountain climber repair is traceable; unaccepted figure-four attempts cannot approve an image', () => {
   const r=read('mountain-climber');
   assert.equal(r.review.image.status,'visual-checked');
-  assert.equal(r.illustration.generatedFromContentHash,contentHash(r));
+  assert.notEqual(r.illustration.generatedFromContentHash,contentHash(r));
+  const beforeVideoRepair=structuredClone(r);
+  beforeVideoRepair.exercise.video=r.review.video.history.at(-1).video;
+  assert.equal(r.illustration.generatedFromContentHash,contentHash(beforeVideoRepair));
   assert.equal(r.illustration.history[0].review.status,'blocked');
   assert(r.illustration.generation.prompt.includes('NEAR right leg bends'));
   assert.equal(sha256(readFileSync(new URL(r.illustration.history[0].path,root))),r.illustration.history[0].sha256);
@@ -120,5 +123,5 @@ test('checked video mappings preserve IDs and chapter boundaries; pending entrie
     assert.equal(v.reviewedEmbedUrl,r.exercise.video.embedUrl,id);
     assert.equal(v.auditBaselineContentHash,contentHash(r),id);
   }
-  assert.equal(pending,20); assert.equal(checked,56);
+  assert.equal(pending,0); assert.equal(checked,76);
 });

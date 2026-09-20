@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
+  "revision": 6,
   "exercise": {
     "id": "kneeling-hip-flexor-stretch",
     "name": "跪姿髖屈肌伸展",
@@ -31,10 +31,10 @@
       "load": "每側 20–30 秒；維持可呼吸、無痛的拉感"
     },
     "video": {
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg",
-      "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg",
-      "title": "睡前 10 分鐘全身伸展放鬆",
-      "channel": "啾c物理治療師",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/dQAE29xW2lQ",
+      "watchUrl": "https://www.youtube.com/watch?v=dQAE29xW2lQ",
+      "title": "單跪姿髖屈肌伸展",
+      "channel": "Coach Hank 肌力體能訓練",
       "language": "中文"
     },
     "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/142/kneeling-hip-flexor-stretch/",
@@ -73,33 +73,72 @@
     "text": {
       "status": "source-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "9bc885bcd03e3de12d3c1909310e806195cfee726a68a67760ec5e3a0af026fa",
+      "reviewedContentHash": "4427474168265a12a2d23cac55bea9a1bba3e70110bb16e503fb2822d8c55266",
       "findings": [
         "已對照動作專屬來源：半跪排列、骨盆穩定及後側臀部輕收。",
-        "課表份量仍按能力調整，非醫療處方。"
+        "課表份量仍按能力調整，非醫療處方。",
+        "2026-09-20 補片：重新對照既有步驟、提示與新影片指定版本；教學文字、份量、來源與分鏡未變，只更新影片配對資料。"
       ],
       "internalReviewedAt": "2026-09-20"
     },
     "image": {
       "status": "visual-checked",
       "reviewedAt": "2026-09-20",
-      "reviewedContentHash": "9bc885bcd03e3de12d3c1909310e806195cfee726a68a67760ec5e3a0af026fa",
+      "reviewedContentHash": "4427474168265a12a2d23cac55bea9a1bba3e70110bb16e503fb2822d8c55266",
       "reviewedImageSha256": "8ff46451e49f32caea86dd9ae11883c14f90ff8bd05a6b55a1a9766df2e5d30e",
       "findings": [
         "重新檢視四格：半跪、骨盆穩定小幅前移、保持與退回；每側 30 秒合共兩組一致。已區分墊子減少接觸壓力與關節疼痛需停止。",
-        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。"
+        "圖文一致性人工視覺檢查，不代表個別使用者適用或專業動作認證。",
+        "2026-09-20 補片：重新查看現有原圖並對照文字及新示範，保留圖像與真正生成時的 hash；器械外觀及個人幅度差異不作同型號／同深度要求。"
       ]
     },
     "video": {
-      "status": "pending",
-      "reviewedAt": null,
-      "reviewedEmbedUrl": null,
-      "check": null,
-      "findings": [
-        "尚缺可靠對應影片，已停止播放與連結。"
-      ],
+      "status": "spot-checked",
+      "reviewedAt": "2026-09-20",
+      "reviewedContentHash": null,
       "fullPlaybackReviewed": false,
-      "auditBaselineContentHash": "600b793d9992fd1e861f912ed0cba0d0119185106c1690fae3e4db0180279d65"
+      "reviewedEmbedUrl": "https://www.youtube-nocookie.com/embed/dQAE29xW2lQ",
+      "auditBaselineContentHash": "4427474168265a12a2d23cac55bea9a1bba3e70110bb16e503fb2822d8c55266",
+      "check": {
+        "videoId": "dQAE29xW2lQ",
+        "seconds": [
+          1,
+          4,
+          5,
+          8,
+          11,
+          15,
+          16,
+          20
+        ],
+        "observation": "單膝跪墊前腳踩地，軀幹直立、骨盆微前移；5秒標不挺腰，8秒標骨盆前推，16秒正面說明骨盆。影片無完整換側，本站文字仍提示退回後扶穩換邊。"
+      },
+      "findings": [
+        "單膝跪墊前腳踩地，軀幹直立、骨盆微前移；5秒標不挺腰，8秒標骨盆前推，16秒正面說明骨盆。影片無完整換側，本站文字仍提示退回後扶穩換邊。",
+        "實際嵌入播放器可載入並逐點檢視；不是完整逐秒審片或專業認證。"
+      ],
+      "history": [
+        {
+          "video": {
+            "embedUrl": "https://www.youtube-nocookie.com/embed/vdIugUHKGWg",
+            "watchUrl": "https://www.youtube.com/watch?v=vdIugUHKGWg",
+            "title": "睡前 10 分鐘全身伸展放鬆",
+            "channel": "啾c物理治療師",
+            "language": "中文"
+          },
+          "review": {
+            "status": "pending",
+            "reviewedAt": null,
+            "reviewedEmbedUrl": null,
+            "check": null,
+            "findings": [
+              "尚缺可靠對應影片，已停止播放與連結。"
+            ],
+            "fullPlaybackReviewed": false,
+            "auditBaselineContentHash": "600b793d9992fd1e861f912ed0cba0d0119185106c1690fae3e4db0180279d65"
+          }
+        }
+      ]
     }
   },
   "illustration": {
