@@ -76,6 +76,54 @@
 .template-save-disclosure summary { cursor: pointer; padding: 8px 0; }
 .template-save-disclosure label { display: grid; gap: 8px; flex: 1; min-width: 0; }
 .template-save-disclosure input { min-width: 0; width: 100%; box-sizing: border-box; min-height: 44px; }
+
+/* Make training controls read as controls, fields, or destructive actions at a glance. */
+.active-workout-header button { min-height: 44px; padding: 0 14px; border: 1px solid var(--line); background: var(--white); transition: background-color 140ms ease, color 140ms ease, transform 140ms ease; }
+.active-workout-header button:hover { background: var(--cloud); }
+.active-workout-header button:active, .active-context-actions button:active, .set-editor button:active, .rest-interval-control button:active { transform: translateY(1px); }
+.active-workout-header .active-workout-plan { border-color: var(--ink); background: var(--ink); color: var(--white); }
+.active-workout-header .active-workout-plan:hover { background: #333; }
+.active-context-actions button { min-height: 44px; padding: 8px 14px; border: 1px solid var(--line); background: var(--white); cursor: pointer; transition: background-color 140ms ease, border-color 140ms ease, transform 140ms ease; }
+.active-context-actions button:hover { border-color: var(--ink); background: var(--cloud); }
+.set-editor__row input { border: 1px solid #bcbcbc; background: #fff; transition: border-color 140ms ease, box-shadow 140ms ease; }
+.set-editor__row input:focus { border-color: var(--ink); box-shadow: 0 0 0 3px color-mix(in srgb, var(--active) 75%, transparent); outline: 0; }
+.set-editor .set-editor__row > .set-editor__complete { min-height: 44px; border: 1px solid var(--ink); background: var(--ink); color: var(--white); display: inline-flex; align-items: center; justify-content: center; gap: 4px; font-size: 12px; font-weight: 800; transition: background-color 140ms ease, color 140ms ease, transform 140ms ease; }
+.set-editor .set-editor__row > .set-editor__complete:hover:not(:disabled) { background: #333; }
+.set-editor__row.is-complete > .set-editor__complete { border-color: #bedc27; background: var(--active); color: var(--ink); }
+.set-editor__row.is-complete > .set-editor__complete:hover:not(:disabled) { background: #c7ef27; }
+.set-editor__tools { flex-wrap: wrap; }
+.set-editor .set-editor__tools .set-editor__timer { display: inline-flex; align-items: center; justify-content: center; border-color: var(--line); background: var(--cloud); }
+.set-editor .set-editor__tools .set-editor__delete { display: inline-flex; align-items: center; justify-content: center; gap: 6px; border-color: #e0bcbc; background: #fff8f7; color: #982929; }
+.set-editor .set-editor__tools .set-editor__delete:hover:not(:disabled) { border-color: #b93838; background: #fff0ee; }
+.set-editor .set-editor__tools button:disabled, .set-editor__row > .set-editor__complete:disabled { cursor: not-allowed; opacity: .5; }
+
+.session-note-field { display: grid; gap: 8px; margin: 14px 0 18px; padding: 14px 16px; border: 1px solid var(--line-soft); background: #fafafa; }
+.session-note-field > span { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.session-note-field > span strong { font-size: 14px; }
+.session-note-field > span small, .session-note-field__count { color: var(--muted); font-size: 12px; }
+.session-note-field textarea { width: 100%; min-height: 78px; padding: 10px 12px; border: 1px solid #bcbcbc; border-radius: 0; background: var(--white); resize: vertical; line-height: 1.55; }
+.session-note-field textarea:focus { border-color: var(--ink); box-shadow: 0 0 0 3px color-mix(in srgb, var(--active) 75%, transparent); outline: 0; }
+.session-note-field__count { justify-self: end; }
+
+.rest-interval-control { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 16px 0; padding: 14px 16px; border: 1px solid var(--line-soft); background: var(--cloud); }
+.rest-interval-control > div:first-child { display: grid; gap: 4px; }
+.rest-interval-control > div:first-child strong { font-size: 14px; }
+.rest-interval-control > div:first-child small { color: var(--muted); font-size: 12px; }
+.rest-interval-control__input { display: flex; align-items: center; gap: 6px; }
+.rest-interval-control__input input { width: 74px; height: 42px; border: 1px solid var(--line); background: var(--white); text-align: center; font-weight: 800; }
+.rest-interval-control__input span { color: var(--muted); font-size: 12px; }
+.rest-interval-control__input button { min-width: 48px; min-height: 42px; padding: 0 8px; border: 1px solid var(--ink); background: var(--white); font-size: 12px; font-weight: 800; cursor: pointer; transition: background-color 140ms ease, transform 140ms ease; }
+.rest-interval-control__input button:hover:not(:disabled) { background: var(--active); }
+.rest-interval-control__input button:disabled { opacity: .45; cursor: not-allowed; }
+.session-exercise__note { grid-column: 1 / -1; margin: 0; padding: 9px 12px; border-left: 2px solid var(--ink); background: var(--cloud); font-size: 13px; line-height: 1.6; white-space: pre-wrap; }
+.exercise-entry-card__note { margin: 8px 0 0; padding: 9px 12px; border-left: 2px solid var(--ink); background: var(--cloud); font-size: 13px; line-height: 1.55; white-space: pre-wrap; }
+@media (max-width: 700px) {
+  .active-workout-header button { padding-inline: 10px; font-size: 12px; }
+  .session-note-field > span { align-items: flex-start; flex-direction: column; gap: 2px; }
+  .rest-interval-control { align-items: flex-start; flex-direction: column; }
+  .rest-interval-control__input { width: 100%; }
+  .rest-interval-control__input input { flex: 1; }
+}
 @media (min-width: 761px) and (max-width: 1600px) { .guide-page { grid-template-columns: 340px minmax(0, 1fr); } }
 @media (max-width: 760px) {
   .guide-workflow-actions { margin-bottom: 18px; gap: 6px; }

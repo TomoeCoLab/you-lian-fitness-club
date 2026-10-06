@@ -18,7 +18,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { formatSelectedDate, todayKey } from "../lib/date";
 import { bodyParts, equipmentOptions, exercises } from "../data/exercises";
 import { builtInWorkoutTemplates, preparationRoutines } from "../data/workoutTemplates";
-import { progressSuggestion } from "../lib/progress";
+import { latestExerciseSetEntries, progressSuggestion } from "../lib/progress";
 import { addTemplate, itemKey, phaseLabels, templateItems } from "../lib/workoutPlan";
 import type { BodyPart, Checkin, CustomExercise, Equipment, ExerciseSetEntry, GuideExercise, WorkoutDraft, WorkoutItem, WorkoutTemplate, WorkoutTemplateItem } from "../types";
 import { EquipmentIcon } from "./EquipmentIcon";
@@ -85,6 +85,51 @@ function makeEntry(exercise: GuideExercise, previous?: ExerciseSetEntry): Exerci
     durationSeconds: exercise.tracking === "time" ? previous?.durationSeconds ?? exercise.recommendation.durationSeconds : null,
     completed: false,
   };
+}
+
+function makeMovementEntries(
+  movement: { id: string; name: string; tracking: "reps" | "time"; sets: number; reps: number | null; durationSeconds: number | null },
+  history: Checkin[],
+  phase: "warmup" | "main" | "cooldown" = "main",
+): ExerciseSetEntry[] {
+  const previous = latestExerciseSetEntries(movement.id, movement.name, phase, history);
+  const values = previous ?? Array.from({ length: movement.sets }, () => ({ weight: null, reps: movement.reps, durationSeconds: movement.durationSeconds }));
+  return values.slice(0, 100).map((entry) => ({
+    id: crypto.randomUUID(),
+    weight: entry.weight,
+    reps: movement.tracking === "reps" ? entry.reps ?? movement.reps : null,
+    durationSeconds: movement.tracking === "time" ? entry.durationSeconds ?? movement.durationSeconds : null,
+    completed: false,
+  }));
+}
+
+function RestIntervalControl({ item, recommendedSeconds, disabled, onChange }: {
+  item: WorkoutItem;
+  recommendedSeconds: number;
+  disabled: boolean;
+  onChange: (seconds: number) => void;
+}) {
+  return <section className="rest-interval-control" aria-label="組間休息設定">
+    <div><strong>組間休息</strong><small>動作建議 {recommendedSeconds} 秒</small></div>
+    <div className="rest-interval-control__input">
+      <button type="button" aria-label="縮短休息 15 秒" disabled={disabled || item.restSeconds <= 0} onClick={() => onChange(Math.max(0, item.restSeconds - 15))}>−15</button>
+      <input aria-label="組間休息秒數" type="number" min="0" max="3600" step="1" inputMode="numeric" disabled={disabled} value={item.restSeconds} onChange={(event) => {
+        const next = event.currentTarget.valueAsNumber;
+        if (Number.isInteger(next) && next >= 0 && next <= 3600) onChange(next);
+      }} />
+      <span>秒</span>
+      <button type="button" aria-label="延長休息 15 秒" disabled={disabled || item.restSeconds >= 3600} onClick={() => onChange(Math.min(3600, item.restSeconds + 15))}>+15</button>
+    </div>
+  </section>;
+}
+
+function SessionNoteField({ item, disabled, onChange }: { item: WorkoutItem; disabled: boolean; onChange: (value: string) => void }) {
+  const value = item.sessionNote ?? "";
+  return <label className="session-note-field">
+    <span><strong>本次備註</strong><small>選填，可記動作品質、狀態或自我檢討</small></span>
+    <textarea aria-label="本次動作備註" maxLength={200} rows={3} disabled={disabled} value={value} onChange={(event) => onChange(event.currentTarget.value)} placeholder="記下這次的狀態或調整…" />
+    <small className="session-note-field__count">{value.length} / 200</small>
+  </label>;
 }
 
 function completedCount(item: WorkoutItem): number {
@@ -188,6 +233,11 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
     onWorkoutChange({ ...workout, items, updatedAt: new Date().toISOString() });
   };
 
+  const updateItem = (key: string, patch: Partial<WorkoutItem>) => {
+    if (staleWorkout) return;
+    updateItems(workout.items.map((item) => itemKey(item) === key ? { ...item, ...patch } : item));
+  };
+
   const updateTrainingEntry = (id: string, patch: Partial<ExerciseSetEntry>) => {
     if (!currentItem || staleWorkout) return;
     updateItems(workout.items.map(item => itemKey(item) === itemKey(currentItem)
@@ -215,7 +265,7 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
     updateItems([...workout.items, {
       exerciseId: custom.id, exerciseName: custom.name, bodyPart: custom.bodyPart, tracking: custom.tracking,
       restSeconds: custom.restSeconds, custom: true,
-      entries: [{ id: crypto.randomUUID(), weight: null, reps: custom.tracking === "reps" ? 10 : null, durationSeconds: custom.tracking === "time" ? 30 : null, completed: false }],
+      entries: makeMovementEntries({ id: custom.id, name: custom.name, tracking: custom.tracking, sets: 1, reps: custom.tracking === "reps" ? 10 : null, durationSeconds: custom.tracking === "time" ? 30 : null }, history),
     }]);
     setCustomName("");
     setCustomOpen(false);
@@ -237,14 +287,14 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
         bodyPart: selected.bodyParts[0],
         tracking: selected.tracking,
         restSeconds: selected.recommendation.restSeconds,
-        entries: [makeEntry(selected)],
+        entries: makeMovementEntries({ id: selected.id, name: selected.name, tracking: selected.tracking, sets: selected.recommendation.sets, reps: selected.recommendation.reps, durationSeconds: selected.recommendation.durationSeconds }, history),
       },
     ]);
   };
 
   const addExercise = (exercise: GuideExercise) => {
     if (staleWorkout || workout.items.some(item => item.exerciseId === exercise.id)) return;
-    updateItems([...workout.items, { exerciseId: exercise.id, exerciseName: exercise.name, bodyPart: exercise.bodyParts[0], tracking: exercise.tracking, restSeconds: exercise.recommendation.restSeconds, entries: [makeEntry(exercise)] }]);
+    updateItems([...workout.items, { exerciseId: exercise.id, exerciseName: exercise.name, bodyPart: exercise.bodyParts[0], tracking: exercise.tracking, restSeconds: exercise.recommendation.restSeconds, entries: makeMovementEntries({ id: exercise.id, name: exercise.name, tracking: exercise.tracking, sets: exercise.recommendation.sets, reps: exercise.recommendation.reps, durationSeconds: exercise.recommendation.durationSeconds }, history) }]);
     setNotice(`已加入 ${exercise.name}`);
   };
   const openTraining = (id: string) => {
@@ -305,7 +355,7 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
 
   const applyTemplate = (template: WorkoutTemplate) => {
     if (staleWorkout) return;
-    updateItems(addTemplate(workout, template));
+    updateItems(addTemplate(workout, template, history));
     setLibraryOpen(false);
     setBasketOpen(true);
   };
@@ -324,13 +374,15 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
     const nextItem = workout.items[currentItemIndex + 1] ?? null;
     const elapsedMinutes = workout.trainingStartedAt ? Math.max(0, Math.floor((clock - new Date(workout.trainingStartedAt).getTime()) / 60000)) : 0;
     return <><main className="active-workout-page">
-      <header className="active-workout-header"><button onClick={() => setTrainingMode(false)}><ArrowLeft size={21} />動作庫</button><strong>YOU LIAN</strong><button onClick={() => setBasketOpen(true)}>完整課表</button></header>
+      <header className="active-workout-header"><button className="active-workout-back" onClick={() => setTrainingMode(false)}><ArrowLeft size={21} />動作庫</button><strong>YOU LIAN</strong><button className="active-workout-plan" onClick={() => setBasketOpen(true)}>完整課表</button></header>
       <section className="active-workout-main">
         <div className="active-workout-title"><div><span>目前動作</span><h1>{currentItem.exerciseName}</h1><p>{currentItem.custom ? "自訂動作" : `${currentItem.bodyPart} · ${currentItem.tracking === "time" ? "計時" : "次數"}`}</p></div><strong>動作 {currentItemIndex + 1} / {workout.items.length}</strong></div>
         <div className="active-context-actions"><button onClick={() => setBasketOpen(true)}>查看完整課表 · {workout.items.length} 動作</button>{exercises.some(exercise => exercise.id === currentItem.exerciseId) ? <button onClick={() => setGuideId(currentItem.exerciseId)}><BookOpen size={17} />查看指引</button> : <span>自訂動作：尚無官方指引</span>}</div>
         <p className="training-context-note">{phaseLabels[currentItem.phase ?? "main"]}{currentItem.templateName ? ` · ${currentItem.templateName}` : ""}{currentItem.note ? <><br />{currentItem.note}</> : null}</p>
+        <SessionNoteField item={currentItem} disabled={staleWorkout} onChange={(sessionNote) => updateItem(itemKey(currentItem), { sessionNote })} />
         <WorkoutSetEditor key={itemKey(currentItem)} item={currentItem} disabled={staleWorkout} onChange={updateTrainingEntry} onComplete={completeTrainingEntry} onRemove={removeTrainingEntry} onTimer={entry => setTimer({ seconds: entry.durationSeconds!, deadline: Date.now() + entry.durationSeconds! * 1000, key: `work-${entry.id}-${Date.now()}`, kind: "work" })} />
         {undo}
+        <RestIntervalControl item={currentItem} recommendedSeconds={exercises.find((exercise) => exercise.id === currentItem.exerciseId)?.recommendation.restSeconds ?? currentItem.restSeconds} disabled={staleWorkout} onChange={(restSeconds) => updateItem(itemKey(currentItem), { restSeconds })} />
         {timer ? <RestTimer kind={timer.kind} seconds={timer.seconds} timerKey={timer.key} deadline={timer.deadline} pausedRemaining={timer.pausedRemaining} onStateChange={updateTimerState} onClose={() => setTimer(null)} /> : <div className="active-rest-placeholder"><span>休息倒數</span><strong>{Math.floor(currentItem.restSeconds / 60).toString().padStart(2, "0")}:{(currentItem.restSeconds % 60).toString().padStart(2, "0")}</strong><small>完成一組後自動開始</small></div>}
         <button className="add-set-button" disabled={staleWorkout || currentItem.entries.length >= 20} onClick={() => updateItems(workout.items.map(item => itemKey(item) === itemKey(currentItem) ? { ...item, entries: [...item.entries, { ...item.entries.at(-1)!, id: crypto.randomUUID(), completed: false }] } : item))}><Plus size={18} />新增一組</button>
         <section className="active-next"><span>下一個動作</span>{nextItem ? <button onClick={() => openTraining(itemKey(nextItem))}><strong>{nextItem.exerciseName}</strong><small>{phaseLabels[nextItem.phase ?? "main"]} · {nextItem.entries.length} 組 · {nextItem.tracking === "time" ? `${nextItem.entries[0]?.durationSeconds ?? 30} 秒` : `${nextItem.entries[0]?.reps ?? 10} 次`}</small><ChevronRight size={20} /></button> : <p>可從完整課表切換其他動作，或儲存已完成組數。</p>}</section>
@@ -399,7 +451,7 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
           }) : <p className="exercise-list__empty">沒有符合的動作，換個部位或器材看看。</p>}
         </div>
         {customExercises.length > 0 ? <div className="custom-exercise-list"><span>我的自訂動作</span>{customExercises.map((item) => <button key={item.id} disabled={staleWorkout} onClick={() => {
-          if (!workout.items.some((workoutItem) => workoutItem.exerciseId === item.id)) updateItems([...workout.items, { exerciseId: item.id, exerciseName: item.name, bodyPart: item.bodyPart, tracking: item.tracking, restSeconds: item.restSeconds, custom: true, entries: [{ id: crypto.randomUUID(), weight: null, reps: item.tracking === "reps" ? 10 : null, durationSeconds: item.tracking === "time" ? 30 : null, completed: false }] }]);
+          if (!workout.items.some((workoutItem) => workoutItem.exerciseId === item.id)) updateItems([...workout.items, { exerciseId: item.id, exerciseName: item.name, bodyPart: item.bodyPart, tracking: item.tracking, restSeconds: item.restSeconds, custom: true, entries: makeMovementEntries({ id: item.id, name: item.name, tracking: item.tracking, sets: 1, reps: item.tracking === "reps" ? 10 : null, durationSeconds: item.tracking === "time" ? 30 : null }, history) }]);
           setBasketOpen(true);
         }}><strong>{item.name}</strong><small>{item.bodyPart} · {item.tracking === "time" ? "計時" : "次數"}</small><Plus size={16} /></button>)}</div> : null}
       </section>
@@ -447,8 +499,10 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
           {activeItem ? (
             <>
               <p className="training-context-note">{phaseLabels[activeItem.phase ?? "main"]}{activeItem.note ? ` · ${activeItem.note}` : ""}。同名動作有多個階段時，請由「今日課表」切換。</p>
+              <SessionNoteField item={activeItem} disabled={staleWorkout} onChange={(sessionNote) => updateItem(itemKey(activeItem), { sessionNote })} />
               <WorkoutSetEditor key={itemKey(activeItem)} item={activeItem} disabled={staleWorkout} onChange={updateEntry} onComplete={completeEntry} onRemove={removeEntry} onTimer={entry => setTimer({ seconds: entry.durationSeconds!, deadline: Date.now() + entry.durationSeconds! * 1000, key: `work-${entry.id}-${Date.now()}`, kind: "work" })} />
               <button className="add-set-button" disabled={staleWorkout || activeItem.entries.length >= 20} onClick={addSet}><Plus size={19} />新增一組</button>
+              <RestIntervalControl item={activeItem} recommendedSeconds={selected.recommendation.restSeconds} disabled={staleWorkout} onChange={(restSeconds) => updateItem(itemKey(activeItem), { restSeconds })} />
             </>
           ) : <p className="set-logger__empty">按「開始記錄」建立第一組；完成一組後會自動開始休息倒數。</p>}
         </section>

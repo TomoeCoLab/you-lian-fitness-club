@@ -17,6 +17,7 @@ export type SessionUser = {
 export type Exercise = {
   phase?: "warmup" | "main" | "cooldown";
   note?: string;
+  sessionNote?: string;
   exerciseId?: string;
   name: string;
   sets: number;

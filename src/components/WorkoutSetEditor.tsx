@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Check, Trash2 } from "lucide-react";
 import type { ExerciseSetEntry, WorkoutItem } from "../types";
 import { exercises } from "../data/exercises";
 import { weightLabel } from "../lib/weightLabel";
@@ -24,9 +25,9 @@ export function WorkoutSetEditor({ item, disabled, onChange, onComplete, onRemov
         <strong>{index + 1}</strong>
         {weightVisible ? <input aria-label={`第 ${index + 1} 組重量`} type="number" min="0" max="1000" step="0.5" inputMode="decimal" placeholder={weightPlaceholder} disabled={disabled} value={entry.weight ?? ""} onChange={event => onChange(entry.id, { weight: number(event.target.value) })} /> : null}
         <input aria-label={`第 ${index + 1} 組${item.tracking === "time" ? "秒數" : "次數"}`} type="number" min="1" step="1" inputMode="numeric" disabled={disabled} value={value ?? ""} onChange={event => onChange(entry.id, item.tracking === "time" ? { durationSeconds: number(event.target.value) } : { reps: number(event.target.value) })} />
-        <button aria-label={`${entry.completed ? "取消完成" : "完成"}第 ${index + 1} 組`} aria-pressed={entry.completed} disabled={disabled || !entry.completed && !valid} onClick={() => onComplete(entry)}>{entry.completed ? "✓" : "完成"}</button>
+        <button className="set-editor__complete" aria-label={`${entry.completed ? "取消完成" : "完成"}第 ${index + 1} 組`} aria-pressed={entry.completed} disabled={disabled || !entry.completed && !valid} onClick={() => onComplete(entry)}>{entry.completed ? <><Check size={17} />完成</> : "完成"}</button>
         {!valid ? <small role="status">次數／秒數須為正整數，重量不可為負值。</small> : null}
-        <div className="set-editor__tools">{item.tracking === "time" && !entry.completed ? <button disabled={disabled || !valid} onClick={() => onTimer(entry)}>開始第 {index + 1} 組倒數</button> : null}<button disabled={disabled} aria-label={`刪除第 ${index + 1} 組`} onClick={() => onRemove(entry.id)}>刪除此組</button></div>
+        <div className="set-editor__tools">{item.tracking === "time" && !entry.completed ? <button className="set-editor__timer" disabled={disabled || !valid} onClick={() => onTimer(entry)}>開始第 {index + 1} 組倒數</button> : null}<button className="set-editor__delete" disabled={disabled} aria-label={`刪除第 ${index + 1} 組`} onClick={() => onRemove(entry.id)}><Trash2 size={15} />刪除此組</button></div>
       </div>;
     })}
     <p>打卡前可修正每組，點 ✓ 可取消完成。</p>

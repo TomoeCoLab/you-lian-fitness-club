@@ -149,6 +149,7 @@ export function ActivityDetailDialog({ sessions, onReact, onClose }: ActivityDet
                           <div><Dumbbell size={15} /><strong>{exercise.name}</strong></div>
                           {exercise.phase || exercise.note ? <p className="training-context-note">{exercise.phase ? { warmup: "熱身", main: "主訓練", cooldown: "收尾" }[exercise.phase] : ""}{exercise.note ? ` · ${exercise.note}` : ""}</p> : null}
                           <span>{exercise.sets} 組{exercise.entries?.some(entry => entry.durationSeconds != null) ? " · 計時練習" : ` · ${exercise.weight ? `${exercise.weight} kg` : "自重"} · ${exercise.reps} 次`}</span>
+                          {exercise.sessionNote ? <p className="session-exercise__note">本次備註：{exercise.sessionNote}</p> : null}
                           {exercise.entries?.length ? (
                             <ol>
                               {exercise.entries.map((entry, entryIndex) => (

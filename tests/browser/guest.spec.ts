@@ -98,15 +98,67 @@ test("old program favorites merge without rewriting storage and custom programs 
 
 test("equipment without entered load is not called bodyweight in the plan or editor", async ({page}) => {
   await page.setViewportSize({width:390,height:844}); await guest(page);
+  const exercise = exercises.find(item => item.name === "地雷管划船")!;
   await page.getByPlaceholder('搜尋動作、部位或器材').fill('地雷管划船');
   await page.getByRole('button',{name:'查看地雷管划船指引',exact:true}).click();
   await page.getByRole('dialog',{name:'地雷管划船',exact:true}).getByRole('button',{name:'加入今日課表',exact:true}).click();
   await page.getByRole('button',{name:'返回動作庫',exact:true}).click();
   await page.getByRole('button',{name:'今日課表 · 1',exact:true}).click();
   const plan=page.getByRole('dialog',{name:'今日課表',exact:true});
-  await expect(plan.getByText('重量未填 × 10 次',{exact:true})).toHaveCount(1);
+  await expect(plan.getByText('重量未填 × 10 次',{exact:true})).toHaveCount(exercise.recommendation.sets);
   await plan.getByRole('button',{name:'開始訓練',exact:true}).click();
   await expect(page.getByLabel('第 1 組重量')).toHaveAttribute('placeholder','重量未填');
+});
+
+for (const width of [390, 1366]) test(`past sets, rest adjustment and per-movement notes work at ${width}`, async ({ page }) => {
+  await page.setViewportSize({ width, height: width < 700 ? 844 : 900 });
+  const errors: string[] = []; page.on("pageerror", error => errors.push(error.message));
+  await guest(page);
+  await page.evaluate(() => {
+    const prior = new Date(Date.now() - 86_400_000).toISOString().slice(0, 10);
+    localStorage.setItem("rep-club:guest-checkins:v2", JSON.stringify({ version: 2, checkins: [{
+      id: "prior-squat", date: prior, mode: "detailed", workoutType: "測試紀錄", durationMinutes: 12, note: null,
+      exercises: [{ exerciseId: "bodyweight-squat", name: "徒手深蹲", phase: "main", sets: 2, weight: 0, reps: 9, entries: [
+        { id: "past-set-1", weight: null, reps: 12, durationSeconds: null, completed: true },
+        { id: "past-set-2", weight: 2.5, reps: 9, durationSeconds: null, completed: true },
+      ] }],
+      user: { id: "local-guest", username: "guest", displayName: "訪客", avatarUrl: null }, hasPhoto: false,
+      createdAt: new Date(Date.now() - 86_400_000).toISOString(), updatedAt: new Date(Date.now() - 86_400_000).toISOString(),
+    }] }));
+  });
+  await page.reload();
+  await page.getByPlaceholder("搜尋動作、部位或器材").fill("徒手深蹲");
+  await page.getByRole("button", { name: "加入徒手深蹲", exact: true }).click();
+  const prefilled = await page.evaluate(() => JSON.parse(localStorage.getItem("you-lian:active-workout:v1:guest")!).items[0]);
+  expect(prefilled.entries.map((entry: any) => [entry.weight, entry.reps, entry.completed])).toEqual([[null, 12, false], [2.5, 9, false]]);
+  if (width < 700) {
+    await page.getByRole("button", { name: "今日課表 · 1", exact: true }).click();
+    await page.getByRole("dialog", { name: "今日課表", exact: true }).getByRole("button", { name: "開始訓練", exact: true }).click();
+  } else {
+    await page.getByRole("button", { name: "前往訓練", exact: true }).click();
+  }
+  const rest = page.getByLabel("組間休息秒數");
+  await expect(rest).toHaveValue("75");
+  await rest.fill("90");
+  await page.getByLabel("本次動作備註").fill("今天膝蓋狀態穩定，維持舒適幅度");
+  await page.screenshot({ path: join(tmpdir(), `you-lian-v111-training-${width}.png`) });
+  await page.getByRole("button", { name: "完成第 1 組", exact: true }).click();
+  await expect(page.getByText("休息中", { exact: true })).toBeVisible();
+  await expect.poll(async () => page.evaluate(() => JSON.parse(localStorage.getItem("you-lian:active-workout:v1:guest")!).items[0].restSeconds)).toBe(90);
+  await page.getByRole("button", { name: "儲存並打卡", exact: true }).click();
+  await expect(page.locator(".exercise-entry-card__note")).toContainText("今天膝蓋狀態穩定");
+  await page.getByRole("button", { name: "完成打卡", exact: true }).click();
+  await expect.poll(async () => page.evaluate(() => JSON.parse(localStorage.getItem("rep-club:guest-checkins:v2")!).checkins.length)).toBe(2);
+  const storedNote = await page.evaluate(() => JSON.parse(localStorage.getItem("rep-club:guest-checkins:v2")!).checkins.at(-1).exercises[0].sessionNote);
+  expect(storedNote).toBe("今天膝蓋狀態穩定，維持舒適幅度");
+  await page.getByRole("button", { name: "動作庫", exact: false }).click();
+  await page.getByRole("button", { name: "日曆", exact: true }).click();
+  await page.getByRole("button", { name: "查看 訪客 的 1 場訓練", exact: true }).click();
+  await expect(page.locator(".session-exercise__note")).toContainText("今天膝蓋狀態穩定");
+  await page.locator(".session-exercise__note").scrollIntoViewIfNeeded();
+  await page.screenshot({ path: join(tmpdir(), `you-lian-v111-activity-note-${width}.png`) });
+  expect(errors).toEqual([]);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
 });
 
 test("v1.9.0 DeltaBolic mappings expose correct clip URLs without audit prose", async ({page}) => {

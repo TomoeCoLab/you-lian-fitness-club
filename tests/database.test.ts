@@ -27,7 +27,7 @@ function database() {
   return { sqlite, env: { DB: db, DISCORD_WEBHOOK_URL: "mock-only" } as any };
 }
 const user = { id: "a", username: "test-a", displayName: "Test", avatarUrl: null, demo: true };
-const input = { date: "2026-09-20", mode: "detailed" as const, workoutType: "測試", durationMinutes: 10, note: null, exercises: [{ name: "踏步", phase: "warmup" as const, note: "左右合計", sets: 1, weight: 0, reps: 1, entries: [{ id: "set-1", weight: null, reps: null, durationSeconds: 30, completed: true }] }] };
+const input = { date: "2026-09-20", mode: "detailed" as const, workoutType: "測試", durationMinutes: 10, note: null, exercises: [{ name: "踏步", phase: "warmup" as const, note: "左右合計", sessionNote: "今天先用小幅度", sets: 1, weight: 0, reps: 1, entries: [{ id: "set-1", weight: null, reps: null, durationSeconds: 30, completed: true }] }] };
 test("idempotency creates exactly one check-in and outbox row; key is owner-scoped", async () => {
   const { env, sqlite } = database();
   const first = await saveCheckin(env, user, input, null, { id: "request", hash: "one" });
@@ -37,6 +37,7 @@ test("idempotency creates exactly one check-in and outbox row; key is owner-scop
   await assert.rejects(() => saveCheckin(env, user, input, null, { id: "request", hash: "changed" }), SubmissionConflict);
   assert.equal(await findSubmission(env, "b", "request"), null);
   assert.equal(first.record.exercises[0].phase, "warmup");
+  assert.equal(first.record.exercises[0].sessionNote, "今天先用小幅度");
   sqlite.close();
 });
 test("historical totals include more than 120 sessions and count dates only once", async () => {
@@ -52,6 +53,7 @@ test("server rejects invalid dates, set values, phases and excessive counts", ()
   assert.equal(parseCheckinInput({ ...input, date: "2026-02-30" }), null);
   assert.equal(parseCheckinInput({ ...input, exercises: [{ ...input.exercises[0], phase: "bad" }] }), null);
   assert.equal(parseCheckinInput({ ...input, exercises: [{ ...input.exercises[0], entries: [{ ...input.exercises[0].entries[0], durationSeconds: -1 }] }] }), null);
+  assert.equal(parseCheckinInput({ ...input, exercises: [{ ...input.exercises[0], sessionNote: "備註".repeat(101) }] }), null);
   assert.equal(parseCheckinInput({ ...input, exercises: Array(21).fill(input.exercises[0]) }), null);
 });
 test("Discord outbox retries failed delivery and never resends a sent row", async () => {

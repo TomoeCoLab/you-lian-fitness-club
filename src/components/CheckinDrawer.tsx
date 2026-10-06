@@ -183,6 +183,7 @@ export function CheckinDrawer({ date, prefill, onClose, onSave, localOnly = fals
                       <label className="exercise-entry-card__name"><span>動作名稱</span><input value={exercise.name} readOnly /></label>
                       <label><span>完成組數</span><input value={exercise.sets} readOnly /></label>
                       {exercise.entries?.length ? <p className="exercise-row__entries">逐組紀錄：{exercise.entries.map((entry, entryIndex) => entry.durationSeconds ? `第 ${entryIndex + 1} 組 ${entry.durationSeconds} 秒` : `第 ${entryIndex + 1} 組 ${entry.weight ?? 0} kg × ${entry.reps ?? 0} 次`).join(" · ")}</p> : null}
+                      {exercise.sessionNote ? <p className="exercise-entry-card__note">本次備註：{exercise.sessionNote}</p> : null}
                     </fieldset>
                   ))}
                   {!prefill ? <button type="button" className="add-exercise" onClick={onDetailedRequested}><Plus size={18} />前往訓練模式新增動作</button> : null}

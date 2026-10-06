@@ -79,9 +79,10 @@ function parseExercise(value: unknown): Exercise | null {
   if (!name || sets === null || sets === undefined || weight === undefined || reps === null || reps === undefined) return null;
   const phase = item.phase === undefined ? undefined : ["warmup", "main", "cooldown"].includes(String(item.phase)) ? item.phase as Exercise["phase"] : null;
   const note = item.note === undefined ? undefined : nullableText(item.note, 200);
+  const sessionNote = item.sessionNote === undefined ? undefined : nullableText(item.sessionNote, 200);
   const exerciseId = item.exerciseId === undefined ? undefined : nullableText(item.exerciseId, 100);
-  if (phase === null || item.note !== undefined && note === undefined || item.exerciseId !== undefined && !exerciseId) return null;
-  const context = { ...(phase ? { phase } : {}), ...(note ? { note } : {}), ...(exerciseId ? { exerciseId } : {}) };
+  if (phase === null || item.note !== undefined && note === undefined || item.sessionNote !== undefined && sessionNote === undefined || item.exerciseId !== undefined && !exerciseId) return null;
+  const context = { ...(phase ? { phase } : {}), ...(note ? { note } : {}), ...(sessionNote ? { sessionNote } : {}), ...(exerciseId ? { exerciseId } : {}) };
   const rawEntries = item.entries;
   if (rawEntries === undefined) return { name, sets, weight, reps, ...context };
   if (!Array.isArray(rawEntries) || rawEntries.length > 100) return null;

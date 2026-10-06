@@ -21,6 +21,7 @@ function isItem(value: unknown): value is WorkoutItem {
     && typeof item.bodyPart === "string"
     && (item.tracking === "reps" || item.tracking === "time")
     && typeof item.restSeconds === "number"
+    && (item.sessionNote === undefined || typeof item.sessionNote === "string" && item.sessionNote.length <= 200)
     && Array.isArray(item.entries)
     && item.entries.every(isEntry);
 }

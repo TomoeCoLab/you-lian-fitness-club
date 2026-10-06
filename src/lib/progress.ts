@@ -10,6 +10,32 @@ export function exerciseHistory(exercise: GuideExercise, checkins: Checkin[]) {
     })));
 }
 
+export function latestExerciseSetEntries(
+  exerciseId: string,
+  exerciseName: string,
+  phase: "warmup" | "main" | "cooldown" = "main",
+  checkins: Checkin[],
+): Array<Pick<import("../types").ExerciseSetEntry, "weight" | "reps" | "durationSeconds">> | null {
+  const canonicalId = canonicalExerciseId(exerciseId);
+  const legacyNameMatch = canonicalId === "dumbbell-overhead-triceps-extension" && exerciseName === "啞鈴過頭三頭肌伸展";
+  const latestFirst = [...checkins].sort((a, b) => b.date.localeCompare(a.date) || b.createdAt.localeCompare(a.createdAt));
+  for (const checkin of latestFirst) {
+    const logged = checkin.exercises.find((entry) => {
+      if ((entry.phase ?? "main") !== phase) return false;
+      if (entry.exerciseId) return canonicalExerciseId(entry.exerciseId) === canonicalId;
+      return entry.name === exerciseName || legacyNameMatch && entry.name === "啞鈴三頭伸展";
+    });
+    if (!logged) continue;
+    if (logged.entries !== undefined) {
+      const completed = logged.entries.filter((entry) => entry.completed);
+      if (completed.length > 0) return completed.map(({ weight, reps, durationSeconds }) => ({ weight, reps, durationSeconds }));
+      continue;
+    }
+    return Array.from({ length: Math.min(logged.sets, 100) }, () => ({ weight: logged.weight, reps: logged.reps, durationSeconds: null }));
+  }
+  return null;
+}
+
 export function progressSuggestion(exercise: GuideExercise, checkins: Checkin[]): { title: string; detail: string; meta: string } {
   const latest = exerciseHistory(exercise, checkins).find(session => session.sets.length > 0);
   if (!latest) return { title: "先從舒服、可控制的份量開始", detail: exercise.recommendation.load, meta: "課表份量優先；單獨練習參考不是必須達成的目標。" };

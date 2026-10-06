@@ -325,6 +325,7 @@ function App() {
         name: item.exerciseName,
         phase: item.phase,
         note: item.note,
+        sessionNote: item.sessionNote?.trim() || undefined,
         exerciseId: item.exerciseId,
         sets: entries.length,
         weight: last?.weight ?? 0,

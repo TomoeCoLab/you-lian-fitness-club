@@ -23,6 +23,21 @@ test("custom template keeps each set and server accepts the same shape", () => {
   assert.deepEqual(parsed.items[0].entries?.map(e => e.durationSeconds), [60, 35]);
   assert.deepEqual(addTemplate(empty, { ...main, items: parsed.items })[0].entries.map(e => e.durationSeconds), [60, 35]);
 });
+test("last completed movement sets prefill matching phase and leave the current workout untouched", () => {
+  const history = [{ date: "2026-09-19", createdAt: "2026-09-19T18:00:00Z", exercises: [{
+    exerciseId: "march", name: "踏步", phase: "main" as const, sets: 2, weight: 0, reps: 1,
+    entries: [
+      { id: "old-1", weight: 1, reps: null, durationSeconds: 42, completed: true },
+      { id: "old-2", weight: null, reps: null, durationSeconds: 55, completed: true },
+      { id: "unfinished", weight: null, reps: null, durationSeconds: 90, completed: false },
+    ],
+  }] }] as any;
+  const withHistory = addTemplate(empty, main, history);
+  assert.deepEqual(withHistory[0].entries.map(({ durationSeconds, weight, completed }) => [durationSeconds, weight, completed]), [[42, 1, false], [55, null, false]]);
+  const alreadyPlanned = { ...empty, items: [{ ...withHistory[0], entries: [{ ...withHistory[0].entries[0], completed: true }] }] };
+  const unchanged = addTemplate(alreadyPlanned, main, history);
+  assert.deepEqual(unchanged, alreadyPlanned.items);
+});
 test("checkout preserves incomplete sets and restarts elapsed time", () => {
   const workout = { ...empty, items: addTemplate(empty, main) };
   workout.items[0].entries.push({ ...workout.items[0].entries[0], id: "b", completed: true });

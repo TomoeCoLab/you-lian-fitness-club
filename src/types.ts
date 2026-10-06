@@ -11,6 +11,7 @@ export type User = {
 export type Exercise = {
   phase?: "warmup" | "main" | "cooldown";
   note?: string;
+  sessionNote?: string;
   exerciseId?: string;
   name: string;
   sets: number;
@@ -100,6 +101,7 @@ export type WorkoutItem = {
   instanceId?: string;
   phase?: "warmup" | "main" | "cooldown";
   note?: string;
+  sessionNote?: string;
   templateName?: string;
   exerciseId: string;
   exerciseName: string;

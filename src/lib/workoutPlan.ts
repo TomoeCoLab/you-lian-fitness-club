@@ -1,17 +1,24 @@
-import type { WorkoutDraft, WorkoutItem, WorkoutTemplate, WorkoutTemplateItem } from "../types";
+import type { Checkin, WorkoutDraft, WorkoutItem, WorkoutTemplate, WorkoutTemplateItem } from "../types";
 import { canonicalExerciseId } from "./exerciseGuidance";
+import { latestExerciseSetEntries } from "./progress";
 
 export const phaseLabels = { warmup: "熱身", main: "主訓練", cooldown: "收尾" };
 export const itemKey = (item: WorkoutItem) => item.instanceId ?? item.exerciseId;
 export const templateItemPresent = (workout: WorkoutDraft, template: WorkoutTemplate, item: WorkoutTemplateItem) =>
   workout.items.some(existing => canonicalExerciseId(existing.exerciseId) === canonicalExerciseId(item.exerciseId) && (existing.phase ?? "main") === (item.phase ?? template.kind ?? "main"));
 
-export function addTemplate(workout: WorkoutDraft, template: WorkoutTemplate): WorkoutItem[] {
+export function addTemplate(workout: WorkoutDraft, template: WorkoutTemplate, history: Checkin[] = []): WorkoutItem[] {
   const result = [...workout.items];
   for (const item of template.items) {
     const phase = item.phase ?? template.kind ?? "main";
     if (result.some(existing => canonicalExerciseId(existing.exerciseId) === canonicalExerciseId(item.exerciseId) && (existing.phase ?? "main") === phase)) continue;
-    const entries = item.entries ?? Array.from({ length: item.sets }, () => ({ weight: item.weight, reps: item.tracking === "reps" ? item.reps : null, durationSeconds: item.tracking === "time" ? item.durationSeconds : null }));
+    const templateEntries = item.entries ?? Array.from({ length: item.sets }, () => ({ weight: item.weight, reps: item.tracking === "reps" ? item.reps : null, durationSeconds: item.tracking === "time" ? item.durationSeconds : null }));
+    const previousEntries = latestExerciseSetEntries(item.exerciseId, item.exerciseName, phase, history);
+    const entries = previousEntries?.map((entry, index) => ({
+      weight: entry.weight,
+      reps: item.tracking === "reps" ? entry.reps ?? templateEntries[index]?.reps ?? item.reps : null,
+      durationSeconds: item.tracking === "time" ? entry.durationSeconds ?? templateEntries[index]?.durationSeconds ?? item.durationSeconds : null,
+    })) ?? templateEntries;
     const next: WorkoutItem = { instanceId: crypto.randomUUID(), exerciseId: item.exerciseId, exerciseName: item.exerciseName,
       bodyPart: item.bodyPart, tracking: item.tracking, restSeconds: item.restSeconds, phase, note: item.note, templateName: template.name,
       entries: entries.map(entry => ({ ...entry, id: crypto.randomUUID(), completed: false })) };
