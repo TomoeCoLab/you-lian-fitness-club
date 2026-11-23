@@ -7,6 +7,7 @@ import { assertSameOrigin, json } from "./http";
 import { reservePhotoRead, reservePhotoUpload } from "./r2-quota";
 import { createTemplate, deleteTemplate, listTemplates, parseTemplateInput } from "./templates";
 import { createCustomExercise, listCustomExercises, parseCustomExercise } from "./custom-exercises";
+import { publicAiResponse } from './ai-docs';
 
 async function handleApi(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
   const url = new URL(request.url);
@@ -183,6 +184,10 @@ async function handleApi(request: Request, env: Env, ctx: ExecutionContext): Pro
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+    if (request.method === 'GET' || request.method === 'HEAD') {
+      const docs = publicAiResponse(url.pathname, url.origin);
+      if (docs) return request.method === 'HEAD' ? new Response(null, { headers: docs.headers }) : docs;
+    }
     if (!url.pathname.startsWith("/api/")) return env.ASSETS.fetch(request);
     try {
       return await handleApi(request, env, ctx);

@@ -26,7 +26,7 @@ self.addEventListener("message", (event) => {
 self.addEventListener("fetch", (event) => {
   const request = event.request;
   const url = new URL(request.url);
-  if (request.method !== "GET" || url.origin !== self.location.origin || url.pathname.startsWith("/api/") || url.pathname === "/version.json") return;
+  if (request.method !== "GET" || url.origin !== self.location.origin || url.pathname.startsWith("/api/") || ["/version.json", "/ai-workouts", "/ai-workouts.md", "/llms.txt"].includes(url.pathname)) return;
 
   if (request.mode === "navigate") {
     event.respondWith(fetch(request).then((response) => {

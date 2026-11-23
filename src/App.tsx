@@ -233,11 +233,13 @@ function App() {
 
   const createCustomExercise = async (input: Omit<CustomExercise, "id" | "createdAt">): Promise<CustomExercise> => {
     if (!session) throw new Error("Not signed in");
+    const existing = customExercises.find(item => item.name.normalize('NFKC').trim().toLowerCase() === input.name.normalize('NFKC').trim().toLowerCase() && item.bodyPart === input.bodyPart && item.tracking === input.tracking);
+    if (existing) return existing;
     const exercise = session.kind === "guest"
       ? { ...input, id: `custom-${crypto.randomUUID()}`, createdAt: new Date().toISOString() }
       : (await api.createCustomExercise(input)).exercise;
     if (session.kind === "guest") saveCustomExercise(exercise);
-    setCustomExercises((current) => [exercise, ...current]);
+    setCustomExercises((current) => [exercise, ...current.filter(item => item.id !== exercise.id)]);
     return exercise;
   };
 

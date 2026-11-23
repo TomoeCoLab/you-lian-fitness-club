@@ -5,7 +5,7 @@ const ids = JSON.parse(await readFile(new URL('content/catalog.json',root),'utf8
 if (new Set(ids).size !== ids.length || !ids.every(id=>/^[a-z0-9-]+$/.test(id))) throw new Error('Invalid or duplicate catalog IDs');
 const files = (await readdir(new URL('content/exercises/',root))).filter(f=>f.endsWith('.json'));
 if (files.length !== ids.length || files.some(f=>!ids.includes(f.slice(0,-5)))) throw new Error('Orphan / missing exercise records');
-const runtime = [], reviews = {}, documents = [], index = [];
+const runtime = [], reviews = {}, documents = [], index = [], agentDefinitions = {};
 const totals = { text: {}, image: {}, video: {} };
 const labels = { pending:'待核對', 'source-checked':'文字來源已核對', 'visual-checked':'已視覺檢查（非專業認證）', 'needs-revision':'需修訂', blocked:'已停用', 'spot-checked':'僅片段抽查', stale:'內容變更，需重驗' };
 for (const id of ids) {
@@ -16,6 +16,7 @@ for (const id of ids) {
   const hash = contentHash(r), status = effectiveReviews(r,imageHash);
   for (const part of ['text','image','video']) totals[part][status[part]] = (totals[part][status[part]] ?? 0) + 1;
   runtime.push(r.exercise);
+  agentDefinitions[id] = { variation: r.definition.variation, counting: r.definition.counting, breathing: r.definition.breathing, doseBasis: r.definition.doseBasis, stopSignals: r.definition.stopSignals };
   // The client needs only fail-closed media gates. Audit prose stays in JSON / Markdown.
   const checkedClip = r.review.video.check;
   reviews[id] = { image:{status:status.image}, video:{status:status.video, reviewedEmbedUrl:r.review.video.reviewedEmbedUrl, check:checkedClip ? {videoId:checkedClip.videoId, start:checkedClip.start, end:checkedClip.end} : null} };
@@ -25,6 +26,7 @@ for (const id of ids) {
   documents[documents.length-1] += `\n### 影片核對紀錄\n\n- 嵌入網址：${r.exercise.video.embedUrl}\n- 已核對嵌入網址：${r.review.video.reviewedEmbedUrl ?? '尚未'}\n- 實際檢查秒點：${clip?.seconds?.join('、') || '尚未'}\n- 播放區間：${clip ? `${clip.start ?? 0} 秒起，${clip.end ? `${clip.end} 秒止` : '原片結尾'}` : '尚未核准'}\n- 可見內容：${clip?.observation ?? '尚未取得足夠證據'}\n- 新舊影片配對與停用原因保留在 JSON 的 review.video.history；產圖實際提示詞、角色摘要及舊圖保留在 illustration。\n`;
 }
 const outputs = [
+  ['src/data/agentDefinitions.generated.ts', `// Generated from content/exercises/*.json. Do not edit.\nexport const agentDefinitions: Record<string, { variation: string; counting: string; breathing: string; doseBasis: string; stopSignals: string[] }> = ${JSON.stringify(agentDefinitions,null,2)};\n`],
   ['src/data/exerciseCatalog.generated.ts', `// Generated from content/exercises/*.json. Do not edit.\nimport type { GuideExercise } from '../types';\nexport const exerciseCatalog: GuideExercise[] = ${JSON.stringify(runtime,null,2)};\n`],
   ['src/data/contentReviews.generated.ts', `// Generated from content/exercises/*.json. Do not edit.\nimport type { ContentAudit } from '../lib/contentAudit';\nexport const contentReviews: Record<string, ContentAudit> = ${JSON.stringify(reviews,null,2)};\n`],
   ['docs/exercise-content.md', `# 動作內容總冊\n\n此檔由 content/exercises/*.json 生成，不在此直接修改。共 ${ids.length} 項（含歷史相容項目）。各項狀態分開判斷；沒有任何項目因影片能播放便獲得醫療或專業認證。\n\n## 目前核對進度（自動計算）\n\n${Object.entries(totals).map(([part, counts])=>`- ${part}：${Object.entries(counts).map(([status,n])=>`${labels[status]} ${n} 項`).join('；')}。`).join('\n')}\n\n## 逐項索引\n\n| 動作 | 文字 | 圖片 | 影片 |\n|---|---|---|---|\n${index.join('\n')}\n\n${documents.join('\n')}\n`],

@@ -4,6 +4,7 @@ import { DatabaseSync } from "node:sqlite";
 import { readFileSync, readdirSync } from "node:fs";
 import { saveCheckin, getProgressOverview, findSubmission, parseCheckinInput, SubmissionConflict } from "../worker/checkins.ts";
 import { deliverNotification, retryNotifications } from "../worker/notifications.ts";
+import { createCustomExercise, listCustomExercises } from '../worker/custom-exercises.ts';
 
 function database() {
   const sqlite = new DatabaseSync(":memory:");
@@ -27,6 +28,19 @@ function database() {
   return { sqlite, env: { DB: db, DISCORD_WEBHOOK_URL: "mock-only" } as any };
 }
 const user = { id: "a", username: "test-a", displayName: "Test", avatarUrl: null, demo: true };
+test('shared custom pool preserves legacy IDs and reuses new movements across users', async () => {
+  const {env,sqlite} = database();
+  sqlite.exec("INSERT INTO custom_exercises(id,user_id,name,body_part,tracking) VALUES ('legacy-id','a','舊動作','腿','reps')");
+  assert.equal((await listCustomExercises(env,'b'))[0].id, 'legacy-id');
+  const legacy = await createCustomExercise(env,'b',{name:'舊動作',bodyPart:'腿',tracking:'reps',restSeconds:30});
+  assert.equal(legacy.id,'legacy-id');
+  const input = {name:'新動作',bodyPart:'核心' as const,tracking:'time' as const,restSeconds:30};
+  const a = await createCustomExercise(env,'a',input);
+  const b = await createCustomExercise(env,'b',{...input,restSeconds:90});
+  assert.equal(a.id,b.id);
+  assert.equal((await listCustomExercises(env,'a')).length,2);
+  sqlite.close();
+});
 const input = { date: "2026-09-20", mode: "detailed" as const, workoutType: "測試", durationMinutes: 10, note: null, exercises: [{ name: "踏步", phase: "warmup" as const, note: "左右合計", sessionNote: "今天先用小幅度", sets: 1, weight: 0, reps: 1, entries: [{ id: "set-1", weight: null, reps: null, durationSeconds: 30, completed: true }] }] };
 test("idempotency creates exactly one check-in and outbox row; key is owner-scoped", async () => {
   const { env, sqlite } = database();

@@ -133,3 +133,17 @@
   .guide-workflow-actions strong { font-size: 15px; }
   .template-save-panel { flex-direction: column; }
 }
+.ai-workout-content { display: flex; flex-direction: column; gap: 24px; }
+.ai-workout-content section { min-width: 0; }
+.ai-workout-content p, .ai-workout-content li { line-height: 1.65; }
+.ai-workout-content textarea { display: block; width: 100%; box-sizing: border-box; padding: 12px; border: 1px solid #aaa; background: #fafafa; color: #111; font: inherit; resize: vertical; margin: 12px 0; }
+.ai-workout-content button { min-height: 44px; padding: 10px 16px; border: 1px solid #222; }
+.ai-workout-content button:disabled { opacity: .45; cursor: not-allowed; }
+.ai-workout-content details { margin-top: 16px; }
+.ai-workout-content summary { cursor: pointer; text-decoration: underline; padding: 10px 0; }
+.ai-examples { background: #f4f4f0; padding: 16px; margin: 16px 0; }
+.ai-examples ul { padding-left: 20px; margin-bottom: 0; }
+.ai-preview { padding-left: 24px; }
+.ai-preview > li { padding: 12px 0; border-bottom: 1px solid #ddd; }
+.ai-preview p { margin: 4px 0; }
+.library-quick-actions { flex-wrap: wrap; }

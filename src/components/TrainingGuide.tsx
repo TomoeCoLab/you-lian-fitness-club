@@ -32,6 +32,7 @@ import { WorkoutPlanSheet } from "./WorkoutPlanSheet";
 import { EquipmentGuidance } from "./EquipmentGuidance";
 import { exerciseAliases, videoNeedsReview, videoFrameClass } from "../lib/exerciseGuidance";
 import { loadMovementPreferences, saveMovementPreferences } from "../lib/movementPreferences";
+import { AiWorkoutSheet } from './AiWorkoutSheet';
 
 type TrainingGuideProps = {
   storageScope: string;
@@ -149,6 +150,7 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
   const [query, setQuery] = useState(initialGuideState.query);
   const [timer, setTimer] = useState<TimerState>(initialGuideState.timer);
   const [basketOpen, setBasketOpen] = useState(false);
+  const [aiOpen, setAiOpen] = useState(false);
   const [videoActive, setVideoActive] = useState(false);
   const [libraryOpen, setLibraryOpen] = useState(false);
   const [trainingMode, setTrainingMode] = useState(false);
@@ -366,7 +368,8 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
 
   const guideExercise = exercises.find(exercise => exercise.id === guideId);
   const overlays = <>
-    {basketOpen ? <WorkoutPlanSheet workout={workout} stale={staleWorkout} onSave={saveCurrentTemplate} onClose={() => setBasketOpen(false)} onStart={openTraining} onGuide={setGuideId} onChange={next => { setUndoItems(null); onWorkoutChange(next); }} onBrowse={() => { setBasketOpen(false); setTrainingMode(false); }} onCheckout={() => { setBasketOpen(false); onCheckout(); }} /> : null}
+    {basketOpen ? <WorkoutPlanSheet onAi={() => setAiOpen(true)} workout={workout} stale={staleWorkout} onSave={saveCurrentTemplate} onClose={() => setBasketOpen(false)} onStart={openTraining} onGuide={setGuideId} onChange={next => { setUndoItems(null); onWorkoutChange(next); }} onBrowse={() => { setBasketOpen(false); setTrainingMode(false); }} onCheckout={() => { setBasketOpen(false); onCheckout(); }} /> : null}
+    {aiOpen ? <AiWorkoutSheet scope={storageScope} workout={workout} customs={customExercises} onCreate={onCreateCustomExercise} onClose={() => setAiOpen(false)} onImport={items => { if (staleWorkout) throw new Error('請先處理前次未完成的訓練'); updateItems([...workout.items, ...items]); setBasketOpen(true); setNotice('AI 課表已加入'); }} /> : null}
     {guideExercise ? <ExerciseGuideSheet key={guideExercise.id} exercise={guideExercise} onClose={() => setGuideId(null)} added={workout.items.some(item => item.exerciseId === guideExercise.id)} onAdd={trainingMode || basketOpen ? undefined : () => addExercise(guideExercise)} /> : null}
   </>;
 
@@ -422,7 +425,7 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
 
       <section className="exercise-browser">
         <div className="exercise-browser__heading"><div><span className="eyebrow">YOU LIAN / MOVE LIBRARY</span><h1>今天想練哪裡？</h1></div><button onClick={() => setLibraryOpen(true)}><LibraryBig size={18} />課表與進度{dataLoading ? <i /> : null}</button></div>
-        <div className="library-quick-actions"><button className="custom-exercise-button" onClick={() => setCustomOpen(true)}><Plus size={18} />自訂動作</button><button onClick={() => setBasketOpen(true)}>今日課表 · {workout.items.length}</button></div>
+        <div className="library-quick-actions"><button className="custom-exercise-button" onClick={() => setCustomOpen(true)}><Plus size={18} />自訂動作</button><button onClick={() => setBasketOpen(true)}>今日課表 · {workout.items.length}</button><button disabled={staleWorkout || dataLoading} onClick={() => setAiOpen(true)}>請 AI 設計課表</button></div>
         <label className="exercise-search"><Search size={19} /><input aria-label="搜尋動作、部位或器材" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜尋動作、部位或器材" /></label>
         <div className="movement-collections" aria-label="動作集合">{([['all', '全部動作'], ['favorites', '收藏動作'], ['recent', '最近查看']] as const).map(([id, label]) => <button key={id} aria-pressed={movementCollection === id} onClick={() => setMovementCollection(id)}>{label}</button>)}</div>
         <div className="mobile-filter-row" aria-label="行動版動作篩選">
@@ -450,7 +453,7 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
             );
           }) : <p className="exercise-list__empty">沒有符合的動作，換個部位或器材看看。</p>}
         </div>
-        {customExercises.length > 0 ? <div className="custom-exercise-list"><span>我的自訂動作</span>{customExercises.map((item) => <button key={item.id} disabled={staleWorkout} onClick={() => {
+        {customExercises.length > 0 ? <div className="custom-exercise-list"><span>自訂動作</span>{customExercises.filter(item => !exercises.some(e => e.id === item.id) && (!query.trim() || `${item.name} ${item.bodyPart}`.includes(query.trim())) && (bodyPart === '全部' || bodyPart === item.bodyPart)).map((item) => <button key={item.id} disabled={staleWorkout} onClick={() => {
           if (!workout.items.some((workoutItem) => workoutItem.exerciseId === item.id)) updateItems([...workout.items, { exerciseId: item.id, exerciseName: item.name, bodyPart: item.bodyPart, tracking: item.tracking, restSeconds: item.restSeconds, custom: true, entries: makeMovementEntries({ id: item.id, name: item.name, tracking: item.tracking, sets: 1, reps: item.tracking === "reps" ? 10 : null, durationSeconds: item.tracking === "time" ? 30 : null }, history) }]);
           setBasketOpen(true);
         }}><strong>{item.name}</strong><small>{item.bodyPart} · {item.tracking === "time" ? "計時" : "次數"}</small><Plus size={16} /></button>)}</div> : null}
@@ -556,7 +559,8 @@ export function TrainingGuide({ storageScope, workout, templates, history, overv
         <form className="custom-exercise-dialog" onSubmit={(event) => { event.preventDefault(); void createCustomExercise(); }}>
           <label><span>動作名稱</span><input autoFocus required disabled={customBusy} value={customName} maxLength={50} onChange={(event) => setCustomName(event.target.value)} placeholder="例如：農夫走路" /></label>
           <div><label><span>主要部位</span><select disabled={customBusy} value={customBodyPart} onChange={(event) => setCustomBodyPart(event.target.value as BodyPart)}>{bodyParts.filter((item): item is BodyPart => item !== "全部").map((item) => <option key={item}>{item}</option>)}</select></label><label><span>紀錄方式</span><select disabled={customBusy} value={customTracking} onChange={(event) => setCustomTracking(event.target.value as "reps" | "time")}><option value="reps">次數</option><option value="time">時間</option></select></label></div>
-          <p>自訂動作會保存在你的動作庫，並使用和其他動作相同的逐組紀錄。</p>
+          <p>{storageScope === 'guest' ? '訪客自訂動作保存在這個瀏覽器。' : '自訂動作由伺服器成員共用，可直接選用已有項目。'}</p>
+          {customName.trim() ? <ul>{customExercises.filter(item => item.name.includes(customName.trim())).slice(0, 5).map(item => <li key={item.id}>{item.name} · {item.bodyPart} · {item.tracking === 'time' ? '計時' : '次數'}（已有項目）</li>)}</ul> : null}
           {customError ? <p role="alert">{customError}</p> : null}
           <button className="primary-button" disabled={!customName.trim() || customBusy || staleWorkout}>{customBusy ? "儲存中…" : "加入今日訓練"}</button>
         </form>

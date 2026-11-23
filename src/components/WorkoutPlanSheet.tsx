@@ -8,7 +8,8 @@ import { itemKey, phaseLabels } from "../lib/workoutPlan";
 import { SaveWorkoutTemplate } from "./SaveWorkoutTemplate";
 import { weightLabel } from "../lib/weightLabel";
 
-export function WorkoutPlanSheet({ workout, stale, onClose, onStart, onGuide, onChange, onBrowse, onCheckout, onSave }: {
+export function WorkoutPlanSheet({ workout, stale, onClose, onStart, onGuide, onChange, onBrowse, onCheckout, onSave, onAi }: {
+  onAi: () => void;
   onSave: (name: string) => Promise<void>;
   workout: WorkoutDraft; stale: boolean; onClose: () => void; onStart: (id: string) => void;
   onGuide: (id: string) => void; onChange: (workout: WorkoutDraft) => void; onBrowse: () => void; onCheckout: () => void;
@@ -28,6 +29,7 @@ export function WorkoutPlanSheet({ workout, stale, onClose, onStart, onGuide, on
     <p className="sheet-meta">手機長按把手拖曳排序，電腦直接拖曳。<br />{workout.workoutDate} · {workout.items.length} 個動作 · {completed} / {total} 組完成</p>
     {stale ? <p className="sheet-warning">這是前次未完成的訓練，請先處理跨日訓練，再繼續記錄。</p> : null}
     <div className="training-sheet__body">
+      <button className="plan-add" disabled={stale} onClick={onAi}>請 AI 設計課表</button>
       {removed ? <button className="plan-add" onClick={() => { onChange(removed); setRemoved(null); }}>復原剛才移除的動作</button> : null}
       {workout.items.length === 0 ? <p className="sheet-empty">還沒有動作，從動作庫或課表加入即可開始。</p> : workout.items.map((item, index) => <section className={`plan-exercise${drag?.from === index ? " is-dragging" : ""}${drag?.to === index ? " is-drop-target" : ""}`} key={itemKey(item)}>
         <header><button className="plan-drag-handle" disabled={stale} aria-label={`拖曳排序${item.exerciseName}`} {...handleProps(index)}><GripVertical size={20} /></button><h3>{index + 1}. {item.exerciseName}</h3>{exercises.some(exercise => exercise.id === item.exerciseId) ? <button onClick={() => onGuide(item.exerciseId)} aria-label={`查看${item.exerciseName}指引`}><BookOpen size={17} />指引</button> : <small>自訂動作</small>}</header>
